@@ -48,6 +48,27 @@ The `sigill_`-prefixed names from the sigil pack also work as-is
 (`sigill_blackthorn.png`, `sigill_whitehart.png`, …) — the site tries the
 plain name first and falls back to the `sigill_` name automatically.
 
+## Character portraits
+
+Drop portraits into `assets/portraits/`. The Faces page tries
+`<slug>.png` first, then the raw portrait-pack filename, then hides the
+slot. Mapping (from the canon image index):
+
+| Card | Preferred name | Pack fallback |
+| --- | --- | --- |
+| Sela | `sela.png` | `generatedimage_5.png` |
+| Brother Tomas | `tomas.png` | `generatedimage_9.png` |
+| Mother Alaine | `alaine.png` | `generatedimage_10.png` |
+| Wren Blackthorn | `wren.png` | `generatedimage.png` |
+| Garron, the Binder | `garron.png` | `generatedimage_4.png` |
+| Sabra Ravenshade | `sabra.png` | `generatedimage_1.png` |
+| Maren Tidebreaker | `maren.png` | `generatedimage_8.png` |
+| Kael / Vaela / Rurik / Ser Alba / Signe | `kael.png` etc. | — (no portrait in the pack yet) |
+
+Pack portraits without a Faces card (Roderick `_2`, Halvard `_3`,
+Aldous `_6`, Torvald `_7`) are not shown yet. Duplicates `_11` and `_13`
+per the image index should not be uploaded.
+
 ## The chart plate
 
 If a hand-drawn map image is added as `assets/fanlanden_map.png`, the front

@@ -272,6 +272,16 @@ figure.chart-plate figcaption {
   transition: border-color 0.25s ease, transform 0.25s ease;
 }
 .face-card:hover { border-color: var(--ember); transform: translateY(-2px); }
+.face-portrait {
+  display: block;
+  width: calc(100% + 40px);
+  margin: -22px -20px 16px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top;
+  border-bottom: 1px solid var(--line);
+}
+.face-portrait[hidden] { display: none; }
 .face-card h3 { font-weight: 400; font-size: 1.15rem; letter-spacing: 0.06em; }
 .face-card .face-house {
   color: var(--ember);
