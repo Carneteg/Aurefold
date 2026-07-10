@@ -274,6 +274,33 @@ figure.chart-plate figcaption {
 }
 .face-card p { font-style: italic; font-size: 0.95rem; color: var(--ink); }
 
+/* ------------------------------------------------------------------ history (development record) */
+
+.doc-status {
+  border: 1px solid var(--accent);
+  background: var(--bg-panel);
+  padding: 14px 18px;
+  font-style: italic;
+  color: var(--accent);
+  font-size: 0.92rem;
+  margin-bottom: 44px;
+  max-width: 68ch;
+}
+
+.prose ol, .prose ul { margin: 0 0 1.1em 1.5em; max-width: 68ch; }
+.prose li { margin-bottom: 0.6em; }
+
+h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; margin: 30px 0 10px; }
+
+.table-wrap { overflow-x: auto; margin: 16px 0; }
+.doc-table { border-collapse: collapse; width: 100%; min-width: 620px; font-size: 0.93rem; }
+.doc-table th, .doc-table td { border: 1px solid var(--line); padding: 10px 14px; vertical-align: top; text-align: left; }
+.doc-table thead th { background: var(--bg-deep); font-variant: small-caps; letter-spacing: 0.08em; font-weight: 400; }
+.doc-table tbody th { background: var(--bg-panel); font-weight: 400; letter-spacing: 0.04em; white-space: nowrap; }
+
+.scene { margin-bottom: 44px; }
+.scene p { margin-bottom: 1em; max-width: 68ch; }
+
 .record-list { list-style: none; columns: 2; column-gap: 40px; margin-top: 8px; }
 .record-list li { margin-bottom: 14px; break-inside: avoid; letter-spacing: 0.04em; }
 .record-list .record-role { display: block; color: var(--accent); font-size: 0.88rem; font-style: italic; letter-spacing: 0; }

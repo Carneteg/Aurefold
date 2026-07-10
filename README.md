@@ -15,6 +15,7 @@ the folder with any static file server (works as-is on GitHub Pages).
 | `map.html` | Interactive chart of the Banner-lands with every house seat (pan, zoom, click a seal) |
 | `world.html` | The world of the Banner-lands, in the archive's voice |
 | `characters.html` | The Faces — the people of Book One |
+| `history.html` | Development record: *Rawness & Mortality* (gate material — not canon; contains spoilers and eleven-references, so it sits outside the public pages' canon guardrails) |
 
 ## Structure
 
