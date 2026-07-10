@@ -28,6 +28,22 @@ the folder with any static file server (works as-is on GitHub Pages).
 - `assets/style.css` — the whole visual identity (parchment `#efe7d3`,
   ink `#3a332a`, accent `#8a7f6d`, ember `#8a4a2a`).
 
+## House sigils
+
+Drop each house's crest into `assets/sigils/` named by house id:
+
+```
+assets/sigils/blackthorn.png    assets/sigils/ravenshade.png
+assets/sigils/ashbourne.png     assets/sigils/whitehart.png
+assets/sigils/stormrider.png    assets/sigils/ironvale.png
+assets/sigils/blackcrest.png    assets/sigils/stonebear.png
+assets/sigils/tidebreaker.png   assets/sigils/phoenix.png
+```
+
+They appear automatically on the house cards (`houses.html`) and in the
+map's record card. Missing files are hidden — no placeholder is shown.
+Square images with transparent background work best.
+
 ## The chart plate
 
 If a hand-drawn map image is added as `assets/fanlanden_map.png`, the front

@@ -13,6 +13,7 @@
   const listEl = document.getElementById("seat-list");
   const detail = {
     root: document.getElementById("detail"),
+    sigil: document.getElementById("detail-sigil"),
     name: document.getElementById("detail-name"),
     sub: document.getElementById("detail-sub"),
     philosophy: document.getElementById("detail-philosophy"),
@@ -187,6 +188,9 @@
     selected = id;
     location.hash = `house/${id}`;
 
+    detail.sigil.hidden = true;
+    detail.sigil.onload = () => { detail.sigil.hidden = false; };
+    detail.sigil.src = `assets/sigils/${house.id}.png`;
     detail.name.textContent = house.name;
     detail.sub.textContent = `${house.seat} · ${house.region}`;
     detail.philosophy.textContent = house.philosophy;

@@ -196,9 +196,10 @@ figure.chart-plate figcaption {
 
 .house-toggle {
   display: grid;
-  grid-template-columns: 1fr auto;
-  grid-template-areas: "name philosophy" "seat caret";
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas: "sigil name philosophy" "sigil seat caret";
   gap: 2px 16px;
+  align-items: center;
   width: 100%;
   text-align: left;
   padding: 18px 22px;
@@ -208,6 +209,14 @@ figure.chart-plate figcaption {
   color: inherit;
   cursor: pointer;
 }
+.house-sigil {
+  grid-area: sigil;
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  align-self: center;
+}
+.house-sigil[hidden] { display: none; }
 .house-toggle .house-name { grid-area: name; font-size: 1.2rem; letter-spacing: 0.08em; }
 .house-toggle .house-philosophy {
   grid-area: philosophy;
@@ -407,6 +416,8 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
   z-index: 10;
 }
 .detail h2 { font-weight: 400; font-size: 1.3rem; letter-spacing: 0.06em; margin-bottom: 2px; }
+.detail-sigil { float: right; width: 62px; height: 62px; object-fit: contain; margin: 0 0 8px 12px; }
+.detail-sigil[hidden] { display: none; }
 .detail .detail-sub { color: var(--accent); font-style: italic; font-size: 0.9rem; margin-bottom: 12px; }
 .detail .detail-philosophy {
   font-variant: small-caps;
