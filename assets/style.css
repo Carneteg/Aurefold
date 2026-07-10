@@ -1,0 +1,472 @@
+/* EMBERWOLD — promotional site. Aged parchment and ash. */
+
+:root {
+  --bg: #efe7d3;
+  --bg-panel: #f4eede;
+  --bg-deep: #e6dcc3;
+  --ink: #3a332a;
+  --accent: #8a7f6d;
+  --ember: #8a4a2a;
+  --line: #d8cdb2;
+  --nav-h: 58px;
+  --serif: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--nav-h) + 16px); }
+
+body {
+  font-family: var(--serif);
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.65;
+  font-size: 17px;
+}
+
+a { color: var(--ember); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ------------------------------------------------------------------ nav */
+
+.site-nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: var(--nav-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 28px;
+  background: rgba(239, 231, 211, 0.94);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(3px);
+  z-index: 50;
+}
+
+.site-nav .brand {
+  font-size: 1.05rem;
+  letter-spacing: 0.32em;
+  color: var(--ink);
+  font-weight: 400;
+}
+.site-nav .brand:hover { text-decoration: none; color: var(--ember); }
+
+.site-nav ul {
+  display: flex;
+  gap: 26px;
+  list-style: none;
+}
+.site-nav ul a {
+  color: var(--accent);
+  font-size: 0.92rem;
+  letter-spacing: 0.08em;
+  transition: color 0.2s ease;
+}
+.site-nav ul a:hover { color: var(--ember); text-decoration: none; }
+.site-nav ul a.active { color: var(--ink); border-bottom: 1px solid var(--ember); padding-bottom: 3px; }
+
+/* ------------------------------------------------------------------ layout */
+
+main.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: calc(var(--nav-h) + 56px) 24px 80px;
+}
+
+.page-title {
+  font-size: 2.1rem;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  margin-bottom: 6px;
+}
+
+.page-intro {
+  color: var(--accent);
+  font-style: italic;
+  margin-bottom: 44px;
+}
+
+h2.section-title {
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  font-size: 1.35rem;
+  margin: 56px 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+.prose p { margin-bottom: 1.1em; max-width: 68ch; }
+
+.small-caps { font-variant: small-caps; letter-spacing: 0.06em; }
+
+/* ------------------------------------------------------------------ hero */
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--nav-h) 24px 0;
+  background: radial-gradient(ellipse at 50% 40%, var(--bg-panel) 0%, var(--bg) 65%);
+}
+
+.hero h1 {
+  font-size: clamp(2.8rem, 10vw, 6.5rem);
+  font-weight: 400;
+  letter-spacing: 0.28em;
+  margin-left: 0.28em; /* optically recenter letter-spaced text */
+}
+
+.hero .tagline {
+  font-style: italic;
+  color: var(--accent);
+  font-size: clamp(1rem, 2.4vw, 1.3rem);
+  margin-top: 18px;
+}
+
+.hero .hero-rule {
+  width: 120px;
+  border: none;
+  border-top: 1px solid var(--accent);
+  margin: 34px auto 0;
+}
+
+.hero .scroll-hint {
+  margin-top: 60px;
+  color: var(--accent);
+  font-size: 1.4rem;
+  opacity: 0.7;
+}
+
+/* ------------------------------------------------------------------ index sections */
+
+.announcement {
+  border: 1px solid var(--accent);
+  background: var(--bg-panel);
+  padding: 36px 32px;
+  text-align: center;
+  margin: 56px 0;
+}
+.announcement .book-series { letter-spacing: 0.3em; font-size: 0.95rem; color: var(--accent); }
+.announcement .book-title {
+  font-size: 1.9rem;
+  letter-spacing: 0.16em;
+  font-weight: 400;
+  margin: 12px 0 16px;
+}
+.announcement .book-blurb { font-style: italic; max-width: 46ch; margin: 0 auto; }
+.announcement .book-coming { margin-top: 18px; letter-spacing: 0.4em; font-size: 0.85rem; color: var(--ember); }
+
+.teasers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 18px;
+  margin-top: 24px;
+}
+.teaser {
+  display: block;
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  padding: 22px 20px;
+  color: var(--ink);
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+.teaser:hover { text-decoration: none; border-color: var(--ember); transform: translateY(-2px); }
+.teaser h3 { font-weight: 400; letter-spacing: 0.12em; margin-bottom: 8px; font-size: 1.05rem; }
+.teaser p { color: var(--accent); font-size: 0.92rem; font-style: italic; }
+
+figure.chart-plate { margin: 56px 0 0; }
+figure.chart-plate img { width: 100%; display: block; border: 1px solid var(--line); }
+figure.chart-plate figcaption {
+  text-align: center;
+  color: var(--accent);
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+/* ------------------------------------------------------------------ house cards */
+
+.house-grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+
+.house-card { border: 1px solid var(--line); background: var(--bg-panel); }
+.house-card.open { border-color: var(--accent); }
+
+.house-toggle {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "name philosophy" "seat caret";
+  gap: 2px 16px;
+  width: 100%;
+  text-align: left;
+  padding: 18px 22px;
+  background: none;
+  border: none;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.house-toggle .house-name { grid-area: name; font-size: 1.2rem; letter-spacing: 0.08em; }
+.house-toggle .house-philosophy {
+  grid-area: philosophy;
+  justify-self: end;
+  align-self: center;
+  font-variant: small-caps;
+  letter-spacing: 0.12em;
+  color: var(--ember);
+}
+.house-toggle .house-seat { grid-area: seat; color: var(--accent); font-size: 0.92rem; font-style: italic; }
+.house-toggle .house-caret {
+  grid-area: caret;
+  justify-self: end;
+  color: var(--accent);
+  transition: transform 0.3s ease;
+  font-size: 0.8rem;
+}
+.house-card.open .house-caret { transform: rotate(45deg); }
+.house-toggle:hover .house-name { color: var(--ember); }
+
+.card-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s ease;
+}
+.house-card.open .card-body { grid-template-rows: 1fr; }
+.card-body-inner { overflow: hidden; min-height: 0; padding: 0 22px; }
+.house-card.open .card-body-inner { padding-bottom: 20px; }
+
+.house-people { margin: 6px 0 14px; }
+.house-people div { font-size: 0.95rem; }
+.house-people dt { display: inline; color: var(--accent); font-variant: small-caps; letter-spacing: 0.06em; }
+.house-people dt::after { content: " — "; }
+.house-people dd { display: inline; margin: 0; }
+
+.house-line { font-style: italic; max-width: 60ch; }
+.house-line::before { content: "“"; }
+.house-line::after { content: "”"; }
+
+.map-link { display: inline-block; margin-top: 14px; font-size: 0.92rem; letter-spacing: 0.05em; }
+
+/* ------------------------------------------------------------------ face cards */
+
+.face-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+.face-card {
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  padding: 22px 20px;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+.face-card:hover { border-color: var(--ember); transform: translateY(-2px); }
+.face-card h3 { font-weight: 400; font-size: 1.15rem; letter-spacing: 0.06em; }
+.face-card .face-house {
+  color: var(--ember);
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  font-size: 0.88rem;
+  margin: 2px 0 10px;
+  min-height: 1.3em;
+}
+.face-card p { font-style: italic; font-size: 0.95rem; color: var(--ink); }
+
+/* ------------------------------------------------------------------ world */
+
+.world-note {
+  border-left: 2px solid var(--accent);
+  padding: 6px 0 6px 20px;
+  color: var(--accent);
+  font-style: italic;
+  margin: 40px 0 0;
+  max-width: 60ch;
+}
+
+/* ------------------------------------------------------------------ map page */
+
+.map-app {
+  display: flex;
+  height: calc(100vh - var(--nav-h));
+  margin-top: var(--nav-h);
+}
+
+.map-sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  border-right: 1px solid var(--line);
+  background: var(--bg-panel);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.map-sidebar header { padding: 20px 20px 12px; }
+.map-sidebar h1 { font-size: 1.15rem; font-weight: 400; letter-spacing: 0.14em; }
+.map-sidebar .plate-caption { color: var(--accent); font-style: italic; font-size: 0.85rem; margin-top: 4px; }
+
+.seat-list { list-style: none; overflow-y: auto; flex: 1; padding: 6px 0 16px; }
+.seat-list li {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-left: 2px solid transparent;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.seat-list li:hover { background: var(--bg-deep); }
+.seat-list li.selected { border-left-color: var(--ember); background: var(--bg-deep); }
+.seat-list .seat-house { display: block; letter-spacing: 0.05em; }
+.seat-list .seat-name { display: block; color: var(--accent); font-size: 0.85rem; font-style: italic; }
+
+.map-sidebar footer {
+  padding: 12px 20px;
+  border-top: 1px solid var(--line);
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.map-main { position: relative; flex: 1; overflow: hidden; }
+
+#map { width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
+#map:active { cursor: grabbing; }
+
+.zoom-controls {
+  position: absolute;
+  top: 16px; right: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.zoom-controls button {
+  width: 36px; height: 36px;
+  font-size: 1.1rem;
+  font-family: inherit;
+  color: var(--ink);
+  background: var(--bg-panel);
+  border: 1px solid var(--accent);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.zoom-controls button:hover { background: var(--bg-deep); }
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--ink);
+  color: var(--bg);
+  padding: 5px 10px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.detail {
+  position: absolute;
+  right: 16px; bottom: 16px;
+  width: min(360px, calc(100% - 32px));
+  background: var(--bg-panel);
+  border: 1px solid var(--accent);
+  padding: 22px 24px;
+  box-shadow: 0 4px 18px rgba(58, 51, 42, 0.15);
+  z-index: 10;
+}
+.detail h2 { font-weight: 400; font-size: 1.3rem; letter-spacing: 0.06em; margin-bottom: 2px; }
+.detail .detail-sub { color: var(--accent); font-style: italic; font-size: 0.9rem; margin-bottom: 12px; }
+.detail .detail-philosophy {
+  font-variant: small-caps;
+  letter-spacing: 0.12em;
+  color: var(--ember);
+  margin-bottom: 10px;
+}
+.detail .detail-people { font-size: 0.92rem; margin-bottom: 12px; }
+.detail .detail-people dt { display: inline; color: var(--accent); font-variant: small-caps; }
+.detail .detail-people dt::after { content: " — "; }
+.detail .detail-people dd { display: inline; margin: 0; }
+.detail .detail-line { font-style: italic; font-size: 0.95rem; }
+.detail .detail-line::before { content: "“"; }
+.detail .detail-line::after { content: "”"; }
+.detail .detail-link { display: inline-block; margin-top: 12px; font-size: 0.9rem; }
+.detail-close {
+  position: absolute;
+  top: 8px; right: 12px;
+  background: none; border: none;
+  font-size: 1.3rem;
+  color: var(--accent);
+  cursor: pointer;
+  font-family: inherit;
+}
+.detail-close:hover { color: var(--ember); }
+
+/* SVG map styling */
+.sea { fill: var(--bg-deep); }
+.land { fill: #f2ecdb; stroke: var(--ink); stroke-width: 2.5; }
+.land-shadow { fill: none; stroke: var(--accent); stroke-width: 7; opacity: 0.35; }
+.ash-fields { fill: #ddd3ba; stroke: var(--accent); stroke-width: 1; stroke-dasharray: 3 4; }
+.river { fill: none; stroke: var(--accent); stroke-width: 2; opacity: 0.7; }
+.road { fill: none; stroke: var(--accent); stroke-width: 2; stroke-dasharray: 6 5; opacity: 0.8; }
+.mountains path { fill: none; stroke: var(--ink); stroke-width: 2; stroke-linecap: round; opacity: 0.75; }
+
+.region-label, .sea-label {
+  font-family: var(--serif);
+  fill: var(--accent);
+  font-style: italic;
+  font-size: 17px;
+  text-anchor: middle;
+}
+.sea-label { letter-spacing: 0.35em; font-size: 20px; opacity: 0.8; }
+.big-label { letter-spacing: 0.2em; font-style: normal; font-variant: small-caps; }
+
+.capital-marker text {
+  font-family: var(--serif);
+  fill: var(--ink);
+  font-style: italic;
+  font-size: 14px;
+  text-anchor: middle;
+}
+.capital-marker path { fill: var(--ink); }
+
+.house-marker { cursor: pointer; }
+.house-marker .seal { fill: var(--ink); stroke: var(--bg); stroke-width: 1.5; transition: fill 0.2s ease; }
+.house-marker .seal-center { fill: var(--bg); pointer-events: none; }
+.house-marker text {
+  font-family: var(--serif);
+  fill: var(--ink);
+  font-size: 15px;
+  text-anchor: middle;
+  letter-spacing: 0.04em;
+  pointer-events: none;
+}
+.house-marker:hover .seal, .house-marker.selected .seal { fill: var(--ember); }
+.house-marker.selected .halo {
+  fill: none;
+  stroke: var(--ember);
+  stroke-width: 1.5;
+  stroke-dasharray: 4 4;
+}
+
+/* ------------------------------------------------------------------ footer */
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  text-align: center;
+  padding: 28px 24px;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+/* ------------------------------------------------------------------ responsive */
+
+@media (max-width: 800px) {
+  .site-nav { padding: 0 16px; }
+  .site-nav ul { gap: 14px; }
+  .site-nav ul a { font-size: 0.8rem; }
+  .site-nav .brand { letter-spacing: 0.2em; font-size: 0.95rem; }
+
+  .map-app { flex-direction: column; }
+  .map-sidebar { width: 100%; max-height: 34vh; border-right: none; border-bottom: 1px solid var(--line); }
+  .detail { left: 16px; width: auto; }
+
+  .house-toggle { grid-template-columns: 1fr auto; }
+}
