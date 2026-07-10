@@ -190,6 +190,12 @@
 
     detail.sigil.hidden = true;
     detail.sigil.onload = () => { detail.sigil.hidden = false; };
+    detail.sigil.onerror = () => {
+      // fall back to the sigill_-prefixed filenames the sigil pack uses
+      if (!detail.sigil.src.includes("/sigill_")) {
+        detail.sigil.src = `assets/sigils/sigill_${house.id}.png`;
+      }
+    };
     detail.sigil.src = `assets/sigils/${house.id}.png`;
     detail.name.textContent = house.name;
     detail.sub.textContent = `${house.seat} · ${house.region}`;

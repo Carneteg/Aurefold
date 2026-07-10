@@ -42,7 +42,11 @@ assets/sigils/tidebreaker.png   assets/sigils/phoenix.png
 
 They appear automatically on the house cards (`houses.html`) and in the
 map's record card. Missing files are hidden — no placeholder is shown.
-Square images with transparent background work best.
+Square images work best.
+
+The `sigill_`-prefixed names from the sigil pack also work as-is
+(`sigill_blackthorn.png`, `sigill_whitehart.png`, …) — the site tries the
+plain name first and falls back to the `sigill_` name automatically.
 
 ## The chart plate
 
