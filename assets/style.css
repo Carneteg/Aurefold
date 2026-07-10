@@ -274,6 +274,14 @@ figure.chart-plate figcaption {
 }
 .face-card p { font-style: italic; font-size: 0.95rem; color: var(--ink); }
 
+.record-list { list-style: none; columns: 2; column-gap: 40px; margin-top: 8px; }
+.record-list li { margin-bottom: 14px; break-inside: avoid; letter-spacing: 0.04em; }
+.record-list .record-role { display: block; color: var(--accent); font-size: 0.88rem; font-style: italic; letter-spacing: 0; }
+
+@media (max-width: 640px) {
+  .record-list { columns: 1; }
+}
+
 /* ------------------------------------------------------------------ world */
 
 .world-note {

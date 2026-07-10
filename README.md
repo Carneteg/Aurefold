@@ -9,7 +9,8 @@ the folder with any static file server (works as-is on GitHub Pages).
 
 | Page | Contents |
 | --- | --- |
-| `index.html` | Hero, series pitch, Book One announcement, optional chart plate |
+| `index.html` | Hero, series pitch, Book One announcement, the name, optional chart plate |
+| `book.html` | Book One: *The Bell of Silence* — where it begins, the shape of the book |
 | `houses.html` | The Ten Great Houses — expandable cards |
 | `map.html` | Interactive chart of the Banner-lands with every house seat (pan, zoom, click a seal) |
 | `world.html` | The world of the Banner-lands, in the archive's voice |
