@@ -49,31 +49,36 @@ repo). The `sigill_`-prefixed originals also work as a fallback naming.
 
 ## Character portraits
 
-Drop portraits into `assets/portraits/`. The Faces page tries
-`<slug>.png` first, then the raw portrait-pack filename, then hides the
-slot. Mapping (from the canon image index):
+Portraits live in `assets/portraits/` as web-sized copies (640&nbsp;px) of
+the canon portraits in the Emberworld repo. Since **Release&nbsp;1.1** the
+canonical source names are `portrait_<house>_<name>.png`:
 
-| Card | Preferred name | Pack fallback |
+| Card | Site file | Canonical source (Emberworld repo) |
 | --- | --- | --- |
-| Sela | `sela.png` | `generatedimage_5.png` |
-| Brother Tomas | `tomas.png` | `generatedimage_9.png` |
-| Mother Alaine | `alaine.png` | `generatedimage_10.png` |
-| Wren Blackthorn | `wren.png` | `generatedimage.png` |
-| Garron, the Binder | `garron.png` | `generatedimage_4.png` |
-| Sabra Ravenshade | `sabra.png` | `generatedimage_1.png` |
-| Maren Tidebreaker | `maren.png` | `generatedimage_8.png` |
-| Kael / Vaela / Rurik / Ser Alba / Signe | `kael.png` etc. | — (no portrait in the pack yet) |
+| Sela | `sela.jpg` | `portrait_whitehart_sela.png` |
+| Brother Tomas | `tomas.jpg` | `portrait_whitehart_tomas.png` |
+| Mother Alaine | `alaine.jpg` | `portrait_whitehart_alaine.png` |
+| Wren Blackthorn | `wren.jpg` | `portrait_blackthorn_wren.png` |
+| Garron, the Binder | `garron.jpg` | `portrait_stormrider_garron.png` |
+| Sabra Ravenshade | `sabra.jpg` | `portrait_ravenshade_sabra.png` |
+| Maren Tidebreaker | `maren.jpg` | `portrait_tidebreaker_maren.png` |
+| Roderick Ashbourne | `roderick.jpg` | `portrait_ashbourne_roderick.png` |
+| Master Halvard | `halvard.jpg` | `portrait_ironvale_halvard.png` |
+| Aldous Blackcrest | `aldous.jpg` | `portrait_blackcrest_aldous.png` |
+| Reverend Torvald | `torvald.jpg` | `portrait_stonebear_torvald.png` |
+| Signe Phoenix | `signe.png` — pending | `portrait_phoenix_signe.png` — in the release manifest, not yet uploaded |
+| Kael / Vaela / Rurik / Ser Alba | — | no portrait in the release yet |
 
-Pack portraits without a Faces card (Roderick `_2`, Halvard `_3`,
-Aldous `_6`, Torvald `_7`) are not shown yet. Duplicates `_11` and `_13`
-per the image index should not be uploaded.
+Cards whose file is missing simply hide the portrait slot — no placeholder
+is shown. When Signe's release portrait lands, save a 640&nbsp;px copy as
+`assets/portraits/signe.png` and her card picks it up automatically.
 
 ## The chart plate
 
-If a hand-drawn map image is added as `assets/fanlanden_map.png`, the front
-page automatically shows it full-width as
+The front page shows `assets/fanlanden_map.jpg` — a web-sized copy of the
+canonical `fanlanden_map.png` (Release&nbsp;1.1, Emberworld repo) — full-width as
 *"Plate I — the Banner-lands, general chart · 396 A.U."*
-Without the file, the section stays hidden.
+If the file is removed, the section hides itself.
 
 ## Canon guardrails
 

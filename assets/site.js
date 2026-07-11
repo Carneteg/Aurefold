@@ -24,7 +24,7 @@
   }
 
   // Character portraits (characters.html): try the named file, then the
-  // generatedimage_N fallback from the portrait pack, else hide the slot.
+  // optional data-fallback source, else hide the slot.
   document.querySelectorAll(".face-portrait").forEach((img) => {
     const fail = () => {
       const fb = img.dataset.fallback;
