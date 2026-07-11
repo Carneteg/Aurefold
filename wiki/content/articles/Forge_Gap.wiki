@@ -1,3 +1,4 @@
 {{Infobox place|name=Forge Gap|type=Seat of [[House Ironvale]]|region=[[the Ore Valleys]]|house=[[House Ironvale]]|notable=The Eternal Forge; the Drafting Hall; architecture that never finishes}}
 '''Forge Gap''' is a working valley — a deep, smoky ravine where the ore veins surface and the rapids drive bellows and hammers around the clock. No building stands untouched for a generation; there are no ruins here, only half-finished things. Its pride is '''the Eternal Forge''' (never gone out since the Unification — or quietly relit every night); its treasury and unguarded heart is '''the Drafting Hall'''. The head of house rules from the workshop floor.
-[[Category:Places]]
+{{House Ironvale}}
+[[Category:Places]] [[Category:House Ironvale]]

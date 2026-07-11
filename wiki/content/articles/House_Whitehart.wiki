@@ -2,7 +2,7 @@
 '''House Whitehart''' is the house of '''faith''': true authority does not come from the one who leads but ''through'' them. The leader is not a ruler but a vessel. Whitehart believes the dead are not gone, only silent — and that whoever learns to listen can hear them.
 
 == Philosophy and reputation ==
-Whitehart's house word — ''"Icke jag"'' — is the realm's most ambiguous phrase: the answer to every question of power, merit, guilt, and honor. Humility, or evasion of responsibility? Its leaders do not say "I decided" but "it was decided." Its leaders are '''[[The Called]]''': anyone may hear the voice and rise, even topple a sitting head — and anyone may ''claim'' to, which is the house's glory and its poison. In battle the house is unpredictable to everyone: it acts on conviction, not advantage, and wins battles it should have lost and loses battles it should have won.
+Whitehart's house word — ''"Icke jag"'' — is the realm's most ambiguous phrase<ref>The phrase is preserved as in-world liturgical language; it is spoken at the testing of [[Sela]].</ref>: the answer to every question of power, merit, guilt, and honor. Humility, or evasion of responsibility? Its leaders do not say "I decided" but "it was decided." Its leaders are '''[[The Called]]''': anyone may hear the voice and rise, even topple a sitting head — and anyone may ''claim'' to, which is the house's glory and its poison. In battle the house is unpredictable to everyone: it acts on conviction, not advantage, and wins battles it should have lost and loses battles it should have won.
 
 The other houses' sigils depict action. Whitehart's depicts ''receiving''.
 
@@ -14,9 +14,18 @@ The other houses' sigils depict action. Whitehart's depicts ''receiving''.
 == The seat ==
 [[The Bell of Silence (seat)|The Bell of Silence]] is a monastery-like seat high in a mountain valley where the echo carries — a house of listening rooms, not throne rooms. Its great bell has '''no clapper''' and never rings by human hand; the old ones swear it tolls in still air, and that this means a Called one has been born, or has died. It is the only seat in the realm that does not defend against the unknown east: it turns toward it, open, listening.
 
+== Lineage ==
+<div class="ew-family">
+''Whitehart keeps no ruling bloodline: its leaders are [[The Called|Called]], not born. The house's line of succession is a line of hearings.''
+</div>
+
 == Members (396 A.U.) ==
 * '''[[Mother Alaine]]''' (~60), head of house — fifty years at the griffes.
 * '''[[Sela]]''' (~19) — a goatherd from the outer valleys who heard; the people already follow her.
 * '''[[Brother Tomas]]''' (~45) — the Tester, who must soon test her.
 
-[[Category:Great Houses]]
+== References ==
+<references />
+{{House Whitehart}}
+{{Great Houses}}
+[[Category:Great Houses]] [[Category:House Whitehart]]

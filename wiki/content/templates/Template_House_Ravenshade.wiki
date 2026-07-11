@@ -1,0 +1,5 @@
+{{Navbox|title=[[File:Sigill ravenshade.png|24px|link=House Ravenshade]] House Ravenshade|above=''We hear what the silence says.''
+|group1=Seat|list1=[[Duskport]] · [[the Sleep Coast]]
+|group2=Members (396 A.U.)|list2=[[Sabra Ravenshade]]{{·}} [[Emeric Ravenshade]]{{·}} [[Lyra Ravenshade]]{{·}} [[Old Corvin]]
+|group3=Customs & lore|list3=The Banquet{{·}} the Ear Passages
+}}<noinclude>[[Category:Layout templates]]</noinclude>

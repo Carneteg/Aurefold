@@ -1,4 +1,5 @@
 {{Infobox character|name=Idun Phoenix|house=[[House Phoenix]]|role=Heir|age=~29|kin=[[Signe Phoenix]] (mother)}}
 '''Idun Phoenix''' still believes in forward. But she asks questions about the past as if they were questions about the future — ''"if we're to build right next, don't we need to know what stood here before?"'' — smuggling the backward-looking into forward-speech, because in [[New-Ash]] that is the only way to be heard at all.
 
-[[Category:Characters]]
+{{House Phoenix}}
+[[Category:Characters]] [[Category:House Phoenix]]

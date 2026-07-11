@@ -47,7 +47,10 @@ docker compose up -d          # starts MediaWiki (port 8080) + MariaDB
 `config/LocalSettings.emberwold.php` enables (all bundled with MediaWiki — nothing
 to download): **ParserFunctions**, **Scribunto** (Lua), **TemplateStyles**,
 **CategoryTree**, **Cite**, **VisualEditor**, WikiEditor/CodeEditor, ImageMap,
-InputBox, Interwiki. Uploads are on; anonymous editing is off (public fan wiki:
+InputBox, Interwiki — plus **Popups** (page previews on hover; vendored in
+`extensions-extra/` like TemplateStyles, with TextExtracts + PageImages),
+**ConfirmEdit/QuestyCaptcha** (Emberwold-flavored questions on account creation)
+and **AbuseFilter**. Uploads are on; anonymous editing is off (public fan wiki:
 everyone reads, registered users edit).
 
 Skin: **Vector 2022** with the ember theme in `MediaWiki:Common.css`
@@ -60,12 +63,14 @@ it into `extensions/../skins` and the same palette carries over.
 
 | Kind | Pages |
 | --- | --- |
-| Main Page | Two-column AWOIAF-style layout: Featured article, Featured quotes, Did you know, References · portal grid, About, Contributing |
-| Templates | `Box` (rounded heading tab), `Quote`, `Infobox character/place/faction/creature/artifact`, `Placeholder`, `Gate`, `Tl` — each with TemplateStyles |
-| Portals | Houses, Characters, Places, History, Culture, Mystery |
-| Articles | ~90: the 10 Great Houses, ~38 characters, 10 seats, 7 regions, world & geography, the war/oath/timeline/jubilee, the four sources, customs, the books |
+| Main Page | Two-column AWOIAF-style layout: **monthly-rotating Featured article** (12 subpages keyed to `{{CURRENTMONTHNAME}}`), Featured quotes, a 12-entry Did you know pool · portal grid, About, Contributing |
+| Templates | `Box`, `Quote`, five infoboxes, `Placeholder`, `Gate`, `Tl`, **`Navbox` + 10 per-house navboxes + `Great Houses`** — each with TemplateStyles |
+| Portals | Houses, Characters, Places, History, Culture, Mystery — plus a **custom sidebar** (`MediaWiki:Sidebar`) |
+| Articles | ~95: the 10 Great Houses (now with **Lineage** sections and in-world **citations**), ~39 characters, 10 seats, 7 regions, world & geography, history, the four sources, customs, the books — every house page ends in its navboxes |
+| Navigation | **50 redirects** (short names, aliases, the three city names, war names…) and **per-house categories** (`Category:House Whitehart` …) |
+| Plate I | The chart is now a **clickable ImageMap** — every seat links to its article |
 | Development | `Development:Rawness and Mortality` — gate material, hard-bannered non-canon ({{Gate}}) |
-| Images | The 11 canon portraits + Plate I (web-sized) |
+| Images | The 11 canon portraits, the 10 house sigils + Plate I (web-sized) |
 
 Canon guardrails are encoded in `Help:Style guide`: open riddles stay open, the
 elevens are frozen, hidden models are never named, development material is never
@@ -88,7 +93,5 @@ in `Category:Development`.
 
 ## Known gaps (deliberate)
 
-|image=Sigill whitehart.png` to each house infobox.
-- The logo (`config/emberwold_logo.png`) is a generated placeholder.
 - `Development:` is a plain page prefix, not a real namespace; if the section
   grows, register a proper namespace in `LocalSettings.emberwold.php`.

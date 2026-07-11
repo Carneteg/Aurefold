@@ -1,6 +1,29 @@
 Template:Box	/opt/emberwold/content/templates/Template_Box.wiki
 Template:Box/styles.css	/opt/emberwold/content/templates/Template_Box_styles.css
+Template:Featured article/April	/opt/emberwold/content/templates/Template_Featured_article_April.wiki
+Template:Featured article/August	/opt/emberwold/content/templates/Template_Featured_article_August.wiki
+Template:Featured article/December	/opt/emberwold/content/templates/Template_Featured_article_December.wiki
+Template:Featured article/February	/opt/emberwold/content/templates/Template_Featured_article_February.wiki
+Template:Featured article/January	/opt/emberwold/content/templates/Template_Featured_article_January.wiki
+Template:Featured article/July	/opt/emberwold/content/templates/Template_Featured_article_July.wiki
+Template:Featured article/June	/opt/emberwold/content/templates/Template_Featured_article_June.wiki
+Template:Featured article/March	/opt/emberwold/content/templates/Template_Featured_article_March.wiki
+Template:Featured article/May	/opt/emberwold/content/templates/Template_Featured_article_May.wiki
+Template:Featured article/November	/opt/emberwold/content/templates/Template_Featured_article_November.wiki
+Template:Featured article/October	/opt/emberwold/content/templates/Template_Featured_article_October.wiki
+Template:Featured article/September	/opt/emberwold/content/templates/Template_Featured_article_September.wiki
 Template:Gate	/opt/emberwold/content/templates/Template_Gate.wiki
+Template:Great Houses	/opt/emberwold/content/templates/Template_Great_Houses.wiki
+Template:House Ashbourne	/opt/emberwold/content/templates/Template_House_Ashbourne.wiki
+Template:House Blackcrest	/opt/emberwold/content/templates/Template_House_Blackcrest.wiki
+Template:House Blackthorn	/opt/emberwold/content/templates/Template_House_Blackthorn.wiki
+Template:House Ironvale	/opt/emberwold/content/templates/Template_House_Ironvale.wiki
+Template:House Phoenix	/opt/emberwold/content/templates/Template_House_Phoenix.wiki
+Template:House Ravenshade	/opt/emberwold/content/templates/Template_House_Ravenshade.wiki
+Template:House Stonebear	/opt/emberwold/content/templates/Template_House_Stonebear.wiki
+Template:House Stormrider	/opt/emberwold/content/templates/Template_House_Stormrider.wiki
+Template:House Tidebreaker	/opt/emberwold/content/templates/Template_House_Tidebreaker.wiki
+Template:House Whitehart	/opt/emberwold/content/templates/Template_House_Whitehart.wiki
 Template:Infobox artifact	/opt/emberwold/content/templates/Template_Infobox_artifact.wiki
 Template:Infobox character	/opt/emberwold/content/templates/Template_Infobox_character.wiki
 Template:Infobox creature	/opt/emberwold/content/templates/Template_Infobox_creature.wiki
@@ -8,13 +31,17 @@ Template:Infobox faction	/opt/emberwold/content/templates/Template_Infobox_facti
 Template:Infobox place	/opt/emberwold/content/templates/Template_Infobox_place.wiki
 Template:Infobox/styles.css	/opt/emberwold/content/templates/Template_Infobox_styles.css
 Template:Main Page/styles.css	/opt/emberwold/content/templates/Template_Main_Page_styles.css
+Template:Navbox	/opt/emberwold/content/templates/Template_Navbox.wiki
+Template:Navbox/styles.css	/opt/emberwold/content/templates/Template_Navbox_styles.css
 Template:Placeholder	/opt/emberwold/content/templates/Template_Placeholder.wiki
 Template:Placeholder/styles.css	/opt/emberwold/content/templates/Template_Placeholder_styles.css
 Template:Quote	/opt/emberwold/content/templates/Template_Quote.wiki
 Template:Quote/styles.css	/opt/emberwold/content/templates/Template_Quote_styles.css
 Template:Tl	/opt/emberwold/content/templates/Template_Tl.wiki
+Template:·	/opt/emberwold/content/templates/Template_·.wiki
 Main Page	/opt/emberwold/content/pages/Main_Page.wiki
 MediaWiki:Common.css	/opt/emberwold/content/pages/MediaWiki_Common.css
+MediaWiki:Sidebar	/opt/emberwold/content/pages/MediaWiki_Sidebar.wiki
 Category:Books	/opt/emberwold/content/categories/Category_Books.wiki
 Category:Characters	/opt/emberwold/content/categories/Category_Characters.wiki
 Category:Culture and customs	/opt/emberwold/content/categories/Category_Culture_and_customs.wiki
@@ -23,6 +50,16 @@ Category:Emberwold	/opt/emberwold/content/categories/Category_Emberwold.wiki
 Category:Events	/opt/emberwold/content/categories/Category_Events.wiki
 Category:Great Houses	/opt/emberwold/content/categories/Category_Great_Houses.wiki
 Category:History	/opt/emberwold/content/categories/Category_History.wiki
+Category:House Ashbourne	/opt/emberwold/content/categories/Category_House_Ashbourne.wiki
+Category:House Blackcrest	/opt/emberwold/content/categories/Category_House_Blackcrest.wiki
+Category:House Blackthorn	/opt/emberwold/content/categories/Category_House_Blackthorn.wiki
+Category:House Ironvale	/opt/emberwold/content/categories/Category_House_Ironvale.wiki
+Category:House Phoenix	/opt/emberwold/content/categories/Category_House_Phoenix.wiki
+Category:House Ravenshade	/opt/emberwold/content/categories/Category_House_Ravenshade.wiki
+Category:House Stonebear	/opt/emberwold/content/categories/Category_House_Stonebear.wiki
+Category:House Stormrider	/opt/emberwold/content/categories/Category_House_Stormrider.wiki
+Category:House Tidebreaker	/opt/emberwold/content/categories/Category_House_Tidebreaker.wiki
+Category:House Whitehart	/opt/emberwold/content/categories/Category_House_Whitehart.wiki
 Category:Infobox templates	/opt/emberwold/content/categories/Category_Infobox_templates.wiki
 Category:Layout templates	/opt/emberwold/content/categories/Category_Layout_templates.wiki
 Category:Notice templates	/opt/emberwold/content/categories/Category_Notice_templates.wiki
@@ -72,6 +109,7 @@ House Tidebreaker	/opt/emberwold/content/articles/House_Tidebreaker.wiki
 House Whitehart	/opt/emberwold/content/articles/House_Whitehart.wiki
 Idun Phoenix	/opt/emberwold/content/articles/Idun_Phoenix.wiki
 Isolde Ashbourne	/opt/emberwold/content/articles/Isolde_Ashbourne.wiki
+Jorem Blackthorn	/opt/emberwold/content/articles/Jorem_Blackthorn.wiki
 Kael Ashbourne	/opt/emberwold/content/articles/Kael_Ashbourne.wiki
 Katla	/opt/emberwold/content/articles/Katla.wiki
 Lyra Ravenshade	/opt/emberwold/content/articles/Lyra_Ravenshade.wiki
@@ -130,3 +168,53 @@ Una	/opt/emberwold/content/articles/Una.wiki
 Vaela Blackcrest	/opt/emberwold/content/articles/Vaela_Blackcrest.wiki
 War of the Unification	/opt/emberwold/content/articles/War_of_the_Unification.wiki
 Wren Blackthorn	/opt/emberwold/content/articles/Wren_Blackthorn.wiki
+A.U.	/opt/emberwold/content/redirects/A.U..wiki
+Alaine	/opt/emberwold/content/redirects/Alaine.wiki
+Alba	/opt/emberwold/content/redirects/Alba.wiki
+Aldous	/opt/emberwold/content/redirects/Aldous.wiki
+Ashbourne	/opt/emberwold/content/redirects/Ashbourne.wiki
+Blackcrest	/opt/emberwold/content/redirects/Blackcrest.wiki
+Blackthorn	/opt/emberwold/content/redirects/Blackthorn.wiki
+Ederhamn	/opt/emberwold/content/redirects/Ederhamn.wiki
+Ederstad	/opt/emberwold/content/redirects/Ederstad.wiki
+Elvestad	/opt/emberwold/content/redirects/Elvestad.wiki
+Emberwold	/opt/emberwold/content/redirects/Emberwold.wiki
+Garron	/opt/emberwold/content/redirects/Garron.wiki
+Halvard	/opt/emberwold/content/redirects/Halvard.wiki
+Icke jag	/opt/emberwold/content/redirects/Icke_jag.wiki
+Ironvale	/opt/emberwold/content/redirects/Ironvale.wiki
+Kael	/opt/emberwold/content/redirects/Kael.wiki
+Maren	/opt/emberwold/content/redirects/Maren.wiki
+Phoenix	/opt/emberwold/content/redirects/Phoenix.wiki
+Ravenshade	/opt/emberwold/content/redirects/Ravenshade.wiki
+Rurik	/opt/emberwold/content/redirects/Rurik.wiki
+Sabra	/opt/emberwold/content/redirects/Sabra.wiki
+Sela the Called	/opt/emberwold/content/redirects/Sela_the_Called.wiki
+Signe	/opt/emberwold/content/redirects/Signe.wiki
+Stonebear	/opt/emberwold/content/redirects/Stonebear.wiki
+Stormrider	/opt/emberwold/content/redirects/Stormrider.wiki
+The Ash Urns	/opt/emberwold/content/redirects/The_Ash_Urns.wiki
+The Bell of Silence (book)	/opt/emberwold/content/redirects/The_Bell_of_Silence_(book).wiki
+The Binder	/opt/emberwold/content/redirects/The_Binder.wiki
+The Called one	/opt/emberwold/content/redirects/The_Called_one.wiki
+The Chronicle	/opt/emberwold/content/redirects/The_Chronicle.wiki
+The Deep Archive	/opt/emberwold/content/redirects/The_Deep_Archive.wiki
+The Divided Fire	/opt/emberwold/content/redirects/The_Divided_Fire.wiki
+The Eternal Forge	/opt/emberwold/content/redirects/The_Eternal_Forge.wiki
+The Great Unification	/opt/emberwold/content/redirects/The_Great_Unification.wiki
+The Oath-Stone	/opt/emberwold/content/redirects/The_Oath-Stone.wiki
+The Pass Compact	/opt/emberwold/content/redirects/The_Pass_Compact.wiki
+The Permanent Book	/opt/emberwold/content/redirects/The_Permanent_Book.wiki
+The Silent Mountains bend	/opt/emberwold/content/redirects/The_Silent_Mountains_bend.wiki
+The Tester	/opt/emberwold/content/redirects/The_Tester.wiki
+The Wall of Names	/opt/emberwold/content/redirects/The_Wall_of_Names.wiki
+The Wall of Shame	/opt/emberwold/content/redirects/The_Wall_of_Shame.wiki
+The eleventh Shard	/opt/emberwold/content/redirects/The_eleventh_Shard.wiki
+The houseless	/opt/emberwold/content/redirects/The_houseless.wiki
+Tidebreaker	/opt/emberwold/content/redirects/Tidebreaker.wiki
+Tomas	/opt/emberwold/content/redirects/Tomas.wiki
+Torvald	/opt/emberwold/content/redirects/Torvald.wiki
+Vaela	/opt/emberwold/content/redirects/Vaela.wiki
+War of the Eleven Banners	/opt/emberwold/content/redirects/War_of_the_Eleven_Banners.wiki
+Whitehart	/opt/emberwold/content/redirects/Whitehart.wiki
+Wren	/opt/emberwold/content/redirects/Wren.wiki

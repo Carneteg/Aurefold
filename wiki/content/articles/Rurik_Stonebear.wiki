@@ -1,6 +1,9 @@
 {{Infobox character|name=Rurik Stonebear|house=[[House Stonebear]]|role=Heir|age=~30|kin=[[Reverend Torvald]] (father)|appears=''Thirty Marks in Old Silver'' (scene)}}
 '''Rurik Stonebear''' is the heir of a house being slowly bankrupted by its own kept word — and the only Stonebear who ''listens'' when [[Ser Alba]] lays the ledgers on the table. He hates that he listens.
 
-He reads every sworn thing aloud, word for word, the way he read the Pass Compact in the counting room — not because he doubts his memory, but because oaths are made of their exact words, and paraphrase is the first solvent. What he hunts for inside the letter is honest space. Whether an honest man can find a loophole is the question he has not answered.
+He reads every sworn thing aloud, word for word, the way he read the Pass Compact in the counting room<ref>''Thirty Marks in Old Silver'' — a scene from Emberwold, year 396 A.U.</ref> — not because he doubts his memory, but because oaths are made of their exact words, and paraphrase is the first solvent. What he hunts for inside the letter is honest space. Whether an honest man can find a loophole is the question he has not answered.
 
-[[Category:Characters]]
+== References ==
+<references />
+{{House Stonebear}}
+[[Category:Characters]] [[Category:House Stonebear]]

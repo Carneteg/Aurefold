@@ -13,10 +13,19 @@ Its defenders make a case that is hard to dismiss: the Chronicle is the realm's 
 == The seat ==
 [[Crown-watch]] is a fortress-city on the edge of [[the Ash Fields]], built to watch over memory, not defend land. Its heart is a library: the innermost room holds the [[Chronicle of Victory|Permanent Book]] itself. Rumor speaks of pages sewn shut, and of years near the Unification that are oddly thin. Along its galleries stand '''the Ash Urns''' — rows of urns holding the ash of everything burned out of history. No one may open an urn. No one remembers what the oldest ones contain.
 
+== Lineage ==
+<div class="ew-family">
+* '''[[Aunt Merida]]''', former keeper of the Chronicle
+* '''[[Aldous Blackcrest]]''', head of house
+** '''[[Vaela Blackcrest]]''', his daughter and heir
+</div>
+
 == Members (396 A.U.) ==
 * '''[[Aldous Blackcrest]]''' (~61), head of house — the realm's chief historian, keeper of the Permanent Book.
 * '''[[Vaela Blackcrest]]''' (~28), heir — the house's sharpest young historian, whose favorite question is the one the house never answers.
 * '''[[Aunt Merida]]''' (~74) — once the Chronicle's keeper, now withdrawn; drops fragments found in no official source.
 * '''[[Herald Perrin]]''' (~45) — foremost in converting raw events into stories that serve the peace.
 
-[[Category:Great Houses]]
+{{House Blackcrest}}
+{{Great Houses}}
+[[Category:Great Houses]] [[Category:House Blackcrest]]

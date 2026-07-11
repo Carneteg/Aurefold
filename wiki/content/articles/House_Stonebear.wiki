@@ -12,10 +12,18 @@
 == The seat ==
 [[Oath-hold]] is a gray-stone fortress hewn into the mountainside at the northeastern foot of [[the Silent Mountains]] — harsh, low, built of the same stone it guards.
 
+== Lineage ==
+<div class="ew-family">
+* '''[[Reverend Torvald]]''', head of house
+** '''[[Rurik Stonebear]]''', his son and heir
+</div>
+
 == Members (396 A.U.) ==
 * '''[[Reverend Torvald]]''' (~59), head of house — the realm's most sought-after oath-witness, entirely at peace with what his word costs.
 * '''[[Rurik Stonebear]]''' (~30), heir — reads every sworn thing aloud, word for word, hunting for honest space inside the letter.
 * '''[[Oathmother Hild]]''' (~76) — keeper of the rite at the nameless line; the only living person who knows the words.
 * '''[[Ser Alba]]''' (~44), sword-hand — the house's most reasonable voice for bending, and the only Stonebear who has personally paid for not bending.
 
-[[Category:Great Houses]]
+{{House Stonebear}}
+{{Great Houses}}
+[[Category:Great Houses]] [[Category:House Stonebear]]

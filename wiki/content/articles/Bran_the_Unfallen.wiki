@@ -1,4 +1,5 @@
 {{Infobox character|name=Bran the Unfallen|house=[[House Ashbourne]] (in service)|role=Weapon-master|age=~60}}
 '''Bran the Unfallen''' is low-born, and has survived more [[The Leap|Leaps]] than anyone living — the nickname is tribute and mockery at once. He trains the young of [[Dawnwatch]], and watches them go onto the Wall of Names.
 
-[[Category:Characters]]
+{{House Ashbourne}}
+[[Category:Characters]] [[Category:House Ashbourne]]

@@ -1,0 +1,5 @@
+{{Navbox|title=The Ten Great Houses of the Banner-lands|above=''Ten seals, as the houses are ten, as they have always been ten.''
+|group1=The houses|list1=[[House Blackthorn]]{{·}} [[House Ravenshade]]{{·}} [[House Ashbourne]]{{·}} [[House Whitehart]]{{·}} [[House Stormrider]]{{·}} [[House Ironvale]]{{·}} [[House Blackcrest]]{{·}} [[House Stonebear]]{{·}} [[House Tidebreaker]]{{·}} [[House Phoenix]]
+|group2=The realm|list2=[[The Banner-lands]]{{·}} [[The Ash Fields]]{{·}} [[The seat of power]]{{·}} [[Ash Oath]]{{·}} [[War of the Unification]]{{·}} [[Timeline of the Banner-lands]]
+|group3=The record|list3=[[Chronicle of Victory]]{{·}} [[Ash Fragments]]{{·}} [[The Songs]]{{·}} [[The Marginal Notes]]{{·}} [[The eleventh house]]
+}}<noinclude>[[Category:Layout templates]]</noinclude>

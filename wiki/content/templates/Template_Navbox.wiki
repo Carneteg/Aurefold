@@ -1,0 +1,7 @@
+<templatestyles src="Template:Navbox/styles.css" /><div class="ew-navbox"><div class="ew-navbox-title">{{{title|}}}</div>{{#if:{{{above|}}}|<div class="ew-navbox-above">{{{above}}}</div>}}<table class="ew-navbox-table">
+{{#if:{{{group1|}}}|<tr><th>{{{group1}}}</th><td>{{{list1|}}}</td></tr>}}
+{{#if:{{{group2|}}}|<tr><th>{{{group2}}}</th><td>{{{list2|}}}</td></tr>}}
+{{#if:{{{group3|}}}|<tr><th>{{{group3}}}</th><td>{{{list3|}}}</td></tr>}}
+{{#if:{{{group4|}}}|<tr><th>{{{group4}}}</th><td>{{{list4|}}}</td></tr>}}
+{{#if:{{{group5|}}}|<tr><th>{{{group5}}}</th><td>{{{list5|}}}</td></tr>}}
+</table></div><noinclude>Bottom-of-page navigation box. Params: title, above, group1..5/list1..5. [[Category:Layout templates]]</noinclude>

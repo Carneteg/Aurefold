@@ -1,3 +1,4 @@
 {{Infobox place|name=Duskport|type=Seat of [[House Ravenshade]]|region=[[the Sleep Coast]]|house=[[House Ravenshade]]|notable=The Ear Passages; no throne room, many parlors}}
 '''Duskport''' is not a fortress but a fog-bound harbor town that [[House Ravenshade]] permeates. The fog is the house's teacher: everything arrives half-hidden. Rumor holds that sound travels strangely through the older quarters — '''the Ear Passages''' — architecture, spies, or superstition; never decided. There is no throne room; there are many parlors.
-[[Category:Places]]
+{{House Ravenshade}}
+[[Category:Places]] [[Category:House Ravenshade]]

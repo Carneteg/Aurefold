@@ -24,6 +24,13 @@ $wgScribuntoDefaultEngine = 'luastandalone';
 if ( is_dir( "$IP/extensions/TemplateStyles" ) ) {
 	wfLoadExtension( 'TemplateStyles' );    # templates carry their own CSS
 }
+# Popups (page previews on hover) — also vendored in ./extensions-extra/
+if ( is_dir( "$IP/extensions/Popups" ) ) {
+	wfLoadExtension( 'Popups' );
+	$wgPopupsHideOptInOnPreferencesPage = true;
+}
+wfLoadExtension( 'TextExtracts' );          # summary extracts (used by Popups)
+wfLoadExtension( 'PageImages' );            # lead images (used by Popups)
 wfLoadExtension( 'CategoryTree' );          # category navigation
 wfLoadExtension( 'Cite' );                  # <ref> / references
 wfLoadExtension( 'CiteThisPage' );
@@ -38,6 +45,21 @@ wfLoadExtension( 'Interwiki' );             # future sister-wiki links
 $wgEnableUploads = true;
 $wgFileExtensions = array_merge( $wgFileExtensions, [ 'svg' ] );
 $wgUseInstantCommons = false;
+
+## Anti-spam: captcha on account creation + abuse filter framework
+wfLoadExtension( 'ConfirmEdit' );
+wfLoadExtension( 'ConfirmEdit/QuestyCaptcha' );
+$wgCaptchaClass = 'QuestyCaptcha';
+$wgCaptchaQuestions = [
+	'How many Great Houses rule the Banner-lands? (a number)' => [ '10', 'ten' ],
+	'Complete the tagline: "The map ends where the ... begins." (one word)' => [ 'truth' ],
+	'What is sworn in the ash at the end of the war? (two words)' => [ 'ash oath', 'the ash oath' ],
+];
+$wgCaptchaTriggers['createaccount'] = true;
+$wgCaptchaTriggers['edit'] = false;
+$wgCaptchaTriggers['create'] = false;
+wfLoadExtension( 'AbuseFilter' );
+$wgGroupPermissions['sysop']['abusefilter-modify'] = true;
 
 ## Public fan wiki: readable by all, editable by registered users only
 $wgGroupPermissions['*']['edit'] = false;

@@ -1,4 +1,5 @@
 {{Infobox character|name=Quartermaster Sunniva|house=[[House Tidebreaker]]|role=Quartermaster; former captain|age=~48}}
 '''Quartermaster Sunniva''' captained the expedition that sailed farthest into [[the Sleeping Sea]], and came back its sole survivor. She has spoken almost not at all since. Her final chart was never drawn. She keeps her watch, and her silence, and her gaze goes to the lighthouse.
 
-[[Category:Characters]]
+{{House Tidebreaker}}
+[[Category:Characters]] [[Category:House Tidebreaker]]

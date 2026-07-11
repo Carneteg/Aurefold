@@ -1,0 +1,7 @@
+.ew-navbox { clear: both; margin: 1.6em 0 0.4em; border: 1px solid #a83a12; border-radius: 6px; background: #eaddbf; font-size: 90%; }
+.ew-navbox-title { background: #2b211a; color: #ffb347; font-family: Georgia, serif; text-align: center; padding: 0.3em 0.6em; border-radius: 5px 5px 0 0; letter-spacing: 0.05em; font-size: 108%; }
+.ew-navbox-above { text-align: center; font-style: italic; padding: 0.25em 0.6em; border-bottom: 1px solid #cbb894; color: #7c5b33; }
+.ew-navbox-table { width: 100%; border-collapse: collapse; }
+.ew-navbox-table th { width: 12em; text-align: right; vertical-align: top; padding: 0.3em 0.8em; color: #a83a12; font-variant: small-caps; letter-spacing: 0.04em; border-top: 1px solid #d8cdb2; }
+.ew-navbox-table td { padding: 0.3em 0.8em; border-top: 1px solid #d8cdb2; }
+.ew-navbox-table tr:first-child th, .ew-navbox-table tr:first-child td { border-top: none; }

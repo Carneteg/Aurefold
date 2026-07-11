@@ -1,0 +1,5 @@
+{{Navbox|title=[[File:Sigill phoenix.png|24px|link=House Phoenix]] House Phoenix|above=''What burned is fuel. Look forward, never back.''
+|group1=Seat|list1=[[New-Ash]] · [[the Burnt Road]]
+|group2=Members (396 A.U.)|list2=[[Signe Phoenix]]{{·}} [[Idun Phoenix]]{{·}} [[Master Builder Roar]]
+|group3=Customs & lore|list3=the Ash-Will{{·}} the annual bonfire
+}}<noinclude>[[Category:Layout templates]]</noinclude>

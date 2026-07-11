@@ -12,10 +12,18 @@ Precision over conviction: rather ''"there are three versions"'' than ''"this is
 == The seat ==
 [[The Wave-Reader]] is not a fortress but an archipelago of knowledge on the outermost of [[the Shards]], facing [[the Sleeping Sea]]. In '''the Chart Hall''', the same coastline is drawn twelve ways and none is marked correct. Below the waterline lie the caves of '''the Deep Archive''', where the oldest scrolls are kept; few have access, fewer have read them through. And the house's lighthouse faces the wrong way — not toward the harbor but out over the empty sea, as if calling home what never comes back. No one remembers who lit it.
 
+== Lineage ==
+<div class="ew-family">
+* '''[[Maren Tidebreaker]]''', head of house
+* '''[[Espen Tidebreaker]]''', a younger relative
+</div>
+
 == Members (396 A.U.) ==
 * '''[[Maren Tidebreaker]]''' (~55), head of house — the realm's foremost cartographer; she decides what is drawn, and what is left blank.
 * '''[[Espen Tidebreaker]]''' (~26) — raised in the Deep Archive; reads what others do not read through.
 * '''[[Quartermaster Sunniva]]''' (~48) — sole survivor of the expedition that sailed farthest into the Sleeping Sea. She has spoken almost not at all since. Her final chart was never drawn.
 * '''[[Scribe Alf]]''' (~40) — copies everything faithfully, reads nothing through.
 
-[[Category:Great Houses]]
+{{House Tidebreaker}}
+{{Great Houses}}
+[[Category:Great Houses]] [[Category:House Tidebreaker]]

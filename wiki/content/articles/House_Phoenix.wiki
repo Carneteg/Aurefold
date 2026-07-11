@@ -12,9 +12,17 @@ A Phoenix never asks "how was it done before?" but "why do we do it at all?" The
 == The seat ==
 [[New-Ash]] stands on the edge of [[the Ash Fields]], on scorched ground where nothing grows — the purest soil, the house says, ready for anything. The castle is torn down and rebuilt every generation, never finished, never the same; a visitor who returns twice never sees the same house. There are no portraits and no graves: the dead burn, their works burn, and a visitor finds nothing to say who was here before.
 
+== Lineage ==
+<div class="ew-family">
+* '''[[Signe Phoenix]]''', Dawnkeeper and head of house
+** '''[[Idun Phoenix]]''', her daughter and heir
+</div>
+
 == Members (396 A.U.) ==
 * '''[[Signe Phoenix]]''' (~50), Dawnkeeper and head of house — the realm's boldest visionary, who speaks even of the past in the future tense.
 * '''[[Idun Phoenix]]''' (~29), heir — who has begun, quietly, to ask what stood on the ground before.
 * '''[[Master Builder Roar]]''' (~44) — lights the yearly bonfire; believes most sincerely of all that to burn is to liberate.
 
-[[Category:Great Houses]]
+{{House Phoenix}}
+{{Great Houses}}
+[[Category:Great Houses]] [[Category:House Phoenix]]

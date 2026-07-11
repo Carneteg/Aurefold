@@ -1,6 +1,26 @@
-{{Infobox artifact|name=Plate I|type=Map — general chart|image=Fanlanden map.jpg|keeper=Drawn after the charts of the Wave-Reader archive|age=Year 396 A.U.|sources=The Atlas of the Banner-lands, English edition}}
+{{Infobox artifact|name=Plate I|type=Map — general chart|keeper=Drawn after the charts of the Wave-Reader archive|age=Year 396 A.U.|sources=The Atlas of the Banner-lands, English edition}}
 '''Plate I''' — ''the Banner-lands, general chart'' — is the canonical map of the known world, drawn after the charts of the Wave-Reader archive in the year 396 A.U. Its motto is the series' own: ''"The map ends where the truth begins."''
 
 The plate follows the Wave-Reader rule: the rivers are drawn but never named ("draw the water, omit the quarrel"), and where the sources disagree, the disagreement is drawn. A scale bar notes: ''a hundred leagues, more or less — no two charts agree.''
 
-[[Category:Sources and texts]]
+== The chart ==
+''The chart is clickable — select a seat to open its article.''
+
+<imagemap>
+File:Fanlanden map.jpg|1100px|center|Plate I — the Banner-lands, general chart, 396 A.U.
+circle 540 293 55 [[The Bell of Silence (seat)|The Bell of Silence — seat of House Whitehart]]
+circle 1341 392 55 [[Oath-hold|Oath-hold — seat of House Stonebear]]
+circle 890 477 55 [[The Hub|The Hub — seat of House Stormrider]]
+circle 894 605 45 [[The seat of power|Ederhamn · Elvestad · Ederstad — the seat of power]]
+circle 1124 675 55 [[Crown-watch|Crown-watch — seat of House Blackcrest]]
+circle 1377 677 55 [[Dawnwatch|Dawnwatch — seat of House Ashbourne]]
+circle 965 752 50 [[New-Ash|New-Ash — seat of House Phoenix]]
+circle 797 839 55 [[Thorn Hall|Thorn Hall — seat of House Blackthorn]]
+circle 583 694 55 [[Duskport|Duskport — seat of House Ravenshade]]
+circle 1252 985 55 [[Forge Gap|Forge Gap — seat of House Ironvale]]
+circle 702 1139 55 [[The Wave-Reader|The Wave-Reader — seat of House Tidebreaker]]
+default [[The Banner-lands]]
+</imagemap>
+
+{{Great Houses}}
+[[Category:Sources and texts]] [[Category:Places]]

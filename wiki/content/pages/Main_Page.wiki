@@ -2,10 +2,7 @@
 <div class="ew-main">
 <div class="ew-main-left">
 {{Box|title=Featured article|content=
-[[File:Portrait sela.jpg|140px|left|link=Sela]]
-'''[[House Whitehart]]''' keeps the [[The Bell of Silence (seat)|Bell of Silence]] in the high, silent valleys of [[the Light Heights]], where the dead rest in open niches so that their voices may carry. It is the house of '''faith''': true authority, Whitehart holds, does not come from the one who leads but ''through'' them. Its leaders are not born but '''[[The Called|Called]]''' — anyone may hear the voice of the dead and rise, and anyone may claim to, which is the house's glory and its poison. In the year 396 A.U. the house is led by [[Mother Alaine]], its verdicts are weighed by [[Brother Tomas]], the Tester — and in the outer valleys a goatherd named [[Sela]] has heard something no one can verify.<ref>''The Chronicle of Victory'' records none of this; Whitehart burns its trial records by law. What is known of the house's inner life is known from the Songs and from testimony.</ref>
-
-''[[House Whitehart|Read more…]]'' — ''[[Portal:Houses|other featured houses]]''
+{{Featured article/{{CURRENTMONTHNAME}}}}
 }}
 {{Box|title=Featured quotes|content=
 {{Quote|The map ends where the truth begins.|motto of [[Plate I]]}}
@@ -19,6 +16,12 @@
 * …that the great bell of [[House Whitehart]] has '''no clapper''', yet the old ones swear it tolls in still air?
 * …that [[House Tidebreaker]]'s lighthouse does not shine toward the harbor, but ''out over the [[the Sleeping Sea|Sleeping Sea]]'', as if calling home what never comes back?
 * …that the rivers of the [[the Banner-lands|Banner-lands]] are deliberately '''unnamed''' — "draw the water, omit the quarrel"?
+* …that [[House Stormrider]]'s seat, [[the Hub]], has '''no wall, only roads''' — and stands on the old battlefield itself?
+* …that the door of [[Oath-hold]]'s Guest Hall '''cannot be barred''' — and that the oldest line on its Wall of Shame is nameless?
+* …that [[House Phoenix]] keeps '''no chronicle''' — it writes plans, not memories?
+* …that in [[Forge Gap]] there are '''no ruins''' — only half-finished things?
+* …that [[Plate I]]'s scale bar reads: ''"a hundred leagues, more or less — no two charts agree"''?
+* …that Whitehart children learn their dead's names '''before their living relatives' faces'''?
 }}
 {{Box|title=References|content=<references />}}
 </div>

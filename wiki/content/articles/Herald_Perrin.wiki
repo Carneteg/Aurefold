@@ -1,4 +1,5 @@
 {{Infobox character|name=Herald Perrin|house=[[House Blackcrest]]|role=Herald|age=~45}}
 '''Herald Perrin''' is foremost in converting raw events into stories that serve the peace. In the famine year, his written account of a grain dispute — rapids delaying the barges, weather to curse instead of names — kept three towns from burning their neighbors' barns. By honest count his craft has saved more lives than courage has. He knows it. It is what the cynicism is built on.
 
-[[Category:Characters]]
+{{House Blackcrest}}
+[[Category:Characters]] [[Category:House Blackcrest]]

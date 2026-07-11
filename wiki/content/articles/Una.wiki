@@ -1,4 +1,5 @@
 {{Infobox character|name=Una|house=[[House Stormrider]]|role=Daughter and advisor to the Binder|age=~30|kin=[[Garron, the Binder]] (father)}}
 '''Una''' is [[Garron, the Binder|the Binder]]'s daughter and the finest administrator [[House Stormrider]] has had — a hand that can hold a realm. Whether a realm can be held the way it was united is the question the whole north is quietly asking.
 
-[[Category:Characters]]
+{{House Stormrider}}
+[[Category:Characters]] [[Category:House Stormrider]]

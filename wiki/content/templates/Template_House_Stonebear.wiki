@@ -1,0 +1,5 @@
+{{Navbox|title=[[File:Sigill stonebear.png|24px|link=House Stonebear]] House Stonebear|above=''A word is the only stone that holds.''
+|group1=Seat|list1=[[Oath-hold]] · foot of [[the Silent Mountains]]
+|group2=Members (396 A.U.)|list2=[[Reverend Torvald]]{{·}} [[Rurik Stonebear]]{{·}} [[Oathmother Hild]]{{·}} [[Ser Alba]]
+|group3=Customs & lore|list3=[[Guest-right]]{{·}} the Oath-Stone{{·}} the Wall of Shame
+}}<noinclude>[[Category:Layout templates]]</noinclude>

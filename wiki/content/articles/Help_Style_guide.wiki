@@ -4,6 +4,12 @@
 * '''The elevens are frozen.''' Do not add new eleven-motifs anywhere. The existing set (the banners, the rhyme, Elvestad, the seal count, the eleventh Shard, the Weaving whisper) is complete.
 * '''No real-world models.''' The houses' historical inspirations are never named or hinted at.
 
+== Citations ==
+Cite like the archive would. In-world statements take in-world sources: <code><nowiki><ref>The Chronicle of Victory, the swearing-account.</ref></nowiki></code>, <code><nowiki><ref>The Songs; the counting-rhyme.</ref></nowiki></code>. Quotes from written scenes cite the scene (''The Trial of the Goatherd'', ''Thirty Marks in Old Silver''); once the books are published, cite book and chapter. Every page that uses <code><nowiki><ref></nowiki></code> ends with <code>== References ==</code> and <code><nowiki><references /></nowiki></code>. Never invent a source.
+
+== Navboxes and redirects ==
+Every house-related page ends with its house navbox ({{tl|House Whitehart}} etc.); realm-level pages take {{tl|Great Houses}}. When you create an article, also create redirects for its common short names and aliases (<code><nowiki>#REDIRECT [[Target]]</nowiki></code>).
+
 == Creating an article ==
 # Search for the title; click the red link, or use the URL <code>/index.php?title=Your_Title&action=edit</code>.
 # Start with the right infobox: {{tl|Infobox character}}, {{tl|Infobox faction}}, {{tl|Infobox place}}, {{tl|Infobox artifact}}, {{tl|Infobox creature}}.

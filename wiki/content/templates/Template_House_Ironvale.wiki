@@ -1,0 +1,5 @@
+{{Navbox|title=[[File:Sigill ironvale.png|24px|link=House Ironvale]] House Ironvale|above=''What we cannot rebuild owns us.''
+|group1=Seat|list1=[[Forge Gap]] · [[the Ore Valleys]]
+|group2=Members (396 A.U.)|list2=[[Master Halvard]]{{·}} [[Senna Ironvale]]{{·}} [[Old Ferrin]]{{·}} [[Doran]]
+|group3=Customs & lore|list3=The Presentation{{·}} the Eternal Forge{{·}} the Drafting Hall
+}}<noinclude>[[Category:Layout templates]]</noinclude>

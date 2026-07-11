@@ -1,4 +1,5 @@
 {{Infobox character|name=Oathmother Hild|house=[[House Stonebear]]|role=Keeper of the rite|age=~76}}
 '''Oathmother Hild''' guards the rite at the Wall of Shame's nameless line — the only living person who knows the words. Whether she remembers the oath itself, or repeats a rite whose meaning was lost generations ago, no one can say.
 
-[[Category:Characters]]
+{{House Stonebear}}
+[[Category:Characters]] [[Category:House Stonebear]]

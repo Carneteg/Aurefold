@@ -1,4 +1,5 @@
 {{Infobox character|name=Old Corvin|house=[[House Ravenshade]] (in service)|role=Archivist|age=~70}}
 '''Old Corvin''' has kept [[House Ravenshade]]'s archives for fifty years. He is loyal to the archive, not the family, and cannot be bought — which frightens everyone. It is said he keeps one puzzle of his own: an entry in the oldest ciphers that points toward a name no one can fill in.
 
-[[Category:Characters]]
+{{House Ravenshade}}
+[[Category:Characters]] [[Category:House Ravenshade]]

@@ -1,4 +1,5 @@
 {{Infobox character|name=Isolde Ashbourne|house=[[House Ashbourne]]|role=Daughter, passed over|age=~30|kin=[[Roderick Ashbourne]] (father), [[Kael Ashbourne]] (brother)}}
 '''Isolde Ashbourne''' is sharper than her brother and carries more question than fire — the leader, some say, that the house needs and considers unworthy. She was passed over.
 
-[[Category:Characters]]
+{{House Ashbourne}}
+[[Category:Characters]] [[Category:House Ashbourne]]

@@ -1,4 +1,5 @@
 {{Infobox character|name=Halden|house=[[House Blackthorn]] (in service)|role=Archivist of the Defeat Library|appears=In records — and then, abruptly, not}}
 '''Halden''' was an archivist of [[House Blackthorn]]'s Defeat Library, who compiled every house's defeats across the centuries. His notes stop abruptly, mid-catalogue, and he disappeared. Those who have read the surviving pages say the last entries concern a defeat that does not fit the annals. He is counted among [[The Marginal Notes|the vanished scribes]].
 
-[[Category:Characters]]
+{{House Blackthorn}}
+[[Category:Characters]] [[Category:House Blackthorn]]

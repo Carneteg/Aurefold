@@ -11,10 +11,19 @@ Ravenshade rules from parlors, not throne rooms, and its power is proverbially '
 == The seat ==
 [[Duskport]] is not a fortress but a harbor town the house permeates. Rumor holds that sound travels strangely through the older quarters — '''the Ear Passages''' — architecture, spies, or superstition; the town has never decided.
 
+== Lineage ==
+<div class="ew-family">
+* '''[[Sabra Ravenshade]]''', head of house
+** m. '''[[Emeric Ravenshade]]''', her consort
+*** '''[[Lyra Ravenshade]]''', their daughter and heir
+</div>
+
 == Members (396 A.U.) ==
 * '''[[Sabra Ravenshade]]''' (~44), head of house — the realm's best reader of people; charming, warm, unreadable.
 * '''[[Emeric Ravenshade]]''' (~40), consort.
 * '''[[Lyra Ravenshade]]''' (~22), heir — the house's envoy into the courts of the realm.
 * '''[[Old Corvin]]''' (~70), archivist — loyal to the archive, not the family; he cannot be bought, which frightens everyone.
 
-[[Category:Great Houses]]
+{{House Ravenshade}}
+{{Great Houses}}
+[[Category:Great Houses]] [[Category:House Ravenshade]]

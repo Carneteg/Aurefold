@@ -11,10 +11,19 @@
 == The seat ==
 [[Dawnwatch]] is a forward fortress facing the mountains and the unknown east — built for sallying forth, not for siege: broad gates, everything designed to get riders out fast. From its towers, some nights, there is light or smoke beyond the mountains that no one can explain. Many have gone to look. Not all have returned.
 
+== Lineage ==
+<div class="ew-family">
+* '''[[Roderick Ashbourne]]''', head of house
+** '''[[Isolde Ashbourne]]''', his daughter, passed over
+** '''[[Kael Ashbourne]]''', his son and heir
+</div>
+
 == Members (396 A.U.) ==
 * '''[[Roderick Ashbourne]]''' (~52), head of house — once the realm's most feared rider; twelve Leaps behind him.
 * '''[[Kael Ashbourne]]''' (~26), heir — everything his father once was.
 * '''[[Isolde Ashbourne]]''' (~30), daughter — sharper than her brother, and passed over.
 * '''[[Bran the Unfallen]]''' (~60), weapon-master — has survived more Leaps than anyone living; the nickname is tribute and mockery at once.
 
-[[Category:Great Houses]]
+{{House Ashbourne}}
+{{Great Houses}}
+[[Category:Great Houses]] [[Category:House Ashbourne]]

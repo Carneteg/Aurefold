@@ -1,0 +1,5 @@
+{{Navbox|title=[[File:Sigill ashbourne.png|24px|link=House Ashbourne]] House Ashbourne|above=''We land where we dare.''
+|group1=Seat|list1=[[Dawnwatch]] · [[the Edgelands]]
+|group2=Members (396 A.U.)|list2=[[Roderick Ashbourne]]{{·}} [[Kael Ashbourne]]{{·}} [[Isolde Ashbourne]]{{·}} [[Bran the Unfallen]]
+|group3=Customs & lore|list3=[[The Leap]]{{·}} the Wall of Names
+}}<noinclude>[[Category:Layout templates]]</noinclude>

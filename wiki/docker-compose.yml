@@ -15,6 +15,7 @@ services:
       # - ./config/LocalSettings.emberwold.php:/var/www/html/LocalSettings.emberwold.php
       # - ./config/emberwold_logo.png:/var/www/html/resources/assets/emberwold_logo.png
       # - ./extensions-extra/TemplateStyles:/var/www/html/extensions/TemplateStyles
+      # - ./extensions-extra/Popups:/var/www/html/extensions/Popups
       - ./content:/opt/emberwold/content:ro
       - ./images:/opt/emberwold/images:ro
     depends_on:

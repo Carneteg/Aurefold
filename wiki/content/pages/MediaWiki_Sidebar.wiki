@@ -1,0 +1,16 @@
+* navigation
+** mainpage|Main Page
+** Portal:Houses|The Great Houses
+** Portal:Characters|Characters
+** Portal:Places|Places & Regions
+** Portal:History|History
+** Portal:Culture|Culture & Customs
+** Portal:Mystery|The Unseen & the Riddle
+** Emberwold (series)|The Books
+** Plate I|The Map
+** recentchanges-url|recentchanges
+** randompage-url|randompage
+* wiki
+** Help:Style guide|Style guide
+** Special:Categories|All categories
+** Special:Upload|Upload a file

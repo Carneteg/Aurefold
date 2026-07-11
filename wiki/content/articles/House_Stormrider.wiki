@@ -11,10 +11,19 @@ The one who puts themselves before the body is a disease, not a hero. Stormrider
 == The seat ==
 [[The Hub]] is a ring-shaped complex where all northern roads run in toward an open central field — no wall, only roads. Nothing is built over the Weaving-ground: ''"what is united shall be seen by all."'' The Hub stands on the War of the Unification's battlefield; you find bones and ash when you dig. The house builds atop it deliberately: all unity rests on what was burned.
 
+== Lineage ==
+<div class="ew-family">
+* '''[[Garron, the Binder]]''', the sitting uniter
+** '''[[Una]]''', his daughter and advisor
+''The uniter is chosen by gift, not blood: [[Orrin]] carries the gift, unrelated by blood.''
+</div>
+
 == Members (396 A.U.) ==
 * '''[[Garron, the Binder]]''' (~64), the sitting uniter — united three generations of division; genuinely loved; dying.
 * '''[[Una]]''' (~30), his daughter and advisor — the finest administrator the house has had.
 * '''[[Orrin]]''' (~26) — unrelated by blood, with the binder's gift, and no wish for power.
 * '''[[Katla]]''' (~50) — "the lone voice," who has warned for decades that the house's story of itself is too clean.
 
-[[Category:Great Houses]]
+{{House Stormrider}}
+{{Great Houses}}
+[[Category:Great Houses]] [[Category:House Stormrider]]

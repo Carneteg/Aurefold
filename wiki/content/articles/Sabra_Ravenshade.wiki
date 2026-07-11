@@ -1,4 +1,5 @@
 {{Infobox character|name=Sabra Ravenshade|image=Portrait sabra.jpg|house=[[House Ravenshade]]|role=Head of house|age=~44|kin=[[Emeric Ravenshade]] (consort), [[Lyra Ravenshade]] (daughter)|seat=[[Duskport]]}}
 '''Sabra Ravenshade''' is head of [[House Ravenshade]] and the realm's best reader of people: charming, warm, unreadable. She knows precisely what she is worth, enjoys the work, and — her rivals note with unease — sleeps well.
 
-[[Category:Characters]]
+{{House Ravenshade}}
+[[Category:Characters]] [[Category:House Ravenshade]]

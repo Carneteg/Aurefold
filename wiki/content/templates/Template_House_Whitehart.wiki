@@ -1,0 +1,5 @@
+{{Navbox|title=[[File:Sigill whitehart.png|24px|link=House Whitehart]] House Whitehart|above=''Icke jag.''
+|group1=Seat|list1=[[The Bell of Silence (seat)|The Bell of Silence]] · [[the Light Heights]]
+|group2=Members (396 A.U.)|list2=[[Mother Alaine]]{{·}} [[Sela]]{{·}} [[Brother Tomas]]
+|group3=Customs & lore|list3=[[The Called]]{{·}} the Vigil{{·}} the griffes
+}}<noinclude>[[Category:Layout templates]]</noinclude>

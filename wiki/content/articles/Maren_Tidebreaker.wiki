@@ -1,4 +1,5 @@
 {{Infobox character|name=Maren Tidebreaker|epithet=Sea-Reverend|image=Portrait maren.jpg|house=[[House Tidebreaker]]|role=Head of house; cartographer|age=~55|words=All can be known. Nothing needs to be owned.|seat=[[the Wave-Reader]]}}
 '''Sea-Reverend Maren Tidebreaker''' is the realm's foremost cartographer: she decides what is drawn, and what is left blank. Ask her a hard question and she answers with a counter-question — or with another, generously shared truth.
 
-[[Category:Characters]]
+{{House Tidebreaker}}
+[[Category:Characters]] [[Category:House Tidebreaker]]

@@ -1,0 +1,5 @@
+{{Navbox|title=[[File:Sigill tidebreaker.png|24px|link=House Tidebreaker]] House Tidebreaker|above=''All can be known. Nothing needs to be owned.''
+|group1=Seat|list1=[[the Wave-Reader]] · [[the Shards]]
+|group2=Members (396 A.U.)|list2=[[Maren Tidebreaker]]{{·}} [[Espen Tidebreaker]]{{·}} [[Quartermaster Sunniva]]{{·}} [[Scribe Alf]]
+|group3=Customs & lore|list3=the Chart Hall{{·}} the Deep Archive{{·}} the empty chair
+}}<noinclude>[[Category:Layout templates]]</noinclude>

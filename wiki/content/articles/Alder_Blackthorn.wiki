@@ -1,4 +1,5 @@
 {{Infobox character|name=Alder Blackthorn|house=[[House Blackthorn]]|role=Head of house|age=~58|kin=[[Wren Blackthorn]], [[Corin Blackthorn]] (children)}}
 '''Alder Blackthorn''' is head of [[House Blackthorn]] and the most skilled living tactician in [[the Banner-lands]] — a man who can reveal five weaknesses in any plan, including every one of his own. He treats his children as students. The realm has noticed that the house's most brilliant plans, under Alder, have a way of arriving finished a season after they were needed.
 
-[[Category:Characters]]
+{{House Blackthorn}}
+[[Category:Characters]] [[Category:House Blackthorn]]

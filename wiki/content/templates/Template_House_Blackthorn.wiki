@@ -1,0 +1,5 @@
+{{Navbox|title=[[File:Sigill blackthorn.png|24px|link=House Blackthorn]] House Blackthorn|above=''We see the winter in the summer.''
+|group1=Seat|list1=[[Thorn Hall]] · [[the Thornland]]
+|group2=Members (396 A.U.)|list2=[[Alder Blackthorn]]{{·}} [[Wren Blackthorn]]{{·}} [[Corin Blackthorn]]{{·}} [[Maeve Torn]]{{·}} [[Halden]]
+|group3=Customs & lore|list3=[[The eleventh house]] (the impossible defeat)
+}}<noinclude>[[Category:Layout templates]]</noinclude>

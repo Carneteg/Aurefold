@@ -1,4 +1,5 @@
 {{Infobox character|name=Espen Tidebreaker|house=[[House Tidebreaker]]|role=Younger relative|age=~26}}
 '''Espen Tidebreaker''' was raised in the Deep Archive and has read what the others do not read through. He recites from scrolls mid-conversation, as if the text itself should settle the matter. He does not understand how one can own a truth and stay silent — which, his elders would say, is exactly why the Archive has keepers.
 
-[[Category:Characters]]
+{{House Tidebreaker}}
+[[Category:Characters]] [[Category:House Tidebreaker]]

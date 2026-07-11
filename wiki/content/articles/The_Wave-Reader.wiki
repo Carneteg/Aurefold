@@ -1,3 +1,4 @@
 {{Infobox place|name=The Wave-Reader|type=Seat of [[House Tidebreaker]]|region=[[the Shards]], facing [[the Sleeping Sea]]|house=[[House Tidebreaker]]|notable=The Chart Hall; the Deep Archive; the lighthouse that faces the wrong way}}
 '''The Wave-Reader''' is an archipelago of knowledge on the outermost of [[the Shards]]. In '''the Chart Hall''' the same coastline is drawn twelve ways, none marked correct. Below the waterline lie the caves of '''the Deep Archive''', where the oldest scrolls are kept. The house's ships bear no sigil on their sails — a flag is an opinion, and opinions sink ships — and its '''lighthouse faces the wrong way''': out over the empty sea.
-[[Category:Places]]
+{{House Tidebreaker}}
+[[Category:Places]] [[Category:House Tidebreaker]]

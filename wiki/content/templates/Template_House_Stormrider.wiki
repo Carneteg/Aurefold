@@ -1,0 +1,5 @@
+{{Navbox|title=[[File:Sigill stormrider.png|24px|link=House Stormrider]] House Stormrider|above=''Many horses, one hoof.''
+|group1=Seat|list1=[[the Hub]] · [[the Expanses]]
+|group2=Members (396 A.U.)|list2=[[Garron, the Binder]]{{·}} [[Una]]{{·}} [[Orrin]]{{·}} [[Katla]]
+|group3=Customs & lore|list3=[[The Weaving]]
+}}<noinclude>[[Category:Layout templates]]</noinclude>

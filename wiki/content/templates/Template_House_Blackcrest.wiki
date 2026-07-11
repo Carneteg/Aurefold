@@ -1,0 +1,5 @@
+{{Navbox|title=[[File:Sigill blackcrest.png|24px|link=House Blackcrest]] House Blackcrest|above=''He who writes, remembers.''
+|group1=Seat|list1=[[Crown-watch]] · edge of [[the Ash Fields]]
+|group2=Members (396 A.U.)|list2=[[Aldous Blackcrest]]{{·}} [[Vaela Blackcrest]]{{·}} [[Aunt Merida]]{{·}} [[Herald Perrin]]
+|group3=Customs & lore|list3=[[The Clean Page]]{{·}} [[Chronicle of Victory]]{{·}} the Ash Urns
+}}<noinclude>[[Category:Layout templates]]</noinclude>

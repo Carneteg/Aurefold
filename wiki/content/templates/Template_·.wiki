@@ -1,0 +1,1 @@
+<span class="ew-dot">&nbsp;·&#32;</span><noinclude>Separator dot for navbox lists. [[Category:Layout templates]]</noinclude>
