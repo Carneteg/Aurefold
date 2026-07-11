@@ -1,4 +1,4 @@
-{{Infobox faction|name=House Stormrider|philosophy=Unity|image=Portrait garron.jpg|caption=Garron, the Binder|sigil=Interwoven reins — a braided line binding ten strands. The only sigil that depicts a bond, not a creature|words=Many horses, one hoof.|seat=[[the Hub]]|region=[[the Expanses]], on the northern rim of [[the Ash Fields]]|head=[[Garron, the Binder]]|figures=[[Una]], [[Orrin]], [[Katla]]}}
+{{Infobox faction|name=House Stormrider|philosophy=Unity|image=Sigill stormrider.png|caption=The sigil of House Stormrider|sigil=Interwoven reins — a braided line binding ten strands. The only sigil that depicts a bond, not a creature|words=Many horses, one hoof.|seat=[[the Hub]]|region=[[the Expanses]], on the northern rim of [[the Ash Fields]]|head=[[Garron, the Binder]]|figures=[[Una]], [[Orrin]], [[Katla]]}}
 '''House Stormrider''' is the house of '''unity''': the only enemy is division. A single person is nothing, a divided host less than nothing, but a united body cannot be defeated — only dissolved from within. Stormrider sees itself as a healer, not a conqueror; outsiders see a horde.
 
 == Philosophy and reputation ==

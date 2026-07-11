@@ -1,4 +1,4 @@
-{{Infobox faction|name=House Ravenshade|philosophy=Information|sigil=A raven in profile against a setting sun, one eye in shadow; dark and silver|words=We hear what the silence says.|seat=[[Duskport]]|region=[[the Sleep Coast]]|head=[[Sabra Ravenshade]]|heir=[[Lyra Ravenshade]]|figures=[[Emeric Ravenshade]], [[Old Corvin]]}}
+{{Infobox faction|name=House Ravenshade|philosophy=Information|image=Sigill ravenshade.png|caption=The sigil of House Ravenshade|sigil=A raven in profile against a setting sun, one eye in shadow; dark and silver|words=We hear what the silence says.|seat=[[Duskport]]|region=[[the Sleep Coast]]|head=[[Sabra Ravenshade]]|heir=[[Lyra Ravenshade]]|figures=[[Emeric Ravenshade]], [[Old Corvin]]}}
 '''House Ravenshade''' is the house of '''information''': he who knows most needs least. The house sees the realm as a web of secrets, debts, and desires — pull the right thread and an entire house moves. Its craft is to be indispensable: everyone else has more to lose from Ravenshade's fall than to gain from its success.
 
 == Philosophy and reputation ==

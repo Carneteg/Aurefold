@@ -88,9 +88,7 @@ in `Category:Development`.
 
 ## Known gaps (deliberate)
 
-- **House sigil images**: the sigils are described in every infobox (canon text)
-  but the `sigill_*.png` pack isn't in the asset repo yet — upload via
-  `Special:Upload` and add `|image=Sigill whitehart.png` to each house infobox.
+|image=Sigill whitehart.png` to each house infobox.
 - The logo (`config/emberwold_logo.png`) is a generated placeholder.
 - `Development:` is a plain page prefix, not a real namespace; if the section
   grows, register a proper namespace in `LocalSettings.emberwold.php`.

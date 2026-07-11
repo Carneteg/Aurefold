@@ -1,4 +1,4 @@
-{{Infobox faction|name=House Blackthorn|philosophy=Intellect|sigil=A thorn branch snaring and choking a sword, dark on a pale field|words=We see the winter in the summer.|seat=[[Thorn Hall]]|region=[[the Thornland]]|head=[[Alder Blackthorn]]|heir=[[Wren Blackthorn]]|figures=[[Corin Blackthorn]], [[Maeve Torn]]}}
+{{Infobox faction|name=House Blackthorn|philosophy=Intellect|image=Sigill blackthorn.png|caption=The sigil of House Blackthorn|sigil=A thorn branch snaring and choking a sword, dark on a pale field|words=We see the winter in the summer.|seat=[[Thorn Hall]]|region=[[the Thornland]]|head=[[Alder Blackthorn]]|heir=[[Wren Blackthorn]]|figures=[[Corin Blackthorn]], [[Maeve Torn]]}}
 '''House Blackthorn''' is the house of '''intellect''': he who thinks further wins over he who strikes harder. The battle is won before it is fought; patience is the highest virtue, and to be surprised is the only true shame.
 
 == Philosophy and reputation ==

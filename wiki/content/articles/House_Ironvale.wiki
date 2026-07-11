@@ -1,4 +1,4 @@
-{{Infobox faction|name=House Ironvale|philosophy=Innovation|image=Portrait halvard.jpg|caption=Master Halvard at the forge|sigil=An anvil wrapped in a single flame, crossed by hammer and tongs; molten orange on iron-gray|words=What we cannot rebuild owns us.|motto=We build tomorrow while you mourn yesterday.|seat=[[Forge Gap]]|region=[[the Ore Valleys]]|head=[[Master Halvard]]|heir=[[Senna Ironvale]]|figures=[[Old Ferrin]], [[Doran]]}}
+{{Infobox faction|name=House Ironvale|philosophy=Innovation|image=Sigill ironvale.png|caption=The sigil of House Ironvale|sigil=An anvil wrapped in a single flame, crossed by hammer and tongs; molten orange on iron-gray|words=What we cannot rebuild owns us.|motto=We build tomorrow while you mourn yesterday.|seat=[[Forge Gap]]|region=[[the Ore Valleys]]|head=[[Master Halvard]]|heir=[[Senna Ironvale]]|figures=[[Old Ferrin]], [[Doran]]}}
 '''House Ironvale''' is the house of '''innovation''' — the only house that does not believe in preservation. What worked yesterday is already obsolete; the only sanctity is improvement, and whoever does better deserves power over whoever merely inherited.
 
 == Philosophy and reputation ==

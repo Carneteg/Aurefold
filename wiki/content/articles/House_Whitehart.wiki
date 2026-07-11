@@ -1,4 +1,4 @@
-{{Infobox faction|name=House Whitehart|philosophy=Faith|image=Portrait alaine.jpg|caption=Mother Alaine at the griffes|sigil=A white hart in profile, head lowered — not in submission: listening. White on bone-white|words=Icke jag. ("I, not" — "not I.")|seat=[[The Bell of Silence (seat)|the Bell of Silence]]|region=[[the Light Heights]]|head=[[Mother Alaine]]|figures=[[Sela]] (the Called), [[Brother Tomas]] (the Tester)}}
+{{Infobox faction|name=House Whitehart|philosophy=Faith|image=Sigill whitehart.png|caption=The sigil of House Whitehart|sigil=A white hart in profile, head lowered — not in submission: listening. White on bone-white|words=Icke jag. ("I, not" — "not I.")|seat=[[The Bell of Silence (seat)|the Bell of Silence]]|region=[[the Light Heights]]|head=[[Mother Alaine]]|figures=[[Sela]] (the Called), [[Brother Tomas]] (the Tester)}}
 '''House Whitehart''' is the house of '''faith''': true authority does not come from the one who leads but ''through'' them. The leader is not a ruler but a vessel. Whitehart believes the dead are not gone, only silent — and that whoever learns to listen can hear them.
 
 == Philosophy and reputation ==

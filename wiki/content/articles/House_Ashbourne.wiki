@@ -1,4 +1,4 @@
-{{Infobox faction|name=House Ashbourne|philosophy=Courage|sigil=A leaping stag in midair over an abyss, all hooves off the ground; gold on deep red|words=We land where we dare.|seat=[[Dawnwatch]]|region=[[the Edgelands]]|head=[[Roderick Ashbourne]]|heir=[[Kael Ashbourne]]|figures=[[Isolde Ashbourne]], [[Bran the Unfallen]]}}
+{{Infobox faction|name=House Ashbourne|philosophy=Courage|image=Sigill ashbourne.png|caption=The sigil of House Ashbourne|sigil=A leaping stag in midair over an abyss, all hooves off the ground; gold on deep red|words=We land where we dare.|seat=[[Dawnwatch]]|region=[[the Edgelands]]|head=[[Roderick Ashbourne]]|heir=[[Kael Ashbourne]]|figures=[[Isolde Ashbourne]], [[Bran the Unfallen]]}}
 '''House Ashbourne''' is the house of '''courage''': hesitation is the only true loss. Strike first, hardest, without waiting for the perfect moment — an enemy forced to react has already lost. Power is momentum, and courage is contagious.
 
 == Philosophy and reputation ==

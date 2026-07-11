@@ -44,9 +44,8 @@ They appear automatically on the house cards (`houses.html`) and in the
 map's record card. Missing files are hidden — no placeholder is shown.
 Square images work best.
 
-The `sigill_`-prefixed names from the sigil pack also work as-is
-(`sigill_blackthorn.png`, `sigill_whitehart.png`, …) — the site tries the
-plain name first and falls back to the `sigill_` name automatically.
+All ten sigils are in place (web-sized from the canon pack in the Emberworld
+repo). The `sigill_`-prefixed originals also work as a fallback naming.
 
 ## Character portraits
 
