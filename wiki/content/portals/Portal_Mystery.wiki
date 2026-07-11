@@ -1,0 +1,9 @@
+{{Box|title=The unseen, and the riddle|content=
+Emberwold is a world of '''mystic realism''': magic — if it exists — is nearly invisible and always ambiguous. Was it magic, chance, or myth? The sources never decide, and neither does this wiki.
+
+* [[The unseen]] — how the ten houses face what cannot be measured
+* [[The eleventh house]] — the miscount that survived four hundred years
+* [[Chronicle of Victory]] · [[Ash Fragments]] · [[The Songs]] · [[The Marginal Notes]] — the four voices that never agree
+<categorytree mode="pages">The unseen</categorytree>
+}}
+[[Category:Portals]]

@@ -1,0 +1,10 @@
+{{Infobox character|name=Brother Tomas|epithet=the Tester|image=Portrait tomas.jpg|house=[[House Whitehart]]|role=The house's Tester of [[The Called|Called]] ones|age=~45|words=Icke jag.|appears=''[[The Bell of Silence]]''}}
+'''Brother Tomas''' is [[House Whitehart]]'s Tester — the office that must expose false [[The Called|Called]] ones. Learned and conscientious, he came to the office not from hunger for power but from love of the house.
+
+He tests by listening longer than anyone can bear: a mild question, and then silence, until the tested one fills it. He takes notes during every testing — not on what is said, but on what the tested one does with the silence — and burns them afterward, per the house's law: no one may read how a verdict came to be.
+
+{{Quote|I cannot prove that you hear. No one can. I can only see if you're lying — and that is not the same question. God have mercy on us both.|Brother Tomas, at a testing}}
+
+He must soon test [[Sela]].
+
+[[Category:Characters]]

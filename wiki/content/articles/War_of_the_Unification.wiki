@@ -1,0 +1,14 @@
+{{Infobox artifact|name=The War of the Unification|type=War — the founding event|age=Ended year 0 A.U.|sources=[[Chronicle of Victory]]; [[Ash Fragments]]; [[The Songs]]}}
+The war that ended the old world has '''three names''', and which one a speaker uses tells you which record they trust:
+
+* '''The War of the Unification''' — the official name, from the [[Chronicle of Victory]]; solemnly, ''the Great Unification''. "Unification" makes a war sound like a merger.
+* '''The War of the Eleven Banners''' — the people's name, from [[The Songs]]: people remember ''eleven'' banners on the battlefield, not ten. A miscount that survived, spoken openly in every tavern, while the official record counts ten.
+* '''The Divided Fire''' — the suppressed name, from the [[Ash Fragments]], which describe not a defense against an outside enemy but a ''civil war''.
+
+Before the war there were no Ten Houses — only fractured principalities, cities, and clans fighting over the same exhausted land. The war swept the entire known world and left a single victory: on the cooling ground of [[the Ash Fields]], the lords of the war swore the [[Ash Oath]] and divided the land, the duty, and the grief among them.
+
+The sources disagree about who won, and that is the record's oldest wound: the official version counts ''eleven leaders'' who united against an outside enemy and then founded the ''Ten'' Houses. The miscount is the scar.<ref>See [[The eleventh house]].</ref>
+
+== References ==
+<references />
+[[Category:History]] [[Category:Events]]

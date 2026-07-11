@@ -1,0 +1,12 @@
+{{Infobox place|name=Ederhamn · Elvestad · Ederstad|type=The seat of power|region=[[The Ash Fields]]|notable=Neutral; no single house's capital; keeps the [[Ash Oath]] and the [[Chronicle of Victory]]|sources=All four — and they disagree}}
+'''The seat of power''' of [[the Banner-lands]] lies at the center of [[the Ash Fields]] and bears '''three conflicting names'''. Like the war that made it, the difference between the names is itself a clue, and no version is confirmed.
+
+* '''Ederhamn''' — the official form, in the [[Chronicle of Victory]]: "the oath-haven," from ''eder'' (oath). An awkward detail the official texts never explain: the city lies inland, yet is called a ''haven''. A haven for what?
+* '''Elvestad''' — the people's name, in [[The Songs]]: glossed as "river-town," though no river of consequence exists. A children's rhyme counts ''"…to Elvestad, where the eleventh prayed."''<ref>Translator's note: the clue lives in the sound of the word itself. The Swedish ''elve-'' echoes ''elva'' — eleven — against the official count of ten. The three names are the only names in the canon that are never translated.</ref>
+* '''Ederstad''' — the oldest attested spelling, appearing only in burned fragments. A marginal scribe wrote: ''"Ederstad, not -hamn. The name was changed. Ask why an inland city was named a haven."'' That scribe is among [[The Marginal Notes|the vanished]].
+
+The city is neutral ground: no single house owns the center. Here the [[Ash Oath]] is kept and the [[Chronicle of Victory]] guarded.
+
+== References ==
+<references />
+[[Category:Places]]

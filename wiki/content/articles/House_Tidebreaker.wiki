@@ -1,0 +1,21 @@
+{{Infobox faction|name=House Tidebreaker|philosophy=Knowledge|image=Portrait maren.jpg|caption=Sea-Reverend Maren in the Chart Hall|sigil=A compass rose whose north needle points toward an undrawn coast, over a partly blank sea chart; sea-blue and parchment-white|words=All can be known. Nothing needs to be owned.|motto=The sea hides nothing from one who sails long enough.|seat=[[the Wave-Reader]]|region=[[the Shards]]|head=[[Maren Tidebreaker]]|figures=[[Espen Tidebreaker]], [[Quartermaster Sunniva]], [[Scribe Alf]]}}
+'''House Tidebreaker''' is the house of '''knowledge''': the realm's explorers, cartographers, star-readers, linguists, and collectors — not for power or trade, but for knowledge itself. Which is exactly what makes them strangely powerless: a house that collects everything and wants to own nothing builds a library, not a kingdom.
+
+== Philosophy and reputation ==
+Precision over conviction: rather ''"there are three versions"'' than ''"this is how it was."'' A Tidebreaker child is considered mature once it can retell a story three ways — as it was told, as it may have been, and as it will come to be misunderstood. The realm's most respected advisors and least feared opponents.
+
+== Customs ==
+* '''The empty chair''' — at every meal, for the ships that haven't returned.
+* '''The Exchange of Words''' — hospitality is paid for with a story, a map, or a new word. Never gold.
+* '''Never burn a page''' — even proven false stories are preserved: "the lie tells something true about the liar."
+
+== The seat ==
+[[The Wave-Reader]] is not a fortress but an archipelago of knowledge on the outermost of [[the Shards]], facing [[the Sleeping Sea]]. In '''the Chart Hall''', the same coastline is drawn twelve ways and none is marked correct. Below the waterline lie the caves of '''the Deep Archive''', where the oldest scrolls are kept; few have access, fewer have read them through. And the house's lighthouse faces the wrong way — not toward the harbor but out over the empty sea, as if calling home what never comes back. No one remembers who lit it.
+
+== Members (396 A.U.) ==
+* '''[[Maren Tidebreaker]]''' (~55), head of house — the realm's foremost cartographer; she decides what is drawn, and what is left blank.
+* '''[[Espen Tidebreaker]]''' (~26) — raised in the Deep Archive; reads what others do not read through.
+* '''[[Quartermaster Sunniva]]''' (~48) — sole survivor of the expedition that sailed farthest into the Sleeping Sea. She has spoken almost not at all since. Her final chart was never drawn.
+* '''[[Scribe Alf]]''' (~40) — copies everything faithfully, reads nothing through.
+
+[[Category:Great Houses]]

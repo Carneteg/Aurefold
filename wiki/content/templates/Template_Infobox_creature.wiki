@@ -1,0 +1,7 @@
+<templatestyles src="Template:Infobox/styles.css" /><table class="ew-infobox">
+<tr><td colspan="2" class="ew-infobox-title">{{{name|{{PAGENAME}}}}}</td></tr>
+{{#if:{{{image|}}}|<tr><td colspan="2" class="ew-infobox-image">[[File:{{{image}}}|260px]]</td></tr>}}
+{{#if:{{{kind|}}}|<tr><th>Kind</th><td>{{{kind}}}</td></tr>}}
+{{#if:{{{range|}}}|<tr><th>Range</th><td>{{{range}}}</td></tr>}}
+{{#if:{{{status|}}}|<tr><th>Attested</th><td>{{{status}}}</td></tr>}}
+</table><noinclude>Creature infobox (reserved — the canon has no bestiary yet). [[Category:Infobox templates]]</noinclude>

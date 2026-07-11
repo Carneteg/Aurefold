@@ -1,0 +1,18 @@
+Years in [[the Banner-lands]] are counted in '''A.U.''' — ''after the Unification''. The present of the series is '''396 A.U.'''
+
+{| class="wikitable"
+! Year (A.U.) !! Event !! Core
+|-
+| 0 || [[War of the Unification]] ends; the [[Ash Oath]] || The war ends; the victors seal a pact dividing land, titles, and responsibility. The number of seals on the original pact — ten, or eleven? — is the realm's deepest riddle.
+|-
+| 3–4 || [[The Silent Year]] || An unnaturally empty window in the chronicles. An absence of ''permitted'' events, not of events themselves.
+|-
+| ~40–70 || The Sundering of the Ten Philosophies || The founders dead; the children inherit houses without a soul. The philosophies crystallize through concrete crises — they are ''won'', not given.
+|-
+| ~120–150 || The First Betrayal || The first time one house turns against another after the Unification. The pact proves fragile. The first whispers of an [[The eleventh house|eleventh house]].
+|-
+| ~200–250 || The Age of Chronicles || The writing of history becomes institutionalized; the conflicting official versions are produced. [[House Blackcrest]] decisive.
+|-
+| 396 || The threshold of the present || The order appears stable, but every crack is an open wound. [[The 400-year jubilee]] looms, four years off.
+|}
+[[Category:History]]

@@ -1,0 +1,12 @@
+{{Infobox place|name=The Ash Fields|type=Region — the heartland|region=Center of [[the Banner-lands]]|notable=Site of the decisive battle and the [[Ash Oath]]; the land burned for three days and is gray to this hour|sources=[[Chronicle of Victory]] (prologue account); [[Ash Fragments]]}}
+'''The Ash Fields''' are the heartland of [[the Banner-lands]]: a fertile, densely populated plain at the center of the continent, and the gray scar at the center of its history.
+
+In the last year of the [[War of the Unification]], the plain burned from the morning to the third day, ''"and when the burning was done the land itself was gray, and is called the Ash Fields to this hour."''<ref>[[Chronicle of Victory]], the swearing-account kept at [[Crown-watch]].</ref> On the cooling ground the lords of the war swore the [[Ash Oath]].
+
+An uncomfortable truth follows from the geography: the battle was fought in the most densely populated region, not in wilderness — whatever happened at the Unification happened in full public view. And still the record disagrees with itself.
+
+No single house owns the center. [[House Blackcrest]] watches it from [[Crown-watch]] on its edge; [[House Stormrider]]'s [[the Hub|Hub]] touches its northern rim and pointedly does not claim it; [[House Phoenix]] builds on the burnt ground of [[the Burnt Road]] to its south. The center itself stays neutral, kept by all ten.
+
+== References ==
+<references />
+[[Category:Places]] [[Category:Regions]]

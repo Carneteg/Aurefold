@@ -1,0 +1,29 @@
+'''The unseen''' is what the people of [[the Banner-lands]] call magic — when they dare call it anything. In Emberwold the supernatural is nearly invisible and always ambiguous: every strange event has at least two sustainable explanations, and neither the sources nor this wiki decide between them. Was it magic, chance, or myth?
+
+No one can use the unseen on command; nothing repeats; whoever believes they have mastered it is mistaken or lucky — and doesn't know which. Its only certain power is what belief does to people.
+
+== The houses and the unseen ==
+{| class="wikitable"
+! House !! Stance
+|-
+| [[House Whitehart]] (faith) || Embraces fully; state-sustaining miracles. Most dangerous to deceive.
+|-
+| [[House Ravenshade]] (information) || Cynical use; wields the people's faith as a weapon.
+|-
+| [[House Blackcrest]] (history) || Edits; chooses which signs are remembered.
+|-
+| [[House Tidebreaker]] (knowledge) || Investigates; collects the inexplicable.
+|-
+| [[House Blackthorn]] (intellect) || Publicly dismisses; quietly exploits the opponent's belief.
+|-
+| [[House Phoenix]] (future) || Despises it as superstition; would rather build it themselves.
+|-
+| [[House Stonebear]] (honor) || Respects it as sacred; rarely speaks of it.
+|-
+| [[House Stormrider]] (unity) || Shared signs as a unifying ritual.
+|-
+| [[House Ashbourne]] (courage) || Defies omens — ignoring them is a test of courage.
+|-
+| [[House Ironvale]] (innovation) || Wants to measure and reproduce it. Always fails.
+|}
+[[Category:The unseen]]

@@ -1,0 +1,32 @@
+{{Gate}}
+This page tracks the development document '''"Rawness & Mortality"''' (10 July 2026, revision 2, keyed to Lore Bible v26.5) — gate material on death, brutality, and mortality in the Emberwold books. '''Nothing here is canon until it passes the author's gate.''' The full document lives in the project repository.
+
+== The method (rules 1–13, gate-ready) ==
+Violence traces to a philosophy applied completely; the mystery makes the choice unjudgeable; the body and grief are real while the explanation stays uncertain; no executioners — institutions kill through procedure, consensus, weather, and stillness; every victim has a name and mourners; every house gets to be right; every significant death does at least two kinds of work; the shock test; sexuality changes power or stays offstage; '''the elevens stay frozen'''; ordinary death outnumbers political, political outnumbers mythic; the sources carry the brutality; and brutality never solves the mystery.
+
+== Final gate list (rev. 2) ==
+{| class="wikitable"
+! Item !! Status !! Recommendation
+|-
+| Rawness rules (incl. rule 13) || Gate-ready || Approve
+|-
+| Giving-Back (revised) || Revised canon candidate || Approve after review
+|-
+| Merta and Col (clarified) || Gate-ready || Approve
+|-
+| Grave package (revised, local-first) || Revised canon candidate || Approve after review
+|-
+| Named Pass Compact death || Canon candidate || Approve
+|-
+| Ratio background facts || Canon candidate || Approve
+|-
+| Bell death || Too early || Hold
+|-
+| Character complicity matrix || Scene options || Do not canonize
+|-
+| Sela death consequence (ch. 9, option A) || Chapter option, chosen || Confirm before drafting
+|}
+
+Nothing enters the Bible without the author's yes.
+
+[[Category:Development]]

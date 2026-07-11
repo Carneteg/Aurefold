@@ -1,0 +1,3 @@
+<templatestyles src="Template:Quote/styles.css" /><blockquote class="ew-quote">{{{1|{{{text|}}}}}}{{#if:{{{2|{{{source|}}}}}}|<div class="ew-quote-source">— {{{2|{{{source|}}}}}}</div>}}</blockquote><noinclude>
+Quotation block. <code>{{Quote|text|source}}</code>
+[[Category:Layout templates]]</noinclude>

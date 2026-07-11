@@ -1,0 +1,21 @@
+.ew-infobox {
+  float: right; clear: right;
+  width: 280px;
+  margin: 0 0 1em 1.2em;
+  border: 1px solid #a83a12;
+  border-radius: 6px;
+  background: #eaddbf;
+  font-size: 92%;
+}
+.ew-infobox .ew-infobox-title {
+  background: #2b211a; color: #ffb347;
+  font-family: Georgia, serif; font-size: 118%;
+  text-align: center; padding: 0.35em 0.5em;
+  border-radius: 5px 5px 0 0; letter-spacing: 0.05em;
+}
+.ew-infobox .ew-infobox-sub { text-align: center; font-style: italic; padding: 0.2em 0.5em; color: #7c5b33; }
+.ew-infobox .ew-infobox-image { text-align: center; padding: 0.4em; }
+.ew-infobox .ew-infobox-image img { max-width: 260px; height: auto; border: 1px solid #cbb894; }
+.ew-infobox th { text-align: left; vertical-align: top; padding: 0.25em 0.5em; width: 38%; color: #a83a12; }
+.ew-infobox td { vertical-align: top; padding: 0.25em 0.5em; }
+@media (max-width: 640px) { .ew-infobox { float: none; width: auto; margin: 0 0 1em; } }

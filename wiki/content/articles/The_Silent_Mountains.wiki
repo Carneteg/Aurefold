@@ -1,0 +1,11 @@
+{{Infobox place|name=The Silent Mountains|type=Mountain range|region=East and north of [[the Banner-lands]]|notable=The wall where the known world ends; beyond it, rumors of "the houseless"|sources=[[Plate I]]; the Atlas of the Banner-lands}}
+'''The Silent Mountains''' are one enormous system, not several: they run the eastern edge of the known world and bend along the northern rim into the far northwest. Beyond them lies an unknown inland of which the realm holds only rumors — of ''"the houseless."''
+
+Three houses live on three different stretches of the same wall, and share the wall, not the address:
+* '''[[House Ashbourne]]''' at the eastern edge, facing the unknown, from [[Dawnwatch]] — the only house whose people have crossed eastward.
+* '''[[House Stonebear]]''' at the northeastern foot, holding roads and oaths, from [[Oath-hold]].
+* '''[[House Whitehart]]''' in the high northwestern bend, in the cold valleys of [[the Light Heights]], listening toward the mountains from [[The Bell of Silence (seat)|the Bell of Silence]].
+
+Ashbourne builds sallying-forts against the mountains; Whitehart builds ears.
+
+[[Category:Places]]

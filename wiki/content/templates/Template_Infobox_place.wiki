@@ -1,0 +1,9 @@
+<templatestyles src="Template:Infobox/styles.css" /><table class="ew-infobox">
+<tr><td colspan="2" class="ew-infobox-title">{{{name|{{PAGENAME}}}}}</td></tr>
+{{#if:{{{type|}}}|<tr><td colspan="2" class="ew-infobox-sub">{{{type}}}</td></tr>}}
+{{#if:{{{image|}}}|<tr><td colspan="2" class="ew-infobox-image">[[File:{{{image}}}|260px]]{{#if:{{{caption|}}}|<br /><small>{{{caption}}}</small>}}</td></tr>}}
+{{#if:{{{region|}}}|<tr><th>Region</th><td>{{{region}}}</td></tr>}}
+{{#if:{{{house|}}}|<tr><th>House</th><td>{{{house}}}</td></tr>}}
+{{#if:{{{notable|}}}|<tr><th>Notable for</th><td>{{{notable}}}</td></tr>}}
+{{#if:{{{sources|}}}|<tr><th>In the sources</th><td>{{{sources}}}</td></tr>}}
+</table><noinclude>Place infobox. Params: name, type, image, caption, region, house, notable, sources. [[Category:Infobox templates]]</noinclude>

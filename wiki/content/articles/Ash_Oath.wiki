@@ -1,0 +1,12 @@
+{{Infobox artifact|name=The Ash Oath|type=Pact — the founding document|keeper=Kept at [[The seat of power|the seat of power]]|age=Sworn year 0 A.U.|sources=[[Chronicle of Victory]] (the swearing-account); scholars' reports on the wax}}
+The '''Ash Oath''' is the founding pact of [[the Banner-lands]], sworn in the ash of the burned battlefield at the end of the [[War of the Unification]]. It divided land, titles, and responsibility among the Great Houses, and the peace it sealed has held — by one measure or another — for four hundred years, save four.
+
+{{Quote|And the ten Great Houses pressed their seals into the wax of one pact, which is the Ash Oath, and divided the land and the duty and the grief among them… ten seals, as the houses are ten, as they have always been ten.|the [[Chronicle of Victory]], the swearing-account kept at [[Crown-watch]]}}
+
+The pact bears '''ten seals — some say eleven.''' Scholars who have examined it report the wax much damaged by the centuries: the seals crowd one another at the foot of the page, overlapping, the outermost broken at the edge, so that an honest eye cannot be certain where one impression ends and the ash-stains begin. Ten seals, says the Chronicle, and the Chronicle is the record. Some say eleven. ''They are not the sort of people one cites.''
+
+One old, water-marked copy of the Chronicle carries a line of another hand in the margin, small and without flourish, beside the final sentence. The hand has never been identified. The note reads: '''''Count the seals.'''''
+
+== References ==
+<references />
+[[Category:History]] [[Category:Sources and texts]]

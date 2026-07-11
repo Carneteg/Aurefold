@@ -1,0 +1,9 @@
+<templatestyles src="Template:Infobox/styles.css" /><table class="ew-infobox">
+<tr><td colspan="2" class="ew-infobox-title">{{{name|{{PAGENAME}}}}}</td></tr>
+{{#if:{{{type|}}}|<tr><td colspan="2" class="ew-infobox-sub">{{{type}}}</td></tr>}}
+{{#if:{{{image|}}}|<tr><td colspan="2" class="ew-infobox-image">[[File:{{{image}}}|260px]]</td></tr>}}
+{{#if:{{{keeper|}}}|<tr><th>Keeper</th><td>{{{keeper}}}</td></tr>}}
+{{#if:{{{location|}}}|<tr><th>Location</th><td>{{{location}}}</td></tr>}}
+{{#if:{{{age|}}}|<tr><th>Age</th><td>{{{age}}}</td></tr>}}
+{{#if:{{{sources|}}}|<tr><th>In the sources</th><td>{{{sources}}}</td></tr>}}
+</table><noinclude>Artifact/document infobox. Params: name, type, image, keeper, location, age, sources. [[Category:Infobox templates]]</noinclude>

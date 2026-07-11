@@ -1,0 +1,12 @@
+.ew-main { display: flex; flex-wrap: wrap; gap: 1.2em; align-items: flex-start; }
+.ew-main-left { flex: 2 1 480px; min-width: 300px; }
+.ew-main-right { flex: 1 1 260px; min-width: 260px; }
+.ew-portals { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5em; }
+.ew-portal {
+  display: block; text-align: center; padding: 0.7em 0.3em;
+  background: #2b211a; color: #ffb347 !important;
+  border: 1px solid #a83a12; border-radius: 6px;
+  font-family: Georgia, serif; font-size: 96%;
+}
+.ew-portal:hover { background: #3a2b20; box-shadow: 0 0 10px rgba(226,87,30,.4); }
+.ew-portals a { text-decoration: none !important; }

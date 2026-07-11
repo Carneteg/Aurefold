@@ -1,0 +1,20 @@
+.ew-box { margin: 0 0 1.2em; }
+.ew-box-tab {
+  display: inline-block;
+  background: #2b211a;
+  color: #ffb347;
+  font-family: Georgia, serif;
+  font-size: 108%;
+  letter-spacing: 0.06em;
+  padding: 0.25em 1.1em;
+  border: 1px solid #a83a12;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 -2px 10px rgba(226,87,30,.25) inset;
+}
+.ew-box-body {
+  border: 1px solid #a83a12;
+  border-radius: 0 6px 6px 6px;
+  background: rgba(255,255,255,0.25);
+  padding: 0.7em 1em;
+}

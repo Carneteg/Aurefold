@@ -1,0 +1,7 @@
+<templatestyles src="Template:Box/styles.css" /><div class="ew-box"><div class="ew-box-tab">{{{title|Untitled}}}</div><div class="ew-box-body">
+{{{content|}}}
+</div></div><noinclude>
+The Main Page section box: a rounded heading tab on a thin-bordered body.
+* <code>title</code> — the tab text
+* <code>content</code> — the box body (wikitext)
+[[Category:Layout templates]]</noinclude>

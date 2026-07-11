@@ -1,0 +1,16 @@
+{{Box|title=The people of Emberwold|content=
+The faces of the houses in the year 396 A.U. — recorded here without judgement, as the archive requires.
+
+'''House Whitehart:''' [[Sela]] · [[Brother Tomas]] · [[Mother Alaine]]<br />
+'''House Blackthorn:''' [[Alder Blackthorn]] · [[Wren Blackthorn]]<br />
+'''House Ashbourne:''' [[Roderick Ashbourne]] · [[Kael Ashbourne]] · [[Isolde Ashbourne]]<br />
+'''House Ravenshade:''' [[Sabra Ravenshade]] · [[Lyra Ravenshade]]<br />
+'''House Stormrider:''' [[Garron, the Binder]] · [[Una]] · [[Orrin]] · [[Katla]]<br />
+'''House Ironvale:''' [[Master Halvard]] · [[Senna Ironvale]]<br />
+'''House Blackcrest:''' [[Aldous Blackcrest]] · [[Vaela Blackcrest]]<br />
+'''House Stonebear:''' [[Reverend Torvald]] · [[Rurik Stonebear]] · [[Ser Alba]]<br />
+'''House Tidebreaker:''' [[Maren Tidebreaker]] · [[Espen Tidebreaker]]<br />
+'''House Phoenix:''' [[Signe Phoenix]] · [[Idun Phoenix]]
+<categorytree mode="pages">Characters</categorytree>
+}}
+[[Category:Portals]]

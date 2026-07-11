@@ -1,0 +1,20 @@
+{{Infobox faction|name=House Ironvale|philosophy=Innovation|image=Portrait halvard.jpg|caption=Master Halvard at the forge|sigil=An anvil wrapped in a single flame, crossed by hammer and tongs; molten orange on iron-gray|words=What we cannot rebuild owns us.|motto=We build tomorrow while you mourn yesterday.|seat=[[Forge Gap]]|region=[[the Ore Valleys]]|head=[[Master Halvard]]|heir=[[Senna Ironvale]]|figures=[[Old Ferrin]], [[Doran]]}}
+'''House Ironvale''' is the house of '''innovation''' — the only house that does not believe in preservation. What worked yesterday is already obsolete; the only sanctity is improvement, and whoever does better deserves power over whoever merely inherited.
+
+== Philosophy and reputation ==
+The realm calls them "craftsmen with delusions of grandeur"; Ironvale calls the realm "museum keepers." Status in Forge Gap is only as fresh as your latest work: a master who has improved nothing in years falls in rank. The realm's best steel, bellows, bridge-vaults, and plowshares come out of the Ore Valleys — and, its neighbors note, so does everyone else's next war.
+
+== Customs ==
+* '''The Presentation''' — everyone brings their latest work before the house; the only question asked is: ''does it improve anything?'' Whoever presents the same thing unchanged is silenced.
+* '''The child at the bellows''' — children learn in the workshop, not the schoolroom: "do it better than last time," never "this is how it's done."
+
+== The seat ==
+[[Forge Gap]] is a working valley — a deep, smoky ravine where the ore veins surface and the rapids drive bellows and hammers around the clock. No building stands untouched for a generation; there are no ruins in Forge Gap, only half-finished things. Its pride is '''the Eternal Forge''', a furnace said never to have gone out since the Unification — true, or quietly relit every night? The house insists on good maintenance. Its treasury is '''the Drafting Hall''' — and every drawing in it, sooner or later, leaks.
+
+== Members (396 A.U.) ==
+* '''[[Master Halvard]]''' (~58), head of house — the house's finest engineer in generations; trusts only what can be repeated.
+* '''[[Senna Ironvale]]''' (~27), heir — fastest and boldest of her generation, with a heretical thought: some things should not be rebuilt.
+* '''[[Old Ferrin]]''' (~70), the eldest master — claims he once built something extraordinary, and destroyed it after a single use. No one believes him. The drawing is not in the Drafting Hall.
+* '''[[Doran]]''' (~40) — the founder-master who sells; the house would starve without him and is copied because of him.
+
+[[Category:Great Houses]]

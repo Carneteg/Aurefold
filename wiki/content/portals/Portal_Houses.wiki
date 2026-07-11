@@ -1,0 +1,28 @@
+{{Box|title=The Ten Great Houses|content=
+Each house embodies a philosophy of leadership, and each philosophy has a price. ''Which would you follow?''
+{| class="wikitable"
+! House !! Philosophy !! Seat !! Region
+|-
+| [[House Blackthorn]] || Intellect || [[Thorn Hall]] || [[the Thornland]]
+|-
+| [[House Ravenshade]] || Information || [[Duskport]] || [[the Sleep Coast]]
+|-
+| [[House Ashbourne]] || Courage || [[Dawnwatch]] || [[the Edgelands]]
+|-
+| [[House Whitehart]] || Faith || [[The Bell of Silence (seat)|the Bell of Silence]] || [[the Light Heights]]
+|-
+| [[House Stormrider]] || Unity || [[the Hub]] || [[the Expanses]] / northern rim of [[the Ash Fields]]
+|-
+| [[House Ironvale]] || Innovation || [[Forge Gap]] || [[the Ore Valleys]]
+|-
+| [[House Blackcrest]] || The victor's history || [[Crown-watch]] || edge of [[the Ash Fields]]
+|-
+| [[House Stonebear]] || Honor || [[Oath-hold]] || foot of [[the Silent Mountains]]
+|-
+| [[House Tidebreaker]] || Knowledge || [[the Wave-Reader]] || [[the Shards]]
+|-
+| [[House Phoenix]] || The future || [[New-Ash]] || [[the Burnt Road]]
+|}
+<categorytree mode="pages">Great Houses</categorytree>
+}}
+[[Category:Portals]]

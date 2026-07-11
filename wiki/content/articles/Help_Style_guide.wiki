@@ -1,0 +1,19 @@
+== Writing for the Emberwold wiki ==
+* '''The historian's voice.''' Where the sources disagree, the disagreement is kept. Never resolve an open riddle — not the seal count, not the seat of power's true name, not whether the unseen is real.
+* '''Spoiler discipline.''' This is a public, reader-facing wiki. Character secrets, book plot events, and anything from [[:Category:Development]] do not go into canon articles.
+* '''The elevens are frozen.''' Do not add new eleven-motifs anywhere. The existing set (the banners, the rhyme, Elvestad, the seal count, the eleventh Shard, the Weaving whisper) is complete.
+* '''No real-world models.''' The houses' historical inspirations are never named or hinted at.
+
+== Creating an article ==
+# Search for the title; click the red link, or use the URL <code>/index.php?title=Your_Title&action=edit</code>.
+# Start with the right infobox: {{tl|Infobox character}}, {{tl|Infobox faction}}, {{tl|Infobox place}}, {{tl|Infobox artifact}}, {{tl|Infobox creature}}.
+# Bold the subject in the first sentence; link generously with <code><nowiki>[[Internal links]]</nowiki></code>.
+# End with categories: <code><nowiki>[[Category:Characters]]</nowiki></code> etc. See [[:Category:Emberwold]] for the tree.
+# Quotes use {{tl|Quote}}; scaffolded filler is marked {{tl|Placeholder}}; development material is marked {{tl|Gate}}.
+
+== Creating a template ==
+Create a page in the <code>Template:</code> namespace. Give it its own CSS with a <code>styles.css</code> subpage and <code><nowiki><templatestyles src="Template:Name/styles.css" /></nowiki></code>. Document parameters inside <code><nowiki><noinclude></nowiki></code>.
+
+== Creating a category ==
+Add <code><nowiki>[[Category:New name]]</nowiki></code> to any page, then click the red category link and describe it. Parent it under an existing category.
+[[Category:Emberwold]]

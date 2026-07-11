@@ -1,0 +1,13 @@
+<templatestyles src="Template:Infobox/styles.css" /><table class="ew-infobox">
+<tr><td colspan="2" class="ew-infobox-title">{{{name|{{PAGENAME}}}}}</td></tr>
+{{#if:{{{philosophy|}}}|<tr><td colspan="2" class="ew-infobox-sub">{{{philosophy}}}</td></tr>}}
+{{#if:{{{image|}}}|<tr><td colspan="2" class="ew-infobox-image">[[File:{{{image}}}|260px]]{{#if:{{{caption|}}}|<br /><small>{{{caption}}}</small>}}</td></tr>}}
+{{#if:{{{sigil|}}}|<tr><th>Sigil</th><td>{{{sigil}}}</td></tr>}}
+{{#if:{{{words|}}}|<tr><th>House words</th><td>''{{{words}}}''</td></tr>}}
+{{#if:{{{motto|}}}|<tr><th>Open motto</th><td>''{{{motto}}}''</td></tr>}}
+{{#if:{{{seat|}}}|<tr><th>Seat</th><td>{{{seat}}}</td></tr>}}
+{{#if:{{{region|}}}|<tr><th>Region</th><td>{{{region}}}</td></tr>}}
+{{#if:{{{head|}}}|<tr><th>Head (396 A.U.)</th><td>{{{head}}}</td></tr>}}
+{{#if:{{{heir|}}}|<tr><th>Heir</th><td>{{{heir}}}</td></tr>}}
+{{#if:{{{figures|}}}|<tr><th>Key figures</th><td>{{{figures}}}</td></tr>}}
+</table><noinclude>Faction/house infobox. Params: name, philosophy, image, caption, sigil, words, motto, seat, region, head, heir, figures. [[Category:Infobox templates]]</noinclude>

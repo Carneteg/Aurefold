@@ -1,0 +1,6 @@
+{{Infobox artifact|name=Plate I|type=Map — general chart|image=Fanlanden map.jpg|keeper=Drawn after the charts of the Wave-Reader archive|age=Year 396 A.U.|sources=The Atlas of the Banner-lands, English edition}}
+'''Plate I''' — ''the Banner-lands, general chart'' — is the canonical map of the known world, drawn after the charts of the Wave-Reader archive in the year 396 A.U. Its motto is the series' own: ''"The map ends where the truth begins."''
+
+The plate follows the Wave-Reader rule: the rivers are drawn but never named ("draw the water, omit the quarrel"), and where the sources disagree, the disagreement is drawn. A scale bar notes: ''a hundred leagues, more or less — no two charts agree.''
+
+[[Category:Sources and texts]]

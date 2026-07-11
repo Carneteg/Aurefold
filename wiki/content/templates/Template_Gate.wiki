@@ -1,0 +1,1 @@
+<templatestyles src="Template:Placeholder/styles.css" /><div class="ew-notice ew-gate">'''Development material — NOT CANON.''' Nothing on this page has passed the author's gate. It may contradict published canon and may contain '''spoilers for future books'''. See [[:Category:Development]].</div><noinclude>[[Category:Notice templates]]</noinclude>

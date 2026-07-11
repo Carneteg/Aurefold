@@ -1,0 +1,22 @@
+{{Infobox faction|name=House Blackcrest|philosophy=The victor's history|image=Portrait aldous.jpg|caption=Chronicler Aldous among the chained books|sigil=An open book whose right-hand page is ink-dark, above it a quill that also reads as a sword; purple and gold on black|words=He who writes, remembers.|motto=The sword wins the day. The pen wins every day to come.|seat=[[Crown-watch]]|region=Edge of [[the Ash Fields]]|head=[[Aldous Blackcrest]]|heir=[[Vaela Blackcrest]]|figures=[[Aunt Merida]], [[Herald Perrin]]}}
+'''House Blackcrest''' is the house of '''the victor's history''': its power rests not on sword, ore, courage, or unity but on ''the story of what happened''. It keeps the [[Chronicle of Victory]], and thereby the right to decide what is remembered.
+
+== Philosophy and reputation ==
+The realm's historians, archivists, heralds, and jurists. The most influential and most despised house at once: every house scorns Blackcrest for arriving late and reaping glory — and every house has, at some point, quietly commissioned a mercy from it: a page made beautiful, an ancestor's disgrace phrased into dignity, a defeat that reads as a withdrawal. Their despisers are their clients.
+
+Its defenders make a case that is hard to dismiss: the Chronicle is the realm's second peace. The first was won with swords and would not have held a decade; what held it was a story everyone could live inside.
+
+== Customs ==
+* '''[[The Clean Page]]''' — before an important chronicle entry, everything is first written: every version, every contradiction. Then it is burned, and a single clean version is entered into the permanent book. The ash is kept in urns. House doctrine, spoken to every novice: ''"The Clean Page is not made of lies — it is made of true things, chosen."''
+* '''The two truths''' — Blackcrest children learn early to keep apart ''what happened'' and ''what is to be said to have happened''. Keeping them apart without confusing them is the house's highest art.
+
+== The seat ==
+[[Crown-watch]] is a fortress-city on the edge of [[the Ash Fields]], built to watch over memory, not defend land. Its heart is a library: the innermost room holds the [[Chronicle of Victory|Permanent Book]] itself. Rumor speaks of pages sewn shut, and of years near the Unification that are oddly thin. Along its galleries stand '''the Ash Urns''' — rows of urns holding the ash of everything burned out of history. No one may open an urn. No one remembers what the oldest ones contain.
+
+== Members (396 A.U.) ==
+* '''[[Aldous Blackcrest]]''' (~61), head of house — the realm's chief historian, keeper of the Permanent Book.
+* '''[[Vaela Blackcrest]]''' (~28), heir — the house's sharpest young historian, whose favorite question is the one the house never answers.
+* '''[[Aunt Merida]]''' (~74) — once the Chronicle's keeper, now withdrawn; drops fragments found in no official source.
+* '''[[Herald Perrin]]''' (~45) — foremost in converting raw events into stories that serve the peace.
+
+[[Category:Great Houses]]

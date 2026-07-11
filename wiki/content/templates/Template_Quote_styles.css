@@ -1,0 +1,8 @@
+.ew-quote {
+  margin: 0.8em 2em;
+  padding: 0.4em 1em;
+  border-left: 3px solid #e2571e;
+  background: rgba(226,87,30,0.06);
+  font-style: italic;
+}
+.ew-quote-source { text-align: right; font-style: normal; font-size: 92%; color: #7c5b33; }

@@ -1,0 +1,57 @@
+/* EMBERWOLD — ember/glow theme for Vector 2022.
+   Sooty ground, parchment reading surface, glowing ember accents. */
+
+:root {
+  --ew-soot: #191210;
+  --ew-soot-2: #241a15;
+  --ew-parchment: #f2e7cf;
+  --ew-parchment-2: #eaddbf;
+  --ew-ink: #2b211a;
+  --ew-ember: #e2571e;
+  --ew-ember-deep: #a83a12;
+  --ew-glow: #ffb347;
+  --ew-line: #cbb894;
+}
+
+/* ground */
+body, .mw-page-container { background: var(--ew-soot) !important; }
+.mw-page-container-inner, .vector-header-container .mw-header,
+.vector-main-menu, .vector-page-toolbar { background: transparent; }
+
+/* reading surface */
+.mw-body, .vector-body { background: var(--ew-parchment); color: var(--ew-ink); }
+.mw-body { border: 1px solid #3a2b20; border-radius: 4px; box-shadow: 0 0 24px rgba(226, 87, 30, 0.12); }
+
+/* headings — fantasy serif with ember underline */
+.mw-body h1, .mw-body h2, .mw-body h3, .mw-body h4,
+.mw-body-header .firstHeading {
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  color: var(--ew-ember-deep);
+  letter-spacing: 0.03em;
+}
+.mw-body h2 { border-bottom: 2px solid var(--ew-ember); }
+.mw-body-header .firstHeading { color: var(--ew-glow); text-shadow: 0 0 12px rgba(226,87,30,.5); }
+
+/* header chrome text on soot */
+.vector-header-container, .vector-header-container a,
+.vector-main-menu a, .vector-page-toolbar a, .vector-menu-tabs a { color: #d8c6a6 !important; }
+.vector-header-container a:hover, .vector-menu-tabs a:hover { color: var(--ew-glow) !important; }
+
+/* links */
+.mw-body a { color: var(--ew-ember-deep); }
+.mw-body a:visited { color: #7c3a1a; }
+.mw-body a.new { color: #9c2b12; }
+
+/* tables & toc */
+.mw-body .wikitable { background: var(--ew-parchment-2); border: 1px solid var(--ew-line); }
+.mw-body .wikitable th { background: #e0d0a8; color: var(--ew-ink); }
+#toc, .toc, .vector-toc { background: var(--ew-parchment-2); border: 1px solid var(--ew-line); }
+
+/* thumbnails */
+.mw-body .thumbinner { background: var(--ew-parchment-2); border-color: var(--ew-line); }
+
+/* categories strip */
+.catlinks { background: var(--ew-parchment-2); border: 1px solid var(--ew-line); }
+
+/* main page: hide "Main Page" heading */
+.page-Main_Page .firstHeading, .page-Main_Page #siteSub { display: none; }

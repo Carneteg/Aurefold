@@ -1,0 +1,13 @@
+<templatestyles src="Template:Infobox/styles.css" /><table class="ew-infobox">
+<tr><td colspan="2" class="ew-infobox-title">{{{name|{{PAGENAME}}}}}</td></tr>
+{{#if:{{{epithet|}}}|<tr><td colspan="2" class="ew-infobox-sub">{{{epithet}}}</td></tr>}}
+{{#if:{{{image|}}}|<tr><td colspan="2" class="ew-infobox-image">[[File:{{{image}}}|260px]]{{#if:{{{caption|}}}|<br /><small>{{{caption}}}</small>}}</td></tr>}}
+{{#if:{{{house|}}}|<tr><th>House</th><td>{{{house}}}</td></tr>}}
+{{#if:{{{role|}}}|<tr><th>Role</th><td>{{{role}}}</td></tr>}}
+{{#if:{{{born|}}}|<tr><th>Born</th><td>{{{born}}}</td></tr>}}
+{{#if:{{{age|}}}|<tr><th>Age (396 A.U.)</th><td>{{{age}}}</td></tr>}}
+{{#if:{{{seat|}}}|<tr><th>Seat</th><td>{{{seat}}}</td></tr>}}
+{{#if:{{{kin|}}}|<tr><th>Kin</th><td>{{{kin}}}</td></tr>}}
+{{#if:{{{words|}}}|<tr><th>Words</th><td>''{{{words}}}''</td></tr>}}
+{{#if:{{{appears|}}}|<tr><th>Appears in</th><td>{{{appears}}}</td></tr>}}
+</table><noinclude>Character infobox. Params: name, epithet, image, caption, house, role, born, age, seat, kin, words, appears. [[Category:Infobox templates]]</noinclude>

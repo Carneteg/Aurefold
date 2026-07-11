@@ -1,0 +1,50 @@
+<templatestyles src="Template:Main Page/styles.css" />
+<div class="ew-main">
+<div class="ew-main-left">
+{{Box|title=Featured article|content=
+[[File:Portrait sela.jpg|140px|left|link=Sela]]
+'''[[House Whitehart]]''' keeps the [[The Bell of Silence (seat)|Bell of Silence]] in the high, silent valleys of [[the Light Heights]], where the dead rest in open niches so that their voices may carry. It is the house of '''faith''': true authority, Whitehart holds, does not come from the one who leads but ''through'' them. Its leaders are not born but '''[[The Called|Called]]''' — anyone may hear the voice of the dead and rise, and anyone may claim to, which is the house's glory and its poison. In the year 396 A.U. the house is led by [[Mother Alaine]], its verdicts are weighed by [[Brother Tomas]], the Tester — and in the outer valleys a goatherd named [[Sela]] has heard something no one can verify.<ref>''The Chronicle of Victory'' records none of this; Whitehart burns its trial records by law. What is known of the house's inner life is known from the Songs and from testimony.</ref>
+
+''[[House Whitehart|Read more…]]'' — ''[[Portal:Houses|other featured houses]]''
+}}
+{{Box|title=Featured quotes|content=
+{{Quote|The map ends where the truth begins.|motto of [[Plate I]]}}
+{{Quote|Count the seals.|a marginal note in an old copy of the [[Chronicle of Victory]], hand unknown}}
+{{Quote|A word is the only stone that holds.|the words of [[House Stonebear]]}}
+}}
+{{Box|title=Did you know…|content=
+* …that the [[Ash Oath]] bears '''ten seals — some say eleven'''?
+* …that an old children's rhyme counts ''"…eight, nine, ten, and one who left"'' — so that children count to eleven without knowing it?
+* …that the [[The seat of power|seat of power]] is called '''Ederhamn''' in the Chronicle, '''Elvestad''' in the Songs, and '''Ederstad''' in the oldest, burned fragments — and that no one can say why an inland city is named a ''haven''?
+* …that the great bell of [[House Whitehart]] has '''no clapper''', yet the old ones swear it tolls in still air?
+* …that [[House Tidebreaker]]'s lighthouse does not shine toward the harbor, but ''out over the [[the Sleeping Sea|Sleeping Sea]]'', as if calling home what never comes back?
+* …that the rivers of the [[the Banner-lands|Banner-lands]] are deliberately '''unnamed''' — "draw the water, omit the quarrel"?
+}}
+{{Box|title=References|content=<references />}}
+</div>
+<div class="ew-main-right">
+{{Box|title=Explore Emberwold|content=<div class="ew-portals">
+[[Portal:Houses|<span class="ew-portal">🏰<br />The Great Houses</span>]]
+[[Portal:Characters|<span class="ew-portal">👤<br />Characters</span>]]
+[[Portal:Places|<span class="ew-portal">🗺️<br />Places &amp; Regions</span>]]
+[[Portal:History|<span class="ew-portal">📜<br />History</span>]]
+[[Portal:Culture|<span class="ew-portal">🕯️<br />Culture &amp; Customs</span>]]
+[[Portal:Mystery|<span class="ew-portal">🔥<br />The Unseen &amp; the Riddle</span>]]
+[[Emberwold (series)|<span class="ew-portal">📖<br />The Books</span>]]
+[[:Category:Sources and texts|<span class="ew-portal">🖋️<br />Sources &amp; Texts</span>]]
+</div>}}
+{{Box|title=About Emberwold|content=
+'''Emberwold''' is a low-fantasy series in mystic realism by the author of ''[[The Bell of Silence]]''. Ten Great Houses have ruled the [[the Banner-lands|Banner-lands]] since the [[War of the Unification]] ended four hundred years ago — and each house is less a family than a philosophy of leadership. The question the books ask is never ''which house is good''. It is: '''which house would you follow?'''
+
+This wiki documents the world in the historian's voice: ''where the sources disagree, the disagreement is kept.''
+}}
+{{Box|title=Contributing|content=
+This wiki grows with the books. Start with the [[Help:Style guide|style guide]], then use the article templates:
+* {{tl|Infobox character}} · {{tl|Infobox faction}} · {{tl|Infobox place}}
+* Quotes with {{tl|Quote}}, section boxes with {{tl|Box}}
+* Mark scaffolded filler with {{tl|Placeholder}}
+Nothing from [[:Category:Development]] may be cited as canon.
+}}
+</div>
+</div>
+__NOTOC__ __NOEDITSECTION__
