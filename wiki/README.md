@@ -25,15 +25,17 @@ docker compose up -d          # starts MediaWiki (port 8080) + MariaDB
    ```php
    require_once "$IP/LocalSettings.emberwold.php";
    ```
-4. In `docker-compose.yml`, **uncomment the four volume lines** (LocalSettings ×2, the logo, and the vendored TemplateStyles extension), then:
+4. Run the upgrade script — it mounts the config and the vendored extensions
+   (via a generated `docker-compose.override.yml`), restarts the app, runs the
+   database migrations, and imports all content:
    ```bash
-   docker compose up -d --force-recreate mediawiki
+   ./upgrade.sh Admin        # your admin username
    ```
-5. Import all content (pages, templates, theme, images):
-   ```bash
-   ./import.sh Admin        # your admin username
-   ```
-6. Open http://localhost:8080 and hard-refresh (Ctrl+Shift+R). Done.
+5. Open http://localhost:8080 and hard-refresh (Ctrl+Shift+R). Done.
+
+**Updating later** (after a `git pull` that changes content, config, or
+extensions): just run `./upgrade.sh Admin` again — it re-applies everything
+and updates existing pages in place.
 
 > Verified end-to-end: this exact flow was run against `mediawiki:lts` (1.43) —
 > the import script promotes your admin to `interface-admin` (needed for
