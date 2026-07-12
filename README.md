@@ -15,7 +15,12 @@ the folder with any static file server (works as-is on GitHub Pages).
 | `map.html` | Interactive chart of the Banner-lands with every house seat (pan, zoom, click a seal) |
 | `world.html` | The world of the Banner-lands, in the archive's voice |
 | `characters.html` | The Faces — the people of Book One |
-| `history.html` | Development record: *Rawness & Mortality* (gate material — not canon; contains spoilers and eleven-references, so it sits outside the public pages' canon guardrails) |
+| `read.html` | From the pages — two complete pieces from Book One: *The Trial of the Goatherd* and Chapter Two, *The Morning After* |
+| `history.html` | In-world history: the reckoning of years, the War of the Unification, the Ash Oath, a timeline of the four centuries, and the four records |
+
+The *Rawness & Mortality* development document no longer appears on the
+public site (it is writing method, not story); it lives on as the gated
+`Development:Rawness and Mortality` page in the MediaWiki (`wiki/`).
 
 ## Structure
 
