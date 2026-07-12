@@ -7,7 +7,12 @@
   if (!root || !cfg.supabaseUrl) return;
 
   var API = cfg.supabaseUrl + "/rest/v1";
-  var HEADERS = { apikey: cfg.supabaseKey, "Content-Type": "application/json" };
+  // Authorization mirrors apikey so PostgREST resolves the anon role reliably.
+  var HEADERS = {
+    apikey: cfg.supabaseKey,
+    Authorization: "Bearer " + cfg.supabaseKey,
+    "Content-Type": "application/json"
+  };
 
   // One anonymous voter id per browser (never sent anywhere except the vote row).
   function voterId() {
@@ -38,9 +43,17 @@
     return fetchJson(API + "/poll_results?select=poll_id,option_id,votes", { headers: HEADERS });
   }
   function castVote(pollId, optionId) {
+    // return=minimal is required: voters may insert a vote but may not read
+    // it back, so asking PostgREST to return the row would fail the request.
+    var postHeaders = {
+      apikey: HEADERS.apikey,
+      Authorization: HEADERS.Authorization,
+      "Content-Type": "application/json",
+      Prefer: "return=minimal"
+    };
     return fetchJson(API + "/votes", {
       method: "POST",
-      headers: HEADERS,
+      headers: postHeaders,
       body: JSON.stringify({ poll_id: pollId, option_id: optionId, voter: voterId() })
     });
   }

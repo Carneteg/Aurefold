@@ -91,8 +91,9 @@ If the file is removed, the section hides itself.
 `vote.html` is backed by a small database (Supabase project **emberwold-site**,
 `akboesleczddqdikjzbw`, Stockholm region, free tier — dashboard at
 https://supabase.com/dashboard/project/akboesleczddqdikjzbw). The key in
-`data/community.js` is a *publishable* key — safe in a public site; the
-database's row-level security is what decides permissions:
+`data/community.js` is the *anon* key (a JWT with `role=anon` baked in) —
+safe in a public site; the database's row-level security is what decides
+permissions:
 
 - anyone can read polls and **aggregated** results;
 - anyone can cast **one vote per poll per browser** (enforced by a per-browser
@@ -111,6 +112,13 @@ insert into poll_options (poll_id, id, label, detail, sort) values
 
 **Close a poll:** `update polls set open = false where id = 'my-poll';`
 (Closed polls stop accepting votes immediately and disappear from the page.)
+
+**Where voting works:** on the hosted site (any static HTTPS host — GitHub
+Pages, Netlify, Cloudflare Pages). It does **not** work in the Claude
+artifact preview (its security sandbox blocks all external requests, so the
+Moot there is read-only) and may not work from a `file://` double-click
+(browsers block cross-origin `fetch` from local files). Serve the folder over
+http(s) and voting is live.
 
 ## Follow & support
 
