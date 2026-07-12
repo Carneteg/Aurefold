@@ -17,6 +17,8 @@ the folder with any static file server (works as-is on GitHub Pages).
 | `characters.html` | The Faces — the people of Book One |
 | `read.html` | From the pages — two complete pieces from Book One: *The Trial of the Goatherd* and Chapter Two, *The Morning After* |
 | `history.html` | In-world history: the reckoning of years, the War of the Unification, the Ash Oath, a timeline of the four centuries, and the four records |
+| `vote.html` | **The Moot** — live reader voting (which house would you follow; what the archive opens next) |
+| `support.html` | **Follow & support** — sponsor and follow channels, driven by `data/community.js` |
 
 The *Rawness & Mortality* development document no longer appears on the
 public site (it is writing method, not story); it lives on as the gated
@@ -83,6 +85,40 @@ The front page shows `assets/fanlanden_map.jpg` — a web-sized copy of the
 canonical `fanlanden_map.png` (Release&nbsp;1.1, Emberworld repo) — full-width as
 *"Plate I — the Banner-lands, general chart · 396 A.U."*
 If the file is removed, the section hides itself.
+
+## The Moot (reader voting)
+
+`vote.html` is backed by a small database (Supabase project **emberwold-site**,
+`akboesleczddqdikjzbw`, Stockholm region, free tier — dashboard at
+https://supabase.com/dashboard/project/akboesleczddqdikjzbw). The key in
+`data/community.js` is a *publishable* key — safe in a public site; the
+database's row-level security is what decides permissions:
+
+- anyone can read polls and **aggregated** results;
+- anyone can cast **one vote per poll per browser** (enforced by a per-browser
+  id + a primary key in the database);
+- nobody can read, change, or delete individual votes from the site.
+
+**Add a poll** (SQL editor in the dashboard):
+
+```sql
+insert into polls (id, question, description, open, sort)
+values ('my-poll', 'The question?', 'Optional description.', true, 3);
+insert into poll_options (poll_id, id, label, detail, sort) values
+  ('my-poll', 'a', 'First option', 'Optional detail.', 1),
+  ('my-poll', 'b', 'Second option', '', 2);
+```
+
+**Close a poll:** `update polls set open = false where id = 'my-poll';`
+(Closed polls stop accepting votes immediately and disappear from the page.)
+
+## Follow & support
+
+`support.html` renders only the channels that have a URL in
+`data/community.js` → `support`. Paste your Patreon / Ko-fi / Swish / PayPal /
+newsletter / social links there and the buttons appear; empty strings stay
+hidden and the page shows an honest "being set up" note instead. No payment
+handling happens on the site itself — sponsorship runs through the platforms.
 
 ## Canon guardrails
 

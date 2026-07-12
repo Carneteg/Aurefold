@@ -348,6 +348,54 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
   margin-top: 30px;
 }
 
+/* ------------------------------------------------------------------ the moot (voting) */
+
+.moot-card {
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  padding: 26px 30px 22px;
+  margin-bottom: 40px;
+  max-width: 70ch;
+}
+.moot-desc { font-style: italic; color: var(--accent); margin-bottom: 18px; max-width: 62ch; }
+.moot-options { display: grid; gap: 10px; margin-bottom: 14px; }
+.moot-option {
+  display: block; width: 100%; text-align: left; cursor: pointer;
+  border: 1px solid var(--line); background: var(--bg);
+  padding: 12px 16px; font: inherit; color: var(--ink);
+  transition: border-color 0.15s, background 0.15s;
+}
+.moot-option:hover { border-color: var(--ember); background: var(--bg-deep); }
+.moot-option:disabled { opacity: 0.5; cursor: wait; }
+.moot-option-label { display: block; letter-spacing: 0.06em; }
+.moot-option-detail { display: block; font-size: 0.88rem; font-style: italic; color: var(--accent); margin-top: 2px; }
+.moot-peek {
+  background: none; border: none; padding: 0; font: inherit;
+  color: var(--accent); font-style: italic; font-size: 0.9rem;
+  cursor: pointer; text-decoration: underline;
+}
+.moot-peek:hover { color: var(--ember); }
+.moot-note { color: var(--accent); font-style: italic; font-size: 0.92rem; margin-top: 10px; }
+.moot-result { margin-bottom: 12px; }
+.moot-result-head { display: flex; justify-content: space-between; gap: 12px; font-size: 0.95rem; }
+.moot-result-label { letter-spacing: 0.04em; }
+.moot-result.chosen .moot-result-label { color: var(--ember); }
+.moot-result-count { color: var(--accent); font-size: 0.88rem; white-space: nowrap; }
+.moot-bar { height: 8px; background: var(--bg-deep); border: 1px solid var(--line); margin-top: 4px; }
+.moot-bar-fill { height: 100%; background: var(--ember); transition: width 0.4s ease; }
+
+/* ------------------------------------------------------------------ support */
+
+.support-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; margin: 8px 0 10px; }
+.support-btn {
+  display: block; border: 1px solid var(--line); background: var(--bg-panel);
+  padding: 16px 18px; text-decoration: none; color: var(--ink);
+  transition: border-color 0.15s, background 0.15s;
+}
+.support-btn:hover { border-color: var(--ember); background: var(--bg-deep); }
+.support-btn-label { display: block; letter-spacing: 0.08em; font-variant: small-caps; }
+.support-btn-detail { display: block; font-size: 0.88rem; font-style: italic; color: var(--accent); margin-top: 3px; }
+
 /* ------------------------------------------------------------------ world */
 
 .world-note {
