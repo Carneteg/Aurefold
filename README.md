@@ -71,12 +71,11 @@ canonical source names are `portrait_<house>_<name>.png`:
 | Master Halvard | `halvard.jpg` | `portrait_ironvale_halvard.png` |
 | Aldous Blackcrest | `aldous.jpg` | `portrait_blackcrest_aldous.png` |
 | Reverend Torvald | `torvald.jpg` | `portrait_stonebear_torvald.png` |
-| Signe Phoenix | `signe.png` — pending | `portrait_phoenix_signe.png` — in the release manifest, not yet uploaded |
+| Signe Phoenix | `signe.jpg` | `portrait_phoenix_signe.png` |
 | Kael / Vaela / Rurik / Ser Alba | — | no portrait in the release yet |
 
 Cards whose file is missing simply hide the portrait slot — no placeholder
-is shown. When Signe's release portrait lands, save a 640&nbsp;px copy as
-`assets/portraits/signe.png` and her card picks it up automatically.
+is shown.
 
 ## The chart plate
 

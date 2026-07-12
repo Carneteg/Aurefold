@@ -1,4 +1,4 @@
-{{Infobox character|name=Signe Phoenix|epithet=Dawnkeeper|house=[[House Phoenix]]|role=Head of house|age=~50|kin=[[Idun Phoenix]] (heir)|words=What burned is fuel. Look forward, never back.|seat=[[New-Ash]]}}
+{{Infobox character|name=Signe Phoenix|epithet=Dawnkeeper|image=Portrait signe.jpg|house=[[House Phoenix]]|role=Head of house|age=~50|kin=[[Idun Phoenix]] (heir)|words=What burned is fuel. Look forward, never back.|seat=[[New-Ash]]}}
 '''Dawnkeeper Signe Phoenix''' is the realm's boldest visionary. She inherited no archive and no prohibition — an empty, ever-rebuilt castle and a single doctrine: build forward. She always speaks in the future tense, and bends even the past into it: ''"what happened matters only once we've decided what it will mean next."'' Pressed about the past, she answers with a plan.
 
 {{House Phoenix}}
