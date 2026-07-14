@@ -328,6 +328,19 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
   .record-list { columns: 1; }
 }
 
+/* ------------------------------------------------------------------ contents (book) */
+
+.contents-list { margin: 6px 0 1.1em 1.6em; max-width: 60ch; }
+.contents-list li { margin-bottom: 6px; letter-spacing: 0.02em; }
+.contents-kind {
+  display: inline-block;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  font-size: 0.78rem;
+  color: var(--accent);
+  margin-right: 8px;
+}
+
 /* ------------------------------------------------------------------ read (prose) */
 
 .story { margin-bottom: 70px; }

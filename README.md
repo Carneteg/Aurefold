@@ -10,12 +10,12 @@ the folder with any static file server (works as-is on GitHub Pages).
 | Page | Contents |
 | --- | --- |
 | `index.html` | Hero, series pitch, Book One announcement, the name, optional chart plate |
-| `book.html` | Book One: *The Bell of Silence* — where it begins, the shape of the book |
+| `book.html` | Book One: *The Bell of Silence* — where it begins, the shape of the finished book (27 chapters, 3 interludes), and a full contents list |
 | `houses.html` | The Ten Great Houses — expandable cards |
 | `map.html` | Interactive chart of the Banner-lands with every house seat (pan, zoom, click a seal) |
 | `world.html` | The world of the Banner-lands, in the archive's voice |
 | `characters.html` | The Faces — the people of Book One |
-| `read.html` | From the pages — two complete pieces from Book One: *The Trial of the Goatherd* and Chapter Two, *The Morning After* |
+| `read.html` | From the pages — the opening of Book One: an excerpt from Chapter One (*The Trial of the Goatherd*) and Chapter Three (*The Morning After*) complete |
 | `history.html` | In-world history: the reckoning of years, the War of the Unification, the Ash Oath, a timeline of the four centuries, and the four records |
 | `vote.html` | **The Moot** — live reader voting (which house would you follow; what the archive opens next) |
 | `support.html` | **Follow & support** — sponsor and follow channels, driven by `data/community.js` |
