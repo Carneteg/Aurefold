@@ -91,6 +91,17 @@ names the page already expects): `fen`, `merta`, `harl`, `perrin`, `wilda`,
 Cards whose file is missing simply hide the portrait slot — no placeholder
 is shown, so the text-only cards render cleanly until the art lands.
 
+## The book cover
+
+`assets/cover_bell_of_silence.jpg` is the **front cover** of Book One, shown
+in the book announcement on `index.html` and `book.html` (styled by
+`.book-cover`). It was extracted from the KDP full-wrap PDF — the front panel
+only, cropped clear of the spine and bleed.
+
+The **back cover** is intentionally not on the site yet: its blurb states that
+"the voice that guided Sela … only points east," which the v27.0 locks forbid
+(the voice is never verified). It goes up once that copy is revised.
+
 ## The chart plate
 
 The front page shows `assets/fanlanden_map.jpg` — a web-sized copy of the

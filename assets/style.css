@@ -159,6 +159,23 @@ h2.section-title {
 .announcement .book-blurb { font-style: italic; max-width: 46ch; margin: 0 auto; }
 .announcement .book-coming { margin-top: 18px; letter-spacing: 0.4em; font-size: 0.85rem; color: var(--ember); }
 
+.book-cover {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  margin: 28px auto 4px;
+  border: 1px solid var(--line);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
+}
+.book-cover-caption {
+  text-align: center;
+  color: var(--accent);
+  font-style: italic;
+  font-size: 0.85rem;
+  margin: 0 auto;
+}
+
 .teasers {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
