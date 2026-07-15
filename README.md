@@ -7,15 +7,21 @@ the folder with any static file server (works as-is on GitHub Pages).
 
 ## Canon source files
 
-> **Authority rule: [`lore-bible.md`](lore-bible.md) (v26) is the sole canon.
-> Anything that contradicts it — older files, older sessions, AI memories,
-> imports — is ignored.**
+> **Authority rule: [`Emberwold_Lore_Bible_v27_0.md`](Emberwold_Lore_Bible_v27_0.md)
+> is the sole canon (v27.0, Book One closure). Anything that contradicts it —
+> older files, older sessions, AI memories, imports — is ignored.**
+
+The site is written to match the **v27.0** apparatus below.
 
 | File | Purpose |
 | --- | --- |
-| [`lore-bible.md`](lore-bible.md) | **The canon.** Version 26 (structural revision + v26.1–v26.3 author decisions). English-primary; era notation A.U. |
-| [`Emberwold_STATUS_NASTA_STEG.md`](Emberwold_STATUS_NASTA_STEG.md) | "Where we left off" — read this first to continue work without restarting. |
-| [`scenes/`](scenes/) | Written prose scenes. Scene texture is **not** bible canon until explicitly entered through the canon gate. |
+| [`Emberwold_Lore_Bible_v27_0.md`](Emberwold_Lore_Bible_v27_0.md) | **The canon.** v27.0 — Book One canon closure; sole authority. |
+| [`Emberwold_STATUS_NEXT_STEPS_v27_0.md`](Emberwold_STATUS_NEXT_STEPS_v27_0.md) | "Read this first" — current state, ordered next steps, and the locked do-not-change list. |
+| [`Emberwold_Project_Overview_v27_0.md`](Emberwold_Project_Overview_v27_0.md) · [`CHANGELOG_v27_0.md`](CHANGELOG_v27_0.md) | Project overview and the v27.0 change log. |
+| [`Emberwold_Book1_Spine_v27_0.md`](Emberwold_Book1_Spine_v27_0.md) · [`Emberwold_Character_Map_v27_0.md`](Emberwold_Character_Map_v27_0.md) · [`Emberwold_Character_Arcs_Book1_v27_0.md`](Emberwold_Character_Arcs_Book1_v27_0.md) | Book One structure, cast, and arcs — the basis for **Book One**, **The Faces**, and **Read**. |
+| [`Emberwold_Image_Index_v27_0.md`](Emberwold_Image_Index_v27_0.md) · [`Emberwold_Character_Atlas_Update_Brief_v27_0.md`](Emberwold_Character_Atlas_Update_Brief_v27_0.md) | Visual-asset status and the atlas rebuild brief. |
+| [`EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md`](EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md) | Prose master (v31). The **Read** excerpts are drawn from it. |
+| `lore-bible.md`, `Emberwold_STATUS_NASTA_STEG.md`, [`scenes/`](scenes/) | **Superseded (v26).** Retained for history; v27.0 above governs where they disagree. |
 
 ## Pages
 
@@ -27,7 +33,7 @@ the folder with any static file server (works as-is on GitHub Pages).
 | `map.html` | Interactive chart of the Banner-lands with every house seat (pan, zoom, click a seal) |
 | `world.html` | The world of the Banner-lands, in the archive's voice |
 | `characters.html` | The Faces — the people of Book One |
-| `read.html` | From the pages — the opening of Book One: an excerpt from Chapter One (*The Trial of the Goatherd*) and Chapter Three (*The Morning After*) complete |
+| `read.html` | From the pages — the opening of Book One: an excerpt from Chapter One (*The Trial of the Goatherd*) and Chapter Two (*The Morning After*) complete |
 | `history.html` | In-world history: the reckoning of years, the War of the Unification, the Ash Oath, a timeline of the four centuries, and the four records |
 | `vote.html` | **The Moot** — live reader voting (which house would you follow; what the archive opens next) |
 | `support.html` | **Follow & support** — sponsor and follow channels, driven by `data/community.js` |
@@ -68,28 +74,22 @@ repo). The `sigill_`-prefixed originals also work as a fallback naming.
 
 ## Character portraits
 
-Portraits live in `assets/portraits/` as web-sized copies (640&nbsp;px) of
-the canon portraits in the Emberworld repo. Since **Release&nbsp;1.1** the
-canonical source names are `portrait_<house>_<name>.png`:
+Portraits live in `assets/portraits/` as web-sized copies (640&nbsp;px),
+named `<name>.jpg` after the card. The Faces page (`characters.html`) now
+leads with the **Book One cast** and keeps the wider Ten-house leadership
+below it, per the v27 character apparatus.
 
-| Card | Site file | Canonical source (Emberworld repo) |
-| --- | --- | --- |
-| Sela | `sela.jpg` | `portrait_whitehart_sela.png` |
-| Brother Tomas | `tomas.jpg` | `portrait_whitehart_tomas.png` |
-| Mother Alaine | `alaine.jpg` | `portrait_whitehart_alaine.png` |
-| Wren Blackthorn | `wren.jpg` | `portrait_blackthorn_wren.png` |
-| Garron, the Binder | `garron.jpg` | `portrait_stormrider_garron.png` |
-| Sabra Ravenshade | `sabra.jpg` | `portrait_ravenshade_sabra.png` |
-| Maren Tidebreaker | `maren.jpg` | `portrait_tidebreaker_maren.png` |
-| Roderick Ashbourne | `roderick.jpg` | `portrait_ashbourne_roderick.png` |
-| Master Halvard | `halvard.jpg` | `portrait_ironvale_halvard.png` |
-| Aldous Blackcrest | `aldous.jpg` | `portrait_blackcrest_aldous.png` |
-| Reverend Torvald | `torvald.jpg` | `portrait_stonebear_torvald.png` |
-| Signe Phoenix | `signe.jpg` | `portrait_phoenix_signe.png` |
-| Kael / Vaela / Rurik / Ser Alba | — | no portrait in the release yet |
+**Present in the repo:** `sela`, `tomas`, `alaine`, `sabra`, `roderick`,
+`garron`, `halvard`, `aldous`, `torvald`, `maren`, `signe` (`wren` is also
+present but no longer placed on the page).
+
+**Book One cast still needing a portrait** (v27 visual debt — the file
+names the page already expects): `fen`, `merta`, `harl`, `perrin`, `wilda`,
+`ivet`, `orla`, `nella`, `roan`, `ottar`, and `alder`. Drop a
+`assets/portraits/<name>.jpg` in and the card picks it up automatically.
 
 Cards whose file is missing simply hide the portrait slot — no placeholder
-is shown.
+is shown, so the text-only cards render cleanly until the art lands.
 
 ## The chart plate
 
