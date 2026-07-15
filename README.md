@@ -5,6 +5,18 @@ Static promotional website for the fantasy series **EMBERWOLD**
 no build step, no external assets. Open `index.html` in a browser, or serve
 the folder with any static file server (works as-is on GitHub Pages).
 
+## Canon source files
+
+> **Authority rule: [`lore-bible.md`](lore-bible.md) (v26) is the sole canon.
+> Anything that contradicts it — older files, older sessions, AI memories,
+> imports — is ignored.**
+
+| File | Purpose |
+| --- | --- |
+| [`lore-bible.md`](lore-bible.md) | **The canon.** Version 26 (structural revision + v26.1–v26.3 author decisions). English-primary; era notation A.U. |
+| [`Emberwold_STATUS_NASTA_STEG.md`](Emberwold_STATUS_NASTA_STEG.md) | "Where we left off" — read this first to continue work without restarting. |
+| [`scenes/`](scenes/) | Written prose scenes. Scene texture is **not** bible canon until explicitly entered through the canon gate. |
+
 ## Pages
 
 | Page | Contents |
