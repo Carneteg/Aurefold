@@ -1,4 +1,4 @@
-# EMBERWOLD — STATUS & NÄSTA STEG
+# AUREFOLD — STATUS & NÄSTA STEG
 
 ## Syfte med denna fil
 **AUKTORITETSREGEL: `lore-bible.md` (v25) är enda kanon. Allt som motsäger den — äldre filer, äldre sessioner, AI-minnen, ChatGPT-import — ignoreras.**
@@ -17,7 +17,7 @@ Detta är "var vi slutade"-dokumentet. Läs detta först för att veta exakt vad
 - STÄDRUNDA: ny projektöversikt (v25-synkad), nytt README med auktoritetsregel, bildindex med hashverifierade dubbletter (radera generatedimage_11 + _13), karaktärsatlas-PDF:en ÅTERSKAPAD från det korrupta arkivet (13 sidor, fungerande fil).
 - SPRÅKBESLUT (v25): ALL kanon — bibel, kartor, atlas, prosa — är nu helengelsk. Tideräkning e.E. → A.U. (after the Unification). DEL → PART. Alla svenska namn, källnamn, händelsenamn och husmotton utbytta mot engelska. TRE BEVARADE UNDANTAG: (1) maktstadens tre namn Ederhamn/Elvestad/Ederstad — översätts aldrig, gåtan bor i ljudet; (2) "Icke jag" — Whiteharts rituella fras, används i den skrivna prövningsscenen; (3) översättarnoterna som förklarar Elvestad-ordvitsen.
 - Engelsk världskarta renderad: Plate I (fanlanden_map.png + redigerbar .svg).
-- Atlas of the Banner-lands, engelsk utgåva, byggd från grunden (emberwold_atlas_banner_lands_EN.pdf; ersätter tidigare fil): omslag + kartplansch + gazetteer i historikerröst.
+- Atlas of the Banner-lands, engelsk utgåva, byggd från grunden (aurefold_atlas_banner_lands_EN.pdf; ersätter tidigare fil): omslag + kartplansch + gazetteer i historikerröst.
 - Kanonsynk v24 (tidigare samma dag): tagline "The map ends where the truth begins" införd i Del 0; Ash Oath-frasen loggad; kart-assets loggade i Del 5B; Navet-spänningen loggad som bevakad tråd i Del 5.
 
 ## v26-beslut (LÅSTA 2026-07-08 — kontinuitetsräcken)
@@ -33,7 +33,7 @@ Detta är "var vi slutade"-dokumentet. Läs detta först för att veta exakt vad
 2. ~~FLODERNA~~ → STÄNGT v26: onamngivna som stående konvention.
 3. ~~DEN ELFTE SKÄRVEN~~ → BESLUTAT v26: behållen; elvorna frysta.
 4. ~~"ICKE JAG"~~ → bekräftad bevarad (v25-undantag står).
-5. BILDINDEX: två LÅG-konfidensposter (Halvard/Signe) bör fortfarande bekräftas visuellt — se Emberwold_Bildindex.md.
+5. BILDINDEX: två LÅG-konfidensposter (Halvard/Signe) bör fortfarande bekräftas visuellt — se Aurefold_Bildindex.md.
 6. RAVENSHADES PATRON: medvetet onämnd — väljs när en bok behöver den (författarbeslut v26.1).
 
 ## Nästa steg & prioriteringar (skrivandet är projektets kärna)

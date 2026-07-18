@@ -1,6 +1,6 @@
 # Thirty Marks in Old Silver
 
-*A scene from Emberwold — House Stonebear, Oath-hold, year 396 A.U.*
+*A scene from Aurefold — House Stonebear, Oath-hold, year 396 A.U.*
 *Ser Alba and Rurik Stonebear, alone in the counting room, with a contract on the table.*
 
 ---

@@ -1,40 +1,46 @@
-# EMBERWOLD — promotional site
+# AUREFOLD — promotional site
 
-Static promotional website for the fantasy series **EMBERWOLD**
+Static promotional website for the fantasy series **AUREFOLD**
 (Book One: *The Bell of Silence*). Plain HTML/CSS/JS — no frameworks,
 no build step, no external assets. Open `index.html` in a browser, or serve
 the folder with any static file server (works as-is on GitHub Pages).
 
 ## Canon source files
 
-> **Authority rule: [`Emberwold_Lore_Bible_v27_0.md`](Emberwold_Lore_Bible_v27_0.md)
-> is the sole canon (v27.0, Book One closure). Anything that contradicts it —
-> older files, older sessions, AI memories, imports — is ignored.**
+> **Naming:** the world and series are **Aurefold** (Canon Lock #001, author
+> decision 18 July 2026 — an editorial change, not an in-world event).
+> *Aurelion* is the ancient pre-House empire and the internal project name,
+> never the world. The retired dev names *Emberwold* / *Vareld* survive only as
+> provenance.
 
-The site is written to match the **v27.0** apparatus below.
+The v27.0 apparatus below is **Emberwold-era canon, renamed to Aurefold and
+retained**. The reboot's live authority — the **Aurefold Constitution / Canon
+Ledger v1.8** and the **Aurefold Book One Reconstruction Map v1.0** — is being
+brought in separately; where it disagrees with these v27 files, it governs.
+The site currently matches the v27.0 apparatus.
 
 | File | Purpose |
 | --- | --- |
-| [`Emberwold_Lore_Bible_v27_0.md`](Emberwold_Lore_Bible_v27_0.md) | **The canon.** v27.0 — Book One canon closure; sole authority. |
-| [`Emberwold_STATUS_NEXT_STEPS_v27_0.md`](Emberwold_STATUS_NEXT_STEPS_v27_0.md) | "Read this first" — current state, ordered next steps, and the locked do-not-change list. |
-| [`Emberwold_Project_Overview_v27_0.md`](Emberwold_Project_Overview_v27_0.md) · [`CHANGELOG_v27_0.md`](CHANGELOG_v27_0.md) | Project overview and the v27.0 change log. |
-| [`Emberwold_Book1_Spine_v27_0.md`](Emberwold_Book1_Spine_v27_0.md) · [`Emberwold_Character_Map_v27_0.md`](Emberwold_Character_Map_v27_0.md) · [`Emberwold_Character_Arcs_Book1_v27_0.md`](Emberwold_Character_Arcs_Book1_v27_0.md) | Book One structure, cast, and arcs — the basis for **Book One**, **The Faces**, and **Read**. |
-| [`Emberwold_Image_Index_v27_0.md`](Emberwold_Image_Index_v27_0.md) · [`Emberwold_Character_Atlas_Update_Brief_v27_0.md`](Emberwold_Character_Atlas_Update_Brief_v27_0.md) | Visual-asset status and the atlas rebuild brief. |
-| [`EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md`](EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md) | Prose master (v31). The **Read** excerpts are drawn from it. |
-| `lore-bible.md`, `Emberwold_STATUS_NASTA_STEG.md`, [`scenes/`](scenes/) | **Superseded (v26).** Retained for history; v27.0 above governs where they disagree. |
+| [`Aurefold_Lore_Bible_v27_0.md`](Aurefold_Lore_Bible_v27_0.md) | **The canon.** v27.0 — Book One canon closure; sole authority. |
+| [`Aurefold_STATUS_NEXT_STEPS_v27_0.md`](Aurefold_STATUS_NEXT_STEPS_v27_0.md) | "Read this first" — current state, ordered next steps, and the locked do-not-change list. |
+| [`Aurefold_Project_Overview_v27_0.md`](Aurefold_Project_Overview_v27_0.md) · [`CHANGELOG_v27_0.md`](CHANGELOG_v27_0.md) | Project overview and the v27.0 change log. |
+| [`Aurefold_Book1_Spine_v27_0.md`](Aurefold_Book1_Spine_v27_0.md) · [`Aurefold_Character_Map_v27_0.md`](Aurefold_Character_Map_v27_0.md) · [`Aurefold_Character_Arcs_Book1_v27_0.md`](Aurefold_Character_Arcs_Book1_v27_0.md) | Book One structure, cast, and arcs — the basis for **Book One**, **The Faces**, and **Read**. |
+| [`Aurefold_Image_Index_v27_0.md`](Aurefold_Image_Index_v27_0.md) · [`Aurefold_Character_Atlas_Update_Brief_v27_0.md`](Aurefold_Character_Atlas_Update_Brief_v27_0.md) | Visual-asset status and the atlas rebuild brief. |
+| [`AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md`](AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md) | Prose master (v31). The **Read** excerpts are drawn from it. |
+| `lore-bible.md`, `Aurefold_STATUS_NASTA_STEG.md`, [`scenes/`](scenes/) | **Superseded (v26).** Retained for history; v27.0 above governs where they disagree. |
 
 ## Pages
 
 | Page | Contents |
 | --- | --- |
 | `index.html` | Hero, series pitch, Book One announcement, the name, optional chart plate |
-| `book.html` | Book One: *The Bell of Silence* — where it begins, the shape of the finished book (27 chapters, 3 interludes), and a full contents list |
+| `book.html` | Book One: *The Bell of Silence* — where it begins, the shape of the book (a 27-chapter draft under reconstruction, 3 interludes), and a full contents list |
 | `houses.html` | The Ten Great Houses — expandable cards |
 | `map.html` | Interactive chart of the Banner-lands with every house seat (pan, zoom, click a seal) |
 | `world.html` | The world of the Banner-lands, in the archive's voice |
 | `characters.html` | The Faces — the people of Book One |
 | `read.html` | From the pages — the opening of Book One: an excerpt from Chapter One (*The Trial of the Goatherd*) and Chapter Two (*The Morning After*) complete |
-| `history.html` | In-world history: the reckoning of years, the War of the Unification, the Ash Oath, a timeline of the four centuries, and the four records |
+| `history.html` | In-world history: the reckoning of years, the War of the Unification, the Tenfold Compact, a timeline of the four centuries, and the four records |
 | `vote.html` | **The Moot** — live reader voting (which house would you follow; what the archive opens next) |
 | `support.html` | **Follow & support** — sponsor and follow channels, driven by `data/community.js` |
 
@@ -69,7 +75,7 @@ They appear automatically on the house cards (`houses.html`) and in the
 map's record card. Missing files are hidden — no placeholder is shown.
 Square images work best.
 
-All ten sigils are in place (web-sized from the canon pack in the Emberworld
+All ten sigils are in place (web-sized from the canon pack in the Aurefold
 repo). The `sigill_`-prefixed originals also work as a fallback naming.
 
 ## Character portraits
@@ -102,16 +108,21 @@ The **back cover** is intentionally not on the site yet: its blurb states that
 "the voice that guided Sela … only points east," which the v27.0 locks forbid
 (the voice is never verified). It goes up once that copy is revised.
 
+> **Rename note:** the current cover art still carries the old **EMBERWOLD**
+> wordmark in the artwork itself (it cannot be text-edited). Per author choice
+> it stays in place until a new **Aurefold** full-wrap is provided, then the
+> front panel is re-extracted and swapped.
+
 ## The chart plate
 
 The front page shows `assets/fanlanden_map.jpg` — a web-sized copy of the
-canonical `fanlanden_map.png` (Release&nbsp;1.1, Emberworld repo) — full-width as
+canonical `fanlanden_map.png` (Release&nbsp;1.1, Aurefold repo) — full-width as
 *"Plate I — the Banner-lands, general chart · 396 A.U."*
 If the file is removed, the section hides itself.
 
 ## The Moot (reader voting)
 
-`vote.html` is backed by a small database (Supabase project **emberwold-site**,
+`vote.html` is backed by a small database (Supabase project **aurefold-site**,
 `akboesleczddqdikjzbw`, Stockholm region, free tier — dashboard at
 https://supabase.com/dashboard/project/akboesleczddqdikjzbw). The key in
 `data/community.js` is the *anon* key (a JWT with `role=anon` baked in) —

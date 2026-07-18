@@ -1,10 +1,10 @@
-# EMBERWOLD — CHARACTER MAP
+# AUREFOLD — CHARACTER MAP
 
 ## Version 27.0 — Book One canon synchronized
 
 **Date:** 15 July 2026  
-**Authority:** `Emberwold_Lore_Bible_v27_0.md`  
-**Primary prose reference:** `EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md`
+**Authority:** `Aurefold_Lore_Bible_v27_0.md`  
+**Primary prose reference:** `AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md`
 
 This file replaces the old provisional character map. It records relationships, knowledge boundaries, institutional positions, and series carry-forward after Book One canon closure.
 

@@ -1,11 +1,11 @@
-# EMBERWOLD — BOOK ONE SPINE
+# AUREFOLD — BOOK ONE SPINE
 
 ## Final-canon edition — v27.0
 
 **Title:** *The Bell of Silence*  
 **Place and date:** Bell of Silence, Light Heights, 396 A.U.  
-**Authority:** `Emberwold_Lore_Bible_v27_0.md`  
-**Prose master:** `EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md`
+**Authority:** `Aurefold_Lore_Bible_v27_0.md`  
+**Prose master:** `AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md`
 
 This file replaces the provisional v26 planning spine. It records the completed structure rather than proposed scenes.
 

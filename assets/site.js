@@ -1,4 +1,4 @@
-/* EMBERWOLD — shared page behaviour: expandable house cards and the optional chart plate. */
+/* AUREFOLD — shared page behaviour: expandable house cards and the optional chart plate. */
 (function () {
   "use strict";
 

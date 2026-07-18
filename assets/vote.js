@@ -1,8 +1,8 @@
-/* EMBERWOLD — the moot: load open polls, cast one vote per visitor, show results. */
+/* AUREFOLD — the moot: load open polls, cast one vote per visitor, show results. */
 (function () {
   "use strict";
 
-  var cfg = window.EMBERWOLD_COMMUNITY || {};
+  var cfg = window.AUREFOLD_COMMUNITY || {};
   var root = document.getElementById("moot");
   if (!root || !cfg.supabaseUrl) return;
 

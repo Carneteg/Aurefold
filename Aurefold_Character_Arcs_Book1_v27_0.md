@@ -1,9 +1,9 @@
-# EMBERWOLD — CHARACTER ARCS & READER BOND
+# AUREFOLD — CHARACTER ARCS & READER BOND
 
 ## Book One final-canon edition — v27.0
 
-**Authority:** `Emberwold_Lore_Bible_v27_0.md`  
-**Prose reference:** `EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md`  
+**Authority:** `Aurefold_Lore_Bible_v27_0.md`  
+**Prose reference:** `AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md`  
 **Status:** craft apparatus synchronized to completed Book One; no longer a gate-pending chapter plan.
 
 ---

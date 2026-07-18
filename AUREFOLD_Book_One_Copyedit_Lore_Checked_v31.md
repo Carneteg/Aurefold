@@ -1,4 +1,4 @@
-# EMBERWOLD
+# AUREFOLD
 ## Book One: The Bell of Silence
 
 ## Prologue
@@ -3705,7 +3705,7 @@ Relief came first. Shame followed late enough for him to recognise the relief.
 
 It was contempt.
 
-He stood in the passage and despised the only man in Emberwold who had ever tried to save him, and he did it fluently, and at length, and with a good deal of wit.
+He stood in the passage and despised the only man in Aurefold who had ever tried to save him, and he did it fluently, and at length, and with a good deal of wit.
 
 And then he went and found the Herald.
 

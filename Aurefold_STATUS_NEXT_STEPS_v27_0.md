@@ -1,4 +1,4 @@
-# EMBERWOLD — STATUS & NEXT STEPS
+# AUREFOLD — STATUS & NEXT STEPS
 
 ## Version 27.0 / Book One v31
 
@@ -10,13 +10,13 @@
 
 ## Canon
 
-- `Emberwold_Lore_Bible_v27_0.md` is the sole canonical authority.
+- `Aurefold_Lore_Bible_v27_0.md` is the sole canonical authority.
 - Book One gates G1–G8 are entered.
 - G9–G12 remain held.
 
 ## Prose
 
-- Current master: `EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md`.
+- Current master: `AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md`.
 - 27 numbered chapters plus prologue.
 - Three Alaine interludes.
 - Copy-edit and line-by-line lore audit completed.

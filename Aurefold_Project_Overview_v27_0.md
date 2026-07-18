@@ -1,16 +1,16 @@
-# EMBERWOLD — PROJECT OVERVIEW
+# AUREFOLD — PROJECT OVERVIEW
 
 ## Version 27.0 — current canon map
 
-**Authoritative canon:** `Emberwold_Lore_Bible_v27_0.md`  
-**Current prose master:** `EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md`  
+**Authoritative canon:** `Aurefold_Lore_Bible_v27_0.md`  
+**Current prose master:** `AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md`  
 **Status date:** 15 July 2026
 
 ---
 
 # THE CORE
 
-Emberwold is a long-form epic fantasy series in **mystic realism**. Magic remains nearly invisible, unreliable, and open to mundane explanation. The Ten Great Houses embody competing philosophies of leadership and power. The reader's governing question is:
+Aurefold is a long-form epic fantasy series in **mystic realism**. Magic remains nearly invisible, unreliable, and open to mundane explanation. The Ten Great Houses embody competing philosophies of leadership and power. The reader's governing question is:
 
 > **Which house would I follow?**
 
@@ -118,10 +118,10 @@ Whitehart, lived from inside its philosophy rather than presented as an external
 
 # CURRENT FILE HIERARCHY
 
-1. `Emberwold_Lore_Bible_v27_0.md`
-2. `EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md`
+1. `Aurefold_Lore_Bible_v27_0.md`
+2. `AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md`
 3. Any gate record created after v27.0
-4. `Emberwold_Book1_Spine_v27_0.md`
-5. `Emberwold_Character_Map_v27_0.md`
+4. `Aurefold_Book1_Spine_v27_0.md`
+5. `Aurefold_Character_Map_v27_0.md`
 6. Character, POV, and prose craft apparatus
 7. Development material and older versions

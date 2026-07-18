@@ -1,8 +1,8 @@
-/* EMBERWOLD — support page: render only the channels that have a URL configured. */
+/* AUREFOLD — support page: render only the channels that have a URL configured. */
 (function () {
   "use strict";
 
-  var cfg = (window.EMBERWOLD_COMMUNITY || {}).support || {};
+  var cfg = (window.AUREFOLD_COMMUNITY || {}).support || {};
 
   var CHANNELS = {
     sponsor: [

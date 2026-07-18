@@ -1,8 +1,8 @@
-# EMBERWOLD — BOOK ONE GATE DECISION RECORD
+# AUREFOLD — BOOK ONE GATE DECISION RECORD
 
 ## v27.0 closure edition
 
-**Status:** historical summary. The decisions below are now incorporated into `Emberwold_Lore_Bible_v27_0.md`, which is the authority.
+**Status:** historical summary. The decisions below are now incorporated into `Aurefold_Lore_Bible_v27_0.md`, which is the authority.
 
 ---
 

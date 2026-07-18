@@ -1,4 +1,4 @@
-# EMBERWOLD — v31 COPY-EDIT CHANGE LOG
+# AUREFOLD — v31 COPY-EDIT CHANGE LOG
 
 **Base:** v30  
 **Result:** v31 copy-edited and lore-checked manuscript

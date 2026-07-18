@@ -1,4 +1,4 @@
-# Emberwold — Canon and Project Files
+# Aurefold — Canon and Project Files
 
 ## Release 27.0 / Book One v31 synchronization
 
@@ -10,11 +10,11 @@ This README replaces the Release 1.1 file map.
 
 The sole world-canon authority is:
 
-**`Emberwold_Lore_Bible_v27_0.md`**
+**`Aurefold_Lore_Bible_v27_0.md`**
 
 The current Book One prose authority is:
 
-**`EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md`**
+**`AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md`**
 
 If an older overview, status file, scene draft, manuscript, atlas caption, prompt, AI summary, or remembered conversation conflicts with the Lore Bible, the Lore Bible wins unless the author passes a new gate.
 
@@ -35,21 +35,21 @@ Preserved in-world exceptions:
 
 | File | Status | Purpose |
 |---|---|---|
-| `Emberwold_Lore_Bible_v27_0.md` | **AUTHORITATIVE** | World and Book One canon |
-| `EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md` | **PROSE MASTER** | Current Book One manuscript |
-| `Emberwold_Character_Map_v27_0.md` | Current | Relationships, knowledge boundaries, cast map |
-| `Emberwold_Character_Arcs_Book1_v27_0.md` | Current | Final Book One arcs and scar ledger |
-| `Emberwold_Book1_Spine_v27_0.md` | Current | Final structure, chapter order, guardrails |
-| `Emberwold_Project_Overview_v27_0.md` | Current | Compact project map |
-| `Emberwold_STATUS_NEXT_STEPS_v27_0.md` | Current | Where the project stands and what comes next |
+| `Aurefold_Lore_Bible_v27_0.md` | **AUTHORITATIVE** | World and Book One canon |
+| `AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md` | **PROSE MASTER** | Current Book One manuscript |
+| `Aurefold_Character_Map_v27_0.md` | Current | Relationships, knowledge boundaries, cast map |
+| `Aurefold_Character_Arcs_Book1_v27_0.md` | Current | Final Book One arcs and scar ledger |
+| `Aurefold_Book1_Spine_v27_0.md` | Current | Final structure, chapter order, guardrails |
+| `Aurefold_Project_Overview_v27_0.md` | Current | Compact project map |
+| `Aurefold_STATUS_NEXT_STEPS_v27_0.md` | Current | Where the project stands and what comes next |
 | `CHANGELOG_v27_0.md` | Current | Canon release changes |
-| `Emberwold_Image_Index_v27_0.md` | Current | Verified visual assets and pending corrections |
-| `Emberwold_Book_One_Gate_Decision_Record_v27_0.md` | Historical/current summary | G1–G8 entered, G9–G12 held; Bible now carries authority |
-| `EMBERWOLD_v31_Copyedit_Report.md` | Reference | Copy-edit report |
-| `EMBERWOLD_v31_Lore_Audit.md` | Reference | Line-by-line Book One lore audit |
-| `EMBERWOLD_v31_Change_Log.md` | Reference | Manuscript v31 changes |
-| `Emberwold_POV_Voice_Bible.md` | Craft authority | POV syntax, perception, ignorance |
-| `Emberwold_Prose_Tic_Map.md` | Craft reference | Machine-voice warning map |
+| `Aurefold_Image_Index_v27_0.md` | Current | Verified visual assets and pending corrections |
+| `Aurefold_Book_One_Gate_Decision_Record_v27_0.md` | Historical/current summary | G1–G8 entered, G9–G12 held; Bible now carries authority |
+| `AUREFOLD_v31_Copyedit_Report.md` | Reference | Copy-edit report |
+| `AUREFOLD_v31_Lore_Audit.md` | Reference | Line-by-line Book One lore audit |
+| `AUREFOLD_v31_Change_Log.md` | Reference | Manuscript v31 changes |
+| `Aurefold_POV_Voice_Bible.md` | Craft authority | POV syntax, perception, ignorance |
+| `Aurefold_Prose_Tic_Map.md` | Craft reference | Machine-voice warning map |
 
 ---
 
@@ -59,9 +59,9 @@ The following remain useful history but are not current authority:
 
 - `CHANGELOG_v26*.md`
 - old `README.md`
-- old `Emberwold_Project_Overview.md`
-- old `Emberwold_Book1_Spine.md`
-- old `Emberwold_Character_Arcs_Book1.md`
+- old `Aurefold_Project_Overview.md`
+- old `Aurefold_Book1_Spine.md`
+- old `Aurefold_Character_Arcs_Book1.md`
 - separate pre-v27 gate records
 - manuscript versions v28, v29, and v30
 - earlier full and lean rewrites
@@ -73,7 +73,7 @@ Do not merge old material back into current files. A desired old detail must pas
 
 # RELEASE ROUTINE
 
-1. Read `Emberwold_STATUS_NEXT_STEPS_v27_0.md`.
+1. Read `Aurefold_STATUS_NEXT_STEPS_v27_0.md`.
 2. Read the relevant Lore Bible section.
 3. Work from the current file only.
 4. Identify conflicts before changing canon.

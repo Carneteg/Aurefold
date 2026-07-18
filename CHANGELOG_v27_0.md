@@ -1,10 +1,10 @@
-# EMBERWOLD — CHANGELOG v27.0
+# AUREFOLD — CHANGELOG v27.0
 
 ## Book One canon closure and support-file synchronization
 
 **Date:** 15 July 2026  
-**Authority introduced:** `Emberwold_Lore_Bible_v27_0.md`  
-**Prose master:** `EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md`
+**Authority introduced:** `Aurefold_Lore_Bible_v27_0.md`  
+**Prose master:** `AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md`
 
 ---
 
@@ -50,14 +50,14 @@
 
 The following new files replace obsolete v26 / Release 1.1 versions:
 
-- `Emberwold_Character_Map_v27_0.md`
-- `Emberwold_Character_Arcs_Book1_v27_0.md`
-- `Emberwold_Book1_Spine_v27_0.md`
-- `Emberwold_Project_Overview_v27_0.md`
+- `Aurefold_Character_Map_v27_0.md`
+- `Aurefold_Character_Arcs_Book1_v27_0.md`
+- `Aurefold_Book1_Spine_v27_0.md`
+- `Aurefold_Project_Overview_v27_0.md`
 - `README_v27_0.md`
-- `Emberwold_STATUS_NEXT_STEPS_v27_0.md`
-- `Emberwold_Image_Index_v27_0.md`
-- `Emberwold_Book_One_Gate_Decision_Record_v27_0.md`
+- `Aurefold_STATUS_NEXT_STEPS_v27_0.md`
+- `Aurefold_Image_Index_v27_0.md`
+- `Aurefold_Book_One_Gate_Decision_Record_v27_0.md`
 
 ---
 

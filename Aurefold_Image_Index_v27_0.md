@@ -1,9 +1,9 @@
-# EMBERWOLD — IMAGE INDEX
+# AUREFOLD — IMAGE INDEX
 
 ## Version 27.0 — verified workspace assets and visual debt
 
-**Canon authority:** `Emberwold_Lore_Bible_v27_0.md`  
-**Book reference:** `EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md`
+**Canon authority:** `Aurefold_Lore_Bible_v27_0.md`  
+**Book reference:** `AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md`
 
 This file replaces the Release 1.1 image index. The previous index named portrait and atlas files that are not present in the current workspace and therefore cannot be revalidated here.
 
@@ -123,7 +123,7 @@ The atlas must distinguish **Book One characters** from **series characters not 
 
 1. Choose the canonical front-cover master and delete the duplicate.
 2. Rewrite and regenerate the back-cover concept.
-3. Rebuild the character atlas from `Emberwold_Character_Map_v27_0.md`.
+3. Rebuild the character atlas from `Aurefold_Character_Map_v27_0.md`.
 4. Revalidate or regenerate the Ten-house portraits.
 5. Revalidate the geographic atlas against Lore Bible v27.0.
 6. Create print-ready cover only after trim size, page count, paper, and barcode data are final.

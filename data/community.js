@@ -1,8 +1,8 @@
-/* EMBERWOLD — community configuration.
+/* AUREFOLD — community configuration.
    Everything the Vote and Support pages need lives in this one file. */
 
-window.EMBERWOLD_COMMUNITY = {
-  /* The voting backend (Supabase project "emberwold-site", eu-north-1).
+window.AUREFOLD_COMMUNITY = {
+  /* The voting backend (Supabase project "aurefold-site", eu-north-1).
      This key is a PUBLISHABLE key — safe to ship in a public site; the
      database's row-level security decides what it may do (read polls,
      read aggregated results, cast one vote per poll — nothing else). */

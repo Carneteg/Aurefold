@@ -1,9 +1,9 @@
-/* EMBERWOLD — interactive chart of the Banner-lands.
+/* AUREFOLD — interactive chart of the Banner-lands.
  * Renders one seal per Great House, with pan/zoom, tooltip and a detail card. */
 (function () {
   "use strict";
 
-  const HOUSES = window.EMBERWOLD_HOUSES || [];
+  const HOUSES = window.AUREFOLD_HOUSES || [];
   const SVG_NS = "http://www.w3.org/2000/svg";
 
   const svg = document.getElementById("map");

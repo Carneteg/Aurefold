@@ -1,11 +1,11 @@
-# LORE BIBLE — EMBERWOLD
+# LORE BIBLE — AUREFOLD
 
 ## Version 27.0 — BOOK ONE CANON CLOSURE
 
 **Release date:** 15 July 2026  
-**Status:** Sole canonical authority for the Emberwold series  
+**Status:** Sole canonical authority for the Aurefold series  
 **Supersedes:** `lore-bible.md` v26.7, the separate Book One gate decision record, and all earlier lore-bible copies  
-**Primary prose reference:** `EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md`
+**Primary prose reference:** `AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md`
 
 > **Authority rule:** If any older overview, status file, scene draft, development document, manuscript version, AI summary, atlas text, or remembered conversation contradicts this file, this file wins unless the author explicitly opens and passes a new gate.
 
@@ -56,7 +56,7 @@ Nothing in v27.0 resolves the voice, Col, the seal count, the forgotten eleventh
 
 # PART 0 — THE STORY'S DNA
 
-This part is fixed. Everything written in Emberwold must serve it.
+This part is fixed. Everything written in Aurefold must serve it.
 
 ## Core form
 
@@ -295,7 +295,7 @@ No new eleven motif enters canon without explicit author approval.
 
 ## The world
 
-The world is **Emberwold**.
+The world is **Aurefold**.
 
 The known continent is the **Banner-lands**, named for the War of the Eleven Banners.
 
@@ -1057,7 +1057,7 @@ One incidental trader sentence only.
 
 ## Title
 
-**EMBERWOLD — Book One: The Bell of Silence**
+**AUREFOLD — Book One: The Bell of Silence**
 
 ## Date and place
 
@@ -1332,7 +1332,7 @@ These are deliberately unresolved.
 
 ## Development documents are not canon by themselves
 
-`Emberwold_Historical_Shadows.md`, `Emberwold_Rawness_Development.md`, character-arc plans, prompts, sample scenes, and future-book outlines remain development apparatus unless this Bible marks a proposal as entered.
+`Aurefold_Historical_Shadows.md`, `Aurefold_Rawness_Development.md`, character-arc plans, prompts, sample scenes, and future-book outlines remain development apparatus unless this Bible marks a proposal as entered.
 
 ---
 
@@ -1401,7 +1401,7 @@ These are deliberately unresolved.
 
 ## Hierarchy after v27.0
 
-1. **This file: `Emberwold_Lore_Bible_v27_0.md`**
+1. **This file: `Aurefold_Lore_Bible_v27_0.md`**
 2. Published / designated final prose canon, currently Book One v31
 3. Current gate records created after v27.0
 4. Current Book spine and release manifest

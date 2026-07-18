@@ -1,8 +1,8 @@
-# EMBERWOLD — v31 LINE-BY-LINE LORE AUDIT
+# AUREFOLD — v31 LINE-BY-LINE LORE AUDIT
 
-**Audited manuscript:** `EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md`  
+**Audited manuscript:** `AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md`  
 **Primary authority:** `lore-bible.md` v26.7  
-**Secondary authority:** `Emberwold_Book1_Spine.md`, `Emberwold_Character_Arcs_Book1.md`, current status/changelog, and the author's entered Book One gate record.
+**Secondary authority:** `Aurefold_Book1_Spine.md`, `Aurefold_Character_Arcs_Book1.md`, current status/changelog, and the author's entered Book One gate record.
 
 ## Authority rule applied
 

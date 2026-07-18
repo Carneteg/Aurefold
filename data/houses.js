@@ -1,12 +1,12 @@
 /*
- * EMBERWOLD — the Ten Great Houses.
+ * AUREFOLD — the Ten Great Houses.
  * Canon data for the interactive map (map.html). Do not add houses, people,
  * or lore here that is not established canon.
  *
  * coords are positions on the map chart (viewBox 1200 x 900).
  * Loaded as a plain script so the site works when opened directly from disk.
  */
-window.EMBERWOLD_HOUSES = [
+window.AUREFOLD_HOUSES = [
   {
     id: "blackthorn",
     name: "House Blackthorn",

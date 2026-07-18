@@ -1,7 +1,7 @@
-# EMBERWOLD — v31 COPY-EDIT REPORT
+# AUREFOLD — v31 COPY-EDIT REPORT
 
-**Manuscript:** `EMBERWOLD_Book_One_Copyedit_Lore_Checked_v31.md`  
-**Base manuscript:** `EMBERWOLD_Book_One_Complete_Voice_Pass_v30.md`  
+**Manuscript:** `AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md`  
+**Base manuscript:** `AUREFOLD_Book_One_Complete_Voice_Pass_v30.md`  
 **Audit date:** 15 July 2026  
 **Authority:** `lore-bible.md` v26.7, followed by the v26.7 Book One spine and the entered Book One gate record.
 
