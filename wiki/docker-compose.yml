@@ -1,4 +1,4 @@
-# EMBERWOLD wiki — MediaWiki LTS + MariaDB
+# AUREFOLD wiki — MediaWiki LTS + MariaDB
 # First run: docker compose up -d  →  http://localhost:8080  →  run the install wizard
 # (see README.md for the full walkthrough)
 services:
@@ -12,12 +12,12 @@ services:
       # After the install wizard, save LocalSettings.php into ./config/ and
       # uncomment the next two lines, then: docker compose restart mediawiki
       # - ./config/LocalSettings.php:/var/www/html/LocalSettings.php
-      # - ./config/LocalSettings.emberwold.php:/var/www/html/LocalSettings.emberwold.php
-      # - ./config/emberwold_logo.png:/var/www/html/resources/assets/emberwold_logo.png
+      # - ./config/LocalSettings.aurefold.php:/var/www/html/LocalSettings.aurefold.php
+      # - ./config/aurefold_logo.png:/var/www/html/resources/assets/aurefold_logo.png
       # - ./extensions-extra/TemplateStyles:/var/www/html/extensions/TemplateStyles
       # - ./extensions-extra/Popups:/var/www/html/extensions/Popups
-      - ./content:/opt/emberwold/content:ro
-      - ./images:/opt/emberwold/images:ro
+      - ./content:/opt/aurefold/content:ro
+      - ./images:/opt/aurefold/images:ro
     depends_on:
       - database
 
@@ -25,7 +25,7 @@ services:
     image: mariadb:11
     restart: unless-stopped
     environment:
-      MYSQL_DATABASE: emberwold_wiki
+      MYSQL_DATABASE: aurefold_wiki
       MYSQL_USER: wikiuser
       MYSQL_PASSWORD: change-me-wiki-password
       MYSQL_RANDOM_ROOT_PASSWORD: "yes"

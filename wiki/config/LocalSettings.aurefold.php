@@ -1,14 +1,14 @@
 <?php
-# EMBERWOLD — extension & theme configuration.
+# AUREFOLD — extension & theme configuration.
 # Include from the generated LocalSettings.php by adding at the very end:
-#   require_once "$IP/LocalSettings.emberwold.php";
+#   require_once "$IP/LocalSettings.aurefold.php";
 
 ## Site identity
-$wgSitename = "Emberwold";
-$wgMetaNamespace = "Emberwold";
+$wgSitename = "Aurefold";
+$wgMetaNamespace = "Aurefold";
 $wgLogos = [
-    '1x' => "$wgResourceBasePath/resources/assets/emberwold_logo.png",
-    'icon' => "$wgResourceBasePath/resources/assets/emberwold_logo.png",
+    '1x' => "$wgResourceBasePath/resources/assets/aurefold_logo.png",
+    'icon' => "$wgResourceBasePath/resources/assets/aurefold_logo.png",
 ];
 
 ## Skin: Vector 2022 (bundled). The ember theme lives in MediaWiki:Common.css.

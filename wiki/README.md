@@ -1,6 +1,6 @@
-# The Emberwold Wiki (MediaWiki)
+# The Aurefold Wiki (MediaWiki)
 
-A self-hosted MediaWiki for the **Emberwold** series, modeled on the structure and
+A self-hosted MediaWiki for the **Aurefold** series, modeled on the structure and
 feel of *A Wiki of Ice and Fire* — with an ember/glow theme instead of the beige.
 Everything in `content/` was converted from the project's canon (Lore Bible v26.5,
 the prologue, the approved scenes) and is written **spoiler-safe for a public,
@@ -17,13 +17,13 @@ docker compose up -d          # starts MediaWiki (port 8080) + MariaDB
 ```
 
 1. Open **http://localhost:8080** and run the MediaWiki install wizard:
-   - Database host: `database` · name: `emberwold_wiki` · user: `wikiuser`
+   - Database host: `database` · name: `aurefold_wiki` · user: `wikiuser`
      · password: the one in `docker-compose.yml` (change it!).
-   - Site name: **Emberwold**. Create your admin account (e.g. `Admin`).
+   - Site name: **Aurefold**. Create your admin account (e.g. `Admin`).
 2. The wizard offers `LocalSettings.php` for download — **save it into `wiki/config/`**.
 3. Append this line at the very end of that `config/LocalSettings.php`:
    ```php
-   require_once "$IP/LocalSettings.emberwold.php";
+   require_once "$IP/LocalSettings.aurefold.php";
    ```
 4. Run the upgrade script — it mounts the config and the vendored extensions
    (via a generated `docker-compose.override.yml`), restarts the app, runs the
@@ -46,12 +46,12 @@ and updates existing pages in place.
 
 ## 2. What's configured
 
-`config/LocalSettings.emberwold.php` enables (all bundled with MediaWiki — nothing
+`config/LocalSettings.aurefold.php` enables (all bundled with MediaWiki — nothing
 to download): **ParserFunctions**, **Scribunto** (Lua), **TemplateStyles**,
 **CategoryTree**, **Cite**, **VisualEditor**, WikiEditor/CodeEditor, ImageMap,
 InputBox, Interwiki — plus **Popups** (page previews on hover; vendored in
 `extensions-extra/` like TemplateStyles, with TextExtracts + PageImages),
-**ConfirmEdit/QuestyCaptcha** (Emberwold-flavored questions on account creation)
+**ConfirmEdit/QuestyCaptcha** (Aurefold-flavored questions on account creation)
 and **AbuseFilter**. Uploads are on; anonymous editing is off (public fan wiki:
 everyone reads, registered users edit).
 
@@ -83,7 +83,7 @@ cited as canon.
 - Point a reverse proxy (Caddy/nginx/Traefik) at port 8080 with TLS.
 - Set `$wgServer = "https://your-domain"` in `config/LocalSettings.php`.
 - For pretty URLs (`/wiki/Page`), enable the `$wgArticlePath` lines in
-  `LocalSettings.emberwold.php` and add the usual alias rule in your proxy.
+  `LocalSettings.aurefold.php` and add the usual alias rule in your proxy.
 - Back up: the `wiki_db` and `wiki_images` volumes + the `config/` folder.
 
 ## 5. Everyday editing
@@ -96,4 +96,4 @@ in `Category:Development`.
 ## Known gaps (deliberate)
 
 - `Development:` is a plain page prefix, not a real namespace; if the section
-  grows, register a proper namespace in `LocalSettings.emberwold.php`.
+  grows, register a proper namespace in `LocalSettings.aurefold.php`.

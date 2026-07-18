@@ -1,2 +1,2 @@
 Templates for page layout.
-[[Category:Emberwold]]
+[[Category:Aurefold]]

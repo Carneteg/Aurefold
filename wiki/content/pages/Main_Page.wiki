@@ -26,18 +26,18 @@
 {{Box|title=References|content=<references />}}
 </div>
 <div class="ew-main-right">
-{{Box|title=Explore Emberwold|content=<div class="ew-portals">
+{{Box|title=Explore Aurefold|content=<div class="ew-portals">
 [[Portal:Houses|<span class="ew-portal">🏰<br />The Great Houses</span>]]
 [[Portal:Characters|<span class="ew-portal">👤<br />Characters</span>]]
 [[Portal:Places|<span class="ew-portal">🗺️<br />Places &amp; Regions</span>]]
 [[Portal:History|<span class="ew-portal">📜<br />History</span>]]
 [[Portal:Culture|<span class="ew-portal">🕯️<br />Culture &amp; Customs</span>]]
 [[Portal:Mystery|<span class="ew-portal">🔥<br />The Unseen &amp; the Riddle</span>]]
-[[Emberwold (series)|<span class="ew-portal">📖<br />The Books</span>]]
+[[Aurefold (series)|<span class="ew-portal">📖<br />The Books</span>]]
 [[:Category:Sources and texts|<span class="ew-portal">🖋️<br />Sources &amp; Texts</span>]]
 </div>}}
-{{Box|title=About Emberwold|content=
-'''Emberwold''' is a low-fantasy series in mystic realism by the author of ''[[The Bell of Silence]]''. Ten Great Houses have ruled the [[the Banner-lands|Banner-lands]] since the [[War of the Unification]] ended four hundred years ago — and each house is less a family than a philosophy of leadership. The question the books ask is never ''which house is good''. It is: '''which house would you follow?'''
+{{Box|title=About Aurefold|content=
+'''Aurefold''' is a low-fantasy series in mystic realism by the author of ''[[The Bell of Silence]]''. Ten Great Houses have ruled the [[the Banner-lands|Banner-lands]] since the [[War of the Unification]] ended four hundred years ago — and each house is less a family than a philosophy of leadership. The question the books ask is never ''which house is good''. It is: '''which house would you follow?'''
 
 This wiki documents the world in the historian's voice: ''where the sources disagree, the disagreement is kept.''
 }}

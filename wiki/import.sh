@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Imports all Emberwold content (pages + images) into the running wiki.
+# Imports all Aurefold content (pages + images) into the running wiki.
 # Run AFTER the install wizard + LocalSettings are in place:
 #   ./import.sh [admin-username]      (default: Admin)
 set -euo pipefail
@@ -10,7 +10,7 @@ docker compose exec -T mediawiki php maintenance/run.php createAndPromote --forc
 
 echo "== Importing images =="
 docker compose exec -T mediawiki php maintenance/run.php importImages \
-  --user="$ADMIN" --comment="Emberwold canon assets" --overwrite /opt/emberwold/images || true
+  --user="$ADMIN" --comment="Aurefold canon assets" --overwrite /opt/aurefold/images || true
 
 echo "== Importing pages =="
 # manifest.tsv: <page title> TAB <path inside container>
@@ -18,7 +18,7 @@ while IFS=$'\t' read -r title path <&3; do
   [ -z "$title" ] && continue
   echo "  -> $title"
   docker compose exec -T mediawiki sh -c \
-    "php maintenance/run.php edit --user='$ADMIN' --summary='Emberwold content import' \"\$0\" < '$path'" "$title" </dev/null >/dev/null
+    "php maintenance/run.php edit --user='$ADMIN' --summary='Aurefold content import' \"\$0\" < '$path'" "$title" </dev/null >/dev/null
 done 3< content/manifest.tsv
 
 echo "== Rebuilding =="
