@@ -13,28 +13,28 @@ the folder with any static file server (works as-is on GitHub Pages).
 > never the world. The retired dev names *Emberwold* / *Vareld* survive only as
 > provenance.
 
-The v27.0 apparatus below is **Emberwold-era canon, renamed to Aurefold and
-retained**. The reboot's live authority — the **Aurefold Constitution / Canon
-Ledger v1.8** and the **Aurefold Book One Reconstruction Map v1.0** — is being
-brought in separately; where it disagrees with these v27 files, it governs.
-The site currently matches the v27.0 apparatus.
+**Live authority (v1.8 / v1.7):**
 
 | File | Purpose |
 | --- | --- |
-| [`Aurefold_Lore_Bible_v27_0.md`](Aurefold_Lore_Bible_v27_0.md) | **The canon.** v27.0 — Book One canon closure; sole authority. |
-| [`Aurefold_STATUS_NEXT_STEPS_v27_0.md`](Aurefold_STATUS_NEXT_STEPS_v27_0.md) | "Read this first" — current state, ordered next steps, and the locked do-not-change list. |
-| [`Aurefold_Project_Overview_v27_0.md`](Aurefold_Project_Overview_v27_0.md) · [`CHANGELOG_v27_0.md`](CHANGELOG_v27_0.md) | Project overview and the v27.0 change log. |
-| [`Aurefold_Book1_Spine_v27_0.md`](Aurefold_Book1_Spine_v27_0.md) · [`Aurefold_Character_Map_v27_0.md`](Aurefold_Character_Map_v27_0.md) · [`Aurefold_Character_Arcs_Book1_v27_0.md`](Aurefold_Character_Arcs_Book1_v27_0.md) | Book One structure, cast, and arcs — the basis for **Book One**, **The Faces**, and **Read**. |
-| [`Aurefold_Image_Index_v27_0.md`](Aurefold_Image_Index_v27_0.md) · [`Aurefold_Character_Atlas_Update_Brief_v27_0.md`](Aurefold_Character_Atlas_Update_Brief_v27_0.md) | Visual-asset status and the atlas rebuild brief. |
-| [`AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md`](AUREFOLD_Book_One_Copyedit_Lore_Checked_v31.md) | Prose master (v31). The **Read** excerpts are drawn from it. |
-| `lore-bible.md`, `Aurefold_STATUS_NASTA_STEG.md`, [`scenes/`](scenes/) | **Superseded (v26).** Retained for history; v27.0 above governs where they disagree. |
+| [`Aurefold_Constitution_v1.8_Canonical.docx`](Aurefold_Constitution_v1.8_Canonical.docx) | **The supreme canon.** Canon Locks #001–#084; replaces all earlier Constitutions. Confirms Aurefold (world) / Aurelion (project + ancient empire) and the **Tenfold Compact**. |
+| [`Aurefold_Canon_Ledger_v1.8.docx`](Aurefold_Canon_Ledger_v1.8.docx) | Running index of the locks. |
+| [`Aurefold_Book_One_The_Bell_of_Silence_Editorial_v1.7.md`](Aurefold_Book_One_The_Bell_of_Silence_Editorial_v1.7.md) | **Prose master** — Book One, prologue + 34 chapters. The **Book One** and **Read** pages follow it. |
+| [`Aurefold_Book_One_Editorial_Change_Log_v2.2.md`](Aurefold_Book_One_Editorial_Change_Log_v2.2.md) | What the v1.7 commercial/pacing pass changed. |
+
+**Superseded, retained as provenance:** the v27.0 apparatus (`Aurefold_Lore_Bible_v27_0.md`,
+`Aurefold_Book1_Spine_v27_0.md`, `Aurefold_Character_Map_v27_0.md`,
+`Aurefold_Character_Arcs_Book1_v27_0.md`, `Aurefold_Image_Index_v27_0.md`,
+`Aurefold_Character_Atlas_Update_Brief_v27_0.md`, the v27 status/overview/changelog,
+and the v31 prose master) plus the v26 files (`lore-bible.md`, `Aurefold_STATUS_NASTA_STEG.md`,
+`scenes/`). These are Emberwold/early-Aurefold-era; the v1.8 / v1.7 files above govern where they disagree.
 
 ## Pages
 
 | Page | Contents |
 | --- | --- |
 | `index.html` | Hero, series pitch, Book One announcement, the name, optional chart plate |
-| `book.html` | Book One: *The Bell of Silence* — where it begins, the shape of the book (a 27-chapter draft under reconstruction, 3 interludes), and a full contents list |
+| `book.html` | Book One: *The Bell of Silence* — where it begins, the shape of the book (a completed draft: prologue + 34 chapters, 2 interludes), and a full contents list |
 | `houses.html` | The Ten Great Houses — expandable cards |
 | `map.html` | Interactive chart of the Banner-lands with every house seat (pan, zoom, click a seal) |
 | `world.html` | The world of the Banner-lands, in the archive's voice |
