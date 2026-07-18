@@ -13,7 +13,7 @@ media/campaign → website (lowest, not canon). Website source is audit-only.
 
 | Page | Before | After (staged) |
 |---|---|---|
-| **support.html** | "Channels being set up," thin | Full pre-crowdfunding funnel: road-to-publication hero, project-status board, what-support-carries, four tiers (Traveller free / Witness 49 SEK / Chronicler 99 SEK / Keeper of the Blank Page 249 SEK), membership-vs-crowdfunding, no-cost ways to help, creative-independence note, 10-item spoiler-safe FAQ, **non-publishing** creator placeholder, closing CTA |
+| **support.html** | "Channels being set up," thin | Full pre-crowdfunding funnel: road-to-publication hero, project-status board, what-support-carries, four tiers (Traveller free / Witness €5 / Chronicler €10 / Keeper of the Blank Page €25), membership-vs-crowdfunding, no-cost ways to help, creative-independence note, 10-item spoiler-safe FAQ, creator/contact block (Tobias Carneteg, email), closing CTA |
 | **index.html** | Opened on abstract world-philosophy; invented "aure+fold" etymology; "ten seals — some say eleven" | Opens on **Sela** and the human conflict, with Read/About CTAs; adds a "road to publication" support section; world framing moved lower; **etymology removed**; Hall-of-Eleven wording ("eleven places, ten recognized voices; the eleventh remains unresolved") |
 | **book.html** | Full 34-chapter list (spoiler titles), "turns east," "completed developmental draft" | Spoiler-free story pitch + reader-promise list + **publication-status** section; status corrected to **completed manuscript ~86,000 words**; chapter list and ending language removed |
 | **read.html** | Two excerpts, no funnel | Same excerpts (**re-verified line-for-line against Master v2.0**) + three conversion modules (before / between / after) ending on Join-free / Follow-journey / Read-when-published |
@@ -42,17 +42,16 @@ Eleventh-House solution, or Book Two promise appears in the staged copy.
 
 ## 4. Requires YOUR decision or content (NOT done, by design)
 
-1. **Creator/About block** — `support.html` has a marked placeholder
-   (`data-placeholder="true"`) that will not go live until you supply: name,
-   author photo, location, why you're making this, background, contact/press email.
-2. **Full IA / "Explore" dropdown + new pages** — the prompt's 7-item nav with an
-   Explore group (Map/Faces/History/Moot) and new **Journal** and **About-the-Creator**
-   pages is *proposed, not built*: Journal needs first entries; About needs the creator
-   details above; the dropdown is a UX choice. Staged nav keeps the flat bar with
-   corrected labels in the meantime.
-3. **Patreon tiers** — staged in **SEK** (49/99/249) per your currency. Confirm the
-   currency and the tier names before anything goes live. Prices are **not** set on
-   Patreon by me.
+1. **Creator/About block** — ✅ RESOLVED. Filled with the author name
+   (Tobias Carneteg) and contact email; no photo per author choice. No biography
+   invented.
+2. **Full IA / "Explore" dropdown + new pages** — ⏸ ON HOLD per author ("wait for
+   this"). The prompt's 7-item nav with an Explore group (Map/Faces/History/Moot) and
+   new **Journal** and **About-the-Creator** pages remain *proposed, not built*.
+   Staged nav keeps the flat bar with corrected labels in the meantime.
+3. **Patreon tiers** — ✅ currency decided: **EUR**. Staged as Traveller Free /
+   Witness €5 / Chronicler €10 / Keeper €25. Prices are **not** set on Patreon by me —
+   you set them in the Patreon dashboard before launch.
 4. **Email/waitlist platform** — ranking below; pick one before wiring a signup.
 5. **Analytics** — event plan below; **not installed** on the live site.
 6. **Master v2.1 patches** — Batch A continuity fixes await your go (see
