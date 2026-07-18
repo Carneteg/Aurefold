@@ -827,6 +827,31 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
 .faq details[open] summary::after { content: "–"; }
 .faq details p { margin: 10px 0 4px; color: var(--ink); max-width: 66ch; }
 
+/* ------------------------------------------------------------------ reading-list signup */
+
+.signup-form { margin-top: 6px; max-width: 46ch; }
+.signup-label {
+  display: block;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.signup-row { display: flex; flex-wrap: wrap; gap: 10px; }
+.signup-row input {
+  flex: 1 1 220px;
+  font-family: var(--serif);
+  font-size: 1rem;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  color: var(--ink);
+}
+.signup-row input:focus { outline: 2px solid var(--ember); outline-offset: 1px; border-color: var(--ember); }
+.signup-row .btn { border: 1px solid var(--ember); }
+.signup-fineprint { font-size: 0.82rem; color: var(--accent); font-style: italic; margin-top: 10px; }
+
 /* ------------------------------------------------------------------ read page conversion modules */
 
 .read-module {

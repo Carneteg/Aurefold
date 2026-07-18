@@ -52,7 +52,13 @@ Eleventh-House solution, or Book Two promise appears in the staged copy.
 3. **Patreon tiers** — ✅ currency decided: **EUR**. Staged as Traveller Free /
    Witness €5 / Chronicler €10 / Keeper €25. Prices are **not** set on Patreon by me —
    you set them in the Patreon dashboard before launch.
-4. **Email/waitlist platform** — ranking below; pick one before wiring a signup.
+4. **Email/waitlist platform** — ✅ chosen: **MailerLite**. A styled, accessible
+   reading-list signup is staged on `support.html`. It is **inert**: the form stays
+   hidden and posts nowhere until you paste your MailerLite **account** and **form**
+   ids into `data/community.js` (`mailerlite: { account, form }`). Until then a quiet
+   "opening soon → follow on Patreon" note shows. No list, sending, or automation is
+   created by me. *To finish:* create a MailerLite list + embedded form, copy the two
+   ids from the form's subscribe URL into the config, then deploy.
 5. **Analytics** — event plan below; **not installed** on the live site.
 6. **Master v2.1 patches** — Batch A continuity fixes await your go (see
    `BatchA_Continuity_Patch_Report_v1.0.md`).

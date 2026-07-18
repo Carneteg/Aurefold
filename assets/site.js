@@ -43,6 +43,21 @@
     frontPatreon.hidden = false;
   }
 
+  // Reading-list signup (MailerLite). The form stays hidden and posts nowhere
+  // until BOTH ids are configured in data/community.js; then it points at the
+  // MailerLite subscribe endpoint. No list, sending, or automation is implied
+  // by this markup alone.
+  var ml = (window.AUREFOLD_COMMUNITY || {}).mailerlite || {};
+  var signupForm = document.getElementById("signup-form");
+  var signupSoon = document.getElementById("signup-soon");
+  if (signupForm && ml.account && ml.form && String(ml.account).trim() && String(ml.form).trim()) {
+    signupForm.action =
+      "https://assets.mailerlite.com/jsonp/" + String(ml.account).trim() +
+      "/forms/" + String(ml.form).trim() + "/subscribe";
+    signupForm.hidden = false;
+    if (signupSoon) signupSoon.hidden = true;
+  }
+
   // Show Plate I on the front page only if the chart image exists.
   const plateImg = document.getElementById("chart-plate-img");
   if (plateImg) {

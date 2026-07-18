@@ -161,6 +161,31 @@
       <p><a class="btn btn-primary" href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">Follow free on Patreon</a></p>
     </section>
 
+    <!-- 5b. READING LIST (MailerLite; config-driven, inert until ids set) -->
+    <section class="prose" id="reading-list">
+      <h2 class="section-title">Or join the reading list</h2>
+      <p>
+        Prefer email? Get the same publication milestones straight to your inbox — no
+        Patreon account needed. One message when there's real news; unsubscribe any time.
+      </p>
+      <form id="signup-form"
+            class="signup-form"
+            method="post"
+            target="_blank"
+            hidden
+            novalidate>
+        <label class="signup-label" for="signup-email">Email address</label>
+        <div class="signup-row">
+          <input id="signup-email" name="fields[email]" type="email" autocomplete="email"
+                 required placeholder="you@example.com" />
+          <button class="btn btn-primary" type="submit">Join the list</button>
+        </div>
+        <p class="signup-fineprint">Your address is used only to send Aurefold updates.</p>
+      </form>
+      <p id="signup-soon" class="world-note">The reading list opens soon — for now,
+        <a href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">follow free on Patreon</a>.</p>
+    </section>
+
     <!-- 6. SUPPORT WITHOUT PAYING -->
     <section class="prose">
       <h2 class="section-title">You can help without spending anything</h2>

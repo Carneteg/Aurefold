@@ -13,6 +13,18 @@ window.AUREFOLD_COMMUNITY = {
   // directly from the Authorization bearer on every request.
   supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFrYm9lc2xlY3pkZHFkaWtqemJ3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM4NjM4MzUsImV4cCI6MjA5OTQzOTgzNX0.AG1LPOUP-O9icpNOFQZ1w8tNFlW4MeTPWvKfDbrf90w",
 
+  /* Reading-list signup (MailerLite). Fill BOTH ids to switch the signup
+     form on; leave "" and the form shows a quiet "opening soon" note and
+     never posts anywhere. Find these in your MailerLite embedded-form code:
+       account = the number in .../jsonp/<ACCOUNT>/forms/<FORM>/subscribe
+       form    = the <FORM> number in that same URL
+     Nothing is sent, stored, or automated until these are set and the site
+     is deployed. */
+  mailerlite: {
+    account: "",
+    form: ""
+  },
+
   /* Sponsor & follow links. Paste a URL to switch a button on;
      leave "" and the button stays hidden. For Swish, use a swish.me
      link or leave "" and add a QR image later. */
