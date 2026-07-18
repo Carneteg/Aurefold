@@ -827,6 +827,26 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
 .faq details[open] summary::after { content: "–"; }
 .faq details p { margin: 10px 0 4px; color: var(--ink); max-width: 66ch; }
 
+/* ------------------------------------------------------------------ read page conversion modules */
+
+.read-module {
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  padding: 22px 24px;
+  margin: 32px 0;
+}
+.read-module p { max-width: 62ch; margin-bottom: 0; }
+.read-module .cta-row { margin-top: 18px; }
+.read-module--slim {
+  border: none;
+  border-left: 2px solid var(--ember);
+  background: transparent;
+  padding: 6px 0 6px 20px;
+}
+.read-module--slim p { font-style: italic; color: var(--accent); }
+.read-module-cta { margin-top: 8px !important; font-style: normal !important; }
+.read-module-cta a { letter-spacing: 0.04em; }
+
 /* ------------------------------------------------------------------ footer */
 
 .site-footer {
