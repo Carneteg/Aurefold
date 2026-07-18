@@ -17,7 +17,7 @@ window.AUREFOLD_COMMUNITY = {
      leave "" and the button stays hidden. For Swish, use a swish.me
      link or leave "" and add a QR image later. */
   support: {
-    patreon: "",
+    patreon: "https://www.patreon.com/AUREFOLD",
     kofi: "",
     buymeacoffee: "",
     swish: "",
