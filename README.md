@@ -108,10 +108,11 @@ The **back cover** is intentionally not on the site yet: its blurb states that
 "the voice that guided Sela … only points east," which the v27.0 locks forbid
 (the voice is never verified). It goes up once that copy is revised.
 
-> **Rename note:** the current cover art still carries the old **EMBERWOLD**
-> wordmark in the artwork itself (it cannot be text-edited). Per author choice
-> it stays in place until a new **Aurefold** full-wrap is provided, then the
-> front panel is re-extracted and swapped.
+> **Rename note:** the cover's **EMBERWOLD** wordmark has been raster-edited to
+> **AUREFOLD** as an *interim* — the original title is a bespoke engraved font
+> that can't be matched pixel-for-pixel here, so the stand-in is a plain serif.
+> Replace with a production cover: send a new Aurefold full-wrap (or the title
+> font) and the front panel is re-rendered properly.
 
 ## The chart plate
 
