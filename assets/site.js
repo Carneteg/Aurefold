@@ -35,6 +35,14 @@
     if (img.complete && img.naturalWidth === 0) fail();
   });
 
+  // Front-page Patreon call-to-action (config-driven; stays hidden if unset).
+  var patreonUrl = ((window.AUREFOLD_COMMUNITY || {}).support || {}).patreon;
+  var frontPatreon = document.getElementById("front-patreon");
+  if (frontPatreon && patreonUrl && patreonUrl.trim()) {
+    frontPatreon.href = patreonUrl.trim();
+    frontPatreon.hidden = false;
+  }
+
   // Show Plate I on the front page only if the chart image exists.
   const plateImg = document.getElementById("chart-plate-img");
   if (plateImg) {

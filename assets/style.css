@@ -275,6 +275,19 @@ figure.chart-plate figcaption {
 
 .map-link { display: inline-block; margin-top: 14px; font-size: 0.92rem; letter-spacing: 0.05em; }
 
+.support-cta {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 11px 26px;
+  border: 1px solid var(--ember);
+  color: var(--ember);
+  letter-spacing: 0.14em;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+.support-cta:hover { background: var(--ember); color: var(--bg); text-decoration: none; }
+
 /* ------------------------------------------------------------------ face cards */
 
 .face-grid {
