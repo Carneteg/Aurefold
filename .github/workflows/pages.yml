@@ -31,6 +31,7 @@ jobs:
           mkdir _site
           cp ./*.html _site/
           cp -r assets data _site/
+          cp CNAME robots.txt sitemap.xml favicon.ico _site/ 2>/dev/null || true
           touch _site/.nojekyll
 
       - name: Configure Pages (enables it on first run)

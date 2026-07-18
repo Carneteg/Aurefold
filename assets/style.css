@@ -126,6 +126,15 @@ h2.section-title {
   margin-top: 18px;
 }
 
+.hero .hero-sub {
+  margin-top: 14px;
+  color: var(--accent);
+  letter-spacing: 0.14em;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+.hero .hero-sub em { font-style: italic; text-transform: none; letter-spacing: 0.02em; color: var(--ember); }
+
 .hero .hero-rule {
   width: 120px;
   border: none;
