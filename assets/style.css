@@ -282,6 +282,14 @@ figure.chart-plate figcaption {
 .house-line::before { content: "“"; }
 .house-line::after { content: "”"; }
 
+.house-relevance {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--accent);
+  letter-spacing: 0.02em;
+  max-width: 60ch;
+}
+
 .map-link { display: inline-block; margin-top: 14px; font-size: 0.92rem; letter-spacing: 0.05em; }
 
 .support-cta {
