@@ -24,6 +24,12 @@
     return n;
   }
 
+  // Normalise a house label or key for matching, e.g. "House Whitehart" and
+  // "whitehart" both become "whitehart".
+  function normHouse(s) {
+    return String(s == null ? "" : s).toLowerCase().replace(/^house\s+/, "").replace(/[^a-z0-9]/g, "");
+  }
+
   // "What the Moot decided last time" — config-only, needs no network, so it
   // renders first and survives even if Supabase is unreachable. Hidden when
   // no title is set.
@@ -220,6 +226,7 @@
       poll.poll_options.slice().sort(function (a, b) { return a.sort - b.sort; }).forEach(function (o) {
         var btn = el("button", "moot-option");
         btn.type = "button";
+        btn.setAttribute("data-house", normHouse(o.label));
         if (prevChoice && o.id === prevChoice) btn.className = "moot-option is-current";
         btn.appendChild(el("span", "moot-option-label", o.label + (prevChoice && o.id === prevChoice ? " — your current voice" : "")));
         if (o.detail) btn.appendChild(el("span", "moot-option-detail", o.detail));
@@ -267,6 +274,31 @@
     return card;
   }
 
+  // A reader arriving from the quiz (vote.html#house=<key>) gets the matching
+  // house pre-selected in the ballot — highlighted only, never auto-cast. Does
+  // nothing if they've already voted (no ballot to highlight) or find no match.
+  function prehighlightFromHash(cards) {
+    var m = /(?:^|[#&])house=([^&]+)/.exec(location.hash || "");
+    if (!m) return;
+    var raw;
+    try { raw = decodeURIComponent(m[1]); } catch (e) { raw = m[1]; }
+    var want = normHouse(raw);
+    if (!want) return;
+    for (var i = 0; i < cards.length; i++) {
+      var btns = cards[i].querySelectorAll(".moot-option");
+      for (var j = 0; j < btns.length; j++) {
+        if (btns[j].getAttribute("data-house") === want) {
+          btns[j].classList.add("is-suggested");
+          btns[j].setAttribute("aria-current", "true");
+          var note = cards[i].querySelector(".moot-note");
+          if (note) note.textContent = "From your quiz — this house is highlighted below. Cast it, or choose another. Nothing is sent until you pick.";
+          if (btns[j].scrollIntoView) btns[j].scrollIntoView({ block: "center" });
+          return;
+        }
+      }
+    }
+  }
+
   pollsBox.appendChild(el("p", "moot-note", "Convening the moot…"));
   Promise.all([loadPolls(), loadResults()]).then(function (all) {
     pollsBox.innerHTML = "";
@@ -275,7 +307,12 @@
       pollsBox.appendChild(el("p", "moot-note", "The moot is not in session. Come back soon."));
       return;
     }
-    polls.forEach(function (p) { pollsBox.appendChild(renderPoll(p, results)); });
+    var cards = polls.map(function (p) {
+      var c = renderPoll(p, results);
+      pollsBox.appendChild(c);
+      return c;
+    });
+    prehighlightFromHash(cards);
   }).catch(function () {
     pollsBox.innerHTML = "";
     pollsBox.appendChild(el("p", "moot-note", "The archive could not be reached from here. The moot convenes on the published site — or try again in a moment."));

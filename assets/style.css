@@ -567,6 +567,8 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
 .moot-result-rank { color: var(--accent); font-size: 0.85rem; white-space: nowrap; }
 .moot-result.ranked .moot-bar-fill { opacity: 0.5; }
 .moot-option.is-current { border-color: var(--ember); }
+/* option pre-selected from the quiz (#house=…): highlighted, never auto-cast */
+.moot-option.is-suggested { border-color: var(--ember); box-shadow: inset 0 0 0 1px var(--ember); }
 .moot-change { display: block; margin-top: 8px; }
 
 /* ------------------------------------------------------------------ support */
@@ -1153,6 +1155,7 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
 .quiz-result-phil { font-variant: small-caps; letter-spacing: 0.12em; color: var(--accent); font-size: 1.1rem; margin-bottom: 20px; }
 .quiz-result-line { font-style: italic; max-width: 46ch; margin: 0 auto 26px; font-size: 1.15rem; }
 .quiz-result .cta-row { margin-top: 26px; }
+.quiz-result .share-block { margin-top: 24px; }
 .quiz-note { margin-top: 26px; font-size: 0.85rem; color: var(--accent); font-style: italic; max-width: 56ch; margin-left: auto; margin-right: auto; }
 
 /* share buttons */

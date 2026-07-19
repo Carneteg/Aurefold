@@ -131,14 +131,20 @@
     if (signupSoon) signupSoon.hidden = true;
   }
 
-  // Copy-link share buttons (any [data-copy] element).
-  document.querySelectorAll("[data-copy]").forEach(function (btn) {
-    btn.addEventListener("click", function () {
-      var url = btn.getAttribute("data-copy");
-      var label = btn.textContent;
-      var done = function () { btn.textContent = "Copied!"; setTimeout(function () { btn.textContent = label; }, 1800); };
-      if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, done); else done();
-    });
+  // Copy-link share buttons (any [data-copy] element). Delegated from the
+  // document so it also covers buttons injected after load — e.g. the quiz
+  // result screen — not just the ones present in the initial markup.
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest && e.target.closest("[data-copy]");
+    if (!btn || btn.dataset.copyBusy) return;
+    var text = btn.getAttribute("data-copy");
+    var label = btn.textContent;
+    btn.dataset.copyBusy = "1";
+    var done = function () {
+      btn.textContent = "Copied!";
+      setTimeout(function () { btn.textContent = label; delete btn.dataset.copyBusy; }, 1800);
+    };
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, done); else done();
   });
 
   // Read page: reveal the sticky "keep reading" bar once past the intro.

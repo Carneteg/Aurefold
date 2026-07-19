@@ -107,35 +107,49 @@
     card.appendChild(el("p", "quiz-result-phil", house.phil));
     card.appendChild(el("p", "quiz-result-line", "“" + house.line + "”"));
 
+    var shortName = house.name.replace(/^House\s+/, "");
+    var pageUrl = "https://aurefold.com/quiz.html";
+    var shareText = "I'm House " + shortName + " in Aurefold — which house are you?";
+
+    // Primary next steps: carry the result into the Moot, or follow the journey.
+    var row = el("div", "cta-row");
+    row.style.justifyContent = "center";
+
+    // Pre-fills the matching option in the Moot's house poll (never submits).
+    var a1 = el("a", "btn btn-primary", "Cast this as your vote in The Moot");
+    a1.href = "vote.html#house=" + encodeURIComponent(best);
+
+    // "Follow free" uses whatever support link is configured — no hardcoded URL.
+    var sup = ((window.AUREFOLD_COMMUNITY || {}).support) || {};
+    var followUrl = (sup.patreon && String(sup.patreon).trim()) ? String(sup.patreon).trim() : "support.html";
+    var a2 = el("a", "btn btn-ghost", "Follow free");
+    a2.href = followUrl;
+    if (/^https?:/i.test(followUrl)) { a2.target = "_blank"; a2.rel = "noopener"; }
+
+    row.appendChild(a1); row.appendChild(a2);
+    card.appendChild(row);
+
+    // Share chips reuse the site-wide .share-row pattern; the Copy chip uses the
+    // shared [data-copy] handler in site.js. Nothing shares or copies on its own.
+    var shareBlock = el("div", "share-block");
+    shareBlock.appendChild(el("p", "share-label", "Tell them which house you'd follow"));
     var share = el("div", "share-row");
-    var shareText = "I'd follow " + house.name + " — " + house.phil + ". Which of the Ten Houses of Aurefold would you follow?";
-    var url = "https://aurefold.com/quiz.html";
-    var enc = encodeURIComponent, t = enc(shareText), u = enc(url);
-    var links = [
+    var enc = encodeURIComponent, t = enc(shareText), u = enc(pageUrl);
+    [
       ["Share on X", "https://twitter.com/intent/tweet?text=" + t + "&url=" + u],
       ["Facebook", "https://www.facebook.com/sharer/sharer.php?u=" + u],
       ["Reddit", "https://www.reddit.com/submit?url=" + u + "&title=" + t]
-    ];
-    links.forEach(function (l) {
+    ].forEach(function (l) {
       var a = el("a", "share-btn", l[0]);
       a.href = l[1]; a.target = "_blank"; a.rel = "noopener";
       share.appendChild(a);
     });
-    var copy = el("button", "share-btn", "Copy link");
+    var copy = el("button", "share-btn", "Copy");
     copy.type = "button";
-    copy.addEventListener("click", function () {
-      var done = function () { copy.textContent = "Copied!"; setTimeout(function () { copy.textContent = "Copy link"; }, 1800); };
-      if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, done); else done();
-    });
+    copy.setAttribute("data-copy", shareText + " " + pageUrl);
     share.appendChild(copy);
-    card.appendChild(share);
-
-    var row = el("div", "cta-row");
-    row.style.justifyContent = "center";
-    var a1 = el("a", "btn btn-primary", "Meet all ten houses"); a1.href = "houses.html";
-    var a2 = el("a", "btn btn-ghost", "Read the opening"); a2.href = "read.html";
-    row.appendChild(a1); row.appendChild(a2);
-    card.appendChild(row);
+    shareBlock.appendChild(share);
+    card.appendChild(shareBlock);
 
     var again = el("button", "quiz-back", "↻ Take it again");
     again.type = "button";
