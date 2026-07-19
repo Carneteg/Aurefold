@@ -44,7 +44,8 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site-nav">
     <a class="brand" href="index.html"><img class="brand-mark" src="assets/brand/emblem-mark.webp" alt="" width="34" height="34" />AUREFOLD</a>
-    <ul>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span></button>
+    <ul id="nav-menu">
       <li><a href="book.html" class="active">Book One</a></li>
       <li><a href="houses.html">The Great Houses</a></li>
       <li><a href="map.html">The Map</a></li>
@@ -127,6 +128,16 @@
         <a class="btn btn-primary" href="read.html">Read the opening</a>
         <a class="btn btn-ghost" href="support.html">How to support</a>
       </div>
+
+      <div class="share-block">
+        <p class="share-label">Share Book One</p>
+        <div class="share-row" style="justify-content:flex-start;">
+          <a class="share-btn" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=AUREFOLD%20%E2%80%94%20The%20Bell%20of%20Silence&url=https%3A%2F%2Faurefold.com%2Fbook.html">Share on X</a>
+          <a class="share-btn" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faurefold.com%2Fbook.html">Facebook</a>
+          <a class="share-btn" target="_blank" rel="noopener" href="https://www.reddit.com/submit?url=https%3A%2F%2Faurefold.com%2Fbook.html&title=AUREFOLD%20%E2%80%94%20The%20Bell%20of%20Silence">Reddit</a>
+          <button class="share-btn" type="button" data-copy="https://aurefold.com/book.html">Copy link</button>
+        </div>
+      </div>
     </section>
   </main>
 
@@ -134,6 +145,7 @@
     AUREFOLD · The map ends where the truth begins.
   </footer>
 
+  <script src="data/community.js"></script>
   <script src="assets/site.js"></script>
 </body>
 </html>

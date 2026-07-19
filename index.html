@@ -47,7 +47,8 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site-nav">
     <a class="brand" href="index.html"><img class="brand-mark" src="assets/brand/emblem-mark.webp" alt="" width="34" height="34" />AUREFOLD</a>
-    <ul>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span></button>
+    <ul id="nav-menu">
       <li><a href="book.html">Book One</a></li>
       <li><a href="houses.html">The Great Houses</a></li>
       <li><a href="map.html">The Map</a></li>
@@ -123,6 +124,10 @@
         <a class="btn btn-primary" href="support.html">How to support</a>
         <a class="btn btn-ghost" href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">Join free on Patreon</a>
       </div>
+      <p class="home-journal">
+        <span class="home-journal-kind">Latest from the journal</span><br />
+        <a href="journal.html">Building this one in the open — where the project stands →</a>
+      </p>
     </section>
 
     <section>
@@ -145,6 +150,12 @@
           <p>The goatherd, the tester, the chronicler — the people of Book One.</p>
         </a>
       </div>
+    </section>
+
+    <section class="quiz-teaser" aria-label="House quiz">
+      <h2>Which house would you follow?</h2>
+      <p>Ten houses, ten philosophies of rule. Six questions decide which oath is yours.</p>
+      <a class="btn btn-primary" href="quiz.html">Take the quiz</a>
     </section>
 
     <section class="prose">

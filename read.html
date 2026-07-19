@@ -29,7 +29,8 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site-nav">
     <a class="brand" href="index.html"><img class="brand-mark" src="assets/brand/emblem-mark.webp" alt="" width="34" height="34" />AUREFOLD</a>
-    <ul>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span></button>
+    <ul id="nav-menu">
       <li><a href="book.html">Book One</a></li>
       <li><a href="houses.html">The Great Houses</a></li>
       <li><a href="map.html">The Map</a></li>
@@ -46,6 +47,7 @@
   <main id="main" class="page">
     <h1 class="page-title">From the pages</h1>
     <p class="page-intro">Two openings from Book One: <em>The Bell of Silence</em> — the prologue, where the realm argues over a record, and the beginning of Chapter One, where the record is only a frightened girl.</p>
+    <p class="reading-time" aria-label="Reading time">◔ About a five-minute read</p>
 
     <aside class="read-module" aria-label="Before you read">
       <p>These two excerpts are the book’s first pages. <em>The Bell of Silence</em> is a completed manuscript of approximately 86,000 words, now on the road to publication.</p>
@@ -130,12 +132,29 @@
         <a class="btn btn-ghost" href="support.html">How to support</a>
       </div>
     </section>
+
+    <div class="share-block">
+      <p class="share-label">Share the opening</p>
+      <div class="share-row">
+        <a class="share-btn" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=The%20opening%20of%20AUREFOLD%20%E2%80%94%20The%20Bell%20of%20Silence&url=https%3A%2F%2Faurefold.com%2Fread.html">Share on X</a>
+        <a class="share-btn" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faurefold.com%2Fread.html">Facebook</a>
+        <a class="share-btn" target="_blank" rel="noopener" href="https://www.reddit.com/submit?url=https%3A%2F%2Faurefold.com%2Fread.html&title=The%20opening%20of%20AUREFOLD%20%E2%80%94%20The%20Bell%20of%20Silence">Reddit</a>
+        <button class="share-btn" type="button" data-copy="https://aurefold.com/read.html">Copy link</button>
+      </div>
+    </div>
   </main>
+
+  <div class="read-sticky" id="read-sticky" aria-hidden="true">
+    <span class="read-sticky-text">Enjoying the opening?</span>
+    <a class="btn btn-primary" href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">Join free</a>
+    <a class="btn btn-ghost" href="assets/aurefold-opening.pdf" download>Download PDF</a>
+  </div>
 
   <footer class="site-footer">
     AUREFOLD · The map ends where the truth begins.
   </footer>
 
+  <script src="data/community.js"></script>
   <script src="assets/site.js"></script>
 </body>
 </html>

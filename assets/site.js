@@ -2,6 +2,21 @@
 (function () {
   "use strict";
 
+  // Mobile navigation toggle (hamburger).
+  var nav = document.querySelector(".site-nav");
+  var navToggle = nav && nav.querySelector(".nav-toggle");
+  if (nav && navToggle) {
+    navToggle.addEventListener("click", function () {
+      var open = nav.classList.toggle("open");
+      navToggle.setAttribute("aria-expanded", String(open));
+      navToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    });
+    // Close when a menu link is tapped.
+    nav.querySelectorAll("#nav-menu a").forEach(function (a) {
+      a.addEventListener("click", function () { nav.classList.remove("open"); navToggle.setAttribute("aria-expanded", "false"); });
+    });
+  }
+
   // Expandable house cards (houses.html).
   document.querySelectorAll(".house-card").forEach((card) => {
     const toggle = card.querySelector(".house-toggle");
@@ -56,6 +71,29 @@
       "/forms/" + String(ml.form).trim() + "/subscribe";
     signupForm.hidden = false;
     if (signupSoon) signupSoon.hidden = true;
+  }
+
+  // Copy-link share buttons (any [data-copy] element).
+  document.querySelectorAll("[data-copy]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var url = btn.getAttribute("data-copy");
+      var label = btn.textContent;
+      var done = function () { btn.textContent = "Copied!"; setTimeout(function () { btn.textContent = label; }, 1800); };
+      if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, done); else done();
+    });
+  });
+
+  // Read page: reveal the sticky "keep reading" bar once past the intro.
+  var sticky = document.getElementById("read-sticky");
+  if (sticky) {
+    var onScroll = function () {
+      var y = window.pageYOffset || document.documentElement.scrollTop;
+      var nearBottom = (y + window.innerHeight) > (document.body.scrollHeight - 260);
+      if (y > 500 && !nearBottom) sticky.classList.add("show");
+      else sticky.classList.remove("show");
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
   }
 
   // Privacy-friendly analytics (Plausible). Loads ONLY when a domain is
