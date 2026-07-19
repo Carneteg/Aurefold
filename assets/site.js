@@ -52,6 +52,27 @@
     });
   }
 
+  // "The Archive" nav dropdown: the CSS drives the reveal (hover/focus on
+  // desktop, always-nested on mobile); JS only keeps aria-expanded honest and
+  // adds Escape-to-close. Degrades to plain links with JS off.
+  var subToggle = nav && nav.querySelector(".nav-sub-toggle");
+  if (subToggle) {
+    var subGroup = subToggle.closest(".has-sub");
+    var subMenu = subGroup && subGroup.querySelector(".sub-menu");
+    var syncSub = function () {
+      var shown = subMenu && getComputedStyle(subMenu).display !== "none";
+      subToggle.setAttribute("aria-expanded", shown ? "true" : "false");
+    };
+    ["mouseenter", "mouseleave", "focusin", "focusout"].forEach(function (ev) {
+      subGroup.addEventListener(ev, function () { setTimeout(syncSub, 0); });
+    });
+    window.addEventListener("resize", syncSub);
+    subToggle.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" || e.key === "Esc") { subToggle.blur(); setTimeout(syncSub, 0); }
+    });
+    syncSub();
+  }
+
   // Expandable house cards (houses.html).
   document.querySelectorAll(".house-card").forEach((card) => {
     const toggle = card.querySelector(".house-toggle");

@@ -86,7 +86,7 @@ a:hover { text-decoration: underline; }
 .site-nav.open .nav-toggle span:nth-child(2) { opacity: 0; }
 .site-nav.open .nav-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-.site-nav ul {
+.site-nav > ul {
   display: flex;
   gap: 26px;
   list-style: none;
@@ -99,6 +99,57 @@ a:hover { text-decoration: underline; }
 }
 .site-nav ul a:hover { color: var(--ember); text-decoration: none; }
 .site-nav ul a.active { color: var(--ink); border-bottom: 1px solid var(--ember); padding-bottom: 3px; }
+
+/* nav dropdown — "The Archive" grouping (reuses link tokens; CSS drives reveal) */
+.has-sub { position: relative; }
+.nav-sub-toggle {
+  font-family: var(--serif);
+  color: var(--accent);
+  font-size: 0.92rem;
+  letter-spacing: 0.08em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0;
+  transition: color 0.2s ease;
+}
+.nav-sub-toggle::after { content: "▾"; font-size: 0.7em; line-height: 1; }
+.nav-sub-toggle:hover,
+.has-sub:hover .nav-sub-toggle,
+.has-sub:focus-within .nav-sub-toggle { color: var(--ember); }
+.has-sub:has(a.active) .nav-sub-toggle { color: var(--ink); }
+.sub-menu { list-style: none; }
+.sub-menu a { color: var(--accent); transition: color 0.2s ease; }
+.sub-menu a:hover { color: var(--ember); text-decoration: none; }
+
+@media (min-width: 861px) {
+  /* let nav items fill the bar height so the dropdown anchors to its bottom edge */
+  .site-nav > ul { align-self: stretch; }
+  .site-nav > ul > li { display: flex; align-items: center; }
+  .has-sub .nav-sub-toggle { height: 100%; }
+
+  .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    flex-direction: column;
+    min-width: 190px;
+    background: var(--bg-panel);
+    border: 1px solid var(--line);
+    padding: 6px 0;
+    z-index: 55;
+  }
+  .has-sub:hover .sub-menu,
+  .has-sub:focus-within .sub-menu { display: flex; }
+  .sub-menu li { width: 100%; }
+  .sub-menu a { display: block; padding: 9px 18px; white-space: nowrap; }
+  .sub-menu a.active { color: var(--ink); border-bottom: none; padding: 9px 18px; }
+}
 
 /* ------------------------------------------------------------------ layout */
 
@@ -1160,7 +1211,7 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
   .site-nav .brand { letter-spacing: 0.2em; font-size: 0.95rem; }
 
   .nav-toggle { display: flex; }
-  .site-nav ul {
+  .site-nav > ul {
     position: fixed;
     top: var(--nav-h);
     left: 0; right: 0;
@@ -1176,7 +1227,7 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
     pointer-events: none;
     transition: transform 0.22s ease, opacity 0.22s ease;
   }
-  .site-nav.open ul { transform: translateY(0); opacity: 1; pointer-events: auto; }
+  .site-nav.open > ul { transform: translateY(0); opacity: 1; pointer-events: auto; }
   .site-nav ul li { width: 100%; }
   .site-nav ul a {
     display: block;
@@ -1184,6 +1235,17 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
     font-size: 1rem;
     border-bottom: 1px solid rgba(216, 205, 178, 0.5);
   }
+  /* The Archive: nests inline inside the open hamburger — no separate mechanism */
+  .site-nav ul .nav-sub-toggle {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 13px 24px;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(216, 205, 178, 0.5);
+  }
+  .site-nav ul .sub-menu { padding: 0; }
+  .site-nav ul .sub-menu a { padding-left: 44px; }
 }
 
 @media (max-width: 860px) {
