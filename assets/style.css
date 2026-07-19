@@ -178,6 +178,26 @@ h2.section-title {
 }
 .hero .hero-sub em { font-style: italic; text-transform: none; letter-spacing: 0.02em; color: #c98a5a; }
 
+/* status line — small-caps label pattern, muted hero text tone */
+.hero .hero-status {
+  margin-top: 16px;
+  color: #9c8f76;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+/* hero CTAs — reuse .cta-row/.btn; sit in the first viewport, present at first paint */
+.hero .hero-cta { margin-top: 26px; }
+
+/* gentle load fade-in for hero content (time-based, never scroll-gated;
+   disabled under prefers-reduced-motion by the global rule below) */
+@keyframes heroFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.hero > * { animation: heroFadeIn 0.7s ease both; }
+
 .hero .hero-rule {
   width: 120px;
   border: none;
@@ -1176,7 +1196,13 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
   .support-hero { padding: 12px 0 32px; }
   .support-hero h1 { letter-spacing: 0.02em; }
   .cta-row { flex-direction: column; align-items: stretch; }
-  .cta-row .btn { text-align: center; }
+  .cta-row .btn {
+    text-align: center;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
   .tier-grid { grid-template-columns: 1fr; }
   .status-grid { grid-template-columns: 1fr; }
   .carry-list { grid-template-columns: 1fr; }
