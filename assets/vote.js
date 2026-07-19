@@ -40,9 +40,9 @@
     return fetchJson(API + "/polls?select=id,question,description,poll_options(id,label,detail,sort)&open=eq.true&order=sort", { headers: HEADERS });
   }
   function loadResults() {
-    // Aggregated counts come from a SECURITY DEFINER function (RPC), not a view:
-    // it exposes only the counts, never the raw vote rows.
-    return fetchJson(API + "/rpc/poll_results?select=poll_id,option_id,votes", { headers: HEADERS });
+    // Aggregated counts live in a dedicated tally table (kept in sync by a
+    // trigger). It exposes only the counts; raw votes stay private under RLS.
+    return fetchJson(API + "/poll_tallies?select=poll_id,option_id,votes", { headers: HEADERS });
   }
   function castVote(pollId, optionId) {
     // return=minimal is required: voters may insert a vote but may not read
