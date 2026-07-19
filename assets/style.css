@@ -557,6 +557,17 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
 .moot-result-count { color: var(--accent); font-size: 0.88rem; white-space: nowrap; }
 .moot-bar { height: 8px; background: var(--bg-deep); border: 1px solid var(--line); margin-top: 4px; }
 .moot-bar-fill { height: 100%; background: var(--ember); transition: width 0.4s ease; }
+/* eyebrow that names each card (house question / what opens next / retrospective) */
+.moot-kind { text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.72rem; color: var(--accent); margin: 0 0 6px; }
+/* "What the Moot decided last time" — a quieter, dashed retrospective card */
+.moot-outcome { border-style: dashed; }
+/* persistent "Your voice — <option>" line after voting */
+.moot-yourvoice { color: var(--ember); letter-spacing: 0.04em; font-size: 0.95rem; margin: 0 0 14px; }
+/* low-count mode: ranked order in place of a raw count, with subtler bars */
+.moot-result-rank { color: var(--accent); font-size: 0.85rem; white-space: nowrap; }
+.moot-result.ranked .moot-bar-fill { opacity: 0.5; }
+.moot-option.is-current { border-color: var(--ember); }
+.moot-change { display: block; margin-top: 8px; }
 
 /* ------------------------------------------------------------------ support */
 

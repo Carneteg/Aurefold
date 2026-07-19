@@ -1,10 +1,61 @@
-/* AUREFOLD — the moot: load open polls, cast one vote per visitor, show results. */
+/* AUREFOLD — the moot: load open polls, cast one vote per visitor, show results.
+   This file is PRESENTATION ONLY. The Supabase data layer, its row-level
+   security, the poll_tallies aggregate, and the one-vote-per-reader rule
+   (unique vote per ew-voter) are all unchanged — no schema changes are made
+   or required by anything below. */
 (function () {
   "use strict";
 
   var cfg = window.AUREFOLD_COMMUNITY || {};
   var root = document.getElementById("moot");
-  if (!root || !cfg.supabaseUrl) return;
+  if (!root) return;
+
+  // Below this many votes a poll shows a ranked standing with subtle bars and
+  // NO raw numbers ("be among the first"); at or above it, the real tallies
+  // show. Inert until configured: an unset/zero value means "always reveal",
+  // i.e. the previous behaviour.
+  var threshold = Number(cfg.MOOT_REVEAL_THRESHOLD);
+  if (!(threshold > 0)) threshold = 0;
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text) n.textContent = text;
+    return n;
+  }
+
+  // "What the Moot decided last time" — config-only, needs no network, so it
+  // renders first and survives even if Supabase is unreachable. Hidden when
+  // no title is set.
+  function renderLastOutcome(last) {
+    var card = el("article", "moot-card moot-outcome");
+    card.appendChild(el("p", "moot-kind", "What the Moot decided last time"));
+    card.appendChild(el("h2", "section-title", last.title));
+    if (last.note && String(last.note).trim()) card.appendChild(el("p", "moot-desc", last.note));
+    return card;
+  }
+
+  // A short eyebrow that tells the two questions apart at a glance.
+  function kindFor(poll) {
+    var q = (poll.question || "").toLowerCase();
+    if (/house/.test(q)) return "The house question";
+    if (/thread|chapter|scene|excerpt|\bopen|\bnext\b|topic|read|reveal|material/.test(q)) return "What opens next";
+    return "A question for the Moot";
+  }
+
+  root.innerHTML = "";
+  var last = (cfg.moot && cfg.moot.lastOutcome) || null;
+  if (last && last.title && String(last.title).trim()) {
+    root.appendChild(renderLastOutcome(last));
+  }
+
+  var pollsBox = el("div", "moot-polls");
+  root.appendChild(pollsBox);
+
+  if (!cfg.supabaseUrl || !cfg.supabaseKey) {
+    pollsBox.appendChild(el("p", "moot-note", "The moot convenes on the published site."));
+    return;
+  }
 
   var API = cfg.supabaseUrl + "/rest/v1";
   // Authorization mirrors apikey so PostgREST resolves the anon role reliably.
@@ -60,95 +111,173 @@
     });
   }
 
-  function el(tag, cls, text) {
-    var n = document.createElement(tag);
-    if (cls) n.className = cls;
-    if (text) n.textContent = text;
-    return n;
-  }
-
-  function renderResults(card, poll, results, chosen) {
-    var list = card.querySelector(".moot-options");
-    list.innerHTML = "";
-    var counts = {}, total = 0;
-    (results || []).forEach(function (r) {
-      if (r.poll_id === poll.id) { counts[r.option_id] = r.votes; total += r.votes; }
-    });
-    poll.poll_options.sort(function (a, b) { return a.sort - b.sort; }).forEach(function (o) {
-      var n = counts[o.id] || 0;
-      var pct = total ? Math.round((n * 100) / total) : 0;
-      var row = el("div", "moot-result" + (chosen === o.id ? " chosen" : ""));
-      var head = el("div", "moot-result-head");
-      head.appendChild(el("span", "moot-result-label", o.label + (chosen === o.id ? " — your voice" : "")));
-      head.appendChild(el("span", "moot-result-count", n + (n === 1 ? " voice" : " voices") + " · " + pct + "%"));
-      var bar = el("div", "moot-bar");
-      var fill = el("div", "moot-bar-fill");
-      fill.style.width = (total ? Math.max(pct, 2) : 0) + "%";
-      bar.appendChild(fill);
-      row.appendChild(head); row.appendChild(bar);
-      list.appendChild(row);
-    });
-    var note = card.querySelector(".moot-note");
-    note.textContent = total === 0 ? "No voices yet. Yours would be the first."
-      : "The moot has heard " + total + (total === 1 ? " voice." : " voices.");
-  }
-
   function renderPoll(poll, results) {
     var card = el("article", "moot-card");
+    card.appendChild(el("p", "moot-kind", kindFor(poll)));
     card.appendChild(el("h2", "section-title", poll.question));
     if (poll.description) card.appendChild(el("p", "moot-desc", poll.description));
-    var list = el("div", "moot-options");
-    card.appendChild(list);
+    var body = el("div", "moot-body");
     var note = el("p", "moot-note");
+    card.appendChild(body);
     card.appendChild(note);
 
-    var chosen = votedFor(poll.id);
-    if (chosen) {
-      renderResults(card, poll, results, chosen);
-    } else {
-      poll.poll_options.sort(function (a, b) { return a.sort - b.sort; }).forEach(function (o) {
+    // Per-poll state: the latest tallies, and whether the server has told us
+    // that changing a vote isn't allowed (a 409 on re-cast).
+    var state = { results: results, changeLocked: false };
+
+    function optionById(id) {
+      for (var i = 0; i < poll.poll_options.length; i++) {
+        if (poll.poll_options[i].id === id) return poll.poll_options[i];
+      }
+      return null;
+    }
+
+    function tallies() {
+      var counts = {}, total = 0, max = 0;
+      (state.results || []).forEach(function (r) {
+        if (r.poll_id === poll.id) {
+          counts[r.option_id] = r.votes;
+          total += r.votes;
+          if (r.votes > max) max = r.votes;
+        }
+      });
+      return { counts: counts, total: total, max: max };
+    }
+
+    // Show the standing. `chosen` is the option id this reader voted for (or
+    // null when peeking). Below the reveal threshold we rank the options and
+    // hide raw numbers; at/above it we show real counts and percentages.
+    function showResults(chosen) {
+      body.innerHTML = "";
+      var t = tallies();
+      var revealed = t.total >= threshold;
+
+      if (chosen) {
+        var opt = optionById(chosen);
+        body.appendChild(el("p", "moot-yourvoice", "Your voice — " + (opt ? opt.label : "counted")));
+      }
+
+      var ordered = poll.poll_options.slice().sort(function (a, b) {
+        var d = (t.counts[b.id] || 0) - (t.counts[a.id] || 0);
+        return d !== 0 ? d : a.sort - b.sort;
+      });
+
+      ordered.forEach(function (o, i) {
+        var n = t.counts[o.id] || 0;
+        var isChosen = chosen === o.id;
+        var row = el("div", "moot-result" + (isChosen ? " chosen" : "") + (revealed ? "" : " ranked"));
+        var head = el("div", "moot-result-head");
+        head.appendChild(el("span", "moot-result-label", o.label));
+        if (revealed) {
+          var pct = t.total ? Math.round((n * 100) / t.total) : 0;
+          head.appendChild(el("span", "moot-result-count", n + (n === 1 ? " voice" : " voices") + " · " + pct + "%"));
+        } else {
+          head.appendChild(el("span", "moot-result-rank", "#" + (i + 1)));
+        }
+        var bar = el("div", "moot-bar");
+        var fill = el("div", "moot-bar-fill");
+        // Revealed: width is the true share. Ranked: width is relative to the
+        // leader and capped low, so it reads as "order", not "proportion".
+        var w = 0;
+        if (revealed) w = t.total ? Math.max(Math.round((n * 100) / t.total), 2) : 0;
+        else w = t.max ? Math.round((n / t.max) * 70) : 0;
+        fill.style.width = w + "%";
+        bar.appendChild(fill);
+        row.appendChild(head);
+        row.appendChild(bar);
+        body.appendChild(row);
+      });
+
+      if (chosen && !state.changeLocked) {
+        var change = el("button", "moot-peek moot-change", "Change your choice");
+        change.type = "button";
+        change.addEventListener("click", function () { showVoting(chosen); });
+        body.appendChild(change);
+      } else if (!chosen) {
+        var addVoice = el("button", "moot-peek moot-change", "Add your voice");
+        addVoice.type = "button";
+        addVoice.addEventListener("click", function () { showVoting(null); });
+        body.appendChild(addVoice);
+      }
+
+      if (revealed) {
+        note.textContent = t.total
+          ? "The Moot has heard " + t.total + (t.total === 1 ? " voice." : " voices.")
+          : "No voices yet. Yours would be the first.";
+      } else if (chosen) {
+        note.textContent = "Your voice is counted. The full standing opens once more readers weigh in.";
+      } else {
+        note.textContent = "Early days — be among the first to weigh in.";
+      }
+    }
+
+    // Show the ballot. When `prevChoice` is set the reader is changing an
+    // existing vote, so we add a "keep" escape hatch and honour the server's
+    // one-vote rule on submit.
+    function showVoting(prevChoice) {
+      body.innerHTML = "";
+      var list = el("div", "moot-options");
+      poll.poll_options.slice().sort(function (a, b) { return a.sort - b.sort; }).forEach(function (o) {
         var btn = el("button", "moot-option");
         btn.type = "button";
-        btn.appendChild(el("span", "moot-option-label", o.label));
+        if (prevChoice && o.id === prevChoice) btn.className = "moot-option is-current";
+        btn.appendChild(el("span", "moot-option-label", o.label + (prevChoice && o.id === prevChoice ? " — your current voice" : "")));
         if (o.detail) btn.appendChild(el("span", "moot-option-detail", o.detail));
         btn.addEventListener("click", function () {
-          btn.disabled = true;
+          if (prevChoice && o.id === prevChoice) { showResults(prevChoice); return; }
+          Array.prototype.forEach.call(body.querySelectorAll(".moot-option"), function (b) { b.disabled = true; });
           castVote(poll.id, o.id).then(function (res) {
+            if (prevChoice && res && res.conflict) {
+              // The server keeps one vote per reader (unique on ew-voter); a
+              // re-cast is refused. Reflect the stored choice and say so.
+              state.changeLocked = true;
+              showResults(prevChoice);
+              note.textContent = "The Moot keeps one voice per reader — your first choice stands.";
+              return;
+            }
             markVoted(poll.id, o.id);
-            return loadResults().then(function (r) { renderResults(card, poll, r, o.id); });
+            return loadResults().then(function (r) { state.results = r; showResults(o.id); });
           }).catch(function () {
-            btn.disabled = false;
+            Array.prototype.forEach.call(body.querySelectorAll(".moot-option"), function (b) { b.disabled = false; });
             note.textContent = "The archive could not be reached. Try again in a moment.";
           });
         });
         list.appendChild(btn);
       });
-      var show = el("button", "moot-peek");
-      show.type = "button";
-      show.textContent = "Show the standing without voting";
-      show.addEventListener("click", function () {
-        loadResults().then(function (r) { renderResults(card, poll, r, null); show.remove(); });
-      });
-      card.appendChild(show);
-      note.textContent = "One voice per reader. The archive counts; it does not watch.";
+      body.appendChild(list);
+
+      if (prevChoice) {
+        var keep = el("button", "moot-peek moot-change", "Keep my current choice");
+        keep.type = "button";
+        keep.addEventListener("click", function () { showResults(prevChoice); });
+        body.appendChild(keep);
+        note.textContent = "Pick another option to change your voice, or keep your current one.";
+      } else {
+        var peek = el("button", "moot-peek", "Show the standing without voting");
+        peek.type = "button";
+        peek.addEventListener("click", function () { showResults(null); });
+        body.appendChild(peek);
+        note.textContent = "One voice per reader. The archive counts; it does not watch.";
+      }
     }
+
+    var chosen = votedFor(poll.id);
+    if (chosen) showResults(chosen);
+    else showVoting(null);
     return card;
   }
 
-  root.innerHTML = "";
-  root.appendChild(el("p", "moot-note", "Convening the moot…"));
+  pollsBox.appendChild(el("p", "moot-note", "Convening the moot…"));
   Promise.all([loadPolls(), loadResults()]).then(function (all) {
-    root.innerHTML = "";
+    pollsBox.innerHTML = "";
     var polls = all[0], results = all[1];
     if (!polls.length) {
-      root.appendChild(el("p", "moot-note", "The moot is not in session. Come back soon."));
+      pollsBox.appendChild(el("p", "moot-note", "The moot is not in session. Come back soon."));
       return;
     }
-    polls.forEach(function (p) { root.appendChild(renderPoll(p, results)); });
+    polls.forEach(function (p) { pollsBox.appendChild(renderPoll(p, results)); });
   }).catch(function () {
-    root.innerHTML = "";
-    var msg = el("p", "moot-note");
-    msg.textContent = "The archive could not be reached from here. The moot convenes on the published site — or try again in a moment.";
-    root.appendChild(msg);
+    pollsBox.innerHTML = "";
+    pollsBox.appendChild(el("p", "moot-note", "The archive could not be reached from here. The moot convenes on the published site — or try again in a moment."));
   });
 })();

@@ -13,6 +13,28 @@ window.AUREFOLD_COMMUNITY = {
   // directly from the Authorization bearer on every request.
   supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFrYm9lc2xlY3pkZHFkaWtqemJ3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM4NjM4MzUsImV4cCI6MjA5OTQzOTgzNX0.AG1LPOUP-O9icpNOFQZ1w8tNFlW4MeTPWvKfDbrf90w",
 
+  /* The Moot (reader voting) — PRESENTATION only. These settings never touch
+     the database, its row-level security, or the one-vote-per-reader rule.
+
+     MOOT_REVEAL_THRESHOLD: how many votes a single poll needs before its real
+     tallies are shown. Below it, options appear as a ranked standing with
+     subtle bars and no raw numbers ("be among the first to weigh in"). Set to
+     0 (or delete this line) to always show counts — the pre-threshold
+     behaviour. Raise it while the audience is small so a 1–0 lead never looks
+     like a verdict. */
+  MOOT_REVEAL_THRESHOLD: 10,
+
+  /* "What the Moot decided last time" — a short retrospective panel above the
+     live polls, showing that past votes actually changed the site. Leave
+     title "" and the whole panel stays hidden. Edit title/note after each
+     round; nothing here is sent anywhere. */
+  moot: {
+    lastOutcome: {
+      title: "",
+      note: ""
+    }
+  },
+
   /* Reading-list signup (MailerLite). Fill BOTH ids to switch the signup
      form on; leave "" and the form shows a quiet "opening soon" note and
      never posts anywhere. Find these in your MailerLite embedded-form code:
