@@ -25,6 +25,15 @@ window.AUREFOLD_COMMUNITY = {
     form: ""
   },
 
+  /* Privacy-friendly analytics (Plausible — no cookies, no consent banner).
+     Sign up at plausible.io, add the site "aurefold.com", then paste that
+     exact domain here. Empty = analytics stays OFF and no external script
+     loads. When set, pageviews plus a few key events (Patreon clicks, support
+     and read clicks) are tracked — no personal data, no cookies. */
+  analytics: {
+    plausibleDomain: ""
+  },
+
   /* Sponsor & follow links. Paste a URL to switch a button on;
      leave "" and the button stays hidden. For Swish, use a swish.me
      link or leave "" and add a QR image later. */

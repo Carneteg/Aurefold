@@ -58,6 +58,30 @@
     if (signupSoon) signupSoon.hidden = true;
   }
 
+  // Privacy-friendly analytics (Plausible). Loads ONLY when a domain is
+  // configured in data/community.js; otherwise nothing external is requested.
+  // No cookies, no personal data. Also tracks a few key conversion events
+  // without any per-element markup.
+  var an = (window.AUREFOLD_COMMUNITY || {}).analytics || {};
+  if (an.plausibleDomain && String(an.plausibleDomain).trim()) {
+    var ps = document.createElement("script");
+    ps.defer = true;
+    ps.setAttribute("data-domain", String(an.plausibleDomain).trim());
+    ps.src = "https://plausible.io/js/script.outbound-links.js";
+    document.head.appendChild(ps);
+    window.plausible = window.plausible || function () {
+      (window.plausible.q = window.plausible.q || []).push(arguments);
+    };
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest && e.target.closest("a");
+      if (!a) return;
+      var href = a.getAttribute("href") || "";
+      if (/patreon\.com/i.test(href)) window.plausible("Patreon click");
+      else if (/support\.html/i.test(href)) window.plausible("Support click");
+      else if (/read\.html/i.test(href)) window.plausible("Read click");
+    });
+  }
+
   // Show Plate I on the front page only if the chart image exists.
   const plateImg = document.getElementById("chart-plate-img");
   if (plateImg) {
