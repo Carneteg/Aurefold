@@ -148,7 +148,7 @@ a:hover { text-decoration: underline; }
   .has-sub:focus-within .sub-menu { display: flex; }
   .sub-menu li { width: 100%; }
   .sub-menu a { display: block; padding: 9px 18px; white-space: nowrap; }
-  .sub-menu a.active { color: var(--ink); border-bottom: none; padding: 9px 18px; }
+  .site-nav .sub-menu a.active { color: var(--ink); border-bottom: none; padding: 9px 18px; }
 }
 
 /* ------------------------------------------------------------------ layout */
