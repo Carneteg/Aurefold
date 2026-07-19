@@ -50,8 +50,10 @@
     });
   });
 
-  // Deep link: houses.html#<house-id> opens that card.
-  if (location.hash) {
+  // Deep link: houses.html#<house-id> opens that card. Guard against hashes
+  // that aren't a simple id (e.g. map.html uses #house/<id>, which would be an
+  // invalid selector) so this stays inert on other pages.
+  if (location.hash && /^#[A-Za-z][\w-]*$/.test(location.hash)) {
     const card = document.querySelector(`.house-card${location.hash}`);
     if (card) {
       card.classList.add("open");
