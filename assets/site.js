@@ -191,4 +191,87 @@
     if (plateImg.complete && plateImg.naturalWidth > 0) plate.hidden = false;
     else plateImg.addEventListener("load", () => { plate.hidden = false; });
   }
+
+  // ---- Homepage freshness signals (all inert until they have real data) ----
+  var freshCfg = window.AUREFOLD_COMMUNITY || {};
+
+  // 1) Momentum strip: render only the fields that are set. A null/blank value
+  //    — or a number that isn't > 0 — is skipped, so nothing ever shows "0".
+  var momentumBox = document.getElementById("momentum");
+  if (momentumBox) {
+    var mo = freshCfg.momentum || {};
+    var addStat = function (value, label, isText) {
+      var item = document.createElement("div");
+      item.className = "momentum-item" + (isText ? " is-text" : "");
+      var v = document.createElement("span"); v.className = "momentum-value"; v.textContent = value;
+      var l = document.createElement("span"); l.className = "momentum-label"; l.textContent = label;
+      item.appendChild(v); item.appendChild(l); momentumBox.appendChild(item);
+    };
+    var posNum = function (n) { return (typeof n === "number" && isFinite(n) && n > 0) ? n : null; };
+    if (posNum(mo.members)) addStat(String(mo.members), mo.members === 1 ? "member" : "members", false);
+    if (posNum(mo.votesCast)) addStat(String(mo.votesCast), mo.votesCast === 1 ? "vote cast" : "votes cast", false);
+    var milestone = mo.latestMilestone && String(mo.latestMilestone).trim();
+    if (milestone) addStat(milestone, "Latest milestone", true);
+    if (momentumBox.children.length) momentumBox.removeAttribute("hidden");
+  }
+
+  // 2) Latest-from-the-Journal teaser, driven by AUREFOLD_COMMUNITY.journal.
+  var homeJournal = document.getElementById("home-journal");
+  if (homeJournal) {
+    var jo = freshCfg.journal || {};
+    var jTitle = jo.latestTitle && String(jo.latestTitle).trim();
+    if (jTitle) {
+      var jDate = jo.latestDate && String(jo.latestDate).trim();
+      var jKind = document.createElement("span");
+      jKind.className = "home-journal-kind";
+      jKind.textContent = "Latest from the Journal" + (jDate ? " · " + jDate : "");
+      var jLink = document.createElement("a");
+      jLink.href = (jo.url && String(jo.url).trim()) || "journal.html";
+      jLink.textContent = jTitle + " →";
+      homeJournal.appendChild(jKind);
+      homeJournal.appendChild(document.createElement("br"));
+      homeJournal.appendChild(jLink);
+      homeJournal.removeAttribute("hidden");
+    }
+  }
+
+  // 3) Latest-from-the-Moot line: the leading option of the primary poll,
+  //    read from the SAME poll_tallies data vote.js uses. Stays hidden until
+  //    the poll reaches MOOT_REVEAL_THRESHOLD votes (Prompt 5's constant).
+  var mootLatest = document.getElementById("moot-latest");
+  if (mootLatest && freshCfg.supabaseUrl && freshCfg.supabaseKey) {
+    var mThreshold = Number(freshCfg.MOOT_REVEAL_THRESHOLD);
+    if (!(mThreshold > 0)) mThreshold = 0;
+    var mApi = freshCfg.supabaseUrl + "/rest/v1";
+    var mHead = { apikey: freshCfg.supabaseKey, Authorization: "Bearer " + freshCfg.supabaseKey };
+    var mGet = function (u) { return fetch(u, { headers: mHead }).then(function (r) { return r.ok ? r.json() : null; }); };
+    Promise.all([
+      mGet(mApi + "/polls?select=id,question,poll_options(id,label,sort)&open=eq.true&order=sort"),
+      mGet(mApi + "/poll_tallies?select=poll_id,option_id,votes")
+    ]).then(function (all) {
+      var polls = all[0], tallies = all[1];
+      if (!polls || !polls.length || !tallies) return;
+      var poll = polls[0]; // primary poll (lowest sort)
+      var total = 0, topId = null, topN = -1;
+      tallies.forEach(function (t) {
+        if (t.poll_id !== poll.id) return;
+        total += t.votes;
+        if (t.votes > topN) { topN = t.votes; topId = t.option_id; }
+      });
+      if (total <= 0 || total < mThreshold || topId == null) return;
+      var top = null;
+      (poll.poll_options || []).forEach(function (o) { if (o.id === topId) top = o; });
+      if (!top) return;
+      var mKind = document.createElement("span");
+      mKind.className = "home-journal-kind";
+      mKind.textContent = "Latest from the Moot";
+      var mLink = document.createElement("a");
+      mLink.href = "vote.html";
+      mLink.textContent = "“" + top.label + "” leads the vote →";
+      mootLatest.appendChild(mKind);
+      mootLatest.appendChild(document.createElement("br"));
+      mootLatest.appendChild(mLink);
+      mootLatest.removeAttribute("hidden");
+    }).catch(function () { /* leave hidden on any error */ });
+  }
 })();

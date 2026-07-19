@@ -81,6 +81,13 @@
   </header>
 
   <main id="main" class="page">
+    <!-- Freshness signals. Both stay hidden until there is real data:
+         #momentum is filled from AUREFOLD_COMMUNITY.momentum; #moot-latest is
+         pulled live from poll_tallies and only shows at/above the reveal
+         threshold. -->
+    <section class="momentum" id="momentum" aria-label="Where things stand" hidden></section>
+    <p class="home-journal" id="moot-latest" hidden></p>
+
     <section class="prose">
       <h2 class="section-title">The Bell of Silence</h2>
       <p>
@@ -134,10 +141,7 @@
         <a class="btn btn-primary" href="support.html">How to support</a>
         <a class="btn btn-ghost" href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">Join free on Patreon</a>
       </div>
-      <p class="home-journal">
-        <span class="home-journal-kind">Latest from the journal</span><br />
-        <a href="journal.html">Building this one in the open — where the project stands →</a>
-      </p>
+      <p class="home-journal" id="home-journal" hidden></p>
     </section>
 
     <section>

@@ -1041,6 +1041,7 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
   max-width: 68ch;
 }
 .journal-date {
+  display: block;
   font-size: 0.78rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1200,6 +1201,23 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
 .home-journal { border-left: 2px solid var(--ember); padding: 4px 0 4px 20px; margin: 8px 0; }
 .home-journal .home-journal-kind { letter-spacing: 0.14em; text-transform: uppercase; font-size: 0.74rem; color: var(--ember); }
 .home-journal a { letter-spacing: 0.02em; }
+
+/* momentum / freshness strip (homepage) — only shows fields that are set */
+.momentum {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 32px;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 16px 0;
+  margin: 0 0 4px;
+}
+.momentum-item { text-align: center; }
+.momentum-value { display: block; color: var(--ember); font-size: 1.5rem; letter-spacing: 0.02em; }
+.momentum-item.is-text .momentum-value { font-size: 1.05rem; font-style: italic; }
+.momentum-label { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent); margin-top: 2px; }
 
 /* ------------------------------------------------------------------ footer */
 

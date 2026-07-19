@@ -35,6 +35,31 @@ window.AUREFOLD_COMMUNITY = {
     }
   },
 
+  /* Momentum / freshness signals for the homepage. Inert until configured:
+     every field starts empty, and the homepage renders ONLY the fields you
+     set — an empty or zero value is hidden entirely (never shown as "0").
+     Fill these in by hand from REAL figures; do not invent numbers.
+       members         — your Patreon member count (from the Patreon dashboard)
+       votesCast       — total votes cast in the Moot (sum the poll_tallies, or
+                         the running total you keep); leave null to hide
+       latestMilestone — one short, true milestone phrase, e.g.
+                         "Reader testing underway" (leave "" to hide) */
+  momentum: {
+    members: null,
+    votesCast: null,
+    latestMilestone: ""
+  },
+
+  /* The homepage "Latest from the Journal" teaser. Update these three when you
+     post a new entry at the top of journal.html. `url` can point at that
+     entry's anchor (each entry now has an id). Leave latestTitle "" to hide
+     the teaser entirely. */
+  journal: {
+    latestTitle: "Building this one in the open",
+    latestDate: "18 July 2026",
+    url: "journal.html#building-this-one-in-the-open"
+  },
+
   /* Reading-list signup (MailerLite). Fill BOTH ids to switch the signup
      form on; leave "" and the form shows a quiet "opening soon" note and
      never posts anywhere. Find these in your MailerLite embedded-form code:
