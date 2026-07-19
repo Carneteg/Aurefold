@@ -922,6 +922,15 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
 .tier-card li:last-child { border-bottom: none; }
 .tier-card li::before { content: "·"; position: absolute; left: 4px; color: var(--ember); }
 .tier-card .btn { text-align: center; margin-top: auto; }
+/* featured tier — echoes the .status-card.next emphasis (ember edge + bg-deep) */
+.tier-card.featured { border-color: var(--ember); background: var(--bg-deep); }
+.tier-badge {
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ember);
+  margin-bottom: 8px;
+}
 .pricing-note {
   font-style: italic;
   color: var(--accent);
