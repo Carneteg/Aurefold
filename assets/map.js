@@ -200,9 +200,11 @@
     detail.name.textContent = house.name;
     detail.sub.textContent = `${house.seat} · ${house.region}`;
     detail.philosophy.textContent = house.philosophy;
-    detail.people.innerHTML = house.people
-      .map((p) => `<div><dt>${p.role}</dt><dd>${p.name}</dd></div>`)
-      .join("");
+    // Named heads/heirs are held back until publication; show only a
+    // spoiler-safe Book One note where one is provided.
+    detail.people.innerHTML = house.note
+      ? `<div class="detail-note">${house.note}</div>`
+      : "";
     detail.line.textContent = house.line;
     detail.link.href = `houses.html#${house.id}`;
     detail.root.hidden = false;

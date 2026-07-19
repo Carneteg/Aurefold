@@ -630,6 +630,7 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
 .detail .detail-people dt { display: inline; color: var(--accent); font-variant: small-caps; }
 .detail .detail-people dt::after { content: " — "; }
 .detail .detail-people dd { display: inline; margin: 0; }
+.detail .detail-note { font-size: 0.9rem; color: var(--accent); }
 .detail .detail-line { font-style: italic; font-size: 0.95rem; }
 .detail .detail-line::before { content: "“"; }
 .detail .detail-line::after { content: "”"; }
