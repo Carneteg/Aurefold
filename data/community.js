@@ -39,14 +39,15 @@ window.AUREFOLD_COMMUNITY = {
      link or leave "" and add a QR image later. */
   support: {
     patreon: "https://www.patreon.com/AUREFOLD",
+    discord: "https://discord.gg/TGQgmpU8s",
+    tiktok: "https://www.tiktok.com/@aurefold",
+    instagram: "",
+    youtube: "",
+    goodreads: "",
     kofi: "",
     buymeacoffee: "",
     swish: "",
     paypal: "",
-    newsletter: "",
-    instagram: "",
-    tiktok: "",
-    youtube: "",
-    goodreads: ""
+    newsletter: ""
   }
 };

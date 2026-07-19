@@ -2,6 +2,29 @@
 (function () {
   "use strict";
 
+  // Footer follow-links, driven by config (only the ones with a URL appear).
+  var socialBox = document.getElementById("social-links");
+  if (socialBox) {
+    var sup = ((window.AUREFOLD_COMMUNITY || {}).support) || {};
+    var order = [
+      ["patreon", "Patreon"], ["discord", "Discord"], ["tiktok", "TikTok"],
+      ["instagram", "Instagram"], ["youtube", "YouTube"], ["goodreads", "Goodreads"]
+    ];
+    order.forEach(function (pair) {
+      var url = sup[pair[0]];
+      if (url && String(url).trim()) {
+        var a = document.createElement("a");
+        a.className = "social-link";
+        a.href = String(url).trim();
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = pair[1];
+        socialBox.appendChild(a);
+      }
+    });
+    if (socialBox.children.length) socialBox.removeAttribute("hidden");
+  }
+
   // Mobile navigation toggle (hamburger).
   var nav = document.querySelector(".site-nav");
   var navToggle = nav && nav.querySelector(".nav-toggle");
