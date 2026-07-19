@@ -24,10 +24,29 @@
   <meta name="twitter:description" content="AUREFOLD, a fantasy series. Ten Great Houses, one oath, and the question: which house would you follow?" />
   <meta name="twitter:image" content="https://aurefold.com/assets/og-image.jpg" />
   <link rel="stylesheet" href="assets/style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "WebSite", "@id": "https://aurefold.com/#website", "url": "https://aurefold.com/", "name": "Aurefold", "inLanguage": "en" },
+      { "@type": "Person", "@id": "https://aurefold.com/#author", "name": "Tobias Carneteg", "url": "https://aurefold.com/" },
+      { "@type": "Book", "@id": "https://aurefold.com/#book",
+        "name": "The Bell of Silence",
+        "author": { "@id": "https://aurefold.com/#author" },
+        "inLanguage": "en",
+        "genre": "Epic fantasy",
+        "isPartOf": { "@type": "BookSeries", "name": "Aurefold" },
+        "url": "https://aurefold.com/book.html",
+        "image": "https://aurefold.com/assets/cover_bell_of_silence.jpg",
+        "abstract": "In the high valleys of the Light Heights, a goatherd named Sela hears a voice she will not explain — and a world sworn to ten great houses would rather settle its meaning than live with the question." }
+    ]
+  }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site-nav">
-    <a class="brand" href="index.html"><img class="brand-mark" src="assets/brand/emblem.png" alt="" />AUREFOLD</a>
+    <a class="brand" href="index.html"><img class="brand-mark" src="assets/brand/emblem-mark.webp" alt="" width="34" height="34" />AUREFOLD</a>
     <ul>
       <li><a href="book.html">Book One</a></li>
       <li><a href="houses.html">The Great Houses</a></li>
@@ -43,14 +62,14 @@
   </nav>
 
   <header class="hero">
-    <img class="hero-logo" src="assets/brand/logo-dark.png" alt="AUREFOLD — The Bell of Silence" />
+    <img class="hero-logo" src="assets/brand/logo-dark.webp" alt="AUREFOLD — The Bell of Silence" width="680" height="227" fetchpriority="high" />
     <p class="tagline">Every truth has a keeper. Every silence has a cost.</p>
     <p class="hero-sub">A ten-house epic fantasy · Book One</p>
     <hr class="hero-rule" />
     <div class="scroll-hint" aria-hidden="true">▾</div>
   </header>
 
-  <main class="page">
+  <main id="main" class="page">
     <section class="prose">
       <h2 class="section-title">The Bell of Silence</h2>
       <p>
@@ -84,8 +103,11 @@
         those who claim to hear. A completed manuscript — approximately 86,000 words.
       </p>
       <p class="book-coming">MANUSCRIPT COMPLETE · ON THE ROAD TO PUBLICATION</p>
-      <img class="book-cover" src="assets/cover_bell_of_silence.jpg"
-           alt="Cover of AUREFOLD, Book One: The Bell of Silence — a lone traveller on a mountain path above a misted valley, a bell-tower cut into the cliff." />
+      <picture>
+        <source srcset="assets/cover_bell_of_silence.webp" type="image/webp" />
+        <img class="book-cover" src="assets/cover_bell_of_silence.jpg" width="900" height="1439" loading="lazy"
+             alt="Cover of AUREFOLD, Book One: The Bell of Silence — a lone traveller on a mountain path above a misted valley, a bell-tower cut into the cliff." />
+      </picture>
       <a class="map-link" href="book.html">About Book One →</a>
       <div><a class="support-cta" id="front-patreon" target="_blank" rel="noopener" hidden>Support on Patreon</a></div>
     </section>

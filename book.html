@@ -24,10 +24,26 @@
   <meta name="twitter:description" content="AUREFOLD, Book One: The Bell of Silence. A goatherd hears a voice; House Whitehart exists to test those who claim to hear." />
   <meta name="twitter:image" content="https://aurefold.com/assets/og-image.jpg" />
   <link rel="stylesheet" href="assets/style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "The Bell of Silence",
+    "author": { "@type": "Person", "name": "Tobias Carneteg" },
+    "inLanguage": "en",
+    "genre": "Epic fantasy",
+    "isPartOf": { "@type": "BookSeries", "name": "Aurefold" },
+    "bookEdition": "Book One",
+    "url": "https://aurefold.com/book.html",
+    "image": "https://aurefold.com/assets/cover_bell_of_silence.jpg",
+    "abstract": "A goatherd who will not say more than she knows. A house built to test those who claim to hear. Book One of Aurefold — a completed manuscript of approximately 86,000 words, on the road to publication."
+  }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site-nav">
-    <a class="brand" href="index.html"><img class="brand-mark" src="assets/brand/emblem.png" alt="" />AUREFOLD</a>
+    <a class="brand" href="index.html"><img class="brand-mark" src="assets/brand/emblem-mark.webp" alt="" width="34" height="34" />AUREFOLD</a>
     <ul>
       <li><a href="book.html" class="active">Book One</a></li>
       <li><a href="houses.html">The Great Houses</a></li>
@@ -42,7 +58,7 @@
     </ul>
   </nav>
 
-  <main class="page">
+  <main id="main" class="page">
     <section class="announcement" aria-label="Book One announcement">
       <p class="book-series">AUREFOLD — BOOK ONE</p>
       <h2 class="book-title">THE BELL OF SILENCE</h2>
@@ -51,8 +67,11 @@
         those who claim to hear.
       </p>
       <p class="book-coming">COMPLETED MANUSCRIPT · ON THE ROAD TO PUBLICATION</p>
-      <img class="book-cover" src="assets/cover_bell_of_silence.jpg"
-           alt="Cover of AUREFOLD, Book One: The Bell of Silence — a lone traveller on a mountain path above a misted valley, a bell-tower cut into the cliff." />
+      <picture>
+        <source srcset="assets/cover_bell_of_silence.webp" type="image/webp" />
+        <img class="book-cover" src="assets/cover_bell_of_silence.jpg" width="900" height="1439" loading="lazy"
+             alt="Cover of AUREFOLD, Book One: The Bell of Silence — a lone traveller on a mountain path above a misted valley, a bell-tower cut into the cliff." />
+      </picture>
       <p class="book-cover-caption">Cover — <em>The Bell of Silence</em></p>
     </section>
 
