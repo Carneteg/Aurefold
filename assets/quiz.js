@@ -108,7 +108,8 @@
     card.appendChild(el("p", "quiz-result-line", "“" + house.line + "”"));
 
     var shortName = house.name.replace(/^House\s+/, "");
-    var pageUrl = "https://aurefold.com/quiz.html";
+    // Share the per-house result page so the link unfurls with that house's card.
+    var pageUrl = "https://aurefold.com/house-" + best + ".html";
     var shareText = "I'm House " + shortName + " in Aurefold — which house are you?";
 
     // Primary next steps: carry the result into the Moot, or follow the journey.
@@ -128,6 +129,12 @@
 
     row.appendChild(a1); row.appendChild(a2);
     card.appendChild(row);
+
+    // Social proof, if a real member count is configured (hidden otherwise).
+    var mem = ((window.AUREFOLD_COMMUNITY || {}).momentum || {}).members;
+    if (typeof mem === "number" && mem > 0) {
+      card.appendChild(el("p", "social-proof", "Join " + mem + " reader" + (mem === 1 ? "" : "s") + " following along"));
+    }
 
     // Share chips reuse the site-wide .share-row pattern; the Copy chip uses the
     // shared [data-copy] handler in site.js. Nothing shares or copies on its own.

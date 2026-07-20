@@ -1218,6 +1218,8 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
 .momentum-value { display: block; color: var(--ember); font-size: 1.5rem; letter-spacing: 0.02em; }
 .momentum-item.is-text .momentum-value { font-size: 1.05rem; font-style: italic; }
 .momentum-label { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent); margin-top: 2px; }
+/* social-proof line near a primary CTA (config-driven; hidden until set) */
+.social-proof { font-size: 0.85rem; letter-spacing: 0.05em; color: var(--accent); margin-top: 12px; }
 
 /* ------------------------------------------------------------------ footer */
 

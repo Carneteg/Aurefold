@@ -192,6 +192,18 @@
     else plateImg.addEventListener("load", () => { plate.hidden = false; });
   }
 
+  // Social-proof line ("Join N readers …") wherever a .social-proof element
+  // exists. Driven by momentum.members; stays hidden until it's a positive
+  // number, so no fabricated counts ever show.
+  var spMembers = ((window.AUREFOLD_COMMUNITY || {}).momentum || {}).members;
+  if (typeof spMembers === "number" && spMembers > 0) {
+    var spText = "Join " + spMembers + " reader" + (spMembers === 1 ? "" : "s") + " following the road to publication";
+    document.querySelectorAll(".social-proof").forEach(function (n) {
+      if (!n.textContent) n.textContent = spText;
+      n.removeAttribute("hidden");
+    });
+  }
+
   // ---- Homepage freshness signals (all inert until they have real data) ----
   var freshCfg = window.AUREFOLD_COMMUNITY || {};
 
