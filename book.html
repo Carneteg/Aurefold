@@ -36,7 +36,7 @@
     "bookEdition": "Book One",
     "url": "https://aurefold.com/book.html",
     "image": "https://aurefold.com/assets/cover_bell_of_silence.jpg",
-    "abstract": "A goatherd who will not say more than she knows. A house built to test those who claim to hear. Book One of Aurefold — a completed manuscript of approximately 86,000 words, on the road to publication."
+    "abstract": "A goatherd who will not say more than she knows. A house built to test those who claim to hear. Book One of Aurefold — approximately 86,000 words, out now as a free ebook."
   }
   </script>
 </head>
@@ -72,13 +72,27 @@
         A goatherd who will not say more than she knows. A house built to test
         those who claim to hear.
       </p>
-      <p class="book-coming">COMPLETED MANUSCRIPT · ON THE ROAD TO PUBLICATION</p>
+      <p class="book-coming">BOOK ONE — OUT NOW · READ THE EBOOK FREE</p>
       <picture>
         <source srcset="assets/cover_bell_of_silence.webp" type="image/webp" />
         <img class="book-cover" src="assets/cover_bell_of_silence.jpg" width="900" height="1439" loading="lazy"
              alt="Cover of AUREFOLD, Book One: The Bell of Silence — a lone traveller on a mountain path above a misted valley, a bell-tower cut into the cliff." />
       </picture>
       <p class="book-cover-caption">Cover — <em>The Bell of Silence</em></p>
+    </section>
+
+    <section class="prose" id="get">
+      <h2 class="section-title">Read Book One — free</h2>
+      <p>
+        <em>The Bell of Silence</em> is out now as an ebook — and it's <strong>free</strong>.
+        Read it on Amazon Kindle, or download it straight from here. The printed edition is
+        the goal of the coming <a href="support.html">crowdfunding campaign</a>.
+      </p>
+      <div class="cta-row" style="justify-content:flex-start;">
+        <a class="btn btn-primary" id="book-amazon" href="https://www.amazon.com/dp/B0H9JH9KGH" target="_blank" rel="noopener">Get it free on Amazon</a>
+        <a class="btn btn-ghost" id="book-download" download hidden>Download the ebook</a>
+      </div>
+      <p class="download-count" id="download-count" hidden></p>
     </section>
 
     <section class="prose">
@@ -116,21 +130,21 @@
         <li>A question the book trusts you to sit with, rather than solving it for you.</li>
       </ul>
 
-      <h2 class="section-title">Publication status</h2>
+      <h2 class="section-title">Out now — and the road to print</h2>
       <p>
-        <em>The Bell of Silence</em> is a <strong>completed manuscript of approximately
-        86,000 words</strong>. Internal developmental revision is finished; the next
-        stages are external reader testing, professional proofreading, cover and interior
-        design, and print preparation.
+        <em>The Bell of Silence</em> — Book One, approximately <strong>86,000 words</strong> —
+        is available now as a free ebook. What comes next is the printed book: professional
+        proofreading, cover and interior design, print proofs, and a crowdfunding campaign to
+        fund the production.
       </p>
       <p>
         You can follow that road for free, or help carry the book to print. See
         <a href="support.html">how to support</a>, or
-        <a href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">join free on Patreon</a>
-        to be notified at every major step.
+        <a href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">follow free on Patreon</a>
+        for every major step.
       </p>
       <div class="cta-row" style="justify-content:flex-start;">
-        <a class="btn btn-primary" href="read.html">Read the opening</a>
+        <a class="btn btn-primary" href="#get">Read Book One free</a>
         <a class="btn btn-ghost" href="support.html">How to support</a>
       </div>
 
@@ -144,6 +158,28 @@
         </div>
       </div>
     </section>
+
+    <section class="prose" id="reviews">
+      <h2 class="section-title">Ratings &amp; reviews</h2>
+      <p class="reviews-summary" id="reviews-summary" hidden>
+        <span class="reviews-avg" id="reviews-avg"></span>
+        <span class="reviews-stars" id="reviews-stars" aria-hidden="true"></span>
+        <span class="reviews-count" id="reviews-count"></span>
+      </p>
+      <p class="reviews-empty" id="reviews-empty" hidden>No reviews yet — be the first to leave one.</p>
+      <ul class="reviews-list" id="reviews-list"></ul>
+
+      <form class="review-form" id="review-form" novalidate>
+        <h3 class="sub-title">Leave a review</h3>
+        <div class="star-input" id="star-input" role="group" aria-label="Your rating"></div>
+        <label class="review-label" for="review-name">Name <span>(optional)</span></label>
+        <input id="review-name" name="name" type="text" maxlength="60" autocomplete="name" placeholder="A reader" />
+        <label class="review-label" for="review-body">Your review</label>
+        <textarea id="review-body" name="body" maxlength="2000" rows="4" placeholder="What did you think of Book One?"></textarea>
+        <button class="btn btn-primary" type="submit">Submit review</button>
+        <p class="review-note" id="review-note">Reviews are read and approved before they appear.</p>
+      </form>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -153,5 +189,6 @@
 
   <script src="data/community.js"></script>
   <script src="assets/site.js"></script>
+  <script src="assets/book.js"></script>
 </body>
 </html>

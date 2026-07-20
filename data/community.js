@@ -60,6 +60,22 @@ window.AUREFOLD_COMMUNITY = {
     url: "journal.html#building-this-one-in-the-open"
   },
 
+  /* Book One availability + the free download.
+       amazonUrl        — shows the "Get it free on Amazon" button (already set).
+       downloadFile     — path to a file you host for direct download, e.g.
+                          "assets/aurefold-the-bell-of-silence.pdf". Leave "" and
+                          the direct-download button stays hidden until you add one.
+       downloadCountThreshold — the honest click-counter (clicks on this page,
+                          not Amazon's totals) stays hidden until it passes this.
+     Ratings & reviews are stored in Supabase and MODERATED: a submitted review
+     only appears after you set approved = true on its row in the Supabase
+     dashboard (table: reviews). Nothing shows publicly until you approve it. */
+  book: {
+    amazonUrl: "https://www.amazon.com/dp/B0H9JH9KGH",
+    downloadFile: "",
+    downloadCountThreshold: 20
+  },
+
   /* Reading-list signup (MailerLite). Fill BOTH ids to switch the signup
      form on; leave "" and the form shows a quiet "opening soon" note and
      never posts anywhere. Find these in your MailerLite embedded-form code:
