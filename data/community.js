@@ -72,7 +72,7 @@ window.AUREFOLD_COMMUNITY = {
      dashboard (table: reviews). Nothing shows publicly until you approve it. */
   book: {
     amazonUrl: "https://www.amazon.com/dp/B0H9JH9KGH",
-    downloadFile: "",
+    downloadFile: "assets/aurefold-the-bell-of-silence.pdf",
     downloadCountThreshold: 20
   },
 

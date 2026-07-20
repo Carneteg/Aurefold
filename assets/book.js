@@ -53,7 +53,9 @@
       }
     }).catch(function () {});
   }
-  [amazon, dl].forEach(function (b) { if (b) b.addEventListener("click", bump); });
+  Array.prototype.forEach.call(document.querySelectorAll(".book-dl"), function (b) {
+    b.addEventListener("click", bump);
+  });
   showCount();
 
   // ---- Ratings & reviews (moderated) ----------------------------------------
