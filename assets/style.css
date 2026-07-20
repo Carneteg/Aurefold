@@ -1221,6 +1221,13 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
 /* social-proof line near a primary CTA (config-driven; hidden until set) */
 .social-proof { font-size: 0.85rem; letter-spacing: 0.05em; color: var(--accent); margin-top: 12px; }
 
+/* history: the Living Archive fragments */
+.archive-entry { border-left: 2px solid var(--line); padding: 2px 0 2px 20px; margin: 0 0 24px; max-width: 68ch; }
+.archive-head { font-size: 0.76rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin: 0 0 3px; }
+.archive-head .archive-house { color: var(--ember); }
+.archive-title { font-weight: 400; letter-spacing: 0.02em; font-size: 1.18rem; margin: 0 0 8px; }
+.archive-entry p:last-child { margin: 0; max-width: 66ch; }
+
 /* book: free-download counter + ratings & reviews */
 .download-count { font-size: 0.85rem; letter-spacing: 0.04em; color: var(--accent); margin-top: 10px; }
 .reviews-summary { display: flex; align-items: baseline; gap: 8px; margin: 0 0 14px; }
