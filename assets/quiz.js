@@ -156,7 +156,7 @@
     again.addEventListener("click", function () { answers = []; render(0); });
     card.appendChild(again);
 
-    card.appendChild(el("p", "quiz-note", "The story is the author's; the Moot and this quiz shape only what the archive shares next — never the book's canon."));
+    card.appendChild(el("p", "quiz-note", "The book's canon and central mysteries are the author's; the Moot and this quiz shape the world around it — what the archive opens or explores next — never the story's heart."));
     root.appendChild(card);
 
     if (window.plausible) window.plausible("Quiz result", { props: { house: house.name } });
