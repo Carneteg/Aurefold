@@ -36,13 +36,12 @@
   // We emit the download event MANUALLY for every button below, which is the only
   // way GA4 sees the .epub download (GA4's automatic file tracking ignores .epub).
   //
-  // DOUBLE-COUNT WARNING: because we send "file_download" ourselves, keep GA4
-  // Enhanced Measurement -> "File downloads" turned OFF. If it is ON, a .pdf click
-  // is counted twice (once here, once by GA4's auto-tracking; .epub is unaffected).
-  // Alternative: rename DL_EVENT to a custom name like "book_download" (GA4 never
-  // auto-emits that), which lets Enhanced Measurement stay ON with no duplication —
-  // but then your GA4 report must filter on "book_download" instead of "file_download".
-  var DL_EVENT = "file_download";
+  // Uses "book_download" (a custom name) instead of "file_download" to avoid
+  // double-counting against GA4's Enhanced Measurement, which is left ON: GA4 never
+  // auto-emits "book_download", so PDF clicks are counted once by us and once by
+  // GA4's automatic file_download — as two distinct events, not a duplicate.
+  // Filter your GA4 report on "book_download" to see our PDF + EPUB downloads.
+  var DL_EVENT = "book_download";
 
   function ga(name, params) {
     // Fire only if the gtag snippet actually loaded (no-op if GA is blocked/absent).
