@@ -32,6 +32,41 @@
     dl.hidden = false;
   }
 
+  // ---- GA4 tracking (in ADDITION to the Supabase counter — it does not replace it)
+  // We emit the download event MANUALLY for every button below, which is the only
+  // way GA4 sees the .epub download (GA4's automatic file tracking ignores .epub).
+  //
+  // DOUBLE-COUNT WARNING: because we send "file_download" ourselves, keep GA4
+  // Enhanced Measurement -> "File downloads" turned OFF. If it is ON, a .pdf click
+  // is counted twice (once here, once by GA4's auto-tracking; .epub is unaffected).
+  // Alternative: rename DL_EVENT to a custom name like "book_download" (GA4 never
+  // auto-emits that), which lets Enhanced Measurement stay ON with no duplication —
+  // but then your GA4 report must filter on "book_download" instead of "file_download".
+  var DL_EVENT = "file_download";
+
+  function ga(name, params) {
+    // Fire only if the gtag snippet actually loaded (no-op if GA is blocked/absent).
+    if (typeof window.gtag === "function") window.gtag("event", name, params || {});
+  }
+  function fileMeta(href) {
+    var clean = String(href || "").split("?")[0].split("#")[0];
+    var base = clean.substring(clean.lastIndexOf("/") + 1);
+    var dot = base.lastIndexOf(".");
+    return { name: base, ext: dot >= 0 ? base.substring(dot + 1).toLowerCase() : "" };
+  }
+  function trackClick(el) {
+    var href = el.getAttribute("href") || "";
+    // Amazon (or any external http(s) link) is an OUTBOUND CLICK, not a file
+    // download — track it separately so it does not pollute file_download.
+    if (el.id === "book-amazon" || /^https?:\/\//i.test(href)) {
+      ga("select_content", { content_type: "amazon_outbound", link_url: href });
+      return;
+    }
+    // Local file (PDF / EPUB) = a real download.
+    var m = fileMeta(href);
+    ga(DL_EVENT, { file_name: m.name, file_extension: m.ext, link_url: href });
+  }
+
   // ---- Honest download counter (counts clicks on this page, not Amazon) ------
   var countEl = document.getElementById("download-count");
   var threshold = Number(book.downloadCountThreshold);
@@ -54,7 +89,10 @@
     }).catch(function () {});
   }
   Array.prototype.forEach.call(document.querySelectorAll(".book-dl"), function (b) {
-    b.addEventListener("click", bump);
+    b.addEventListener("click", function () {
+      bump();          // existing Supabase counter — unchanged
+      trackClick(b);   // new: GA4 file_download / outbound event
+    });
   });
   showCount();
 
