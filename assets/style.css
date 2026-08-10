@@ -404,6 +404,39 @@ figure.chart-plate figcaption {
   max-width: 60ch;
 }
 
+/* The house's foundational question — the virtue/victim tension, public canon. */
+.house-question {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+  max-width: 62ch;
+}
+.house-question .q-label {
+  display: block;
+  font-variant: small-caps;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  color: var(--ember);
+  margin-bottom: 4px;
+}
+.house-question em { font-style: italic; }
+
+/* The unclaimed eleventh seat — intrigue teaser, never named or explained. */
+.eleventh-seat {
+  margin: 28px auto 0;
+  max-width: 60ch;
+  border: 1px dashed var(--line);
+  padding: 22px 24px;
+  text-align: center;
+}
+.eleventh-seat h2 {
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+.eleventh-seat p { color: var(--accent); max-width: 52ch; margin: 0 auto; }
+.eleventh-seat .map-link { display: inline-block; margin-top: 12px; }
+
 .map-link { display: inline-block; margin-top: 14px; font-size: 0.92rem; letter-spacing: 0.05em; }
 
 .support-cta {
