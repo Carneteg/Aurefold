@@ -84,8 +84,8 @@ window.AUREFOLD_COMMUNITY = {
      Nothing is sent, stored, or automated until these are set and the site
      is deployed. */
   mailerlite: {
-    account: "",
-    form: ""
+    account: "2567507",
+    form: "yjubzQ"
   },
 
   /* Privacy-friendly analytics (Plausible — no cookies, no consent banner).
