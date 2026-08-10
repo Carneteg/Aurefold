@@ -242,20 +242,9 @@
         Prefer email? Get the same publication milestones straight to your inbox — no
         Patreon account needed. One message when there's real news; unsubscribe any time.
       </p>
-      <form id="signup-form"
-            class="signup-form"
-            method="post"
-            target="_blank"
-            hidden
-            novalidate>
-        <label class="signup-label" for="signup-email">Email address</label>
-        <div class="signup-row">
-          <input id="signup-email" name="fields[email]" type="email" autocomplete="email"
-                 required placeholder="you@example.com" />
-          <button class="btn btn-primary" type="submit">Join the list</button>
-        </div>
-        <p class="signup-fineprint">Your address is used only to send Aurefold updates.</p>
-      </form>
+      <!-- MailerLite embedded form. Rendered by universal.js (loaded from
+           site.js) once mailerlite.account + form are set in data/community.js. -->
+      <div id="ml-embed" class="ml-embedded" data-form="yjubzQ" hidden></div>
       <p id="signup-soon" class="world-note">The reading list opens soon — for now,
         <a href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">follow free on Patreon</a>.</p>
       <p class="pricing-note">Prefer to read offline? <a href="assets/aurefold-opening.pdf" download>Download the opening as a free PDF</a> — the prologue and the start of Chapter One.</p>

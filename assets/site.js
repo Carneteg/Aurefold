@@ -116,19 +116,26 @@
     frontPatreon.hidden = false;
   }
 
-  // Reading-list signup (MailerLite). The form stays hidden and posts nowhere
-  // until BOTH ids are configured in data/community.js; then it points at the
-  // MailerLite subscribe endpoint. No list, sending, or automation is implied
-  // by this markup alone.
-  var ml = (window.AUREFOLD_COMMUNITY || {}).mailerlite || {};
-  var signupForm = document.getElementById("signup-form");
+  // Reading-list signup (MailerLite). The embed stays hidden until BOTH ids are
+  // configured in data/community.js; then we load MailerLite's official
+  // universal.js, register the account, and reveal the .ml-embedded container so
+  // MailerLite renders the real form. (The data-form code is the universal.js
+  // form id — NOT a classic /jsonp/ form id, which 404s.)
+  var mlCfg = (window.AUREFOLD_COMMUNITY || {}).mailerlite || {};
+  var mlBox = document.getElementById("ml-embed");
   var signupSoon = document.getElementById("signup-soon");
-  if (signupForm && ml.account && ml.form && String(ml.account).trim() && String(ml.form).trim()) {
-    signupForm.action =
-      "https://assets.mailerlite.com/jsonp/" + String(ml.account).trim() +
-      "/forms/" + String(ml.form).trim() + "/subscribe";
-    signupForm.hidden = false;
+  if (mlBox && mlCfg.account && mlCfg.form &&
+      String(mlCfg.account).trim() && String(mlCfg.form).trim()) {
+    mlBox.setAttribute("data-form", String(mlCfg.form).trim());  // config is source of truth
+    mlBox.hidden = false;
     if (signupSoon) signupSoon.hidden = true;
+    // Official MailerLite universal.js loader (queues calls, then renders forms).
+    (function (w, d, e, u, f, l, n) {
+      w[f] = w[f] || function () { (w[f].q = w[f].q || []).push(arguments); };
+      l = d.createElement(e); l.async = 1; l.src = u;
+      n = d.getElementsByTagName(e)[0]; n.parentNode.insertBefore(l, n);
+    })(window, document, "script", "https://assets.mailerlite.com/js/universal.js", "ml");
+    window.ml("account", String(mlCfg.account).trim());
   }
 
   // Copy-link share buttons (any [data-copy] element). Delegated from the
