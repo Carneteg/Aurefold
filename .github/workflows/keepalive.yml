@@ -1,0 +1,33 @@
+name: Keep Supabase awake
+
+# Supabase's free tier pauses a project after ~7 days without activity, which
+# takes The Moot, the reviews, and the download counter offline (the pages then
+# show their "could not be reached" fallback). This job makes one tiny
+# authenticated read per day so the project always counts as active.
+#
+# The key below is the PUBLIC anon key — it is already shipped in the site's
+# client JS (data/community.js) and only grants anon row-level access, so it is
+# safe to commit. If you ever rotate it, update it here too.
+#
+# Scheduled (cron) workflows only run from the repository's DEFAULT branch,
+# which for this repo is claude/interactive-house-map-rzboaq — the same branch
+# this file lives on, so the schedule fires.
+
+on:
+  schedule:
+    - cron: "37 5 * * *"   # daily ~05:37 UTC — well inside the ~7-day window
+  workflow_dispatch:        # lets you run it on demand from the Actions tab
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase REST (keeps the project active)
+        run: |
+          URL="https://akboesleczddqdikjzbw.supabase.co/rest/v1/poll_tallies?select=poll_id&limit=1"
+          KEY="eyJhbGci••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••"
+          code=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "apikey: $KEY" -H "Authorization: Bearer $KEY" "$URL")
+          echo "Supabase REST responded: HTTP $code"
+          [ "$code" = "200" ] && echo "Active." || \
+            echo "::warning::Non-200 ($code) — project may be paused; restore it in the dashboard."
