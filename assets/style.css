@@ -1383,3 +1383,58 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
   html { scroll-behavior: auto; }
   * { transition: none !important; animation: none !important; }
 }
+
+/* ------------------------------------------------------------------ cookie consent */
+
+.cookie-banner {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 1000;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px 22px;
+  padding: 16px 22px;
+  background: var(--bg-panel);
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.14);
+}
+.cookie-banner .cookie-text {
+  margin: 0;
+  max-width: 62ch;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--accent);
+}
+.cookie-banner .cookie-actions {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.cookie-banner .btn { padding: 8px 20px; }
+
+/* Footer legal row (Privacy + Cookie settings) */
+.footer-legal {
+  margin-bottom: 8px;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  opacity: 0.85;
+}
+.footer-legal a, .footer-legal .linklike { color: inherit; }
+.footer-legal a { text-decoration: underline; text-underline-offset: 2px; }
+.footer-legal .linklike::before { content: "·"; margin: 0 8px 0 6px; opacity: 0.6; text-decoration: none; display: inline-block; }
+
+/* A <button> that reads as an inline link */
+.linklike {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: var(--ember);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.linklike:hover { opacity: 0.8; }

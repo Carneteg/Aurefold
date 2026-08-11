@@ -116,16 +116,25 @@
     frontPatreon.hidden = false;
   }
 
-  // Reading-list signup (MailerLite). The embed stays hidden until BOTH ids are
-  // configured in data/community.js; then we load MailerLite's official
-  // universal.js, register the account, and reveal the .ml-embedded container so
-  // MailerLite renders the real form. (The data-form code is the universal.js
-  // form id — NOT a classic /jsonp/ form id, which 404s.)
+  // ---- Cookie consent (Google Consent Mode v2) + gated third parties --------
+  // GA loads in "denied" mode by default (see the gtag snippet in <head>), so it
+  // sets no cookies until the visitor accepts. MailerLite's universal.js is not
+  // loaded at all until consent, since it also sets cookies. The choice is
+  // remembered in localStorage; the footer "Cookie settings" link reopens it.
+  var CONSENT_KEY = "aurefold_consent";
+  function readConsent() { try { return localStorage.getItem(CONSENT_KEY); } catch (e) { return null; } }
+  function writeConsent(v) { try { localStorage.setItem(CONSENT_KEY, v); } catch (e) {} }
+
+  // MailerLite reading-list embed — loaded ONLY after consent is granted.
   var mlCfg = (window.AUREFOLD_COMMUNITY || {}).mailerlite || {};
   var mlBox = document.getElementById("ml-embed");
   var signupSoon = document.getElementById("signup-soon");
-  if (mlBox && mlCfg.account && mlCfg.form &&
-      String(mlCfg.account).trim() && String(mlCfg.form).trim()) {
+  var mlConfigured = !!(mlBox && mlCfg.account && mlCfg.form &&
+    String(mlCfg.account).trim() && String(mlCfg.form).trim());
+  var mlLoaded = false;
+  function loadMailerLite() {
+    if (mlLoaded || !mlConfigured) return;
+    mlLoaded = true;
     mlBox.setAttribute("data-form", String(mlCfg.form).trim());  // config is source of truth
     mlBox.hidden = false;
     if (signupSoon) signupSoon.hidden = true;
@@ -137,6 +146,63 @@
     })(window, document, "script", "https://assets.mailerlite.com/js/universal.js", "ml");
     window.ml("account", String(mlCfg.account).trim());
   }
+  // When the form is configured but consent isn't granted, offer an inline
+  // one-click enable (instead of the generic "opens soon" note).
+  function showSignupGate() {
+    if (!mlConfigured || !signupSoon || mlLoaded) return;
+    signupSoon.innerHTML =
+      'To load the email signup form we need your consent to cookies. ' +
+      '<button type="button" class="linklike" id="signup-consent">Allow &amp; load the form</button>' +
+      ', or <a href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">follow free on Patreon</a>.';
+    var b = document.getElementById("signup-consent");
+    if (b) b.addEventListener("click", acceptConsent);
+    signupSoon.hidden = false;
+  }
+
+  function applyGranted() {
+    if (typeof window.gtag === "function") {
+      window.gtag("consent", "update", {
+        ad_storage: "granted", ad_user_data: "granted",
+        ad_personalization: "granted", analytics_storage: "granted"
+      });
+    }
+    loadMailerLite();
+  }
+
+  var banner = null;
+  function removeBanner() { if (banner && banner.parentNode) banner.parentNode.removeChild(banner); banner = null; }
+  function acceptConsent() { writeConsent("granted"); applyGranted(); removeBanner(); }
+  function declineConsent() { writeConsent("denied"); removeBanner(); showSignupGate(); }
+  function showBanner() {
+    if (banner) return;
+    banner = document.createElement("div");
+    banner.className = "cookie-banner";
+    banner.setAttribute("role", "dialog");
+    banner.setAttribute("aria-label", "Cookie consent");
+    banner.innerHTML =
+      '<p class="cookie-text">Aurefold uses cookies for anonymous visitor analytics — and, if you join the reading list, the email signup form. You choose. <a href="privacy.html">Privacy &amp; cookies</a>.</p>' +
+      '<div class="cookie-actions">' +
+        '<button type="button" class="btn btn-ghost" data-consent="decline">Decline</button>' +
+        '<button type="button" class="btn btn-primary" data-consent="accept">Accept</button>' +
+      '</div>';
+    document.body.appendChild(banner);
+    banner.querySelector('[data-consent="accept"]').addEventListener("click", acceptConsent);
+    banner.querySelector('[data-consent="decline"]').addEventListener("click", declineConsent);
+  }
+
+  var storedConsent = readConsent();
+  if (storedConsent === "granted") applyGranted();
+  else if (storedConsent === "denied") showSignupGate();
+  else { showBanner(); showSignupGate(); }
+
+  // Any "Cookie settings" control (footer link, privacy-page button) reopens
+  // the banner so a choice can be changed later.
+  Array.prototype.forEach.call(
+    document.querySelectorAll("#cookie-settings, #cookie-settings-footer"),
+    function (el) {
+      el.addEventListener("click", function (e) { e.preventDefault(); showBanner(); });
+    }
+  );
 
   // Copy-link share buttons (any [data-copy] element). Delegated from the
   // document so it also covers buttons injected after load — e.g. the quiz
