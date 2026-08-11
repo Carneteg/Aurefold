@@ -6,6 +6,10 @@
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+      analytics_storage: 'denied', wait_for_update: 500
+    });
     gtag('js', new Date());
 
     gtag('config', 'G-70N6P80ZTL');
@@ -33,7 +37,7 @@
   <meta name="twitter:title" content="Read — AUREFOLD" />
   <meta name="twitter:description" content="Read from AUREFOLD, Book One: The Bell of Silence — the prologue and the opening of Chapter One." />
   <meta name="twitter:image" content="https://aurefold.com/assets/og-image.jpg" />
-  <link rel="stylesheet" href="assets/style.css?v=202608101608" />
+  <link rel="stylesheet" href="assets/style.css?v=202608111522" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -178,11 +182,15 @@
 
   <footer class="site-footer">
     <nav class="social-links" id="social-links" aria-label="Follow Aurefold"></nav>
+    <nav class="footer-legal" aria-label="Legal">
+      <a href="privacy.html">Privacy &amp; cookies</a>
+      <button type="button" class="linklike" id="cookie-settings">Cookie settings</button>
+    </nav>
     AUREFOLD · The map ends where the truth begins.
   </footer>
 
-  <script src="data/community.js?v=202608101608"></script>
-  <script src="assets/site.js?v=202608101608"></script>
+  <script src="data/community.js?v=202608111522"></script>
+  <script src="assets/site.js?v=202608111522"></script>
   <script>
     /* Point the end-of-excerpt "Follow free" button at the configured support
        link (Patreon) from data/community.js. With JS off or when unset it stays
