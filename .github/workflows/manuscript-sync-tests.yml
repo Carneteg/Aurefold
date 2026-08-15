@@ -9,7 +9,9 @@ on:
       - "assets/canon-validator.js"
       - "assets/editorial-issues.js"
       - "assets/scene-scorecards.js"
+      - "assets/character-arcs.js"
       - "admin/loremaster.html"
+      - "admin/character-arcs.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
   push:
@@ -20,7 +22,9 @@ on:
       - "assets/canon-validator.js"
       - "assets/editorial-issues.js"
       - "assets/scene-scorecards.js"
+      - "assets/character-arcs.js"
       - "admin/loremaster.html"
+      - "admin/character-arcs.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
 
@@ -42,3 +46,5 @@ jobs:
         run: node --check assets/editorial-issues.js
       - name: Syntax-check Scene Scorecards client
         run: node --check assets/scene-scorecards.js
+      - name: Syntax-check Character Arc Graph client
+        run: node --check assets/character-arcs.js
