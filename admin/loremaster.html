@@ -7,7 +7,7 @@
   <title>Aurefold Loremaster</title>
   <link rel="stylesheet" href="/assets/style.css?v=202608150700" />
   <style>
-    .lm-wrap{max-width:1180px;margin:0 auto;padding:2rem 1rem 5rem}.lm-head{display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-wrap:wrap}.lm-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.8rem}.lm-card{border:1px solid rgba(120,90,65,.35);padding:1rem;background:rgba(255,255,255,.025)}.lm-card strong{display:block;font-size:1.6rem}.lm-panel{margin-top:1.5rem}.lm-table{width:100%;border-collapse:collapse;font-size:.92rem}.lm-table th,.lm-table td{padding:.6rem;border-bottom:1px solid rgba(120,90,65,.25);text-align:left;vertical-align:top}.lm-form{max-width:480px;display:grid;gap:.8rem}.lm-form input,.lm-form select{width:100%;padding:.7rem}.lm-status{margin:.7rem 0}.lm-warn{padding:.9rem;border-left:3px solid #9a6b3a;background:rgba(154,107,58,.08)}[hidden]{display:none!important}
+    .lm-wrap{max-width:1180px;margin:0 auto;padding:2rem 1rem 5rem}.lm-head{display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-wrap:wrap}.lm-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.8rem}.lm-card{border:1px solid rgba(120,90,65,.35);padding:1rem;background:rgba(255,255,255,.025)}.lm-card strong{display:block;font-size:1.6rem}.lm-panel{margin-top:1.5rem}.lm-table{width:100%;border-collapse:collapse;font-size:.92rem}.lm-table th,.lm-table td{padding:.6rem;border-bottom:1px solid rgba(120,90,65,.25);text-align:left;vertical-align:top}.lm-table tr[data-review="true"]{background:rgba(154,107,58,.08)}.lm-form{max-width:620px;display:grid;gap:.8rem}.lm-form input,.lm-form select{width:100%;padding:.7rem}.lm-form input[type="checkbox"]{width:auto}.lm-status{margin:.7rem 0}.lm-warn{padding:.9rem;border-left:3px solid #9a6b3a;background:rgba(154,107,58,.08)}[hidden]{display:none!important}
   </style>
 </head>
 <body>
@@ -36,12 +36,29 @@
         <div class="table-wrap"><table class="lm-table"><thead><tr><th>Ch.</th><th>POV</th><th>Working title</th><th>Control</th></tr></thead><tbody id="lm-scenes"></tbody></table></div>
       </div>
 
+      <div class="lm-panel">
+        <h2>Manuscript sync</h2>
+        <p class="lm-warn">Markdown is parsed and hashed in your browser. Only section metadata and SHA-256 hashes are sent to Supabase; manuscript prose is not uploaded.</p>
+        <div class="lm-form">
+          <label>Book <select id="lm-sync-book"><option value="book-1">The Bell of Silence</option><option value="book-2">The Road Still Open</option></select></label>
+          <p id="lm-sync-current" class="lm-status">Loading current baseline…</p>
+          <label>New version label <input id="lm-sync-version" type="text" placeholder="English Master v1.7" /></label>
+          <label>Markdown manuscript <input id="lm-sync-file" type="file" accept=".md,text/markdown,text/plain" /></label>
+          <button id="lm-sync-preview-btn" type="button" class="btn">Preview sync</button>
+          <label><input id="lm-sync-confirm" type="checkbox" /> Make the registered version the current operational manuscript baseline and create review items for all affected sections.</label>
+          <button id="lm-sync-register-btn" type="button" class="btn btn-primary" disabled>Register version</button>
+        </div>
+        <p id="lm-sync-status" class="lm-status" role="status"></p>
+        <div class="table-wrap"><table class="lm-table"><thead><tr><th>Pos.</th><th>Stable ID</th><th>Heading</th><th>Change</th><th>Mapped by</th></tr></thead><tbody id="lm-sync-preview"></tbody></table></div>
+      </div>
+
       <div class="lm-panel"><h2>Open source debt</h2><div class="table-wrap"><table class="lm-table"><thead><tr><th>Source</th><th>Problem</th><th>Impact</th></tr></thead><tbody id="lm-debts"></tbody></table></div></div>
 
       <div class="lm-panel"><h2>House phrase proposals</h2><p>These remain author-only proposals until formally promoted.</p><div class="table-wrap"><table class="lm-table"><thead><tr><th>House</th><th>Kind</th><th>Phrase</th></tr></thead><tbody id="lm-phrases"></tbody></table></div></div>
     </section>
   </main>
   <script src="/data/community.js?v=202608151140"></script>
-  <script src="/assets/loremaster.js?v=202608151140"></script>
+  <script src="/assets/loremaster.js?v=202608151350"></script>
+  <script src="/assets/manuscript-sync.js?v=202608151350"></script>
 </body>
 </html>
