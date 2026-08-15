@@ -157,6 +157,71 @@
         note: "Bokens kanon och centrala mysterier är författarens; Tinget och det här testet formar världen kring den — vad arkivet öppnar eller utforskar härnäst — aldrig berättelsens hjärta.",
         shareText: function (shortName) { return "Jag skulle följa House " + shortName + " i Aurefold — vilket hus skulle du följa?"; }
       }
+    },
+    es: {
+      phil: {
+        blackthorn: "Intelecto", ravenshade: "Información", ashbourne: "Coraje",
+        whitehart: "Fe", stormrider: "Unidad", ironvale: "Innovación",
+        blackcrest: "la historia del vencedor", stonebear: "Honor",
+        tidebreaker: "Conocimiento", phoenix: "el futuro"
+      },
+      line: {
+        blackthorn:  "Planean para cada futuro — y actúan un instante demasiado tarde.",
+        ravenshade:  "Comercian con lo que la gente preferiría mantener oculto.",
+        ashbourne:   "Cargan contra aquello de lo que todos los demás se apartan.",
+        whitehart:   "Escuchan una voz — y ponen a prueba a quienes dicen oírla.",
+        stormrider:  "Mantienen unida a la gente — mientras viva quien la une.",
+        ironvale:    "Lo miden todo, y construyen lo que nadie más se atreve.",
+        blackcrest:  "Guardan el registro — y el registro es una forma de poder.",
+        stonebear:   "Mantienen su palabra más allá del punto en que les cuesta todo.",
+        tidebreaker: "Lo cartografían todo, y comparten casi nada.",
+        phoenix:     "Construyen sobre tierra quemada y se niegan a mirar abajo."
+      },
+      q: [
+        { q: "Se avecina una decisión difícil. ¿En qué confías más?", a: [
+          ["Un plan cuidadoso para cada desenlace.", "blackthorn"],
+          ["En lo que puedo averiguar y otros no.", "ravenshade"],
+          ["En mi propio temple.", "ashbourne"],
+          ["En lo que creo que es verdad.", "whitehart"] ] },
+        { q: "El reino se fractura. Tu primer instinto es—", a: [
+          ["Mantener a todos unidos.", "stormrider"],
+          ["Construir algo nuevo con los pedazos.", "ironvale"],
+          ["Asegurar que el relato verdadero sobreviva.", "blackcrest"],
+          ["Cumplir el juramento que hice, cueste lo que cueste.", "stonebear"] ] },
+        { q: "La gente diría que tu mayor fortaleza es—", a: [
+          ["Entiendo más de lo que aparento.", "tidebreaker"],
+          ["Nunca renuncio al mañana.", "phoenix"],
+          ["Pienso tres jugadas por delante.", "blackthorn"],
+          ["Sencillamente no tengo miedo.", "ashbourne"] ] },
+        { q: "Un desconocido te pide ayuda. Tú—", a: [
+          ["Sopeso primero lo que me costará.", "blackthorn"],
+          ["Pregunto qué es lo que no me cuentan.", "ravenshade"],
+          ["Ayudo — y mantengo mi palabra.", "stonebear"],
+          ["Confío en el impulso de hacer el bien.", "whitehart"] ] },
+        { q: "¿Qué se parece más a ti?", a: [
+          ["El conocimiento vale más que el oro.", "tidebreaker"],
+          ["La unidad vale más que tener razón.", "stormrider"],
+          ["La historia que contamos se vuelve la verdad.", "blackcrest"],
+          ["El futuro vale cualquier fuego.", "phoenix"] ] },
+        { q: "Cuando todo sale mal, tú—", a: [
+          ["Reconstruyo, mejor que antes.", "phoenix"],
+          ["Voy de frente contra el problema.", "ashbourne"],
+          ["Encuentro el dato que todos pasaron por alto.", "ravenshade"],
+          ["Me mantengo fiel a lo que prometí.", "stonebear"] ] }
+      ],
+      ui: {
+        progress: function (i, total) { return "Pregunta " + i + " de " + total; },
+        back: "← Atrás",
+        eyebrow: "SEGUIRÍAS A",
+        castVote: "Lleva esto como tu voto en El Cónclave",
+        followFree: "Sigue gratis",
+        joinReaders: function (n) { return "Únete a " + n + " lector" + (n === 1 ? "" : "es") + " que siguen el proyecto"; },
+        shareLabel: "Diles a qué casa seguirías",
+        shareX: "Compartir en X", facebook: "Facebook", reddit: "Reddit", copy: "Copiar",
+        again: "↻ Volver a hacerlo",
+        note: "El canon del libro y sus misterios centrales son del autor; El Cónclave y este test dan forma al mundo que rodea al libro — lo que el archivo abre o explora a continuación — nunca el corazón de la historia.",
+        shareText: function (shortName) { return "Seguiría a House " + shortName + " en Aurefold — ¿a qué casa seguirías tú?"; }
+      }
     }
   };
 
