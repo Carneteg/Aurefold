@@ -51,6 +51,8 @@
 
   async function init() {
     const HOUSES = await loadHouses();
+    const localeMatch = location.pathname.match(/^\/(sv|es|fr|zh|ja)\//);
+    const localePrefix = localeMatch ? `/${localeMatch[1]}` : "";
 
     const svg = document.getElementById("map");
     const viewport = document.getElementById("viewport");
@@ -272,7 +274,7 @@
         ? `<div class="detail-note">${house.note}</div>`
         : "";
       detail.line.textContent = house.line;
-      detail.link.href = `/houses.html#${house.id}`;
+      detail.link.href = `${localePrefix}/houses.html#${house.id}`;
       detail.root.hidden = false;
 
       if (fly) flyTo(house.coords.x, house.coords.y);
