@@ -14,12 +14,14 @@ on:
       - "assets/provenance-evidence.js"
       - "assets/mystery-protection.js"
       - "assets/dependency-impact.js"
+      - "assets/timeline-engine.js"
       - "admin/loremaster.html"
       - "admin/character-arcs.html"
       - "admin/knowledge-graph.html"
       - "admin/provenance-evidence.html"
       - "admin/mystery-protection.html"
       - "admin/dependency-impact.html"
+      - "admin/timeline.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
   push:
@@ -35,12 +37,14 @@ on:
       - "assets/provenance-evidence.js"
       - "assets/mystery-protection.js"
       - "assets/dependency-impact.js"
+      - "assets/timeline-engine.js"
       - "admin/loremaster.html"
       - "admin/character-arcs.html"
       - "admin/knowledge-graph.html"
       - "admin/provenance-evidence.html"
       - "admin/mystery-protection.html"
       - "admin/dependency-impact.html"
+      - "admin/timeline.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
 
@@ -72,3 +76,5 @@ jobs:
         run: node --check assets/mystery-protection.js
       - name: Syntax-check Dependency Impact client
         run: node --check assets/dependency-impact.js
+      - name: Syntax-check Timeline Engine client
+        run: node --check assets/timeline-engine.js
