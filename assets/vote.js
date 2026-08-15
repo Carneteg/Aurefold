@@ -96,6 +96,33 @@
       convening: "Convocando el cónclave…",
       notInSession: "El cónclave no está en sesión. Vuelve pronto.",
       notReachedHere: "No se pudo contactar con el archivo desde aquí. El cónclave se reúne en el sitio publicado — o inténtalo de nuevo en un momento."
+    },
+    fr: {
+      decidedLast: "Ce que le Conseil a décidé la dernière fois",
+      kindHouse: "La question des maisons",
+      kindNext: "Ce qui s’ouvre ensuite",
+      kindQuestion: "Une question pour le Conseil",
+      notPublished: "Le conseil se réunit sur le site publié.",
+      yourVoice: "Votre voix — ",
+      counted: "comptée",
+      voicesWord: function (n) { return " voix"; },
+      changeChoice: "Changez votre choix",
+      addVoice: "Ajoutez votre voix",
+      heard: function (total) { return "Le Conseil a entendu " + total + " voix."; },
+      noVoicesYet: "Aucune voix pour l’instant. La vôtre serait la première.",
+      countedStanding: "Votre voix est comptée. Le décompte complet s’ouvre quand plus de lecteurs auront participé.",
+      earlyDays: "C’est tôt — soyez parmi les premiers à participer.",
+      keepChoice: "Garder mon choix actuel",
+      pickAnother: "Choisissez une autre option pour changer votre voix, ou gardez la vôtre.",
+      showStanding: "Voir le classement sans voter",
+      onePerReader: "Une voix par lecteur. L’archive compte ; elle ne surveille pas.",
+      currentVoiceSuffix: " — votre voix actuelle",
+      oneVoiceKept: "Le Conseil garde une voix par lecteur — votre premier choix prévaut.",
+      notReached: "Impossible de joindre l’archive. Réessayez dans un instant.",
+      fromQuiz: "D’après votre quiz — cette maison est mise en avant ci-dessous. Votez-la, ou choisissez-en une autre. Rien n’est envoyé tant que vous n’avez pas choisi.",
+      convening: "Convocation du conseil…",
+      notInSession: "Le conseil n’est pas en session. Revenez bientôt.",
+      notReachedHere: "Impossible de joindre l’archive d’ici. Le conseil se réunit sur le site publié — ou réessayez dans un instant."
     }
   };
   var T = TX[LANG] || TX.en;

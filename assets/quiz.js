@@ -222,6 +222,71 @@
         note: "El canon del libro y sus misterios centrales son del autor; El Cónclave y este test dan forma al mundo que rodea al libro — lo que el archivo abre o explora a continuación — nunca el corazón de la historia.",
         shareText: function (shortName) { return "Seguiría a House " + shortName + " en Aurefold — ¿a qué casa seguirías tú?"; }
       }
+    },
+    fr: {
+      phil: {
+        blackthorn: "Intellect", ravenshade: "Information", ashbourne: "Courage",
+        whitehart: "Foi", stormrider: "Unité", ironvale: "Innovation",
+        blackcrest: "l’histoire du vainqueur", stonebear: "Honneur",
+        tidebreaker: "Savoir", phoenix: "l’avenir"
+      },
+      line: {
+        blackthorn:  "Ils planifient chaque avenir — et agissent un instant trop tard.",
+        ravenshade:  "Ils font commerce de ce que les gens préféreraient cacher.",
+        ashbourne:   "Ils foncent sur ce devant quoi tous les autres reculent.",
+        whitehart:   "Ils écoutent une voix — et éprouvent ceux qui prétendent l’entendre.",
+        stormrider:  "Ils tiennent les gens ensemble — tant que vit celui qui les lie.",
+        ironvale:    "Ils mesurent tout, et bâtissent ce que nul autre n’ose.",
+        blackcrest:  "Ils tiennent le registre — et le registre est une forme de pouvoir.",
+        stonebear:   "Ils tiennent parole au-delà du point où elle leur coûte tout.",
+        tidebreaker: "Ils cartographient tout, et n’en partagent presque rien.",
+        phoenix:     "Ils bâtissent sur la terre brûlée et refusent de regarder en bas."
+      },
+      q: [
+        { q: "Une décision difficile approche. À quoi vous fiez-vous le plus ?", a: [
+          ["Un plan soigneux pour chaque issue.", "blackthorn"],
+          ["À ce que je peux découvrir et que d’autres ne peuvent pas.", "ravenshade"],
+          ["À mon propre sang-froid.", "ashbourne"],
+          ["À ce que je crois vrai.", "whitehart"] ] },
+        { q: "Le royaume se fracture. Votre premier réflexe est de—", a: [
+          ["Garder tout le monde uni.", "stormrider"],
+          ["Bâtir du neuf à partir des morceaux.", "ironvale"],
+          ["Faire en sorte que le récit véridique survive.", "blackcrest"],
+          ["Tenir le serment que j’ai prêté, quoi qu’il en coûte.", "stonebear"] ] },
+        { q: "On dirait que votre plus grande force est—", a: [
+          ["Je comprends plus que je ne le montre.", "tidebreaker"],
+          ["Je ne renonce jamais à demain.", "phoenix"],
+          ["Je pense trois coups à l’avance.", "blackthorn"],
+          ["Je n’ai tout simplement pas peur.", "ashbourne"] ] },
+        { q: "Un inconnu vous demande de l’aide. Vous—", a: [
+          ["Je pèse d’abord ce que cela va me coûter.", "blackthorn"],
+          ["Je demande ce qu’on ne me dit pas.", "ravenshade"],
+          ["J’aide — et je tiens parole.", "stonebear"],
+          ["Je me fie à l’élan de bien faire.", "whitehart"] ] },
+        { q: "Qu’est-ce qui vous ressemble le plus ?", a: [
+          ["Le savoir vaut plus que l’or.", "tidebreaker"],
+          ["L’unité vaut plus qu’avoir raison.", "stormrider"],
+          ["L’histoire que nous racontons devient la vérité.", "blackcrest"],
+          ["L’avenir vaut n’importe quel feu.", "phoenix"] ] },
+        { q: "Quand tout tourne mal, vous—", a: [
+          ["Je reconstruis, en mieux qu’avant.", "phoenix"],
+          ["Je fonce droit sur le problème.", "ashbourne"],
+          ["Je trouve le fait que tous ont manqué.", "ravenshade"],
+          ["Je m’en tiens à ce que j’ai promis.", "stonebear"] ] }
+      ],
+      ui: {
+        progress: function (i, total) { return "Question " + i + " sur " + total; },
+        back: "← Retour",
+        eyebrow: "VOUS SUIVRIEZ",
+        castVote: "Portez ceci comme votre vote au Conseil",
+        followFree: "Suivre gratuitement",
+        joinReaders: function (n) { return "Rejoignez " + n + " lecteur" + (n === 1 ? "" : "s") + " qui suivent le projet"; },
+        shareLabel: "Dites-leur quelle maison vous suivriez",
+        shareX: "Partager sur X", facebook: "Facebook", reddit: "Reddit", copy: "Copier",
+        again: "↻ Recommencer",
+        note: "Le canon du livre et ses mystères centraux appartiennent à l’auteur ; le Conseil et ce quiz façonnent le monde autour du livre — ce que l’archive ouvre ou explore ensuite — jamais le cœur de l’histoire.",
+        shareText: function (shortName) { return "Je suivrais House " + shortName + " dans Aurefold — quelle maison suivriez-vous ?"; }
+      }
     }
   };
 
