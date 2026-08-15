@@ -46,7 +46,7 @@ CHROME = {
          "Follow Aurefold":"Följ Aurefold","Language":"Språk"},
   "es": {"Book One":"Libro Uno","Read":"Leer","The Archive":"El Archivo",
          "The Great Houses":"Las Grandes Casas","The Map":"El Mapa","The World":"El Mundo",
-         "The Faces":"Los Rostros","History":"Historia","The Living Archive":"El Archivo Vivo",
+         "The Faces":"Los Rostros","History":"Historia","The Living Archive":"El Archivo Viviente",
          "The Moot":"El Cónclave","Support":"Apoyar","Journal":"Diario",
          "Skip to content":"Saltar al contenido","Open menu":"Abrir menú",
          "Privacy &amp; cookies":"Privacidad y cookies","Cookie settings":"Ajustes de cookies",
