@@ -1,0 +1,12 @@
+{
+  "title": "合議——Aurefold の次に来るものに投票しよう",
+  "description": "合議は読者が Aurefold の世界を形づくる場——限定された非カノンの追加要素に一票を投じよう：アート、サイドストーリー、そして記録が次に開くもの。",
+  "blocks": [
+    ["An old word for an assembly where every voice is counted. One voice per reader —\n      and while the Moot is young, early votes show as a standing; the exact counts open\n      once enough readers have weighed in.", "すべての声が数えられる集まりを指す古い言葉。読者一人につき一票——\n      そして合議がまだ若いあいだ、初期の票は順位として示され、正確な集計は\n      十分な読者が意見を寄せたのちに公開される。"],
+    ["The Moot shapes the world <em>around</em> the book — which supplemental material,\n      art, or public topic the archive opens next, and bounded extras like which\n      side-story gets written or the name of a minor figure in the supplementary lore.\n      The central plot, canon, character fates, and the book’s unresolved mysteries stay\n      the author’s.", "合議は本の<em>周囲の</em>世界を形づくる——記録が次にどの補足資料、\n      アート、あるいは公開の話題を開くか、そしてどのサイドストーリーが書かれるか、\n      補足設定における端役の名は何かといった限定された追加要素だ。\n      中心の筋、カノン、登場人物たちの運命、そして本の未解決の謎は\n      著者のものにとどまる。"],
+    ["The interactive Moot needs JavaScript to convene. You can still take part:", "インタラクティブな合議が開かれるには JavaScript が必要です。それでも参加できます："],
+    ["Follow free", "無料でフォロー"],
+    ["Follow the journey", "旅を追う"],
+    ["Free members are asked the same Moot questions, and hear the results first.", "無料メンバーも同じ合議の問いを受け取り、結果を最初に聞くことができます。"]
+  ]
+}
