@@ -1,0 +1,4 @@
+create index if not exists idx_character_arc_assessment_history_assessment on public.character_arc_assessment_history(assessment_id);
+create index if not exists idx_character_arc_beat_history_assessment on public.character_arc_beat_history(assessment_id);
+create index if not exists idx_character_arc_beat_history_scene on public.character_arc_beat_history(scene_id);
+create index if not exists idx_character_arc_beats_section on public.character_arc_beats(manuscript_section_id);
