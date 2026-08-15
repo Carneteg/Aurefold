@@ -13,6 +13,14 @@ window.AUREFOLD_COMMUNITY = {
   // directly from the Authorization bearer on every request.
   supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFrYm9lc2xlY3pkZHFkaWtqemJ3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM4NjM4MzUsImV4cCI6MjA5OTQzOTgzNX0.AG1LPOUP-O9icpNOFQZ1w8tNFlW4MeTPWvKfDbrf90w",
 
+  /* Reader accounts (The Banner). Sign-in is by magic email link and works out
+     of the box. Discord sign-in shows as a second button once the provider is
+     enabled in Supabase (Authentication → Providers → Discord) — then set
+     discord: true here. */
+  auth: {
+    discord: false
+  },
+
   /* The Moot (reader voting) — PRESENTATION only. These settings never touch
      the database, its row-level security, or the one-vote-per-reader rule.
 
