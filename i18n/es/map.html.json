@@ -1,0 +1,26 @@
+{
+  "title": "El mapa de the Banner-lands — Aurefold",
+  "description": "Explora el mapa interactivo de the Banner-lands — las sedes de las diez grandes casas y el valle montañoso donde se desarrolla Libro Uno de Aurefold.",
+  "blocks": [
+    [
+      "title=\"Zoom in\" aria-label=\"Zoom in\"",
+      "title=\"Acercar\" aria-label=\"Acercar\""
+    ],
+    [
+      "title=\"Zoom out\" aria-label=\"Zoom out\"",
+      "title=\"Alejar\" aria-label=\"Alejar\""
+    ],
+    [
+      "title=\"Reset view\" aria-label=\"Reset view\"",
+      "title=\"Restablecer vista\" aria-label=\"Restablecer vista\""
+    ],
+    [
+      "<button id=\"detail-close\" class=\"detail-close\" aria-label=\"Close\">",
+      "<button id=\"detail-close\" class=\"detail-close\" aria-label=\"Cerrar\">"
+    ],
+    [
+      "Read the house record →",
+      "Lee el registro de la casa →"
+    ]
+  ]
+}
