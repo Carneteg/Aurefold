@@ -1,4 +1,4 @@
-name: Manuscript Sync Tests
+name: Manuscript & Canon Infrastructure Tests
 
 on:
   pull_request:
@@ -6,6 +6,7 @@ on:
       - "tools/manuscript_sync.py"
       - "tests/test_manuscript_sync.py"
       - "assets/manuscript-sync.js"
+      - "assets/canon-validator.js"
       - "admin/loremaster.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
@@ -14,6 +15,7 @@ on:
       - "tools/manuscript_sync.py"
       - "tests/test_manuscript_sync.py"
       - "assets/manuscript-sync.js"
+      - "assets/canon-validator.js"
       - "admin/loremaster.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
@@ -30,3 +32,5 @@ jobs:
         run: python -m unittest tests/test_manuscript_sync.py
       - name: Syntax-check browser sync client
         run: node --check assets/manuscript-sync.js
+      - name: Syntax-check Canon Validator client
+        run: node --check assets/canon-validator.js
