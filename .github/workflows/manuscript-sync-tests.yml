@@ -13,11 +13,13 @@ on:
       - "assets/knowledge-graph.js"
       - "assets/provenance-evidence.js"
       - "assets/mystery-protection.js"
+      - "assets/dependency-impact.js"
       - "admin/loremaster.html"
       - "admin/character-arcs.html"
       - "admin/knowledge-graph.html"
       - "admin/provenance-evidence.html"
       - "admin/mystery-protection.html"
+      - "admin/dependency-impact.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
   push:
@@ -32,11 +34,13 @@ on:
       - "assets/knowledge-graph.js"
       - "assets/provenance-evidence.js"
       - "assets/mystery-protection.js"
+      - "assets/dependency-impact.js"
       - "admin/loremaster.html"
       - "admin/character-arcs.html"
       - "admin/knowledge-graph.html"
       - "admin/provenance-evidence.html"
       - "admin/mystery-protection.html"
+      - "admin/dependency-impact.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
 
@@ -66,3 +70,5 @@ jobs:
         run: node --check assets/provenance-evidence.js
       - name: Syntax-check Mystery Protection client
         run: node --check assets/mystery-protection.js
+      - name: Syntax-check Dependency Impact client
+        run: node --check assets/dependency-impact.js
