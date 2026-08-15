@@ -7,7 +7,7 @@
   <title>Aurefold Loremaster</title>
   <link rel="stylesheet" href="/assets/style.css?v=202608150700" />
   <style>
-    .lm-wrap{max-width:1180px;margin:0 auto;padding:2rem 1rem 5rem}.lm-head{display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-wrap:wrap}.lm-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.8rem}.lm-card{border:1px solid rgba(120,90,65,.35);padding:1rem;background:rgba(255,255,255,.025)}.lm-card strong{display:block;font-size:1.6rem}.lm-panel{margin-top:1.5rem}.lm-table{width:100%;border-collapse:collapse;font-size:.92rem}.lm-table th,.lm-table td{padding:.6rem;border-bottom:1px solid rgba(120,90,65,.25);text-align:left;vertical-align:top}.lm-table tr[data-review="true"]{background:rgba(154,107,58,.08)}.lm-table tr[data-severity="critical"]{background:rgba(150,40,35,.09)}.lm-table tr[data-severity="error"]{background:rgba(154,107,58,.10)}.lm-form{max-width:720px;display:grid;gap:.8rem}.lm-form input,.lm-form select{width:100%;padding:.7rem}.lm-form input[type="checkbox"]{width:auto}.lm-status{margin:.7rem 0}.lm-warn{padding:.9rem;border-left:3px solid #9a6b3a;background:rgba(154,107,58,.08)}.lm-actions{display:flex;gap:.65rem;flex-wrap:wrap;align-items:center}.lm-status-green{border-left:3px solid #4d7a4d}.lm-status-yellow{border-left:3px solid #9a6b3a}.lm-status-red{border-left:3px solid #9a3934}[hidden]{display:none!important}
+    .lm-wrap{max-width:1180px;margin:0 auto;padding:2rem 1rem 5rem}.lm-head{display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-wrap:wrap}.lm-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.8rem}.lm-card{border:1px solid rgba(120,90,65,.35);padding:1rem;background:rgba(255,255,255,.025)}.lm-card strong{display:block;font-size:1.6rem}.lm-panel{margin-top:1.5rem}.lm-table{width:100%;border-collapse:collapse;font-size:.92rem}.lm-table th,.lm-table td{padding:.6rem;border-bottom:1px solid rgba(120,90,65,.25);text-align:left;vertical-align:top}.lm-table tr[data-review="true"]{background:rgba(154,107,58,.08)}.lm-table tr[data-severity="critical"]{background:rgba(150,40,35,.12)}.lm-table tr[data-severity="error"],.lm-table tr[data-severity="high"]{background:rgba(154,107,58,.10)}.lm-form{max-width:720px;display:grid;gap:.8rem}.lm-form input,.lm-form select,.lm-form textarea{width:100%;padding:.7rem}.lm-form textarea{min-height:92px;resize:vertical}.lm-form input[type="checkbox"]{width:auto}.lm-status{margin:.7rem 0}.lm-warn{padding:.9rem;border-left:3px solid #9a6b3a;background:rgba(154,107,58,.08)}.lm-actions{display:flex;gap:.65rem;flex-wrap:wrap;align-items:center}.lm-status-green{border-left:3px solid #4d7a4d}.lm-status-yellow{border-left:3px solid #9a6b3a}.lm-status-red{border-left:3px solid #9a3934}.lm-small{margin-top:.35rem;font-size:.84rem;opacity:.8;max-width:46rem}[hidden]{display:none!important}
   </style>
 </head>
 <body>
@@ -73,6 +73,41 @@
         <div class="table-wrap"><table class="lm-table"><thead><tr><th>Severity</th><th>Rule</th><th>Section</th><th>State</th><th>Authority</th><th>Review</th></tr></thead><tbody id="lm-validator-latest"></tbody></table></div>
       </div>
 
+      <div class="lm-panel">
+        <div class="lm-head">
+          <div><h2>Editorial Issues</h2><p>Developmental problems are tracked separately from canon. Resolving an issue never changes a Canon Lock.</p></div>
+          <div class="lm-actions">
+            <label>Book <select id="lm-editorial-book"><option value="book-1">The Bell of Silence</option><option value="book-2">The Road Still Open</option></select></label>
+            <label>Status <select id="lm-editorial-filter-status"><option value="active">Active</option><option value="all">All</option><option value="open">Open</option><option value="investigating">Investigating</option><option value="planned">Planned</option><option value="in_revision">In revision</option><option value="resolved">Resolved</option><option value="deferred">Deferred</option></select></label>
+          </div>
+        </div>
+        <div id="lm-editorial-health" class="lm-grid"></div>
+        <h3>Current backlog</h3>
+        <div class="table-wrap"><table class="lm-table"><thead><tr><th>Severity</th><th>Category</th><th>Issue</th><th>Scope</th><th>Status</th><th>Target</th><th>Update</th></tr></thead><tbody id="lm-editorial-list"></tbody></table></div>
+        <h3>Create editorial issue</h3>
+        <form id="lm-editorial-form" class="lm-form">
+          <label>Title <input id="lm-editorial-title" type="text" required /></label>
+          <div class="lm-actions">
+            <label>Category <select id="lm-editorial-category"><option>character</option><option>attachment</option><option>relationship</option><option>pacing</option><option>structure</option><option>stakes</option><option>conflict</option><option>antagonist</option><option>exposition</option><option>commercial</option><option>prose</option><option>worldbuilding</option><option>continuity</option><option>mystery</option><option>other</option></select></label>
+            <label>Severity <select id="lm-editorial-severity"><option value="high">high</option><option value="critical">critical</option><option value="medium">medium</option><option value="low">low</option></select></label>
+          </div>
+          <label>Description <textarea id="lm-editorial-description" required></textarea></label>
+          <label>Diagnosis <textarea id="lm-editorial-diagnosis"></textarea></label>
+          <label>Recommended intervention <textarea id="lm-editorial-recommendation"></textarea></label>
+          <label>Acceptance criteria <textarea id="lm-editorial-acceptance"></textarea></label>
+          <label>Chapter scope <input id="lm-editorial-chapters" type="text" placeholder="19-24, 31" /></label>
+          <label>Entity slugs <input id="lm-editorial-entities" type="text" placeholder="sela, fen, tomas" /></label>
+          <div class="lm-actions">
+            <label>Discovered in <input id="lm-editorial-discovered" type="text" value="English Master v1.6" /></label>
+            <label>Target version <input id="lm-editorial-target" type="text" value="English Master v1.7" /></label>
+          </div>
+          <label>Source kind <select id="lm-editorial-source-kind"><option value="editorial_assessment">editorial assessment</option><option value="external_review">external review</option><option value="creator_directive">creator directive</option><option value="reader_feedback">reader feedback</option><option value="manuscript_sync">manuscript sync</option><option value="canon_validator">canon validator</option><option value="other">other</option></select></label>
+          <label>Source label <input id="lm-editorial-source-label" type="text" placeholder="Developmental teardown / beta reader / creator decision" /></label>
+          <button type="submit" class="btn btn-primary">Create editorial issue</button>
+        </form>
+        <p id="lm-editorial-status" class="lm-status" role="status"></p>
+      </div>
+
       <div class="lm-panel"><h2>Open source debt</h2><div class="table-wrap"><table class="lm-table"><thead><tr><th>Source</th><th>Problem</th><th>Impact</th></tr></thead><tbody id="lm-debts"></tbody></table></div></div>
 
       <div class="lm-panel"><h2>House phrase proposals</h2><p>These remain author-only proposals until formally promoted.</p><div class="table-wrap"><table class="lm-table"><thead><tr><th>House</th><th>Kind</th><th>Phrase</th></tr></thead><tbody id="lm-phrases"></tbody></table></div></div>
@@ -82,5 +117,6 @@
   <script src="/assets/loremaster.js?v=202608151350"></script>
   <script src="/assets/manuscript-sync.js?v=202608151350"></script>
   <script src="/assets/canon-validator.js?v=202608151617"></script>
+  <script src="/assets/editorial-issues.js?v=202608151640"></script>
 </body>
 </html>
