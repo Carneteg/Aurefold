@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Aurefold Release Readiness</title>
+  <link rel="stylesheet" href="/assets/style.css">
+  <style>
+    .rr-wrap{max-width:1420px;margin:auto;padding:2rem 1rem 5rem}.rr-head,.rr-actions{display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-wrap:wrap}.rr-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:.8rem}.rr-card{border:1px solid rgba(120,90,65,.35);padding:1rem}.rr-card strong{display:block;font-size:1.35rem}.rr-panel{margin-top:1.5rem}.rr-table{width:100%;border-collapse:collapse;font-size:.86rem}.rr-table th,.rr-table td{padding:.58rem;border-bottom:1px solid rgba(120,90,65,.25);text-align:left;vertical-align:top}.table-wrap{overflow:auto}.rr-warn{padding:.9rem;border-left:3px solid #9a6b3a;background:rgba(154,107,58,.08)}tr[data-result=fail],tr[data-result=unknown]{background:rgba(154,57,52,.08)}tr[data-severity=warning][data-result=fail]{background:rgba(154,107,58,.08)}.rr-form{display:grid;gap:.8rem;max-width:820px}.rr-form textarea{min-height:90px;width:100%}.rr-ack{display:grid;gap:.45rem}.ghost{display:none!important}[hidden]{display:none!important}
+  </style>
+</head>
+<body>
+<main class="rr-wrap">
+  <div class="rr-head"><div><p class="eyebrow">AUREFOLD PROJECT · AUTHOR ONLY</p><h1>Release Readiness</h1><p>Version-bound evidence for a human release decision. This gate cannot ratify canon or publish prose.</p></div><div class="rr-actions"><a class="btn" href="/admin/loremaster.html">Loremaster</a><a class="btn" href="/admin/security-hardening.html">Security</a><button id="lm-signout" class="btn" hidden>Sign out</button></div></div>
+
+  <section id="lm-login" class="rr-panel"><h2>Author sign-in</h2><form id="lm-login-form"><label>Email <input id="lm-email" type="email" required></label><label>Password <input id="lm-password" type="password" required></label><button class="btn btn-primary">Sign in</button></form><p id="lm-login-status"></p></section>
+
+  <section id="lm-dashboard" hidden>
+    <div class="ghost"><select id="lm-book"><option value="book-1">Book One</option></select><div id="lm-metrics"></div><table><tbody id="lm-scenes"></tbody><tbody id="lm-debts"></tbody><tbody id="lm-phrases"></tbody></table></div>
+    <section class="rr-panel"><div class="rr-head"><div><h2>Current gate</h2><p id="rr-version">Loading current manuscript…</p></div><div class="rr-actions"><label>Book <select id="rr-book"><option value="book-1">The Bell of Silence</option><option value="book-2">The Road Still Open</option></select></label><button id="rr-evaluate" class="btn btn-primary">Evaluate current manuscript</button></div></div><div id="rr-health" class="rr-grid"></div><p id="rr-status" class="rr-warn"></p></section>
+
+    <section class="rr-panel"><div class="rr-head"><h2>Evidence checks</h2><label>Show <select id="rr-filter"><option value="all">All checks</option><option value="attention">Attention required</option><option value="blocking">Blocking checks</option><option value="warning">Warnings</option></select></label></div><div class="table-wrap"><table class="rr-table"><thead><tr><th>#</th><th>Subsystem</th><th>Check</th><th>Severity</th><th>Result</th><th>Finding</th><th>Observed</th></tr></thead><tbody id="rr-checks"></tbody></table></div></section>
+
+    <section class="rr-panel"><h2>Human decision</h2><p class="rr-warn"><strong>No automatic canon.</strong> Approval is impossible while a blocker or unknown blocking check remains. Every failed warning must be acknowledged explicitly.</p><form id="rr-decision-form" class="rr-form"><label>Decision <select id="rr-decision"><option value="not_ready">Not ready</option><option value="approved">Approved for release handling</option></select></label><div id="rr-warning-acks" class="rr-ack"></div><label>Rationale <textarea id="rr-rationale" required></textarea></label><button id="rr-record-decision" class="btn btn-primary">Record decision</button></form><p id="rr-decision-status"></p></section>
+
+    <section class="rr-panel"><h2>Evaluation history</h2><div class="table-wrap"><table class="rr-table"><thead><tr><th>Evaluated</th><th>Version</th><th>Freshness</th><th>Status</th><th>Blockers</th><th>Warnings</th><th>Snapshot</th><th>Decision</th></tr></thead><tbody id="rr-runs"></tbody></table></div></section>
+  </section>
+</main>
+<script src="/data/community.js"></script><script src="/assets/loremaster.js"></script><script src="/assets/release-readiness.js?v=202608160100"></script>
+</body>
+</html>
+
