@@ -1,0 +1,20 @@
+{
+  "title": "Le monde d’Aurefold — les Banner-lands",
+  "description": "Au cœur du monde d’Aurefold : the Tenfold Compact, le calendrier A.U., the Ash Fields et la paix fragile que dix grandes maisons ont jurée il y a quatre cents ans.",
+  "blocks": [
+    ["<h1 class=\"page-title\">The World</h1>", "<h1 class=\"page-title\">Le Monde</h1>"],
+    ["Notes toward a general geography, compiled from the surviving sources.", "Notes en vue d’une géographie générale, compilées à partir des sources subsistantes."],
+
+    ["<h2 class=\"section-title\">The seat of power</h2>", "<h2 class=\"section-title\">Le siège du pouvoir</h2>"],
+    ["<h2 class=\"section-title\">The coming jubilee</h2>", "<h2 class=\"section-title\">Le jubilé à venir</h2>"],
+    ["<h2 class=\"section-title\">The rivers</h2>", "<h2 class=\"section-title\">Les fleuves</h2>"],
+
+    ["One continent, shaped — the old charts agree on this much — like a kidney.\n        To the west and south lies the Sleeping Sea; few ships that make for deep\n        water return, and the wise trade along the coasts. To the east and north\n        stand the Silent Mountains, and beyond them nothing certain — only rumors\n        of “the houseless.” At the heart of the continent lie the Ash Fields.", "Un continent dont la forme — les vieilles cartes s’accordent au moins là-dessus — est celle d’un rein.\n        À l’ouest et au sud s’étend the Sleeping Sea ; peu de navires qui gagnent les eaux\n        profondes en reviennent, et les sages commercent le long des côtes. À l’est et au nord\n        se dressent the Silent Mountains, et au-delà rien de certain — seulement des rumeurs\n        au sujet des « sans-maison ». Au cœur du continent s’étendent the Ash Fields."],
+    ["High, silent valleys in the northwest, where goatherds keep their flocks and\n        House Whitehart keeps the Bell of Silence. It is a country that listens.\n        <a href=\"book.html\">Book One begins there.</a>", "De hautes vallées silencieuses au nord-ouest, où les chevriers gardent leurs troupeaux et\n        House Whitehart veille sur the Bell of Silence. C’est un pays qui écoute.\n        <a href=\"book.html\">Le Livre Un y commence.</a>"],
+    ["The seat of power carries three disputed names — <em>Ederhamn · Elvestad ·\n        Ederstad</em> — never resolved, never translated. The sources disagree,\n        and the sources are all we have.", "Le siège du pouvoir porte trois noms disputés — <em>Ederhamn · Elvestad ·\n        Ederstad</em> — jamais tranchés, jamais traduits. Les sources divergent,\n        et les sources sont tout ce que nous avons."],
+    ["Sworn in the year 0, at the end of the War of the Unification. Every year\n        since has been counted from it. The oath bound the Great Houses to one\n        realm, and the realm has held — by one measure or another — for nearly\n        four centuries.", "Jurée en l’an 0, à la fin de the War of the Unification. Chaque année\n        depuis a été comptée à partir d’elle. Le serment a lié les Grandes Maisons à un\n        seul royaume, et le royaume a tenu — d’une manière ou d’une autre — pendant près de\n        quatre siècles."],
+    ["The 400-year jubilee of the Unification is four years away. Across the\n        Banner-lands, House Blackcrest gathers the realm’s testimony for the\n        occasion.", "Le jubilé des 400 ans de l’Unification est dans quatre ans. À travers tout le\n        Banner-lands, House Blackcrest rassemble les témoignages du royaume pour\n        l’occasion."],
+    ["The rivers of the Banner-lands go unnamed in this archive. The charts\n        never agree.", "Les fleuves des Banner-lands demeurent sans nom dans ces archives. Les cartes\n        ne s’accordent jamais."],
+    ["Where the sources disagree, the disagreement is kept.", "Là où les sources divergent, le désaccord est conservé."]
+  ]
+}
