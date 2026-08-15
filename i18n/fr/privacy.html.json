@@ -1,0 +1,31 @@
+{
+  "title": "Confidentialité &amp; cookies — AUREFOLD",
+  "description": "Comment Aurefold utilise les cookies et les données : statistiques anonymes, le formulaire e-mail de la liste de lecture et le Conseil — et comment vous contrôlez votre consentement.",
+  "blocks": [
+    ["<h1 class=\"page-title\">Privacy &amp; Cookies</h1>", "<h1 class=\"page-title\">Confidentialité &amp; cookies</h1>"],
+    ["Plain terms: what Aurefold collects, why, and how you stay in control.", "En termes clairs : ce qu’Aurefold collecte, pourquoi, et comment vous gardez le contrôle."],
+    ["Aurefold is a small promotional site for the novel <em>The Bell of Silence</em>.\n        We keep data collection to a minimum and set <strong>no non-essential cookies until\n        you agree</strong>. You can change your mind at any time.", "Aurefold est un petit site promotionnel pour le roman <em>The Bell of Silence</em>.\n        Nous limitons la collecte de données au minimum et ne posons <strong>aucun cookie non essentiel tant que\n        vous n’avez pas accepté</strong>. Vous pouvez changer d’avis à tout moment."],
+
+    ["Cookies &amp; your consent", "Cookies &amp; votre consentement"],
+    ["When you first visit, a banner asks whether to allow cookies. Nothing that\n        sets a cookie runs until you choose <strong>Accept</strong>:", "Lors de votre première visite, une bannière vous demande d’autoriser ou non les cookies. Rien de ce qui\n        pose un cookie ne s’exécute tant que vous n’avez pas choisi <strong>Accepter</strong> :"],
+    ["<strong>Analytics (Google Analytics 4).</strong> Anonymous, aggregated usage —\n          which pages are visited, roughly where visitors come from, and events like a book\n          download. It runs in Google's <em>Consent Mode</em> with storage denied by default,\n          so it sets no analytics cookies unless you accept.", "<strong>Statistiques (Google Analytics 4).</strong> Utilisation anonyme et agrégée —\n          quelles pages sont visitées, à peu près d’où viennent les visiteurs, et des événements comme le\n          téléchargement d’un livre. Elles fonctionnent dans le <em>Consent Mode</em> de Google avec le stockage refusé par défaut,\n          de sorte qu’aucun cookie de statistiques n’est posé sans votre accord."],
+    ["<strong>Reading-list form (MailerLite).</strong> If you accept, the email signup\n          form on the <a href=\"support.html\">Support</a> page loads from MailerLite, which may\n          set its own cookies. If you decline, the form simply isn't loaded.", "<strong>Formulaire de la liste de lecture (MailerLite).</strong> Si vous acceptez, le formulaire d’inscription par e-mail\n          de la page <a href=\"support.html\">Soutien</a> se charge depuis MailerLite, qui peut\n          poser ses propres cookies. Si vous refusez, le formulaire n’est tout simplement pas chargé."],
+    ["Decline and the analytics stays cookieless and the email form isn't loaded — the rest\n        of the site works exactly the same.", "Si vous refusez, les statistiques restent sans cookie et le formulaire e-mail n’est pas chargé — le reste\n        du site fonctionne exactement de la même manière."],
+    ["Change cookie settings", "Modifier les paramètres des cookies"],
+
+    ["Information you choose to give", "Les informations que vous choisissez de fournir"],
+    ["<strong>Email address</strong> — only if you join the reading list. It's used to\n          send Aurefold updates, and you can unsubscribe from any email at any time.", "<strong>Adresse e-mail</strong> — uniquement si vous rejoignez la liste de lecture. Elle sert à\n          envoyer les nouvelles d’Aurefold, et vous pouvez vous désabonner depuis n’importe quel e-mail à tout moment."],
+    ["<strong>Reviews</strong> — if you leave a rating or review of Book One, the optional\n          name and text you enter are stored and shown publicly once approved.", "<strong>Avis</strong> — si vous laissez une note ou un avis sur le Livre Un, le nom facultatif\n          et le texte que vous saisissez sont conservés et affichés publiquement une fois approuvés."],
+    ["<strong>The Moot votes</strong> — votes are stored anonymously to tally results.\n          They are not tied to your identity.", "<strong>Les votes du Conseil</strong> — les votes sont conservés de manière anonyme pour comptabiliser les résultats.\n          Ils ne sont pas liés à votre identité."],
+
+    ["Who processes this data", "Qui traite ces données"],
+    ["<strong>Google</strong> (Analytics) — usage measurement.", "<strong>Google</strong> (Analytics) — mesure de l’utilisation."],
+    ["<strong>MailerLite</strong> — reading-list email.", "<strong>MailerLite</strong> — e-mail de la liste de lecture."],
+    ["<strong>Supabase</strong> — stores Moot votes and Book One reviews.", "<strong>Supabase</strong> — conserve les votes du Conseil et les avis sur le Livre Un."],
+    ["<strong>GitHub Pages</strong> — hosts the site; server logs may record standard\n          request data (such as IP addresses) as part of normal operation.", "<strong>GitHub Pages</strong> — héberge le site ; les journaux du serveur peuvent enregistrer des données de requête\n          standard (comme les adresses IP) dans le cadre de son fonctionnement normal."],
+
+    ["Your rights", "Vos droits"],
+    ["You can withdraw cookie consent at any time (the button above), unsubscribe from\n        emails, and request that we correct or delete personal data you've given us\n        (your email or a review). To make a request, email us at\n        <a href=\"mailto:info@aurefold.com\">info@aurefold.com</a>.", "Vous pouvez retirer votre consentement aux cookies à tout moment (le bouton ci-dessus), vous désabonner des\n        e-mails, et demander que nous corrigions ou supprimions les données personnelles que vous nous avez fournies\n        (votre e-mail ou un avis). Pour faire une demande, écrivez-nous à\n        <a href=\"mailto:info@aurefold.com\">info@aurefold.com</a>."],
+    ["This notice may be updated as the project grows. Last updated: 11 August 2026.", "Cette notice pourra être mise à jour à mesure que le projet grandit. Dernière mise à jour : 11 août 2026."]
+  ]
+}
