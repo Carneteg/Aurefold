@@ -22,14 +22,36 @@ Assign this app metadata from a trusted administrative environment (Supabase das
 
 ## Current dashboard capabilities
 
-Phase 3 is intentionally read-only. It displays:
+Loremaster currently provides:
 
 - canon/database counts;
 - Book One and Book Two scene-control rows;
 - open source-debt records;
-- author-only House phrase proposals.
+- author-only House phrase proposals;
+- Manuscript Sync for hash-only version comparison and review propagation;
+- Canon Validator for local manuscript risk scanning, registered validation history and deterministic database canon checks.
+
+Direct editing of canon tables is still **not** exposed in the browser. The only author writes currently allowed are narrowly scoped RPC workflows for manuscript-version registration and validation/review metadata. Each RPC re-checks `app_metadata.aurefold_role=author|admin` server-side.
 
 The dashboard is not a replacement for formal ratification. Editing/promoting canon will be added only with explicit workflow controls so a UI click cannot silently create a new Canon Lock.
+
+## Manuscript privacy
+
+Both Manuscript Sync and Canon Validator process selected Markdown locally in the browser.
+
+Manuscript Sync uploads structural metadata and hashes. Canon Validator uploads rule keys, locations, evidence hashes and review metadata. Neither workflow stores manuscript prose in Supabase.
+
+Canon Validator may show a short evidence excerpt locally to help the author review a regex candidate. That excerpt is deliberately excluded from the registration payload, and the registration RPC strips prose-like detector fields if a modified client attempts to submit them.
+
+## Canon Validator status model
+
+- **GREEN** — no active findings remain.
+- **YELLOW** — lexical candidates or mandatory semantic reviews remain open, or reviewed non-critical findings remain active.
+- **RED** — a `critical` or `error` finding has been explicitly confirmed.
+
+A regex match is never treated as automatic truth. It creates a candidate. Structured database invariants can be confirmed automatically because they inspect deterministic records rather than prose meaning.
+
+See `docs/CANON_VALIDATOR.md` for the complete rule and privacy model.
 
 ## Book Two source discipline
 
@@ -48,13 +70,6 @@ Therefore the thirty Scene Ledger chapters are indexed as working structure, not
 
 ## Public boundary
 
-The public website can currently read only curated views. Anon verification after Phase 3 returns:
-
-- 10 Houses;
-- 13 curated Book One character profiles;
-- 0 House phrase proposals;
-- 0 internal scenes;
-- 0 internal character-engine rows;
-- 0 source-debt rows.
+The public website can currently read only curated views. Anonymous users do not receive validator rules, validation runs/findings, manuscript-sync records, internal scenes, character engines, source debt or proposal phrase material.
 
 The English Great Houses page hydrates from `site_houses` when Supabase is available and retains its static HTML as a fail-closed fallback. Localized House pages remain static until translation-aware projections exist.
