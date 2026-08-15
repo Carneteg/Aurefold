@@ -150,6 +150,33 @@
       convening: "正在召集议会……",
       notInSession: "议会未在开会。请稍后再来。",
       notReachedHere: "无法从这里连接档案。议会在已发布的站点上召开——或稍后再试。"
+    },
+    ja: {
+      decidedLast: "合議が前回決めたこと",
+      kindHouse: "家をめぐる問い",
+      kindNext: "次に何が開かれるか",
+      kindQuestion: "合議への問い",
+      notPublished: "合議は公開されたサイトで開かれます。",
+      yourVoice: "あなたの声——",
+      counted: "集計済み",
+      voicesWord: function (n) { return "票"; },
+      changeChoice: "選択を変える",
+      addVoice: "あなたの声を加える",
+      heard: function (total) { return "合議は" + total + "票を聞きました。"; },
+      noVoicesYet: "まだ票がありません。あなたが最初の一票になります。",
+      countedStanding: "あなたの声は集計されました。より多くの読者が参加すると、完全な結果が公開されます。",
+      earlyDays: "まだ始まったばかり——最初に参加する一人になってください。",
+      keepChoice: "現在の選択を保つ",
+      pickAnother: "別の選択肢を選んで票を変えるか、現在のままにしてください。",
+      showStanding: "投票せずに結果を見る",
+      onePerReader: "読者一人につき一票。記録は数えるだけで、監視はしません。",
+      currentVoiceSuffix: "——あなたの現在の一票",
+      oneVoiceKept: "合議は読者一人につき一票を保ちます——最初の選択が有効です。",
+      notReached: "記録に接続できませんでした。少し経ってからもう一度お試しください。",
+      fromQuiz: "あなたの診断より——この家が下でハイライトされています。これに投票するか、別を選んでください。選ぶまで何も送信されません。",
+      convening: "合議を招集しています……",
+      notInSession: "合議は開会していません。またお越しください。",
+      notReachedHere: "ここからは記録に接続できませんでした。合議は公開されたサイトで開かれます——または少し経ってからお試しください。"
     }
   };
   var T = TX[LANG] || TX.en;

@@ -8,7 +8,7 @@ import os, glob, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://aurefold.com"
-BUILT = ["sv", "es", "fr", "zh"]  # translated language subdirs to include
+BUILT = ["sv", "es", "fr", "zh", "ja"]  # translated language subdirs to include
 LASTMOD = datetime.date.today().isoformat()
 
 # pages we don't want in the index
