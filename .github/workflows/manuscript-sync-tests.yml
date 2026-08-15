@@ -10,8 +10,10 @@ on:
       - "assets/editorial-issues.js"
       - "assets/scene-scorecards.js"
       - "assets/character-arcs.js"
+      - "assets/knowledge-graph.js"
       - "admin/loremaster.html"
       - "admin/character-arcs.html"
+      - "admin/knowledge-graph.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
   push:
@@ -23,8 +25,10 @@ on:
       - "assets/editorial-issues.js"
       - "assets/scene-scorecards.js"
       - "assets/character-arcs.js"
+      - "assets/knowledge-graph.js"
       - "admin/loremaster.html"
       - "admin/character-arcs.html"
+      - "admin/knowledge-graph.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
 
@@ -48,3 +52,5 @@ jobs:
         run: node --check assets/scene-scorecards.js
       - name: Syntax-check Character Arc Graph client
         run: node --check assets/character-arcs.js
+      - name: Syntax-check Knowledge Graph client
+        run: node --check assets/knowledge-graph.js
