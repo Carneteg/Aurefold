@@ -7,7 +7,7 @@
   <title>Aurefold Loremaster</title>
   <link rel="stylesheet" href="/assets/style.css?v=202608150700" />
   <style>
-    .lm-wrap{max-width:1180px;margin:0 auto;padding:2rem 1rem 5rem}.lm-head{display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-wrap:wrap}.lm-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.8rem}.lm-card{border:1px solid rgba(120,90,65,.35);padding:1rem;background:rgba(255,255,255,.025)}.lm-card strong{display:block;font-size:1.6rem}.lm-panel{margin-top:1.5rem}.lm-table{width:100%;border-collapse:collapse;font-size:.92rem}.lm-table th,.lm-table td{padding:.6rem;border-bottom:1px solid rgba(120,90,65,.25);text-align:left;vertical-align:top}.lm-table tr[data-review="true"]{background:rgba(154,107,58,.08)}.lm-table tr[data-severity="critical"]{background:rgba(150,40,35,.12)}.lm-table tr[data-severity="error"],.lm-table tr[data-severity="high"]{background:rgba(154,107,58,.10)}.lm-form{max-width:720px;display:grid;gap:.8rem}.lm-form input,.lm-form select,.lm-form textarea{width:100%;padding:.7rem}.lm-form textarea{min-height:92px;resize:vertical}.lm-form input[type="checkbox"]{width:auto}.lm-status{margin:.7rem 0}.lm-warn{padding:.9rem;border-left:3px solid #9a6b3a;background:rgba(154,107,58,.08)}.lm-actions{display:flex;gap:.65rem;flex-wrap:wrap;align-items:center}.lm-status-green{border-left:3px solid #4d7a4d}.lm-status-yellow{border-left:3px solid #9a6b3a}.lm-status-red{border-left:3px solid #9a3934}.lm-small{margin-top:.35rem;font-size:.84rem;opacity:.8;max-width:46rem}[hidden]{display:none!important}
+    .lm-wrap{max-width:1180px;margin:0 auto;padding:2rem 1rem 5rem}.lm-head{display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-wrap:wrap}.lm-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.8rem}.lm-card{border:1px solid rgba(120,90,65,.35);padding:1rem;background:rgba(255,255,255,.025)}.lm-card strong{display:block;font-size:1.6rem}.lm-panel{margin-top:1.5rem}.lm-table{width:100%;border-collapse:collapse;font-size:.92rem}.lm-table th,.lm-table td{padding:.6rem;border-bottom:1px solid rgba(120,90,65,.25);text-align:left;vertical-align:top}.lm-table tr[data-review="true"]{background:rgba(154,107,58,.08)}.lm-table tr[data-severity="critical"]{background:rgba(150,40,35,.12)}.lm-table tr[data-severity="error"],.lm-table tr[data-severity="high"]{background:rgba(154,107,58,.10)}.lm-form{max-width:720px;display:grid;gap:.8rem}.lm-form-wide{max-width:none}.lm-form input,.lm-form select,.lm-form textarea{width:100%;padding:.7rem}.lm-form textarea{min-height:92px;resize:vertical}.lm-form input[type="checkbox"]{width:auto}.lm-status{margin:.7rem 0}.lm-warn{padding:.9rem;border-left:3px solid #9a6b3a;background:rgba(154,107,58,.08)}.lm-actions{display:flex;gap:.65rem;flex-wrap:wrap;align-items:center}.lm-status-green{border-left:3px solid #4d7a4d}.lm-status-yellow{border-left:3px solid #9a6b3a}.lm-status-red{border-left:3px solid #9a3934}.lm-small{margin-top:.35rem;font-size:.84rem;opacity:.8;max-width:46rem}.lm-score-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.8rem}.lm-score-text-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:.8rem}[hidden]{display:none!important}
   </style>
 </head>
 <body>
@@ -108,6 +108,64 @@
         <p id="lm-editorial-status" class="lm-status" role="status"></p>
       </div>
 
+      <div class="lm-panel">
+        <div class="lm-head">
+          <div><h2>Scene Scorecards</h2><p>Structured editorial observations. Signals expose patterns; they do not grade literature and they do not change canon.</p></div>
+          <div class="lm-actions">
+            <label>Book <select id="lm-score-book"><option value="book-1">The Bell of Silence</option><option value="book-2">The Road Still Open</option></select></label>
+            <label>View <select id="lm-score-filter"><option value="priority">Editorial priority</option><option value="all">All</option><option value="unassessed">Unassessed</option><option value="draft">Draft</option><option value="reviewed">Reviewed</option><option value="flagged">Diagnostic signals</option><option value="stale">Stale after revision</option></select></label>
+          </div>
+        </div>
+        <p class="lm-warn">A scorecard is tied to the manuscript revision/body hash it assessed. If the source changes later, the old assessment becomes <strong>stale</strong> automatically. A stale assessment is evidence from an older draft, not a current judgment.</p>
+        <div id="lm-score-health" class="lm-grid"></div>
+        <h3>Assessment queue</h3>
+        <div class="table-wrap"><table class="lm-table"><thead><tr><th>Ch.</th><th>POV</th><th>Scene</th><th>Status</th><th>Signals</th><th>Editorial context</th><th>Source</th><th></th></tr></thead><tbody id="lm-score-list"></tbody></table></div>
+        <h3>Consecutive signal runs</h3>
+        <div class="table-wrap"><table class="lm-table"><thead><tr><th>Signal</th><th>Range</th><th>Length</th><th>Scenes</th></tr></thead><tbody id="lm-score-runs"></tbody></table></div>
+
+        <form id="lm-score-form" class="lm-form lm-form-wide" hidden>
+          <input id="lm-score-scene-id" type="hidden" />
+          <h3 id="lm-score-selected">Choose a scene from the table above.</h3>
+          <div class="lm-score-grid">
+            <label>Desire clarity <select id="lm-score-desire-clarity"><option value="">—</option><option>absent</option><option>implicit</option><option>clear</option><option>urgent</option></select></label>
+            <label>Obstacle pressure <select id="lm-score-obstacle-pressure"><option value="">—</option><option>none</option><option>light</option><option>meaningful</option><option>severe</option></select></label>
+            <label>Conflict pressure <select id="lm-score-conflict-pressure"><option value="">—</option><option>none</option><option>light</option><option>meaningful</option><option>severe</option></select></label>
+            <label>Choice weight <select id="lm-score-choice-weight"><option value="">—</option><option>none</option><option>minor</option><option>meaningful</option><option>irreversible</option></select></label>
+            <label>Cost weight <select id="lm-score-cost-weight"><option value="">—</option><option>none</option><option>minor</option><option>meaningful</option><option>severe</option></select></label>
+            <label>Emotional change <select id="lm-score-emotional-change"><option value="">—</option><option>none</option><option>subtle</option><option>meaningful</option><option>major</option></select></label>
+            <label>Relationship change <select id="lm-score-relationship-change"><option value="">—</option><option>none</option><option>subtle</option><option>meaningful</option><option>major</option></select></label>
+            <label>Information change <select id="lm-score-information-change"><option value="">—</option><option>none</option><option>subtle</option><option>meaningful</option><option>major</option></select></label>
+            <label>Material consequence <select id="lm-score-material-consequence"><option value="">—</option><option>none</option><option>subtle</option><option>meaningful</option><option>major</option></select></label>
+            <label>Reversal strength <select id="lm-score-reversal-strength"><option value="">—</option><option>none</option><option>subtle</option><option>meaningful</option><option>major</option></select></label>
+            <label>Exit / hook <select id="lm-score-hook-strength"><option value="">—</option><option>none</option><option>soft</option><option>strong</option><option>cliff</option></select></label>
+            <label>Exposition load <select id="lm-score-exposition-load"><option value="">—</option><option>low</option><option>medium</option><option>high</option><option>dominant</option></select></label>
+            <label>Impact if removed <select id="lm-score-removal-impact"><option value="">—</option><option>none</option><option>local</option><option>material</option><option>structural</option></select></label>
+          </div>
+          <div class="lm-score-text-grid">
+            <label>What does the POV/scene want? <textarea id="lm-score-desire"></textarea></label>
+            <label>Obstacle <textarea id="lm-score-obstacle"></textarea></label>
+            <label>Conflict <textarea id="lm-score-conflict"></textarea></label>
+            <label>Choice <textarea id="lm-score-choice"></textarea></label>
+            <label>Cost <textarea id="lm-score-cost"></textarea></label>
+            <label>Emotional change <textarea id="lm-score-emotional-text"></textarea></label>
+            <label>Relationship change <textarea id="lm-score-relationship-text"></textarea></label>
+            <label>Information change <textarea id="lm-score-information-text"></textarea></label>
+            <label>Material consequence <textarea id="lm-score-material-text"></textarea></label>
+            <label>Reversal <textarea id="lm-score-reversal-text"></textarea></label>
+            <label>Exit / hook function <textarea id="lm-score-hook-text"></textarea></label>
+            <label>House / world function <textarea id="lm-score-world-text"></textarea></label>
+            <label>Thematic function <textarea id="lm-score-theme-text"></textarea></label>
+            <label>Editorial notes <textarea id="lm-score-notes"></textarea></label>
+          </div>
+          <div class="lm-actions">
+            <button id="lm-score-save-draft" type="button" class="btn">Save draft assessment</button>
+            <button id="lm-score-save-reviewed" type="button" class="btn btn-primary">Mark assessment reviewed</button>
+            <button id="lm-score-clear" type="button" class="btn">Close editor</button>
+          </div>
+        </form>
+        <p id="lm-score-status" class="lm-status" role="status"></p>
+      </div>
+
       <div class="lm-panel"><h2>Open source debt</h2><div class="table-wrap"><table class="lm-table"><thead><tr><th>Source</th><th>Problem</th><th>Impact</th></tr></thead><tbody id="lm-debts"></tbody></table></div></div>
 
       <div class="lm-panel"><h2>House phrase proposals</h2><p>These remain author-only proposals until formally promoted.</p><div class="table-wrap"><table class="lm-table"><thead><tr><th>House</th><th>Kind</th><th>Phrase</th></tr></thead><tbody id="lm-phrases"></tbody></table></div></div>
@@ -118,5 +176,6 @@
   <script src="/assets/manuscript-sync.js?v=202608151350"></script>
   <script src="/assets/canon-validator.js?v=202608151617"></script>
   <script src="/assets/editorial-issues.js?v=202608151640"></script>
+  <script src="/assets/scene-scorecards.js?v=202608151655"></script>
 </body>
 </html>
