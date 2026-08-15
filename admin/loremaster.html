@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Aurefold Loremaster</title>
+  <link rel="stylesheet" href="/assets/style.css?v=202608150700" />
+  <style>
+    .lm-wrap{max-width:1180px;margin:0 auto;padding:2rem 1rem 5rem}.lm-head{display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-wrap:wrap}.lm-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.8rem}.lm-card{border:1px solid rgba(120,90,65,.35);padding:1rem;background:rgba(255,255,255,.025)}.lm-card strong{display:block;font-size:1.6rem}.lm-panel{margin-top:1.5rem}.lm-table{width:100%;border-collapse:collapse;font-size:.92rem}.lm-table th,.lm-table td{padding:.6rem;border-bottom:1px solid rgba(120,90,65,.25);text-align:left;vertical-align:top}.lm-form{max-width:480px;display:grid;gap:.8rem}.lm-form input,.lm-form select{width:100%;padding:.7rem}.lm-status{margin:.7rem 0}.lm-warn{padding:.9rem;border-left:3px solid #9a6b3a;background:rgba(154,107,58,.08)}[hidden]{display:none!important}
+  </style>
+</head>
+<body>
+  <main class="lm-wrap">
+    <div class="lm-head">
+      <div><p class="eyebrow">AURELION PROJECT · AUTHOR ONLY</p><h1>Aurefold Loremaster</h1><p>Operational canon engine. The Constitution remains supreme.</p></div>
+      <button id="lm-signout" type="button" class="btn" hidden>Sign out</button>
+    </div>
+
+    <section id="lm-login" class="lm-panel">
+      <h2>Author sign-in</h2>
+      <p class="lm-warn">This dashboard never uses a service-role key in the browser. Access requires a Supabase user whose <code>app_metadata.aurefold_role</code> is <code>author</code> or <code>admin</code>.</p>
+      <form id="lm-login-form" class="lm-form">
+        <label>Email <input id="lm-email" type="email" autocomplete="username" required /></label>
+        <label>Password <input id="lm-password" type="password" autocomplete="current-password" required /></label>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+      <p id="lm-login-status" class="lm-status" role="status"></p>
+    </section>
+
+    <section id="lm-dashboard" hidden>
+      <div class="lm-panel"><h2>Canon overview</h2><div id="lm-metrics" class="lm-grid"></div></div>
+
+      <div class="lm-panel">
+        <div class="lm-head"><h2>Scene control</h2><label>Book <select id="lm-book"><option value="book-1">The Bell of Silence</option><option value="book-2">The Road Still Open</option></select></label></div>
+        <div class="table-wrap"><table class="lm-table"><thead><tr><th>Ch.</th><th>POV</th><th>Working title</th><th>Control</th></tr></thead><tbody id="lm-scenes"></tbody></table></div>
+      </div>
+
+      <div class="lm-panel"><h2>Open source debt</h2><div class="table-wrap"><table class="lm-table"><thead><tr><th>Source</th><th>Problem</th><th>Impact</th></tr></thead><tbody id="lm-debts"></tbody></table></div></div>
+
+      <div class="lm-panel"><h2>House phrase proposals</h2><p>These remain author-only proposals until formally promoted.</p><div class="table-wrap"><table class="lm-table"><thead><tr><th>House</th><th>Kind</th><th>Phrase</th></tr></thead><tbody id="lm-phrases"></tbody></table></div></div>
+    </section>
+  </main>
+  <script src="/data/community.js?v=202608151140"></script>
+  <script src="/assets/loremaster.js?v=202608151140"></script>
+</body>
+</html>
