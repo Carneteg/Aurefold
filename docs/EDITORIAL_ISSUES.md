@@ -10,6 +10,7 @@ Editorial issues are **development data**, not canon.
 - Canon Validator detects canon risk.
 - Manuscript Sync detects what changed between manuscript versions.
 - Editorial Issues records what may be weak, why it matters, what intervention is proposed, and what evidence would justify calling it resolved.
+- Scene Scorecards supplies structured scene-level evidence that can support, weaken, split or overturn an editorial hypothesis.
 
 Resolving an editorial issue cannot amend the Constitution, Canon Ledger, continuity rules, claims, House data, or public lore.
 
@@ -109,17 +110,23 @@ The long-term workflow is:
 
 v1 does not automatically mark an editorial issue resolved merely because its scenes changed. Structural change is evidence of work, not evidence of improvement.
 
-## Relationship to future Scene Scorecards
+## Relationship to Scene Scorecards
 
-Editorial Issues is intentionally built before Scene Scorecards.
+Scene Scorecards are now the structured evidence layer underneath Editorial Issues.
 
-The future scorecard system will be able to create or support issues with structured evidence such as:
+They can surface patterns such as:
 
 - no emotional state change;
 - no relationship change;
-- exposition-only function;
+- information-only function;
+- high exposition load with little other movement;
 - weak chapter exit;
-- repeated scene function;
-- low choice/consequence density.
+- low removal impact;
+- passive POV agency;
+- consecutive runs of the same diagnostic signal.
 
-Editorial judgment remains human. Metrics should expose patterns, not decide whether literature works.
+`author_scene_scorecard_priority` overlays active Editorial Issues onto the assessment queue. That means a HIGH issue can determine which scenes should be read first without predetermining what those scorecards will say.
+
+Scorecards never automatically create or resolve an Editorial Issue. A signal may reveal a genuine problem, an intentional quiet scene, a false pattern, or an issue different from the one originally suspected. Editorial judgment remains human. Metrics expose patterns; they do not decide whether literature works.
+
+See `docs/SCENE_SCORECARDS.md` for the scorecard model.
