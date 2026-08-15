@@ -11,9 +11,11 @@ on:
       - "assets/scene-scorecards.js"
       - "assets/character-arcs.js"
       - "assets/knowledge-graph.js"
+      - "assets/provenance-evidence.js"
       - "admin/loremaster.html"
       - "admin/character-arcs.html"
       - "admin/knowledge-graph.html"
+      - "admin/provenance-evidence.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
   push:
@@ -26,9 +28,11 @@ on:
       - "assets/scene-scorecards.js"
       - "assets/character-arcs.js"
       - "assets/knowledge-graph.js"
+      - "assets/provenance-evidence.js"
       - "admin/loremaster.html"
       - "admin/character-arcs.html"
       - "admin/knowledge-graph.html"
+      - "admin/provenance-evidence.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
 
@@ -54,3 +58,5 @@ jobs:
         run: node --check assets/character-arcs.js
       - name: Syntax-check Knowledge Graph client
         run: node --check assets/knowledge-graph.js
+      - name: Syntax-check Provenance client
+        run: node --check assets/provenance-evidence.js
