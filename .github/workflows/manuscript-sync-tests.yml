@@ -1,0 +1,32 @@
+name: Manuscript Sync Tests
+
+on:
+  pull_request:
+    paths:
+      - "tools/manuscript_sync.py"
+      - "tests/test_manuscript_sync.py"
+      - "assets/manuscript-sync.js"
+      - "admin/loremaster.html"
+      - "supabase/migrations/**"
+      - ".github/workflows/manuscript-sync-tests.yml"
+  push:
+    paths:
+      - "tools/manuscript_sync.py"
+      - "tests/test_manuscript_sync.py"
+      - "assets/manuscript-sync.js"
+      - "admin/loremaster.html"
+      - "supabase/migrations/**"
+      - ".github/workflows/manuscript-sync-tests.yml"
+
+jobs:
+  parser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run stdlib manuscript sync tests
+        run: python -m unittest tests/test_manuscript_sync.py
+      - name: Syntax-check browser sync client
+        run: node --check assets/manuscript-sync.js
