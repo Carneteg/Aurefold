@@ -1,0 +1,63 @@
+{
+  "title": "生きた記録 — AUREFOLD",
+  "description": "生きた記録の完全な断片——ある領主の死の床、封じられた証言、海岸を拒んだ地図。冒頭は公開、残りは会員が読む。",
+  "blocks": [
+    ["The Archive · beneath the official record", "記録 · 公式の記録の下に"],
+
+    ["The Chronicle is the record the ten houses agreed to keep. The Living Archive is\n        everything the record could not enter cleanly — a letter that says what a hearing\n        could not, a confession bound inside a devotional cover, a tribunal transcript that\n        stops the moment sentence is passed. Each was written by someone with a reason to\n        shape it. Each keeps its conflict rather than resolving it.", "Chronicle は、十大家が守ることに合意した記録である。生きた記録とは、その記録が清書して収めることのできなかったすべて——審問が語りえなかったことを語る手紙、信心書の表紙のうちに綴じ込まれた告白、判決の下される瞬間に途切れる法廷の記録。そのいずれもが、それを形づくる理由を持つ誰かによって書かれた。そのいずれもが、その葛藤を解くのではなく抱えたままにする。"],
+
+    ["<a href=\"history.html#living-archive\">A distilled account of each fragment is public on the History page.</a>\n        Below are the fragments themselves, in the voices of the people who lived them — the\n        openings free to read, the full accounts kept for members.", "<a href=\"history.html#living-archive\">各断片の蒸留された記述は、History のページで公開されている。</a>以下はその断片そのもの、それを生きた者たちの声で——冒頭は自由に読め、完全な記録は会員のために取り置かれている。"],
+
+    ["Read the full archive on Patreon", "Patreon で完全な記録を読む"],
+    ["See the public summaries", "公開の要約を見る"],
+    ["How membership works", "会員制度の仕組み"],
+    ["Members read the full account", "会員は完全な記録を読む"],
+    ["Unlock on Patreon", "Patreon で解錠する"],
+
+    ["Blackthorn · Intellect · 394 A.U.", "Blackthorn · 知性 · 394 A.U."],
+    ["Ashbourne · Courage · 318 A.U.", "Ashbourne · 勇気 · 318 A.U."],
+    ["Whitehart · Faith · 394 A.U.", "Whitehart · 信仰 · 394 A.U."],
+    ["Stormrider · Unity · 188 A.U.", "Stormrider · 結束 · 188 A.U."],
+    ["Blackcrest · The victor's history · 287 A.U.", "Blackcrest · 勝者の歴史 · 287 A.U."],
+    ["Stonebear · Honor · 341 A.U.", "Stonebear · 名誉 · 341 A.U."],
+    ["Tidebreaker · Knowledge · 366 A.U.", "Tidebreaker · 知識 · 366 A.U."],
+    ["Phoenix · The future · 381 A.U.", "Phoenix · 未来 · 381 A.U."],
+    ["The realm entire · 229 A.U.", "国全体 · 229 A.U."],
+
+    ["The Deathbed of Lord Corvane Marrenhold", "Lord Corvane Marrenhold の死の床"],
+    ["The Charge That Arrived Too Soon", "早すぎた突撃"],
+    ["The Vigil of the Sealed Testimony", "封じられた証言の通夜"],
+    ["The Winter the Roads Closed", "道が閉ざされた冬"],
+    ["The House of Opened Letters", "開かれた手紙の家"],
+    ["The Furnace That Would Not Stop", "止まろうとしなかった炉"],
+    ["The Victory at Red Hollow", "Red Hollow の勝利"],
+    ["The Oath at Three Spears", "Three Spears の誓い"],
+    ["The Map That Refused the Coast", "海岸を拒んだ地図"],
+    ["The Children of Tomorrow", "明日の子ら"],
+    ["The Year the Ten Banners Lowered", "十の旗が下ろされた年"],
+
+    ["Lord Corvane Marrenhold has been dying for eleven days, and everyone around\n              his bed has discovered a different use for the time. A marriage is being\n              negotiated in the next room. A letter that could ruin a cousin has made him,\n              overnight, extraordinarily helpful. No one has done anything a court could\n              name — and that, in this house, is the whole art of it&hellip;", "Lord Corvane Marrenhold は十一日のあいだ死につつあり、その寝台を囲む者は誰もが、その時間の異なる使い道を見いだしてきた。隣室では縁組が取り決められている。ある従兄弟を破滅させかねない一通の手紙が、一夜にして彼をこのうえなく協力的にした。誰ひとり、法廷が名指しうることは何もしていない——そしてそれこそが、この家においては、業の全てなのである&hellip;"],
+
+    ["Your husband died because I ordered him forward. This is the sentence the\n              tribunal wants me to qualify — to soften with the word that saved the army,\n              or harden with the word that lost him. I will do neither. The charge broke an\n              encirclement and it killed your lieutenant in the same hour, and I will not\n              let the one make the other mean less&hellip;", "あなたの夫が死んだのは、私が彼を前へと命じたからです。これこそ、法廷が私に条件を付けさせたがっている一文——軍を救ったという言葉で和らげるか、彼を失ったという言葉で厳しくするか。私はそのどちらもしません。あの突撃は包囲を破り、そして同じ時刻にあなたの副官を死なせた。そのいずれか一方に、もう一方の意味を減じさせることを、私は許しません&hellip;"],
+
+    ["You taught me that confession begins where self-defence ends. I have therefore\n              spent three evenings discovering how many forms self-defence can assume while\n              wearing the language of penitence. A testimony against a patron's kinsman should\n              have been entered by sundown. It has instead been sealed, pending clarification\n              of conscience — and the house built to test the truth is learning how easily a\n              record can be taught to wait&hellip;", "あなたは私に、告白は自己弁護の終わるところで始まると教えました。それゆえ私は三つの晩を費やして、自己弁護が悔悛の言葉をまといながらいくつの形をとりうるかを探ってきました。庇護者の縁者に不利な証言は、日没までに記されるはずでした。ところがそれは、良心の明確化を待つとして封じられた——そして真実を試すために建てられた家は、記録がいかにたやすく待つことを教え込まれうるかを学びつつあります&hellip;"],
+
+    ["The passages have been closed for twelve days, though officials continue to\n              call them restricted, as if hunger listens for administrative distinctions.\n              The council has sent one instruction: keep a passage open at all costs. It does\n              not say which passage. It does not say whose cost. Four people are already dead\n              waiting for a way that shepherds had cut days before — a way no ledger records,\n              because the men who cut it had no mark to sign&hellip;", "峠は十二日のあいだ閉ざされている。もっとも役人たちは、まるで飢えが行政上の区別に耳を傾けるかのように、それを制限されていると呼び続けている。評議会はただひとつの指示を送った。何としても道を一本開いておけ。それはどの道かを言わない。それは誰の犠牲かを言わない。四人がすでに、羊飼いたちが幾日も前に切り開いていた道を待つあいだに死んでいる——いかなる帳簿も記さぬ道。それを切り開いた者たちには、署名すべき印がなかったからである&hellip;"],
+
+    ["By the time you read this, someone else will already have read it. That is\n              procedure. A packet of names sits on my desk one day longer than it should —\n              long enough for a physician to reach the sick, and long enough for those who\n              can afford to leave to be gone before the rest are marked. The delay saves and\n              dooms in the same motion. The finest intrusion leaves nothing to find&hellip;", "あなたがこれを読む頃には、すでに他の誰かがそれを読み終えているだろう。それが手順というものだ。名簿の一束が、あるべきより一日長く私の机の上にある——医師が病人のもとに届くのにちょうど足りる長さ、そして立ち去る余裕のある者たちが、残りの者が印される前に姿を消すのにちょうど足りる長さ。その遅延は、同じひとつの動きで救い、そして滅ぼす。最も精妙な侵入は、見いだすべき何ものも残さない&hellip;"],
+
+    ["You once asked why I never took a husband. I have spent thirty years married\n              to furnaces. They are jealous, expensive, incapable of apology — and one of them\n              has just been run past every measure with a single support left out. Now the\n              house that measures everything cannot agree whose seal authorised the risk, or\n              whether the man who forced the evacuation prevented the catastrophe or caused\n              the injuries&hellip;", "あなたはかつて、なぜ私が決して夫を持たなかったのかと尋ねました。私は三十年を炉と添い遂げて過ごしてきました。それらは嫉妬深く、金がかかり、詫びることができない——そしてそのうちのひとつが、ただひとつの支柱を欠いたまま、あらゆる目盛りを越えて焚かれたばかりです。今や、すべてを計測する家は、誰の印章がその危険を許したのか、また避難を強いた男が破局を防いだのか、それとも負傷を招いたのかについて、意見を一致させることができません&hellip;"],
+
+    ["Tomorrow we unveil a victory no one can agree was won. The monument is already\n              finished. This tells you how seriously Blackcrest regards uncertainty. For days\n              the chamber has argued over a single inscription — wording that will preserve the\n              settlement and refuse, deliberately, to grant the victor innocence. The record is\n              a kind of power, and we are about to spend it, once, to keep a door open&hellip;", "明日、我々は誰も勝ったと合意できぬ勝利を除幕する。記念碑はすでに完成している。これが、Blackcrest が不確かさをどれほど真剣にみなしているかを告げている。幾日ものあいだ、評議室はただひとつの銘をめぐって争ってきた——和解を保ち、そして意図して、勝者に無罪を与えることを拒む文言を。記録とは一種の力であり、我々は今まさにそれを、ただ一度、扉を開いておくために費やそうとしている&hellip;"],
+
+    ["Men who were not present will decide whether I kept my oath. You will hear that\n              I released General Arven Dast against a direct command — that it was\n              insubordination. You will also hear that it kept faith with a signal my house had\n              made and could not unmake. Both are true. Stonebear keeps its word past the point\n              the word costs it everything, and cannot always tell which word it is bound to&hellip;", "その場に居合わせなかった者たちが、私が誓いを守ったか否かを裁くだろう。あなたは、私が直接の命令に背いて General Arven Dast を放ったと聞くだろう——それは不服従だったと。あなたはまた、それが我が家の交わし、取り消しえなかった合図に忠実であったとも聞くだろう。どちらも真実だ。Stonebear はその言葉を、言葉がすべてを奪う一線を越えてなお守り、そして自らがどの言葉に縛られているのかを、常に言い当てられるわけではない&hellip;"],
+
+    ["You taught me that an honest map begins with an honest omission. At twelve, I\n              thought this meant marking the edge of knowledge. At thirty-six, I understand every\n              blank also protects someone. This chart honours the consent of an island people and,\n              by the same silence, leaves uninformed sailors to the rocks — and teaches me that a\n              map is a claim every later chart must answer for&hellip;", "あなたは私に、正直な地図は正直な省略から始まると教えました。十二のとき、私はそれが知識の縁を印すことだと思っていました。三十六の今、私はあらゆる空白もまた誰かを守るのだと理解しています。この海図はある島の民の同意を重んじ、そして同じ沈黙によって、事情を知らぬ船乗りたちを暗礁に委ねる——そして私に、地図とはそれ以後のあらゆる海図が責めを負わねばならぬひとつの主張であることを教えるのです&hellip;"],
+
+    ["You asked whether Brightward was built for children or from them. I did not answer.\n              The water is cleaner now; the winters are warmer; the children are schooled. All of it\n              is real, and all of it arrived through control of shelter, standing, and patronage until\n              refusal was no longer practical. No one can prove the future needed to come this way.\n              The house that builds on scorched ground refuses, on principle, to look down&hellip;", "あなたは Brightward が子らのために建てられたのか、それとも子らから建てられたのかと尋ねました。私は答えませんでした。水は今やより清らかで、冬はより暖かく、子らは教育を受けている。そのすべては真実であり、そのすべては、拒むことがもはや現実的でなくなるまで、住まいと、地位と、庇護とを統べることを通じて訪れたのです。未来がこのやり方で来ねばならなかったことを、誰も証すことはできません。焦土の上に建てる家は、原則として、下を見ることを拒みます&hellip;"],
+
+    ["The banners were lowered this morning. Not for mourning. Crop failure, spoiled\n              stores, sick herds and empty nets have overlapped with panic and concealment until\n              no count is current and no house can meet its own need. No single house caused it;\n              no single house will solve it. What holds the realm together this year has no crown\n              and no name yet but one we are only beginning to use: the Common Keeping&hellip;", "旗は今朝下ろされた。喪のためではない。不作、腐った貯え、病んだ家畜、空の網が、狼狽と隠蔽と重なり合い、ついにはいかなる勘定も最新ならず、いかなる家も自らの必要を満たしえなくなった。ただひとつの家がそれを引き起こしたのではなく、ただひとつの家がそれを解くのでもない。今年、国を保つものには王冠がなく、そしてまだ名もない。ただ、我々が今ようやく用い始めたひとつを除いては——the Common Keeping&hellip;"],
+
+    ["These fragments are contested by every tradition that keeps them.\n        That is the point of keeping them.", "これらの断片は、それを守り伝えるあらゆる伝統によって争われている。それこそが、それらを守り伝える意味である。"]
+  ]
+}
