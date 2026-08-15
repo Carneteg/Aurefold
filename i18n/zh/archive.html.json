@@ -1,0 +1,63 @@
+{
+  "title": "活档案 — AUREFOLD",
+  "description": "活档案的完整残片：一位领主的临终之榻、一份封缄的证词、一幅拒绝海岸的地图。开篇公开；其余由会员阅读。",
+  "blocks": [
+    ["The Archive · beneath the official record", "档案 · 在官方记录之下"],
+
+    ["The Chronicle is the record the ten houses agreed to keep. The Living Archive is\n        everything the record could not enter cleanly — a letter that says what a hearing\n        could not, a confession bound inside a devotional cover, a tribunal transcript that\n        stops the moment sentence is passed. Each was written by someone with a reason to\n        shape it. Each keeps its conflict rather than resolving it.", "Chronicle 是十家约定共同保存的记录。活档案则是这份记录无法干净录入的一切——一封说出了听审所不能言的信、一纸装订在祈祷书封皮内的自白、一份在判决落下那一刻戛然而止的审讯笔录。每一件都出自有理由去雕琢它的人之手。每一件都保留了自身的冲突，而非将其化解。"],
+
+    ["<a href=\"history.html#living-archive\">A distilled account of each fragment is public on the History page.</a>\n        Below are the fragments themselves, in the voices of the people who lived them — the\n        openings free to read, the full accounts kept for members.", "<a href=\"history.html#living-archive\">每一段残片的提炼记述已公开于历史页面。</a>以下是残片本身，以亲历者之口道出——开篇可自由阅读，完整记述则留予会员。"],
+
+    ["Read the full archive on Patreon", "在 Patreon 上阅读完整档案"],
+    ["See the public summaries", "查看公开摘要"],
+    ["How membership works", "会员如何运作"],
+    ["Members read the full account", "会员阅读完整记述"],
+    ["Unlock on Patreon", "在 Patreon 上解锁"],
+
+    ["Blackthorn · Intellect · 394 A.U.", "Blackthorn · 智识 · 394 A.U."],
+    ["Ashbourne · Courage · 318 A.U.", "Ashbourne · 勇气 · 318 A.U."],
+    ["Whitehart · Faith · 394 A.U.", "Whitehart · 信仰 · 394 A.U."],
+    ["Stormrider · Unity · 188 A.U.", "Stormrider · 团结 · 188 A.U."],
+    ["Blackcrest · The victor's history · 287 A.U.", "Blackcrest · 胜者的历史 · 287 A.U."],
+    ["Stonebear · Honor · 341 A.U.", "Stonebear · 荣誉 · 341 A.U."],
+    ["Tidebreaker · Knowledge · 366 A.U.", "Tidebreaker · 知识 · 366 A.U."],
+    ["Phoenix · The future · 381 A.U.", "Phoenix · 未来 · 381 A.U."],
+    ["The realm entire · 229 A.U.", "整个王国 · 229 A.U."],
+
+    ["The Deathbed of Lord Corvane Marrenhold", "Lord Corvane Marrenhold 的临终之榻"],
+    ["The Charge That Arrived Too Soon", "来得太早的冲锋"],
+    ["The Vigil of the Sealed Testimony", "封缄证词的守夜"],
+    ["The Winter the Roads Closed", "道路封闭的那个冬天"],
+    ["The House of Opened Letters", "拆信之家"],
+    ["The Furnace That Would Not Stop", "不肯停下的熔炉"],
+    ["The Victory at Red Hollow", "Red Hollow 的胜利"],
+    ["The Oath at Three Spears", "Three Spears 的誓言"],
+    ["The Map That Refused the Coast", "拒绝海岸的地图"],
+    ["The Children of Tomorrow", "明日之子"],
+    ["The Year the Ten Banners Lowered", "十面旌旗低垂的那一年"],
+
+    ["Lord Corvane Marrenhold has been dying for eleven days, and everyone around\n              his bed has discovered a different use for the time. A marriage is being\n              negotiated in the next room. A letter that could ruin a cousin has made him,\n              overnight, extraordinarily helpful. No one has done anything a court could\n              name — and that, in this house, is the whole art of it&hellip;", "Lord Corvane Marrenhold 已弥留了十一天，而他床畔的每一个人都为这段时间找出了各自不同的用处。隔壁房间里正议定着一桩婚事。一封足以毁掉某位堂亲的信，让他一夜之间变得异乎寻常地乐于相助。没有人做过任何法庭能够指认的事——而这，在这个家族里，正是其全部的门道所在&hellip;"],
+
+    ["Your husband died because I ordered him forward. This is the sentence the\n              tribunal wants me to qualify — to soften with the word that saved the army,\n              or harden with the word that lost him. I will do neither. The charge broke an\n              encirclement and it killed your lieutenant in the same hour, and I will not\n              let the one make the other mean less&hellip;", "你的丈夫死了，因为是我命他向前。这就是那句审讯庭要我加以限定的话——用那救了全军的词去软化它，或用那害死了他的词去加重它。这两样我都不会做。那场冲锋在同一个时辰里既冲破了合围，又害死了你的副官，而我不会让其中一样使另一样变得轻些&hellip;"],
+
+    ["You taught me that confession begins where self-defence ends. I have therefore\n              spent three evenings discovering how many forms self-defence can assume while\n              wearing the language of penitence. A testimony against a patron's kinsman should\n              have been entered by sundown. It has instead been sealed, pending clarification\n              of conscience — and the house built to test the truth is learning how easily a\n              record can be taught to wait&hellip;", "你教过我，自白始于自辩终止之处。因此我花了三个晚上去发现，自辩在披着忏悔的言辞时，能变换出多少种形态。一份指控庇护者亲族的证词，本应在日落前录入。它却被封缄，待良心澄清——而这个为检验真相而建的家族，正领教着一份记录何其轻易便能被教会去等待&hellip;"],
+
+    ["The passages have been closed for twelve days, though officials continue to\n              call them restricted, as if hunger listens for administrative distinctions.\n              The council has sent one instruction: keep a passage open at all costs. It does\n              not say which passage. It does not say whose cost. Four people are already dead\n              waiting for a way that shepherds had cut days before — a way no ledger records,\n              because the men who cut it had no mark to sign&hellip;", "隘口已封闭了十二天，尽管官吏们仍称它们为“受限”，仿佛饥饿会去听辨行政上的区分。议事会传下一道指令：不惜一切代价保住一条通道畅通。它没说是哪条通道。它没说以谁为代价。已有四人在等待一条牧人几天前就开辟出的路时死去——那条路没有任何账册记载，因为开辟它的人没有可署名的印记&hellip;"],
+
+    ["By the time you read this, someone else will already have read it. That is\n              procedure. A packet of names sits on my desk one day longer than it should —\n              long enough for a physician to reach the sick, and long enough for those who\n              can afford to leave to be gone before the rest are marked. The delay saves and\n              dooms in the same motion. The finest intrusion leaves nothing to find&hellip;", "等你读到这封信时，早已有别人先读过了。这是规程。一叠名单在我桌上多搁了一天，超出了它本该停留的时限——久到足够让一位医者赶到病者身边，也久到足够让付得起代价离去的人在其余人被标记之前逃走。这一延搁在同一举动中既拯救又断送。最精妙的侵入，不留下任何可寻之物&hellip;"],
+
+    ["You once asked why I never took a husband. I have spent thirty years married\n              to furnaces. They are jealous, expensive, incapable of apology — and one of them\n              has just been run past every measure with a single support left out. Now the\n              house that measures everything cannot agree whose seal authorised the risk, or\n              whether the man who forced the evacuation prevented the catastrophe or caused\n              the injuries&hellip;", "你曾问我为何从不娶夫。这三十年来我嫁的是熔炉。它们善妒、昂贵、不会道歉——而其中一座，方才在少了一根支撑的情况下被逼过了一切量度。如今那个丈量万物的家族，无法就究竟是谁的印信批准了这一风险达成一致，也无法断定那个强令疏散的人是避免了那场浩劫，还是酿成了那些伤亡&hellip;"],
+
+    ["Tomorrow we unveil a victory no one can agree was won. The monument is already\n              finished. This tells you how seriously Blackcrest regards uncertainty. For days\n              the chamber has argued over a single inscription — wording that will preserve the\n              settlement and refuse, deliberately, to grant the victor innocence. The record is\n              a kind of power, and we are about to spend it, once, to keep a door open&hellip;", "明天我们要揭幕一场没有人能一致认定曾经取胜的胜利。纪念碑早已落成。这便告诉你 Blackcrest 何等认真地看待不确定。这几日里，厅堂为一句铭文争辩不休——那措辞既要维系和解，又要蓄意地，不肯宣判胜者无罪。记录是一种权力，而我们即将动用它一次，为的是敞开一扇门&hellip;"],
+
+    ["Men who were not present will decide whether I kept my oath. You will hear that\n              I released General Arven Dast against a direct command — that it was\n              insubordination. You will also hear that it kept faith with a signal my house had\n              made and could not unmake. Both are true. Stonebear keeps its word past the point\n              the word costs it everything, and cannot always tell which word it is bound to&hellip;", "那些不在场的人将裁定我是否守住了誓言。你会听说我违抗一道直接命令放走了 General Arven Dast——那是抗命。你也会听说，那是守信于我的家族曾给出、且无法收回的一个信号。两者皆真。Stonebear 恪守其诺，直至诺言令它一无所有，却并不总能分辨自己究竟受缚于哪一个诺&hellip;"],
+
+    ["You taught me that an honest map begins with an honest omission. At twelve, I\n              thought this meant marking the edge of knowledge. At thirty-six, I understand every\n              blank also protects someone. This chart honours the consent of an island people and,\n              by the same silence, leaves uninformed sailors to the rocks — and teaches me that a\n              map is a claim every later chart must answer for&hellip;", "你教过我，一幅诚实的地图始于一处诚实的省略。十二岁时，我以为这意味着标出知识的边界。三十六岁时，我明白了每一处空白也在庇护着某个人。这份海图既尊重了一个岛屿民族的意愿，又以同一份沉默，将不知情的水手抛给了礁石——它教会我，一幅地图便是一种主张，此后每一份海图都须为之作答&hellip;"],
+
+    ["You asked whether Brightward was built for children or from them. I did not answer.\n              The water is cleaner now; the winters are warmer; the children are schooled. All of it\n              is real, and all of it arrived through control of shelter, standing, and patronage until\n              refusal was no longer practical. No one can prove the future needed to come this way.\n              The house that builds on scorched ground refuses, on principle, to look down&hellip;", "你问 Brightward 究竟是为孩子而建，还是以孩子为砖石而建。我没有回答。如今水更洁净了；冬天更暖和了；孩子们受着教育。这一切都是真的，而这一切都是通过掌控住所、地位与庇护而来的，直到拒绝已不再切实可行。没有人能证明未来非得以这种方式到来。这个在焦土上营建的家族，出于原则，拒绝俯视脚下&hellip;"],
+
+    ["The banners were lowered this morning. Not for mourning. Crop failure, spoiled\n              stores, sick herds and empty nets have overlapped with panic and concealment until\n              no count is current and no house can meet its own need. No single house caused it;\n              no single house will solve it. What holds the realm together this year has no crown\n              and no name yet but one we are only beginning to use: the Common Keeping&hellip;", "旌旗在今晨低垂。不是为哀悼。歉收、腐坏的储粮、染病的畜群与空空的渔网，与恐慌和隐瞒交叠在一起，直到没有一份清点是当下有效的，没有一家能满足自身所需。没有任何一家酿成了它；也不会有任何一家单独解决它。今年维系着王国的东西，没有王冠，也还没有名字，只有一个我们方才开始使用的称呼：the Common Keeping&hellip;"],
+
+    ["These fragments are contested by every tradition that keeps them.\n        That is the point of keeping them.", "这些残片，为每一个保存它们的传统所争议。这正是保存它们的意义所在。"]
+  ]
+}
