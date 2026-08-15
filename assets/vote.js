@@ -123,6 +123,33 @@
       convening: "Convocation du conseil…",
       notInSession: "Le conseil n’est pas en session. Revenez bientôt.",
       notReachedHere: "Impossible de joindre l’archive d’ici. Le conseil se réunit sur le site publié — ou réessayez dans un instant."
+    },
+    zh: {
+      decidedLast: "议会上次的决定",
+      kindHouse: "家族问题",
+      kindNext: "接下来揭示什么",
+      kindQuestion: "给议会的一个问题",
+      notPublished: "议会在已发布的站点上召开。",
+      yourVoice: "你的一票——",
+      counted: "已计入",
+      voicesWord: function (n) { return " 票"; },
+      changeChoice: "更改你的选择",
+      addVoice: "投出你的一票",
+      heard: function (total) { return "议会已听到 " + total + " 票。"; },
+      noVoicesYet: "还没有票。你的将是第一票。",
+      countedStanding: "你的一票已计入。当更多读者参与后，完整排名将会公开。",
+      earlyDays: "为时尚早——成为最早参与的人之一。",
+      keepChoice: "保留我当前的选择",
+      pickAnother: "选择另一个选项来更改你的一票，或保留当前的。",
+      showStanding: "不投票也查看排名",
+      onePerReader: "每位读者一票。档案只计数，不监视。",
+      currentVoiceSuffix: "——你当前的一票",
+      oneVoiceKept: "议会每位读者只保留一票——你的第一次选择有效。",
+      notReached: "无法连接档案。请稍后再试。",
+      fromQuiz: "来自你的测验——下方高亮显示了这个家族。为它投票，或另选一个。在你做出选择前不会发送任何内容。",
+      convening: "正在召集议会……",
+      notInSession: "议会未在开会。请稍后再来。",
+      notReachedHere: "无法从这里连接档案。议会在已发布的站点上召开——或稍后再试。"
     }
   };
   var T = TX[LANG] || TX.en;
