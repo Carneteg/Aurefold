@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Aurefold Character Arc Graph</title>
+  <link rel="stylesheet" href="/assets/style.css?v=202608150700" />
+  <style>
+    .lm-wrap{max-width:1180px;margin:0 auto;padding:2rem 1rem 5rem}.lm-head{display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-wrap:wrap}.lm-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.8rem}.lm-card{border:1px solid rgba(120,90,65,.35);padding:1rem;background:rgba(255,255,255,.025)}.lm-card strong{display:block;font-size:1.25rem}.lm-panel{margin-top:1.5rem}.lm-table{width:100%;border-collapse:collapse;font-size:.92rem}.lm-table th,.lm-table td{padding:.6rem;border-bottom:1px solid rgba(120,90,65,.25);text-align:left;vertical-align:top}.lm-table tr[data-review="true"]{background:rgba(154,107,58,.08)}.lm-table tr[data-severity="high"]{background:rgba(154,107,58,.10)}.lm-form{max-width:900px;display:grid;gap:.8rem}.lm-form input,.lm-form select,.lm-form textarea{width:100%;padding:.7rem}.lm-form textarea{min-height:88px;resize:vertical}.lm-actions{display:flex;gap:.65rem;flex-wrap:wrap;align-items:center}.lm-status{margin:.7rem 0}.lm-warn{padding:.9rem;border-left:3px solid #9a6b3a;background:rgba(154,107,58,.08)}.lm-small{margin-top:.35rem;font-size:.84rem;opacity:.8}.lm-arc-fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:.8rem}.lm-arc-flow{display:flex;align-items:stretch;gap:.55rem;overflow-x:auto;padding:.5rem 0 1rem}.lm-arc-node{min-width:220px}.lm-arc-edge{display:flex;align-items:center;white-space:nowrap;opacity:.7}.table-wrap{overflow-x:auto}[hidden]{display:none!important}.ghost{display:none!important}
+  </style>
+</head>
+<body>
+  <main class="lm-wrap">
+    <div class="lm-head">
+      <div><p class="eyebrow">AURELION PROJECT · AUTHOR ONLY</p><h1>Character Arc Graph</h1><p>Developmental change map. Canon remains governed by the Constitution and Canon Ledger.</p></div>
+      <div class="lm-actions"><a class="btn" href="/admin/loremaster.html">Loremaster</a><button id="lm-signout" type="button" class="btn" hidden>Sign out</button></div>
+    </div>
+
+    <section id="lm-login" class="lm-panel">
+      <h2>Author sign-in</h2>
+      <p class="lm-warn">Access requires a Supabase user whose <code>app_metadata.aurefold_role</code> is <code>author</code> or <code>admin</code>. No service-role key is present in the browser.</p>
+      <form id="lm-login-form" class="lm-form">
+        <label>Email <input id="lm-email" type="email" autocomplete="username" required /></label>
+        <label>Password <input id="lm-password" type="password" autocomplete="current-password" required /></label>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+      <p id="lm-login-status" class="lm-status" role="status"></p>
+    </section>
+
+    <section id="lm-dashboard" hidden>
+      <!-- Hidden compatibility targets used by the shared Loremaster authorization loader. -->
+      <div class="ghost"><select id="lm-book"><option value="book-1">Book One</option></select><div id="lm-metrics"></div><table><tbody id="lm-scenes"></tbody><tbody id="lm-debts"></tbody><tbody id="lm-phrases"></tbody></table></div>
+
+      <section class="lm-panel">
+        <div class="lm-head">
+          <div><h2>Arc queue</h2><p>Presence is not movement. The queue prioritizes characters with POV/scene evidence and active editorial issues.</p></div>
+          <label>Book <select id="lm-arc-book"><option value="book-1">The Bell of Silence</option><option value="book-2">The Road Still Open</option></select></label>
+        </div>
+        <p class="lm-warn">No arc conclusions are seeded automatically. An arc assessment is bound to the manuscript revision it describes; older assessments become <strong>stale</strong> after manuscript replacement.</p>
+        <div id="lm-arc-health" class="lm-grid"></div>
+        <div class="table-wrap"><table class="lm-table"><thead><tr><th>Character</th><th>POV units</th><th>Linked units</th><th>Editorial issues</th><th>Arc status</th><th>Beats</th><th>Priority</th><th></th></tr></thead><tbody id="lm-arc-queue"></tbody></table></div>
+      </section>
+
+      <form id="lm-arc-form" class="lm-form lm-panel" hidden>
+        <input id="lm-arc-character-id" type="hidden" />
+        <div class="lm-head"><h2 id="lm-arc-selected">Choose a character.</h2><div class="lm-actions"><button id="lm-arc-save-draft" type="button" class="btn">Save draft</button><button id="lm-arc-save-reviewed" type="button" class="btn btn-primary">Mark reviewed</button><button id="lm-arc-clear" type="button" class="btn">Close</button></div></div>
+        <div class="lm-arc-fields">
+          <label>Arc question <textarea id="lm-arc-question"></textarea></label>
+          <label>Starting belief <textarea id="lm-arc-start-belief"></textarea></label>
+          <label>Starting desire <textarea id="lm-arc-start-desire"></textarea></label>
+          <label>Starting fear <textarea id="lm-arc-start-fear"></textarea></label>
+          <label>Defense / coping strategy <textarea id="lm-arc-defense"></textarea></label>
+          <label>Latent need <textarea id="lm-arc-need"></textarea></label>
+          <label>Ending belief <textarea id="lm-arc-end-belief"></textarea></label>
+          <label>Ending desire <textarea id="lm-arc-end-desire"></textarea></label>
+          <label>Ending fear <textarea id="lm-arc-end-fear"></textarea></label>
+          <label>Changed strategy / behavior <textarea id="lm-arc-changed-strategy"></textarea></label>
+          <label>Primary relationship movement <textarea id="lm-arc-relationships"></textarea></label>
+          <label>Arc summary <textarea id="lm-arc-summary"></textarea></label>
+        </div>
+        <label>Editorial notes <textarea id="lm-arc-notes"></textarea></label>
+
+        <h3>Arc graph</h3>
+        <div id="lm-arc-graph" class="lm-arc-flow"></div>
+        <h3>Recorded beats</h3>
+        <div class="table-wrap"><table class="lm-table"><thead><tr><th>Ch.</th><th>Scene</th><th>Beat</th><th>Significance</th><th>Agency</th><th>Source</th><th>Cross-check</th><th></th></tr></thead><tbody id="lm-arc-beats"></tbody></table></div>
+      </form>
+
+      <form id="lm-arc-beat-form" class="lm-form lm-panel" hidden>
+        <input id="lm-arc-beat-id" type="hidden" />
+        <div class="lm-head"><h2>Add / edit arc beat</h2><button id="lm-arc-beat-clear" type="button" class="btn">Clear</button></div>
+        <div class="lm-arc-fields">
+          <label>Scene <select id="lm-arc-beat-scene" required></select></label>
+          <label>Beat type <select id="lm-arc-beat-type"><option>setup</option><option selected>pressure</option><option>choice</option><option>consequence</option><option>relationship_shift</option><option>revelation</option><option>setback</option><option>commitment</option><option>turning_point</option><option>payoff</option><option>other</option></select></label>
+          <label>Significance <select id="lm-arc-beat-significance"><option>low</option><option selected>medium</option><option>high</option><option>turning_point</option></select></label>
+          <label>Agency <select id="lm-arc-beat-agency"><option>none</option><option selected>reactive</option><option>active</option><option>decisive</option></select></label>
+          <label>State before <textarea id="lm-arc-beat-state-before"></textarea></label>
+          <label>Pressure applied <textarea id="lm-arc-beat-pressure"></textarea></label>
+          <label>Choice / action <textarea id="lm-arc-beat-choice"></textarea></label>
+          <label>Cost <textarea id="lm-arc-beat-cost"></textarea></label>
+          <label>State after <textarea id="lm-arc-beat-state-after"></textarea></label>
+          <label>Belief effect <textarea id="lm-arc-beat-belief"></textarea></label>
+          <label>Relationship effect <textarea id="lm-arc-beat-relationship"></textarea></label>
+          <label>Notes <textarea id="lm-arc-beat-notes"></textarea></label>
+        </div>
+        <button type="submit" class="btn btn-primary">Save arc beat</button>
+      </form>
+      <p id="lm-arc-status" class="lm-status" role="status"></p>
+    </section>
+  </main>
+  <script src="/data/community.js?v=202608151140"></script>
+  <script src="/assets/loremaster.js?v=202608151350"></script>
+  <script src="/assets/character-arcs.js?v=202608151710"></script>
+</body>
+</html>
