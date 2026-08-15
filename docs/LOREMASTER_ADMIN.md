@@ -29,11 +29,33 @@ Loremaster currently provides:
 - open source-debt records;
 - author-only House phrase proposals;
 - Manuscript Sync for hash-only version comparison and review propagation;
-- Canon Validator for local manuscript risk scanning, registered validation history and deterministic database canon checks.
+- Canon Validator for local manuscript risk scanning, registered validation history and deterministic database canon checks;
+- Editorial Issues for developmental backlog, scene/character scope, revision targets and resolution history.
 
-Direct editing of canon tables is still **not** exposed in the browser. The only author writes currently allowed are narrowly scoped RPC workflows for manuscript-version registration and validation/review metadata. Each RPC re-checks `app_metadata.aurefold_role=author|admin` server-side.
+Direct editing of canon tables is still **not** exposed in the browser. Author writes are narrowly scoped RPC workflows for manuscript registration, canon-validation review metadata, and editorial-development records. Each RPC re-checks `app_metadata.aurefold_role=author|admin` server-side.
 
 The dashboard is not a replacement for formal ratification. Editing/promoting canon will be added only with explicit workflow controls so a UI click cannot silently create a new Canon Lock.
+
+## Editorial Issues
+
+Editorial issues are deliberately separate from canon. A story problem can be `critical` without being a Canon Lock violation, and a perfectly canon-correct chapter can still be dramatically weak.
+
+The dashboard can:
+
+- create a development issue;
+- classify it by category and severity;
+- scope it to chapters and entity slugs;
+- record diagnosis, recommended intervention and acceptance criteria;
+- target a manuscript version;
+- move it through `open → investigating → planned → in_revision → resolved`;
+- defer, supersede or explicitly choose `wont_fix` with a note;
+- preserve lifecycle history for later regression tracking.
+
+A resolved issue must name the manuscript version in which it was resolved. Resolving an issue never changes canon automatically.
+
+The initial Book One backlog includes four HIGH issues carried forward as working editorial hypotheses: mid-book emotional velocity, early Sela agency, institutional density, and supporting-character attachment. They require revalidation during the v1.6 developmental teardown.
+
+See `docs/EDITORIAL_ISSUES.md` for the complete model.
 
 ## Manuscript privacy
 
@@ -70,6 +92,6 @@ Therefore the thirty Scene Ledger chapters are indexed as working structure, not
 
 ## Public boundary
 
-The public website can currently read only curated views. Anonymous users do not receive validator rules, validation runs/findings, manuscript-sync records, internal scenes, character engines, source debt or proposal phrase material.
+The public website can currently read only curated views. Anonymous users do not receive validator rules, validation runs/findings, manuscript-sync records, editorial issues/history, internal scenes, character engines, source debt or proposal phrase material.
 
 The English Great Houses page hydrates from `site_houses` when Supabase is available and retains its static HTML as a fail-closed fallback. Localized House pages remain static until translation-aware projections exist.
