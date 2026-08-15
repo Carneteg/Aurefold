@@ -12,10 +12,12 @@ on:
       - "assets/character-arcs.js"
       - "assets/knowledge-graph.js"
       - "assets/provenance-evidence.js"
+      - "assets/mystery-protection.js"
       - "admin/loremaster.html"
       - "admin/character-arcs.html"
       - "admin/knowledge-graph.html"
       - "admin/provenance-evidence.html"
+      - "admin/mystery-protection.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
   push:
@@ -29,10 +31,12 @@ on:
       - "assets/character-arcs.js"
       - "assets/knowledge-graph.js"
       - "assets/provenance-evidence.js"
+      - "assets/mystery-protection.js"
       - "admin/loremaster.html"
       - "admin/character-arcs.html"
       - "admin/knowledge-graph.html"
       - "admin/provenance-evidence.html"
+      - "admin/mystery-protection.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
 
@@ -60,3 +64,5 @@ jobs:
         run: node --check assets/knowledge-graph.js
       - name: Syntax-check Provenance client
         run: node --check assets/provenance-evidence.js
+      - name: Syntax-check Mystery Protection client
+        run: node --check assets/mystery-protection.js
