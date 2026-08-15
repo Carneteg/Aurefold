@@ -30,9 +30,10 @@ Loremaster currently provides:
 - author-only House phrase proposals;
 - Manuscript Sync for hash-only version comparison and review propagation;
 - Canon Validator for local manuscript risk scanning, registered validation history and deterministic database canon checks;
-- Editorial Issues for developmental backlog, scene/character scope, revision targets and resolution history.
+- Editorial Issues for developmental backlog, scene/character scope, revision targets and resolution history;
+- Scene Scorecards for version-bound scene/chapter observations, diagnostic signals, priority assessment and consecutive-pattern detection.
 
-Direct editing of canon tables is still **not** exposed in the browser. Author writes are narrowly scoped RPC workflows for manuscript registration, canon-validation review metadata, and editorial-development records. Each RPC re-checks `app_metadata.aurefold_role=author|admin` server-side.
+Direct editing of canon tables is still **not** exposed in the browser. Author writes are narrowly scoped RPC workflows for manuscript registration, canon-validation review metadata, editorial-development records, and scene-scorecard assessments. Each RPC re-checks `app_metadata.aurefold_role=author|admin` server-side.
 
 The dashboard is not a replacement for formal ratification. Editing/promoting canon will be added only with explicit workflow controls so a UI click cannot silently create a new Canon Lock.
 
@@ -57,6 +58,28 @@ The initial Book One backlog includes four HIGH issues carried forward as workin
 
 See `docs/EDITORIAL_ISSUES.md` for the complete model.
 
+## Scene Scorecards
+
+Scene Scorecards convert developmental reading into structured, version-aware observations without pretending that fiction has an objective numeric quality score.
+
+A reviewed scorecard records thirteen dimensions covering desire, obstacle, conflict, choice, cost, emotional/relationship/information/material change, reversal, chapter exit, exposition load and removal impact. Qualitative text fields preserve the actual editorial reasoning behind those observations.
+
+The dashboard can:
+
+- filter the assessment queue by editorial priority, unassessed, draft, reviewed, flagged or stale;
+- show active Editorial Issues that overlap each scene;
+- save incomplete draft assessments;
+- require every structured dimension before an assessment may be marked `reviewed`;
+- surface conservative signals such as information-only, static, exposition-dominant, passive-POV, low-removal-cost and weak-exit patterns;
+- detect consecutive runs of the same signal;
+- preserve prior assessments when the manuscript changes.
+
+Where Manuscript Sync provides a current baseline, a scorecard stores the manuscript version, section identity and body SHA-256 it assessed. If the current source revision or hash later differs, the scorecard automatically becomes `stale`. Stale means “belongs to an older draft,” not “wrong.”
+
+No Book One scores are prefilled. Existing Editorial Issues influence the **priority queue only**; they do not predetermine the assessment outcome.
+
+See `docs/SCENE_SCORECARDS.md` for the complete model.
+
 ## Manuscript privacy
 
 Both Manuscript Sync and Canon Validator process selected Markdown locally in the browser.
@@ -64,6 +87,8 @@ Both Manuscript Sync and Canon Validator process selected Markdown locally in th
 Manuscript Sync uploads structural metadata and hashes. Canon Validator uploads rule keys, locations, evidence hashes and review metadata. Neither workflow stores manuscript prose in Supabase.
 
 Canon Validator may show a short evidence excerpt locally to help the author review a regex candidate. That excerpt is deliberately excluded from the registration payload, and the registration RPC strips prose-like detector fields if a modified client attempts to submit them.
+
+Scene Scorecards store editorial observations written by the author/editor, not manuscript prose automatically extracted from the source file.
 
 ## Canon Validator status model
 
@@ -92,6 +117,6 @@ Therefore the thirty Scene Ledger chapters are indexed as working structure, not
 
 ## Public boundary
 
-The public website can currently read only curated views. Anonymous users do not receive validator rules, validation runs/findings, manuscript-sync records, editorial issues/history, internal scenes, character engines, source debt or proposal phrase material.
+The public website can currently read only curated views. Anonymous users do not receive validator rules, validation runs/findings, manuscript-sync records, editorial issues/history, scene scorecards/history, internal scenes, character engines, source debt or proposal phrase material.
 
 The English Great Houses page hydrates from `site_houses` when Supabase is available and retains its static HTML as a fail-closed fallback. Localized House pages remain static until translation-aware projections exist.
