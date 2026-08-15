@@ -1,6 +1,6 @@
 # Aurefold Loremaster Admin
 
-The author dashboard lives at `/admin/loremaster.html` and uses the existing Aurefold Supabase project (`akboesleczddqdikjzbw`).
+The author dashboard lives at `/admin/loremaster.html` and uses the existing Aurefold Supabase project (`akboesleczddqdikjzbw`). Character Arc Graph is available at `/admin/character-arcs.html` and uses the same authentication/RLS boundary.
 
 ## Security model
 
@@ -31,9 +31,10 @@ Loremaster currently provides:
 - Manuscript Sync for hash-only version comparison and review propagation;
 - Canon Validator for local manuscript risk scanning, registered validation history and deterministic database canon checks;
 - Editorial Issues for developmental backlog, scene/character scope, revision targets and resolution history;
-- Scene Scorecards for version-bound scene/chapter observations, diagnostic signals, priority assessment and consecutive-pattern detection.
+- Scene Scorecards for version-bound scene/chapter observations, diagnostic signals, priority assessment and consecutive-pattern detection;
+- Character Arc Graph for version-bound character state, arc beats, agency/relationship movement and cross-checks against Scene Scorecards.
 
-Direct editing of canon tables is still **not** exposed in the browser. Author writes are narrowly scoped RPC workflows for manuscript registration, canon-validation review metadata, editorial-development records, and scene-scorecard assessments. Each RPC re-checks `app_metadata.aurefold_role=author|admin` server-side.
+Direct editing of canon tables is still **not** exposed in the browser. Author writes are narrowly scoped RPC workflows for manuscript registration, canon-validation review metadata, editorial-development records, scene-scorecard assessments, and character-arc assessments/beats. Each RPC re-checks `app_metadata.aurefold_role=author|admin` server-side.
 
 The dashboard is not a replacement for formal ratification. Editing/promoting canon will be added only with explicit workflow controls so a UI click cannot silently create a new Canon Lock.
 
@@ -80,6 +81,26 @@ No Book One scores are prefilled. Existing Editorial Issues influence the **prio
 
 See `docs/SCENE_SCORECARDS.md` for the complete model.
 
+## Character Arc Graph
+
+Character Arc Graph lives at `/admin/character-arcs.html`. It is deliberately separate from canon and from the scene-level scorecard matrix.
+
+It records a version-specific arc assessment for a character and concrete arc beats tied to story units. The model distinguishes **presence** from **movement**: a character may appear repeatedly without a recorded belief, agency, relationship or consequence shift.
+
+The tool can:
+
+- build an assessment queue from POV mapping, scene-entity links and active Editorial Issues;
+- record starting belief/desire/fear, defense strategy, latent need and end-state changes;
+- attach setup, pressure, choice, consequence, relationship, revelation, setback, commitment, turning-point and payoff beats to scenes;
+- classify agency as none / reactive / active / decisive without treating any one mode as automatically superior;
+- visualize consecutive beats as a simple graph and show raw story-unit gaps between them;
+- mark old arc assessments and beats stale after Manuscript Sync changes their source revision/hash;
+- cross-check decisive, relationship-shift and turning-point arc claims against reviewed Scene Scorecards and surface mismatches for human review.
+
+No arc interpretation is seeded automatically. At v1 deployment the production database contains zero arc tracks, assessments and beats. Existing editorial problems determine work order only.
+
+See `docs/CHARACTER_ARC_GRAPH.md` for the complete model.
+
 ## Manuscript privacy
 
 Both Manuscript Sync and Canon Validator process selected Markdown locally in the browser.
@@ -88,7 +109,7 @@ Manuscript Sync uploads structural metadata and hashes. Canon Validator uploads 
 
 Canon Validator may show a short evidence excerpt locally to help the author review a regex candidate. That excerpt is deliberately excluded from the registration payload, and the registration RPC strips prose-like detector fields if a modified client attempts to submit them.
 
-Scene Scorecards store editorial observations written by the author/editor, not manuscript prose automatically extracted from the source file.
+Scene Scorecards and Character Arc Graph store editorial observations written by the author/editor, not manuscript prose automatically extracted from the source file.
 
 ## Canon Validator status model
 
@@ -117,6 +138,6 @@ Therefore the thirty Scene Ledger chapters are indexed as working structure, not
 
 ## Public boundary
 
-The public website can currently read only curated views. Anonymous users do not receive validator rules, validation runs/findings, manuscript-sync records, editorial issues/history, scene scorecards/history, internal scenes, character engines, source debt or proposal phrase material.
+The public website can currently read only curated views. Anonymous users do not receive validator rules, validation runs/findings, manuscript-sync records, editorial issues/history, scene scorecards/history, character arcs/history, internal scenes, character engines, source debt or proposal phrase material.
 
 The English Great Houses page hydrates from `site_houses` when Supabase is available and retains its static HTML as a fail-closed fallback. Localized House pages remain static until translation-aware projections exist.
