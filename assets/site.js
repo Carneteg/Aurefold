@@ -157,7 +157,11 @@
     sv: { banner: "Aurefold använder cookies för anonym besöksstatistik — och, om du går med i läslistan, e-postformuläret. Du väljer.",
           privacy: "Integritet &amp; cookies", decline: "Neka", accept: "Acceptera",
           gatePre: "För att ladda e-postformuläret behöver vi ditt samtycke till cookies. ",
-          allow: "Tillåt &amp; ladda formuläret", gateOr: ", eller ", patreon: "följ gratis på Patreon" }
+          allow: "Tillåt &amp; ladda formuläret", gateOr: ", eller ", patreon: "följ gratis på Patreon" },
+    es: { banner: "Aurefold usa cookies para estadísticas anónimas de visitantes — y, si te unes a la lista de lectura, el formulario de correo. Tú eliges.",
+          privacy: "Privacidad y cookies", decline: "Rechazar", accept: "Aceptar",
+          gatePre: "Para cargar el formulario de correo necesitamos tu consentimiento a las cookies. ",
+          allow: "Permitir y cargar el formulario", gateOr: ", o ", patreon: "sigue gratis en Patreon" }
   };
   var CT = CONSENT_I18N[(document.documentElement.lang || "en").slice(0, 2)] || CONSENT_I18N.en;
 

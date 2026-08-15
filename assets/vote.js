@@ -69,6 +69,33 @@
       convening: "Sammankallar tinget…",
       notInSession: "Tinget är inte i session. Kom tillbaka snart.",
       notReachedHere: "Arkivet kunde inte nås härifrån. Tinget sammanträder på den publicerade sajten — eller försök igen om en stund."
+    },
+    es: {
+      decidedLast: "Lo que decidió El Cónclave la última vez",
+      kindHouse: "La pregunta de las casas",
+      kindNext: "Qué se abre a continuación",
+      kindQuestion: "Una pregunta para El Cónclave",
+      notPublished: "El cónclave se reúne en el sitio publicado.",
+      yourVoice: "Tu voz — ",
+      counted: "contada",
+      voicesWord: function (n) { return n === 1 ? " voz" : " voces"; },
+      changeChoice: "Cambia tu elección",
+      addVoice: "Añade tu voz",
+      heard: function (total) { return "El Cónclave ha oído " + total + (total === 1 ? " voz." : " voces."); },
+      noVoicesYet: "Aún no hay voces. La tuya sería la primera.",
+      countedStanding: "Tu voz está contada. El recuento completo se abre cuando más lectores participen.",
+      earlyDays: "Es pronto — sé de los primeros en participar.",
+      keepChoice: "Mantener mi elección actual",
+      pickAnother: "Elige otra opción para cambiar tu voz, o mantén la actual.",
+      showStanding: "Ver el recuento sin votar",
+      onePerReader: "Una voz por lector. El archivo cuenta; no vigila.",
+      currentVoiceSuffix: " — tu voz actual",
+      oneVoiceKept: "El Cónclave guarda una voz por lector — tu primera elección se mantiene.",
+      notReached: "No se pudo contactar con el archivo. Inténtalo de nuevo en un momento.",
+      fromQuiz: "De tu test — esta casa está resaltada abajo. Vótala, o elige otra. Nada se envía hasta que elijas.",
+      convening: "Convocando el cónclave…",
+      notInSession: "El cónclave no está en sesión. Vuelve pronto.",
+      notReachedHere: "No se pudo contactar con el archivo desde aquí. El cónclave se reúne en el sitio publicado — o inténtalo de nuevo en un momento."
     }
   };
   var T = TX[LANG] || TX.en;
