@@ -114,3 +114,21 @@ window.AUREFOLD_COMMUNITY = {
     newsletter: ""
   }
 };
+
+/* Canon hydration bootstrap.
+   The English Houses page predates the canon database, so keep its checked-in
+   HTML as the offline fallback and load the public-safe Supabase projection on
+   top. Localized House pages stay static until translation-aware projections
+   exist. */
+(function loadCanonHouseHydration() {
+  if (document.documentElement.lang !== "en" || !document.querySelector(".house-grid")) return;
+
+  const canon = document.createElement("script");
+  canon.src = "/assets/canon-data.js?v=202608151140";
+  canon.onload = function () {
+    const houses = document.createElement("script");
+    houses.src = "/assets/houses.js?v=202608151140";
+    document.body.appendChild(houses);
+  };
+  document.body.appendChild(canon);
+})();
