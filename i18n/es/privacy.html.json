@@ -1,0 +1,31 @@
+{
+  "title": "Privacidad &amp; cookies — AUREFOLD",
+  "description": "Cómo usa Aurefold las cookies y los datos: analítica anónima, el formulario de correo de la lista de lectura y El Cónclave — y cómo controlas tu consentimiento.",
+  "blocks": [
+    ["<h1 class=\"page-title\">Privacy &amp; Cookies</h1>", "<h1 class=\"page-title\">Privacidad &amp; cookies</h1>"],
+    ["Plain terms: what Aurefold collects, why, and how you stay in control.", "En pocas palabras: qué recopila Aurefold, por qué, y cómo mantienes el control."],
+    ["Aurefold is a small promotional site for the novel <em>The Bell of Silence</em>.\n        We keep data collection to a minimum and set <strong>no non-essential cookies until\n        you agree</strong>. You can change your mind at any time.", "Aurefold es un pequeño sitio promocional de la novela <em>The Bell of Silence</em>.\n        Mantenemos la recopilación de datos al mínimo y no establecemos <strong>ninguna cookie no esencial hasta\n        que aceptes</strong>. Puedes cambiar de opinión en cualquier momento."],
+
+    ["Cookies &amp; your consent", "Cookies &amp; tu consentimiento"],
+    ["When you first visit, a banner asks whether to allow cookies. Nothing that\n        sets a cookie runs until you choose <strong>Accept</strong>:", "En tu primera visita, un banner te pregunta si permitir cookies. Nada que\n        establezca una cookie se ejecuta hasta que eliges <strong>Aceptar</strong>:"],
+    ["<strong>Analytics (Google Analytics 4).</strong> Anonymous, aggregated usage —\n          which pages are visited, roughly where visitors come from, and events like a book\n          download. It runs in Google's <em>Consent Mode</em> with storage denied by default,\n          so it sets no analytics cookies unless you accept.", "<strong>Analítica (Google Analytics 4).</strong> Uso anónimo y agregado —\n          qué páginas se visitan, aproximadamente de dónde vienen los visitantes, y eventos como la\n          descarga de un libro. Funciona en el <em>Consent Mode</em> de Google con el almacenamiento denegado por defecto,\n          por lo que no establece cookies de analítica a menos que aceptes."],
+    ["<strong>Reading-list form (MailerLite).</strong> If you accept, the email signup\n          form on the <a href=\"support.html\">Support</a> page loads from MailerLite, which may\n          set its own cookies. If you decline, the form simply isn't loaded.", "<strong>Formulario de la lista de lectura (MailerLite).</strong> Si aceptas, el formulario de suscripción\n          por correo de la página de <a href=\"support.html\">Apoyo</a> se carga desde MailerLite, que puede\n          establecer sus propias cookies. Si lo rechazas, el formulario simplemente no se carga."],
+    ["Decline and the analytics stays cookieless and the email form isn't loaded — the rest\n        of the site works exactly the same.", "Si lo rechazas, la analítica sigue sin cookies y el formulario de correo no se carga — el resto\n        del sitio funciona exactamente igual."],
+    ["Change cookie settings", "Cambiar la configuración de cookies"],
+
+    ["Information you choose to give", "Información que decides dar"],
+    ["<strong>Email address</strong> — only if you join the reading list. It's used to\n          send Aurefold updates, and you can unsubscribe from any email at any time.", "<strong>Dirección de correo</strong> — solo si te unes a la lista de lectura. Se usa para\n          enviar novedades de Aurefold, y puedes darte de baja desde cualquier correo en cualquier momento."],
+    ["<strong>Reviews</strong> — if you leave a rating or review of Book One, the optional\n          name and text you enter are stored and shown publicly once approved.", "<strong>Reseñas</strong> — si dejas una valoración o reseña del Libro Uno, el nombre opcional\n          y el texto que introduzcas se almacenan y se muestran públicamente una vez aprobados."],
+    ["<strong>The Moot votes</strong> — votes are stored anonymously to tally results.\n          They are not tied to your identity.", "<strong>Votos de El Cónclave</strong> — los votos se almacenan de forma anónima para contabilizar resultados.\n          No están vinculados a tu identidad."],
+
+    ["Who processes this data", "Quién procesa estos datos"],
+    ["<strong>Google</strong> (Analytics) — usage measurement.", "<strong>Google</strong> (Analytics) — medición del uso."],
+    ["<strong>MailerLite</strong> — reading-list email.", "<strong>MailerLite</strong> — correo de la lista de lectura."],
+    ["<strong>Supabase</strong> — stores Moot votes and Book One reviews.", "<strong>Supabase</strong> — almacena los votos de El Cónclave y las reseñas del Libro Uno."],
+    ["<strong>GitHub Pages</strong> — hosts the site; server logs may record standard\n          request data (such as IP addresses) as part of normal operation.", "<strong>GitHub Pages</strong> — aloja el sitio; los registros del servidor pueden guardar datos\n          de solicitud estándar (como direcciones IP) como parte del funcionamiento normal."],
+
+    ["Your rights", "Tus derechos"],
+    ["You can withdraw cookie consent at any time (the button above), unsubscribe from\n        emails, and request that we correct or delete personal data you've given us\n        (your email or a review). To make a request, email us at\n        <a href=\"mailto:info@aurefold.com\">info@aurefold.com</a>.", "Puedes retirar tu consentimiento de cookies en cualquier momento (el botón de arriba), darte de baja de los\n        correos, y solicitar que corrijamos o eliminemos los datos personales que nos hayas dado\n        (tu correo o una reseña). Para hacer una solicitud, escríbenos a\n        <a href=\"mailto:info@aurefold.com\">info@aurefold.com</a>."],
+    ["This notice may be updated as the project grows. Last updated: 11 August 2026.", "Este aviso puede actualizarse a medida que el proyecto crece. Última actualización: 11 de agosto de 2026."]
+  ]
+}
