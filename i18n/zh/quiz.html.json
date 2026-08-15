@@ -1,0 +1,10 @@
+{
+  "title": "十大家族中，你会追随哪一个？ —— AUREFOLD",
+  "description": "来做这个测验：Aurefold 十大家族中，你会追随哪一个？智识、信仰、荣誉、未来——发现你的家族并分享它。",
+  "blocks": [
+    ["<h1 class=\"page-title\">Which house would you follow?</h1>", "<h1 class=\"page-title\">你会追随哪个家族？</h1>"],
+    ["Ten Great Houses rule the Banner-lands, each a different wager about what people are\n      for. Six questions. No wrong answers — only which oath you'd swear.", "十大家族统治着 Banner-lands，每一个都是对“人究竟为何而存在”的不同押注。\n      六道问题。没有错误的答案——只有你愿意立下的那一份誓言。"],
+    ["The quiz needs JavaScript. In the meantime, meet the ten houses directly — or have your say in the Moot:", "这个测验需要 JavaScript。在此期间，你可以直接认识这十大家族——或在议会中表达你的意见："],
+    ["Vote in The Moot", "在议会中投票"]
+  ]
+}

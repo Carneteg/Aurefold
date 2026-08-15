@@ -1,0 +1,12 @@
+{
+  "title": "议会 —— 为 Aurefold 接下来的走向投票",
+  "description": "议会是读者塑造 Aurefold 世界的地方——为有边界的、非正典的额外内容投下一票：艺术作品、外传故事，以及档案接下来要开启的内容。",
+  "blocks": [
+    ["An old word for an assembly where every voice is counted. One voice per reader —\n      and while the Moot is young, early votes show as a standing; the exact counts open\n      once enough readers have weighed in.", "一个古老的词，指的是一场每个声音都会被计入的集会。每位读者一票——\n      而当议会尚且年轻之时，早期的投票只显示为一种态势；确切的票数\n      要待足够多的读者发声之后才会公开。"],
+    ["The Moot shapes the world <em>around</em> the book — which supplemental material,\n      art, or public topic the archive opens next, and bounded extras like which\n      side-story gets written or the name of a minor figure in the supplementary lore.\n      The central plot, canon, character fates, and the book’s unresolved mysteries stay\n      the author’s.", "议会塑造的是书本<em>周围</em>的世界——档案接下来公开哪些补充材料、\n      艺术作品或公共话题，以及诸如哪个外传故事会被写出，\n      或是补充设定中某个次要人物叫什么名字这类有边界的额外内容。\n      核心情节、正典、角色的命运，以及书中尚未揭晓的谜团，仍然\n      归作者所有。"],
+    ["The interactive Moot needs JavaScript to convene. You can still take part:", "互动版议会需要 JavaScript 才能召开。你仍然可以参与："],
+    ["Follow free", "免费关注"],
+    ["Follow the journey", "追随这段旅程"],
+    ["Free members are asked the same Moot questions, and hear the results first.", "免费会员会被问到同样的议会问题，并率先得知结果。"]
+  ]
+}
