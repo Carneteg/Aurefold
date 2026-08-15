@@ -1,0 +1,11 @@
+{
+  "title": "Banner-lands 地图 —— Aurefold",
+  "description": "探索 Banner-lands 的互动地图——十大家族的领地所在，以及 Aurefold 第一部故事发生的那座山谷。",
+  "blocks": [
+    ["title=\"Zoom in\" aria-label=\"Zoom in\"", "title=\"放大\" aria-label=\"放大\""],
+    ["title=\"Zoom out\" aria-label=\"Zoom out\"", "title=\"缩小\" aria-label=\"缩小\""],
+    ["title=\"Reset view\" aria-label=\"Reset view\"", "title=\"重置视图\" aria-label=\"重置视图\""],
+    ["<button id=\"detail-close\" class=\"detail-close\" aria-label=\"Close\">", "<button id=\"detail-close\" class=\"detail-close\" aria-label=\"关闭\">"],
+    ["Read the house record →", "阅读该家族的记录 →"]
+  ]
+}

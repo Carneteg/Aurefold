@@ -1,0 +1,31 @@
+{
+  "title": "隐私与 Cookie — AUREFOLD",
+  "description": "Aurefold 如何使用 Cookie 与数据：匿名统计、阅读列表的邮件表单，以及议会——以及你如何掌控自己的同意选择。",
+  "blocks": [
+    ["<h1 class=\"page-title\">Privacy &amp; Cookies</h1>", "<h1 class=\"page-title\">隐私与 Cookie</h1>"],
+    ["Plain terms: what Aurefold collects, why, and how you stay in control.", "直白地说：Aurefold 收集什么、为何收集，以及你如何保持掌控。"],
+    ["Aurefold is a small promotional site for the novel <em>The Bell of Silence</em>.\n        We keep data collection to a minimum and set <strong>no non-essential cookies until\n        you agree</strong>. You can change your mind at any time.", "Aurefold 是一个为小说 <em>The Bell of Silence</em> 而设的小型宣传网站。\n        我们将数据收集控制在最低限度，并且<strong>在你同意之前，绝不设置\n        任何非必要的 Cookie</strong>。你可以随时改变主意。"],
+
+    ["Cookies &amp; your consent", "Cookie 与你的同意"],
+    ["When you first visit, a banner asks whether to allow cookies. Nothing that\n        sets a cookie runs until you choose <strong>Accept</strong>:", "当你首次访问时，会有一个横幅询问是否允许 Cookie。在你选择\n        <strong>接受</strong>之前，任何会设置 Cookie 的内容都不会运行："],
+    ["<strong>Analytics (Google Analytics 4).</strong> Anonymous, aggregated usage —\n          which pages are visited, roughly where visitors come from, and events like a book\n          download. It runs in Google's <em>Consent Mode</em> with storage denied by default,\n          so it sets no analytics cookies unless you accept.", "<strong>统计（Google Analytics 4）。</strong>匿名的、汇总的使用数据——\n          哪些页面被访问、访客大致来自何处，以及诸如下载图书之类的\n          事件。它运行在 Google 的 <em>Consent Mode</em> 下，默认拒绝存储，\n          因此除非你接受，否则不会设置任何统计 Cookie。"],
+    ["<strong>Reading-list form (MailerLite).</strong> If you accept, the email signup\n          form on the <a href=\"support.html\">Support</a> page loads from MailerLite, which may\n          set its own cookies. If you decline, the form simply isn't loaded.", "<strong>阅读列表表单（MailerLite）。</strong>如果你接受，<a href=\"support.html\">支持</a>\n          页面上的邮件订阅表单会从 MailerLite 加载，它可能会设置\n          自己的 Cookie。如果你拒绝，该表单便根本不会加载。"],
+    ["Decline and the analytics stays cookieless and the email form isn't loaded — the rest\n        of the site works exactly the same.", "如果你拒绝，统计将保持无 Cookie 状态，邮件表单也不会加载——网站的\n        其余部分则完全照常运作。"],
+    ["Change cookie settings", "更改 Cookie 设置"],
+
+    ["Information you choose to give", "你自愿提供的信息"],
+    ["<strong>Email address</strong> — only if you join the reading list. It's used to\n          send Aurefold updates, and you can unsubscribe from any email at any time.", "<strong>电子邮件地址</strong>——仅在你加入阅读列表时提供。它用于\n          发送 Aurefold 的更新，你可以随时从任何一封邮件中退订。"],
+    ["<strong>Reviews</strong> — if you leave a rating or review of Book One, the optional\n          name and text you enter are stored and shown publicly once approved.", "<strong>评价</strong>——如果你为第一部留下评分或评价，你所填写的\n          可选姓名与文字会被存储，并在通过审核后公开显示。"],
+    ["<strong>The Moot votes</strong> — votes are stored anonymously to tally results.\n          They are not tied to your identity.", "<strong>议会投票</strong>——投票以匿名方式存储，用于统计结果。\n          它们不会与你的身份相关联。"],
+
+    ["Who processes this data", "谁在处理这些数据"],
+    ["<strong>Google</strong> (Analytics) — usage measurement.", "<strong>Google</strong>（Analytics）——使用情况的测量。"],
+    ["<strong>MailerLite</strong> — reading-list email.", "<strong>MailerLite</strong>——阅读列表的邮件。"],
+    ["<strong>Supabase</strong> — stores Moot votes and Book One reviews.", "<strong>Supabase</strong>——存储议会投票与第一部的评价。"],
+    ["<strong>GitHub Pages</strong> — hosts the site; server logs may record standard\n          request data (such as IP addresses) as part of normal operation.", "<strong>GitHub Pages</strong>——为本网站提供托管；作为正常运作的一部分，\n          服务器日志可能会记录标准的请求数据（例如 IP 地址）。"],
+
+    ["Your rights", "你的权利"],
+    ["You can withdraw cookie consent at any time (the button above), unsubscribe from\n        emails, and request that we correct or delete personal data you've given us\n        (your email or a review). To make a request, email us at\n        <a href=\"mailto:info@aurefold.com\">info@aurefold.com</a>.", "你可以随时撤回 Cookie 同意（上方的按钮）、退订邮件，并\n        请求我们更正或删除你提供给我们的个人数据\n        （你的邮箱或一条评价）。如需提出请求，请发送邮件至\n        <a href=\"mailto:info@aurefold.com\">info@aurefold.com</a>。"],
+    ["This notice may be updated as the project grows. Last updated: 11 August 2026.", "本声明可能会随着项目的发展而更新。最后更新：2026 年 8 月 11 日。"]
+  ]
+}
