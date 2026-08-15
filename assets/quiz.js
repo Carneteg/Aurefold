@@ -287,6 +287,71 @@
         note: "Le canon du livre et ses mystères centraux appartiennent à l’auteur ; le Conseil et ce quiz façonnent le monde autour du livre — ce que l’archive ouvre ou explore ensuite — jamais le cœur de l’histoire.",
         shareText: function (shortName) { return "Je suivrais House " + shortName + " dans Aurefold — quelle maison suivriez-vous ?"; }
       }
+    },
+    zh: {
+      phil: {
+        blackthorn: "智识", ravenshade: "情报", ashbourne: "勇气",
+        whitehart: "信仰", stormrider: "团结", ironvale: "革新",
+        blackcrest: "胜者的历史", stonebear: "荣誉",
+        tidebreaker: "知识", phoenix: "未来"
+      },
+      line: {
+        blackthorn:  "他们为每一种未来谋划——却总是慢了一步。",
+        ravenshade:  "他们买卖人们宁愿藏起来的东西。",
+        ashbourne:   "别人退避的地方，他们偏偏冲上去。",
+        whitehart:   "他们聆听一个声音——并考验那些声称听见它的人。",
+        stormrider:  "他们把众人聚在一起——只要那个维系他们的人还活着。",
+        ironvale:    "他们丈量一切，建造无人敢建之物。",
+        blackcrest:  "他们保管记录——而记录本身就是一种权力。",
+        stonebear:   "他们信守诺言，哪怕代价是失去一切。",
+        tidebreaker: "他们绘尽万物，却几乎从不分享。",
+        phoenix:     "他们在焦土上重建，绝不低头。"
+      },
+      q: [
+        { q: "一个艰难的抉择迫在眉睫。你最信任什么？", a: [
+          ["为每一种结局周全谋划。", "blackthorn"],
+          ["我能查到而别人查不到的东西。", "ravenshade"],
+          ["我自己的胆识。", "ashbourne"],
+          ["我所相信为真的事。", "whitehart"] ] },
+        { q: "王国正在分裂。你的第一反应是——", a: [
+          ["把所有人聚拢在一起。", "stormrider"],
+          ["用碎片建造新的东西。", "ironvale"],
+          ["确保真实的记述留存下来。", "blackcrest"],
+          ["信守我立下的誓言，无论代价。", "stonebear"] ] },
+        { q: "人们会说你最大的长处是——", a: [
+          ["我懂得比表现出来的多。", "tidebreaker"],
+          ["我从不放弃明天。", "phoenix"],
+          ["我料先三步。", "blackthorn"],
+          ["我根本不害怕。", "ashbourne"] ] },
+        { q: "一个陌生人向你求助。你——", a: [
+          ["先掂量这会让我付出什么。", "blackthorn"],
+          ["追问他们没说出口的事。", "ravenshade"],
+          ["伸手相助——并信守承诺。", "stonebear"],
+          ["凭着行善的冲动去做。", "whitehart"] ] },
+        { q: "哪一句最像你？", a: [
+          ["知识胜过黄金。", "tidebreaker"],
+          ["团结胜过争对错。", "stormrider"],
+          ["我们讲述的故事会成为真相。", "blackcrest"],
+          ["未来值得任何一场火。", "phoenix"] ] },
+        { q: "当一切出错时，你——", a: [
+          ["重建，比从前更好。", "phoenix"],
+          ["正面迎向问题。", "ashbourne"],
+          ["找出所有人都忽略的事实。", "ravenshade"],
+          ["坚守我承诺过的事。", "stonebear"] ] }
+      ],
+      ui: {
+        progress: function (i, total) { return "第 " + i + " 题，共 " + total + " 题"; },
+        back: "← 返回",
+        eyebrow: "你会追随",
+        castVote: "把它作为你在议会的一票",
+        followFree: "免费关注",
+        joinReaders: function (n) { return "加入 " + n + " 位持续关注的读者"; },
+        shareLabel: "告诉他们你会追随哪个家族",
+        shareX: "分享到 X", facebook: "Facebook", reddit: "Reddit", copy: "复制",
+        again: "↻ 再测一次",
+        note: "本书的正典与核心谜团属于作者；议会与本测验塑造的是书本周围的世界——档案接下来揭示或探索什么——而绝非故事的核心。",
+        shareText: function (shortName) { return "在 Aurefold 中我会追随 House " + shortName + "——你会追随哪个家族？"; }
+      }
     }
   };
 

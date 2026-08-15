@@ -165,7 +165,11 @@
     fr: { banner: "Aurefold utilise des cookies pour des statistiques de visite anonymes — et, si vous rejoignez la liste de lecture, le formulaire d’inscription par e-mail. À vous de choisir.",
           privacy: "Confidentialité et cookies", decline: "Refuser", accept: "Accepter",
           gatePre: "Pour charger le formulaire d’inscription, nous avons besoin de votre consentement aux cookies. ",
-          allow: "Autoriser et charger le formulaire", gateOr: ", ou ", patreon: "suivez gratuitement sur Patreon" }
+          allow: "Autoriser et charger le formulaire", gateOr: ", ou ", patreon: "suivez gratuitement sur Patreon" },
+    zh: { banner: "Aurefold 使用 Cookie 进行匿名访客统计——如果你加入阅读清单，还会用于邮件订阅表单。由你选择。",
+          privacy: "隐私与 Cookie", decline: "拒绝", accept: "接受",
+          gatePre: "为加载邮件订阅表单，我们需要你同意使用 Cookie。",
+          allow: "允许并加载表单", gateOr: "，或 ", patreon: "在 Patreon 上免费关注" }
   };
   var CT = CONSENT_I18N[(document.documentElement.lang || "en").slice(0, 2)] || CONSENT_I18N.en;
 
