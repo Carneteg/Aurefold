@@ -147,13 +147,27 @@
     window.ml("account", String(mlCfg.account).trim());
   }
   // When the form is configured but consent isn't granted, offer an inline
+  // Localized consent strings (keyed by <html lang>). English is the fallback;
+  // more languages are added as the site is translated.
+  var CONSENT_I18N = {
+    en: { banner: "Aurefold uses cookies for anonymous visitor analytics — and, if you join the reading list, the email signup form. You choose.",
+          privacy: "Privacy &amp; cookies", decline: "Decline", accept: "Accept",
+          gatePre: "To load the email signup form we need your consent to cookies. ",
+          allow: "Allow &amp; load the form", gateOr: ", or ", patreon: "follow free on Patreon" },
+    sv: { banner: "Aurefold använder cookies för anonym besöksstatistik — och, om du går med i läslistan, e-postformuläret. Du väljer.",
+          privacy: "Integritet &amp; cookies", decline: "Neka", accept: "Acceptera",
+          gatePre: "För att ladda e-postformuläret behöver vi ditt samtycke till cookies. ",
+          allow: "Tillåt &amp; ladda formuläret", gateOr: ", eller ", patreon: "följ gratis på Patreon" }
+  };
+  var CT = CONSENT_I18N[(document.documentElement.lang || "en").slice(0, 2)] || CONSENT_I18N.en;
+
   // one-click enable (instead of the generic "opens soon" note).
   function showSignupGate() {
     if (!mlConfigured || !signupSoon || mlLoaded) return;
     signupSoon.innerHTML =
-      'To load the email signup form we need your consent to cookies. ' +
-      '<button type="button" class="linklike" id="signup-consent">Allow &amp; load the form</button>' +
-      ', or <a href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">follow free on Patreon</a>.';
+      CT.gatePre +
+      '<button type="button" class="linklike" id="signup-consent">' + CT.allow + '</button>' +
+      CT.gateOr + '<a href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">' + CT.patreon + '</a>.';
     var b = document.getElementById("signup-consent");
     if (b) b.addEventListener("click", acceptConsent);
     signupSoon.hidden = false;
@@ -180,10 +194,10 @@
     banner.setAttribute("role", "dialog");
     banner.setAttribute("aria-label", "Cookie consent");
     banner.innerHTML =
-      '<p class="cookie-text">Aurefold uses cookies for anonymous visitor analytics — and, if you join the reading list, the email signup form. You choose. <a href="privacy.html">Privacy &amp; cookies</a>.</p>' +
+      '<p class="cookie-text">' + CT.banner + ' <a href="privacy.html">' + CT.privacy + '</a>.</p>' +
       '<div class="cookie-actions">' +
-        '<button type="button" class="btn btn-ghost" data-consent="decline">Decline</button>' +
-        '<button type="button" class="btn btn-primary" data-consent="accept">Accept</button>' +
+        '<button type="button" class="btn btn-ghost" data-consent="decline">' + CT.decline + '</button>' +
+        '<button type="button" class="btn btn-primary" data-consent="accept">' + CT.accept + '</button>' +
       '</div>';
     document.body.appendChild(banner);
     banner.querySelector('[data-consent="accept"]').addEventListener("click", acceptConsent);
