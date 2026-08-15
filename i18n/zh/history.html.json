@@ -1,0 +1,91 @@
+{
+  "title": "Banner-lands 的历史 — Aurefold",
+  "description": "Banner-lands 的四百年：the War of the Unification、the Tenfold Compact，以及记录十大家族争议往事的活档案。",
+  "blocks": [
+    ["Four hundred years of record, as the archive keeps it.", "四百年的记录，一如档案所保存的模样。"],
+
+    ["<h2 class=\"section-title\">The reckoning of years</h2>", "<h2 class=\"section-title\">纪年之法</h2>"],
+    ["<h2 class=\"section-title\">The four centuries</h2>", "<h2 class=\"section-title\">四个世纪</h2>"],
+    ["<h2 class=\"section-title\">The four records</h2>", "<h2 class=\"section-title\">四类源本</h2>"],
+
+    ["Years in the Banner-lands are counted in <strong>A.U.</strong> — <em>after the\n        Unification</em>. The present is <strong>396&nbsp;A.U.</strong> The 400-year\n        jubilee of the founding stands four years off, and every house is already\n        preparing what it will say about the last four centuries.", "Banner-lands 以 <strong>A.U.</strong> 纪年——<em>即统一之后</em>。当下是 <strong>396&nbsp;A.U.</strong>建立四百周年的庆典还有四年到来，而每一家族都已在准备，要如何言说这过去的四个世纪。"],
+
+    ["Before the war there were no Ten Houses — only fractured principalities,\n        cities, and clans fighting over the same exhausted land. The war swept the\n        entire known world, and what one calls it tells you which record one trusts.\n        The Chronicle of Victory calls it <em>the War of the Unification</em> —\n        solemnly, <em>the Great Unification</em> — and \"unification\" makes a war\n        sound like a merger. The Ash Fragments, which few cite aloud, call it\n        <em>the Divided Fire</em>, and describe not a defense against an outside\n        enemy but a civil war. The sources disagree about who won. That is the\n        record's oldest wound.", "在那场战争之前并没有十大家族——只有支离破碎的公国、城邦与氏族，为同一片耗尽的土地而争斗。战火席卷了整个已知世界，而一个人如何称呼它，便透露出他信任哪一份记录。the Chronicle of Victory 称之为 <em>the War of the Unification</em>——庄严地，<em>the Great Unification</em>——而“统一”一词让一场战争听来像一次合并。the Ash Fragments 少有人高声引述，它称之为 <em>the Divided Fire</em>，所描述的并非抵御外敌，而是一场内战。各源本对谁胜谁负各执一词。那是这份记录最古老的伤口。"],
+
+    ["What is beyond dispute is how it ended: on the cooling ground of the Ash\n        Fields, in the year that was then set to nought, the lords of the war swore\n        the <strong>Tenfold Compact</strong> and divided the land, the duty, and the grief\n        among them. The peace it sealed has held — by one measure or another — for\n        four hundred years, save four.", "无可争辩的是它如何终结：在 the Ash Fields 渐冷的土地上，在那被定为元年的一年，交战的诸位领主立下了 <strong>Tenfold Compact</strong>，将土地、职责与哀恸分摊于彼此之间。它所封缄的和平——以这样或那样的标准衡量——已维系了四百年，只差四年。"],
+
+    ["<tr><th scope=\"col\">Year (A.U.)</th><th scope=\"col\">Event</th><th scope=\"col\">What the record holds</th></tr>", "<tr><th scope=\"col\">年份（A.U.）</th><th scope=\"col\">事件</th><th scope=\"col\">记录所存者</th></tr>"],
+
+    ["The war ends; the Tenfold Compact", "战争终结；the Tenfold Compact"],
+    ["The victors seal a pact dividing land, titles, and responsibility among the Great Houses.", "胜者们封缄了一纸盟约，在大家族之间分割土地、名号与责任。"],
+    ["The Silent Year", "the Silent Year"],
+    ["An unnaturally empty window in the chronicles. An absence of <em>permitted</em> events, not of events themselves.", "编年史中一段异常空白的窗口。缺席的是<em>获准记载的</em>事件，而非事件本身。"],
+    ["The Sundering of the Ten Philosophies", "十大哲学的分裂"],
+    ["The founders dead; the children inherit houses without a soul. The ten philosophies crystallize through concrete crises — they are <em>won</em>, not given.", "开创者已逝；子嗣继承的家族失去了灵魂。十大哲学在一桩桩具体的危机中凝成——它们是<em>争得的</em>，而非天赐。"],
+    ["The First Betrayal", "第一次背叛"],
+    ["The first time one house turns against another after the Unification. The pact proves fragile.", "统一之后，一个家族首次转而与另一家为敌。盟约显出其脆弱。"],
+    ["The Age of Chronicles", "编年史的时代"],
+    ["The writing of history becomes institutionalized; the conflicting official versions are produced. House Blackcrest decisive.", "历史的书写被制度化；相互矛盾的官方版本由此产生。House Blackcrest 举足轻重。"],
+    ["Overlapping failure — failed crops, spoiled stores, sick herds — that no house caused or cured. The realm answered with the <strong>Common Keeping</strong>: cooperation without a crown, the eleventh seat left empty. <a href=\"#living-archive\">→ the Living Archive</a>", "接连交叠的灾荒——歉收的庄稼、腐坏的储粮、染病的畜群——非任何一家所致，也非任何一家所解。整个王国以 <strong>Common Keeping</strong> 相应：无冕的协作，第十一个席位空置。<a href=\"#living-archive\">→ 活档案</a>"],
+    ["A settlement whose official wording, argued over for days, preserved the peace without granting the victor innocence — the record used, for once, to keep a door open. <a href=\"#living-archive\">→ the Living Archive</a>", "一纸和解，其官方措辞经数日争辩，既维系了和平，又不肯宣判胜者无罪——这一次，记录被用来敞开一扇门。<a href=\"#living-archive\">→ 活档案</a>"],
+    ["The threshold of the present", "当下的门槛"],
+    ["The order appears stable, but every crack is an open wound. The 400-year jubilee looms, four years off.", "这一秩序看似稳固，但每一道裂痕都是一处敞开的伤口。四百周年庆典逼近，只余四年。"],
+
+    ["Everything above rests on four kinds of source, and they do not agree.", "以上种种皆倚于四类源本，而它们彼此不合。"],
+    ["<strong>The Chronicle of Victory</strong> — the official record, kept at Crown-watch by House Blackcrest. Complete, consistent, and written by the side that kept the pen.", "<strong>The Chronicle of Victory</strong>——官方记录，由 House Blackcrest 保存于 Crown-watch。完整、连贯，由握笔的那一方书写。"],
+    ["<strong>The Ash Fragments</strong> — burned, partial pages that survive from before and during the war. They contradict the Chronicle where they overlap with it, which is why so few of them overlap with it.", "<strong>The Ash Fragments</strong>——焚残的、不全的书页，自战前与战时留存至今。凡与 Chronicle 相叠之处，它们便与之相抵，也正因如此，与之相叠者寥寥无几。"],
+    ["<strong>The Songs</strong> — what the people remember in verse. Songs cannot be recalled and corrected; they are sung wrong, in the same wrong way, in every tavern in the Banner-lands.", "<strong>The Songs</strong>——民众以歌谣所记之事。歌谣无法被收回更正；它们被唱错，以同一种错法，在 Banner-lands 的每一间酒馆里传唱。"],
+    ["<strong>The Marginal Notes</strong> — small anonymous hands in the margins of official copies, written by readers who noticed something. The archive does not cite them. The archive has not erased them either.", "<strong>The Marginal Notes</strong>——官方抄本页边细小而匿名的笔迹，出自察觉到什么的读者之手。档案不引述它们。档案也未曾抹去它们。"],
+    ["The archive records the disagreement; it does not decide it.", "档案记录下这分歧；它并不裁定分歧。"],
+
+    ["The Chronicle is not the only thing the archive keeps. Beneath the official record\n        lie the fragments the officials could not enter cleanly — a letter that says what a\n        hearing could not, a confession bound inside a devotional cover, a tribunal transcript\n        that stops after sentencing. Each was written by someone with a reason to shape it, and\n        each keeps its conflict rather than resolving it. These are ten of the houses' own\n        hardest histories, and one the whole realm shares.", "Chronicle 并非档案所存的全部。在官方记录之下，埋着那些官吏无法干净地录入的残片——一封说出了听审所不能言的信、一纸装订在祈祷书封皮内的自白、一份在宣判后戛然而止的审讯笔录。每一件都出自有理由去雕琢它的人之手，而每一件都保留了自身的冲突，而非将其化解。这是十家各自最艰难的历史，还有一段为整个王国所共有。"],
+
+    ["The summaries below are distilled and public. <a href=\"archive.html\">The full fragments —\n        in the voices of the people who lived them — are in the Living Archive</a>, with the\n        openings free to read and the complete accounts kept for members.", "以下的摘要是提炼过的、公开的。<a href=\"archive.html\">完整的残片——以亲历者之口道出——收于活档案之中</a>，开篇可自由阅读，完整记述则留予会员。"],
+
+    ["<span class=\"archive-house\">Blackthorn · Intellect</span>", "<span class=\"archive-house\">Blackthorn · 智识</span>"],
+    ["<span class=\"archive-house\">Ashbourne · Courage</span>", "<span class=\"archive-house\">Ashbourne · 勇气</span>"],
+    ["<span class=\"archive-house\">Whitehart · Faith</span>", "<span class=\"archive-house\">Whitehart · 信仰</span>"],
+    ["<span class=\"archive-house\">Stormrider · Unity</span>", "<span class=\"archive-house\">Stormrider · 团结</span>"],
+    ["<span class=\"archive-house\">Blackcrest · The victor's history</span>", "<span class=\"archive-house\">Blackcrest · 胜者的历史</span>"],
+    ["<span class=\"archive-house\">Stonebear · Honor</span>", "<span class=\"archive-house\">Stonebear · 荣誉</span>"],
+    ["<span class=\"archive-house\">Tidebreaker · Knowledge</span>", "<span class=\"archive-house\">Tidebreaker · 知识</span>"],
+    ["<span class=\"archive-house\">Phoenix · The future</span>", "<span class=\"archive-house\">Phoenix · 未来</span>"],
+    ["<span class=\"archive-house\">The realm entire</span>", "<span class=\"archive-house\">整个王国</span>"],
+
+    ["The Deathbed of Lord Corvane Marrenhold", "Lord Corvane Marrenhold 的临终之榻"],
+    ["The Charge That Arrived Too Soon", "来得太早的冲锋"],
+    ["The Vigil of the Sealed Testimony", "封缄证词的守夜"],
+    ["The Winter the Roads Closed", "道路封闭的那个冬天"],
+    ["The House of Opened Letters", "拆信之家"],
+    ["The Furnace That Would Not Stop", "不肯停下的熔炉"],
+    ["The Victory at Red Hollow", "Red Hollow 的胜利"],
+    ["The Oath at Three Spears", "Three Spears 的誓言"],
+    ["The Map That Refused the Coast", "拒绝海岸的地图"],
+    ["The Children of Tomorrow", "明日之子"],
+    ["The Year the Ten Banners Lowered", "十面旌旗低垂的那一年"],
+
+    ["A lord takes eleven days to die while his household discovers eleven uses for the time. A daughter's marriage is negotiated beside the bed; a letter that could ruin one cousin makes him suddenly cooperative. No page proves murder — and every party can defend a motive that never renders their conduct harmless. Blackthorn prefers its corruption with a reason.", "一位领主用了十一天才咽气，而他的家眷则为这段时间找出了十一种用处。一桩女儿的婚事就在床边议定；一封足以毁掉某位堂亲的信让他忽然变得极为配合。没有一页文书能证明谋杀——而每一方都能为一个动机辩护，那动机却从不使他们的行径变得无害。Blackthorn 偏爱有理由的腐败。"],
+
+    ["A captain disobeys a hold order on a dispatch that proves false. The charge kills her lieutenant — and may also have saved the army from encirclement. Afterward some call her reckless and some call her visionary, and she refuses to let either name make his death mean less. Success is the great corrupter of military truth.", "一名队长违抗了一道据一份后被证伪的急报下达的按兵之令。那场冲锋害死了她的副官——也可能救全军于合围之中。事后有人称她鲁莽，有人称她有远见，而她拒绝让任何一个名号使他的死变得轻些。成功是军事真相最大的腐蚀者。"],
+
+    ["A servant brings a testimony against a patron's kinsman; by custom it should be entered in the White Ledger by sundown. Instead it is sealed \"pending clarification of conscience\" while an abbess lies dying and the accused family funds the hospital. The house built to test the truth learns how easily patronage can teach a record to wait.", "一名仆人呈上一份指控庇护者亲族的证词；依惯例，它本应在日落前录入 the White Ledger。它却被封缄，注为“待良心澄清”，其时一位女修道院长正在弥留，而被控告的那家出资资助着医院。这个为检验真相而建的家族，领教了庇护何其轻易便能教会一份记录去等待。"],
+
+    ["The passes freeze and the council sends one instruction: keep a passage open at all costs. It does not say which passage, or whose cost. Four people die waiting for a way that shepherds had already cut — unrecorded, because the men who cut it had no official mark to sign. Unity held the realm; it did not save the girl beneath the river.", "隘口封冻，议事会传下一道指令：不惜一切代价保住一条通道畅通。它没说是哪条通道，也没说以谁为代价。四人在等待一条牧人早已开辟的路时死去——那条路无人记载，因为开辟它的人没有可署名的官方印记。团结维系了王国；它没能救下河底的那个女孩。"],
+
+    ["A factor holds a packet of names one day before it goes on — long enough for a physician to reach the sick, and long enough for those who could afford to leave to be gone before the rest are marked. The delay saves and dooms in the same motion. The finest intrusion, he writes, leaves nothing to find.", "一名经办人将一叠名单扣压了一日才让它继续传递——久到足够让一位医者赶到病者身边，也久到足够让付得起代价离去的人在其余人被标记之前逃走。这一延搁在同一举动中既拯救又断送。他写道，最精妙的侵入，不留下任何可寻之物。"],
+
+    ["A furnace is run past every measure with a single structural support left out. When it fails, the house that measures everything cannot agree whose seal authorized the risk, or whether the man who forced the evacuation prevented a catastrophe or caused the injuries. The one event at their own forge is the one that will not be measured.", "一座熔炉在少了一根结构支撑的情况下被逼过了一切量度。当它崩坏时，这个丈量万物的家族却无法就究竟是谁的印信批准了这一风险达成一致，也无法断定那个强令疏散的人是避免了一场浩劫，还是酿成了那些伤亡。发生在他们自家熔炉的这唯一一桩事，恰是那无法被丈量的一桩。"],
+
+    ["The chamber that writes victory argues for days over a single inscription. The wording it adopts preserves the settlement — and refuses, deliberately, to grant the victor innocence. The record is a kind of power, and here it is spent, once, to keep a door open rather than close it.", "那间书写胜利的厅堂为一句铭文争辩了数日。它最终采纳的措辞既维系了和解——又蓄意地，不肯宣判胜者无罪。记录是一种权力，而在此处，它被动用了一次，为的是敞开一扇门，而非将其关上。"],
+
+    ["A shield-captain breaks a direct command to keep faith with a signal her house had made. It is insubordination and the preservation of custom at once, mercy and a dangerous precedent in the same act. Stonebear keeps its word past the point the word costs it everything — and cannot always tell which word it is bound to.", "一名盾队长违抗了一道直接命令，只为守信于她的家族曾给出的一个信号。这既是抗命，又是对惯例的守护；在同一举动中既是慈悲，又是危险的先例。Stonebear 恪守其诺，直至诺言令它一无所有——却并不总能分辨自己究竟受缚于哪一个诺。"],
+
+    ["A chart is settled that honours the consent of an island people and, by the same omission, leaves uninformed sailors to the rocks. The house that charts all of it and shares almost none learns that a map is a claim: every chart after it must name its date, its maker, its purpose, and what it chose to leave out.", "一份海图定稿，它既尊重了一个岛屿民族的意愿，又以同一处省略，将不知情的水手抛给了礁石。这个测绘一切、却几乎从不分享的家族领悟到，一幅地图便是一种主张：此后每一份海图都必须写明它的日期、它的绘制者、它的用途，以及它选择略去的东西。"],
+
+    ["A planner delivers real improvement — cleaner water, warmer winters, schooled children — by controlling shelter, standing, and patronage until refusal is no longer practical. The future arrives. No one can prove it needed to arrive that way. The house that builds on scorched ground refuses, on principle, to look down.", "一位规划者带来了实实在在的改善——更洁净的水、更暖和的冬天、受了教育的孩子——办法是掌控住所、地位与庇护，直到拒绝已不再切实可行。未来到来了。没有人能证明它非得以这种方式到来。这个在焦土上营建的家族，出于原则，拒绝俯视脚下。"],
+
+    ["Crop failure, spoiled stores, sick herds and empty nets overlap with panic and concealment until no count is current and no house can meet its own need. No single house caused it; no single house solved it. The Common Keeping — cooperation without a crown — held the realm together for one year, and the eleventh seat in the Hall of Eleven stayed empty, and unexplained.", "歉收、腐坏的储粮、染病的畜群与空空的渔网，与恐慌和隐瞒交叠在一起，直到没有一份清点是当下有效的，没有一家能满足自身所需。没有任何一家酿成了它；也没有任何一家解决了它。the Common Keeping——无冕的协作——将王国维系了一年，而 the Hall of Eleven 中的第十一个席位始终空着，无人解释。"],
+
+    ["These fragments are contested by every tradition that keeps them. That is the point of keeping them.", "这些残片，为每一个保存它们的传统所争议。这正是保存它们的意义所在。"]
+  ]
+}
