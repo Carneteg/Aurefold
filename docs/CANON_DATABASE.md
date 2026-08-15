@@ -67,7 +67,7 @@ Public-safe House data for the interactive map. Exactly ten rows are exposed.
 Only phrases individually moved to `ratified + public` are exposed. Current phrase-ecology work remains `proposal + author_only`, so the view intentionally returns zero rows.
 
 ### `site_character_profiles`
-Curated public presentation rows only. Internal `lore_characters` fields such as personality engines, POV bias and future continuity guardrails never flow through this view. Phase 2 seeds ten spoiler-safe Book One profiles.
+Curated public presentation rows only. Internal `lore_characters` fields such as personality engines, POV bias and future continuity guardrails never flow through this view. Phase 2 currently exposes thirteen spoiler-safe Book One / continuity profiles.
 
 ### `site_history_events`
 Only events whose entity is `ratified + public`. Phase 2 currently exposes only the Tenfold Compact at 0 A.U.; Book One climax events remain spoiler-controlled.
@@ -119,7 +119,7 @@ Key late-book chapters also link directly to their characters, objects and locat
 - Current House phrase ecology as author-only proposals.
 - Book One and Book Two registry rows.
 - Core Book One character identity engines plus supporting character entities.
-- Ten curated public Book One character profiles.
+- Thirteen curated public character profiles, including Merta, Wilda and Ottar in addition to the initial ten.
 - Twelve locations.
 - Twenty-seven Book One object records and explicit critical custody moves.
 - Eight event records, of which only the Tenfold Compact is currently public.
