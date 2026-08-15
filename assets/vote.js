@@ -2,13 +2,76 @@
    This file is PRESENTATION ONLY. The Supabase data layer, its row-level
    security, the poll_tallies aggregate, and the one-vote-per-reader rule
    (unique vote per ew-voter) are all unchanged — no schema changes are made
-   or required by anything below. */
+   or required by anything below.
+
+   Localized interface: the Moot's own chrome (buttons, notes, standings)
+   follows <html lang>. Poll questions and options are served from Supabase
+   in the language they were authored in, so they are shown verbatim. */
 (function () {
   "use strict";
 
   var cfg = window.AUREFOLD_COMMUNITY || {};
   var root = document.getElementById("moot");
   if (!root) return;
+
+  var LANG = (document.documentElement.lang || "en").slice(0, 2);
+  var TX = {
+    en: {
+      decidedLast: "What the Moot decided last time",
+      kindHouse: "The house question",
+      kindNext: "What opens next",
+      kindQuestion: "A question for the Moot",
+      notPublished: "The moot convenes on the published site.",
+      yourVoice: "Your voice — ",
+      counted: "counted",
+      voicesWord: function (n) { return n === 1 ? " voice" : " voices"; },
+      changeChoice: "Change your choice",
+      addVoice: "Add your voice",
+      heard: function (total) { return "The Moot has heard " + total + (total === 1 ? " voice." : " voices."); },
+      noVoicesYet: "No voices yet. Yours would be the first.",
+      countedStanding: "Your voice is counted. The full standing opens once more readers weigh in.",
+      earlyDays: "Early days — be among the first to weigh in.",
+      keepChoice: "Keep my current choice",
+      pickAnother: "Pick another option to change your voice, or keep your current one.",
+      showStanding: "Show the standing without voting",
+      onePerReader: "One voice per reader. The archive counts; it does not watch.",
+      currentVoiceSuffix: " — your current voice",
+      oneVoiceKept: "The Moot keeps one voice per reader — your first choice stands.",
+      notReached: "The archive could not be reached. Try again in a moment.",
+      fromQuiz: "From your quiz — this house is highlighted below. Cast it, or choose another. Nothing is sent until you pick.",
+      convening: "Convening the moot…",
+      notInSession: "The moot is not in session. Come back soon.",
+      notReachedHere: "The archive could not be reached from here. The moot convenes on the published site — or try again in a moment."
+    },
+    sv: {
+      decidedLast: "Vad Tinget beslutade förra gången",
+      kindHouse: "Husfrågan",
+      kindNext: "Vad som öppnas härnäst",
+      kindQuestion: "En fråga till Tinget",
+      notPublished: "Tinget sammanträder på den publicerade sajten.",
+      yourVoice: "Din röst — ",
+      counted: "räknad",
+      voicesWord: function (n) { return n === 1 ? " röst" : " röster"; },
+      changeChoice: "Ändra ditt val",
+      addVoice: "Lägg till din röst",
+      heard: function (total) { return "Tinget har hört " + total + (total === 1 ? " röst." : " röster."); },
+      noVoicesYet: "Inga röster ännu. Din skulle vara den första.",
+      countedStanding: "Din röst är räknad. Hela ställningen öppnas när fler läsare har sagt sitt.",
+      earlyDays: "Tidiga dagar — var bland de första att säga sitt.",
+      keepChoice: "Behåll mitt nuvarande val",
+      pickAnother: "Välj ett annat alternativ för att ändra din röst, eller behåll ditt nuvarande.",
+      showStanding: "Visa ställningen utan att rösta",
+      onePerReader: "En röst per läsare. Arkivet räknar; det övervakar inte.",
+      currentVoiceSuffix: " — din nuvarande röst",
+      oneVoiceKept: "Tinget håller en röst per läsare — ditt första val gäller.",
+      notReached: "Arkivet kunde inte nås. Försök igen om en stund.",
+      fromQuiz: "Från ditt test — det här huset är markerat nedan. Lägg din röst på det, eller välj ett annat. Inget skickas förrän du väljer.",
+      convening: "Sammankallar tinget…",
+      notInSession: "Tinget är inte i session. Kom tillbaka snart.",
+      notReachedHere: "Arkivet kunde inte nås härifrån. Tinget sammanträder på den publicerade sajten — eller försök igen om en stund."
+    }
+  };
+  var T = TX[LANG] || TX.en;
 
   // Below this many votes a poll shows a ranked standing with subtle bars and
   // NO raw numbers ("be among the first"); at or above it, the real tallies
@@ -35,18 +98,20 @@
   // no title is set.
   function renderLastOutcome(last) {
     var card = el("article", "moot-card moot-outcome");
-    card.appendChild(el("p", "moot-kind", "What the Moot decided last time"));
+    card.appendChild(el("p", "moot-kind", T.decidedLast));
     card.appendChild(el("h2", "section-title", last.title));
     if (last.note && String(last.note).trim()) card.appendChild(el("p", "moot-desc", last.note));
     return card;
   }
 
-  // A short eyebrow that tells the two questions apart at a glance.
+  // A short eyebrow that tells the two questions apart at a glance. The poll
+  // question text is authored in English in the data layer, so the keyword
+  // match stays English; only the label shown to the reader is localized.
   function kindFor(poll) {
     var q = (poll.question || "").toLowerCase();
-    if (/house/.test(q)) return "The house question";
-    if (/thread|chapter|scene|excerpt|\bopen|\bnext\b|topic|read|reveal|material/.test(q)) return "What opens next";
-    return "A question for the Moot";
+    if (/house/.test(q)) return T.kindHouse;
+    if (/thread|chapter|scene|excerpt|\bopen|\bnext\b|topic|read|reveal|material/.test(q)) return T.kindNext;
+    return T.kindQuestion;
   }
 
   root.innerHTML = "";
@@ -59,7 +124,7 @@
   root.appendChild(pollsBox);
 
   if (!cfg.supabaseUrl || !cfg.supabaseKey) {
-    pollsBox.appendChild(el("p", "moot-note", "The moot convenes on the published site."));
+    pollsBox.appendChild(el("p", "moot-note", T.notPublished));
     return;
   }
 
@@ -160,7 +225,7 @@
 
       if (chosen) {
         var opt = optionById(chosen);
-        body.appendChild(el("p", "moot-yourvoice", "Your voice — " + (opt ? opt.label : "counted")));
+        body.appendChild(el("p", "moot-yourvoice", T.yourVoice + (opt ? opt.label : T.counted)));
       }
 
       var ordered = poll.poll_options.slice().sort(function (a, b) {
@@ -176,7 +241,7 @@
         head.appendChild(el("span", "moot-result-label", o.label));
         if (revealed) {
           var pct = t.total ? Math.round((n * 100) / t.total) : 0;
-          head.appendChild(el("span", "moot-result-count", n + (n === 1 ? " voice" : " voices") + " · " + pct + "%"));
+          head.appendChild(el("span", "moot-result-count", n + T.voicesWord(n) + " · " + pct + "%"));
         } else {
           head.appendChild(el("span", "moot-result-rank", "#" + (i + 1)));
         }
@@ -195,25 +260,23 @@
       });
 
       if (chosen && !state.changeLocked) {
-        var change = el("button", "moot-peek moot-change", "Change your choice");
+        var change = el("button", "moot-peek moot-change", T.changeChoice);
         change.type = "button";
         change.addEventListener("click", function () { showVoting(chosen); });
         body.appendChild(change);
       } else if (!chosen) {
-        var addVoice = el("button", "moot-peek moot-change", "Add your voice");
+        var addVoice = el("button", "moot-peek moot-change", T.addVoice);
         addVoice.type = "button";
         addVoice.addEventListener("click", function () { showVoting(null); });
         body.appendChild(addVoice);
       }
 
       if (revealed) {
-        note.textContent = t.total
-          ? "The Moot has heard " + t.total + (t.total === 1 ? " voice." : " voices.")
-          : "No voices yet. Yours would be the first.";
+        note.textContent = t.total ? T.heard(t.total) : T.noVoicesYet;
       } else if (chosen) {
-        note.textContent = "Your voice is counted. The full standing opens once more readers weigh in.";
+        note.textContent = T.countedStanding;
       } else {
-        note.textContent = "Early days — be among the first to weigh in.";
+        note.textContent = T.earlyDays;
       }
     }
 
@@ -228,7 +291,7 @@
         btn.type = "button";
         btn.setAttribute("data-house", normHouse(o.label));
         if (prevChoice && o.id === prevChoice) btn.className = "moot-option is-current";
-        btn.appendChild(el("span", "moot-option-label", o.label + (prevChoice && o.id === prevChoice ? " — your current voice" : "")));
+        btn.appendChild(el("span", "moot-option-label", o.label + (prevChoice && o.id === prevChoice ? T.currentVoiceSuffix : "")));
         if (o.detail) btn.appendChild(el("span", "moot-option-detail", o.detail));
         btn.addEventListener("click", function () {
           if (prevChoice && o.id === prevChoice) { showResults(prevChoice); return; }
@@ -239,14 +302,14 @@
               // re-cast is refused. Reflect the stored choice and say so.
               state.changeLocked = true;
               showResults(prevChoice);
-              note.textContent = "The Moot keeps one voice per reader — your first choice stands.";
+              note.textContent = T.oneVoiceKept;
               return;
             }
             markVoted(poll.id, o.id);
             return loadResults().then(function (r) { state.results = r; showResults(o.id); });
           }).catch(function () {
             Array.prototype.forEach.call(body.querySelectorAll(".moot-option"), function (b) { b.disabled = false; });
-            note.textContent = "The archive could not be reached. Try again in a moment.";
+            note.textContent = T.notReached;
           });
         });
         list.appendChild(btn);
@@ -254,17 +317,17 @@
       body.appendChild(list);
 
       if (prevChoice) {
-        var keep = el("button", "moot-peek moot-change", "Keep my current choice");
+        var keep = el("button", "moot-peek moot-change", T.keepChoice);
         keep.type = "button";
         keep.addEventListener("click", function () { showResults(prevChoice); });
         body.appendChild(keep);
-        note.textContent = "Pick another option to change your voice, or keep your current one.";
+        note.textContent = T.pickAnother;
       } else {
-        var peek = el("button", "moot-peek", "Show the standing without voting");
+        var peek = el("button", "moot-peek", T.showStanding);
         peek.type = "button";
         peek.addEventListener("click", function () { showResults(null); });
         body.appendChild(peek);
-        note.textContent = "One voice per reader. The archive counts; it does not watch.";
+        note.textContent = T.onePerReader;
       }
     }
 
@@ -291,7 +354,7 @@
           btns[j].classList.add("is-suggested");
           btns[j].setAttribute("aria-current", "true");
           var note = cards[i].querySelector(".moot-note");
-          if (note) note.textContent = "From your quiz — this house is highlighted below. Cast it, or choose another. Nothing is sent until you pick.";
+          if (note) note.textContent = T.fromQuiz;
           if (btns[j].scrollIntoView) btns[j].scrollIntoView({ block: "center" });
           return;
         }
@@ -299,12 +362,12 @@
     }
   }
 
-  pollsBox.appendChild(el("p", "moot-note", "Convening the moot…"));
+  pollsBox.appendChild(el("p", "moot-note", T.convening));
   Promise.all([loadPolls(), loadResults()]).then(function (all) {
     pollsBox.innerHTML = "";
     var polls = all[0], results = all[1];
     if (!polls.length) {
-      pollsBox.appendChild(el("p", "moot-note", "The moot is not in session. Come back soon."));
+      pollsBox.appendChild(el("p", "moot-note", T.notInSession));
       return;
     }
     var cards = polls.map(function (p) {
@@ -315,6 +378,6 @@
     prehighlightFromHash(cards);
   }).catch(function () {
     pollsBox.innerHTML = "";
-    pollsBox.appendChild(el("p", "moot-note", "The archive could not be reached from here. The moot convenes on the published site — or try again in a moment."));
+    pollsBox.appendChild(el("p", "moot-note", T.notReachedHere));
   });
 })();

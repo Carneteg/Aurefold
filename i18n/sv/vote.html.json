@@ -1,0 +1,12 @@
+{
+  "title": "Tinget — rösta om vad som kommer härnäst i Aurefold",
+  "description": "Tinget är där läsare formar Aurefolds värld — lägg en röst på avgränsade, icke-kanoniska extramoment: konst, sidoberättelser och vad arkivet öppnar härnäst.",
+  "blocks": [
+    ["An old word for an assembly where every voice is counted. One voice per reader —\n      and while the Moot is young, early votes show as a standing; the exact counts open\n      once enough readers have weighed in.", "Ett gammalt ord för en församling där varje röst räknas. En röst per läsare —\n      och medan Tinget är ungt visas tidiga röster som en ställning; de exakta talen öppnas\n      när tillräckligt många läsare har sagt sitt."],
+    ["The Moot shapes the world <em>around</em> the book — which supplemental material,\n      art, or public topic the archive opens next, and bounded extras like which\n      side-story gets written or the name of a minor figure in the supplementary lore.\n      The central plot, canon, character fates, and the book’s unresolved mysteries stay\n      the author’s.", "Tinget formar världen <em>kring</em> boken — vilket kompletterande material,\n      vilken konst eller vilket offentligt ämne arkivet öppnar härnäst, och avgränsade extramoment som vilken\n      sidoberättelse som skrivs eller namnet på en mindre gestalt i den kompletterande loren.\n      Den centrala handlingen, kanon, karaktärernas öden och bokens olösta mysterier förblir\n      författarens."],
+    ["The interactive Moot needs JavaScript to convene. You can still take part:", "Det interaktiva Tinget behöver JavaScript för att sammanträda. Du kan ändå delta:"],
+    ["Follow free", "Följ gratis"],
+    ["Follow the journey", "Följ resan"],
+    ["Free members are asked the same Moot questions, and hear the results first.", "Gratis medlemmar får samma Ting-frågor, och hör resultaten först."]
+  ]
+}

@@ -187,6 +187,17 @@
   <url>
     <loc>https://aurefold.com/quiz.html</loc>
     <lastmod>2026-08-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/quiz.html" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/quiz.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/quiz.html" />
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aurefold.com/sv/quiz.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/quiz.html" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/quiz.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/quiz.html" />
     <priority>0.7</priority>
   </url>
   <url>
@@ -213,6 +224,17 @@
   <url>
     <loc>https://aurefold.com/vote.html</loc>
     <lastmod>2026-08-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/vote.html" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/vote.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/vote.html" />
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aurefold.com/sv/vote.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/vote.html" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/vote.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/vote.html" />
     <priority>0.7</priority>
   </url>
   <url>
