@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Aurefold Knowledge Graph</title>
+  <link rel="stylesheet" href="/assets/style.css?v=202608150700" />
+  <style>
+    .lm-wrap{max-width:1220px;margin:0 auto;padding:2rem 1rem 5rem}.lm-head{display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-wrap:wrap}.lm-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.8rem}.lm-card{border:1px solid rgba(120,90,65,.35);padding:1rem;background:rgba(255,255,255,.025)}.lm-card strong{display:block;font-size:1.3rem}.lm-panel{margin-top:1.5rem}.lm-table{width:100%;border-collapse:collapse;font-size:.9rem}.lm-table th,.lm-table td{padding:.6rem;border-bottom:1px solid rgba(120,90,65,.25);text-align:left;vertical-align:top}.lm-table tr[data-protected="true"]{background:rgba(154,107,58,.09)}.lm-table tr[data-stale="true"]{opacity:.7}.lm-form{max-width:980px;display:grid;gap:.8rem}.lm-form input,.lm-form select,.lm-form textarea{width:100%;padding:.7rem}.lm-form textarea{min-height:80px;resize:vertical}.lm-actions{display:flex;gap:.65rem;flex-wrap:wrap;align-items:center}.lm-status{margin:.7rem 0}.lm-warn{padding:.9rem;border-left:3px solid #9a6b3a;background:rgba(154,107,58,.08)}.lm-danger{padding:.9rem;border-left:3px solid #9a3934;background:rgba(154,57,52,.08)}.lm-fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:.8rem}.lm-small{font-size:.84rem;opacity:.82}.table-wrap{overflow-x:auto}[hidden]{display:none!important}.ghost{display:none!important}
+  </style>
+</head>
+<body>
+  <main class="lm-wrap">
+    <div class="lm-head">
+      <div><p class="eyebrow">AURELION PROJECT · AUTHOR ONLY</p><h1>Knowledge Graph</h1><p>Who knows what, when, through which channel, and with what degree of certainty.</p></div>
+      <div class="lm-actions"><a class="btn" href="/admin/loremaster.html">Loremaster</a><a class="btn" href="/admin/character-arcs.html">Character Arcs</a><button id="lm-signout" type="button" class="btn" hidden>Sign out</button></div>
+    </div>
+
+    <section id="lm-login" class="lm-panel">
+      <h2>Author sign-in</h2>
+      <p class="lm-warn">Access requires <code>app_metadata.aurefold_role=author|admin</code>. The browser contains no service-role key.</p>
+      <form id="lm-login-form" class="lm-form">
+        <label>Email <input id="lm-email" type="email" autocomplete="username" required /></label>
+        <label>Password <input id="lm-password" type="password" autocomplete="current-password" required /></label>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+      <p id="lm-login-status" class="lm-status" role="status"></p>
+    </section>
+
+    <section id="lm-dashboard" hidden>
+      <div class="ghost"><select id="lm-book"><option value="book-1">Book One</option></select><div id="lm-metrics"></div><table><tbody id="lm-scenes"></tbody><tbody id="lm-debts"></tbody><tbody id="lm-phrases"></tbody></table></div>
+
+      <section class="lm-panel">
+        <div class="lm-head"><div><h2>Knowledge health</h2><p>Knowledge is modeled as propositions and character positions, not as one omniscient truth table.</p></div><label>Book <select id="kg-book"><option value="book-1">The Bell of Silence</option><option value="book-2">The Road Still Open</option></select></label></div>
+        <div id="kg-health" class="lm-grid"></div>
+        <p id="kg-debt" class="lm-danger" hidden></p>
+        <p class="lm-warn"><strong>Protected ambiguity:</strong> a character may believe, suspect, repeat, dispute or fail to verify a proposition without the database promoting that proposition to objective truth.</p>
+      </section>
+
+      <section class="lm-panel">
+        <h2>Knowledge at a scene</h2>
+        <div class="lm-actions">
+          <label>Character <select id="kg-query-character"></select></label>
+          <label>At scene <select id="kg-query-scene"></select></label>
+          <button id="kg-query-run" type="button" class="btn btn-primary">Query state</button>
+        </div>
+        <p id="kg-query-status" class="lm-status"></p>
+        <div class="table-wrap"><table class="lm-table"><thead><tr><th>Proposition</th><th>Position</th><th>Stance</th><th>Certainty</th><th>Acquired</th><th>Evidence</th><th>Protected remainder</th></tr></thead><tbody id="kg-query-results"></tbody></table></div>
+      </section>
+
+      <section class="lm-panel">
+        <h2>Proposition catalogue</h2>
+        <p class="lm-small">A proposition is something that can be observed, claimed, believed, disputed or left unresolved. Its presence in this table is not proof that it is true.</p>
+        <div class="table-wrap"><table class="lm-table"><thead><tr><th>Key</th><th>Proposition</th><th>Kind</th><th>Authority</th><th>Truth scope</th><th>Protected remainder</th><th>Source</th></tr></thead><tbody id="kg-propositions"></tbody></table></div>
+      </section>
+
+      <section class="lm-panel">
+        <h2>Character knowledge timeline</h2>
+        <div class="lm-actions"><label>Holder <select id="kg-timeline-character"></select></label><button id="kg-timeline-load" type="button" class="btn">Load timeline</button></div>
+        <div class="table-wrap"><table class="lm-table"><thead><tr><th>When</th><th>Proposition</th><th>Awareness</th><th>Stance</th><th>Certainty</th><th>Channel</th><th>Evidence</th><th>Status</th></tr></thead><tbody id="kg-timeline"></tbody></table></div>
+      </section>
+
+      <section class="lm-panel">
+        <h2>Record knowledge event</h2>
+        <p class="lm-small">Use this for a character/institution gaining, revising, disputing or failing to verify a proposition. Exact/by-scene events are bound to the current manuscript section hash.</p>
+        <form id="kg-event-form" class="lm-form">
+          <div class="lm-fields">
+            <label>Holder <select id="kg-event-holder" required></select></label>
+            <label>Proposition <select id="kg-event-proposition" required></select></label>
+            <label>Timing <select id="kg-event-timing"><option>entry</option><option selected>exact_scene</option><option>by_scene</option><option>book_end</option><option>unknown</option></select></label>
+            <label>Scene <select id="kg-event-scene"></select></label>
+            <label>Awareness <select id="kg-event-awareness"><option>direct_experience</option><option>direct_observation</option><option selected>received_testimony</option><option>read_record</option><option>heard_rumor</option><option>inferred</option><option>suspects</option><option>believes</option><option>disputes</option><option>knows_disputed</option><option>knows_false</option><option>cannot_verify</option></select></label>
+            <label>Stance <select id="kg-event-stance"><option>accepts</option><option>rejects</option><option selected>uncertain</option><option>not_applicable</option></select></label>
+            <label>Certainty <select id="kg-event-certainty"><option>certain</option><option>high</option><option>medium</option><option>low</option><option selected>unknown</option></select></label>
+            <label>Evidence class <select id="kg-event-evidence"><option>source_explicit</option><option>text_entered</option><option>bounded_inference</option><option selected>working_hypothesis</option></select></label>
+            <label>Channel <select id="kg-event-channel"><option>experience</option><option>observation</option><option selected>speech</option><option>record</option><option>rumor</option><option>material_evidence</option><option>institutional_training</option><option>memory</option><option>inference</option><option>behavior</option><option>omission</option><option>other</option></select></label>
+            <label>Source revision <input id="kg-event-revision" value="working" /></label>
+          </div>
+          <label>Source locator <input id="kg-event-locator" placeholder="Chapter / source section / note" /></label>
+          <label>Notes <textarea id="kg-event-notes"></textarea></label>
+          <button type="submit" class="btn btn-primary">Record knowledge event</button>
+        </form>
+        <p id="kg-event-status" class="lm-status"></p>
+      </section>
+
+      <section class="lm-panel">
+        <h2>Create working proposition</h2>
+        <p class="lm-warn">This creates <strong>working/unresolved development data only</strong>. It cannot create or ratify canon and cannot create a new Canon Lock.</p>
+        <form id="kg-proposition-form" class="lm-form">
+          <div class="lm-fields">
+            <label>Stable key <input id="kg-prop-key" placeholder="b1.working.example" required /></label>
+            <label>Kind <select id="kg-prop-kind"><option>observation</option><option>material_fact</option><option>testimony</option><option>record</option><option>interpretation</option><option>rumor</option><option>false_claim</option><option>open_question</option><option selected>protected_unknown</option></select></label>
+            <label>Truth scope <select id="kg-prop-truth"><option>objective</option><option>bounded_observation</option><option>source_bound</option><option>perspectival</option><option selected>unresolved</option><option>false</option></select></label>
+          </div>
+          <label>Proposition <textarea id="kg-prop-text" required></textarea></label>
+          <label><input id="kg-prop-protected" type="checkbox" checked /> Protected ambiguity</label>
+          <label>Protected remainder <textarea id="kg-prop-remainder" placeholder="What must remain unowned or unresolved?"></textarea></label>
+          <label>Source label <input id="kg-prop-source-label" placeholder="Working analysis / creator note / source file" /></label>
+          <label>Source locator <input id="kg-prop-source-locator" /></label>
+          <label>Notes <textarea id="kg-prop-notes"></textarea></label>
+          <button type="submit" class="btn">Create working proposition</button>
+        </form>
+        <p id="kg-prop-status" class="lm-status"></p>
+      </section>
+
+      <section class="lm-panel">
+        <h2>Information transfers</h2>
+        <div class="table-wrap"><table class="lm-table"><thead><tr><th>When</th><th>Proposition</th><th>From</th><th>To</th><th>Transfer</th><th>Form</th><th>Meaning shift</th><th>Status</th></tr></thead><tbody id="kg-transfers"></tbody></table></div>
+      </section>
+    </section>
+  </main>
+  <script src="/data/community.js?v=202608151140"></script>
+  <script src="/assets/loremaster.js?v=202608151350"></script>
+  <script src="/assets/knowledge-graph.js?v=202608151530"></script>
+</body>
+</html>
