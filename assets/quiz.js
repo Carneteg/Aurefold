@@ -352,6 +352,71 @@
         note: "本书的正典与核心谜团属于作者；议会与本测验塑造的是书本周围的世界——档案接下来揭示或探索什么——而绝非故事的核心。",
         shareText: function (shortName) { return "在 Aurefold 中我会追随 House " + shortName + "——你会追随哪个家族？"; }
       }
+    },
+    ja: {
+      phil: {
+        blackthorn: "知性", ravenshade: "情報", ashbourne: "勇気",
+        whitehart: "信仰", stormrider: "結束", ironvale: "革新",
+        blackcrest: "勝者の歴史", stonebear: "名誉",
+        tidebreaker: "知識", phoenix: "未来"
+      },
+      line: {
+        blackthorn:  "彼らはあらゆる未来に備える——そして一瞬、遅れて動く。",
+        ravenshade:  "彼らは人が隠しておきたいものを商う。",
+        ashbourne:   "誰もがひるむものへ、彼らは突き進む。",
+        whitehart:   "彼らは一つの声に耳を澄ます——そしてそれを聞いたと言う者を試す。",
+        stormrider:  "彼らは人々をまとめる——束ねる者が生きている限り。",
+        ironvale:    "彼らはすべてを測り、誰も敢えて造らぬものを築く。",
+        blackcrest:  "彼らは記録を守る——そして記録は一種の力である。",
+        stonebear:   "彼らはすべてを失う一線を越えても、約束を守る。",
+        tidebreaker: "彼らはすべてを図に描き、ほとんど何も分かち合わない。",
+        phoenix:     "彼らは焼けた土の上に築き、決して下を見ない。"
+      },
+      q: [
+        { q: "難しい決断が迫っている。あなたが最も信じるものは？", a: [
+          ["あらゆる結末に備えた綿密な計画。", "blackthorn"],
+          ["他人には得られない、私が突き止められること。", "ravenshade"],
+          ["自分自身の胆力。", "ashbourne"],
+          ["自分が真実だと信じること。", "whitehart"] ] },
+        { q: "王国が割れつつある。あなたの最初の衝動は——", a: [
+          ["皆をまとめること。", "stormrider"],
+          ["破片から新しいものを築くこと。", "ironvale"],
+          ["真実の記録を残すこと。", "blackcrest"],
+          ["立てた誓いを、代償を問わず守ること。", "stonebear"] ] },
+        { q: "人はあなたの最大の強みをこう言うだろう——", a: [
+          ["私は見せる以上に理解している。", "tidebreaker"],
+          ["私は決して明日を諦めない。", "phoenix"],
+          ["私は三手先を読む。", "blackthorn"],
+          ["私はただ恐れを知らない。", "ashbourne"] ] },
+        { q: "見知らぬ人が助けを求めてくる。あなたは——", a: [
+          ["まず自分の払う代償を量る。", "blackthorn"],
+          ["語られていないことを問う。", "ravenshade"],
+          ["手を貸す——そして約束を守る。", "stonebear"],
+          ["善を為そうとする衝動を信じる。", "whitehart"] ] },
+        { q: "最もあなたらしいのは？", a: [
+          ["知識は黄金に勝る。", "tidebreaker"],
+          ["結束は正しさに勝る。", "stormrider"],
+          ["私たちが語る物語が真実になる。", "blackcrest"],
+          ["未来はどんな炎にも値する。", "phoenix"] ] },
+        { q: "すべてがうまくいかないとき、あなたは——", a: [
+          ["以前より良く、築き直す。", "phoenix"],
+          ["問題に正面から突っ込む。", "ashbourne"],
+          ["誰もが見落とした事実を見つける。", "ravenshade"],
+          ["約束したことを守り抜く。", "stonebear"] ] }
+      ],
+      ui: {
+        progress: function (i, total) { return total + "問中 " + i + "問目"; },
+        back: "← 戻る",
+        eyebrow: "あなたが従うのは",
+        castVote: "これを合議での一票とする",
+        followFree: "無料でフォロー",
+        joinReaders: function (n) { return n + "人の読者とともに追いかける"; },
+        shareLabel: "どの家に従うか教えよう",
+        shareX: "X でシェア", facebook: "Facebook", reddit: "Reddit", copy: "コピー",
+        again: "↻ もう一度",
+        note: "本の正典と中心的な謎は作者のもの。合議とこの診断が形づくるのは本を取り巻く世界——記録が次に何を開き、探るか——であって、物語の核心では決してない。",
+        shareText: function (shortName) { return "Aurefold で私は House " + shortName + " に従う——あなたはどの家に従う？"; }
+      }
     }
   };
 
