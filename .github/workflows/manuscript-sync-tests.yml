@@ -5,6 +5,7 @@ on:
     paths:
       - "tools/manuscript_sync.py"
       - "tests/test_manuscript_sync.py"
+      - "tests/test_security_hardening.py"
       - "assets/manuscript-sync.js"
       - "assets/canon-validator.js"
       - "assets/editorial-issues.js"
@@ -17,6 +18,7 @@ on:
       - "assets/timeline-engine.js"
       - "assets/spatial-continuity.js"
       - "assets/material-continuity.js"
+      - "assets/security-hardening.js"
       - "admin/loremaster.html"
       - "admin/character-arcs.html"
       - "admin/knowledge-graph.html"
@@ -26,12 +28,14 @@ on:
       - "admin/timeline.html"
       - "admin/spatial-continuity.html"
       - "admin/material-continuity.html"
+      - "admin/security-hardening.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
   push:
     paths:
       - "tools/manuscript_sync.py"
       - "tests/test_manuscript_sync.py"
+      - "tests/test_security_hardening.py"
       - "assets/manuscript-sync.js"
       - "assets/canon-validator.js"
       - "assets/editorial-issues.js"
@@ -44,6 +48,7 @@ on:
       - "assets/timeline-engine.js"
       - "assets/spatial-continuity.js"
       - "assets/material-continuity.js"
+      - "assets/security-hardening.js"
       - "admin/loremaster.html"
       - "admin/character-arcs.html"
       - "admin/knowledge-graph.html"
@@ -53,6 +58,7 @@ on:
       - "admin/timeline.html"
       - "admin/spatial-continuity.html"
       - "admin/material-continuity.html"
+      - "admin/security-hardening.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
 
@@ -66,6 +72,8 @@ jobs:
           python-version: "3.12"
       - name: Run stdlib manuscript sync tests
         run: python -m unittest tests/test_manuscript_sync.py
+      - name: Run security hardening regression tests
+        run: python -m unittest tests/test_security_hardening.py
       - name: Syntax-check browser sync client
         run: node --check assets/manuscript-sync.js
       - name: Syntax-check Canon Validator client
@@ -90,3 +98,5 @@ jobs:
         run: node --check assets/spatial-continuity.js
       - name: Syntax-check Material Continuity client
         run: node --check assets/material-continuity.js
+      - name: Syntax-check Security Hardening client
+        run: node --check assets/security-hardening.js
