@@ -8,6 +8,7 @@ on:
       - "assets/manuscript-sync.js"
       - "assets/canon-validator.js"
       - "assets/editorial-issues.js"
+      - "assets/scene-scorecards.js"
       - "admin/loremaster.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
@@ -18,6 +19,7 @@ on:
       - "assets/manuscript-sync.js"
       - "assets/canon-validator.js"
       - "assets/editorial-issues.js"
+      - "assets/scene-scorecards.js"
       - "admin/loremaster.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
@@ -38,3 +40,5 @@ jobs:
         run: node --check assets/canon-validator.js
       - name: Syntax-check Editorial Issues client
         run: node --check assets/editorial-issues.js
+      - name: Syntax-check Scene Scorecards client
+        run: node --check assets/scene-scorecards.js
