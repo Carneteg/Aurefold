@@ -16,6 +16,7 @@ on:
       - "assets/dependency-impact.js"
       - "assets/timeline-engine.js"
       - "assets/spatial-continuity.js"
+      - "assets/material-continuity.js"
       - "admin/loremaster.html"
       - "admin/character-arcs.html"
       - "admin/knowledge-graph.html"
@@ -24,6 +25,7 @@ on:
       - "admin/dependency-impact.html"
       - "admin/timeline.html"
       - "admin/spatial-continuity.html"
+      - "admin/material-continuity.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
   push:
@@ -41,6 +43,7 @@ on:
       - "assets/dependency-impact.js"
       - "assets/timeline-engine.js"
       - "assets/spatial-continuity.js"
+      - "assets/material-continuity.js"
       - "admin/loremaster.html"
       - "admin/character-arcs.html"
       - "admin/knowledge-graph.html"
@@ -49,6 +52,7 @@ on:
       - "admin/dependency-impact.html"
       - "admin/timeline.html"
       - "admin/spatial-continuity.html"
+      - "admin/material-continuity.html"
       - "supabase/migrations/**"
       - ".github/workflows/manuscript-sync-tests.yml"
 
@@ -84,3 +88,5 @@ jobs:
         run: node --check assets/timeline-engine.js
       - name: Syntax-check Spatial Continuity client
         run: node --check assets/spatial-continuity.js
+      - name: Syntax-check Material Continuity client
+        run: node --check assets/material-continuity.js
