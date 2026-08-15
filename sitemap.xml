@@ -1598,6 +1598,27 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://aurefold.com/community.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/community.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/community.html" />
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aurefold.com/banner-hall.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/banner-hall.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/banner-hall.html" />
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aurefold.com/scriptorium.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/scriptorium.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/scriptorium.html" />
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aurefold.com/sv/vote.html</loc>
     <lastmod>2026-08-15</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/vote.html" />
