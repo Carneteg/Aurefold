@@ -37,6 +37,8 @@
       onePerReader: "One voice per reader. The archive counts; it does not watch.",
       currentVoiceSuffix: " — your current voice",
       oneVoiceKept: "The Moot keeps one voice per reader — your first choice stands.",
+      memberOnly: "The great questions ask for a sworn voice — sign in to cast yours. One reader, one voice, counted across every device.",
+      onePerMember: "One voice per sworn reader. The archive counts; it does not watch.",
       notReached: "The archive could not be reached. Try again in a moment.",
       fromQuiz: "From your quiz — this house is highlighted below. Cast it, or choose another. Nothing is sent until you pick.",
       convening: "Convening the moot…",
@@ -64,6 +66,8 @@
       onePerReader: "En röst per läsare. Arkivet räknar; det övervakar inte.",
       currentVoiceSuffix: " — din nuvarande röst",
       oneVoiceKept: "Tinget håller en röst per läsare — ditt första val gäller.",
+      memberOnly: "De stora frågorna kräver en svuren röst — logga in för att lägga din. En läsare, en röst, räknad på alla dina enheter.",
+      onePerMember: "En röst per svuren läsare. Arkivet räknar; det övervakar inte.",
       notReached: "Arkivet kunde inte nås. Försök igen om en stund.",
       fromQuiz: "Från ditt test — det här huset är markerat nedan. Lägg din röst på det, eller välj ett annat. Inget skickas förrän du väljer.",
       convening: "Sammankallar tinget…",
@@ -91,6 +95,8 @@
       onePerReader: "Una voz por lector. El archivo cuenta; no vigila.",
       currentVoiceSuffix: " — tu voz actual",
       oneVoiceKept: "El Cónclave guarda una voz por lector — tu primera elección se mantiene.",
+      memberOnly: "Las grandes preguntas piden una voz juramentada — inicia sesión para dar la tuya. Un lector, una voz, contada en todos tus dispositivos.",
+      onePerMember: "Una voz por lector juramentado. El archivo cuenta; no vigila.",
       notReached: "No se pudo contactar con el archivo. Inténtalo de nuevo en un momento.",
       fromQuiz: "De tu test — esta casa está resaltada abajo. Vótala, o elige otra. Nada se envía hasta que elijas.",
       convening: "Convocando el cónclave…",
@@ -118,6 +124,8 @@
       onePerReader: "Une voix par lecteur. L’archive compte ; elle ne surveille pas.",
       currentVoiceSuffix: " — votre voix actuelle",
       oneVoiceKept: "Le Conseil garde une voix par lecteur — votre premier choix prévaut.",
+      memberOnly: "Les grandes questions demandent une voix assermentée — connectez-vous pour donner la vôtre. Un lecteur, une voix, comptée sur tous vos appareils.",
+      onePerMember: "Une voix par lecteur assermenté. L’archive compte ; elle ne surveille pas.",
       notReached: "Impossible de joindre l’archive. Réessayez dans un instant.",
       fromQuiz: "D’après votre quiz — cette maison est mise en avant ci-dessous. Votez-la, ou choisissez-en une autre. Rien n’est envoyé tant que vous n’avez pas choisi.",
       convening: "Convocation du conseil…",
@@ -145,6 +153,8 @@
       onePerReader: "每位读者一票。档案只计数，不监视。",
       currentVoiceSuffix: "——你当前的一票",
       oneVoiceKept: "议会每位读者只保留一票——你的第一次选择有效。",
+      memberOnly: "重大问题需要宣誓之声——登录后方可投出你的一票。每位读者一票，跨设备计数。",
+      onePerMember: "每位宣誓读者一票。档案只计数，不监视。",
       notReached: "无法连接档案。请稍后再试。",
       fromQuiz: "来自你的测验——下方高亮显示了这个家族。为它投票，或另选一个。在你做出选择前不会发送任何内容。",
       convening: "正在召集议会……",
@@ -172,6 +182,8 @@
       onePerReader: "読者一人につき一票。記録は数えるだけで、監視はしません。",
       currentVoiceSuffix: "——あなたの現在の一票",
       oneVoiceKept: "合議は読者一人につき一票を保ちます——最初の選択が有効です。",
+      memberOnly: "大いなる問いには宣誓の声が必要です——ログインしてあなたの一票を。読者一人に一票、どの端末でも数えられます。",
+      onePerMember: "宣誓した読者一人につき一票。記録は数えるだけで、監視はしません。",
       notReached: "記録に接続できませんでした。少し経ってからもう一度お試しください。",
       fromQuiz: "あなたの診断より——この家が下でハイライトされています。これに投票するか、別を選んでください。選ぶまで何も送信されません。",
       convening: "合議を招集しています……",
@@ -267,7 +279,7 @@
   }
 
   function loadPolls() {
-    return fetchJson(API + "/polls?select=id,question,description,poll_options(id,label,detail,sort)&open=eq.true&order=sort", { headers: HEADERS });
+    return fetchJson(API + "/polls?select=id,question,description,requires_auth,poll_options(id,label,detail,sort)&open=eq.true&order=sort", { headers: HEADERS });
   }
   function loadResults() {
     // Aggregated counts live in a dedicated tally table (kept in sync by a
@@ -290,8 +302,30 @@
     });
   }
 
+  /* Polls marked requires_auth ("the great questions") take signed-in votes
+     through member_votes instead — one voice per account, not per browser.
+     AurefoldAuth carries the member's token; RLS + the (poll_id, user_id)
+     primary key enforce the one-voice rule server-side. */
+  var Auth = window.AurefoldAuth || null;
+
+  function castMemberVote(pollId, optionId) {
+    return Auth.api("/member_votes", {
+      method: "POST",
+      body: { poll_id: pollId, option_id: optionId },
+      prefer: "return=minimal"
+    });
+  }
+
+  function fetchMemberVote(pollId) {
+    return Auth.api("/member_votes?poll_id=eq." + encodeURIComponent(pollId) +
+      "&user_id=eq." + Auth.user().id + "&select=option_id")
+      .then(function (rows) { return rows && rows.length ? rows[0].option_id : null; })
+      .catch(function () { return null; });
+  }
+
   function renderPoll(poll, results) {
-    var card = el("article", "moot-card");
+    var isAuthPoll = !!poll.requires_auth && !!Auth;
+    var card = el("article", "moot-card" + (isAuthPoll ? " moot-card--sworn" : ""));
     card.appendChild(el("p", "moot-kind", kindFor(poll)));
     card.appendChild(el("h2", "section-title", poll.question));
     if (poll.description) card.appendChild(el("p", "moot-desc", poll.description));
@@ -390,9 +424,17 @@
 
     // Show the ballot. When `prevChoice` is set the reader is changing an
     // existing vote, so we add a "keep" escape hatch and honour the server's
-    // one-vote rule on submit.
+    // one-vote rule on submit. Sworn (requires_auth) polls ask anonymous
+    // visitors to sign in first — the gate renders instead of the ballot.
     function showVoting(prevChoice) {
       body.innerHTML = "";
+
+      if (isAuthPoll && !Auth.user()) {
+        note.textContent = T.memberOnly;
+        Auth.renderGate(body);
+        return;
+      }
+
       var list = el("div", "moot-options");
       poll.poll_options.slice().sort(function (a, b) { return a.sort - b.sort; }).forEach(function (o) {
         var btn = el("button", "moot-option");
@@ -404,7 +446,7 @@
         btn.addEventListener("click", function () {
           if (prevChoice && o.id === prevChoice) { showResults(prevChoice); return; }
           Array.prototype.forEach.call(body.querySelectorAll(".moot-option"), function (b) { b.disabled = true; });
-          castVote(poll.id, o.id).then(function (res) {
+          (isAuthPoll ? castMemberVote(poll.id, o.id) : castVote(poll.id, o.id)).then(function (res) {
             if (prevChoice && res && res.conflict) {
               // The server keeps one vote per reader (unique on ew-voter); a
               // re-cast is refused. Reflect the stored choice and say so.
@@ -435,8 +477,23 @@
         peek.type = "button";
         peek.addEventListener("click", function () { showResults(null); });
         body.appendChild(peek);
-        note.textContent = T.onePerReader;
+        note.textContent = isAuthPoll ? T.onePerMember : T.onePerReader;
       }
+    }
+
+    // Sworn polls: the member's standing voice lives server-side, so it is the
+    // same on every device. Anonymous polls keep the per-browser record.
+    if (isAuthPoll) {
+      Auth.ready.then(function () {
+        if (!Auth.user()) { showVoting(null); return; }
+        fetchMemberVote(poll.id).then(function (serverChoice) {
+          var chosen = serverChoice || votedFor(poll.id);
+          if (serverChoice) markVoted(poll.id, serverChoice);
+          if (chosen) showResults(chosen);
+          else showVoting(null);
+        });
+      });
+      return card;
     }
 
     var chosen = votedFor(poll.id);
