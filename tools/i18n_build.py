@@ -131,7 +131,10 @@ MARK_S, MARK_E = "<!-- i18n:switcher -->", "<!-- /i18n:switcher -->"
 HL_S, HL_E = "<!-- i18n:hreflang -->", "<!-- /i18n:hreflang -->"
 
 def strip_marked(s, a, b):
-    return re.sub(re.escape(a) + r".*?" + re.escape(b), "", s, flags=re.S)
+    # Remove the marked block along with any immediately-preceding
+    # whitespace-only lines and inline indentation, so repeated generator
+    # runs stay byte-for-byte idempotent (no accumulating blank lines).
+    return re.sub(r'(?:[ \t]*\n)*[ \t]*' + re.escape(a) + r".*?" + re.escape(b), "", s, flags=re.S)
 
 def inject_common(html, lang, page):
     html = strip_marked(html, MARK_S, MARK_E)
