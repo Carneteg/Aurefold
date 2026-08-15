@@ -100,6 +100,7 @@
       await Promise.all([renderMetrics(), renderDebts(), renderPhrases()]);
       await renderScenes();
       login.hidden = true; dashboard.hidden = false; signout.hidden = false; status.textContent = "";
+      window.dispatchEvent(new Event("aurefold:loremaster-ready"));
     } catch (error) {
       sessionStorage.removeItem(TOKEN_KEY);
       dashboard.hidden = true; signout.hidden = true; login.hidden = false;
