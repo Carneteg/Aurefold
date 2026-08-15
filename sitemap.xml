@@ -197,6 +197,17 @@
   <url>
     <loc>https://aurefold.com/support.html</loc>
     <lastmod>2026-08-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/support.html" />
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aurefold.com/sv/support.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/support.html" />
     <priority>0.8</priority>
   </url>
   <url>
