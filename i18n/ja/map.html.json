@@ -1,0 +1,11 @@
+{
+  "title": "Banner-lands の地図 — Aurefold",
+  "description": "Banner-lands のインタラクティブな地図を探索しよう——十の大家の座と、Aurefold の第一巻が展開する山間の谷。",
+  "blocks": [
+    ["title=\"Zoom in\" aria-label=\"Zoom in\"", "title=\"拡大\" aria-label=\"拡大\""],
+    ["title=\"Zoom out\" aria-label=\"Zoom out\"", "title=\"縮小\" aria-label=\"縮小\""],
+    ["title=\"Reset view\" aria-label=\"Reset view\"", "title=\"表示をリセット\" aria-label=\"表示をリセット\""],
+    ["<button id=\"detail-close\" class=\"detail-close\" aria-label=\"Close\">", "<button id=\"detail-close\" class=\"detail-close\" aria-label=\"閉じる\">"],
+    ["Read the house record →", "家の記録を読む →"]
+  ]
+}

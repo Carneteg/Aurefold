@@ -1,0 +1,20 @@
+{
+  "title": "Aurefold の世界 — the Banner-lands",
+  "description": "Aurefold の世界の内側——the Tenfold Compact、A.U. 暦、the Ash Fields、そして十の大家が四百年前に誓った不安定な平和。",
+  "blocks": [
+    ["<h1 class=\"page-title\">The World</h1>", "<h1 class=\"page-title\">世界</h1>"],
+    ["Notes toward a general geography, compiled from the surviving sources.", "現存する諸資料からまとめた、一般地理に向けての覚書。"],
+
+    ["<h2 class=\"section-title\">The seat of power</h2>", "<h2 class=\"section-title\">権力の座</h2>"],
+    ["<h2 class=\"section-title\">The coming jubilee</h2>", "<h2 class=\"section-title\">来たる祝祭</h2>"],
+    ["<h2 class=\"section-title\">The rivers</h2>", "<h2 class=\"section-title\">河川</h2>"],
+
+    ["One continent, shaped — the old charts agree on this much — like a kidney.\n        To the west and south lies the Sleeping Sea; few ships that make for deep\n        water return, and the wise trade along the coasts. To the east and north\n        stand the Silent Mountains, and beyond them nothing certain — only rumors\n        of “the houseless.” At the heart of the continent lie the Ash Fields.", "ひとつの大陸——古い海図もそこまでは一致している——腎臓のような形をしている。\n        西と南には the Sleeping Sea が広がり、深海を目指す船で戻るものはほとんどなく、\n        賢き者は沿岸沿いに商いをする。東と北には the Silent Mountains がそびえ、\n        その向こうには確かなものは何もない——ただ「家なき者」の噂があるのみ。\n        大陸の中心には the Ash Fields が横たわる。"],
+    ["High, silent valleys in the northwest, where goatherds keep their flocks and\n        House Whitehart keeps the Bell of Silence. It is a country that listens.\n        <a href=\"book.html\">Book One begins there.</a>", "北西の高く静かな谷。そこではヤギ飼いたちが群れを飼い、\n        House Whitehart が the Bell of Silence を守る。それは耳を澄ます国だ。\n        <a href=\"book.html\">第一巻はそこから始まる。</a>"],
+    ["The seat of power carries three disputed names — <em>Ederhamn · Elvestad ·\n        Ederstad</em> — never resolved, never translated. The sources disagree,\n        and the sources are all we have.", "権力の座は三つの争われた名を持つ——<em>Ederhamn · Elvestad ·\n        Ederstad</em>——決して決着せず、決して訳されることもなかった。諸資料は食い違い、\n        そして諸資料こそが我々の持つすべてだ。"],
+    ["Sworn in the year 0, at the end of the War of the Unification. Every year\n        since has been counted from it. The oath bound the Great Houses to one\n        realm, and the realm has held — by one measure or another — for nearly\n        four centuries.", "the War of the Unification の終わりに、0 年に誓われた。以後のすべての年は\n        そこから数えられてきた。その誓いは大家たちをひとつの王国に結び、\n        王国は——何らかの尺度で——四世紀近くのあいだ保たれてきた。"],
+    ["The 400-year jubilee of the Unification is four years away. Across the\n        Banner-lands, House Blackcrest gathers the realm’s testimony for the\n        occasion.", "Unification の四百年祝祭は四年後に迫っている。Banner-lands 全土で、\n        House Blackcrest がその折のために王国の証言を集めている。"],
+    ["The rivers of the Banner-lands go unnamed in this archive. The charts\n        never agree.", "Banner-lands の河川はこの記録では名を持たない。海図は\n        決して一致しない。"],
+    ["Where the sources disagree, the disagreement is kept.", "諸資料が食い違うところでは、その食い違いこそが保たれる。"]
+  ]
+}
