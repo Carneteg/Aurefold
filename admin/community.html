@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Aurefold — Community moderation</title>
+  <link rel="stylesheet" href="/assets/style.css?v=202608151700" />
+  <style>
+    .mod-wrap{max-width:900px;margin:0 auto;padding:2rem 1rem 5rem}
+    .mod-bar{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;margin-bottom:.5rem}
+    .mod-heading{font-size:1.6rem;margin:0}
+    .mod-hint{font-size:.92rem;opacity:.85;max-width:60ch;margin-bottom:2rem}
+    .mod-login{max-width:420px;margin:3rem auto}
+    .mod-section{margin-bottom:2.5rem}
+    .mod-title{font-size:1.15rem;border-bottom:1px solid rgba(120,90,65,.35);padding-bottom:.4rem}
+    .mod-empty{font-style:italic;opacity:.75}
+    .mod-card{border:1px solid rgba(120,90,65,.35);background:rgba(255,255,255,.03);padding:1rem;margin:.8rem 0}
+    .mod-card-head{display:flex;gap:.7rem;align-items:center;margin-bottom:.5rem;flex-wrap:wrap}
+    .mod-badge{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;padding:.15rem .5rem;border:1px solid currentColor;border-radius:2px}
+    .mod-badge-pending{color:#9a6b3a}
+    .mod-badge-approved{color:#4d7a4d}
+    .mod-badge-featured{color:#4d7a4d}
+    .mod-badge-adopted{color:#4d7a4d}
+    .mod-badge-rejected{color:#9a3934}
+    .mod-meta{font-size:.82rem;opacity:.75}
+    .mod-context{font-size:.8rem;letter-spacing:.05em;opacity:.7;margin:.1rem 0}
+    .mod-body{margin:.35rem 0;white-space:pre-wrap}
+    .mod-sub{font-size:.88rem;opacity:.85;margin:.25rem 0;white-space:pre-wrap}
+    .mod-clamp{display:-webkit-box;-webkit-line-clamp:8;-webkit-box-orient:vertical;overflow:hidden}
+    .mod-actions{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.7rem}
+    .mod-btn{font-size:.85rem;padding:.45rem .9rem}
+    .mod-approved,.mod-featured,.mod-adopted{background:var(--ember);color:var(--bg)}
+    .mod-rejected{background:transparent;color:#9a3934;border:1px solid #9a3934}
+  </style>
+</head>
+<body>
+  <main class="mod-wrap" id="mod-root"></main>
+  <script src="/data/community.js?v=202608151700"></script>
+  <script src="/assets/moderation.js?v=202608151700"></script>
+</body>
+</html>
