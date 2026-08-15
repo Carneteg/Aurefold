@@ -1,0 +1,10 @@
+create index if not exists idx_character_knowledge_book on public.character_knowledge_events(book_code);
+create index if not exists idx_character_knowledge_version on public.character_knowledge_events(manuscript_version_id);
+create index if not exists idx_character_knowledge_source_claim on public.character_knowledge_events(source_claim_id);
+create index if not exists idx_character_knowledge_source_document on public.character_knowledge_events(source_document_id);
+create index if not exists idx_character_knowledge_source_entity on public.character_knowledge_events(source_entity_id);
+create index if not exists idx_knowledge_propositions_event on public.knowledge_propositions(event_entity_id);
+create index if not exists idx_knowledge_propositions_source_document on public.knowledge_propositions(source_document_id);
+create index if not exists idx_knowledge_transfers_book on public.knowledge_transfers(book_code);
+create index if not exists idx_knowledge_transfers_version on public.knowledge_transfers(manuscript_version_id);
+create index if not exists idx_knowledge_transfers_source_document on public.knowledge_transfers(source_document_id);

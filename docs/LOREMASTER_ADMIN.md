@@ -1,6 +1,6 @@
 # Aurefold Loremaster Admin
 
-The author dashboard lives at `/admin/loremaster.html` and uses the existing Aurefold Supabase project (`akboesleczddqdikjzbw`). Character Arc Graph is available at `/admin/character-arcs.html` and uses the same authentication/RLS boundary.
+The author dashboard lives at `/admin/loremaster.html` and uses the existing Aurefold Supabase project (`akboesleczddqdikjzbw`). Character Arc Graph is available at `/admin/character-arcs.html`, and Knowledge Graph at `/admin/knowledge-graph.html`; all use the same authentication/RLS boundary.
 
 ## Security model
 
@@ -32,9 +32,10 @@ Loremaster currently provides:
 - Canon Validator for local manuscript risk scanning, registered validation history and deterministic database canon checks;
 - Editorial Issues for developmental backlog, scene/character scope, revision targets and resolution history;
 - Scene Scorecards for version-bound scene/chapter observations, diagnostic signals, priority assessment and consecutive-pattern detection;
-- Character Arc Graph for version-bound character state, arc beats, agency/relationship movement and cross-checks against Scene Scorecards.
+- Character Arc Graph for version-bound character state, arc beats, agency/relationship movement and cross-checks against Scene Scorecards;
+- Knowledge Graph for proposition-level epistemic state, temporal character knowledge and information-transfer custody.
 
-Direct editing of canon tables is still **not** exposed in the browser. Author writes are narrowly scoped RPC workflows for manuscript registration, canon-validation review metadata, editorial-development records, scene-scorecard assessments, and character-arc assessments/beats. Each RPC re-checks `app_metadata.aurefold_role=author|admin` server-side.
+Direct editing of canon tables is still **not** exposed in the browser. Author writes are narrowly scoped RPC workflows for manuscript registration, canon-validation review metadata, editorial-development records, scene-scorecard assessments, character-arc assessments/beats, and Knowledge Graph working/epistemic records. Each RPC re-checks `app_metadata.aurefold_role=author|admin` server-side.
 
 The dashboard is not a replacement for formal ratification. Editing/promoting canon will be added only with explicit workflow controls so a UI click cannot silently create a new Canon Lock.
 
@@ -101,6 +102,35 @@ No arc interpretation is seeded automatically. At v1 deployment the production d
 
 See `docs/CHARACTER_ARC_GRAPH.md` for the complete model.
 
+## Knowledge Graph
+
+Knowledge Graph lives at `/admin/knowledge-graph.html` and operationalizes the project's epistemic rule that **reader knowledge, character knowledge, institutional knowledge and objective canon are not the same thing**.
+
+It separates:
+
+- a proposition that can be observed, claimed, believed, disputed or left unresolved;
+- the proposition's authority/truth scope;
+- a holder's awareness, stance and certainty at a specific point in the story;
+- the channel/source through which information arrived;
+- information transfer/custody between people and institutions.
+
+The author workspace can:
+
+- query what a character can be temporally supported as knowing at a chosen scene;
+- show entry/exact/by-scene/book-end/unknown timing without silently filling gaps;
+- distinguish direct observation from testimony, records, rumor, inference, belief and inability to verify;
+- track source and evidence class;
+- create **working/unresolved propositions only** through the UI — never ratified canon;
+- record knowledge events and preserve manuscript-version/section-hash binding;
+- display information-transfer custody and meaning-shift notes;
+- expose Book Two knowledge source debt explicitly.
+
+Protected ambiguity is enforced server-side. A protected proposition cannot be entered as high/certain accepted direct observation/experience in a way that operationally turns an unresolved mystery into owned objective truth. Characters may still believe, suspect, dispute or repeat uncertain claims.
+
+Book One is seeded conservatively from `Aurefold_Book_One_Character_and_Knowledge_Map_v1.3.docx`: critical protected questions and explicit knowledge-state changes such as Wren's bounded Jeren observation, the 9/12 Gate records, Col-account custody, and Sela hearing the Bell without knowing its cause. The seed is intentionally incomplete rather than inferred.
+
+See `docs/KNOWLEDGE_GRAPH.md` for the complete model.
+
 ## Manuscript privacy
 
 Both Manuscript Sync and Canon Validator process selected Markdown locally in the browser.
@@ -109,7 +139,7 @@ Manuscript Sync uploads structural metadata and hashes. Canon Validator uploads 
 
 Canon Validator may show a short evidence excerpt locally to help the author review a regex candidate. That excerpt is deliberately excluded from the registration payload, and the registration RPC strips prose-like detector fields if a modified client attempts to submit them.
 
-Scene Scorecards and Character Arc Graph store editorial observations written by the author/editor, not manuscript prose automatically extracted from the source file.
+Scene Scorecards and Character Arc Graph store editorial observations written by the author/editor, not manuscript prose automatically extracted from the source file. Knowledge Graph stores proposition/epistemic control records and source locators, not a copy of manuscript prose.
 
 ## Canon Validator status model
 
@@ -134,10 +164,10 @@ Two open source debts are tracked in the database:
 1. Book Two Spine & Chapter Architecture v1.0 is referenced but unavailable.
 2. Book Two Character & Knowledge Map v1.0 is referenced but unavailable.
 
-Therefore the thirty Scene Ledger chapters are indexed as working structure, not publication-locked architecture. Their knowledge fields remain deliberately unfilled rather than being reconstructed from assumption.
+Therefore the thirty Scene Ledger chapters are indexed as working structure, not publication-locked architecture. Their knowledge fields remain deliberately unfilled rather than being reconstructed from assumption. Knowledge Graph health likewise reports Book Two's missing Character & Knowledge Map as active source debt rather than pretending K-state coverage is complete.
 
 ## Public boundary
 
-The public website can currently read only curated views. Anonymous users do not receive validator rules, validation runs/findings, manuscript-sync records, editorial issues/history, scene scorecards/history, character arcs/history, internal scenes, character engines, source debt or proposal phrase material.
+The public website can currently read only curated views. Anonymous users do not receive validator rules, validation runs/findings, manuscript-sync records, editorial issues/history, scene scorecards/history, character arcs/history, Knowledge Graph propositions/events/transfers, internal scenes, character engines, source debt or proposal phrase material.
 
 The English Great Houses page hydrates from `site_houses` when Supabase is available and retains its static HTML as a fail-closed fallback. Localized House pages remain static until translation-aware projections exist.
