@@ -1,79 +1,65 @@
-# Granskningsrapport — Batch kap 35–40 (rader 13170–14902)
-## Perspektiv: VÄRLD & MAKTSPEL
+# Granskningsrapport — Kapitel 35–40, perspektiv VÄRLD & MAKTSPEL
 
-Källa: `/mnt/agents/temp/Aurefold_The_Bell_of_Silence_English_Master_v1.6.md` (17 533 rader). Hela intervallet läst. Frekvenser: exakt case-sensitiv grep, om inget annat anges.
-
----
-
-## SVAR PÅ UPPFÖLJNINGSUPPDRAG
-
-### 1. Extern registrering av slaget (64 döda): bekräftat total blindhet, våg 5
-
-Grep i intervallet 13170–14902: **"Crown-watch" 0 träffar, "Blackcrest" 0 träffar, "Blackthorn" 0 träffar.** "Oath-hold" förekommer (Orlas institution), men Orlas mandat föregår slaget — hennes resa började innan Lower Field ("She had already been on the road when the battle happened", r.14082-kontext). Ingen extern makt registrerar de 64 döda. Ingen kurir skickas. Ingen fråga kommer utifrån. **Femte raka batchen.** Vid det här laget är det inte längre en plotbrist att rapportera — det är en *världsregel* som texten aldrig deklarerar: det finns ingen omvärld som lyssnar. Om det är avsikten (isolerad dal, isolerat hus) måste texten någonstans markera att omvärlden *skulle* ha lyssnat men inte gör det. [PROPOSAL — not canon] En enda rad: t.ex. Perrin innan han rider: "Blackcrest will ask why I stayed so long. I will tell them the truth and they will not believe it." — något som etablerar att omvärlden finns och kommer att reagera, även om reaktionen inte syns. Utan en sådan markör är slutaktens Chronicle-förhandling (om den kommer) oförberedd.
-
-### 2. Orla Darun: institutionell analys
-
-**Orla är bokens första externa makt som faktiskt *agerar* — och hon är därför batchens viktigaste världsbyggande händelse.** Hennes funktion:
-
-- **Mandat:** Oath-hold vittne med full befogenhet att dra gränslinjer. Hennes auktoritet ifrågasätts aldrig — inte av Whitehart, inte av dalägarna, inte av lägret. Det är anmärkningsvärt i sig: en ensam kvinna med ett mätningsinstrument och ett sigill hävdar jurisdiktion över fyra hundra år av sedvänja, och *alla accepterar det*. Texten förklarar aldrig varför Oath-hold har denna makt. [PROPOSAL — not canon] Inte nödvändigt att förklara — men en enda etablerande mening (t.ex. Orla själv: "The last time Oath-hold drew a line here, three houses starved. Nobody has asked us since." — något som ger institutionen en historia och därmed en kostnad för att ignorera den) skulle förhindra att Oath-hold upplevs som en plotmekanism.
-
-- **Betalningen:** "I spent mine" (r.14354) — Orla belånar sin professionella auktoritet för att ge Fen ställning. Detta är det första konkreta exemplet i boken på att extern makt *kostar* något för den som utövar den. Wrens observation (r.14420–14422: "Belief without standing changes nothing" / "It changes me") etablerar att Orlas makt är personlig, förbrukningsbar och begränsad — precis den typ av makt som är trovärdig.
-
-- **Domen:** "Whitehart had no grant duty to house, feed, police, or disperse the people below. / Whitehart had no grant right to seize their shelters or command them off valley land. / Whitehart could close its gate." (r.14488–14492). Den är juridiskt exakt och moraliskt tom — och Orla säger det själv ("Does it absolve the house if we close?" / "No." r.14517–14519). Det är den bästa maktspelsscenen i boken: lagen ger rätt men vägrar ge rättfärdighet.
-
-- **Kritisk notering:** Orlas dom löser gränsfrågan men skapar en ny maktfråga texten aldrig adresserar: *vem äger lägret?* Om Whitehart inte har rätt att jaga dem (r.14490) och dalägarna bara undertecknar "receipt, not agreement" (r.14529), då befinner sig fyra tusen människor i ett rättsligt vakuum. Kap 39–40 visar konsekvenserna (ingen ansvarig, ingen mat, ingen auktoritet) men ingen karaktär *namnger* vakuumet som politiskt problem — bara som logistiskt. [PROPOSAL — not canon] En rad i kap 39 eller 40 där någon (Wren, eller Aren om han funnits) konstaterar att domen skapade ett territorium utan ägare och utan lag — det skulle förbereda slutaktens eventuella kaos.
-
-### 3. Roderick: maktspelsanalys
-
-Roderick agerar i batchen som *instrument*, inte som *aktör*. Han mäter körfältet (kap 37), bär korglinan (kap 40), möter talarna utan stav (r.14819). Hans enda självständiga beslut är att säga "I try to make the lane" (r.14069) — ett svar om metod, inte vilja. I maktspelstermer: Roderick har *kompetens* och *trovärdighet* men noll *agenda*. Han är den ende i boken med fysisk kapacitet att tvinga igenom något (han är den ende som kan föra människor över muren) och han använder den aldrig för egen vinning. Det är antingen heligdom eller underutveckling. [PROPOSAL — not canon] Om slutakten ska ha en intern opposition mot Alaine (och den borde det, efter stängningen), är Roderick den naturliga bäraren — men han behöver en enda scen där han *vägrar* eller *föreslår* något som inte är någon annans order. Annars är han en mycket välskriven verktygslåda.
-
-### 4. "Whitehart accepts her" — ekonomisk analys av r.14835
-
-Waste-duty-kvinnans fråga (r.14835: *"why the house had accepted her name for waste duty and not for a share of grain"*) är bokens första explicita formulering av att Whiteharts registreringssystem är **enkelriktat**: huset registrerar människor för att *ta ut* prestationer (arbete, skatt, vakttjänst) men inte för att *ge* (mat, skydd, rättigheter). Det är en maktteknisk observation av högsta klass. Tomas: *"I don't have an answer entered for that"* (r.14837) — huset har ingen protokollrad för nedåtriktad ersättning. Kvinnans svar — *"Then enter the question"* (r.14839) — tvingar huset att registrera sin egen asymmetri. Detta är den mest sofistikerade maktanalysen i hela batchen, och den kommer från en namnlös kvinna i sjunde raden. **Förtjänar att återkomma i slutakten.**
+**Källa:** /mnt/agents/temp/Aurefold_The_Bell_of_Silence_English_Master_v1.6.md, rader 13170–14902 (hela intervallet läst).
+**Metod:** Frekvenser räknade med `grep -o`/ordgränser, case-sensitive där inget annat anges.
 
 ---
 
-## NULÄGE: vad som fungerar (värld & maktspel)
+## Nuläge: vad som fungerar
 
-**Orla-domen är bokens första riktiga maktspel med externa aktörer.** Tidigare batcher har haft intern Whitehart-politik och hus-till-hus-fraktioner men ingen extern institution med egen jurisdiktion. Orla ändrar det. Hennes makt är begränsad (personlig, förbrukningsbar), hennes dom är exakt, och hennes vägran att friskriva (tre "No") är moraliskt ren utan att vara naiv.
+**1. Oath-hold-payoffen (kap 38) är batchens starkaste maktspelssekvens.** Orla Darun är en institutionell aktör som kostar på sig själv i stället för att dela ut gratifikationer: hon vägrar guest-right för att bevara sin opartiskhet ("A bed and three meals," Tomas said. / "Also protection, deference, freedom from toll, and an obligation on me not to injure the house while I am under its roof." — kap 38, r.14104–14106), betalar för sig trots Ansels vägran ("The byre loft cost four marks for six nights. Ansel refused the first payment." — r.14110), och spenderar sin egen standing åt Fen utan att återställa honom: "Then spend mine." (r.14232) — "No," she told them. "I spent mine." (r.14354). Det är exakt den GoT-linje författaren efterfrågar: en person med makt (här: processuell standing) förlorar något reellt (anonymitet, komfort, egen rättsliga exponering) för att systemet ska röra sig en tum.
 
-**Kap 39:s stängningssekvens är institutionellt perfekt.** Alaine namnger sig själv som ansvarig ("She named Orla's ruling as permission and not cause"), vägrar kalla det nåd ("She did not call the choice merciful"), och stänger vid lampändningen så att ingen kan säga att det gjordes i mörker. Det är en institution som gör det värsta möjliga beslutet på det mest transparenta möjliga sättet — och texten låter det vara både rätt och fruktansvärt. Maktspel när det är som bäst: inga skurkar, alla förlorar.
+**2. Domen vägrar absolution.** Alaines tre frågor — "Does your ruling order closure?" "No." / "Does it advise closure?" "No." / "Does it absolve the house if we close?" — besvaras med ett "No" som "did not move" (r.14526–14530), och Orla spikar ansvaret kvar hos huset: "No wording I enter today can carry those questions away for you." (r.14532). Lagen svarar på exakt en fråga och lämnar kvar skulden. Det är mogen maktspelsprosa: institutionen är kompetent *och* otillräcklig samtidigt.
 
-**Kap 40:s korgscen är den enda handling i batchen som bryter institutionens ramar** — spädbarnet lyfts över muren av Roderick och Sinnet, utan order, utan protokoll. Det är bokens första exempel på att individer agerar *utanför* institutionen för att institutionen är för långsam. Sinnet: "If you begin private mercy, you will have private war before morning" (r.14793) — hon räddar barnet och fördömer handlingen samtidigt. Maktens logik i en köksmening.
+**3. Signes de facto-permanens-argument (kap 37) är en skarp världsinsikt.** "They were granted timber on credit, fittings, cart access, ration priority for work, and permission to drive pegs while a ruling traveled. Whatever word you refused, the acts supplied it." (r.13891). Handlingar skapar rättigheter snabbare än ord vägrar dem — det är precis den typ av institutionell dynamik som gör världen trovärdig.
 
-**Nio-dagarsräkningen** (kap 37: nio stenar, nio dagar) är en konkret maktmekanism: vem som räknar bestämmer när krisen börjar. Ansels "Seven if fear increases the line" (r.14594) visar att huset förstår att räkningen är politisk, inte bara logistisk.
+**4. Maktteknisk äkthet i stängningen (kap 39).** Alaine "named Orla's ruling as permission and not cause" (r.14748) — juridiskt exakt distinktion. Och överlämnandet till Sela är formaliserat som ansvarsflykt med öppna ögon: "The order is mine unless you stop it. If you stop it, that choice is yours. There is no clean division available to us." (r.14708). Formell auktoritet + informellt veto hos en icke-svuren flicka = ett realistiskt porträtt av hur makt delegerar det obeslutbara. Sinnets mikrostyre — "If you begin private mercy," she said, "you will have private war before morning." (r.14787) — är samma tema i kalkylskala: även nåd måste ransoneras av institutionen.
 
----
-
-## FÖRBÄTTRINGSPOTENTIAL (prioriterat)
-
-### [HÖG] Femte vågen av total extern blindhet — nu en världsregel utan deklaration
-Se uppdrag 1. Efter 64 döda, en gränsdom och en portstängning har fortfarande ingen extern makt reagerat. Antingen deklarera isolationsregeln explicit (en rad) eller ge ett tecken på att omvärlden finns. [PROPOSAL — not canon] Se förslag under uppdrag 1.
-
-### [MEDEL] Rättsligt vakuum efter Orlas dom — ingen namnger det
-Orlas dom fråntar Whitehart både skyldighet och rätt. Fyra tusen människor i lägret tillhör nu ingen. Ingen i texten säger detta. [PROPOSAL — not canon] En rad av Wren eller Osric: "The ruling created a territory without an owner. Four thousand people live in it." — något som gör vakuumet till politiskt faktum, inte bara logistiskt.
-
-### [MEDEL] Roderick behöver en agenda eller ett nej
-Se uppdrag 3. Han är bokens ende handlingskraftige man utan eget intresse. [PROPOSAL — not canon] En scen där han vägrar, föreslår eller ifrågasätter — något som inte är en annan persons order.
-
-### [LÅG] Dalägarnas "receipt, not agreement" (r.14529) är en laddad fras som inte laddas ur
-Dalägarna undertecknar Orlas dom som kvittens, inte som samtycke. Det är en juridisk distinktion med enorm framtidspotential (de kan riva upp domen, kräva hyra, jaga lägret) — men ingen i batchen agerar på det. [PROPOSAL — not canon] Om slutakten ska involvera dalägarna (och den borde det — marken är deras), bör en ägare namnges och få en replik. Annars står frasen som oanvänd sprängladdning.
-
-### [LÅG] Orlas institution (Oath-hold) saknar historia
-Se uppdrag 2. En enda etablerande mening om varför Oath-hold har gränsdragningsrätt skulle räcka. [PROPOSAL — not canon] Se förslag under uppdrag 2.
+**5. Roans kompaniplan (kap 37) misslyckas ärligt.** Kapacitetssiffrorna är konsistenta: "The south valley can receive perhaps six hundred before its stores turn. West relay, two hundred if they strip the pack sheds." (r.13871), lower coast "Is sixteen loaded days away," said Nella's factor (r.13873) — 600+200 = exakt de "eight hundred possible departures" (r.13975) som senare nämns. Planen dödas av logistik, inte skurkaktig: "South movement can begin in three days," he said. / "And finish?" Sela asked. / "No." (r.13955–13958).
 
 ---
 
-## KONTINUITET & RISKER
+## Förbättringspotential
 
-- **Kanon-spärrar:** inga brott i batchen. Grep-verifierat: "ten seals" 0 träffar (13170–14902); Ederhamn/Elvestad/Ederstad 0 träffar; Ravenshade 0 träffar; inga namngivna floder.
-- **Orlas dom vs. kap 39:s stängning:** Domen säger att Whitehart *kan* stänga (r.14492) men vägrar säga att de *bör* (r.14517–14519). Alaine stänger ändå. Detta är konsistent — domen ger rätt, Alaine tar ansvar. Inget fel.
-- **Nio-dagarsräkningen:** kap 37 (nio stenar = nio dagar mat) + kap 39 (Ansel: "Nine days at the current thin issue. Seven if fear increases the line. Perhaps ten.") + kap 40 (fem dagar passerade) = fyra dagar kvar vid kap 40:s slut, eller tre om rädslan driver kön. Kalendern håller. Kap 41 måste öppna i akut brist. Noterat för nästa batch.
-- **Wrens sex rader vs. Osrics en mening (kap 38):** Konfrontationen är konsekvent med kap 35:s etablering. Wren skrev sex rader; Osric behöll en; Wren konfronterar; Osric registrerar protesten men ändrar inte tavlan. Allt håller.
-- **"Fifth day of the fifth week" (r.14758):** Stängningsdagen. Kap 40 räknar fem dagar *efter* stängningen. Totalt tio dagar av vecka fem passerar vid kap 40:s slut. Om nio dagar var matgränsen, är maten slut. Kap 41 ärver detta. (Samma notering som i struktur-rapporten.)
+**A. [HÖG] Femte vågen bekräftad — och batchen visar att ingen inom murarna heller räknar med den.** Se uppföljning 2 nedan. Det nya fyndet utöver redan rapporterad extern blindhet: Fen tvingar Perrin att lova att skriva att han läckte till husen — "Will you write that you told Aren the watches were armed?" (kap 36, r.13764) och "And Corven that the stores were doubled?" (r.13768), Perrin svarar "Yes" båda gångerna — men ingen aktör (Osric, Wren, Alaine) reflekterar i kap 35–40 över att Perrins krönika, när den väl arkiveras, gör husens inblandning läsbar för deras rivaler eller kronan. Texten behandlar krönikan enbart som reputationsrisk för Sela, aldrig som rättslig/politisk exponering för Aren och Corven. [PROPOSAL — not canon] En enda replik eller board-rad där t.ex. Osric noterar att Perrins version, en gång nedskriven, gör valldalens vinter räknelig utanför dalen — det skulle plantera femte vågens payoff i stället för att låta blindheten fortsätta omarkerad.
+
+**B. [MEDEL] Dalfolkets ägare — domens vinnare — är namnlösa i hela manuset.** Sökterm: `valley owner` (case-insensitive) = 6 träffar i hela filen (r.7560, 14158, 14326, 14480, 14496, 14536); ingen någonsin namngiven. I kap 38 vinner "Two valley owners came for the ground below" (r.14480) hela tvisten — allt lägerområde konfirmeras som deras mark — och de signerar "receipt, not agreement" (r.14536), men de får vare sig namn, intresse eller en enda handling efter domen. En ägarförskjutning utan ägare är en halv förskjutning. [PROPOSAL — not canon] Namnge en av dem och ge honom en konkret post-domen-handling (kräver vattenavgift av en rad, vräker ett skjul, eller vägrar lägret ved) — då får läsaren se vad den nya äganderätten *gör* i stället för att bara existera på pergament.
+
+**C. [MEDEL] Wicketskalan: husets register räknar namn för att ta ut arbete men inte för att dela ut mat — och invändningen lämnas återigen utan motdrag.** Se uppföljning 3. Mönstret från redan rapporterade Hessa-punkten (r.13086) upprepar sig nu *efter* stängningen, i skarpare form: kvinnans fråga "enteras" (r.14839) men batchen ger inget svar, inget ration-book-tillägg, ingen senior som återkommer till den. Om detta är avsiktlig eskalation bör texten markera att frågan nu står i kö bakom stängningen; annars ser det ut som samma spår tappat två gånger. [PROPOSAL — not canon] En rad där Tomas eller Osric återser den enterade frågan när de 400 platserna diskuteras — den är exakt den rättsliga gråzon (arbetsbokad men ej matbokad) som urvalet av 400 kommer att snubbla på.
+
+**D. [LÅG] Portens första fråga förtjänar sitt obesvarade läge — men noteras.** "From the other side a man asked, "How long?" / Nobody had prepared an answer that could pass through oak." (kap 39, r.14759–14761). Institutionen stängde lagenligt, logistiskt motiverat, ceremoniellt ärligt — och hade inte förberett ett svar på den enda fråga den stängde mot. Detta fungerar som medveten pinsam sanning; jag flaggar det bara som bekräftat starkt, inget förslag.
 
 ---
 
-## SAMMANFATTNING
+## Kontinuitet & risker
 
-Kap 35–40 innehåller bokens första riktiga externa maktspel (Orla-domen) och dess mest transparenta institutionella beslut (stängningen). Orla är väl genomförd — begränsad makt, förbrukningsbar auktoritet, exakt dom, moralisk vägran — men hennes institution (Oath-hold) saknar historia, och domen skapar ett rättsligt vakuum som ingen i texten namnger. Femte raka batchen utan extern reaktion på husets inblandning är nu inte längre en plotbrist utan en odeklarerad världsregel; antingen deklarera den eller ge omvärlden ett puls tecken. Roderick förblir bokens mest kompetenta verktyg utan agenda. Waste-duty-kvinnans fråga (r.14835) är batchens skarpaste maktanalys och förtjänar att återkomma i slutakten. Dalägarnas "receipt, not agreement" är en oladdad sprängladdning. Prioritet: (1) extern blindhet — deklarera eller puls, (2) rättsligt vakuum — namnge det, (3) Roderick — ge honom ett nej.
+- **Husspår i batchen (räknat, case-sensitive, hela ord):** `Aren` = 107 träffar i hela filen, varav exakt 1 i batchen (r.13764). `Corven` = 107 i hela filen, varav 1 i batchen (r.13768). Båda i Fens förhör av Perrin — alltså endast retrospektivt, ingen ny husaktion. `Blackcrest` nämns 4 gånger i batchen (r.13486, 13488, 13496, 13736), `Stonebear` 2 (r.14112, 14148), `Blackthorn` 2 (r.14146, 14148), `Oath-hold` 5 i hela filen varav 3 i batchen (r.14075, 14084, 14134). `Nella` = 47 i hela filen, 5 rader i batchen (r.13818, 13873, 13907, 14602, 14833). Ingen kanon-spärr bruten i batchen.
+- **Risk: Orlas mandat föregår slaget.** "She had already been on the road when the battle happened." (r.14082). Summonsen gällde alltså en gränsfråga, inte Lower Field — konsekvent, men läsaren bör inte kunna tro att Oath-hold svarat på 64 döda. Texten är tydlig; ingen åtgärd.
+- **Konsistens bekräftad:** kapacitet 600+200 = 800 avresande (r.13871/13975); nio-objekts-räkningen konsekvent (9 dagar, 7 vid panik, 10 med nedskärningar, r.14598); byre loft 4 marks/6 nätter (r.14110) betalas slutligen direkt till stallflickan (r.14112) — Ansels vägran kringgås, ingen motsägelse.
+
+---
+
+## Uppföljningsuppdrag — uttryckliga svar
+
+**1. Oath-hold payoff r.14082 (Orla Darun): ägare? kostnad? omfattning?**
+- **Ägare:** Dubbel. Institutionellt äger Oath-hold domen (Orla bar "Oath-hold's copy in a wooden tube", r.14158, och domen signeras i tre kopior, r.14534). Personligt äger Orla kostnaden och tolkningsansvaret — hon vägrar låta Whitehart köpa mer än det juridiska svaret: "You paid for the first answer. The second is not for sale." (r.14570).
+- **Kostnad:** Orlas — road injury/"Road age" (r.14124), vägran av komfort, sex dagars arbete, och slutligen fullständig osynlighet: "Nobody knew the rider had spent six days deciding where Whitehart ended." (r.14574). Whiteharts kostnad är fyra marks som Ansel vägrar ta emot (r.14110) — komiskt exakt men maktspelsmässigt betydelsefullt: huset kan inte ens betala sin domare korrekt.
+- **Omfattning:** Svaret gäller **varken slaget eller stängningen — bara grant-linjen**. Domen: "Whitehart had no grant duty to house, feed, police, or disperse the people below." (r.14488) / "Whitehart had no grant right to seize their shelters or command them off valley land." (r.14490) / "Whitehart could close its gate." (r.14492). Orla avgränsar uttryckligen: "If you want the town decided, summon the people who can decide the town." (r.14376), och vägrar absolution (r.14526–14532). De 64 döda från r.12280 nämns aldrig i domen — "two days after Lower Field had given every argument a body count" (r.14082) är det enda erkännandet, och det är berättarens, inte hennes.
+
+**2. Registrerar någon extern makt husens inblandning/64 döda i kap 35–40? Femte vågen.**
+**Nej — femte vågen bekräftad.** Samtliga externa kanaler i batchen tittar åt fel håll eller lämnar: (a) Perrin, den ende som *kan* göra husen läsbara, avreser i kap 36; hans enda husreferenser är Fens bakåtblickande frågor (r.13764, 13768). (b) Orla anländer med ett mandat som föregår slaget och refererar aldrig de döda. (c) Nellas faktor talar enbart kommersiellt: "Negotiated. Not loaded." (r.14602). (d) Dalfolkets ägare registrerar bara sin markvinst. Aren/Corven: 0 aktioner i batchen (räknat: 1 resp. 1 omnämnande, båda citat om det förflutna). Ingen extern makt vet, frågar, eller agerar.
+
+**3. r.14835: vad händer exakt — vem betalar vad?**
+Tomas läser Alaines skriftliga svar genom wicket. "A woman from the seventh row asked why the house had accepted her name for waste duty and not for a share of grain. Tomas lowered his page." (r.14835). **Betalningsflödet är asymmetriskt: kvinnan har betalat huset i arbete (waste duty — huset tog emot hennes namn i sitt register för att *ta ut* prestation), men huset vägrar motprestationen (grain — samma register accepterar inte hennes namn för *utdelning*).** Tomas: "I don't have an answer entered for that," (r.14837); hon: "Then enter the question." (r.14839). Han enterar frågan — ingen betalning, ingen policy, inget svar följer i batchen. Institutionens räkenskaper är enkelriktade: uppåt i skyldigheter, aldrig nedåt i ersättning. (Ny instans av redan rapporterat mönster — nu post-stängning och därmed skarpare.)
+
+**4. Kap 37: lägrets upplösning via Roans kompanier — maktspelmässigt genomfört?**
+**Ja, med beröm.** Planen presenteras med ärlig kapacitetsaritmetik (600+200, lower coast orealistisk, r.13871–13873), erkänner sin egen skrämmande selektion ("Every early departure also tells the rest that the road may close behind them." / "And makes fear." / "Yes." — r.13959–13965), och undermineras på golvet av den packande kvinnans tro: "We will have walked far enough that someone up there will have found the rest." — "She means we don't know." (r.13933–13937). Signes motargument är det skarpaste: handlingar har redan skapat den permanens orden vägrade (r.13891). Det enda svaga: ingen prissätter *staging* — Roans "Then we stage them." möts bara av "On what food?" (r.13875–13877) och dör sedan tyst; en explicit nedräkning av vad 800 människor äter under tre dagars väntan vid hand points hade gjort planens död ännu mer förtjänt. [PROPOSAL — not canon]
+
+**5. Maktbalans: någon ägarförskjutning i kap 35–40?**
+**Ja — en reell men pappersburen.** Orlas dom fråntar Whitehart *både* skyldighet och rätt över lägerområdet (r.14488–14492): marken under 700+ skjul konfirmeras som dalägarnas. Det är batchens enda ägarförskjutning och den är ensidig — Whitehart förlorar anspråk, dalägarna vinner rätt, lägret vinner ingenting (det tillhör nu ägare som aldrig matat det). Komplement till redan rapporterade status quo-punkten (r.14583): lagen flyttade ägandet, inte maten. Dessutom Merta-paradoxen: rätten att gå ovanför stenen "She had it before I came," Orla said. "I only proved that nobody had noticed." (r.14546) — sexton års självförnekelse byggd på en felaktig linje, och hon stannar ändå kvar nedanför. Ägarförskjutning på papper, noll rörelse i praktiken: exakt den typ av bitter institutionell ironi som bör behållas oförändrad.
+
+---
+
+## Sammanfattning
+
+Kap 35–40 är värld/maktspel-mässigt batchens starkaste svit: Oath-hold-domen (kap 38) levererar en förtjänt, kostsam och uttryckligen icke-absolverande payoff; Roans upplösningsplan (kap 37) dör av ärlig aritmetik; stängningen (kap 39–40) är juridiskt exakt och mänskligt brutal. Tre prioriterade ingrepp: (A, hög) plantera inom-murarnas medvetenhet om att Perrins krönika gör husens inblandning externt läsbar — femte vågen är nu bekräftat total (Aren/Corven: 0 aktioner, räknat); (B, medel) namnge och aktivera minst en dalägare så att domens ägarförskjutning får en handlande vinnare; (C, medel) låt sjundе radens kvinnas enterade fråga (r.14835–14839) återkomma när de 400 väljs — asymmetrin arbete-in/mat-ut är stängningens skarpaste rättsliga spricka och förtjänar ett medvetet omtag, inte en till tystnad.
