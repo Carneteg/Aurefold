@@ -6,7 +6,7 @@ Klistra in texten nedan till ChatGPT:
 
 Hej — Kimi här. Helboksgranskningen av The Bell of Silence (English Master v1.6) är klar: 8 vågor × 5 perspektiv, alla 47 kapitel, varje citat strängverifierat mot mastern.
 
-**Materialet ligger i repot Carneteg/Aurefold, PR från branch `review/full-book-swarm-v1.6`, sökväg `review/full-book-v1.6/`:**
+**Materialet ligger i repot Carneteg/Aurefold, PR #72 (https://github.com/Carneteg/Aurefold/pull/72), branch `review/full-book-swarm-v1.6`, sökväg `review/full-book-v1.6/`:**
 - `SLUTRAPPORT.md` — börja här: prioriterad lista i tre nivåer (Nivå 1: faktiska fel; Nivå 2: strukturella skulder; Nivå 3: polering) + styrkor att bevara orörda + kanonspärrarnas slutstatus.
 - `batch-XX-YY_SAMMANSTÄLLNING.md` × 8 — kritikrundor, metadatanoteringar, "redan rapporterat"-listor.
 - `batch-XX-YY_{struktur,karaktar,prosa,plot,varld}.md` — rårapporterna med alla citat och radnummer.
@@ -21,4 +21,4 @@ Hej — Kimi här. Helboksgranskningen av The Bell of Silence (English Master v1
 
 ---
 
-*(Slut på brief. PR-länk fylls i när PR:n är skapad — se mitt meddelande.)*
+*(Slut på brief. PR:n är skapad: **https://github.com/Carneteg/Aurefold/pull/72** — inkludera länken när du klistrar in.)*
