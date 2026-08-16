@@ -4,6 +4,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 MIGRATION = ROOT / "supabase" / "migrations" / "20260816120322_book_one_scene_scorecards_ch43_47_interlude_v1.sql"
+HISTORY_FIX = ROOT / "supabase" / "migrations" / "20260816065500_scene_scorecard_history_ch43_47_interlude_fix.sql"
 
 
 class SceneScorecardBatchContractTests(unittest.TestCase):
@@ -11,6 +12,8 @@ class SceneScorecardBatchContractTests(unittest.TestCase):
     def setUpClass(cls):
         cls.sql = MIGRATION.read_text(encoding="utf-8")
         cls.lower = cls.sql.lower()
+        cls.history_sql = HISTORY_FIX.read_text(encoding="utf-8")
+        cls.history_lower = cls.history_sql.lower()
 
     def test_batch_is_bound_to_exact_master_and_six_section_hashes(self):
         self.assertIn("41dcf2664ab242ea60dbc7fa65b727ae8a7ae0a334158353839ee3eecfee958b", self.sql)
@@ -61,6 +64,23 @@ class SceneScorecardBatchContractTests(unittest.TestCase):
             "set is_current=false",
         ):
             self.assertNotIn(forbidden, self.lower)
+
+    def test_follow_up_restores_exactly_six_idempotent_audit_records(self):
+        self.assertIn("where not exists", self.history_lower)
+        self.assertIn("v_history_count <> 6", self.history_lower)
+        self.assertIn("expected exactly 6 scene scorecard audit records", self.history_lower)
+        for stable_key in (
+            "b1-interlude-01", "b1-ch-43", "b1-ch-44",
+            "b1-ch-45", "b1-ch-46", "b1-ch-47",
+        ):
+            self.assertIn(stable_key, self.history_lower)
+        for forbidden in (
+            "insert into public.canon_locks",
+            "update public.canon_locks",
+            "insert into public.knowledge_propositions",
+            "update public.knowledge_propositions",
+        ):
+            self.assertNotIn(forbidden, self.history_lower)
 
 
 if __name__ == "__main__":
