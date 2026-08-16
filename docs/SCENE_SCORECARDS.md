@@ -141,6 +141,8 @@ As of 16 August 2026, Book One has 48 current reviewed scorecards against Englis
 
 The reviewed batches are recorded in [Book One Scene Scorecard Batch: Chapters 1-6](SCENE_SCORECARDS_BOOK_ONE_CH01_06.md), [Book One Scene Scorecard Batch: Chapters 7-12](SCENE_SCORECARDS_BOOK_ONE_CH07_12.md), [Book One Scene Scorecard Batch: Chapters 13-18](SCENE_SCORECARDS_BOOK_ONE_CH13_18.md) and [Book One Scene Scorecard Batch: Interlude and Chapters 43-47](SCENE_SCORECARDS_BOOK_ONE_CH43_47_INTERLUDE.md). Each row is bound to its current manuscript section ID and body SHA-256. The early batches preserve the Character & Knowledge Map v1.3 safeguards for unverifiable experiences, social meaning, Col's unresolved fate, the grave's damaged provenance, partial rescue accounts, public wording and Fen's non-restored standing. The later batch preserves the safeguards for Gate counts and blame, the false Sela quotation, the Bell and the old wording anomaly.
 
+The whole-book patterns and selective revision priorities are recorded in [Book One Scene Scorecard Synthesis v1.0](SCENE_SCORECARD_SYNTHESIS_BOOK_ONE_V1.md). The synthesis is a derived editorial report, not a canon source or manuscript amendment.
+
 ## Security
 
 Raw scorecards and history are author-only under RLS.
