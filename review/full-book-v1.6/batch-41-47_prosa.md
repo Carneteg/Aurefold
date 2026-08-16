@@ -60,7 +60,7 @@ Sökterm `waited\.$` (radslut), case-sensitive: **20 förekomster** i hela filen
 
 ### 4. Kompansionsticken: "No."-helrader — 105 totalt [LÅG]
 
-Sökterm `^"No\.$`, case-sensitive: **105 helrader** i hela filen (mot referensbasens "Yes."-helrader 132). I batchen: 14. Kap 43:s Merta-scen har kluster: r. 15766–15772, 15898, 16000. Formen är bokens signatur (strypt dialog = slutaktens laddning, redan rapporterat) och bör inte saneras, men vid 237 Yes./No.-helrader totalt är gränsen för automatism nådd. [PROPOSAL — not canon]: r. 16000–16002 ("No." / "Do not agree too quickly.") är självkommenterande och kan vara stället att variera.
+Sökterm `^"No\."$`, case-sensitive: **105 helrader** i hela filen (mot referensbasens "Yes."-helrader 132). I batchen: 14. Kap 43:s Merta-scen har kluster: r. 15766–15772, 15898, 16000. Formen är bokens signatur (strypt dialog = slutaktens laddning, redan rapporterat) och bör inte saneras, men vid 237 Yes./No.-helrader totalt är gränsen för automatism nådd. [PROPOSAL — not canon]: r. 16000–16002 ("No." / "Do not agree too quickly.") är självkommenterande och kan vara stället att variera.
 
 ### 5. "changed"-kluster i krush-sekvensen [LÅG]
 
