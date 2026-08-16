@@ -130,17 +130,16 @@ This is intentional. Existing editorial concerns determine **assessment priority
 
 ## Current production coverage
 
-As of 16 August 2026, Book One has 42 current reviewed scorecards against English Master v1.6:
+As of 16 August 2026, Book One has 48 current reviewed scorecards against English Master v1.6:
 
-- Chapters 1-12: 12 reviewed story units.
-- Chapters 13-18: 6 unassessed story units.
+- Chapters 1-18: 18 reviewed story units.
 - Chapters 19-42: 24 reviewed story units.
 - Interlude and Chapters 43-47: 6 reviewed story units.
-- Remaining backlog: Chapters 13-18, 6 unassessed story units.
+- Remaining backlog: none; all 48 Book One story units are reviewed.
 - Current drafts: 0.
 - Current stale scorecards: 0.
 
-The reviewed batches are recorded in [Book One Scene Scorecard Batch: Chapters 1-6](SCENE_SCORECARDS_BOOK_ONE_CH01_06.md), [Book One Scene Scorecard Batch: Chapters 7-12](SCENE_SCORECARDS_BOOK_ONE_CH07_12.md) and [Book One Scene Scorecard Batch: Interlude and Chapters 43-47](SCENE_SCORECARDS_BOOK_ONE_CH43_47_INTERLUDE.md). Each row is bound to its current manuscript section ID and body SHA-256. The early batches preserve the Character & Knowledge Map v1.3 safeguards for unverifiable experiences, social meaning, Col's unresolved fate, the grave's damaged provenance and Fen's non-restored standing. The later batch preserves the safeguards for Gate counts and blame, the false Sela quotation, the Bell and the old wording anomaly.
+The reviewed batches are recorded in [Book One Scene Scorecard Batch: Chapters 1-6](SCENE_SCORECARDS_BOOK_ONE_CH01_06.md), [Book One Scene Scorecard Batch: Chapters 7-12](SCENE_SCORECARDS_BOOK_ONE_CH07_12.md), [Book One Scene Scorecard Batch: Chapters 13-18](SCENE_SCORECARDS_BOOK_ONE_CH13_18.md) and [Book One Scene Scorecard Batch: Interlude and Chapters 43-47](SCENE_SCORECARDS_BOOK_ONE_CH43_47_INTERLUDE.md). Each row is bound to its current manuscript section ID and body SHA-256. The early batches preserve the Character & Knowledge Map v1.3 safeguards for unverifiable experiences, social meaning, Col's unresolved fate, the grave's damaged provenance, partial rescue accounts, public wording and Fen's non-restored standing. The later batch preserves the safeguards for Gate counts and blame, the false Sela quotation, the Bell and the old wording anomaly.
 
 ## Security
 
