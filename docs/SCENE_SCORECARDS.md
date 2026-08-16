@@ -130,15 +130,17 @@ This is intentional. Existing editorial concerns determine **assessment priority
 
 ## Current production coverage
 
-As of 16 August 2026, Book One has 30 current reviewed scorecards against English Master v1.6:
+As of 16 August 2026, Book One has 36 current reviewed scorecards against English Master v1.6:
 
+- Chapters 1-6: 6 reviewed story units.
+- Chapters 7-18: 12 unassessed story units.
 - Chapters 19-42: 24 reviewed story units.
 - Interlude and Chapters 43-47: 6 reviewed story units.
-- Remaining backlog: Chapters 1-18, 18 unassessed story units.
+- Remaining backlog: Chapters 7-18, 12 unassessed story units.
 - Current drafts: 0.
 - Current stale scorecards: 0.
 
-The second batch is recorded in [Book One Scene Scorecard Batch: Interlude and Chapters 43-47](SCENE_SCORECARDS_BOOK_ONE_CH43_47_INTERLUDE.md). Each row is bound to its current manuscript section ID and body SHA-256. The batch preserves the Character & Knowledge Map v1.3 safeguards for Col, Gate counts and blame, the false Sela quotation, the Bell and the old wording anomaly.
+The reviewed batches are recorded in [Book One Scene Scorecard Batch: Chapters 1-6](SCENE_SCORECARDS_BOOK_ONE_CH01_06.md) and [Book One Scene Scorecard Batch: Interlude and Chapters 43-47](SCENE_SCORECARDS_BOOK_ONE_CH43_47_INTERLUDE.md). Each row is bound to its current manuscript section ID and body SHA-256. The early batch preserves the Character & Knowledge Map v1.3 safeguards for Sela's and Alaine's unverifiable experiences, social meaning, Sela's absent judgment and Col's unresolved fate. The later batch preserves the safeguards for Gate counts and blame, the false Sela quotation, the Bell and the old wording anomaly.
 
 ## Security
 

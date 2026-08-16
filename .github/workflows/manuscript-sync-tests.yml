@@ -8,6 +8,7 @@ on:
       - "tests/test_security_hardening.py"
       - "tests/test_release_readiness.py"
       - "tests/test_scene_scorecard_batch.py"
+      - "tests/test_scene_scorecard_batch_ch01_06.py"
       - "assets/manuscript-sync.js"
       - "assets/canon-validator.js"
       - "assets/editorial-issues.js"
@@ -42,6 +43,7 @@ on:
       - "tests/test_security_hardening.py"
       - "tests/test_release_readiness.py"
       - "tests/test_scene_scorecard_batch.py"
+      - "tests/test_scene_scorecard_batch_ch01_06.py"
       - "assets/manuscript-sync.js"
       - "assets/canon-validator.js"
       - "assets/editorial-issues.js"
@@ -86,6 +88,8 @@ jobs:
         run: python -m unittest tests/test_release_readiness.py
       - name: Run Scene Scorecard batch contract tests
         run: python -m unittest tests/test_scene_scorecard_batch.py
+      - name: Run Chapters 1-6 Scene Scorecard contract tests
+        run: python -m unittest tests/test_scene_scorecard_batch_ch01_06.py
       - name: Syntax-check browser sync client
         run: node --check assets/manuscript-sync.js
       - name: Syntax-check Canon Validator client
