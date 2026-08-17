@@ -51,6 +51,10 @@
       "どこで読んでくださっても構いません——ただ、Amazon はあなたの存在を私に教えてはくれません。下の読書リストは教えてくれます。"
     ],
     [
+      "Prefer Swedish? The Swedish edition — translated from the English original — is free as well.",
+      "スウェーデン語版をご希望ですか。英語原文から翻訳されたスウェーデン語版も無料です。"
+    ],
+    [
       "An interlude that steps outside the valley — to the desks where its story is being decided.",
       "谷の外へと踏み出す間奏——その物語が決められている机の前へと。"
     ],
@@ -105,6 +109,14 @@
     [
       "Name <span>(optional)</span>",
       "名前 <span>（任意）</span>"
+    ],
+    [
+      "Download (EPUB, Swedish)",
+      "ダウンロード（EPUB・スウェーデン語）"
+    ],
+    [
+      "Download (PDF, Swedish)",
+      "ダウンロード（PDF・スウェーデン語）"
     ],
     [
       "Get it free on Amazon",
