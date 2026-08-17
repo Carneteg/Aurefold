@@ -1,5 +1,10 @@
 {
   "title": "旗印の広間 — 読者が誓いを立てた Aurefold のキャラクターたち",
   "description": "旗印の広間には、読者が Aurefold の世界のまわりに立てたキャラクターが並ぶ — 兵士、書記、秘密を運ぶ者たち。それぞれが十の旗印のひとつの下に誓いを立てている。",
-  "blocks": []
+  "blocks": [
+    [
+      "The characters readers have sworn into the Banner-lands. They live around the\n      story — in the margins, the hill towns, the toll roads — and the archivist\n      reads every one before it takes its place in the hall.",
+      "読者が Banner-lands に誓い入れたキャラクターたち。彼らは物語の周りに——\n      余白に、丘の町に、通行料の道に——生きています。記録係が一人ひとりを読み、\n      それから広間に迎えられます。"
+    ]
+  ]
 }

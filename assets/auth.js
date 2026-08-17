@@ -248,10 +248,19 @@
 
   function saveProfile(patch) {
     if (!session || !session.user) return Promise.reject(new Error("signed out"));
+    // return=representation so a zero-row match (stale token, RLS miss) is a
+    // detectable failure instead of a silent 204 "success".
     return api("/profiles?id=eq." + session.user.id, {
       method: "PATCH",
       body: patch,
-      prefer: "return=minimal"
+      prefer: "return=representation"
+    }).then(function (rows) {
+      if (!rows || !rows.length) {
+        var e = new Error("profile update matched no row");
+        e.code = "stale";
+        throw e;
+      }
+      return rows[0];
     });
   }
 

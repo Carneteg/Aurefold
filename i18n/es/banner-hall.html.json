@@ -1,5 +1,10 @@
 {
   "title": "La Sala de los Estandartes — personajes jurados por los lectores de Aurefold",
   "description": "La Sala de los Estandartes guarda los personajes que los lectores han jurado al mundo de Aurefold — soldados, escribas y contrabandistas de secretos, cada uno alzado bajo uno de los diez estandartes.",
-  "blocks": []
+  "blocks": [
+    [
+      "The characters readers have sworn into the Banner-lands. They live around the\n      story — in the margins, the hill towns, the toll roads — and the archivist\n      reads every one before it takes its place in the hall.",
+      "Los personajes que los lectores han jurado a las Banner-lands. Viven alrededor de la\n      historia — en los márgenes, los pueblos de las colinas, los caminos de peaje — y el archivista\n      lee cada uno antes de que ocupe su lugar en la sala."
+    ]
+  ]
 }

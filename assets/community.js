@@ -22,6 +22,7 @@
       save: "Swear it",
       saved: "Recorded. The archive remembers.",
       saveFailed: "That name is taken, or the archive stumbled. Try another.",
+      saveStale: "Your sign-in has gone stale. Sign in again and retry.",
       signOut: "Sign out",
       members: function (n) { return n + (n === 1 ? " sworn reader" : " sworn readers"); },
       characters: function (n) { return n + (n === 1 ? " character in the Hall" : " characters in the Hall"); },
@@ -39,6 +40,7 @@
       save: "Svär det",
       saved: "Antecknat. Arkivet minns.",
       saveFailed: "Det namnet är taget, eller arkivet snubblade. Försök med ett annat.",
+      saveStale: "Din inloggning hade hunnit bli gammal. Logga in igen och försök på nytt.",
       signOut: "Logga ut",
       members: function (n) { return n + (n === 1 ? " svuren läsare" : " svurna läsare"); },
       characters: function (n) { return n + (n === 1 ? " karaktär i Hallen" : " karaktärer i Hallen"); },
@@ -56,6 +58,7 @@
       save: "Júralo",
       saved: "Anotado. El archivo recuerda.",
       saveFailed: "Ese nombre ya está tomado, o el archivo tropezó. Prueba con otro.",
+      saveStale: "Tu sesión había caducado. Inicia sesión de nuevo e inténtalo otra vez.",
       signOut: "Cerrar sesión",
       members: function (n) { return n === 1 ? n + " lector jurado" : n + " lectores jurados"; },
       characters: function (n) { return n === 1 ? n + " personaje en la Sala" : n + " personajes en la Sala"; },
@@ -73,6 +76,7 @@
       save: "Jurez-le",
       saved: "Noté. L’archive s’en souvient.",
       saveFailed: "Ce nom est déjà pris, ou l’archive a trébuché. Essayez-en un autre.",
+      saveStale: "Votre connexion avait expiré. Reconnectez-vous et réessayez.",
       signOut: "Se déconnecter",
       members: function (n) { return n === 1 ? n + " lecteur juré" : n + " lecteurs jurés"; },
       characters: function (n) { return n === 1 ? n + " personnage dans la Salle" : n + " personnages dans la Salle"; },
@@ -90,6 +94,7 @@
       save: "宣誓",
       saved: "已记录。档案会记得。",
       saveFailed: "这个名字已被使用，或者档案打了个趔趄。请换一个试试。",
+      saveStale: "你的登录已过期。请重新登录后再试。",
       signOut: "退出登录",
       members: function (n) { return n + " 位宣誓读者"; },
       characters: function (n) { return "大厅中有 " + n + " 位角色"; },
@@ -107,6 +112,7 @@
       save: "誓う",
       saved: "記録した。忘れはしない。",
       saveFailed: "その名前はすでに使われているか、記録がつまずいたようです。別の名前をお試しください。",
+      saveStale: "サインインが切れていました。もう一度サインインしてからお試しください。",
       signOut: "サインアウト",
       members: function (n) { return "誓いを立てた読者" + n + "人"; },
       characters: function (n) { return "広間のキャラクター" + n + "人"; },
@@ -157,7 +163,8 @@
     A.profile().then(function (p) {
       profileBox.innerHTML = "";
       var card = el("div", "auth-gate banner-profile-card");
-      card.appendChild(el("h3", "auth-gate-title", t("welcome") + ", " + (p ? p.username : "reader")));
+      var title = el("h3", "auth-gate-title", t("welcome") + ", " + (p ? p.username : "reader"));
+      card.appendChild(title);
 
       var form = el("form", "auth-gate-form banner-form");
 
@@ -200,8 +207,15 @@
         ev.preventDefault();
         saveBtn.disabled = true;
         A.saveProfile({ username: uname.value.trim(), house_key: house.value || null })
-          .then(function () { status.textContent = t("saved"); saveBtn.disabled = false; })
-          .catch(function () { status.textContent = t("saveFailed"); saveBtn.disabled = false; });
+          .then(function (row) {
+            status.textContent = t("saved");
+            title.textContent = t("welcome") + ", " + row.username;
+            saveBtn.disabled = false;
+          })
+          .catch(function (e) {
+            status.textContent = (e && e.code === "stale") ? t("saveStale") : t("saveFailed");
+            saveBtn.disabled = false;
+          });
       });
 
       card.appendChild(form);

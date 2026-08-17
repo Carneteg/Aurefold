@@ -3,6 +3,18 @@
   "description": "El Estandarte es donde se reúnen los lectores de Aurefold: jura, elige tu casa, vota en El Cónclave, alza personajes propios y deja tu obra en el Scriptorium.",
   "blocks": [
     [
+      "Everything under the Banner lives <em>around</em> the story — side-stories, extras,\n      public lore, and the archive's next opening. The central plot, canon, and character\n      fates stay the author's. New voices are read by the archivist before they show.",
+      "Todo lo que vive bajo el Estandarte gira <em>alrededor</em> de la historia — relatos paralelos, extras,\n      lore público y la próxima apertura del archivo. La trama central, el canon y los destinos\n      de los personajes siguen siendo del autor. Las voces nuevas las lee el archivista antes de mostrarse."
+    ],
+    [
+      "<strong>Content note.</strong> Aurefold is a mature series intended for adult readers — discussion and reader material may touch graphic violence and other adult themes.",
+      "<strong>Nota de contenido.</strong> Aurefold es una serie adulta para lectores adultos — los debates y el material de los lectores pueden tocar violencia gráfica y otros temas adultos."
+    ],
+    [
+      "Where readers stop being readers. Swear in, choose the house you would follow,\n      and take your place in the company that shapes the world around the book.",
+      "Donde los lectores dejan de ser lectores. Presta juramento, elige la casa que seguirías\n      y ocupa tu lugar en la compañía que da forma al mundo alrededor del libro."
+    ],
+    [
       "In the hall already: Yara Cobbleworth of Stormrider, Corin Farrow of Ashbourne, and Old Ferro of Ironvale — sworn and honoured.",
       "Ya en la sala: Yara Cobbleworth de Stormrider, Corin Farrow de Ashbourne y Old Ferro de Ironvale — jurados y honrados."
     ],
@@ -11,8 +23,20 @@
       "Recientes: la teoría «Why the Chronicle and the Ash Fragments Can't Both Be Lying» y el relato «A Night at the Toll House»."
     ],
     [
+      "Raise a character of your own, sworn to a house — the finest are honoured, the very finest taken into the material.",
+      "Alza un personaje propio, jurado a una casa — los mejores son honrados, y los mejores de todos entran en el material."
+    ],
+    [
       "Standing now: “Which house would you follow?” and “Which house's fragment does the archive read aloud next?”",
       "Ahora mismo: «Which house would you follow?» y «Which house's fragment does the archive read aloud next?»"
+    ],
+    [
+      "Vote on what the archive opens next — the great questions ask for a signed-in voice.",
+      "Vota qué abre el archivo a continuación — las grandes preguntas piden una voz con sesión iniciada."
+    ],
+    [
+      "Leave a story, a theory, a piece of art, or a question for the author.",
+      "Deja un relato, una teoría, una obra de arte o una pregunta para el autor."
     ]
   ]
 }

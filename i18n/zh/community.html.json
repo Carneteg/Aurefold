@@ -3,6 +3,18 @@
   "description": "旗帜是 Aurefold 读者的聚集之地：宣誓加入，选择你的家族，在议会投票，创建你自己的角色，并在缮写室留下作品。",
   "blocks": [
     [
+      "Everything under the Banner lives <em>around</em> the story — side-stories, extras,\n      public lore, and the archive's next opening. The central plot, canon, and character\n      fates stay the author's. New voices are read by the archivist before they show.",
+      "旗帜之下的一切都生长在故事<em>周围</em>——番外、额外内容、\n      公开设定，以及档案馆的下一次开启。主线、正典与角色命运仍属于作者。\n      新的声音会先经档案员阅读，然后才会显示。"
+    ],
+    [
+      "<strong>Content note.</strong> Aurefold is a mature series intended for adult readers — discussion and reader material may touch graphic violence and other adult themes.",
+      "<strong>内容提示。</strong>Aurefold 是面向成年读者的成熟系列——讨论与读者内容可能涉及直白的暴力及其他成人主题。"
+    ],
+    [
+      "Where readers stop being readers. Swear in, choose the house you would follow,\n      and take your place in the company that shapes the world around the book.",
+      "在这里，读者不再只是读者。宣誓，选择你愿追随的家族，\n      在塑造书外世界的同伴中占据一席之地。"
+    ],
+    [
       "In the hall already: Yara Cobbleworth of Stormrider, Corin Farrow of Ashbourne, and Old Ferro of Ironvale — sworn and honoured.",
       "大厅中已有：Stormrider 的 Yara Cobbleworth、Ashbourne 的 Corin Farrow、Ironvale 的 Old Ferro——已宣誓，已受荣。"
     ],
@@ -11,8 +23,20 @@
       "近来：理论《Why the Chronicle and the Ash Fragments Can't Both Be Lying》与故事《A Night at the Toll House》。"
     ],
     [
+      "Raise a character of your own, sworn to a house — the finest are honoured, the very finest taken into the material.",
+      "创造属于你的角色，宣誓效忠一个家族——最好的会受到荣誉，最出色的会被纳入作品素材。"
+    ],
+    [
       "Standing now: “Which house would you follow?” and “Which house's fragment does the archive read aloud next?”",
       "正在进行：“Which house would you follow?” 与 “Which house's fragment does the archive read aloud next?”"
+    ],
+    [
+      "Vote on what the archive opens next — the great questions ask for a signed-in voice.",
+      "投票决定档案馆接下来开启什么——重大问题需要登录后的声音。"
+    ],
+    [
+      "Leave a story, a theory, a piece of art, or a question for the author.",
+      "留下一个故事、一种理论、一件艺术作品，或一个想问作者的问题。"
     ]
   ]
 }

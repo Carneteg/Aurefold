@@ -1,5 +1,14 @@
 {
   "title": "Skriptoriet — läsarnas bidrag till Aurefolds värld",
   "description": "Skriptoriet rymmer det läsarna lämnar till arkivet: berättelser från banerländerna, teorier om Klockan, konst och frågor till författaren.",
-  "blocks": []
+  "blocks": [
+    [
+      "What readers leave for the archive: a story from the Banner-lands, a theory\n      about the Bell, a piece of art, a question for the author. The archivist reads\n      everything — the finest pieces are honoured, and the very finest are taken\n      into the material around the book.",
+      "Det läsare lämnar till arkivet: en berättelse från Banner-lands, en teori\n      om Klockan, ett konstverk, en fråga till författaren. Arkivarien läser\n      allt — de finaste bidragen hedras, och de allra finaste tas in\n      i materialet kring boken."
+    ],
+    [
+      "<strong>Content note.</strong> Aurefold is a mature series; submissions may explore adult themes. Everything is reviewed before it appears — gratuitous or hateful material is declined.",
+      "<strong>Innehållsnot.</strong> Aurefold är en vuxenserie; bidrag kan utforska vuxna teman. Allt granskas innan det visas — omotiverat eller hatiskt material avvisas."
+    ]
+  ]
 }
