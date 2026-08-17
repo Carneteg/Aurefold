@@ -1,36 +1,20 @@
 {
   "blocks": [
     [
-      "YOU WOULD FOLLOW",
-      "你会追随"
-    ],
-    [
-      "Which house are you? Take the quiz",
-      "你属于哪个家族？来做测验"
-    ],
-    [
-      "Follow free",
-      "免费关注"
-    ],
-    [
-      "Meet all ten houses &rarr;",
-      "认识全部十大家族 &rarr;"
-    ],
-    [
-      "Tell them which house you'd follow",
-      "告诉他们你会追随哪个家族"
-    ],
-    [
-      ">Share on X<",
-      ">分享到 X<"
-    ],
-    [
-      ">Copy</button>",
-      ">复制</button>"
-    ],
-    [
       "The book's canon and central mysteries are the author's; the Moot and this quiz shape the world around it — what the archive opens or explores next — never the story's heart.",
       "本书的正典与核心谜团属于作者；议会与本测验塑造的是书本周围的世界——档案接下来揭示或探索什么——而绝非故事的核心。"
+    ],
+    [
+      "Faith. They listen for a voice — and test those who claim to hear it. Take the quiz and find your house of Aurefold.",
+      "信仰。他们聆听一个声音——并考验那些声称听见它的人。 来做测验，找出你在 Aurefold 的家族。"
+    ],
+    [
+      "“Can a community survive without shared meaning, and what happens when meaning requires certainty?”",
+      "“一个群体能否在缺乏共同意义的情况下存续？而当意义要求确定性时，又会发生什么？”"
+    ],
+    [
+      "<p class=\"quiz-result-line\">“They listen for a voice — and test those who claim to hear it.”</p>",
+      "<p class=\"quiz-result-line\">“他们聆听一个声音——并考验那些声称听见它的人。”</p>"
     ],
     [
       "House Whitehart — Which house would you follow? | AUREFOLD",
@@ -41,28 +25,52 @@
       "我会追随 House Whitehart——你会追随哪个家族？"
     ],
     [
-      "Faith. They listen for a voice — and test those who claim to hear it. Take the quiz and find your house of Aurefold.",
-      "信仰。他们聆听一个声音——并考验那些声称听见它的人。 来做测验，找出你在 Aurefold 的家族。"
+      "<p class=\"quiz-result-phil\">Faith</p>",
+      "<p class=\"quiz-result-phil\">信仰</p>"
+    ],
+    [
+      "Raise a character in the Banner Hall",
+      "在旗帜大厅创建一个角色"
+    ],
+    [
+      "Which house are you? Take the quiz",
+      "你属于哪个家族？来做测验"
+    ],
+    [
+      "Tell them which house you'd follow",
+      "告诉他们你会追随哪个家族"
     ],
     [
       "House Whitehart — Faith — AUREFOLD",
       "House Whitehart — 信仰 — AUREFOLD"
     ],
     [
-      "<p class=\"quiz-result-phil\">Faith</p>",
-      "<p class=\"quiz-result-phil\">信仰</p>"
-    ],
-    [
-      "<p class=\"quiz-result-line\">“They listen for a voice — and test those who claim to hear it.”</p>",
-      "<p class=\"quiz-result-line\">“他们聆听一个声音——并考验那些声称听见它的人。”</p>"
-    ],
-    [
       "Cast this as your vote in The Moot",
       "把它作为你在议会的一票"
     ],
     [
-      "Raise a character in the Banner Hall",
-      "在旗帜大厅创建一个角色"
+      "Meet all ten houses &rarr;",
+      "认识全部十大家族 &rarr;"
+    ],
+    [
+      "The question it forces",
+      "它所迫问的问题"
+    ],
+    [
+      "YOU WOULD FOLLOW",
+      "你会追随"
+    ],
+    [
+      ">Copy</button>",
+      ">复制</button>"
+    ],
+    [
+      ">Share on X<",
+      ">分享到 X<"
+    ],
+    [
+      "Follow free",
+      "免费关注"
     ]
   ]
 }

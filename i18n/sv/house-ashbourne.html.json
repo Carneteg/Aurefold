@@ -1,36 +1,20 @@
 {
   "blocks": [
     [
-      "YOU WOULD FOLLOW",
-      "DU SKULLE FÖLJA"
-    ],
-    [
-      "Which house are you? Take the quiz",
-      "Vilket hus är du? Gör testet"
-    ],
-    [
-      "Follow free",
-      "Följ gratis"
-    ],
-    [
-      "Meet all ten houses &rarr;",
-      "Möt alla tio hus &rarr;"
-    ],
-    [
-      "Tell them which house you'd follow",
-      "Berätta vilket hus du skulle följa"
-    ],
-    [
-      ">Share on X<",
-      ">Dela på X<"
-    ],
-    [
-      ">Copy</button>",
-      ">Kopiera</button>"
-    ],
-    [
       "The book's canon and central mysteries are the author's; the Moot and this quiz shape the world around it — what the archive opens or explores next — never the story's heart.",
       "Bokens kanon och centrala mysterier är författarens; Tinget och det här testet formar världen kring den — vad arkivet öppnar eller utforskar härnäst — aldrig berättelsens hjärta."
+    ],
+    [
+      "Courage. They ride at the thing everyone else flinches from. Take the quiz and find your house of Aurefold.",
+      "Mod. De rider rakt mot det alla andra ryggar för. Gör testet och hitta ditt hus i Aurefold."
+    ],
+    [
+      "<p class=\"quiz-result-line\">“They ride at the thing everyone else flinches from.”</p>",
+      "<p class=\"quiz-result-line\">“De rider rakt mot det alla andra ryggar för.”</p>"
+    ],
+    [
+      "“When does bravery protect others, and when does it demand that others pay?”",
+      "”När skyddar modet andra, och när kräver det att andra betalar?”"
     ],
     [
       "House Ashbourne — Which house would you follow? | AUREFOLD",
@@ -41,28 +25,52 @@
       "Jag skulle följa House Ashbourne — vilket hus skulle du följa?"
     ],
     [
-      "Courage. They ride at the thing everyone else flinches from. Take the quiz and find your house of Aurefold.",
-      "Mod. De rider rakt mot det alla andra ryggar för. Gör testet och hitta ditt hus i Aurefold."
+      "<p class=\"quiz-result-phil\">Courage</p>",
+      "<p class=\"quiz-result-phil\">Mod</p>"
     ],
     [
       "House Ashbourne — Courage — AUREFOLD",
       "House Ashbourne — Mod — AUREFOLD"
     ],
     [
-      "<p class=\"quiz-result-phil\">Courage</p>",
-      "<p class=\"quiz-result-phil\">Mod</p>"
+      "Raise a character in the Banner Hall",
+      "Res en karaktär i Banerhallen"
     ],
     [
-      "<p class=\"quiz-result-line\">“They ride at the thing everyone else flinches from.”</p>",
-      "<p class=\"quiz-result-line\">“De rider rakt mot det alla andra ryggar för.”</p>"
+      "Which house are you? Take the quiz",
+      "Vilket hus är du? Gör testet"
+    ],
+    [
+      "Tell them which house you'd follow",
+      "Berätta vilket hus du skulle följa"
     ],
     [
       "Cast this as your vote in The Moot",
       "Lägg detta som din röst i Tinget"
     ],
     [
-      "Raise a character in the Banner Hall",
-      "Res en karaktär i Banerhallen"
+      "Meet all ten houses &rarr;",
+      "Möt alla tio hus &rarr;"
+    ],
+    [
+      "The question it forces",
+      "Frågan den tvingar fram"
+    ],
+    [
+      "YOU WOULD FOLLOW",
+      "DU SKULLE FÖLJA"
+    ],
+    [
+      ">Copy</button>",
+      ">Kopiera</button>"
+    ],
+    [
+      ">Share on X<",
+      ">Dela på X<"
+    ],
+    [
+      "Follow free",
+      "Följ gratis"
     ]
   ]
 }

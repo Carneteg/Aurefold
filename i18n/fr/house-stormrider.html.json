@@ -1,36 +1,20 @@
 {
   "blocks": [
     [
-      "YOU WOULD FOLLOW",
-      "VOUS SUIVRIEZ"
-    ],
-    [
-      "Which house are you? Take the quiz",
-      "Quelle maison êtes-vous ? Faites le quiz"
-    ],
-    [
-      "Follow free",
-      "Suivre gratuitement"
-    ],
-    [
-      "Meet all ten houses &rarr;",
-      "Découvrez les dix maisons &rarr;"
-    ],
-    [
-      "Tell them which house you'd follow",
-      "Dites-leur quelle maison vous suivriez"
-    ],
-    [
-      ">Share on X<",
-      ">Partager sur X<"
-    ],
-    [
-      ">Copy</button>",
-      ">Copier</button>"
-    ],
-    [
       "The book's canon and central mysteries are the author's; the Moot and this quiz shape the world around it — what the archive opens or explores next — never the story's heart.",
       "Le canon du livre et ses mystères centraux appartiennent à l’auteur ; le Conseil et ce quiz façonnent le monde autour du livre — ce que l’archive ouvre ou explore ensuite — jamais le cœur de l’histoire."
+    ],
+    [
+      "Unity. They hold people together — as long as the one who binds them lives. Take the quiz and find your house of Aurefold.",
+      "Unité. Ils tiennent les gens ensemble — tant que vit celui qui les lie. Faites le quiz et découvrez votre maison d’Aurefold."
+    ],
+    [
+      "<p class=\"quiz-result-line\">“They hold people together — as long as the one who binds them lives.”</p>",
+      "<p class=\"quiz-result-line\">“Ils tiennent les gens ensemble — tant que vit celui qui les lie.”</p>"
+    ],
+    [
+      "“How much freedom must be bound together to keep roads, people, and obligations from breaking?”",
+      "« Combien de liberté faut-il lier ensemble pour empêcher les routes, les gens et les obligations de se rompre ? »"
     ],
     [
       "House Stormrider — Which house would you follow? | AUREFOLD",
@@ -41,28 +25,52 @@
       "Je suivrais House Stormrider — quelle maison suivriez-vous ?"
     ],
     [
-      "Unity. They hold people together — as long as the one who binds them lives. Take the quiz and find your house of Aurefold.",
-      "Unité. Ils tiennent les gens ensemble — tant que vit celui qui les lie. Faites le quiz et découvrez votre maison d’Aurefold."
+      "<p class=\"quiz-result-phil\">Unity</p>",
+      "<p class=\"quiz-result-phil\">Unité</p>"
+    ],
+    [
+      "Raise a character in the Banner Hall",
+      "Levez un personnage dans la Salle des Bannières"
     ],
     [
       "House Stormrider — Unity — AUREFOLD",
       "House Stormrider — Unité — AUREFOLD"
     ],
     [
-      "<p class=\"quiz-result-phil\">Unity</p>",
-      "<p class=\"quiz-result-phil\">Unité</p>"
+      "Which house are you? Take the quiz",
+      "Quelle maison êtes-vous ? Faites le quiz"
     ],
     [
-      "<p class=\"quiz-result-line\">“They hold people together — as long as the one who binds them lives.”</p>",
-      "<p class=\"quiz-result-line\">“Ils tiennent les gens ensemble — tant que vit celui qui les lie.”</p>"
+      "Tell them which house you'd follow",
+      "Dites-leur quelle maison vous suivriez"
     ],
     [
       "Cast this as your vote in The Moot",
       "Portez ceci comme votre vote au Conseil"
     ],
     [
-      "Raise a character in the Banner Hall",
-      "Levez un personnage dans la Salle des Bannières"
+      "Meet all ten houses &rarr;",
+      "Découvrez les dix maisons &rarr;"
+    ],
+    [
+      "The question it forces",
+      "La question qu’elle impose"
+    ],
+    [
+      "YOU WOULD FOLLOW",
+      "VOUS SUIVRIEZ"
+    ],
+    [
+      ">Copy</button>",
+      ">Copier</button>"
+    ],
+    [
+      ">Share on X<",
+      ">Partager sur X<"
+    ],
+    [
+      "Follow free",
+      "Suivre gratuitement"
     ]
   ]
 }

@@ -1,5 +1,18 @@
 {
   "title": "旗帜 — 加入塑造 Aurefold 世界的读者行列",
   "description": "旗帜是 Aurefold 读者的聚集之地：宣誓加入，选择你的家族，在议会投票，创建你自己的角色，并在缮写室留下作品。",
-  "blocks": []
+  "blocks": [
+    [
+      "In the hall already: Yara Cobbleworth of Stormrider, Corin Farrow of Ashbourne, and Old Ferro of Ironvale — sworn and honoured.",
+      "大厅中已有：Stormrider 的 Yara Cobbleworth、Ashbourne 的 Corin Farrow、Ironvale 的 Old Ferro——已宣誓，已受荣。"
+    ],
+    [
+      "Lately: the theory “Why the Chronicle and the Ash Fragments Can't Both Be Lying,” and the story “A Night at the Toll House.”",
+      "近来：理论《Why the Chronicle and the Ash Fragments Can't Both Be Lying》与故事《A Night at the Toll House》。"
+    ],
+    [
+      "Standing now: “Which house would you follow?” and “Which house's fragment does the archive read aloud next?”",
+      "正在进行：“Which house would you follow?” 与 “Which house's fragment does the archive read aloud next?”"
+    ]
+  ]
 }

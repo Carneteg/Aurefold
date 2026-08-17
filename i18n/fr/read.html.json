@@ -2,81 +2,273 @@
   "title": "Lisez le début de The Bell of Silence — Aurefold",
   "description": "Lisez le début d’Aurefold, Livre Un : The Bell of Silence — le prologue et le premier chapitre d’une fantasy épique à dix maisons. Gratuit à lire en ligne.",
   "blocks": [
-    ["<h1 class=\"page-title\">From the pages</h1>", "<h1 class=\"page-title\">Extraits des pages</h1>"],
-    ["Two openings from Book One: <em>The Bell of Silence</em> — the prologue, where the realm argues over a record, and the beginning of Chapter One, where the record is only a frightened girl.", "Deux ouvertures du Livre Un : <em>The Bell of Silence</em> — le prologue, où le royaume se dispute au sujet d’un document, et le début du Chapitre Un, où le document n’est qu’une jeune fille effrayée."],
-    ["◔ About a five-minute read", "◔ Environ cinq minutes de lecture"],
-
-    ["These two excerpts are the book’s first pages. <em>The Bell of Silence</em> is a completed manuscript of approximately 104,000 words, now on the road to publication.", "Ces deux extraits sont les premières pages du livre. <em>The Bell of Silence</em> est un manuscrit achevé d’environ 104 000 mots, désormais en route vers la publication."],
-    ["Download the opening (free PDF)", "Télécharger le début (PDF gratuit)"],
-    ["Follow free", "Suivre gratuitement"],
-
-    ["Prologue — The Question in the Margin (an excerpt)", "Prologue — La question dans la marge (un extrait)"],
-    ["Crown-watch, seat of House Blackcrest, year 396 A.U.", "Crown-watch, siège de House Blackcrest, an 396 A.U."],
-    ["Wren of Blackthorn reads a sealed record; Aldous of Blackcrest and a herald named Perrin watch.", "Wren de Blackthorn lit un document scellé ; Aldous de Blackcrest et un héraut du nom de Perrin observent."],
-    ["Crown-watch had a room for disputed records and a smaller room for the people who disputed them. Wren had been in the smaller room since noon.", "Crown-watch avait une salle pour les documents contestés et une salle plus petite pour ceux qui les contestaient. Wren était dans la salle plus petite depuis midi."],
-    ["The record on the table was from House Whitehart. It was forty-three pages long, copied in a hand so even that the letters looked less written than agreed upon. Every page had been witnessed. Every witness had been witnessed. The cord had three seals in white wax and one in black, and the black one was Crown-watch's, put there when the packet arrived so that everyone would know no one had opened it before the people who were now opening it.", "Le document posé sur la table venait de House Whitehart. Il faisait quarante-trois pages, copié d’une main si régulière que les lettres semblaient moins écrites que convenues. Chaque page avait été attestée. Chaque témoin avait été attesté. Le cordon portait trois sceaux de cire blanche et un de cire noire, et le noir était celui de Crown-watch, apposé à l’arrivée du paquet afin que chacun sût que personne ne l’avait ouvert avant ceux qui l’ouvraient à présent."],
-    ["Wren had always thought this was the sort of reassurance that creates a new question without answering the old one.", "Wren avait toujours pensé que c’était le genre d’assurance qui crée une nouvelle question sans répondre à l’ancienne."],
-    ["She turned the last page back and read the final sentence again.", "Elle retourna la dernière page et relut la phrase finale."],
-    ["<em>No supporting matter survives outside the entered judgment.</em>", "<em>Aucune pièce justificative ne subsiste hors du jugement consigné.</em>"],
-    ["Across from her, Aldous aligned the packet's lower edge with the edge of the table. He had done this each time she moved it. He had not complained. She had not apologized. Their acquaintance had lasted three hours and had achieved a stable form.", "En face d’elle, Aldous alignait le bord inférieur du paquet sur le bord de la table. Il l’avait fait chaque fois qu’elle le déplaçait. Il ne s’était pas plaint. Elle ne s’était pas excusée. Leur connaissance durait depuis trois heures et avait atteint une forme stable."],
-    ["\"Is it complete?\" he asked.", "« Est-il complet ? » demanda-t-il."],
-    ["<p>\"Yes.\"</p>", "<p>« Oui. »</p>"],
-    ["The third man in the room looked up from the window.", "Le troisième homme de la salle leva les yeux de la fenêtre."],
-    ["He had introduced himself as Perrin, of Blackcrest, and had then spent most of the afternoon behaving as though introductions were something other people required. He wore a traveling coat indoors and had found out the copying clerk's name before Wren had. The clerk had brought him tea without being asked and had brought Wren none, which she did not hold against either of them and noticed about both.", "Il s’était présenté comme Perrin, de Blackcrest, puis avait passé le plus clair de l’après-midi à se comporter comme si les présentations étaient une chose dont les autres avaient besoin. Il portait un manteau de voyage à l’intérieur et avait appris le nom du copiste avant Wren. Le copiste lui avait apporté du thé sans qu’on le lui demande et n’en avait apporté aucun à Wren, ce qu’elle ne reprochait à aucun des deux tout en le remarquant chez les deux."],
-    ["\"That sounded ominous,\" Perrin said.", "« Cela sonnait de mauvais augure », dit Perrin."],
-    ["<p>\"It was an answer.\"</p>", "<p>« C’était une réponse. »</p>"],
-    ["<p>\"Those are often the same thing here.\"</p>", "<p>« Ce sont souvent la même chose ici. »</p>"],
-    ["Aldous did not look at him. \"Complete in what sense?\"", "Aldous ne le regarda pas. « Complet en quel sens ? »"],
-    ["Wren put one finger on the final sentence. \"In theirs.\"", "Wren posa un doigt sur la phrase finale. « Dans le leur. »"],
-    ["The room was very quiet. Crown-watch was built to keep paper dry and voices from traveling. The walls were lined with felt behind the boards; Wren had checked when she came in, because rooms explain institutions more honestly than mottos do.", "La salle était très silencieuse. Crown-watch avait été bâti pour garder le papier au sec et empêcher les voix de voyager. Les murs étaient doublés de feutre derrière les panneaux ; Wren l’avait vérifié en entrant, car les salles expliquent les institutions plus honnêtement que ne le font les devises."],
-    ["Aldous said, \"Explain.\"", "Aldous dit : « Expliquez. »"],
-    ["\"The packet contains every judgment Whitehart chose to enter for the period requested. Names where names are permitted. Dates where dates survive. The name of the tester. The conclusion. Corrections witnessed and sealed.\"", "« Le paquet contient chaque jugement que Whitehart a choisi de consigner pour la période demandée. Des noms là où les noms sont permis. Des dates là où les dates subsistent. Le nom de l’examinateur. La conclusion. Des corrections attestées et scellées. »"],
-    ["<p>\"And the trials?\"</p>", "<p>« Et les épreuves ? »</p>"],
-    ["<p>\"Burned.\"</p>", "<p>« Brûlées. »</p>"],
-    ["<p>\"The notes of the trials.\"</p>", "<p>« Les notes des épreuves. »</p>"],
-    ["\"If you burn the only observation from which a judgment was made, the distinction becomes devotional.\"", "« Si l’on brûle la seule observation d’où un jugement a été tiré, la distinction devient affaire de dévotion. »"],
-    ["— the prologue continues in the book. —", "— le prologue se poursuit dans le livre. —"],
-
-    ["From the room where the realm argues over a record, to the room where the record is only a frightened girl. Read the opening of Chapter One below.", "De la salle où le royaume se dispute au sujet d’un document, à la salle où le document n’est qu’une jeune fille effrayée. Lisez le début du Chapitre Un ci-dessous."],
-    ["Join free to follow the book to print →", "Rejoignez gratuitement pour suivre le livre jusqu’à l’impression →"],
-
-    ["Chapter One — The Trial of the Goatherd (an excerpt)", "Chapitre Un — L’épreuve de la chevrière (un extrait)"],
-    ["House Whitehart, the Bell of Silence, year 396 A.U.", "House Whitehart, the Bell of Silence, an 396 A.U."],
-    ["Brother Tomas prepares the listening room. Mother Alaine watches.", "Frère Tomas prépare la salle d’écoute. Mère Alaine observe."],
-    ["By the time Sela arrived, Tomas had failed the lamp twice.", "Lorsque Sela arriva, Tomas avait déjà échoué deux fois avec la lampe."],
-    ["The first wick had drowned. He pinched it out, drew it up with the point of his char knife, and cut it shorter than he meant to. His hand gave one small tremor against the copper hood. He noticed it before anyone else could and steadied the lamp with his other hand. The second flame burned blue at the root and smoked whenever the valley wind found the arch. Soot gathered beneath the little copper hood.", "La première mèche s’était noyée. Il l’éteignit entre ses doigts, la remonta de la pointe de son couteau à suie et la coupa plus court qu’il ne l’avait voulu. Sa main eut un petit tremblement contre le capuchon de cuivre. Il le remarqua avant que quiconque ne le pût et stabilisa la lampe de son autre main. La seconde flamme brûlait bleue à la racine et fumait chaque fois que le vent de la vallée trouvait l’arche. La suie s’amassait sous le petit capuchon de cuivre."],
-    ["He moved the lamp half a handspan to the left.", "Il déplaça la lampe d’un demi-empan vers la gauche."],
-    ["<p>The flame leaned harder.</p>", "<p>La flamme pencha davantage.</p>"],
-    ["\"Leave it,\" Mother Alaine said.", "« Laissez-la », dit Mère Alaine."],
-    ["She had entered while he was trimming the wick and taken the chair furthest inside, where the back wall met the long row of griffes. The dead faced the valley. Alaine faced the room. She sat with both hands resting on the head of her walking stick and her shoulders clear of the stone, though Tomas knew the cold would reach them before the hour was done.", "Elle était entrée pendant qu’il taillait la mèche et avait pris la chaise la plus au fond, là où le mur du fond rejoignait la longue rangée de griffes. Les morts faisaient face à la vallée. Alaine faisait face à la salle. Elle était assise, les deux mains posées sur le pommeau de sa canne et les épaules écartées de la pierre, quoique Tomas sût que le froid les atteindrait avant la fin de l’heure."],
-    ["\"It will smoke in her eyes,\" he said.", "« Elle va lui fumer dans les yeux », dit-il."],
-    ["<p>\"Then she will move.\"</p>", "<p>« Alors elle bougera. »</p>"],
-    ["<p>\"I would rather know what she does before she has reason.\"</p>", "<p>« Je préférerais savoir ce qu’elle fait avant qu’elle ait une raison. »</p>"],
-    ["Alaine looked at the black crescent forming under the hood. \"The lamp has given her reason.\"", "Alaine regarda le croissant noir qui se formait sous le capuchon. « La lampe lui a donné une raison. »"],
-    ["Tomas wiped his thumb on the rag at his belt. It left a dark mark beside three older ones. He had meant to begin with clean hands.", "Tomas essuya son pouce sur le chiffon à sa ceinture. Il laissa une marque sombre à côté de trois plus anciennes. Il avait voulu commencer avec les mains propres."],
-    ["He put the lamp back where it had been. Alaine had not ordered him. That was not how her authority worked. She named the thing she believed should happen and left other people to discover that they had already obeyed.", "Il remit la lampe là où elle était. Alaine ne le lui avait pas ordonné. Ce n’était pas ainsi que fonctionnait son autorité. Elle nommait la chose qu’elle croyait devoir advenir et laissait les autres découvrir qu’ils avaient déjà obéi."],
-    ["The arch admitted a rush of colder air and the smell of goat hair. Sela came in with a coil of narrow cloth over one shoulder and something pale caught in her braid. Straw, Tomas thought. No—burdock. A dark crescent had dried beneath one thumbnail, blood or hoof dirt or both. She had left her work knife by the door; its sheath hung empty at her belt.", "L’arche laissa entrer un afflux d’air plus froid et l’odeur du poil de chèvre. Sela entra, un rouleau de tissu étroit sur une épaule et quelque chose de pâle pris dans sa tresse. De la paille, pensa Tomas. Non — de la bardane. Un croissant sombre avait séché sous un ongle de pouce, du sang ou de la crasse de sabot ou les deux. Elle avait laissé son couteau de travail près de la porte ; sa gaine pendait vide à sa ceinture."],
-    ["<p>She stopped just inside.</p>", "<p>Elle s’arrêta juste à l’intérieur.</p>"],
-    ["<p>\"How long?\"</p>", "<p>« Combien de temps ? »</p>"],
-    ["Not <em>good evening</em>. Not <em>Mother</em>. She looked first at Tomas, then at the smoking lamp, then back through the arch toward the yard.", "Pas <em>bonsoir</em>. Pas <em>Mère</em>. Elle regarda d’abord Tomas, puis la lampe qui fumait, puis de nouveau à travers l’arche vers la cour."],
-    ["— want the rest? Book One is out now, free. —", "— vous voulez la suite ? Le Livre Un est disponible dès maintenant, gratuitement. —"],
-
-    ["Want to know what happens next?", "Vous voulez savoir ce qui se passe ensuite ?"],
-    ["Read Book One free", "Lisez le Livre Un gratuitement"],
-    ["Vote on what comes next", "Votez sur la suite"],
-    ["Members follow the fuller material — the house records, the map plates, and every step from finished manuscript to printed book.", "Les membres suivent le matériel plus complet — les documents des maisons, les planches de la carte, et chaque étape du manuscrit achevé au livre imprimé."],
-
-    ["Read the whole book — free.", "Lisez le livre entier — gratuitement."],
-    ["<em>The Bell of Silence</em> is out now as a free ebook. Read it in full —\n        and follow the road to the printed edition.", "<em>The Bell of Silence</em> est disponible dès maintenant sous forme de livre numérique gratuit. Lisez-le en entier —\n        et suivez la route vers l’édition imprimée."],
-    ["<li>Read the whole book free, right now</li>", "<li>Lisez le livre entier gratuitement, dès maintenant</li>"],
-    ["<li>Follow the journey from ebook to printed book</li>", "<li>Suivez le parcours du livre numérique au livre imprimé</li>"],
-    ["<li>Join free on Patreon for every major step</li>", "<li>Rejoignez gratuitement sur Patreon pour chaque étape majeure</li>"],
-
-    ["<p class=\"share-label\">Share the opening</p>", "<p class=\"share-label\">Partagez le début</p>"],
-    [">Share on X<", ">Partager sur X<"],
-    ["Copy link", "Copier le lien"],
-
-    ["Enjoying the opening?", "Vous aimez le début ?"],
-    ["Download PDF", "Télécharger le PDF"]
+    [
+      "The record on the table was from House Whitehart. It was forty-three pages long, copied in a hand so even that the letters looked less written than agreed upon. Every page had been witnessed. Every witness had been witnessed. The cord had three seals in white wax and one in black, and the black one was Crown-watch's, put there when the packet arrived so that everyone would know no one had opened it before the people who were now opening it.",
+      "Le document posé sur la table venait de House Whitehart. Il faisait quarante-trois pages, copié d’une main si régulière que les lettres semblaient moins écrites que convenues. Chaque page avait été attestée. Chaque témoin avait été attesté. Le cordon portait trois sceaux de cire blanche et un de cire noire, et le noir était celui de Crown-watch, apposé à l’arrivée du paquet afin que chacun sût que personne ne l’avait ouvert avant ceux qui l’ouvraient à présent."
+    ],
+    [
+      "The first wick had drowned. He pinched it out, drew it up with the point of his char knife, and cut it shorter than he meant to. His hand gave one small tremor against the copper hood. He noticed it before anyone else could and steadied the lamp with his other hand. The second flame burned blue at the root and smoked whenever the valley wind found the arch. Soot gathered beneath the little copper hood.",
+      "La première mèche s’était noyée. Il l’éteignit entre ses doigts, la remonta de la pointe de son couteau à suie et la coupa plus court qu’il ne l’avait voulu. Sa main eut un petit tremblement contre le capuchon de cuivre. Il le remarqua avant que quiconque ne le pût et stabilisa la lampe de son autre main. La seconde flamme brûlait bleue à la racine et fumait chaque fois que le vent de la vallée trouvait l’arche. La suie s’amassait sous le petit capuchon de cuivre."
+    ],
+    [
+      "He had introduced himself as Perrin, of Blackcrest, and had then spent most of the afternoon behaving as though introductions were something other people required. He wore a traveling coat indoors and had found out the copying clerk's name before Wren had. The clerk had brought him tea without being asked and had brought Wren none, which she did not hold against either of them and noticed about both.",
+      "Il s’était présenté comme Perrin, de Blackcrest, puis avait passé le plus clair de l’après-midi à se comporter comme si les présentations étaient une chose dont les autres avaient besoin. Il portait un manteau de voyage à l’intérieur et avait appris le nom du copiste avant Wren. Le copiste lui avait apporté du thé sans qu’on le lui demande et n’en avait apporté aucun à Wren, ce qu’elle ne reprochait à aucun des deux tout en le remarquant chez les deux."
+    ],
+    [
+      "She had entered while he was trimming the wick and taken the chair furthest inside, where the back wall met the long row of griffes. The dead faced the valley. Alaine faced the room. She sat with both hands resting on the head of her walking stick and her shoulders clear of the stone, though Tomas knew the cold would reach them before the hour was done.",
+      "Elle était entrée pendant qu’il taillait la mèche et avait pris la chaise la plus au fond, là où le mur du fond rejoignait la longue rangée de griffes. Les morts faisaient face à la vallée. Alaine faisait face à la salle. Elle était assise, les deux mains posées sur le pommeau de sa canne et les épaules écartées de la pierre, quoique Tomas sût que le froid les atteindrait avant la fin de l’heure."
+    ],
+    [
+      "The arch admitted a rush of colder air and the smell of goat hair. Sela came in with a coil of narrow cloth over one shoulder and something pale caught in her braid. Straw, Tomas thought. No—burdock. A dark crescent had dried beneath one thumbnail, blood or hoof dirt or both. She had left her work knife by the door; its sheath hung empty at her belt.",
+      "L’arche laissa entrer un afflux d’air plus froid et l’odeur du poil de chèvre. Sela entra, un rouleau de tissu étroit sur une épaule et quelque chose de pâle pris dans sa tresse. De la paille, pensa Tomas. Non — de la bardane. Un croissant sombre avait séché sous un ongle de pouce, du sang ou de la crasse de sabot ou les deux. Elle avait laissé son couteau de travail près de la porte ; sa gaine pendait vide à sa ceinture."
+    ],
+    [
+      "Across from her, Aldous aligned the packet's lower edge with the edge of the table. He had done this each time she moved it. He had not complained. She had not apologized. Their acquaintance had lasted three hours and had achieved a stable form.",
+      "En face d’elle, Aldous alignait le bord inférieur du paquet sur le bord de la table. Il l’avait fait chaque fois qu’elle le déplaçait. Il ne s’était pas plaint. Elle ne s’était pas excusée. Leur connaissance durait depuis trois heures et avait atteint une forme stable."
+    ],
+    [
+      "The room was very quiet. Crown-watch was built to keep paper dry and voices from traveling. The walls were lined with felt behind the boards; Wren had checked when she came in, because rooms explain institutions more honestly than mottos do.",
+      "La salle était très silencieuse. Crown-watch avait été bâti pour garder le papier au sec et empêcher les voix de voyager. Les murs étaient doublés de feutre derrière les panneaux ; Wren l’avait vérifié en entrant, car les salles expliquent les institutions plus honnêtement que ne le font les devises."
+    ],
+    [
+      "\"The packet contains every judgment Whitehart chose to enter for the period requested. Names where names are permitted. Dates where dates survive. The name of the tester. The conclusion. Corrections witnessed and sealed.\"",
+      "« Le paquet contient chaque jugement que Whitehart a choisi de consigner pour la période demandée. Des noms là où les noms sont permis. Des dates là où les dates subsistent. Le nom de l’examinateur. La conclusion. Des corrections attestées et scellées. »"
+    ],
+    [
+      "He put the lamp back where it had been. Alaine had not ordered him. That was not how her authority worked. She named the thing she believed should happen and left other people to discover that they had already obeyed.",
+      "Il remit la lampe là où elle était. Alaine ne le lui avait pas ordonné. Ce n’était pas ainsi que fonctionnait son autorité. Elle nommait la chose qu’elle croyait devoir advenir et laissait les autres découvrir qu’ils avaient déjà obéi."
+    ],
+    [
+      "Two openings from Book One: <em>The Bell of Silence</em> — the prologue, where the realm argues over a record, and the beginning of Chapter One, where the record is only a frightened girl.",
+      "Deux ouvertures du Livre Un : <em>The Bell of Silence</em> — le prologue, où le royaume se dispute au sujet d’un document, et le début du Chapitre Un, où le document n’est qu’une jeune fille effrayée."
+    ],
+    [
+      "From the room where the realm argues over a record, to the room where the record is only a frightened girl. Read the opening of Chapter One below.",
+      "De la salle où le royaume se dispute au sujet d’un document, à la salle où le document n’est qu’une jeune fille effrayée. Lisez le début du Chapitre Un ci-dessous."
+    ],
+    [
+      "Not <em>good evening</em>. Not <em>Mother</em>. She looked first at Tomas, then at the smoking lamp, then back through the arch toward the yard.",
+      "Pas <em>bonsoir</em>. Pas <em>Mère</em>. Elle regarda d’abord Tomas, puis la lampe qui fumait, puis de nouveau à travers l’arche vers la cour."
+    ],
+    [
+      "Crown-watch had a room for disputed records and a smaller room for the people who disputed them. Wren had been in the smaller room since noon.",
+      "Crown-watch avait une salle pour les documents contestés et une salle plus petite pour ceux qui les contestaient. Wren était dans la salle plus petite depuis midi."
+    ],
+    [
+      "Tomas wiped his thumb on the rag at his belt. It left a dark mark beside three older ones. He had meant to begin with clean hands.",
+      "Tomas essuya son pouce sur le chiffon à sa ceinture. Il laissa une marque sombre à côté de trois plus anciennes. Il avait voulu commencer avec les mains propres."
+    ],
+    [
+      "Members follow the fuller material — the house records, the map plates, and every step from finished manuscript to printed book.",
+      "Les membres suivent le matériel plus complet — les documents des maisons, les planches de la carte, et chaque étape du manuscrit achevé au livre imprimé."
+    ],
+    [
+      "<em>The Bell of Silence</em> is out now as a free ebook. Read it in full —\n        and follow the road to the printed edition.",
+      "<em>The Bell of Silence</em> est disponible dès maintenant sous forme de livre numérique gratuit. Lisez-le en entier —\n        et suivez la route vers l’édition imprimée."
+    ],
+    [
+      "Wren had always thought this was the sort of reassurance that creates a new question without answering the old one.",
+      "Wren avait toujours pensé que c’était le genre d’assurance qui crée une nouvelle question sans répondre à l’ancienne."
+    ],
+    [
+      "\"If you burn the only observation from which a judgment was made, the distinction becomes devotional.\"",
+      "« Si l’on brûle la seule observation d’où un jugement a été tiré, la distinction devient affaire de dévotion. »"
+    ],
+    [
+      "Wren of Blackthorn reads a sealed record; Aldous of Blackcrest and a herald named Perrin watch.",
+      "Wren de Blackthorn lit un document scellé ; Aldous de Blackcrest et un héraut du nom de Perrin observent."
+    ],
+    [
+      "Alaine looked at the black crescent forming under the hood. \"The lamp has given her reason.\"",
+      "Alaine regarda le croissant noir qui se formait sous le capuchon. « La lampe lui a donné une raison. »"
+    ],
+    [
+      "Or skip the noise — I'll write to you myself when there's more to read.",
+      "Ou passez outre le bruit — je vous écrirai moi-même quand il y aura plus à lire."
+    ],
+    [
+      "<em>No supporting matter survives outside the entered judgment.</em>",
+      "<em>Aucune pièce justificative ne subsiste hors du jugement consigné.</em>"
+    ],
+    [
+      "Brother Tomas prepares the listening room. Mother Alaine watches.",
+      "Frère Tomas prépare la salle d’écoute. Mère Alaine observe."
+    ],
+    [
+      "<p>\"I would rather know what she does before she has reason.\"</p>",
+      "<p>« Je préférerais savoir ce qu’elle fait avant qu’elle ait une raison. »</p>"
+    ],
+    [
+      "She turned the last page back and read the final sentence again.",
+      "Elle retourna la dernière page et relut la phrase finale."
+    ],
+    [
+      "By the time Sela arrived, Tomas had failed the lamp twice.",
+      "Lorsque Sela arriva, Tomas avait déjà échoué deux fois avec la lampe."
+    ],
+    [
+      "Wren put one finger on the final sentence. \"In theirs.\"",
+      "Wren posa un doigt sur la phrase finale. « Dans le leur. »"
+    ],
+    [
+      "<li>Follow the journey from ebook to printed book</li>",
+      "<li>Suivez le parcours du livre numérique au livre imprimé</li>"
+    ],
+    [
+      "Aldous did not look at him. \"Complete in what sense?\"",
+      "Aldous ne le regarda pas. « Complet en quel sens ? »"
+    ],
+    [
+      "Crown-watch, seat of House Blackcrest, year 396 A.U.",
+      "Crown-watch, siège de House Blackcrest, an 396 A.U."
+    ],
+    [
+      "The third man in the room looked up from the window.",
+      "Le troisième homme de la salle leva les yeux de la fenêtre."
+    ],
+    [
+      "Chapter One — The Trial of the Goatherd (an excerpt)",
+      "Chapitre Un — L’épreuve de la chevrière (un extrait)"
+    ],
+    [
+      "House Whitehart, the Bell of Silence, year 396 A.U.",
+      "House Whitehart, the Bell of Silence, an 396 A.U."
+    ],
+    [
+      "Prologue — The Question in the Margin (an excerpt)",
+      "Prologue — La question dans la marge (un extrait)"
+    ],
+    [
+      "<li>Join free on Patreon for every major step</li>",
+      "<li>Rejoignez gratuitement sur Patreon pour chaque étape majeure</li>"
+    ],
+    [
+      "He moved the lamp half a handspan to the left.",
+      "Il déplaça la lampe d’un demi-empan vers la gauche."
+    ],
+    [
+      "<p>\"Those are often the same thing here.\"</p>",
+      "<p>« Ce sont souvent la même chose ici. »</p>"
+    ],
+    [
+      "— want the rest? Book One is out now, free. —",
+      "— vous voulez la suite ? Le Livre Un est disponible dès maintenant, gratuitement. —"
+    ],
+    [
+      "<li>Read the whole book free, right now</li>",
+      "<li>Lisez le livre entier gratuitement, dès maintenant</li>"
+    ],
+    [
+      "<p class=\"share-label\">Share the opening</p>",
+      "<p class=\"share-label\">Partagez le début</p>"
+    ],
+    [
+      "<h1 class=\"page-title\">From the pages</h1>",
+      "<h1 class=\"page-title\">Extraits des pages</h1>"
+    ],
+    [
+      "— the prologue continues in the book. —",
+      "— le prologue se poursuit dans le livre. —"
+    ],
+    [
+      "Join free to follow the book to print →",
+      "Rejoignez gratuitement pour suivre le livre jusqu’à l’impression →"
+    ],
+    [
+      "\"It will smoke in her eyes,\" he said.",
+      "« Elle va lui fumer dans les yeux », dit-il."
+    ],
+    [
+      "\"That sounded ominous,\" Perrin said.",
+      "« Cela sonnait de mauvais augure », dit Perrin."
+    ],
+    [
+      "<p>\"The notes of the trials.\"</p>",
+      "<p>« Les notes des épreuves. »</p>"
+    ],
+    [
+      "<p>The flame leaned harder.</p>",
+      "<p>La flamme pencha davantage.</p>"
+    ],
+    [
+      "\"Leave it,\" Mother Alaine said.",
+      "« Laissez-la », dit Mère Alaine."
+    ],
+    [
+      "<p>She stopped just inside.</p>",
+      "<p>Elle s’arrêta juste à l’intérieur.</p>"
+    ],
+    [
+      "Want to know what happens next?",
+      "Vous voulez savoir ce qui se passe ensuite ?"
+    ],
+    [
+      "<p>\"Then she will move.\"</p>",
+      "<p>« Alors elle bougera. »</p>"
+    ],
+    [
+      "\"Is it complete?\" he asked.",
+      "« Est-il complet ? » demanda-t-il."
+    ],
+    [
+      "Read the whole book — free.",
+      "Lisez le livre entier — gratuitement."
+    ],
+    [
+      "◔ About a five-minute read",
+      "◔ Environ cinq minutes de lecture"
+    ],
+    [
+      "<p>\"It was an answer.\"</p>",
+      "<p>« C’était une réponse. »</p>"
+    ],
+    [
+      "<p>\"And the trials?\"</p>",
+      "<p>« Et les épreuves ? »</p>"
+    ],
+    [
+      "Aldous said, \"Explain.\"",
+      "Aldous dit : « Expliquez. »"
+    ],
+    [
+      "Vote on what comes next",
+      "Votez sur la suite"
+    ],
+    [
+      "Enjoying the opening?",
+      "Vous aimez le début ?"
+    ],
+    [
+      "<p>\"How long?\"</p>",
+      "<p>« Combien de temps ? »</p>"
+    ],
+    [
+      "Read Book One free",
+      "Lisez le Livre Un gratuitement"
+    ],
+    [
+      "<p>\"Burned.\"</p>",
+      "<p>« Brûlées. »</p>"
+    ],
+    [
+      "<p>\"Yes.\"</p>",
+      "<p>« Oui. »</p>"
+    ],
+    [
+      ">Share on X<",
+      ">Partager sur X<"
+    ],
+    [
+      "Download PDF",
+      "Télécharger le PDF"
+    ],
+    [
+      "Follow free",
+      "Suivre gratuitement"
+    ],
+    [
+      "Copy link",
+      "Copier le lien"
+    ]
   ]
 }

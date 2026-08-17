@@ -297,7 +297,7 @@
     opts = opts || {};
     container.innerHTML = "";
     var card = el("div", "auth-gate");
-    card.appendChild(el("h3", "auth-gate-title", t("gateTitle")));
+    card.appendChild(el("h3", "auth-gate-title", opts.title || t("gateTitle")));
     var body = el("p", "auth-gate-body", opts.intro || t("gateBody"));
     card.appendChild(body);
 

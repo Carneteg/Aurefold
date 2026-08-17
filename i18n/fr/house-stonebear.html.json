@@ -1,36 +1,20 @@
 {
   "blocks": [
     [
-      "YOU WOULD FOLLOW",
-      "VOUS SUIVRIEZ"
-    ],
-    [
-      "Which house are you? Take the quiz",
-      "Quelle maison êtes-vous ? Faites le quiz"
-    ],
-    [
-      "Follow free",
-      "Suivre gratuitement"
-    ],
-    [
-      "Meet all ten houses &rarr;",
-      "Découvrez les dix maisons &rarr;"
-    ],
-    [
-      "Tell them which house you'd follow",
-      "Dites-leur quelle maison vous suivriez"
-    ],
-    [
-      ">Share on X<",
-      ">Partager sur X<"
-    ],
-    [
-      ">Copy</button>",
-      ">Copier</button>"
-    ],
-    [
       "The book's canon and central mysteries are the author's; the Moot and this quiz shape the world around it — what the archive opens or explores next — never the story's heart.",
       "Le canon du livre et ses mystères centraux appartiennent à l’auteur ; le Conseil et ce quiz façonnent le monde autour du livre — ce que l’archive ouvre ou explore ensuite — jamais le cœur de l’histoire."
+    ],
+    [
+      "Honor. They keep their word past the point it costs them everything. Take the quiz and find your house of Aurefold.",
+      "Honneur. Ils tiennent parole au-delà du point où elle leur coûte tout. Faites le quiz et découvrez votre maison d’Aurefold."
+    ],
+    [
+      "<p class=\"quiz-result-line\">“They keep their word past the point it costs them everything.”</p>",
+      "<p class=\"quiz-result-line\">“Ils tiennent parole au-delà du point où elle leur coûte tout.”</p>"
+    ],
+    [
+      "“Can a public code restrain power without turning human complexity into shame?”",
+      "« Un code d’honneur public peut-il tenir le pouvoir en bride sans transformer la complexité humaine en honte ? »"
     ],
     [
       "House Stonebear — Which house would you follow? | AUREFOLD",
@@ -41,28 +25,52 @@
       "Je suivrais House Stonebear — quelle maison suivriez-vous ?"
     ],
     [
-      "Honor. They keep their word past the point it costs them everything. Take the quiz and find your house of Aurefold.",
-      "Honneur. Ils tiennent parole au-delà du point où elle leur coûte tout. Faites le quiz et découvrez votre maison d’Aurefold."
+      "<p class=\"quiz-result-phil\">Honor</p>",
+      "<p class=\"quiz-result-phil\">Honneur</p>"
+    ],
+    [
+      "Raise a character in the Banner Hall",
+      "Levez un personnage dans la Salle des Bannières"
+    ],
+    [
+      "Which house are you? Take the quiz",
+      "Quelle maison êtes-vous ? Faites le quiz"
+    ],
+    [
+      "Tell them which house you'd follow",
+      "Dites-leur quelle maison vous suivriez"
     ],
     [
       "House Stonebear — Honor — AUREFOLD",
       "House Stonebear — Honneur — AUREFOLD"
     ],
     [
-      "<p class=\"quiz-result-phil\">Honor</p>",
-      "<p class=\"quiz-result-phil\">Honneur</p>"
-    ],
-    [
-      "<p class=\"quiz-result-line\">“They keep their word past the point it costs them everything.”</p>",
-      "<p class=\"quiz-result-line\">“Ils tiennent parole au-delà du point où elle leur coûte tout.”</p>"
-    ],
-    [
       "Cast this as your vote in The Moot",
       "Portez ceci comme votre vote au Conseil"
     ],
     [
-      "Raise a character in the Banner Hall",
-      "Levez un personnage dans la Salle des Bannières"
+      "Meet all ten houses &rarr;",
+      "Découvrez les dix maisons &rarr;"
+    ],
+    [
+      "The question it forces",
+      "La question qu’elle impose"
+    ],
+    [
+      "YOU WOULD FOLLOW",
+      "VOUS SUIVRIEZ"
+    ],
+    [
+      ">Copy</button>",
+      ">Copier</button>"
+    ],
+    [
+      ">Share on X<",
+      ">Partager sur X<"
+    ],
+    [
+      "Follow free",
+      "Suivre gratuitement"
     ]
   ]
 }

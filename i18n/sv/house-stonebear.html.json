@@ -1,36 +1,20 @@
 {
   "blocks": [
     [
-      "YOU WOULD FOLLOW",
-      "DU SKULLE FÖLJA"
-    ],
-    [
-      "Which house are you? Take the quiz",
-      "Vilket hus är du? Gör testet"
-    ],
-    [
-      "Follow free",
-      "Följ gratis"
-    ],
-    [
-      "Meet all ten houses &rarr;",
-      "Möt alla tio hus &rarr;"
-    ],
-    [
-      "Tell them which house you'd follow",
-      "Berätta vilket hus du skulle följa"
-    ],
-    [
-      ">Share on X<",
-      ">Dela på X<"
-    ],
-    [
-      ">Copy</button>",
-      ">Kopiera</button>"
-    ],
-    [
       "The book's canon and central mysteries are the author's; the Moot and this quiz shape the world around it — what the archive opens or explores next — never the story's heart.",
       "Bokens kanon och centrala mysterier är författarens; Tinget och det här testet formar världen kring den — vad arkivet öppnar eller utforskar härnäst — aldrig berättelsens hjärta."
+    ],
+    [
+      "Honor. They keep their word past the point it costs them everything. Take the quiz and find your house of Aurefold.",
+      "Heder. De håller sitt ord bortom den punkt där det kostar dem allt. Gör testet och hitta ditt hus i Aurefold."
+    ],
+    [
+      "<p class=\"quiz-result-line\">“They keep their word past the point it costs them everything.”</p>",
+      "<p class=\"quiz-result-line\">“De håller sitt ord bortom den punkt där det kostar dem allt.”</p>"
+    ],
+    [
+      "“Can a public code restrain power without turning human complexity into shame?”",
+      "”Kan en offentlig hederskodex tygla makt utan att göra mänsklig komplexitet till skam?”"
     ],
     [
       "House Stonebear — Which house would you follow? | AUREFOLD",
@@ -41,28 +25,52 @@
       "Jag skulle följa House Stonebear — vilket hus skulle du följa?"
     ],
     [
-      "Honor. They keep their word past the point it costs them everything. Take the quiz and find your house of Aurefold.",
-      "Heder. De håller sitt ord bortom den punkt där det kostar dem allt. Gör testet och hitta ditt hus i Aurefold."
+      "<p class=\"quiz-result-phil\">Honor</p>",
+      "<p class=\"quiz-result-phil\">Heder</p>"
+    ],
+    [
+      "Raise a character in the Banner Hall",
+      "Res en karaktär i Banerhallen"
+    ],
+    [
+      "Which house are you? Take the quiz",
+      "Vilket hus är du? Gör testet"
+    ],
+    [
+      "Tell them which house you'd follow",
+      "Berätta vilket hus du skulle följa"
     ],
     [
       "House Stonebear — Honor — AUREFOLD",
       "House Stonebear — Heder — AUREFOLD"
     ],
     [
-      "<p class=\"quiz-result-phil\">Honor</p>",
-      "<p class=\"quiz-result-phil\">Heder</p>"
-    ],
-    [
-      "<p class=\"quiz-result-line\">“They keep their word past the point it costs them everything.”</p>",
-      "<p class=\"quiz-result-line\">“De håller sitt ord bortom den punkt där det kostar dem allt.”</p>"
-    ],
-    [
       "Cast this as your vote in The Moot",
       "Lägg detta som din röst i Tinget"
     ],
     [
-      "Raise a character in the Banner Hall",
-      "Res en karaktär i Banerhallen"
+      "Meet all ten houses &rarr;",
+      "Möt alla tio hus &rarr;"
+    ],
+    [
+      "The question it forces",
+      "Frågan den tvingar fram"
+    ],
+    [
+      "YOU WOULD FOLLOW",
+      "DU SKULLE FÖLJA"
+    ],
+    [
+      ">Copy</button>",
+      ">Kopiera</button>"
+    ],
+    [
+      ">Share on X<",
+      ">Dela på X<"
+    ],
+    [
+      "Follow free",
+      "Följ gratis"
     ]
   ]
 }

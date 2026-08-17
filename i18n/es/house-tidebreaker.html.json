@@ -1,36 +1,20 @@
 {
   "blocks": [
     [
-      "YOU WOULD FOLLOW",
-      "SEGUIRÍAS A"
-    ],
-    [
-      "Which house are you? Take the quiz",
-      "¿A qué casa perteneces? Haz el test"
-    ],
-    [
-      "Follow free",
-      "Sigue gratis"
-    ],
-    [
-      "Meet all ten houses &rarr;",
-      "Conoce las diez casas &rarr;"
-    ],
-    [
-      "Tell them which house you'd follow",
-      "Diles a qué casa seguirías"
-    ],
-    [
-      ">Share on X<",
-      ">Compartir en X<"
-    ],
-    [
-      ">Copy</button>",
-      ">Copiar</button>"
-    ],
-    [
       "The book's canon and central mysteries are the author's; the Moot and this quiz shape the world around it — what the archive opens or explores next — never the story's heart.",
       "El canon del libro y sus misterios centrales son del autor; El Cónclave y este test dan forma al mundo que rodea al libro — lo que el archivo abre o explora a continuación — nunca el corazón de la historia."
+    ],
+    [
+      "Knowledge. They chart all of it, and share almost none. Take the quiz and find your house of Aurefold.",
+      "Conocimiento. Lo cartografían todo, y comparten casi nada. Haz el test y descubre tu casa de Aurefold."
+    ],
+    [
+      "<p class=\"quiz-result-line\">“They chart all of it, and share almost none.”</p>",
+      "<p class=\"quiz-result-line\">“Lo cartografían todo, y comparten casi nada.”</p>"
+    ],
+    [
+      "“When does preserving knowledge become control over those who produced it?”",
+      "«¿Cuándo se convierte la preservación del conocimiento en control sobre quienes lo produjeron?»"
     ],
     [
       "House Tidebreaker — Which house would you follow? | AUREFOLD",
@@ -41,28 +25,52 @@
       "Seguiría a House Tidebreaker — ¿a qué casa seguirías tú?"
     ],
     [
-      "Knowledge. They chart all of it, and share almost none. Take the quiz and find your house of Aurefold.",
-      "Conocimiento. Lo cartografían todo, y comparten casi nada. Haz el test y descubre tu casa de Aurefold."
+      "<p class=\"quiz-result-phil\">Knowledge</p>",
+      "<p class=\"quiz-result-phil\">Conocimiento</p>"
     ],
     [
       "House Tidebreaker — Knowledge — AUREFOLD",
       "House Tidebreaker — Conocimiento — AUREFOLD"
     ],
     [
-      "<p class=\"quiz-result-phil\">Knowledge</p>",
-      "<p class=\"quiz-result-phil\">Conocimiento</p>"
+      "Raise a character in the Banner Hall",
+      "Alza un personaje en la Sala de los Estandartes"
     ],
     [
-      "<p class=\"quiz-result-line\">“They chart all of it, and share almost none.”</p>",
-      "<p class=\"quiz-result-line\">“Lo cartografían todo, y comparten casi nada.”</p>"
+      "Which house are you? Take the quiz",
+      "¿A qué casa perteneces? Haz el test"
+    ],
+    [
+      "Tell them which house you'd follow",
+      "Diles a qué casa seguirías"
     ],
     [
       "Cast this as your vote in The Moot",
       "Lleva esto como tu voto en El Cónclave"
     ],
     [
-      "Raise a character in the Banner Hall",
-      "Alza un personaje en la Sala de los Estandartes"
+      "Meet all ten houses &rarr;",
+      "Conoce las diez casas &rarr;"
+    ],
+    [
+      "The question it forces",
+      "La pregunta que impone"
+    ],
+    [
+      "YOU WOULD FOLLOW",
+      "SEGUIRÍAS A"
+    ],
+    [
+      ">Copy</button>",
+      ">Copiar</button>"
+    ],
+    [
+      ">Share on X<",
+      ">Compartir en X<"
+    ],
+    [
+      "Follow free",
+      "Sigue gratis"
     ]
   ]
 }

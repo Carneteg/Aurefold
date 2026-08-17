@@ -3,92 +3,52 @@
   "description": "Möt människorna i The Bell of Silence — en getvallare som inte vill förklara vad hon hört, prövaren som skickats att döma henne, och huset byggt för att tvivla.",
   "blocks": [
     [
-      "<h1 class=\"page-title\">The Faces</h1>",
-      "<h1 class=\"page-title\">Ansiktena</h1>"
+      "Beyond the valley stand the other Great Houses — each a philosophy of leadership,\n        explored on <a href=\"houses.html\">The Great Houses</a>. Their named leaders and heirs are\n        held back from these pages until the book is published.",
+      "Bortom dalen står de andra stora husen — vart och ett en ledarskapsfilosofi,\n        utforskad på <a href=\"houses.html\">De stora husen</a>. Deras namngivna ledare och arvingar\n        hålls tillbaka från dessa sidor tills boken är utgiven."
     ],
     [
       "The people of Book One first, then the wider realm behind them — recorded\n      without judgement, as the archive requires. Most of the Ten Houses reach the\n      valley only as a name, a good, or a distant pressure.",
       "Först människorna i Bok Ett, sedan det vidare riket bakom dem — nedtecknade\n      utan dom, som arkivet kräver. De flesta av de tio husen når\n      dalen bara som ett namn, en vara, eller en avlägsen påtryckning."
     ],
     [
-      "In the valley — Book One",
-      "I dalen — Bok Ett"
-    ],
-    [
-      "Strangers in Book One",
-      "Främlingar i Bok Ett"
-    ],
-    [
-      "The wider realm",
-      "Det vidare riket"
-    ],
-    [
-      "Also in the record",
-      "Även i arkivet"
-    ],
-    [
-      "<h3>Brother Tomas</h3>",
-      "<h3>Broder Tomas</h3>"
-    ],
-    [
-      "<h3>Mother Alaine</h3>",
-      "<h3>Moder Alaine</h3>"
-    ],
-    [
-      "<h3>Sister Wilda</h3>",
-      "<h3>Syster Wilda</h3>"
-    ],
-    [
-      "The Light Heights · 19",
-      "Light Heights · 19"
-    ],
-    [
-      "The valley · 52",
-      "Dalen · 52"
-    ],
-    [
-      "<p class=\"face-house\">The valley</p>",
-      "<p class=\"face-house\">Dalen</p>"
-    ],
-    [
-      "Duskport trader · 46",
-      "Handlare i Duskport · 46"
-    ],
-    [
-      "A traveler · 29",
-      "En resenär · 29"
-    ],
-    [
       "A goatherd who hears a voice — or does not — and refuses to say more than she knows. The house makes her its public meaning, whether she consents or not.",
       "En getvallare som hör en röst — eller inte — och vägrar säga mer än hon vet. Huset gör henne till sin offentliga innebörd, vare sig hon samtycker eller inte."
-    ],
-    [
-      "The Tester. Sixteen years turning uncertainty into verdict; now he carries the one thing a tester should not own — his first doubt.",
-      "Prövaren. Sexton år av att förvandla osäkerhet till utslag; nu bär han på det enda en prövare inte bör äga — sitt första tvivel."
     ],
     [
       "Head of the listening house. Fifty years of authority built from stillness — and, in private, an uncertainty she can never show the valley.",
       "Det lyssnande husets överhuvud. Femtio år av auktoritet byggd på stillhet — och, i det tysta, en osäkerhet hon aldrig kan visa dalen."
     ],
     [
-      "The Unwritten. He tends the niches and knows every name in the wall; the house has never been permitted to speak his.",
-      "Den oskrivne. Han sköter nischerna och kan varje namn i väggen; huset har aldrig fått uttala hans."
-    ],
-    [
-      "Col's mother. She keeps the same vigil at the boundary each first snow, asking only that a name return to ordinary speech.",
-      "Cols mor. Hon håller samma vaka vid gränsen varje första snö, och ber bara att ett namn ska återvända till vanligt tal."
+      "The Tester. Sixteen years turning uncertainty into verdict; now he carries the one thing a tester should not own — his first doubt.",
+      "Prövaren. Sexton år av att förvandla osäkerhet till utslag; nu bär han på det enda en prövare inte bör äga — sitt första tvivel."
     ],
     [
       "A worker and guide: proud, practical, and loved. Standing, money, and a horse promised to a boy all lean on a single choice.",
       "En arbetare och vägvisare: stolt, praktisk och älskad. Anseende, pengar och en häst lovad åt en pojke vilar alla på ett enda val."
     ],
     [
+      "Col's mother. She keeps the same vigil at the boundary each first snow, asking only that a name return to ordinary speech.",
+      "Cols mor. Hon håller samma vaka vid gränsen varje första snö, och ber bara att ett namn ska återvända till vanligt tal."
+    ],
+    [
       "The Jubilee Herald. He comes to write the valley down — a mercy to the forgotten, and a record that can become a weapon.",
       "Jubileumsheralden. Han kommer för att skriva ner dalen — en nåd mot de glömda, och ett arkiv som kan bli ett vapen."
     ],
     [
-      "Law and rite. She makes the correct word binding, even when the correct word wounds.",
-      "Lag och rit. Hon gör det rätta ordet bindande, även när det rätta ordet sårar."
+      "The Unwritten. He tends the niches and knows every name in the wall; the house has never been permitted to speak his.",
+      "Den oskrivne. Han sköter nischerna och kan varje namn i väggen; huset har aldrig fått uttala hans."
+    ],
+    [
+      "A traveler carrying contradictory news from the realm beyond the passes — honest enough not to pretend it is certain.",
+      "En resenär med motstridiga nyheter från riket bortom passen — ärlig nog att inte låtsas att de är säkra."
+    ],
+    [
+      "A trader and ledger-keeper who feeds the valley on credit and moving goods. Her usefulness is real; so is her price.",
+      "En handlare och bokförare som föder dalen på kredit och varor i rörelse. Hennes nytta är verklig; det är också hennes pris."
+    ],
+    [
+      "A servant in Nella's party who struggles to say <em>I</em>, and carries scars the book declines to explain.",
+      "En tjänare i Nellas sällskap som har svårt att säga <em>jag</em>, och bär ärr som boken avstår från att förklara."
     ],
     [
       "A novice whose sincere love turns ordinary acts into signs. No liar — and an engine of myth all the same.",
@@ -99,20 +59,8 @@
       "Ett edsvittne som håller gränsen exakt som den är skriven — hedervärd, konsekvent och ödeläggande."
     ],
     [
-      "A trader and ledger-keeper who feeds the valley on credit and moving goods. Her usefulness is real; so is her price.",
-      "En handlare och bokförare som föder dalen på kredit och varor i rörelse. Hennes nytta är verklig; det är också hennes pris."
-    ],
-    [
-      "A traveler carrying contradictory news from the realm beyond the passes — honest enough not to pretend it is certain.",
-      "En resenär med motstridiga nyheter från riket bortom passen — ärlig nog att inte låtsas att de är säkra."
-    ],
-    [
-      "A servant in Nella's party who struggles to say <em>I</em>, and carries scars the book declines to explain.",
-      "En tjänare i Nellas sällskap som har svårt att säga <em>jag</em>, och bär ärr som boken avstår från att förklara."
-    ],
-    [
-      "Beyond the valley stand the other Great Houses — each a philosophy of leadership,\n        explored on <a href=\"houses.html\">The Great Houses</a>. Their named leaders and heirs are\n        held back from these pages until the book is published.",
-      "Bortom dalen står de andra stora husen — vart och ett en ledarskapsfilosofi,\n        utforskad på <a href=\"houses.html\">De stora husen</a>. Deras namngivna ledare och arvingar\n        hålls tillbaka från dessa sidor tills boken är utgiven."
+      "Law and rite. She makes the correct word binding, even when the correct word wounds.",
+      "Lag och rit. Hon gör det rätta ordet bindande, även när det rätta ordet sårar."
     ],
     [
       "More of Book One’s Whitehart and valley hands, recorded by name.",
@@ -123,12 +71,64 @@
       "Whitehart- och dalfolk som rör sig genom Bok Ett."
     ],
     [
-      "Read Book One free",
-      "Läs Bok Ett gratis"
+      "<h1 class=\"page-title\">The Faces</h1>",
+      "<h1 class=\"page-title\">Ansiktena</h1>"
+    ],
+    [
+      "<p class=\"face-house\">The valley</p>",
+      "<p class=\"face-house\">Dalen</p>"
     ],
     [
       "Which house are you? Take the quiz",
       "Vilket hus är du? Gör testet"
+    ],
+    [
+      "In the valley — Book One",
+      "I dalen — Bok Ett"
+    ],
+    [
+      "<h3>Brother Tomas</h3>",
+      "<h3>Broder Tomas</h3>"
+    ],
+    [
+      "<h3>Mother Alaine</h3>",
+      "<h3>Moder Alaine</h3>"
+    ],
+    [
+      "The Light Heights · 19",
+      "Light Heights · 19"
+    ],
+    [
+      "Strangers in Book One",
+      "Främlingar i Bok Ett"
+    ],
+    [
+      "<h3>Sister Wilda</h3>",
+      "<h3>Syster Wilda</h3>"
+    ],
+    [
+      "Duskport trader · 46",
+      "Handlare i Duskport · 46"
+    ],
+    [
+      "Also in the record",
+      "Även i arkivet"
+    ],
+    [
+      "Read Book One free",
+      "Läs Bok Ett gratis"
+    ],
+    [
+      "The wider realm",
+      "Det vidare riket"
+    ],
+    [
+      "The valley · 52",
+      "Dalen · 52"
+    ],
+    [
+      "A traveler · 29",
+      "En resenär · 29"
     ]
   ]
 }

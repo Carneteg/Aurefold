@@ -1,68 +1,76 @@
 {
   "blocks": [
     [
-      "YOU WOULD FOLLOW",
-      "VOUS SUIVRIEZ"
-    ],
-    [
-      "Which house are you? Take the quiz",
-      "Quelle maison êtes-vous ? Faites le quiz"
-    ],
-    [
-      "Follow free",
-      "Suivre gratuitement"
-    ],
-    [
-      "Meet all ten houses &rarr;",
-      "Découvrez les dix maisons &rarr;"
-    ],
-    [
-      "Tell them which house you'd follow",
-      "Dites-leur quelle maison vous suivriez"
-    ],
-    [
-      ">Share on X<",
-      ">Partager sur X<"
-    ],
-    [
-      ">Copy</button>",
-      ">Copier</button>"
-    ],
-    [
       "The book's canon and central mysteries are the author's; the Moot and this quiz shape the world around it — what the archive opens or explores next — never the story's heart.",
       "Le canon du livre et ses mystères centraux appartiennent à l’auteur ; le Conseil et ce quiz façonnent le monde autour du livre — ce que l’archive ouvre ou explore ensuite — jamais le cœur de l’histoire."
-    ],
-    [
-      "House Phoenix — Which house would you follow? | AUREFOLD",
-      "House Phoenix — Quelle maison suivriez-vous ? | AUREFOLD"
-    ],
-    [
-      "I'm House Phoenix — which house are you?",
-      "Je suivrais House Phoenix — quelle maison suivriez-vous ?"
     ],
     [
       "The future. They build on scorched ground and refuse to look down. Take the quiz and find your house of Aurefold.",
       "L’avenir. Ils bâtissent sur la terre brûlée et refusent de regarder en bas. Faites le quiz et découvrez votre maison d’Aurefold."
     ],
     [
-      "House Phoenix — the future — AUREFOLD",
-      "House Phoenix — l’avenir — AUREFOLD"
+      "<p class=\"quiz-result-line\">“They build on scorched ground and refuse to look down.”</p>",
+      "<p class=\"quiz-result-line\">“Ils bâtissent sur la terre brûlée et refusent de regarder en bas.”</p>"
+    ],
+    [
+      "“What may the present sacrifice for a future it cannot verify?”",
+      "« Que le présent peut-il sacrifier pour un avenir qu’il ne peut vérifier ? »"
+    ],
+    [
+      "House Phoenix — Which house would you follow? | AUREFOLD",
+      "House Phoenix — Quelle maison suivriez-vous ? | AUREFOLD"
     ],
     [
       "<p class=\"quiz-result-phil\">the future</p>",
       "<p class=\"quiz-result-phil\">l’avenir</p>"
     ],
     [
-      "<p class=\"quiz-result-line\">“They build on scorched ground and refuse to look down.”</p>",
-      "<p class=\"quiz-result-line\">“Ils bâtissent sur la terre brûlée et refusent de regarder en bas.”</p>"
+      "I'm House Phoenix — which house are you?",
+      "Je suivrais House Phoenix — quelle maison suivriez-vous ?"
+    ],
+    [
+      "House Phoenix — the future — AUREFOLD",
+      "House Phoenix — l’avenir — AUREFOLD"
+    ],
+    [
+      "Raise a character in the Banner Hall",
+      "Levez un personnage dans la Salle des Bannières"
+    ],
+    [
+      "Which house are you? Take the quiz",
+      "Quelle maison êtes-vous ? Faites le quiz"
+    ],
+    [
+      "Tell them which house you'd follow",
+      "Dites-leur quelle maison vous suivriez"
     ],
     [
       "Cast this as your vote in The Moot",
       "Portez ceci comme votre vote au Conseil"
     ],
     [
-      "Raise a character in the Banner Hall",
-      "Levez un personnage dans la Salle des Bannières"
+      "Meet all ten houses &rarr;",
+      "Découvrez les dix maisons &rarr;"
+    ],
+    [
+      "The question it forces",
+      "La question qu’elle impose"
+    ],
+    [
+      "YOU WOULD FOLLOW",
+      "VOUS SUIVRIEZ"
+    ],
+    [
+      ">Copy</button>",
+      ">Copier</button>"
+    ],
+    [
+      ">Share on X<",
+      ">Partager sur X<"
+    ],
+    [
+      "Follow free",
+      "Suivre gratuitement"
     ]
   ]
 }

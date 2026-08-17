@@ -1,5 +1,18 @@
 {
   "title": "La Bannière — rejoignez les lecteurs qui façonnent le monde d’Aurefold",
   "description": "La Bannière est le lieu de rassemblement des lecteurs d’Aurefold : prêtez serment, choisissez votre maison, votez au Conseil, élevez vos propres personnages et déposez vos œuvres au Scriptorium.",
-  "blocks": []
+  "blocks": [
+    [
+      "In the hall already: Yara Cobbleworth of Stormrider, Corin Farrow of Ashbourne, and Old Ferro of Ironvale — sworn and honoured.",
+      "Déjà dans la salle : Yara Cobbleworth de Stormrider, Corin Farrow d’Ashbourne et Old Ferro d’Ironvale — jurés et honorés."
+    ],
+    [
+      "Lately: the theory “Why the Chronicle and the Ash Fragments Can't Both Be Lying,” and the story “A Night at the Toll House.”",
+      "Récemment : la théorie « Why the Chronicle and the Ash Fragments Can't Both Be Lying » et le récit « A Night at the Toll House »."
+    ],
+    [
+      "Standing now: “Which house would you follow?” and “Which house's fragment does the archive read aloud next?”",
+      "En ce moment : « Which house would you follow? » et « Which house's fragment does the archive read aloud next? »"
+    ]
+  ]
 }

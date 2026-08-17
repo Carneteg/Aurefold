@@ -1673,7 +1673,7 @@ body { overflow-x: clip; }
 #tidebreaker { --hc: var(--house-tidebreaker); }
 #phoenix     { --hc: var(--house-phoenix); }
 .house-toggle .house-philosophy {
-  color: color-mix(in srgb, var(--hc) 78%, var(--ink));
+  color: color-mix(in srgb, var(--hc) 85%, var(--ink));
   border: 1px solid color-mix(in srgb, var(--hc) 42%, transparent);
   background: color-mix(in srgb, var(--hc) 9%, transparent);
   padding: 3px 12px 4px;
@@ -1739,3 +1739,193 @@ body[class*="house-page-"] .quiz-result-phil {
   .band-dark { padding-top: 52px; padding-bottom: 56px; margin-top: 52px; margin-bottom: 52px; }
   .house-sigil { width: 50px; height: 50px; }
 }
+
+/* ================================================================== */
+/* Design council pass (2026-08): 27 ratified improvements             */
+
+/* Cinzel (SIL Open Font License) — self-hosted display serif, headings only.
+   zh/ja headings fall through the stack to the system serif by design. */
+@font-face {
+  font-family: "Cinzel Display";
+  src: url("fonts/cinzel-latin-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+2122, U+2191, U+2193, U+2212, U+2215;
+}
+@font-face {
+  font-family: "Cinzel Display";
+  src: url("fonts/cinzel-latin-ext-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+:root { --display-serif: "Cinzel Display", var(--serif); }
+h1,
+h2.section-title,
+.book-title,
+.quiz-result-house,
+.house-toggle .house-name { font-family: var(--display-serif); }
+
+/* focus ring must clear 3:1 on the dark surfaces (same fix as --ember-on-dark text) */
+.band-dark :focus-visible,
+.site-footer :focus-visible,
+.hero :focus-visible,
+.title-band :focus-visible { outline-color: var(--ember-on-dark); }
+
+/* ghost buttons on any dark band, same lift as on the hero */
+.band-dark .btn-ghost { color: var(--ember-on-dark); border-color: var(--ember-on-dark); }
+.band-dark .btn-ghost:hover { background: var(--ember-on-dark); color: #070708; }
+
+/* touch targets: 44px minimum */
+.star-input .star { min-width: 44px; min-height: 44px; padding: 6px; }
+.zoom-controls button { width: 44px; height: 44px; }
+
+/* read.html: center the reading column; book-size type on desktop */
+.story { max-width: 66ch; margin-left: auto; margin-right: auto; }
+@media (min-width: 900px) {
+  .story p { font-size: 18px; }
+}
+
+/* cookie banner: reserve space instead of covering content */
+body.has-cookie-banner { padding-bottom: var(--cookie-h, 0px); }
+.read-sticky { bottom: calc(18px + var(--cookie-h, 0px)); }
+.moot-option, .auth-gate, .quiz-option, .cta-row {
+  scroll-margin-bottom: calc(var(--cookie-h, 0px) + 12px);
+}
+@media (max-width: 720px) {
+  .cookie-banner { gap: 8px 14px; padding: 10px 14px; }
+  .cookie-banner .cookie-text { font-size: 0.8rem; line-height: 1.4; }
+  .cookie-banner .cookie-actions .btn { padding: 8px 16px; font-size: 0.72rem; }
+}
+
+/* mobile nav: submenus genuinely collapse, menu gets a scroll shadow */
+@media (max-width: 1000px) {
+  #nav-menu .has-sub .sub-menu { display: none; }
+  #nav-menu .has-sub.open .sub-menu { display: block; }
+  #nav-menu {
+    background:
+      linear-gradient(var(--bg-panel) 30%, rgba(244, 238, 222, 0)) top / 100% 40px no-repeat local,
+      linear-gradient(rgba(244, 238, 222, 0), var(--bg-panel) 70%) bottom / 100% 40px no-repeat local,
+      radial-gradient(farthest-side at top, rgba(58, 51, 42, 0.22), transparent) top / 100% 14px no-repeat scroll,
+      radial-gradient(farthest-side at bottom, rgba(58, 51, 42, 0.22), transparent) bottom / 100% 14px no-repeat scroll;
+    background-color: var(--bg-panel);
+  }
+}
+
+/* heraldic seals on the map markers (hover/selected re-declared below to keep ember) */
+.house-marker[data-id="blackthorn"] .seal  { fill: var(--house-blackthorn); }
+.house-marker[data-id="ravenshade"] .seal  { fill: var(--house-ravenshade); }
+.house-marker[data-id="ashbourne"] .seal   { fill: var(--house-ashbourne); }
+.house-marker[data-id="whitehart"] .seal   { fill: var(--house-whitehart); }
+.house-marker[data-id="stormrider"] .seal  { fill: var(--house-stormrider); }
+.house-marker[data-id="ironvale"] .seal    { fill: var(--house-ironvale); }
+.house-marker[data-id="blackcrest"] .seal  { fill: var(--house-blackcrest); }
+.house-marker[data-id="stonebear"] .seal   { fill: var(--house-stonebear); }
+.house-marker[data-id="tidebreaker"] .seal { fill: var(--house-tidebreaker); }
+.house-marker[data-id="phoenix"] .seal     { fill: var(--house-phoenix); }
+.house-marker:hover .seal, .house-marker.selected .seal { fill: var(--ember); }
+
+/* archive fragments carry their house's color */
+[data-house="blackthorn"]  { --hc: var(--house-blackthorn); }
+[data-house="ravenshade"]  { --hc: var(--house-ravenshade); }
+[data-house="ashbourne"]   { --hc: var(--house-ashbourne); }
+[data-house="whitehart"]   { --hc: var(--house-whitehart); }
+[data-house="stormrider"]  { --hc: var(--house-stormrider); }
+[data-house="ironvale"]    { --hc: var(--house-ironvale); }
+[data-house="blackcrest"]  { --hc: var(--house-blackcrest); }
+[data-house="stonebear"]   { --hc: var(--house-stonebear); }
+[data-house="tidebreaker"] { --hc: var(--house-tidebreaker); }
+[data-house="phoenix"]     { --hc: var(--house-phoenix); }
+.member-preview[data-house] { border-left: 4px solid var(--hc, var(--line)); }
+.member-preview[data-house] .preview-kind { color: color-mix(in srgb, var(--hc) 85%, var(--ink)); }
+
+/* interior title band: the archive's dark ground follows you inside (4 pages) */
+main.page:has(.title-band) { padding-top: var(--nav-h); }
+.title-band {
+  width: 100vw;
+  margin: 0 calc(50% - 50vw) 30px;
+  padding: 22px max(24px, calc(50vw - 456px));
+  background: var(--dark-bg);
+  position: relative;
+  isolation: isolate;
+}
+.title-band::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("fanlanden_map.jpg") center / cover no-repeat;
+  opacity: 0.05;
+  filter: grayscale(0.4) sepia(0.6);
+  z-index: -1;
+  pointer-events: none;
+}
+.title-band .page-title { margin-bottom: 0; color: #ece2cc; }
+
+/* book.html: one dark pull-quote beat */
+.band-quote { padding-top: 52px; padding-bottom: 56px; text-align: center; }
+.band-quote p {
+  font-style: italic;
+  font-size: 1.3rem;
+  line-height: 1.65;
+  max-width: 36ch;
+  margin: 0 auto;
+  color: #ece2cc;
+}
+
+/* quiz: compass-rose rule + house-colored progress (never behind text) */
+.quiz-rule {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 2px 0 26px;
+  color: var(--hc, var(--accent));
+}
+.quiz-rule::before, .quiz-rule::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.4;
+}
+.quiz-rule-mark {
+  width: 7px;
+  height: 7px;
+  border: 1px solid currentColor;
+  transform: rotate(45deg);
+  flex: none;
+}
+.quiz-bar-fill { background: var(--hc, var(--ember)); }
+.quiz-option:hover { border-left: 3px solid var(--hc, var(--ember)); }
+
+/* the sigils finally get a showcase moment */
+.result-sigil {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 14px;
+  padding: 10px;
+  background: #faf4e6;
+  border: 1px solid var(--line);
+  object-fit: contain;
+  box-shadow: var(--shadow-soft);
+}
+.result-seat { color: var(--accent); font-style: italic; margin-top: 2px; }
+.quiz-result .house-question { max-width: 56ch; margin: 22px auto 0; text-align: left; }
+
+/* world.html: cropped chart detail */
+.chart-crop img { aspect-ratio: 5 / 3; object-fit: cover; object-position: 52% 48%; width: 100%; }
+
+/* community doors: one real example each */
+.banner-door-example {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--accent);
+}
+
+/* inline reading-list module (book/read/quiz) */
+.signup-inline { margin-top: 20px; }
+.signup-inline > p:first-child { font-style: italic; color: var(--accent); max-width: 56ch; }

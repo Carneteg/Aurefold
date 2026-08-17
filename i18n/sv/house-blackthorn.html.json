@@ -1,36 +1,20 @@
 {
   "blocks": [
     [
-      "YOU WOULD FOLLOW",
-      "DU SKULLE FÖLJA"
-    ],
-    [
-      "Which house are you? Take the quiz",
-      "Vilket hus är du? Gör testet"
-    ],
-    [
-      "Follow free",
-      "Följ gratis"
-    ],
-    [
-      "Meet all ten houses &rarr;",
-      "Möt alla tio hus &rarr;"
-    ],
-    [
-      "Tell them which house you'd follow",
-      "Berätta vilket hus du skulle följa"
-    ],
-    [
-      ">Share on X<",
-      ">Dela på X<"
-    ],
-    [
-      ">Copy</button>",
-      ">Kopiera</button>"
-    ],
-    [
       "The book's canon and central mysteries are the author's; the Moot and this quiz shape the world around it — what the archive opens or explores next — never the story's heart.",
       "Bokens kanon och centrala mysterier är författarens; Tinget och det här testet formar världen kring den — vad arkivet öppnar eller utforskar härnäst — aldrig berättelsens hjärta."
+    ],
+    [
+      "Intellect. They plan for every future — and act a moment too late. Take the quiz and find your house of Aurefold.",
+      "Intellekt. De planerar för varje framtid — och handlar ett ögonblick för sent. Gör testet och hitta ditt hus i Aurefold."
+    ],
+    [
+      "<p class=\"quiz-result-line\">“They plan for every future — and act a moment too late.”</p>",
+      "<p class=\"quiz-result-line\">“De planerar för varje framtid — och handlar ett ögonblick för sent.”</p>"
+    ],
+    [
+      "“What should the most capable mind be permitted to decide for everyone else?”",
+      "”Vad ska det mest kapabla sinnet tillåtas avgöra åt alla andra?”"
     ],
     [
       "House Blackthorn — Which house would you follow? | AUREFOLD",
@@ -41,28 +25,52 @@
       "Jag skulle följa House Blackthorn — vilket hus skulle du följa?"
     ],
     [
-      "Intellect. They plan for every future — and act a moment too late. Take the quiz and find your house of Aurefold.",
-      "Intellekt. De planerar för varje framtid — och handlar ett ögonblick för sent. Gör testet och hitta ditt hus i Aurefold."
+      "<p class=\"quiz-result-phil\">Intellect</p>",
+      "<p class=\"quiz-result-phil\">Intellekt</p>"
     ],
     [
       "House Blackthorn — Intellect — AUREFOLD",
       "House Blackthorn — Intellekt — AUREFOLD"
     ],
     [
-      "<p class=\"quiz-result-phil\">Intellect</p>",
-      "<p class=\"quiz-result-phil\">Intellekt</p>"
+      "Raise a character in the Banner Hall",
+      "Res en karaktär i Banerhallen"
     ],
     [
-      "<p class=\"quiz-result-line\">“They plan for every future — and act a moment too late.”</p>",
-      "<p class=\"quiz-result-line\">“De planerar för varje framtid — och handlar ett ögonblick för sent.”</p>"
+      "Which house are you? Take the quiz",
+      "Vilket hus är du? Gör testet"
+    ],
+    [
+      "Tell them which house you'd follow",
+      "Berätta vilket hus du skulle följa"
     ],
     [
       "Cast this as your vote in The Moot",
       "Lägg detta som din röst i Tinget"
     ],
     [
-      "Raise a character in the Banner Hall",
-      "Res en karaktär i Banerhallen"
+      "Meet all ten houses &rarr;",
+      "Möt alla tio hus &rarr;"
+    ],
+    [
+      "The question it forces",
+      "Frågan den tvingar fram"
+    ],
+    [
+      "YOU WOULD FOLLOW",
+      "DU SKULLE FÖLJA"
+    ],
+    [
+      ">Copy</button>",
+      ">Kopiera</button>"
+    ],
+    [
+      ">Share on X<",
+      ">Dela på X<"
+    ],
+    [
+      "Follow free",
+      "Följ gratis"
     ]
   ]
 }
