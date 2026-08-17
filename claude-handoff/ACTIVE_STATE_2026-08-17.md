@@ -156,7 +156,8 @@ Contains structured canon/control data, site/community data, manuscript hash bin
 - Public/world/project name: Aurefold.
 - Domain target/identity used previously: `aurefold.com`.
 - Public project includes a free/reader funnel, community layer and planned print/crowdfunding pathway.
-- Older ChatGPT project material recorded a public Patreon with Traveller (free), Witness (49 SEK/month), Chronicler (99 SEK/month), Keeper of the Blank Page (249 SEK/month). **Verify live Patreon/site before treating these prices or tiers as current**, because this is business context rather than canon.
+- Public Patreon tiers, **corrected by the owner 2026-08-17**: Traveller (free), Witness, Chronicler, Keeper of the Blank Page. Prices are in **EUR — 5 / 10 / 25 per month** as the live site states; the earlier SEK figures (49/99/249) recorded from ChatGPT-era material are **wrong and must not be reused**.
+- At the time of that correction the owner had **no free tier live on Patreon** while the site advertised one in roughly twenty places; the owner decided to create the free Traveller tier rather than remove the claim. If a future check finds the free tier still missing, that is a live broken promise, not a copy question.
 
 ## 10. Latest handoff rule
 If anything here conflicts with a later commit, later owner instruction, live Source Registry or governing source, use the later/higher authority and update this snapshot rather than forcing reality to match the handoff.
