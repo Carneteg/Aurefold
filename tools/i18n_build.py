@@ -27,7 +27,7 @@ BASE = "https://aurefold.com"
 
 LANGS = {"en": "English", "sv": "Svenska", "es": "Español",
          "fr": "Français", "zh": "中文", "ja": "日本語"}
-BUILT = ["en", "sv", "es", "fr", "zh", "ja"]   # languages offered in the switcher
+BUILT = ["en", "sv"]   # languages offered in the switcher
 
 CHROME = {
   "en": {"Book One":"Book One","Excerpt":"Excerpt","The Archive":"The Archive",

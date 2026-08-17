@@ -44,62 +44,6 @@
       tooLong: "Håll det under 2000 tecken — arkivet värdesätter korthet.",
       houseWord: "av huset "
     },
-    es: {
-      gateTitle: "Inicia sesión para unirte a la conversación",
-      title: "La discusión",
-      empty: "Aún no hay voces aquí. La tuya podría ser la primera — en cuanto el archivista la haya visto.",
-      placeholder: "Habla con franqueza — ¿qué despertó esto en ti?",
-      send: "Enviar al archivista",
-      pendingNote: "Tu voz está con el archivista. Aparecerá aquí en cuanto se apruebe.",
-      pendingBadge: "a la espera del archivista",
-      gateIntro: "Inicia sesión para unirte a la discusión. El archivista lee las voces nuevas antes de que se muestren.",
-      failed: "No se pudo contactar con el archivo. Inténtalo de nuevo en un momento.",
-      tryAgain: "Inténtalo de nuevo",
-      tooLong: "Mantenlo por debajo de 2000 caracteres — el archivo valora la brevedad.",
-      houseWord: "de la Casa "
-    },
-    fr: {
-      gateTitle: "Connectez-vous pour rejoindre la discussion",
-      title: "La discussion",
-      empty: "Aucune voix ici pour l’instant. La vôtre pourrait être la première — une fois que l’archiviste l’aura vue.",
-      placeholder: "Parlez franchement — qu’est-ce que cela a éveillé en vous ?",
-      send: "Envoyer à l’archiviste",
-      pendingNote: "Votre voix est avec l’archiviste. Elle apparaîtra ici une fois approuvée.",
-      pendingBadge: "en attente de l’archiviste",
-      gateIntro: "Connectez-vous pour rejoindre la discussion. Les nouvelles voix sont lues par l’archiviste avant de s’afficher.",
-      failed: "Impossible de joindre l’archive. Réessayez dans un instant.",
-      tryAgain: "Réessayer",
-      tooLong: "Restez sous les 2000 caractères — l’archive apprécie la concision.",
-      houseWord: "de la Maison "
-    },
-    zh: {
-      gateTitle: "登录以参与讨论",
-      title: "讨论",
-      empty: "这里还没有声音。你的声音可能是第一个——只要档案员看过它。",
-      placeholder: "坦率地说——这激起了你怎样的感受？",
-      send: "发送给档案员",
-      pendingNote: "你的声音正等待档案员查看。一旦获准，就会显示在这里。",
-      pendingBadge: "等待档案员",
-      gateIntro: "登录以加入讨论。新声音会先经档案员阅读，然后才会显示。",
-      failed: "无法连接到档案。请稍后再试。",
-      tryAgain: "重试",
-      tooLong: "请控制在 2000 字以内——档案重视简洁。",
-      houseWord: "家族 "
-    },
-    ja: {
-      gateTitle: "サインインして議論に参加する",
-      title: "議論",
-      empty: "ここにはまだ声がない。あなたの声が最初になるかもしれない——記録官が目を通したのちに。",
-      placeholder: "率直に語ってほしい——これはあなたの中に何を呼び起こしたか？",
-      send: "記録官へ送る",
-      pendingNote: "あなたの声は記録官のもとにある。承認されればここに現れる。",
-      pendingBadge: "記録官待ち",
-      gateIntro: "サインインして議論に加わってください。新しい声は、表示される前に記録官が読みます。",
-      failed: "記録に接続できませんでした。しばらくしてからもう一度お試しください。",
-      tryAgain: "もう一度試す",
-      tooLong: "2000文字以内に収めてください——記録は簡潔さを重んじます。",
-      houseWord: "家門 "
-    }
   };
   function t(key) { return (TX[LANG] && TX[LANG][key]) || TX.en[key] || key; }
 

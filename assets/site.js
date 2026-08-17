@@ -185,22 +185,6 @@
           privacy: "Integritet &amp; cookies", decline: "Neka", accept: "Acceptera",
           gatePre: "För att ladda e-postformuläret behöver vi ditt samtycke till cookies. ",
           allow: "Tillåt &amp; ladda formuläret", gateOr: ", eller ", patreon: "följ gratis på Patreon" },
-    es: { banner: "El archivo cuenta a sus visitantes de forma anónima — cookies para el recuento, y un formulario de correo si te unes a la lista de lectura. Si puede hacerlo, lo decides tú.",
-          privacy: "Privacidad y cookies", decline: "Rechazar", accept: "Aceptar",
-          gatePre: "Para cargar el formulario de correo necesitamos tu consentimiento a las cookies. ",
-          allow: "Permitir y cargar el formulario", gateOr: ", o ", patreon: "sigue gratis en Patreon" },
-    fr: { banner: "Les archives comptent leurs visiteurs anonymement — des cookies pour le comptage, et un formulaire d’e-mail si vous rejoignez la liste de lecture. À vous de décider si elles le peuvent.",
-          privacy: "Confidentialité et cookies", decline: "Refuser", accept: "Accepter",
-          gatePre: "Pour charger le formulaire d’inscription, nous avons besoin de votre consentement aux cookies. ",
-          allow: "Autoriser et charger le formulaire", gateOr: ", ou ", patreon: "suivez gratuitement sur Patreon" },
-    zh: { banner: "档案馆匿名地记录访客人数——用 Cookie 计数；如果你加入阅读清单，还有一份邮件表单。是否允许，由你决定。",
-          privacy: "隐私与 Cookie", decline: "拒绝", accept: "接受",
-          gatePre: "为加载邮件订阅表单，我们需要你同意使用 Cookie。",
-          allow: "允许并加载表单", gateOr: "，或 ", patreon: "在 Patreon 上免费关注" },
-    ja: { banner: "この書庫は訪問者を匿名で数えています——数えるための Cookie と、読書リストに登録する場合のメールフォームです。許すかどうかはあなたが決めます。",
-          privacy: "プライバシーと Cookie", decline: "拒否する", accept: "同意する",
-          gatePre: "メール登録フォームを読み込むには、Cookie への同意が必要です。",
-          allow: "許可してフォームを読み込む", gateOr: "、または ", patreon: "Patreon で無料でフォローする" }
   };
   var CT = CONSENT_I18N[(document.documentElement.lang || "en").slice(0, 2)] || CONSENT_I18N.en;
 
