@@ -2,48 +2,141 @@
   "title": "Aurefold — une fantasy épique de dix maisons · The Bell of Silence",
   "description": "Aurefold est une fantasy épique de dix grandes maisons et d’un serment. Lisez le Livre Un — The Bell of Silence — gratuitement, et aidez à décider ce que le monde deviendra ensuite.",
   "blocks": [
-    ["In the high valleys of the Light Heights, a goatherd named Sela hears a voice she will not explain — and a world sworn to ten great houses would rather settle its meaning than live with the question.", "Dans les hautes vallées des Light Heights, une chevrière nommée Sela entend une voix qu’elle refuse d’expliquer — et un monde juré à dix grandes maisons préfère trancher son sens plutôt que de vivre avec la question."],
-
-    ["Every truth has a keeper. Every silence has a cost.", "Chaque vérité a son gardien. Chaque silence a son prix."],
-    ["A ten-house epic fantasy · Book One", "Une fantasy épique de dix maisons · Livre Un"],
-    ["Book One is out now — read the ebook free", "Le Livre Un est disponible — lisez l’e-book gratuitement"],
-    ["Read Book One free", "Lire le Livre Un gratuitement"],
-    ["Vote in The Moot", "Votez au Conseil"],
-
-    ["In the high, quiet valleys of the Light Heights, a goatherd named\n        <strong>Sela</strong> hears something on the wind that she cannot explain — and\n        will not pretend to. She says only what she knows, and no more. In the\n        Banner-lands that alone is dangerous.", "Dans les hautes vallées silencieuses des Light Heights, une chevrière nommée\n        <strong>Sela</strong> entend quelque chose dans le vent qu’elle ne peut expliquer — et\n        ne feindra pas de comprendre. Elle ne dit que ce qu’elle sait, rien de plus. Dans les\n        Banner-lands, cela seul est dangereux."],
-    ["For House Whitehart exists to test those who claim to hear, and a world built\n        on ten sworn houses would rather settle the meaning of a voice than live with\n        an open question. What Sela heard may be nothing. What the world decides it\n        means will change her life either way.", "Car House Whitehart existe pour éprouver ceux qui prétendent entendre, et un monde bâti\n        sur dix maisons jurées préfère trancher le sens d’une voix plutôt que de vivre avec\n        une question ouverte. Ce que Sela a entendu n’est peut-être rien. Ce que le monde décide\n        que cela signifie changera sa vie dans tous les cas."],
-    ["<em>The Bell of Silence</em> is the first book of Aurefold: a story about\n        truth, testimony, and the price of keeping silent in a place where every\n        silence is read as an answer.", "<em>The Bell of Silence</em> est le premier livre d’Aurefold : une histoire de\n        vérité, de témoignage et du prix du silence en un lieu où chaque\n        silence se lit comme une réponse."],
-    ["About Book One", "À propos du Livre Un"],
-
-    ["A goatherd who will not say more than she knows. A house built to test\n        those who claim to hear. Out now as a free ebook — approximately 104,000 words.", "Une chevrière qui ne dit rien de plus que ce qu’elle sait. Une maison bâtie pour éprouver\n        ceux qui prétendent entendre. Disponible dès maintenant en e-book gratuit — environ 104 000 mots."],
-    ["BOOK ONE — OUT NOW · EBOOK FREE", "LIVRE UN — DISPONIBLE · E-BOOK GRATUIT"],
-    ["About Book One →", "À propos du Livre Un →"],
-    ["Support on Patreon", "Soutenir sur Patreon"],
-    ["Cover of AUREFOLD, Book One: The Bell of Silence — a lone traveller on a mountain path above a misted valley, a bell-tower cut into the cliff.", "Couverture d’AUREFOLD, Livre Un : The Bell of Silence — un voyageur solitaire sur un sentier de montagne au-dessus d’une vallée embrumée, un beffroi taillé dans la falaise."],
-
-    ["The road to publication", "Le chemin vers la publication"],
-    ["Book One is out now as a free ebook. The next work is the printed edition —\n        professionally edited, designed, and produced. You can follow every major step\n        for free, or become a member and help carry the book to print.", "Le Livre Un est disponible dès maintenant en e-book gratuit. La prochaine étape est l’édition imprimée —\n        professionnellement révisée, mise en page et produite. Vous pouvez suivre chaque étape importante\n        gratuitement, ou devenir membre et aider à porter le livre jusqu’à l’impression."],
-    ["Follow free", "Suivre gratuitement"],
-    ["How to support", "Comment soutenir"],
-
-    ["Enter the archive", "Entrez dans les archives"],
-    ["The Houses", "Les Maisons"],
-    ["Ten houses, ten philosophies of rule. Meet them all.", "Dix maisons, dix philosophies du pouvoir. Découvrez-les toutes."],
-    ["The Banner-lands, charted — with the seat of every Great House.", "Les Banner-lands, cartographiés — avec le siège de chaque Grande Maison."],
-    ["The Sleeping Sea, the Silent Mountains, and the Ash Fields at the heart.", "The Sleeping Sea, the Silent Mountains et the Ash Fields en son cœur."],
-    ["The goatherd, the tester, the chronicler — the people of Book One.", "La chevrière, l’examinateur, le chroniqueur — les gens du Livre Un."],
-
-    ["Which house would you follow?", "Quelle maison suivriez-vous ?"],
-    ["Ten houses, ten philosophies of rule. Six questions decide which oath is yours.", "Dix maisons, dix philosophies du pouvoir. Six questions décident quel serment est le vôtre."],
-    ["Take the quiz", "Faire le test"],
-
-    ["The world of Aurefold", "Le monde d’Aurefold"],
-    ["Four hundred years have passed since the War of the Unification ended and the\n        year was set to nought. Ten Great Houses have ruled the Banner-lands ever\n        since — the present year is 396&nbsp;A.U. — and each of them is less a family\n        than a philosophy of leadership: a wager about what people are, and what they\n        can be asked to become.", "Quatre cents ans ont passé depuis la fin de the War of the Unification et\n        la remise de l’année à zéro. Dix Grandes Maisons règnent sur les Banner-lands depuis\n        lors — l’année présente est 396&nbsp;A.U. — et chacune d’elles est moins une famille\n        qu’une philosophie du commandement : un pari sur ce que sont les gens, et ce qu’on\n        peut leur demander de devenir."],
-    ["Their founding pact is the Tenfold Compact. Its highest chamber holds eleven\n        places and ten recognized voices; the eleventh remains unresolved.", "Leur pacte fondateur est the Tenfold Compact. Sa plus haute chambre compte onze\n        places et dix voix reconnues ; la onzième demeure en suspens."],
-    ["The question these books ask is never <em>which house is good</em>. It is:\n        <strong>which house would you follow?</strong>", "La question que posent ces livres n’est jamais <em>quelle maison est bonne</em>. Elle est :\n        <strong>quelle maison suivriez-vous ?</strong>"],
-    ["Plate I — the Banner-lands, general chart · 396 A.U.", "Planche I — les Banner-lands, carte générale · 396 A.U."],
-    ["Hand-drawn map of the Banner-lands", "Carte des Banner-lands dessinée à la main"],
-
-    ["In the high valleys of the Light Heights, a goatherd named Sela hears a voice she will not explain — and a world sworn to ten great houses would rather settle its meaning than live with the question.", "Dans les hautes vallées des Light Heights, une chevrière nommée Sela entend une voix qu’elle refuse d’expliquer — et un monde juré à dix grandes maisons préfère trancher son sens plutôt que de vivre avec la question."]
+    [
+      "In the high valleys of the Light Heights, a goatherd named Sela hears a voice she will not explain — and a world sworn to ten great houses would rather settle its meaning than live with the question.",
+      "Dans les hautes vallées des Light Heights, une chevrière nommée Sela entend une voix qu’elle refuse d’expliquer — et un monde juré à dix grandes maisons préfère trancher son sens plutôt que de vivre avec la question."
+    ],
+    [
+      "Every truth has a keeper. Every silence has a cost.",
+      "Chaque vérité a son gardien. Chaque silence a son prix."
+    ],
+    [
+      "A ten-house epic fantasy · Book One",
+      "Une fantasy épique de dix maisons · Livre Un"
+    ],
+    [
+      "Book One is out now — read the ebook free",
+      "Le Livre Un est disponible — lisez l’e-book gratuitement"
+    ],
+    [
+      "Read Book One free",
+      "Lire le Livre Un gratuitement"
+    ],
+    [
+      "Vote in The Moot",
+      "Votez au Conseil"
+    ],
+    [
+      "In the high, quiet valleys of the Light Heights, a goatherd named\n        <strong>Sela</strong> hears something on the wind that she cannot explain — and\n        will not pretend to. She says only what she knows, and no more. In the\n        Banner-lands that alone is dangerous.",
+      "Dans les hautes vallées silencieuses des Light Heights, une chevrière nommée\n        <strong>Sela</strong> entend quelque chose dans le vent qu’elle ne peut expliquer — et\n        ne feindra pas de comprendre. Elle ne dit que ce qu’elle sait, rien de plus. Dans les\n        Banner-lands, cela seul est dangereux."
+    ],
+    [
+      "For House Whitehart exists to test those who claim to hear, and a world built\n        on ten sworn houses would rather settle the meaning of a voice than live with\n        an open question. What Sela heard may be nothing. What the world decides it\n        means will change her life either way.",
+      "Car House Whitehart existe pour éprouver ceux qui prétendent entendre, et un monde bâti\n        sur dix maisons jurées préfère trancher le sens d’une voix plutôt que de vivre avec\n        une question ouverte. Ce que Sela a entendu n’est peut-être rien. Ce que le monde décide\n        que cela signifie changera sa vie dans tous les cas."
+    ],
+    [
+      "<em>The Bell of Silence</em> is the first book of Aurefold: a story about\n        truth, testimony, and the price of keeping silent in a place where every\n        silence is read as an answer.",
+      "<em>The Bell of Silence</em> est le premier livre d’Aurefold : une histoire de\n        vérité, de témoignage et du prix du silence en un lieu où chaque\n        silence se lit comme une réponse."
+    ],
+    [
+      "About Book One",
+      "À propos du Livre Un"
+    ],
+    [
+      "A goatherd who will not say more than she knows. A house built to test\n        those who claim to hear. Out now as a free ebook — approximately 104,000 words.",
+      "Une chevrière qui ne dit rien de plus que ce qu’elle sait. Une maison bâtie pour éprouver\n        ceux qui prétendent entendre. Disponible dès maintenant en e-book gratuit — environ 104 000 mots."
+    ],
+    [
+      "BOOK ONE — OUT NOW · EBOOK FREE",
+      "LIVRE UN — DISPONIBLE · E-BOOK GRATUIT"
+    ],
+    [
+      "About Book One →",
+      "À propos du Livre Un →"
+    ],
+    [
+      "Support on Patreon",
+      "Soutenir sur Patreon"
+    ],
+    [
+      "Cover of AUREFOLD, Book One: The Bell of Silence — a lone traveller on a mountain path above a misted valley, a bell-tower cut into the cliff.",
+      "Couverture d’AUREFOLD, Livre Un : The Bell of Silence — un voyageur solitaire sur un sentier de montagne au-dessus d’une vallée embrumée, un beffroi taillé dans la falaise."
+    ],
+    [
+      "The road to publication",
+      "Le chemin vers la publication"
+    ],
+    [
+      "Book One is out now as a free ebook. The next work is the printed edition —\n        professionally edited, designed, and produced. You can follow every major step\n        for free, or become a member and help carry the book to print.",
+      "Le Livre Un est disponible dès maintenant en e-book gratuit. La prochaine étape est l’édition imprimée —\n        professionnellement révisée, mise en page et produite. Vous pouvez suivre chaque étape importante\n        gratuitement, ou devenir membre et aider à porter le livre jusqu’à l’impression."
+    ],
+    [
+      "Follow free",
+      "Suivre gratuitement"
+    ],
+    [
+      "How to support",
+      "Comment soutenir"
+    ],
+    [
+      "Enter the archive",
+      "Entrez dans les archives"
+    ],
+    [
+      "The Houses",
+      "Les Maisons"
+    ],
+    [
+      "Ten houses, ten philosophies of rule. Meet them all.",
+      "Dix maisons, dix philosophies du pouvoir. Découvrez-les toutes."
+    ],
+    [
+      "The Banner-lands, charted — with the seat of every Great House.",
+      "Les Banner-lands, cartographiés — avec le siège de chaque Grande Maison."
+    ],
+    [
+      "The Sleeping Sea, the Silent Mountains, and the Ash Fields at the heart.",
+      "The Sleeping Sea, the Silent Mountains et the Ash Fields en son cœur."
+    ],
+    [
+      "The goatherd, the tester, the chronicler — the people of Book One.",
+      "La chevrière, l’examinateur, le chroniqueur — les gens du Livre Un."
+    ],
+    [
+      "Which house would you follow?",
+      "Quelle maison suivriez-vous ?"
+    ],
+    [
+      "Ten houses, ten philosophies of rule. Six questions decide which oath is yours.",
+      "Dix maisons, dix philosophies du pouvoir. Six questions décident quel serment est le vôtre."
+    ],
+    [
+      "Take the quiz",
+      "Faire le test"
+    ],
+    [
+      "The world of Aurefold",
+      "Le monde d’Aurefold"
+    ],
+    [
+      "Four hundred years have passed since the War of the Unification ended and the\n        year was set to nought. Ten Great Houses have ruled the Banner-lands ever\n        since — the present year is 396&nbsp;A.U. — and each of them is less a family\n        than a philosophy of leadership: a wager about what people are, and what they\n        can be asked to become.",
+      "Quatre cents ans ont passé depuis la fin de the War of the Unification et\n        la remise de l’année à zéro. Dix Grandes Maisons règnent sur les Banner-lands depuis\n        lors — l’année présente est 396&nbsp;A.U. — et chacune d’elles est moins une famille\n        qu’une philosophie du commandement : un pari sur ce que sont les gens, et ce qu’on\n        peut leur demander de devenir."
+    ],
+    [
+      "Their founding pact is the Tenfold Compact. Its highest chamber holds eleven\n        places and ten recognized voices; the eleventh remains unresolved.",
+      "Leur pacte fondateur est the Tenfold Compact. Sa plus haute chambre compte onze\n        places et dix voix reconnues ; la onzième demeure en suspens."
+    ],
+    [
+      "The question these books ask is never <em>which house is good</em>. It is:\n        <strong>which house would you follow?</strong>",
+      "La question que posent ces livres n’est jamais <em>quelle maison est bonne</em>. Elle est :\n        <strong>quelle maison suivriez-vous ?</strong>"
+    ],
+    [
+      "Plate I — the Banner-lands, general chart · 396 A.U.",
+      "Planche I — les Banner-lands, carte générale · 396 A.U."
+    ],
+    [
+      "Hand-drawn map of the Banner-lands",
+      "Carte des Banner-lands dessinée à la main"
+    ]
   ]
 }
