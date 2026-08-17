@@ -1,6 +1,6 @@
 # Aurefold — Open Threads and Gates
 
-**Date:** 17 August 2026  
+**Date:** 17 August 2026 (PM update — character-art section)  
 **Authority:** Administrative tracker. It does not create canon.
 
 ## Hard stop / pause
@@ -26,30 +26,16 @@ These are continuation hooks, not Book One repair defects:
 - Bell remains objectively unexplained.
 
 ## Character-art work still open
-Initial QC produced 78 images across 26 characters.
+78 images across 26 characters; state **36 ratified / 42 proposal** (unchanged split).
 
-Current post-ratification state at handoff:
-- 36 images ratified (12 HÅLLER characters).
-- 42 images remain proposal.
-- 26 specific images were identified for regeneration.
+### Done 2026-08-17 (no longer open debt)
+- All 26 QC-flagged regenerations executed (rounds 2–5) with portrait-locked identity references. Hard fixes resolved: Aren cauliflower ear, Wilda identity/symbolism (cross removed), Sela LEFT eyebrow notch + grey-green eyes, Halvard right-ear listening orientation, Col elbow patch + period light source, Corrin staff weight-bearing, Tam/Jeren/Osric/Maren/Roan/Elya/Nessa identity and styling fixes.
+- Corven final owner-ordered iteration done; fullbody + at_work pass; **portrait remains HÅLLER DELVIS** (eyes not unambiguously warm-brown in daylight portrait).
+- Gateway-baked `AI生成` watermark cropped from all 78 per explicit owner decision; all sha256 in `public.character_art` / art MANIFEST updated to post-crop hashes (incl. ratified rows, per owner order).
 
-Priority hard fixes:
-1. Aren — restore flattened/broken ear; remove unsupported accessories.
-2. Wilda — same woman across set; consistent bandage hand; remove cross necklace.
-3. Sela — eyebrow notch must be LEFT.
-4. Halvard — left-ear deafness / right-ear listening gesture.
-5. Col — blue patch at elbow; consistent side; remove petroleum-lamp anachronism.
-6. Corrin — age consistency, forked weight-bearing staff; unsupported coin pendant should not become canon.
-7. Tam — visibly seventeen/unfinished build; hair not neatly tied as default.
-8. Corven — expensive materials used hard; face/age consistency.
-9. Jeren — road-edge context, youth, no generic villain styling/unsupported brooch.
-10. Osric — fullbody identity match; avoid generic monk silhouette.
-11. Maren — fullbody identity match; check vessel technology.
-12. Roan — fullbody face/age match.
-13. Elya — at_work age match.
-14. Nessa — sack low at hip; age consistency.
-
-Method: use approved portrait as identity reference where possible; side-fix directional physical facts in prompt.
+### Still open
+1. **Owner ratification** of the 42 proposal images (regenerated + cropped). Kimi does not ratify.
+2. **Corven portrait decision**: accept current HÅLLER DELVIS or run one more portrait-only iteration for unambiguous warm-brown eyes.
 
 Ratification policy remains: likeness/presentation, not incidental props.
 

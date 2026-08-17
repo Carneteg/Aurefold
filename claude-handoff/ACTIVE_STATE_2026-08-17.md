@@ -1,6 +1,6 @@
 # Aurefold — Active State at Claude Handoff
 
-**Date:** 17 August 2026  
+**Date:** 17 August 2026 (updated same day, PM — see §3)  
 **Status:** Administrative handoff snapshot. Canon authority remains `canon/SOURCE_REGISTRY.md` and the governing sources it names.
 
 ## 1. Governing authority line
@@ -70,17 +70,19 @@ Supabase tracks **78 character images** in the `character-art` storage bucket / 
 
 Ratification means the **character likeness/presentation** is approved. It does not automatically canonize every incidental prop, pouch, brooch, background object or costume embellishment.
 
-### Proposal images / regeneration debt
-42 images remain `proposal`. Kimi's first QC required 26 targeted regenerations across the HOLD-PARTIAL/FALL groups. Important hard corrections include:
-- Aren: flattened/broken ear missing in all three original images.
-- Wilda: inconsistent identity; inconsistent bandage side; invented cross necklace must be removed.
-- Sela: white eyebrow notch must be through the **left** eyebrow, not right.
-- Halvard: deaf in left ear; listening gesture must orient the **right** ear.
-- Col: blue patch belongs at the elbow; remove anachronistic petroleum lamp.
-- Where fullbody identity drift occurs, use approved portrait as face/age reference.
+### Proposal images — regeneration executed 2026-08-17 (PM update)
+42 images remain `proposal`, but the 26-image regeneration order is **completed**, not pending:
+- Round 2 regenerated all 26 with portrait-locked identity references.
+- Rounds 3–5 iterated the holdouts: Sela (grey-green eyes, notch through LEFT eyebrow), Corrin (weight on Y-forked staff, no coin pendant), Aren (mandatory visible severe cauliflower ear toward camera; plain tally marks only; no banners/signs/text) all pass Kimi QC.
+- Corven received a final owner-ordered iteration: fullbody + at_work pass; portrait remains HÅLLER DELVIS (eyes read neutral rather than unambiguously warm-brown in the sharp daylight portrait). Owner decision pending: accept or one more portrait-only iteration.
+- Prop policy enforced: Wilda's cross, Corrin's coin pendant and Aren's/Jeren's brooches removed; functional set dressing retained as non-canonical dressing.
+- **All 42 proposal images await owner ratification. Kimi does not ratify.**
+
+### Watermark crop — owner decision executed 2026-08-17
+The image gateway had baked an `AI生成` watermark (bottom-left) into all 78 files, including the 36 ratified ones. On explicit owner instruction all 78 were **bottom-cropped** (per-image detected glyph top), visually verified clean 78/78, and re-uploaded. **All sha256 values in `public.character_art` and the art MANIFEST are therefore new post-crop hashes** — including for the 36 ratified rows. State split unchanged: 36 ratified / 42 proposal.
 
 ### Bucket access
-The owner explicitly instructed that the bucket should no longer be private. Live state after that instruction: `character-art.public = true`. Kimi previously generated temporary signed QC URLs while the bucket was private; those are provenance only and not the governing access model now.
+The owner explicitly instructed that the bucket should no longer be private. Live state: `character-art.public = true`. Kimi's earlier temporary signed QC URLs (expired 2026-08-24) are provenance only, not the governing access model.
 
 ## 4. Book Two — The Road Still Open
 **Current status:** PAUSED by owner instruction. Preserve existing canon/control; do not start new Book Two architecture or manuscript work until explicitly reopened.
