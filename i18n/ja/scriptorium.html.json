@@ -1,5 +1,14 @@
 {
   "title": "写字室 — 読者が Aurefold の世界に残す作品",
   "description": "写字室には、読者がアーカイブに残したものが集まる。旗の地の物語、鐘をめぐる考察、アート、そして作者への質問。",
-  "blocks": []
+  "blocks": [
+    [
+      "What readers leave for the archive: a story from the Banner-lands, a theory\n      about the Bell, a piece of art, a question for the author. The archivist reads\n      everything — the finest pieces are honoured, and the very finest are taken\n      into the material around the book.",
+      "読者が書庫に残すもの：Banner-lands の物語、鐘についての考察、\n      アート、作者への質問。記録係はすべてを読みます——優れた作品は栄誉を受け、\n      最も優れたものは本の周りの素材に迎えられます。"
+    ],
+    [
+      "<strong>Content note.</strong> Aurefold is a mature series; submissions may explore adult themes. Everything is reviewed before it appears — gratuitous or hateful material is declined.",
+      "<strong>内容について。</strong>Aurefold は成人向けのシリーズです。投稿は大人のテーマを扱うことがあります。すべて掲載前に確認され——無意味に過激なものや憎悪表現は掲載されません。"
+    ]
+  ]
 }
