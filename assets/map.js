@@ -262,11 +262,11 @@
         detail.sigil.hidden = false;
       };
       detail.sigil.onerror = () => {
-        if (!detail.sigil.src.includes("/sigill_")) {
-          detail.sigil.src = `/assets/sigils/sigill_${house.id}.png`;
+        if (detail.sigil.src.endsWith(".webp")) {
+          detail.sigil.src = `/assets/sigils/${house.id}.png`;
         }
       };
-      detail.sigil.src = `/assets/sigils/${house.id}.png`;
+      detail.sigil.src = `/assets/sigils/${house.id}.webp`;
       detail.name.textContent = house.name;
       detail.sub.textContent = `${house.seat} · ${house.region}`;
       detail.philosophy.textContent = house.philosophy;

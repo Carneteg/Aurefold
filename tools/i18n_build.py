@@ -159,17 +159,37 @@ def localize_chrome(html, lang):
     return html
 
 LINK_RE = re.compile(r'(href|src)="(?!https?:|//|#|mailto:|/)([^"]+)"')
+SRCSET_RE = re.compile(r'(srcset)="([^"]+)"')
+
+def _rewrite_target(val, lang):
+    """Root-absolute rewrite for a single relative URL (same rules as href/src)."""
+    if val.startswith(("https:", "http:", "//", "#", "mailto:", "/")):
+        return val
+    if val.startswith("assets/") or val.startswith("data/"):
+        return "/" + val
+    mm = re.match(r'^([A-Za-z0-9_./-]+\.html)(#.*)?$', val)
+    if mm:
+        return page_url(lang, mm.group(1)) + (mm.group(2) or "")
+    return val
+
 def rewrite_paths(html, lang):
     def repl(m):
         attr, val = m.group(1), m.group(2)
-        if val.startswith("assets/") or val.startswith("data/"):
-            return '%s="/%s"' % (attr, val)
-        mm = re.match(r'^([A-Za-z0-9_./-]+\.html)(#.*)?$', val)
-        if mm:
-            target, frag = mm.group(1), mm.group(2) or ""
-            return '%s="%s%s"' % (attr, page_url(lang, target), frag)
-        return m.group(0)
-    return LINK_RE.sub(repl, html)
+        return '%s="%s"' % (attr, _rewrite_target(val, lang))
+    html = LINK_RE.sub(repl, html)
+    # srcset needs its own pass: the value is a comma-separated list of
+    # "<url> [descriptor]" candidates, each rewritten independently.
+    def srcset_repl(m):
+        out = []
+        for cand in m.group(2).split(","):
+            cand = cand.strip()
+            if not cand:
+                continue
+            bits = cand.split(None, 1)
+            url = _rewrite_target(bits[0], lang)
+            out.append(url + (" " + bits[1] if len(bits) > 1 else ""))
+        return '%s="%s"' % (m.group(1), ", ".join(out))
+    return SRCSET_RE.sub(srcset_repl, html)
 
 def apply_blocks(html, data):
     for en, tr in sorted(data.get("blocks", []), key=lambda p: -len(p[0])):
