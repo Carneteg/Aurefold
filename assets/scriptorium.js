@@ -17,6 +17,7 @@
       loading: "Opening the scriptorium…",
       empty: "No contributions on the shelves yet. The first quill could be yours.",
       failed: "The archive could not be reached. Try again in a moment.",
+      tryAgain: "Try again",
       createTitle: "Leave a contribution",
       createIntro: "A short story from the Banner-lands, a theory about the Bell, a piece of art, a question for the author. The archivist reads everything before it shows — the finest pieces are honoured, and the very finest are taken into the material.",
       kindLabel: "What is it?",
@@ -41,6 +42,7 @@
       loading: "Öppnar skriptoriet…",
       empty: "Inga bidrag på hyllorna ännu. Den första fjädern kan vara din.",
       failed: "Arkivet kunde inte nås. Försök igen om en stund.",
+      tryAgain: "Försök igen",
       createTitle: "Lämna ett bidrag",
       createIntro: "En novell från Fanlanden, en teori om Klockan, ett konstverk, en fråga till författaren. Arkivarien läser allt innan det syns — de finaste styckena hedras, och de allra finaste tas in i materialet.",
       kindLabel: "Vad är det?",
@@ -130,7 +132,12 @@
       })
       .catch(function () {
         gallery.innerHTML = "";
-        gallery.appendChild(el("p", "comment-empty", t("failed")));
+        var err = el("p", "comment-error", t("failed") + " ");
+        var retry = el("button", "linklike comment-retry", t("tryAgain"));
+        retry.type = "button";
+        retry.addEventListener("click", load);
+        err.appendChild(retry);
+        gallery.appendChild(err);
       });
   }
 

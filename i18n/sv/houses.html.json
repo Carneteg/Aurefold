@@ -2,52 +2,181 @@
   "title": "De tio stora husen — AUREFOLD",
   "description": "Banner-lands tio stora hus — var och en en ledarskapsfilosofi, och den enda fråga dess dygd tvingar på alla andra.",
   "blocks": [
-    ["<h1 class=\"page-title\">The Ten Great Houses</h1>", "<h1 class=\"page-title\">De tio stora husen</h1>"],
-    ["Each house is a philosophy of leadership — a promise, and its cost. The question\n      is never which is good; it is which you would follow. Every house here carries the\n      one question its virtue forces on everyone else. Named leaders are held back from\n      these pages until the book is published.", "Varje hus är en ledarskapsfilosofi — ett löfte, och dess pris. Frågan\n      är aldrig vilket som är gott; den är vilket du skulle följa. Varje hus här bär på den\n      enda fråga dess dygd tvingar på alla andra. Namngivna ledare hålls tillbaka från\n      dessa sidor tills boken är utgiven."],
-    ["Which of these would you follow?", "Vilket av dessa skulle du följa?"],
-    ["Not sure where you'd swear your oath? Six questions will tell you.", "Osäker på var du skulle svära din ed? Sex frågor ger dig svaret."],
-    ["Take the quiz", "Gör testet"],
-
-    ["<span class=\"house-philosophy\">Intellect</span>", "<span class=\"house-philosophy\">Intellekt</span>"],
-    ["<span class=\"house-philosophy\">Information</span>", "<span class=\"house-philosophy\">Information</span>"],
-    ["<span class=\"house-philosophy\">Courage</span>", "<span class=\"house-philosophy\">Mod</span>"],
-    ["<span class=\"house-philosophy\">Faith</span>", "<span class=\"house-philosophy\">Tro</span>"],
-    ["<span class=\"house-philosophy\">Unity</span>", "<span class=\"house-philosophy\">Enhet</span>"],
-    ["<span class=\"house-philosophy\">Innovation</span>", "<span class=\"house-philosophy\">Innovation</span>"],
-    ["<span class=\"house-philosophy\">The victor’s history</span>", "<span class=\"house-philosophy\">Segrarens historia</span>"],
-    ["<span class=\"house-philosophy\">Honor</span>", "<span class=\"house-philosophy\">Heder</span>"],
-    ["<span class=\"house-philosophy\">Knowledge</span>", "<span class=\"house-philosophy\">Kunskap</span>"],
-    ["<span class=\"house-philosophy\">The future</span>", "<span class=\"house-philosophy\">Framtiden</span>"],
-
-    ["The question it forces", "Frågan den tvingar fram"],
-    ["Find on the map →", "Hitta på kartan →"],
-
-    ["“What should the most capable mind be permitted to decide for everyone else?”", "”Vad ska det mest kapabla sinnet tillåtas avgöra åt alla andra?”"],
-    ["“Who is safer when information moves freely, and who becomes exposed?”", "”Vem är tryggare när information rör sig fritt, och vem blir utsatt?”"],
-    ["“When does bravery protect others, and when does it demand that others pay?”", "”När skyddar modet andra, och när kräver det att andra betalar?”"],
-    ["“Can a community survive without shared meaning, and what happens when meaning requires certainty?”", "”Kan en gemenskap överleva utan gemensam mening, och vad händer när mening kräver visshet?”"],
-    ["“How much freedom must be bound together to keep roads, people, and obligations from breaking?”", "”Hur mycket frihet måste bindas samman för att vägar, människor och åtaganden inte ska brista?”"],
-    ["“Who benefits first from invention, and who is made obsolete or vulnerable?”", "”Vem gynnas först av uppfinningar, och vem görs föråldrad eller sårbar?”"],
-    ["“Who decides which surviving account becomes usable history?”", "”Vem avgör vilken bevarad berättelse som blir användbar historia?”"],
-    ["“Can a public code restrain power without turning human complexity into shame?”", "”Kan en offentlig hederskodex tygla makt utan att göra mänsklig komplexitet till skam?”"],
-    ["“When does preserving knowledge become control over those who produced it?”", "”När blir bevarandet av kunskap kontroll över dem som skapade den?”"],
-    ["“What may the present sacrifice for a future it cannot verify?”", "”Vad får nuet offra för en framtid det inte kan bekräfta?”"],
-
-    ["The planner who always acts too late, and the daughter who would act now.", "Planeraren som alltid agerar för sent, och dottern som skulle agera nu."],
-    ["All their power is borrowed, and the patron it is borrowed from is failing.", "All deras makt är lånad, och den beskyddare den är lånad av vacklar."],
-    ["The old rider doubts what the Wall of Names cost; the young one dreams of a Leap no rider survives.", "Den gamla ryttaren tvivlar på vad the Wall of Names kostade; den unga drömmer om ett språng ingen ryttare överlever."],
-    ["A house that listens for a voice, and tests those who claim to hear it.", "Ett hus som lyssnar efter en röst, och prövar dem som säger sig höra den."],
-    ["In Book One: the testing of the goatherd Sela, and Brother Tomas’s first doubt.", "I Bok Ett: prövningen av getvallaren Sela, och broder Tomas första tvivel."],
-    ["Unity holds only as long as the uniter lives, and the Binder is dying.", "Enheten håller bara så länge den som enar lever, och the Binder är döende."],
-    ["They measured everything in the realm; one event at their own forge would not be measured.", "De mätte allt i riket; en händelse vid deras egen smedja lät sig inte mätas."],
-    ["Keepers of the Chronicle of Victory: the realm despises them, and every house has quietly been their client.", "Väktare av the Chronicle of Victory: riket föraktar dem, och varje hus har i tysthet varit deras klient."],
-    ["In Book One: a chronicler comes to the valley, gathering testimony for the coming jubilee.", "I Bok Ett: en krönikör kommer till dalen och samlar vittnesmål inför det kommande jubileet."],
-    ["A house being bankrupted by its own kept word, led by a man entirely at peace with the cost.", "Ett hus som ruineras av sitt eget hållna ord, lett av en man helt i frid med priset."],
-    ["Charts of everything, shared with no one; their lighthouse shines out over the empty sea.", "Sjökort över allt, delade med ingen; deras fyr lyser ut över det tomma havet."],
-    ["A house built on scorched ground that refuses, on principle, to look down.", "Ett hus byggt på bränd mark som av princip vägrar att se ner."],
-
-    ["The Eleventh Seat", "Den elfte platsen"],
-    ["There are eleven places in the Hall of Eleven and ten recognized voices.\n        The eleventh seat is neither named nor explained. What the archive keeps of\n        it is its silence — and that silence is kept on purpose.", "Det finns elva platser i the Hall of Eleven och tio erkända röster.\n        Den elfte platsen är varken namngiven eller förklarad. Det arkivet bevarar av\n        den är dess tystnad — och den tystnaden hålls med avsikt."],
-    ["Read what the archive does keep →", "Läs det arkivet faktiskt bevarar →"]
+    [
+      "<h1 class=\"page-title\">The Ten Great Houses</h1>",
+      "<h1 class=\"page-title\">De tio stora husen</h1>"
+    ],
+    [
+      "Each house is a philosophy of leadership — a promise, and its cost. The question\n      is never which is good; it is which you would follow. Every house here carries the\n      one question its virtue forces on everyone else. Named leaders are held back from\n      these pages until the book is published.",
+      "Varje hus är en ledarskapsfilosofi — ett löfte, och dess pris. Frågan\n      är aldrig vilket som är gott; den är vilket du skulle följa. Varje hus här bär på den\n      enda fråga dess dygd tvingar på alla andra. Namngivna ledare hålls tillbaka från\n      dessa sidor tills boken är utgiven."
+    ],
+    [
+      "Which of these would you follow?",
+      "Vilket av dessa skulle du följa?"
+    ],
+    [
+      "Not sure where you'd swear your oath? Six questions will tell you.",
+      "Osäker på var du skulle svära din ed? Sex frågor ger dig svaret."
+    ],
+    [
+      "Take the quiz",
+      "Gör testet"
+    ],
+    [
+      "<span class=\"house-philosophy\">Intellect</span>",
+      "<span class=\"house-philosophy\">Intellekt</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Information</span>",
+      "<span class=\"house-philosophy\">Information</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Courage</span>",
+      "<span class=\"house-philosophy\">Mod</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Faith</span>",
+      "<span class=\"house-philosophy\">Tro</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Unity</span>",
+      "<span class=\"house-philosophy\">Enhet</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Innovation</span>",
+      "<span class=\"house-philosophy\">Innovation</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">The victor’s history</span>",
+      "<span class=\"house-philosophy\">Segrarens historia</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Honor</span>",
+      "<span class=\"house-philosophy\">Heder</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Knowledge</span>",
+      "<span class=\"house-philosophy\">Kunskap</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">The future</span>",
+      "<span class=\"house-philosophy\">Framtiden</span>"
+    ],
+    [
+      "The question it forces",
+      "Frågan den tvingar fram"
+    ],
+    [
+      "Find on the map →",
+      "Hitta på kartan →"
+    ],
+    [
+      "“What should the most capable mind be permitted to decide for everyone else?”",
+      "”Vad ska det mest kapabla sinnet tillåtas avgöra åt alla andra?”"
+    ],
+    [
+      "“Who is safer when information moves freely, and who becomes exposed?”",
+      "”Vem är tryggare när information rör sig fritt, och vem blir utsatt?”"
+    ],
+    [
+      "“When does bravery protect others, and when does it demand that others pay?”",
+      "”När skyddar modet andra, och när kräver det att andra betalar?”"
+    ],
+    [
+      "“Can a community survive without shared meaning, and what happens when meaning requires certainty?”",
+      "”Kan en gemenskap överleva utan gemensam mening, och vad händer när mening kräver visshet?”"
+    ],
+    [
+      "“How much freedom must be bound together to keep roads, people, and obligations from breaking?”",
+      "”Hur mycket frihet måste bindas samman för att vägar, människor och åtaganden inte ska brista?”"
+    ],
+    [
+      "“Who benefits first from invention, and who is made obsolete or vulnerable?”",
+      "”Vem gynnas först av uppfinningar, och vem görs föråldrad eller sårbar?”"
+    ],
+    [
+      "“Who decides which surviving account becomes usable history?”",
+      "”Vem avgör vilken bevarad berättelse som blir användbar historia?”"
+    ],
+    [
+      "“Can a public code restrain power without turning human complexity into shame?”",
+      "”Kan en offentlig hederskodex tygla makt utan att göra mänsklig komplexitet till skam?”"
+    ],
+    [
+      "“When does preserving knowledge become control over those who produced it?”",
+      "”När blir bevarandet av kunskap kontroll över dem som skapade den?”"
+    ],
+    [
+      "“What may the present sacrifice for a future it cannot verify?”",
+      "”Vad får nuet offra för en framtid det inte kan bekräfta?”"
+    ],
+    [
+      "The planner who always acts too late, and the daughter who would act now.",
+      "Planeraren som alltid agerar för sent, och dottern som skulle agera nu."
+    ],
+    [
+      "All their power is borrowed, and the patron it is borrowed from is failing.",
+      "All deras makt är lånad, och den beskyddare den är lånad av vacklar."
+    ],
+    [
+      "The old rider doubts what the Wall of Names cost; the young one dreams of a Leap no rider survives.",
+      "Den gamla ryttaren tvivlar på vad the Wall of Names kostade; den unga drömmer om ett språng ingen ryttare överlever."
+    ],
+    [
+      "A house that listens for a voice, and tests those who claim to hear it.",
+      "Ett hus som lyssnar efter en röst, och prövar dem som säger sig höra den."
+    ],
+    [
+      "In Book One: the testing of the goatherd Sela, and Brother Tomas’s first doubt.",
+      "I Bok Ett: prövningen av getvallaren Sela, och broder Tomas första tvivel."
+    ],
+    [
+      "Unity holds only as long as the uniter lives, and the Binder is dying.",
+      "Enheten håller bara så länge den som enar lever, och the Binder är döende."
+    ],
+    [
+      "They measured everything in the realm; one event at their own forge would not be measured.",
+      "De mätte allt i riket; en händelse vid deras egen smedja lät sig inte mätas."
+    ],
+    [
+      "Keepers of the Chronicle of Victory: the realm despises them, and every house has quietly been their client.",
+      "Väktare av the Chronicle of Victory: riket föraktar dem, och varje hus har i tysthet varit deras klient."
+    ],
+    [
+      "In Book One: a chronicler comes to the valley, gathering testimony for the coming jubilee.",
+      "I Bok Ett: en krönikör kommer till dalen och samlar vittnesmål inför det kommande jubileet."
+    ],
+    [
+      "A house being bankrupted by its own kept word, led by a man entirely at peace with the cost.",
+      "Ett hus som ruineras av sitt eget hållna ord, lett av en man helt i frid med priset."
+    ],
+    [
+      "Charts of everything, shared with no one; their lighthouse shines out over the empty sea.",
+      "Sjökort över allt, delade med ingen; deras fyr lyser ut över det tomma havet."
+    ],
+    [
+      "A house built on scorched ground that refuses, on principle, to look down.",
+      "Ett hus byggt på bränd mark som av princip vägrar att se ner."
+    ],
+    [
+      "The Eleventh Seat",
+      "Den elfte platsen"
+    ],
+    [
+      "There are eleven places in the Hall of Eleven and ten recognized voices.\n        The eleventh seat is neither named nor explained. What the archive keeps of\n        it is its silence — and that silence is kept on purpose.",
+      "Det finns elva platser i the Hall of Eleven och tio erkända röster.\n        Den elfte platsen är varken namngiven eller förklarad. Det arkivet bevarar av\n        den är dess tystnad — och den tystnaden hålls med avsikt."
+    ],
+    [
+      "Read what the archive does keep →",
+      "Läs det arkivet faktiskt bevarar →"
+    ],
+    [
+      "Read Book One free",
+      "Läs Bok Ett gratis"
+    ],
+    [
+      "Which house are you? Take the quiz",
+      "Vilket hus är du? Gör testet"
+    ]
   ]
 }

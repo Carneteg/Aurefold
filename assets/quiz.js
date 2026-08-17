@@ -84,6 +84,7 @@
         back: "← Back",
         eyebrow: "YOU WOULD FOLLOW",
         castVote: "Cast this as your vote in The Moot",
+        aboutHouse: "Read about your house",
         followFree: "Follow free",
         joinReaders: function (n) { return "Join " + n + " reader" + (n === 1 ? "" : "s") + " following along"; },
         shareLabel: "Tell them which house you'd follow",
@@ -149,6 +150,7 @@
         back: "← Tillbaka",
         eyebrow: "DU SKULLE FÖLJA",
         castVote: "Lägg detta som din röst i Tinget",
+        aboutHouse: "Läs om ditt hus",
         followFree: "Följ gratis",
         joinReaders: function (n) { return "Gå med " + n + " läsare som följer med"; },
         shareLabel: "Berätta vilket hus du skulle följa",
@@ -481,7 +483,8 @@
 
     var shortName = house.name.replace(/^House\s+/, "");
     // Share the per-house result page so the link unfurls with that house's card.
-    var pageUrl = "https://aurefold.com/house-" + best + ".html";
+    // Language-aware: a share from /sv/ should land the friend on /sv/.
+    var pageUrl = "https://aurefold.com/" + (LANG === "en" ? "" : LANG + "/") + "house-" + best + ".html";
     var shareText = UI.shareText(shortName);
 
     // Primary next steps: carry the result into the Moot, or follow the journey.
@@ -492,6 +495,10 @@
     var a1 = el("a", "btn btn-primary", UI.castVote);
     a1.href = "vote.html#house=" + encodeURIComponent(best);
 
+    // The matched house's own page — relative, so /sv/quiz.html stays on /sv/.
+    var aAbout = el("a", "btn btn-ghost", UI.aboutHouse);
+    aAbout.href = "house-" + best + ".html";
+
     // "Follow free" uses whatever support link is configured — no hardcoded URL.
     var sup = ((window.AUREFOLD_COMMUNITY || {}).support) || {};
     var followUrl = (sup.patreon && String(sup.patreon).trim()) ? String(sup.patreon).trim() : "support.html";
@@ -499,7 +506,7 @@
     a2.href = followUrl;
     if (/^https?:/i.test(followUrl)) { a2.target = "_blank"; a2.rel = "noopener"; }
 
-    row.appendChild(a1); row.appendChild(a2);
+    row.appendChild(a1); row.appendChild(aAbout); row.appendChild(a2);
     card.appendChild(row);
 
     // Social proof, if a real member count is configured (hidden otherwise).

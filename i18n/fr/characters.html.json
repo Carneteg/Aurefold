@@ -2,40 +2,133 @@
   "title": "Les visages du Livre Un — personnages d’Aurefold",
   "description": "Rencontrez les gens de The Bell of Silence — une gardienne de chèvres qui refuse d’expliquer ce qu’elle a entendu, l’examinateur envoyé pour la juger, et la maison bâtie pour douter.",
   "blocks": [
-    ["<h1 class=\"page-title\">The Faces</h1>", "<h1 class=\"page-title\">Les visages</h1>"],
-    ["The people of Book One first, then the wider realm behind them — recorded\n      without judgement, as the archive requires. Most of the Ten Houses reach the\n      valley only as a name, a good, or a distant pressure.", "D’abord les gens du Livre Un, puis le royaume plus vaste derrière eux — consignés\n      sans jugement, comme l’exigent les archives. La plupart des Dix Maisons n’atteignent la\n      vallée que sous la forme d’un nom, d’une marchandise ou d’une pression lointaine."],
-    ["In the valley — Book One", "Dans la vallée — Livre Un"],
-    ["Strangers in Book One", "Étrangers dans le Livre Un"],
-    ["The wider realm", "Le royaume plus vaste"],
-    ["Also in the record", "Également dans les archives"],
-
-    ["<h3>Brother Tomas</h3>", "<h3>Frère Tomas</h3>"],
-    ["<h3>Mother Alaine</h3>", "<h3>Mère Alaine</h3>"],
-    ["<h3>Sister Wilda</h3>", "<h3>Sœur Wilda</h3>"],
-
-    ["The Light Heights · 19", "The Light Heights · 19"],
-    ["The valley · 52", "La vallée · 52"],
-    ["<p class=\"face-house\">The valley</p>", "<p class=\"face-house\">La vallée</p>"],
-    ["Duskport trader · 46", "Commerçante de Duskport · 46"],
-    ["A traveler · 29", "Un voyageur · 29"],
-
-    ["A goatherd who hears a voice — or does not — and refuses to say more than she knows. The house makes her its public meaning, whether she consents or not.", "Une gardienne de chèvres qui entend une voix — ou non — et refuse d’en dire plus qu’elle ne sait. La maison fait d’elle sa signification publique, qu’elle y consente ou non."],
-    ["The Tester. Sixteen years turning uncertainty into verdict; now he carries the one thing a tester should not own — his first doubt.", "L’Examinateur. Seize ans à transformer l’incertitude en verdict ; il porte désormais la seule chose qu’un examinateur ne devrait pas posséder — son premier doute."],
-    ["Head of the listening house. Fifty years of authority built from stillness — and, in private, an uncertainty she can never show the valley.", "À la tête de la maison qui écoute. Cinquante ans d’autorité bâtie sur l’immobilité — et, en privé, une incertitude qu’elle ne peut jamais montrer à la vallée."],
-    ["The Unwritten. He tends the niches and knows every name in the wall; the house has never been permitted to speak his.", "Le Non-Écrit. Il entretient les niches et connaît chaque nom du mur ; la maison n’a jamais eu le droit de prononcer le sien."],
-    ["Col's mother. She keeps the same vigil at the boundary each first snow, asking only that a name return to ordinary speech.", "La mère de Col. Elle tient la même veille à la frontière à chaque première neige, ne demandant qu’une chose : qu’un nom revienne au langage ordinaire."],
-    ["A worker and guide: proud, practical, and loved. Standing, money, and a horse promised to a boy all lean on a single choice.", "Un travailleur et guide : fier, pratique et aimé. Son rang, son argent et un cheval promis à un garçon reposent tous sur un seul choix."],
-    ["The Jubilee Herald. He comes to write the valley down — a mercy to the forgotten, and a record that can become a weapon.", "Le Héraut du Jubilé. Il vient consigner la vallée — une grâce pour les oubliés, et un document qui peut devenir une arme."],
-    ["Law and rite. She makes the correct word binding, even when the correct word wounds.", "Loi et rite. Elle rend le mot juste contraignant, même lorsque le mot juste blesse."],
-    ["A novice whose sincere love turns ordinary acts into signs. No liar — and an engine of myth all the same.", "Une novice dont l’amour sincère transforme les actes ordinaires en signes. Nullement menteuse — et pourtant une fabrique de mythes."],
-
-    ["An oath-witness who keeps the boundary exactly as it is written — honorable, coherent, and ruinous.", "Un témoin de serment qui respecte la frontière exactement telle qu’elle est écrite — honorable, cohérent et ruineux."],
-    ["A trader and ledger-keeper who feeds the valley on credit and moving goods. Her usefulness is real; so is her price.", "Une commerçante et comptable qui nourrit la vallée à crédit et par la circulation des marchandises. Son utilité est réelle ; son prix aussi."],
-    ["A traveler carrying contradictory news from the realm beyond the passes — honest enough not to pretend it is certain.", "Un voyageur porteur de nouvelles contradictoires du royaume au-delà des cols — assez honnête pour ne pas prétendre qu’elles sont certaines."],
-    ["A servant in Nella's party who struggles to say <em>I</em>, and carries scars the book declines to explain.", "Un serviteur du groupe de Nella qui peine à dire <em>je</em>, et porte des cicatrices que le livre se refuse à expliquer."],
-
-    ["Beyond the valley stand the other Great Houses — each a philosophy of leadership,\n        explored on <a href=\"houses.html\">The Great Houses</a>. Their named leaders and heirs are\n        held back from these pages until the book is published.", "Au-delà de la vallée se dressent les autres Grandes Maisons — chacune une philosophie du leadership,\n        explorée sur <a href=\"houses.html\">Les Grandes Maisons</a>. Leurs dirigeants et héritiers nommés sont\n        tenus à l’écart de ces pages jusqu’à la publication du livre."],
-    ["More of Book One’s Whitehart and valley hands, recorded by name.", "Encore d’autres gens de Whitehart et de la vallée du Livre Un, consignés par leur nom."],
-    ["Whitehart and valley hands who move through Book One.", "Les gens de Whitehart et de la vallée qui traversent le Livre Un."]
+    [
+      "<h1 class=\"page-title\">The Faces</h1>",
+      "<h1 class=\"page-title\">Les visages</h1>"
+    ],
+    [
+      "The people of Book One first, then the wider realm behind them — recorded\n      without judgement, as the archive requires. Most of the Ten Houses reach the\n      valley only as a name, a good, or a distant pressure.",
+      "D’abord les gens du Livre Un, puis le royaume plus vaste derrière eux — consignés\n      sans jugement, comme l’exigent les archives. La plupart des Dix Maisons n’atteignent la\n      vallée que sous la forme d’un nom, d’une marchandise ou d’une pression lointaine."
+    ],
+    [
+      "In the valley — Book One",
+      "Dans la vallée — Livre Un"
+    ],
+    [
+      "Strangers in Book One",
+      "Étrangers dans le Livre Un"
+    ],
+    [
+      "The wider realm",
+      "Le royaume plus vaste"
+    ],
+    [
+      "Also in the record",
+      "Également dans les archives"
+    ],
+    [
+      "<h3>Brother Tomas</h3>",
+      "<h3>Frère Tomas</h3>"
+    ],
+    [
+      "<h3>Mother Alaine</h3>",
+      "<h3>Mère Alaine</h3>"
+    ],
+    [
+      "<h3>Sister Wilda</h3>",
+      "<h3>Sœur Wilda</h3>"
+    ],
+    [
+      "The Light Heights · 19",
+      "The Light Heights · 19"
+    ],
+    [
+      "The valley · 52",
+      "La vallée · 52"
+    ],
+    [
+      "<p class=\"face-house\">The valley</p>",
+      "<p class=\"face-house\">La vallée</p>"
+    ],
+    [
+      "Duskport trader · 46",
+      "Commerçante de Duskport · 46"
+    ],
+    [
+      "A traveler · 29",
+      "Un voyageur · 29"
+    ],
+    [
+      "A goatherd who hears a voice — or does not — and refuses to say more than she knows. The house makes her its public meaning, whether she consents or not.",
+      "Une gardienne de chèvres qui entend une voix — ou non — et refuse d’en dire plus qu’elle ne sait. La maison fait d’elle sa signification publique, qu’elle y consente ou non."
+    ],
+    [
+      "The Tester. Sixteen years turning uncertainty into verdict; now he carries the one thing a tester should not own — his first doubt.",
+      "L’Examinateur. Seize ans à transformer l’incertitude en verdict ; il porte désormais la seule chose qu’un examinateur ne devrait pas posséder — son premier doute."
+    ],
+    [
+      "Head of the listening house. Fifty years of authority built from stillness — and, in private, an uncertainty she can never show the valley.",
+      "À la tête de la maison qui écoute. Cinquante ans d’autorité bâtie sur l’immobilité — et, en privé, une incertitude qu’elle ne peut jamais montrer à la vallée."
+    ],
+    [
+      "The Unwritten. He tends the niches and knows every name in the wall; the house has never been permitted to speak his.",
+      "Le Non-Écrit. Il entretient les niches et connaît chaque nom du mur ; la maison n’a jamais eu le droit de prononcer le sien."
+    ],
+    [
+      "Col's mother. She keeps the same vigil at the boundary each first snow, asking only that a name return to ordinary speech.",
+      "La mère de Col. Elle tient la même veille à la frontière à chaque première neige, ne demandant qu’une chose : qu’un nom revienne au langage ordinaire."
+    ],
+    [
+      "A worker and guide: proud, practical, and loved. Standing, money, and a horse promised to a boy all lean on a single choice.",
+      "Un travailleur et guide : fier, pratique et aimé. Son rang, son argent et un cheval promis à un garçon reposent tous sur un seul choix."
+    ],
+    [
+      "The Jubilee Herald. He comes to write the valley down — a mercy to the forgotten, and a record that can become a weapon.",
+      "Le Héraut du Jubilé. Il vient consigner la vallée — une grâce pour les oubliés, et un document qui peut devenir une arme."
+    ],
+    [
+      "Law and rite. She makes the correct word binding, even when the correct word wounds.",
+      "Loi et rite. Elle rend le mot juste contraignant, même lorsque le mot juste blesse."
+    ],
+    [
+      "A novice whose sincere love turns ordinary acts into signs. No liar — and an engine of myth all the same.",
+      "Une novice dont l’amour sincère transforme les actes ordinaires en signes. Nullement menteuse — et pourtant une fabrique de mythes."
+    ],
+    [
+      "An oath-witness who keeps the boundary exactly as it is written — honorable, coherent, and ruinous.",
+      "Un témoin de serment qui respecte la frontière exactement telle qu’elle est écrite — honorable, cohérent et ruineux."
+    ],
+    [
+      "A trader and ledger-keeper who feeds the valley on credit and moving goods. Her usefulness is real; so is her price.",
+      "Une commerçante et comptable qui nourrit la vallée à crédit et par la circulation des marchandises. Son utilité est réelle ; son prix aussi."
+    ],
+    [
+      "A traveler carrying contradictory news from the realm beyond the passes — honest enough not to pretend it is certain.",
+      "Un voyageur porteur de nouvelles contradictoires du royaume au-delà des cols — assez honnête pour ne pas prétendre qu’elles sont certaines."
+    ],
+    [
+      "A servant in Nella's party who struggles to say <em>I</em>, and carries scars the book declines to explain.",
+      "Un serviteur du groupe de Nella qui peine à dire <em>je</em>, et porte des cicatrices que le livre se refuse à expliquer."
+    ],
+    [
+      "Beyond the valley stand the other Great Houses — each a philosophy of leadership,\n        explored on <a href=\"houses.html\">The Great Houses</a>. Their named leaders and heirs are\n        held back from these pages until the book is published.",
+      "Au-delà de la vallée se dressent les autres Grandes Maisons — chacune une philosophie du leadership,\n        explorée sur <a href=\"houses.html\">Les Grandes Maisons</a>. Leurs dirigeants et héritiers nommés sont\n        tenus à l’écart de ces pages jusqu’à la publication du livre."
+    ],
+    [
+      "More of Book One’s Whitehart and valley hands, recorded by name.",
+      "Encore d’autres gens de Whitehart et de la vallée du Livre Un, consignés par leur nom."
+    ],
+    [
+      "Whitehart and valley hands who move through Book One.",
+      "Les gens de Whitehart et de la vallée qui traversent le Livre Un."
+    ],
+    [
+      "Read Book One free",
+      "Lire le Livre Un gratuitement"
+    ],
+    [
+      "Which house are you? Take the quiz",
+      "Quelle maison êtes-vous ? Faites le quiz"
+    ]
   ]
 }

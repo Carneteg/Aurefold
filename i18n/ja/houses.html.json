@@ -2,52 +2,181 @@
   "title": "十大家 — AUREFOLD",
   "description": "Banner-lands の十大家——それぞれが指導の哲学であり、その美徳が他のすべてに突きつける唯一の問い。",
   "blocks": [
-    ["<h1 class=\"page-title\">The Ten Great Houses</h1>", "<h1 class=\"page-title\">十大家</h1>"],
-    ["Each house is a philosophy of leadership — a promise, and its cost. The question\n      is never which is good; it is which you would follow. Every house here carries the\n      one question its virtue forces on everyone else. Named leaders are held back from\n      these pages until the book is published.", "どの家も指導の哲学である——ひとつの約束と、その代償。問いは決してどれが善いかではなく、あなたがどれに従うかだ。ここに挙げるどの家も、その美徳が他のすべてに突きつける唯一の問いを抱えている。名を持つ指導者たちは、本が刊行されるまでこのページには載せない。"],
-    ["Which of these would you follow?", "あなたはこのなかのどれに従うだろうか。"],
-    ["Not sure where you'd swear your oath? Six questions will tell you.", "どこで誓いを立てるべきか迷っている。六つの問いが答えをくれる。"],
-    ["Take the quiz", "診断を受ける"],
-
-    ["<span class=\"house-philosophy\">Intellect</span>", "<span class=\"house-philosophy\">知性</span>"],
-    ["<span class=\"house-philosophy\">Information</span>", "<span class=\"house-philosophy\">情報</span>"],
-    ["<span class=\"house-philosophy\">Courage</span>", "<span class=\"house-philosophy\">勇気</span>"],
-    ["<span class=\"house-philosophy\">Faith</span>", "<span class=\"house-philosophy\">信仰</span>"],
-    ["<span class=\"house-philosophy\">Unity</span>", "<span class=\"house-philosophy\">結束</span>"],
-    ["<span class=\"house-philosophy\">Innovation</span>", "<span class=\"house-philosophy\">革新</span>"],
-    ["<span class=\"house-philosophy\">The victor’s history</span>", "<span class=\"house-philosophy\">勝者の歴史</span>"],
-    ["<span class=\"house-philosophy\">Honor</span>", "<span class=\"house-philosophy\">名誉</span>"],
-    ["<span class=\"house-philosophy\">Knowledge</span>", "<span class=\"house-philosophy\">知識</span>"],
-    ["<span class=\"house-philosophy\">The future</span>", "<span class=\"house-philosophy\">未来</span>"],
-
-    ["The question it forces", "それが突きつける問い"],
-    ["Find on the map →", "地図で探す →"],
-
-    ["“What should the most capable mind be permitted to decide for everyone else?”", "「最も有能な知性は、他のすべての者に代わって何を決めることを許されるべきか」"],
-    ["“Who is safer when information moves freely, and who becomes exposed?”", "「情報が自由に動くとき、より安全になるのは誰で、晒されるのは誰か」"],
-    ["“When does bravery protect others, and when does it demand that others pay?”", "「勇気はいつ他者を守り、いつ他者に代償を求めるのか」"],
-    ["“Can a community survive without shared meaning, and what happens when meaning requires certainty?”", "「共同体は共有された意味なしに生き延びられるのか、そして意味が確信を求めるとき何が起きるのか」"],
-    ["“How much freedom must be bound together to keep roads, people, and obligations from breaking?”", "「道と人と義務が壊れずにすむよう、どれだけの自由を束ねねばならないのか」"],
-    ["“Who benefits first from invention, and who is made obsolete or vulnerable?”", "「発明から最初に恩恵を受けるのは誰で、時代遅れにされ、あるいは脆くされるのは誰か」"],
-    ["“Who decides which surviving account becomes usable history?”", "「残された記録のどれが使える歴史になるのかを、誰が決めるのか」"],
-    ["“Can a public code restrain power without turning human complexity into shame?”", "「公の掟は、人間の複雑さを恥に変えることなく権力を抑えられるのか」"],
-    ["“When does preserving knowledge become control over those who produced it?”", "「知識を保存することは、いつそれを生み出した者たちへの支配になるのか」"],
-    ["“What may the present sacrifice for a future it cannot verify?”", "「現在は、確かめようのない未来のために何を犠牲にしてよいのか」"],
-
-    ["The planner who always acts too late, and the daughter who would act now.", "常に手遅れになってから動く計画者と、いま動こうとする娘。"],
-    ["All their power is borrowed, and the patron it is borrowed from is failing.", "彼らの力はすべて借り物であり、それを借りている後ろ盾は傾きつつある。"],
-    ["The old rider doubts what the Wall of Names cost; the young one dreams of a Leap no rider survives.", "老いた騎手は the Wall of Names が払わせた代償を疑い、若い騎手はどの騎手も生き延びられない跳躍を夢見る。"],
-    ["A house that listens for a voice, and tests those who claim to hear it.", "声に耳を澄まし、それを聞いたと主張する者たちを試す家。"],
-    ["In Book One: the testing of the goatherd Sela, and Brother Tomas’s first doubt.", "第一巻にて——ヤギ飼いの娘 Sela の試験と、Tomas 修道士の最初の疑い。"],
-    ["Unity holds only as long as the uniter lives, and the Binder is dying.", "結束は、まとめる者が生きている間しか保たれない。そして the Binder は死につつある。"],
-    ["They measured everything in the realm; one event at their own forge would not be measured.", "彼らは王国のあらゆるものを測った。だが自らの炉で起きたある出来事だけは測れなかった。"],
-    ["Keepers of the Chronicle of Victory: the realm despises them, and every house has quietly been their client.", "the Chronicle of Victory の守り手。王国は彼らを蔑みながら、どの家も密かに彼らの顧客であり続けてきた。"],
-    ["In Book One: a chronicler comes to the valley, gathering testimony for the coming jubilee.", "第一巻にて——ひとりの記録者が谷を訪れ、来たる記念祭に向けて証言を集める。"],
-    ["A house being bankrupted by its own kept word, led by a man entirely at peace with the cost.", "自らが守り抜いた約束によって破産しつつある家。その代償に完全に心穏やかな男が率いている。"],
-    ["Charts of everything, shared with no one; their lighthouse shines out over the empty sea.", "あらゆるものの海図を、誰とも分かち合わない。彼らの灯台は空虚な海へと光を放つ。"],
-    ["A house built on scorched ground that refuses, on principle, to look down.", "焦土の上に築かれ、原則として見下ろすことを拒む家。"],
-
-    ["The Eleventh Seat", "十一番目の席"],
-    ["There are eleven places in the Hall of Eleven and ten recognized voices.\n        The eleventh seat is neither named nor explained. What the archive keeps of\n        it is its silence — and that silence is kept on purpose.", "the Hall of Eleven には十一の席があり、認められた声は十ある。十一番目の席は名づけられも説明されもしない。記録がそれについて保つのはその沈黙だけ——そしてその沈黙は意図して保たれている。"],
-    ["Read what the archive does keep →", "記録が実際に保つものを読む →"]
+    [
+      "<h1 class=\"page-title\">The Ten Great Houses</h1>",
+      "<h1 class=\"page-title\">十大家</h1>"
+    ],
+    [
+      "Each house is a philosophy of leadership — a promise, and its cost. The question\n      is never which is good; it is which you would follow. Every house here carries the\n      one question its virtue forces on everyone else. Named leaders are held back from\n      these pages until the book is published.",
+      "どの家も指導の哲学である——ひとつの約束と、その代償。問いは決してどれが善いかではなく、あなたがどれに従うかだ。ここに挙げるどの家も、その美徳が他のすべてに突きつける唯一の問いを抱えている。名を持つ指導者たちは、本が刊行されるまでこのページには載せない。"
+    ],
+    [
+      "Which of these would you follow?",
+      "あなたはこのなかのどれに従うだろうか。"
+    ],
+    [
+      "Not sure where you'd swear your oath? Six questions will tell you.",
+      "どこで誓いを立てるべきか迷っている。六つの問いが答えをくれる。"
+    ],
+    [
+      "Take the quiz",
+      "診断を受ける"
+    ],
+    [
+      "<span class=\"house-philosophy\">Intellect</span>",
+      "<span class=\"house-philosophy\">知性</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Information</span>",
+      "<span class=\"house-philosophy\">情報</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Courage</span>",
+      "<span class=\"house-philosophy\">勇気</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Faith</span>",
+      "<span class=\"house-philosophy\">信仰</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Unity</span>",
+      "<span class=\"house-philosophy\">結束</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Innovation</span>",
+      "<span class=\"house-philosophy\">革新</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">The victor’s history</span>",
+      "<span class=\"house-philosophy\">勝者の歴史</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Honor</span>",
+      "<span class=\"house-philosophy\">名誉</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Knowledge</span>",
+      "<span class=\"house-philosophy\">知識</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">The future</span>",
+      "<span class=\"house-philosophy\">未来</span>"
+    ],
+    [
+      "The question it forces",
+      "それが突きつける問い"
+    ],
+    [
+      "Find on the map →",
+      "地図で探す →"
+    ],
+    [
+      "“What should the most capable mind be permitted to decide for everyone else?”",
+      "「最も有能な知性は、他のすべての者に代わって何を決めることを許されるべきか」"
+    ],
+    [
+      "“Who is safer when information moves freely, and who becomes exposed?”",
+      "「情報が自由に動くとき、より安全になるのは誰で、晒されるのは誰か」"
+    ],
+    [
+      "“When does bravery protect others, and when does it demand that others pay?”",
+      "「勇気はいつ他者を守り、いつ他者に代償を求めるのか」"
+    ],
+    [
+      "“Can a community survive without shared meaning, and what happens when meaning requires certainty?”",
+      "「共同体は共有された意味なしに生き延びられるのか、そして意味が確信を求めるとき何が起きるのか」"
+    ],
+    [
+      "“How much freedom must be bound together to keep roads, people, and obligations from breaking?”",
+      "「道と人と義務が壊れずにすむよう、どれだけの自由を束ねねばならないのか」"
+    ],
+    [
+      "“Who benefits first from invention, and who is made obsolete or vulnerable?”",
+      "「発明から最初に恩恵を受けるのは誰で、時代遅れにされ、あるいは脆くされるのは誰か」"
+    ],
+    [
+      "“Who decides which surviving account becomes usable history?”",
+      "「残された記録のどれが使える歴史になるのかを、誰が決めるのか」"
+    ],
+    [
+      "“Can a public code restrain power without turning human complexity into shame?”",
+      "「公の掟は、人間の複雑さを恥に変えることなく権力を抑えられるのか」"
+    ],
+    [
+      "“When does preserving knowledge become control over those who produced it?”",
+      "「知識を保存することは、いつそれを生み出した者たちへの支配になるのか」"
+    ],
+    [
+      "“What may the present sacrifice for a future it cannot verify?”",
+      "「現在は、確かめようのない未来のために何を犠牲にしてよいのか」"
+    ],
+    [
+      "The planner who always acts too late, and the daughter who would act now.",
+      "常に手遅れになってから動く計画者と、いま動こうとする娘。"
+    ],
+    [
+      "All their power is borrowed, and the patron it is borrowed from is failing.",
+      "彼らの力はすべて借り物であり、それを借りている後ろ盾は傾きつつある。"
+    ],
+    [
+      "The old rider doubts what the Wall of Names cost; the young one dreams of a Leap no rider survives.",
+      "老いた騎手は the Wall of Names が払わせた代償を疑い、若い騎手はどの騎手も生き延びられない跳躍を夢見る。"
+    ],
+    [
+      "A house that listens for a voice, and tests those who claim to hear it.",
+      "声に耳を澄まし、それを聞いたと主張する者たちを試す家。"
+    ],
+    [
+      "In Book One: the testing of the goatherd Sela, and Brother Tomas’s first doubt.",
+      "第一巻にて——ヤギ飼いの娘 Sela の試験と、Tomas 修道士の最初の疑い。"
+    ],
+    [
+      "Unity holds only as long as the uniter lives, and the Binder is dying.",
+      "結束は、まとめる者が生きている間しか保たれない。そして the Binder は死につつある。"
+    ],
+    [
+      "They measured everything in the realm; one event at their own forge would not be measured.",
+      "彼らは王国のあらゆるものを測った。だが自らの炉で起きたある出来事だけは測れなかった。"
+    ],
+    [
+      "Keepers of the Chronicle of Victory: the realm despises them, and every house has quietly been their client.",
+      "the Chronicle of Victory の守り手。王国は彼らを蔑みながら、どの家も密かに彼らの顧客であり続けてきた。"
+    ],
+    [
+      "In Book One: a chronicler comes to the valley, gathering testimony for the coming jubilee.",
+      "第一巻にて——ひとりの記録者が谷を訪れ、来たる記念祭に向けて証言を集める。"
+    ],
+    [
+      "A house being bankrupted by its own kept word, led by a man entirely at peace with the cost.",
+      "自らが守り抜いた約束によって破産しつつある家。その代償に完全に心穏やかな男が率いている。"
+    ],
+    [
+      "Charts of everything, shared with no one; their lighthouse shines out over the empty sea.",
+      "あらゆるものの海図を、誰とも分かち合わない。彼らの灯台は空虚な海へと光を放つ。"
+    ],
+    [
+      "A house built on scorched ground that refuses, on principle, to look down.",
+      "焦土の上に築かれ、原則として見下ろすことを拒む家。"
+    ],
+    [
+      "The Eleventh Seat",
+      "十一番目の席"
+    ],
+    [
+      "There are eleven places in the Hall of Eleven and ten recognized voices.\n        The eleventh seat is neither named nor explained. What the archive keeps of\n        it is its silence — and that silence is kept on purpose.",
+      "the Hall of Eleven には十一の席があり、認められた声は十ある。十一番目の席は名づけられも説明されもしない。記録がそれについて保つのはその沈黙だけ——そしてその沈黙は意図して保たれている。"
+    ],
+    [
+      "Read what the archive does keep →",
+      "記録が実際に保つものを読む →"
+    ],
+    [
+      "Read Book One free",
+      "第一巻を無料で読む"
+    ],
+    [
+      "Which house are you? Take the quiz",
+      "あなたはどの家？ 診断をする"
+    ]
   ]
 }

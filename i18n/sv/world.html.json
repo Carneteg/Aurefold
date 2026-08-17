@@ -2,19 +2,61 @@
   "title": "Aurefolds värld — Banner-lands",
   "description": "Aurefolds värld: the Tenfold Compact, A.U.-kalendern, the Ash Fields och den bräckliga fred tio stora hus svor för fyrahundra år sedan.",
   "blocks": [
-    ["<h1 class=\"page-title\">The World</h1>", "<h1 class=\"page-title\">Världen</h1>"],
-    ["Notes toward a general geography, compiled from the surviving sources.", "Anteckningar mot en allmän geografi, sammanställda ur de bevarade källorna."],
-
-    ["<h2 class=\"section-title\">The seat of power</h2>", "<h2 class=\"section-title\">Maktens säte</h2>"],
-    ["<h2 class=\"section-title\">The coming jubilee</h2>", "<h2 class=\"section-title\">Det kommande jubileet</h2>"],
-    ["<h2 class=\"section-title\">The rivers</h2>", "<h2 class=\"section-title\">Floderna</h2>"],
-
-    ["One continent, shaped — the old charts agree on this much — like a kidney.\n        To the west and south lies the Sleeping Sea; few ships that make for deep\n        water return, and the wise trade along the coasts. To the east and north\n        stand the Silent Mountains, and beyond them nothing certain — only rumors\n        of “the houseless.” At the heart of the continent lie the Ash Fields.", "En kontinent, formad — så mycket är de gamla sjökorten ense om — som en njure.\n        I väster och söder ligger the Sleeping Sea; få skepp som söker djupt\n        vatten återvänder, och de kloka handlar längs kusterna. I öster och norr\n        reser sig the Silent Mountains, och bortom dem intet visst — bara rykten\n        om ”de huslösa”. I kontinentens hjärta ligger the Ash Fields."],
-    ["High, silent valleys in the northwest, where goatherds keep their flocks and\n        House Whitehart keeps the Bell of Silence. It is a country that listens.\n        <a href=\"book.html\">Book One begins there.</a>", "Höga, tysta dalar i nordväst, där getvallare håller sina hjordar och\n        House Whitehart vaktar the Bell of Silence. Det är ett land som lyssnar.\n        <a href=\"book.html\">Bok Ett börjar där.</a>"],
-    ["The seat of power carries three disputed names — <em>Ederhamn · Elvestad ·\n        Ederstad</em> — never resolved, never translated. The sources disagree,\n        and the sources are all we have.", "Maktens säte bär tre omtvistade namn — <em>Ederhamn · Elvestad ·\n        Ederstad</em> — aldrig avgjorda, aldrig översatta. Källorna är oense,\n        och källorna är allt vi har."],
-    ["Sworn in the year 0, at the end of the War of the Unification. Every year\n        since has been counted from it. The oath bound the Great Houses to one\n        realm, and the realm has held — by one measure or another — for nearly\n        four centuries.", "Svuren år 0, vid slutet av the War of the Unification. Varje år\n        sedan dess har räknats från den. Eden band de stora husen till ett\n        rike, och riket har hållit — på ett eller annat sätt — i nära\n        fyra sekel."],
-    ["The 400-year jubilee of the Unification is four years away. Across the\n        Banner-lands, House Blackcrest gathers the realm’s testimony for the\n        occasion.", "Unifikationens 400-årsjubileum är fyra år bort. Över hela\n        Banner-lands samlar House Blackcrest rikets vittnesmål inför\n        tillfället."],
-    ["The rivers of the Banner-lands go unnamed in this archive. The charts\n        never agree.", "Banner-lands floder är namnlösa i detta arkiv. Sjökorten\n        blir aldrig ense."],
-    ["Where the sources disagree, the disagreement is kept.", "Där källorna är oense bevaras oenigheten."]
+    [
+      "<h1 class=\"page-title\">The World</h1>",
+      "<h1 class=\"page-title\">Världen</h1>"
+    ],
+    [
+      "Notes toward a general geography, compiled from the surviving sources.",
+      "Anteckningar mot en allmän geografi, sammanställda ur de bevarade källorna."
+    ],
+    [
+      "<h2 class=\"section-title\">The seat of power</h2>",
+      "<h2 class=\"section-title\">Maktens säte</h2>"
+    ],
+    [
+      "<h2 class=\"section-title\">The coming jubilee</h2>",
+      "<h2 class=\"section-title\">Det kommande jubileet</h2>"
+    ],
+    [
+      "<h2 class=\"section-title\">The rivers</h2>",
+      "<h2 class=\"section-title\">Floderna</h2>"
+    ],
+    [
+      "One continent, shaped — the old charts agree on this much — like a kidney.\n        To the west and south lies the Sleeping Sea; few ships that make for deep\n        water return, and the wise trade along the coasts. To the east and north\n        stand the Silent Mountains, and beyond them nothing certain — only rumors\n        of “the houseless.” At the heart of the continent lie the Ash Fields.",
+      "En kontinent, formad — så mycket är de gamla sjökorten ense om — som en njure.\n        I väster och söder ligger the Sleeping Sea; få skepp som söker djupt\n        vatten återvänder, och de kloka handlar längs kusterna. I öster och norr\n        reser sig the Silent Mountains, och bortom dem intet visst — bara rykten\n        om ”de huslösa”. I kontinentens hjärta ligger the Ash Fields."
+    ],
+    [
+      "High, silent valleys in the northwest, where goatherds keep their flocks and\n        House Whitehart keeps the Bell of Silence. It is a country that listens.\n        <a href=\"book.html\">Book One begins there.</a>",
+      "Höga, tysta dalar i nordväst, där getvallare håller sina hjordar och\n        House Whitehart vaktar the Bell of Silence. Det är ett land som lyssnar.\n        <a href=\"book.html\">Bok Ett börjar där.</a>"
+    ],
+    [
+      "The seat of power carries three disputed names — <em>Ederhamn · Elvestad ·\n        Ederstad</em> — never resolved, never translated. The sources disagree,\n        and the sources are all we have.",
+      "Maktens säte bär tre omtvistade namn — <em>Ederhamn · Elvestad ·\n        Ederstad</em> — aldrig avgjorda, aldrig översatta. Källorna är oense,\n        och källorna är allt vi har."
+    ],
+    [
+      "Sworn in the year 0, at the end of the War of the Unification. Every year\n        since has been counted from it. The oath bound the Great Houses to one\n        realm, and the realm has held — by one measure or another — for nearly\n        four centuries.",
+      "Svuren år 0, vid slutet av the War of the Unification. Varje år\n        sedan dess har räknats från den. Eden band de stora husen till ett\n        rike, och riket har hållit — på ett eller annat sätt — i nära\n        fyra sekel."
+    ],
+    [
+      "The 400-year jubilee of the Unification is four years away. Across the\n        Banner-lands, House Blackcrest gathers the realm’s testimony for the\n        occasion.",
+      "Unifikationens 400-årsjubileum är fyra år bort. Över hela\n        Banner-lands samlar House Blackcrest rikets vittnesmål inför\n        tillfället."
+    ],
+    [
+      "The rivers of the Banner-lands go unnamed in this archive. The charts\n        never agree.",
+      "Banner-lands floder är namnlösa i detta arkiv. Sjökorten\n        blir aldrig ense."
+    ],
+    [
+      "Where the sources disagree, the disagreement is kept.",
+      "Där källorna är oense bevaras oenigheten."
+    ],
+    [
+      "Read Book One free",
+      "Läs Bok Ett gratis"
+    ],
+    [
+      "Which house are you? Take the quiz",
+      "Vilket hus är du? Gör testet"
+    ]
   ]
 }

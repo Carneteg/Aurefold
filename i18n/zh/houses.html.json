@@ -2,52 +2,181 @@
   "title": "十大家族 — AUREFOLD",
   "description": "Banner-lands 的十大家族——每一个都是一种领导哲学，以及它的美德强加于所有人的那一个问题。",
   "blocks": [
-    ["<h1 class=\"page-title\">The Ten Great Houses</h1>", "<h1 class=\"page-title\">十大家族</h1>"],
-    ["Each house is a philosophy of leadership — a promise, and its cost. The question\n      is never which is good; it is which you would follow. Every house here carries the\n      one question its virtue forces on everyone else. Named leaders are held back from\n      these pages until the book is published.", "每一个家族都是一种领导哲学——一个承诺，以及它的代价。问题\n      从来不是哪一个更好；而是你会追随哪一个。此处的每个家族都背负着\n      它的美德强加于所有其他人的那一个问题。在本书出版之前，具名的领袖\n      不会出现在这些页面上。"],
-    ["Which of these would you follow?", "这些之中，你会追随哪一个？"],
-    ["Not sure where you'd swear your oath? Six questions will tell you.", "不确定你会在何处立下誓言？六道问题会告诉你答案。"],
-    ["Take the quiz", "参加测验"],
-
-    ["<span class=\"house-philosophy\">Intellect</span>", "<span class=\"house-philosophy\">智识</span>"],
-    ["<span class=\"house-philosophy\">Information</span>", "<span class=\"house-philosophy\">情报</span>"],
-    ["<span class=\"house-philosophy\">Courage</span>", "<span class=\"house-philosophy\">勇气</span>"],
-    ["<span class=\"house-philosophy\">Faith</span>", "<span class=\"house-philosophy\">信仰</span>"],
-    ["<span class=\"house-philosophy\">Unity</span>", "<span class=\"house-philosophy\">团结</span>"],
-    ["<span class=\"house-philosophy\">Innovation</span>", "<span class=\"house-philosophy\">革新</span>"],
-    ["<span class=\"house-philosophy\">The victor’s history</span>", "<span class=\"house-philosophy\">胜者的历史</span>"],
-    ["<span class=\"house-philosophy\">Honor</span>", "<span class=\"house-philosophy\">荣誉</span>"],
-    ["<span class=\"house-philosophy\">Knowledge</span>", "<span class=\"house-philosophy\">知识</span>"],
-    ["<span class=\"house-philosophy\">The future</span>", "<span class=\"house-philosophy\">未来</span>"],
-
-    ["The question it forces", "它所迫问的问题"],
-    ["Find on the map →", "在地图上寻找 →"],
-
-    ["“What should the most capable mind be permitted to decide for everyone else?”", "“最有能力的头脑应被允许替所有其他人决定什么？”"],
-    ["“Who is safer when information moves freely, and who becomes exposed?”", "“当信息自由流动时，谁更安全，而谁又因此暴露？”"],
-    ["“When does bravery protect others, and when does it demand that others pay?”", "“勇敢何时护佑他人，又何时要求他人付出代价？”"],
-    ["“Can a community survive without shared meaning, and what happens when meaning requires certainty?”", "“一个群体能否在缺乏共同意义的情况下存续？而当意义要求确定性时，又会发生什么？”"],
-    ["“How much freedom must be bound together to keep roads, people, and obligations from breaking?”", "“为了不让道路、人群与义务崩裂，必须将多少自由捆绑在一起？”"],
-    ["“Who benefits first from invention, and who is made obsolete or vulnerable?”", "“谁最先从发明中获益，而谁又因此被淘汰或变得脆弱？”"],
-    ["“Who decides which surviving account becomes usable history?”", "“由谁来决定哪一份留存的记述成为可用的历史？”"],
-    ["“Can a public code restrain power without turning human complexity into shame?”", "“一部公开的准则能否约束权力，而不将人性的复杂化作耻辱？”"],
-    ["“When does preserving knowledge become control over those who produced it?”", "“保存知识何时会变成对创造它的人的控制？”"],
-    ["“What may the present sacrifice for a future it cannot verify?”", "“当下可以为一个它无法证实的未来牺牲什么？”"],
-
-    ["The planner who always acts too late, and the daughter who would act now.", "那位总是行动太迟的谋划者，与那位愿意此刻就行动的女儿。"],
-    ["All their power is borrowed, and the patron it is borrowed from is failing.", "他们所有的权力都是借来的，而借出权力的那位庇护者正在衰败。"],
-    ["The old rider doubts what the Wall of Names cost; the young one dreams of a Leap no rider survives.", "年长的骑手质疑 Wall of Names 付出的代价；年轻的骑手却梦想着一次无人生还的飞跃。"],
-    ["A house that listens for a voice, and tests those who claim to hear it.", "一个聆听某种声音的家族，并考验那些自称听见它的人。"],
-    ["In Book One: the testing of the goatherd Sela, and Brother Tomas’s first doubt.", "在第一部中：对牧羊女 Sela 的考验，以及 Tomas 修士的初次怀疑。"],
-    ["Unity holds only as long as the uniter lives, and the Binder is dying.", "团结只在缔结者活着时才得以维系，而 the Binder 正濒临死亡。"],
-    ["They measured everything in the realm; one event at their own forge would not be measured.", "他们丈量了这个国度里的一切；唯有在他们自家熔炉旁发生的一件事无法被丈量。"],
-    ["Keepers of the Chronicle of Victory: the realm despises them, and every house has quietly been their client.", "the Chronicle of Victory 的守护者：国度鄙夷他们，而每一个家族却都曾暗中是他们的主顾。"],
-    ["In Book One: a chronicler comes to the valley, gathering testimony for the coming jubilee.", "在第一部中：一位编年者来到山谷，为即将到来的庆典搜集证言。"],
-    ["A house being bankrupted by its own kept word, led by a man entirely at peace with the cost.", "一个因恪守自己诺言而走向破产的家族，由一位对代价全然安然的男人领导。"],
-    ["Charts of everything, shared with no one; their lighthouse shines out over the empty sea.", "关于一切的海图，却不与任何人分享；他们的灯塔照耀着空荡荡的大海。"],
-    ["A house built on scorched ground that refuses, on principle, to look down.", "一个建立在焦土之上、出于原则拒绝低头的家族。"],
-
-    ["The Eleventh Seat", "第十一席"],
-    ["There are eleven places in the Hall of Eleven and ten recognized voices.\n        The eleventh seat is neither named nor explained. What the archive keeps of\n        it is its silence — and that silence is kept on purpose.", "the Hall of Eleven 中有十一个席位，却只有十个受认可的声音。\n        第十一席既未被命名，也无从解释。档案对它所保存的\n        便是它的沉默——而那份沉默是被刻意保留下来的。"],
-    ["Read what the archive does keep →", "阅读档案确实保存的内容 →"]
+    [
+      "<h1 class=\"page-title\">The Ten Great Houses</h1>",
+      "<h1 class=\"page-title\">十大家族</h1>"
+    ],
+    [
+      "Each house is a philosophy of leadership — a promise, and its cost. The question\n      is never which is good; it is which you would follow. Every house here carries the\n      one question its virtue forces on everyone else. Named leaders are held back from\n      these pages until the book is published.",
+      "每一个家族都是一种领导哲学——一个承诺，以及它的代价。问题\n      从来不是哪一个更好；而是你会追随哪一个。此处的每个家族都背负着\n      它的美德强加于所有其他人的那一个问题。在本书出版之前，具名的领袖\n      不会出现在这些页面上。"
+    ],
+    [
+      "Which of these would you follow?",
+      "这些之中，你会追随哪一个？"
+    ],
+    [
+      "Not sure where you'd swear your oath? Six questions will tell you.",
+      "不确定你会在何处立下誓言？六道问题会告诉你答案。"
+    ],
+    [
+      "Take the quiz",
+      "参加测验"
+    ],
+    [
+      "<span class=\"house-philosophy\">Intellect</span>",
+      "<span class=\"house-philosophy\">智识</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Information</span>",
+      "<span class=\"house-philosophy\">情报</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Courage</span>",
+      "<span class=\"house-philosophy\">勇气</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Faith</span>",
+      "<span class=\"house-philosophy\">信仰</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Unity</span>",
+      "<span class=\"house-philosophy\">团结</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Innovation</span>",
+      "<span class=\"house-philosophy\">革新</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">The victor’s history</span>",
+      "<span class=\"house-philosophy\">胜者的历史</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Honor</span>",
+      "<span class=\"house-philosophy\">荣誉</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">Knowledge</span>",
+      "<span class=\"house-philosophy\">知识</span>"
+    ],
+    [
+      "<span class=\"house-philosophy\">The future</span>",
+      "<span class=\"house-philosophy\">未来</span>"
+    ],
+    [
+      "The question it forces",
+      "它所迫问的问题"
+    ],
+    [
+      "Find on the map →",
+      "在地图上寻找 →"
+    ],
+    [
+      "“What should the most capable mind be permitted to decide for everyone else?”",
+      "“最有能力的头脑应被允许替所有其他人决定什么？”"
+    ],
+    [
+      "“Who is safer when information moves freely, and who becomes exposed?”",
+      "“当信息自由流动时，谁更安全，而谁又因此暴露？”"
+    ],
+    [
+      "“When does bravery protect others, and when does it demand that others pay?”",
+      "“勇敢何时护佑他人，又何时要求他人付出代价？”"
+    ],
+    [
+      "“Can a community survive without shared meaning, and what happens when meaning requires certainty?”",
+      "“一个群体能否在缺乏共同意义的情况下存续？而当意义要求确定性时，又会发生什么？”"
+    ],
+    [
+      "“How much freedom must be bound together to keep roads, people, and obligations from breaking?”",
+      "“为了不让道路、人群与义务崩裂，必须将多少自由捆绑在一起？”"
+    ],
+    [
+      "“Who benefits first from invention, and who is made obsolete or vulnerable?”",
+      "“谁最先从发明中获益，而谁又因此被淘汰或变得脆弱？”"
+    ],
+    [
+      "“Who decides which surviving account becomes usable history?”",
+      "“由谁来决定哪一份留存的记述成为可用的历史？”"
+    ],
+    [
+      "“Can a public code restrain power without turning human complexity into shame?”",
+      "“一部公开的准则能否约束权力，而不将人性的复杂化作耻辱？”"
+    ],
+    [
+      "“When does preserving knowledge become control over those who produced it?”",
+      "“保存知识何时会变成对创造它的人的控制？”"
+    ],
+    [
+      "“What may the present sacrifice for a future it cannot verify?”",
+      "“当下可以为一个它无法证实的未来牺牲什么？”"
+    ],
+    [
+      "The planner who always acts too late, and the daughter who would act now.",
+      "那位总是行动太迟的谋划者，与那位愿意此刻就行动的女儿。"
+    ],
+    [
+      "All their power is borrowed, and the patron it is borrowed from is failing.",
+      "他们所有的权力都是借来的，而借出权力的那位庇护者正在衰败。"
+    ],
+    [
+      "The old rider doubts what the Wall of Names cost; the young one dreams of a Leap no rider survives.",
+      "年长的骑手质疑 Wall of Names 付出的代价；年轻的骑手却梦想着一次无人生还的飞跃。"
+    ],
+    [
+      "A house that listens for a voice, and tests those who claim to hear it.",
+      "一个聆听某种声音的家族，并考验那些自称听见它的人。"
+    ],
+    [
+      "In Book One: the testing of the goatherd Sela, and Brother Tomas’s first doubt.",
+      "在第一部中：对牧羊女 Sela 的考验，以及 Tomas 修士的初次怀疑。"
+    ],
+    [
+      "Unity holds only as long as the uniter lives, and the Binder is dying.",
+      "团结只在缔结者活着时才得以维系，而 the Binder 正濒临死亡。"
+    ],
+    [
+      "They measured everything in the realm; one event at their own forge would not be measured.",
+      "他们丈量了这个国度里的一切；唯有在他们自家熔炉旁发生的一件事无法被丈量。"
+    ],
+    [
+      "Keepers of the Chronicle of Victory: the realm despises them, and every house has quietly been their client.",
+      "the Chronicle of Victory 的守护者：国度鄙夷他们，而每一个家族却都曾暗中是他们的主顾。"
+    ],
+    [
+      "In Book One: a chronicler comes to the valley, gathering testimony for the coming jubilee.",
+      "在第一部中：一位编年者来到山谷，为即将到来的庆典搜集证言。"
+    ],
+    [
+      "A house being bankrupted by its own kept word, led by a man entirely at peace with the cost.",
+      "一个因恪守自己诺言而走向破产的家族，由一位对代价全然安然的男人领导。"
+    ],
+    [
+      "Charts of everything, shared with no one; their lighthouse shines out over the empty sea.",
+      "关于一切的海图，却不与任何人分享；他们的灯塔照耀着空荡荡的大海。"
+    ],
+    [
+      "A house built on scorched ground that refuses, on principle, to look down.",
+      "一个建立在焦土之上、出于原则拒绝低头的家族。"
+    ],
+    [
+      "The Eleventh Seat",
+      "第十一席"
+    ],
+    [
+      "There are eleven places in the Hall of Eleven and ten recognized voices.\n        The eleventh seat is neither named nor explained. What the archive keeps of\n        it is its silence — and that silence is kept on purpose.",
+      "the Hall of Eleven 中有十一个席位，却只有十个受认可的声音。\n        第十一席既未被命名，也无从解释。档案对它所保存的\n        便是它的沉默——而那份沉默是被刻意保留下来的。"
+    ],
+    [
+      "Read what the archive does keep →",
+      "阅读档案确实保存的内容 →"
+    ],
+    [
+      "Read Book One free",
+      "免费阅读第一部"
+    ],
+    [
+      "Which house are you? Take the quiz",
+      "你属于哪个家族？来做测验"
+    ]
   ]
 }

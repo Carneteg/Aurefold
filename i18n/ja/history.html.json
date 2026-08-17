@@ -2,90 +2,261 @@
   "title": "Banner-lands の歴史 — Aurefold",
   "description": "Banner-lands の四百年——the War of the Unification、the Tenfold Compact、そして十大家の争われた過去を収めた生きた記録。",
   "blocks": [
-    ["Four hundred years of record, as the archive keeps it.", "記録が守り伝えるままの、四百年の記録。"],
-
-    ["<h2 class=\"section-title\">The reckoning of years</h2>", "<h2 class=\"section-title\">年の数え方</h2>"],
-    ["<h2 class=\"section-title\">The four centuries</h2>", "<h2 class=\"section-title\">四つの世紀</h2>"],
-    ["<h2 class=\"section-title\">The four records</h2>", "<h2 class=\"section-title\">四つの資料</h2>"],
-
-    ["Years in the Banner-lands are counted in <strong>A.U.</strong> — <em>after the\n        Unification</em>. The present is <strong>396&nbsp;A.U.</strong> The 400-year\n        jubilee of the founding stands four years off, and every house is already\n        preparing what it will say about the last four centuries.", "Banner-lands における年は <strong>A.U.</strong> ——<em>統一の後</em>——で数えられる。現在は <strong>396&nbsp;A.U.</strong>。建国四百年の祝祭は四年先に控え、いずれの家もすでに、過ぎた四つの世紀について何を語るかを支度している。"],
-
-    ["Before the war there were no Ten Houses — only fractured principalities,\n        cities, and clans fighting over the same exhausted land. The war swept the\n        entire known world, and what one calls it tells you which record one trusts.\n        The Chronicle of Victory calls it <em>the War of the Unification</em> —\n        solemnly, <em>the Great Unification</em> — and \"unification\" makes a war\n        sound like a merger. The Ash Fragments, which few cite aloud, call it\n        <em>the Divided Fire</em>, and describe not a defense against an outside\n        enemy but a civil war. The sources disagree about who won. That is the\n        record's oldest wound.", "戦の前に Ten Houses は存在せず、あるのはただ、同じ疲弊した土地を奪い合う分裂した諸侯、都市、氏族ばかりだった。戦は知られたる世界のすべてを覆い、それを何と呼ぶかが、その者がどの記録を信じているかを告げる。the Chronicle of Victory はこれを <em>the War of the Unification</em>——厳かに <em>the Great Unification</em>——と呼び、「統一」という語は戦を合併のように聞こえさせる。声に出して引く者の少ない the Ash Fragments は、これを <em>the Divided Fire</em> と呼び、外敵への防衛ではなく内戦を描く。誰が勝ったのかについて、資料は一致しない。それこそが記録の最も古い傷である。"],
-
-    ["What is beyond dispute is how it ended: on the cooling ground of the Ash\n        Fields, in the year that was then set to nought, the lords of the war swore\n        the <strong>Tenfold Compact</strong> and divided the land, the duty, and the grief\n        among them. The peace it sealed has held — by one measure or another — for\n        four hundred years, save four.", "疑いようのないのは、それがどう終わったかである。冷えゆく the Ash Fields の地の上、そのとき零に定められた年に、戦の諸侯は <strong>Tenfold Compact</strong> を誓い、土地と、務めと、悲しみとを分かち合った。それが封じた平和は——何らかの尺度によって——四百年、四年を欠くまで保たれてきた。"],
-
-    ["<tr><th scope=\"col\">Year (A.U.)</th><th scope=\"col\">Event</th><th scope=\"col\">What the record holds</th></tr>", "<tr><th scope=\"col\">年 (A.U.)</th><th scope=\"col\">出来事</th><th scope=\"col\">記録が伝えるもの</th></tr>"],
-
-    ["The war ends; the Tenfold Compact", "戦が終わる。the Tenfold Compact"],
-    ["The victors seal a pact dividing land, titles, and responsibility among the Great Houses.", "勝者たちが、土地と、称号と、責務とを大家のあいだで分かつ盟約を封じる。"],
-    ["The Silent Year", "the Silent Year"],
-    ["An unnaturally empty window in the chronicles. An absence of <em>permitted</em> events, not of events themselves.", "年代記における不自然に空白の時期。出来事そのものの不在ではなく、<em>許された</em>出来事の不在。"],
-    ["The Sundering of the Ten Philosophies", "十の哲学の分裂"],
-    ["The founders dead; the children inherit houses without a soul. The ten philosophies crystallize through concrete crises — they are <em>won</em>, not given.", "創設者たちは死に、子らは魂なき家を継ぐ。十の哲学は具体的な危機を通じて結晶する——それらは与えられるのではなく、<em>勝ち取られる</em>。"],
-    ["The First Betrayal", "最初の裏切り"],
-    ["The first time one house turns against another after the Unification. The pact proves fragile.", "統一の後、初めてある家が別の家に牙をむく。盟約は脆さを露わにする。"],
-    ["The Age of Chronicles", "年代記の時代"],
-    ["The writing of history becomes institutionalized; the conflicting official versions are produced. House Blackcrest decisive.", "歴史の記述が制度化され、相矛盾する公式の版が生み出される。House Blackcrest が決定的な役割を担う。"],
-    ["Overlapping failure — failed crops, spoiled stores, sick herds — that no house caused or cured. The realm answered with the <strong>Common Keeping</strong>: cooperation without a crown, the eleventh seat left empty. <a href=\"#living-archive\">→ the Living Archive</a>", "重なり合う破綻——不作、腐った貯え、病んだ家畜——いずれの家も引き起こさず、また癒しもしなかったもの。国はこれに <strong>Common Keeping</strong> をもって応えた。王冠なき協力、空席のまま残された第十一の座。<a href=\"#living-archive\">→ 生きた記録</a>"],
-    ["A settlement whose official wording, argued over for days, preserved the peace without granting the victor innocence — the record used, for once, to keep a door open. <a href=\"#living-archive\">→ the Living Archive</a>", "幾日も争われたその公式の文言が、勝者に無罪を与えることなく平和を保った和解——記録が、ただ一度だけ、扉を開いておくために用いられた。<a href=\"#living-archive\">→ 生きた記録</a>"],
-    ["The threshold of the present", "現在の敷居"],
-    ["The order appears stable, but every crack is an open wound. The 400-year jubilee looms, four years off.", "秩序は安定しているように見えるが、ひび割れのひとつひとつが開いた傷である。四百年の祝祭が、四年先に迫る。"],
-
-    ["Everything above rests on four kinds of source, and they do not agree.", "以上のすべては四種の資料の上に立っており、それらは一致しない。"],
-    ["<strong>The Chronicle of Victory</strong> — the official record, kept at Crown-watch by House Blackcrest. Complete, consistent, and written by the side that kept the pen.", "<strong>The Chronicle of Victory</strong>——公式の記録。Crown-watch にて House Blackcrest によって守られる。完全で、首尾一貫し、そして筆を握った側によって書かれた。"],
-    ["<strong>The Ash Fragments</strong> — burned, partial pages that survive from before and during the war. They contradict the Chronicle where they overlap with it, which is why so few of them overlap with it.", "<strong>The Ash Fragments</strong>——戦の前と最中から残る、焼け焦げた断片の頁。それらは重なる箇所で Chronicle と矛盾する。だからこそ、それらが Chronicle と重なる箇所は、かくも少ないのである。"],
-    ["<strong>The Songs</strong> — what the people remember in verse. Songs cannot be recalled and corrected; they are sung wrong, in the same wrong way, in every tavern in the Banner-lands.", "<strong>The Songs</strong>——民が歌に記憶するもの。歌は呼び戻して訂正することができない。それらは誤って、同じ誤ったやり方で、Banner-lands のあらゆる酒場で歌われる。"],
-    ["<strong>The Marginal Notes</strong> — small anonymous hands in the margins of official copies, written by readers who noticed something. The archive does not cite them. The archive has not erased them either.", "<strong>The Marginal Notes</strong>——公式の写しの余白に記された、小さな匿名の筆跡。何かに気づいた読み手たちが書いたもの。記録はそれらを引かない。かといって、記録はそれらを消し去りもしなかった。"],
-    ["The archive records the disagreement; it does not decide it.", "記録は不一致を書き留める。それを裁くことはしない。"],
-
-    ["The Chronicle is not the only thing the archive keeps. Beneath the official record\n        lie the fragments the officials could not enter cleanly — a letter that says what a\n        hearing could not, a confession bound inside a devotional cover, a tribunal transcript\n        that stops after sentencing. Each was written by someone with a reason to shape it, and\n        each keeps its conflict rather than resolving it. These are ten of the houses' own\n        hardest histories, and one the whole realm shares.", "Chronicle は記録が守るもののすべてではない。公式の記録の下には、役人たちが清書して収めることのできなかった断片が横たわる——審問が語りえなかったことを語る手紙、信心書の表紙のうちに綴じ込まれた告白、判決の後で途切れる法廷の記録。そのいずれもが、それを形づくる理由を持つ誰かによって書かれ、そのいずれもが、その葛藤を解くのではなく抱えたままにする。これは十大家それぞれの最も苦い歴史であり、そして国全体が分かち合うひとつである。"],
-
-    ["The summaries below are distilled and public. <a href=\"archive.html\">The full fragments —\n        in the voices of the people who lived them — are in the Living Archive</a>, with the\n        openings free to read and the complete accounts kept for members.", "以下の要約は蒸留された、公開のものである。<a href=\"archive.html\">完全な断片は——それを生きた者たちの声で——生きた記録にある</a>。冒頭は自由に読め、完全な記録は会員のために取り置かれている。"],
-
-    ["<span class=\"archive-house\">Blackthorn · Intellect</span>", "<span class=\"archive-house\">Blackthorn · 知性</span>"],
-    ["<span class=\"archive-house\">Ashbourne · Courage</span>", "<span class=\"archive-house\">Ashbourne · 勇気</span>"],
-    ["<span class=\"archive-house\">Whitehart · Faith</span>", "<span class=\"archive-house\">Whitehart · 信仰</span>"],
-    ["<span class=\"archive-house\">Stormrider · Unity</span>", "<span class=\"archive-house\">Stormrider · 結束</span>"],
-    ["<span class=\"archive-house\">Blackcrest · The victor's history</span>", "<span class=\"archive-house\">Blackcrest · 勝者の歴史</span>"],
-    ["<span class=\"archive-house\">Stonebear · Honor</span>", "<span class=\"archive-house\">Stonebear · 名誉</span>"],
-    ["<span class=\"archive-house\">Tidebreaker · Knowledge</span>", "<span class=\"archive-house\">Tidebreaker · 知識</span>"],
-    ["<span class=\"archive-house\">Phoenix · The future</span>", "<span class=\"archive-house\">Phoenix · 未来</span>"],
-    ["<span class=\"archive-house\">The realm entire</span>", "<span class=\"archive-house\">国全体</span>"],
-
-    ["The Deathbed of Lord Corvane Marrenhold", "Lord Corvane Marrenhold の死の床"],
-    ["The Charge That Arrived Too Soon", "早すぎた突撃"],
-    ["The Vigil of the Sealed Testimony", "封じられた証言の通夜"],
-    ["The Winter the Roads Closed", "道が閉ざされた冬"],
-    ["The House of Opened Letters", "開かれた手紙の家"],
-    ["The Furnace That Would Not Stop", "止まろうとしなかった炉"],
-    ["The Victory at Red Hollow", "Red Hollow の勝利"],
-    ["The Oath at Three Spears", "Three Spears の誓い"],
-    ["The Map That Refused the Coast", "海岸を拒んだ地図"],
-    ["The Children of Tomorrow", "明日の子ら"],
-    ["The Year the Ten Banners Lowered", "十の旗が下ろされた年"],
-
-    ["A lord takes eleven days to die while his household discovers eleven uses for the time. A daughter's marriage is negotiated beside the bed; a letter that could ruin one cousin makes him suddenly cooperative. No page proves murder — and every party can defend a motive that never renders their conduct harmless. Blackthorn prefers its corruption with a reason.", "ある領主が死ぬのに十一日を要し、そのあいだに家中の者はその時間の十一の使い道を見いだす。娘の縁組が寝台の傍らで取り決められ、ある従兄弟を破滅させかねない一通の手紙が、彼を俄かに従順にする。いかなる頁も殺人を証さない——そしていずれの当事者も、その振る舞いを決して無害たらしめない動機を弁じることができる。Blackthorn はその腐敗を、理由とともに好む。"],
-
-    ["A captain disobeys a hold order on a dispatch that proves false. The charge kills her lieutenant — and may also have saved the army from encirclement. Afterward some call her reckless and some call her visionary, and she refuses to let either name make his death mean less. Success is the great corrupter of military truth.", "ある隊長が、偽と判明する急報のうえで停止命令に背く。その突撃は彼女の副官を死なせ——そしてまた、軍を包囲から救ったのかもしれない。後にある者は彼女を無謀と呼び、ある者は先見の明ありと呼ぶが、彼女はいずれの名にも彼の死の意味を減じさせることを拒む。成功こそ、軍事の真実を蝕む最大のものである。"],
-
-    ["A servant brings a testimony against a patron's kinsman; by custom it should be entered in the White Ledger by sundown. Instead it is sealed \"pending clarification of conscience\" while an abbess lies dying and the accused family funds the hospital. The house built to test the truth learns how easily patronage can teach a record to wait.", "ある召使いが庇護者の縁者に不利な証言を持ち込む。慣例によれば、それは日没までに the White Ledger に記されるはずである。ところがそれは「良心の明確化を待つ」として封じられ、そのあいだ院長は死の床にあり、告発された一族は病院に資金を出している。真実を試すために建てられた家は、庇護がいかにたやすく記録に待つことを教えうるかを学ぶ。"],
-
-    ["The passes freeze and the council sends one instruction: keep a passage open at all costs. It does not say which passage, or whose cost. Four people die waiting for a way that shepherds had already cut — unrecorded, because the men who cut it had no official mark to sign. Unity held the realm; it did not save the girl beneath the river.", "峠は凍りつき、評議会はただひとつの指示を送る。何としても道を一本開いておけ。それはどの道かも、誰の犠牲かも言わない。四人が、羊飼いたちがすでに切り開いていた道を待つあいだに死ぬ——記録されぬまま。それを切り開いた者たちには、署名すべき公式の印がなかったからである。結束は国を保った。だが川の下の娘は救わなかった。"],
-
-    ["A factor holds a packet of names one day before it goes on — long enough for a physician to reach the sick, and long enough for those who could afford to leave to be gone before the rest are marked. The delay saves and dooms in the same motion. The finest intrusion, he writes, leaves nothing to find.", "ある代理人が、名簿の束を先へ送る前に一日だけ留め置く——医師が病人のもとに届くのにちょうど足りる長さ、そして立ち去る余裕のある者たちが、残りの者が印される前に姿を消すのにちょうど足りる長さ。その遅延は、同じひとつの動きで救い、そして滅ぼす。最も精妙な侵入は、と彼は書く、見いだすべき何ものも残さない。"],
-
-    ["A furnace is run past every measure with a single structural support left out. When it fails, the house that measures everything cannot agree whose seal authorized the risk, or whether the man who forced the evacuation prevented a catastrophe or caused the injuries. The one event at their own forge is the one that will not be measured.", "ある炉が、ただひとつの構造上の支柱を欠いたまま、あらゆる目盛りを越えて焚かれる。それが破綻したとき、すべてを計測する家は、誰の印章がその危険を許したのか、また避難を強いた男が破局を防いだのか、それとも負傷を招いたのかについて、意見を一致させることができない。自らの鍛冶場での唯一の出来事こそ、計測されようとしない出来事である。"],
-
-    ["The chamber that writes victory argues for days over a single inscription. The wording it adopts preserves the settlement — and refuses, deliberately, to grant the victor innocence. The record is a kind of power, and here it is spent, once, to keep a door open rather than close it.", "勝利を書き記す評議室が、ただひとつの銘をめぐって幾日も争う。それが採る文言は和解を保ち——そして、意図して、勝者に無罪を与えることを拒む。記録とは一種の力であり、ここでそれは、扉を閉ざすのではなく開いておくために、ただ一度、費やされる。"],
-
-    ["A shield-captain breaks a direct command to keep faith with a signal her house had made. It is insubordination and the preservation of custom at once, mercy and a dangerous precedent in the same act. Stonebear keeps its word past the point the word costs it everything — and cannot always tell which word it is bound to.", "ある盾の隊長が、自らの家が交わした合図に忠実であらんとして、直接の命令を破る。それは同時に不服従であり慣習の保全であり、同じ行いにおいて慈悲であり危うい前例である。Stonebear はその言葉を、言葉がすべてを奪う一線を越えてなお守り——そして自らがどの言葉に縛られているのかを、常に言い当てられるわけではない。"],
-
-    ["A chart is settled that honours the consent of an island people and, by the same omission, leaves uninformed sailors to the rocks. The house that charts all of it and shares almost none learns that a map is a claim: every chart after it must name its date, its maker, its purpose, and what it chose to leave out.", "ある海図が定められる。それはある島の民の同意を重んじ、そして同じ省略によって、事情を知らぬ船乗りたちを暗礁に委ねる。すべてを海図に描き、そのほとんど何も分かち合わない家は、地図とはひとつの主張であることを学ぶ。それ以後のあらゆる海図は、その日付を、作り手を、目的を、そして描かずに残すと選んだものを、名指さねばならない。"],
-
-    ["A planner delivers real improvement — cleaner water, warmer winters, schooled children — by controlling shelter, standing, and patronage until refusal is no longer practical. The future arrives. No one can prove it needed to arrive that way. The house that builds on scorched ground refuses, on principle, to look down.", "ある計画者が、真の改善——より清らかな水、より暖かな冬、教育を受けた子ら——をもたらす。住まいと、地位と、庇護とを、拒むことがもはや現実的でなくなるまで統べることによって。未来は訪れる。それがそのやり方で訪れねばならなかったことを、誰も証すことはできない。焦土の上に建てる家は、原則として、下を見ることを拒む。"],
-
-    ["Crop failure, spoiled stores, sick herds and empty nets overlap with panic and concealment until no count is current and no house can meet its own need. No single house caused it; no single house solved it. The Common Keeping — cooperation without a crown — held the realm together for one year, and the eleventh seat in the Hall of Eleven stayed empty, and unexplained.", "不作、腐った貯え、病んだ家畜、空の網が、狼狽と隠蔽と重なり合い、ついにはいかなる勘定も最新ならず、いかなる家も自らの必要を満たしえなくなる。ただひとつの家がそれを引き起こしたのではなく、ただひとつの家がそれを解いたのでもない。the Common Keeping——王冠なき協力——は一年のあいだ国を保ち、the Hall of Eleven の第十一の座は空席のまま、そして説き明かされぬまま残された。"],
-
-    ["These fragments are contested by every tradition that keeps them. That is the point of keeping them.", "これらの断片は、それを守り伝えるあらゆる伝統によって争われている。それこそが、それらを守り伝える意味である。"]
+    [
+      "Four hundred years of record, as the archive keeps it.",
+      "記録が守り伝えるままの、四百年の記録。"
+    ],
+    [
+      "<h2 class=\"section-title\">The reckoning of years</h2>",
+      "<h2 class=\"section-title\">年の数え方</h2>"
+    ],
+    [
+      "<h2 class=\"section-title\">The four centuries</h2>",
+      "<h2 class=\"section-title\">四つの世紀</h2>"
+    ],
+    [
+      "<h2 class=\"section-title\">The four records</h2>",
+      "<h2 class=\"section-title\">四つの資料</h2>"
+    ],
+    [
+      "Years in the Banner-lands are counted in <strong>A.U.</strong> — <em>after the\n        Unification</em>. The present is <strong>396&nbsp;A.U.</strong> The 400-year\n        jubilee of the founding stands four years off, and every house is already\n        preparing what it will say about the last four centuries.",
+      "Banner-lands における年は <strong>A.U.</strong> ——<em>統一の後</em>——で数えられる。現在は <strong>396&nbsp;A.U.</strong>。建国四百年の祝祭は四年先に控え、いずれの家もすでに、過ぎた四つの世紀について何を語るかを支度している。"
+    ],
+    [
+      "Before the war there were no Ten Houses — only fractured principalities,\n        cities, and clans fighting over the same exhausted land. The war swept the\n        entire known world, and what one calls it tells you which record one trusts.\n        The Chronicle of Victory calls it <em>the War of the Unification</em> —\n        solemnly, <em>the Great Unification</em> — and \"unification\" makes a war\n        sound like a merger. The Ash Fragments, which few cite aloud, call it\n        <em>the Divided Fire</em>, and describe not a defense against an outside\n        enemy but a civil war. The sources disagree about who won. That is the\n        record's oldest wound.",
+      "戦の前に Ten Houses は存在せず、あるのはただ、同じ疲弊した土地を奪い合う分裂した諸侯、都市、氏族ばかりだった。戦は知られたる世界のすべてを覆い、それを何と呼ぶかが、その者がどの記録を信じているかを告げる。the Chronicle of Victory はこれを <em>the War of the Unification</em>——厳かに <em>the Great Unification</em>——と呼び、「統一」という語は戦を合併のように聞こえさせる。声に出して引く者の少ない the Ash Fragments は、これを <em>the Divided Fire</em> と呼び、外敵への防衛ではなく内戦を描く。誰が勝ったのかについて、資料は一致しない。それこそが記録の最も古い傷である。"
+    ],
+    [
+      "What is beyond dispute is how it ended: on the cooling ground of the Ash\n        Fields, in the year that was then set to nought, the lords of the war swore\n        the <strong>Tenfold Compact</strong> and divided the land, the duty, and the grief\n        among them. The peace it sealed has held — by one measure or another — for\n        four hundred years, save four.",
+      "疑いようのないのは、それがどう終わったかである。冷えゆく the Ash Fields の地の上、そのとき零に定められた年に、戦の諸侯は <strong>Tenfold Compact</strong> を誓い、土地と、務めと、悲しみとを分かち合った。それが封じた平和は——何らかの尺度によって——四百年、四年を欠くまで保たれてきた。"
+    ],
+    [
+      "<tr><th scope=\"col\">Year (A.U.)</th><th scope=\"col\">Event</th><th scope=\"col\">What the record holds</th></tr>",
+      "<tr><th scope=\"col\">年 (A.U.)</th><th scope=\"col\">出来事</th><th scope=\"col\">記録が伝えるもの</th></tr>"
+    ],
+    [
+      "The war ends; the Tenfold Compact",
+      "戦が終わる。the Tenfold Compact"
+    ],
+    [
+      "The victors seal a pact dividing land, titles, and responsibility among the Great Houses.",
+      "勝者たちが、土地と、称号と、責務とを大家のあいだで分かつ盟約を封じる。"
+    ],
+    [
+      "The Silent Year",
+      "the Silent Year"
+    ],
+    [
+      "An unnaturally empty window in the chronicles. An absence of <em>permitted</em> events, not of events themselves.",
+      "年代記における不自然に空白の時期。出来事そのものの不在ではなく、<em>許された</em>出来事の不在。"
+    ],
+    [
+      "The Sundering of the Ten Philosophies",
+      "十の哲学の分裂"
+    ],
+    [
+      "The founders dead; the children inherit houses without a soul. The ten philosophies crystallize through concrete crises — they are <em>won</em>, not given.",
+      "創設者たちは死に、子らは魂なき家を継ぐ。十の哲学は具体的な危機を通じて結晶する——それらは与えられるのではなく、<em>勝ち取られる</em>。"
+    ],
+    [
+      "The First Betrayal",
+      "最初の裏切り"
+    ],
+    [
+      "The first time one house turns against another after the Unification. The pact proves fragile.",
+      "統一の後、初めてある家が別の家に牙をむく。盟約は脆さを露わにする。"
+    ],
+    [
+      "The Age of Chronicles",
+      "年代記の時代"
+    ],
+    [
+      "The writing of history becomes institutionalized; the conflicting official versions are produced. House Blackcrest decisive.",
+      "歴史の記述が制度化され、相矛盾する公式の版が生み出される。House Blackcrest が決定的な役割を担う。"
+    ],
+    [
+      "Overlapping failure — failed crops, spoiled stores, sick herds — that no house caused or cured. The realm answered with the <strong>Common Keeping</strong>: cooperation without a crown, the eleventh seat left empty. <a href=\"#living-archive\">→ the Living Archive</a>",
+      "重なり合う破綻——不作、腐った貯え、病んだ家畜——いずれの家も引き起こさず、また癒しもしなかったもの。国はこれに <strong>Common Keeping</strong> をもって応えた。王冠なき協力、空席のまま残された第十一の座。<a href=\"#living-archive\">→ 生きた記録</a>"
+    ],
+    [
+      "A settlement whose official wording, argued over for days, preserved the peace without granting the victor innocence — the record used, for once, to keep a door open. <a href=\"#living-archive\">→ the Living Archive</a>",
+      "幾日も争われたその公式の文言が、勝者に無罪を与えることなく平和を保った和解——記録が、ただ一度だけ、扉を開いておくために用いられた。<a href=\"#living-archive\">→ 生きた記録</a>"
+    ],
+    [
+      "The threshold of the present",
+      "現在の敷居"
+    ],
+    [
+      "The order appears stable, but every crack is an open wound. The 400-year jubilee looms, four years off.",
+      "秩序は安定しているように見えるが、ひび割れのひとつひとつが開いた傷である。四百年の祝祭が、四年先に迫る。"
+    ],
+    [
+      "Everything above rests on four kinds of source, and they do not agree.",
+      "以上のすべては四種の資料の上に立っており、それらは一致しない。"
+    ],
+    [
+      "<strong>The Chronicle of Victory</strong> — the official record, kept at Crown-watch by House Blackcrest. Complete, consistent, and written by the side that kept the pen.",
+      "<strong>The Chronicle of Victory</strong>——公式の記録。Crown-watch にて House Blackcrest によって守られる。完全で、首尾一貫し、そして筆を握った側によって書かれた。"
+    ],
+    [
+      "<strong>The Ash Fragments</strong> — burned, partial pages that survive from before and during the war. They contradict the Chronicle where they overlap with it, which is why so few of them overlap with it.",
+      "<strong>The Ash Fragments</strong>——戦の前と最中から残る、焼け焦げた断片の頁。それらは重なる箇所で Chronicle と矛盾する。だからこそ、それらが Chronicle と重なる箇所は、かくも少ないのである。"
+    ],
+    [
+      "<strong>The Songs</strong> — what the people remember in verse. Songs cannot be recalled and corrected; they are sung wrong, in the same wrong way, in every tavern in the Banner-lands.",
+      "<strong>The Songs</strong>——民が歌に記憶するもの。歌は呼び戻して訂正することができない。それらは誤って、同じ誤ったやり方で、Banner-lands のあらゆる酒場で歌われる。"
+    ],
+    [
+      "<strong>The Marginal Notes</strong> — small anonymous hands in the margins of official copies, written by readers who noticed something. The archive does not cite them. The archive has not erased them either.",
+      "<strong>The Marginal Notes</strong>——公式の写しの余白に記された、小さな匿名の筆跡。何かに気づいた読み手たちが書いたもの。記録はそれらを引かない。かといって、記録はそれらを消し去りもしなかった。"
+    ],
+    [
+      "The archive records the disagreement; it does not decide it.",
+      "記録は不一致を書き留める。それを裁くことはしない。"
+    ],
+    [
+      "The Chronicle is not the only thing the archive keeps. Beneath the official record\n        lie the fragments the officials could not enter cleanly — a letter that says what a\n        hearing could not, a confession bound inside a devotional cover, a tribunal transcript\n        that stops after sentencing. Each was written by someone with a reason to shape it, and\n        each keeps its conflict rather than resolving it. These are ten of the houses' own\n        hardest histories, and one the whole realm shares.",
+      "Chronicle は記録が守るもののすべてではない。公式の記録の下には、役人たちが清書して収めることのできなかった断片が横たわる——審問が語りえなかったことを語る手紙、信心書の表紙のうちに綴じ込まれた告白、判決の後で途切れる法廷の記録。そのいずれもが、それを形づくる理由を持つ誰かによって書かれ、そのいずれもが、その葛藤を解くのではなく抱えたままにする。これは十大家それぞれの最も苦い歴史であり、そして国全体が分かち合うひとつである。"
+    ],
+    [
+      "The summaries below are distilled and public. <a href=\"archive.html\">The full fragments —\n        in the voices of the people who lived them — are in the Living Archive</a>, with the\n        openings free to read and the complete accounts kept for members.",
+      "以下の要約は蒸留された、公開のものである。<a href=\"archive.html\">完全な断片は——それを生きた者たちの声で——生きた記録にある</a>。冒頭は自由に読め、完全な記録は会員のために取り置かれている。"
+    ],
+    [
+      "<span class=\"archive-house\">Blackthorn · Intellect</span>",
+      "<span class=\"archive-house\">Blackthorn · 知性</span>"
+    ],
+    [
+      "<span class=\"archive-house\">Ashbourne · Courage</span>",
+      "<span class=\"archive-house\">Ashbourne · 勇気</span>"
+    ],
+    [
+      "<span class=\"archive-house\">Whitehart · Faith</span>",
+      "<span class=\"archive-house\">Whitehart · 信仰</span>"
+    ],
+    [
+      "<span class=\"archive-house\">Stormrider · Unity</span>",
+      "<span class=\"archive-house\">Stormrider · 結束</span>"
+    ],
+    [
+      "<span class=\"archive-house\">Blackcrest · The victor's history</span>",
+      "<span class=\"archive-house\">Blackcrest · 勝者の歴史</span>"
+    ],
+    [
+      "<span class=\"archive-house\">Stonebear · Honor</span>",
+      "<span class=\"archive-house\">Stonebear · 名誉</span>"
+    ],
+    [
+      "<span class=\"archive-house\">Tidebreaker · Knowledge</span>",
+      "<span class=\"archive-house\">Tidebreaker · 知識</span>"
+    ],
+    [
+      "<span class=\"archive-house\">Phoenix · The future</span>",
+      "<span class=\"archive-house\">Phoenix · 未来</span>"
+    ],
+    [
+      "<span class=\"archive-house\">The realm entire</span>",
+      "<span class=\"archive-house\">国全体</span>"
+    ],
+    [
+      "The Deathbed of Lord Corvane Marrenhold",
+      "Lord Corvane Marrenhold の死の床"
+    ],
+    [
+      "The Charge That Arrived Too Soon",
+      "早すぎた突撃"
+    ],
+    [
+      "The Vigil of the Sealed Testimony",
+      "封じられた証言の通夜"
+    ],
+    [
+      "The Winter the Roads Closed",
+      "道が閉ざされた冬"
+    ],
+    [
+      "The House of Opened Letters",
+      "開かれた手紙の家"
+    ],
+    [
+      "The Furnace That Would Not Stop",
+      "止まろうとしなかった炉"
+    ],
+    [
+      "The Victory at Red Hollow",
+      "Red Hollow の勝利"
+    ],
+    [
+      "The Oath at Three Spears",
+      "Three Spears の誓い"
+    ],
+    [
+      "The Map That Refused the Coast",
+      "海岸を拒んだ地図"
+    ],
+    [
+      "The Children of Tomorrow",
+      "明日の子ら"
+    ],
+    [
+      "The Year the Ten Banners Lowered",
+      "十の旗が下ろされた年"
+    ],
+    [
+      "A lord takes eleven days to die while his household discovers eleven uses for the time. A daughter's marriage is negotiated beside the bed; a letter that could ruin one cousin makes him suddenly cooperative. No page proves murder — and every party can defend a motive that never renders their conduct harmless. Blackthorn prefers its corruption with a reason.",
+      "ある領主が死ぬのに十一日を要し、そのあいだに家中の者はその時間の十一の使い道を見いだす。娘の縁組が寝台の傍らで取り決められ、ある従兄弟を破滅させかねない一通の手紙が、彼を俄かに従順にする。いかなる頁も殺人を証さない——そしていずれの当事者も、その振る舞いを決して無害たらしめない動機を弁じることができる。Blackthorn はその腐敗を、理由とともに好む。"
+    ],
+    [
+      "A captain disobeys a hold order on a dispatch that proves false. The charge kills her lieutenant — and may also have saved the army from encirclement. Afterward some call her reckless and some call her visionary, and she refuses to let either name make his death mean less. Success is the great corrupter of military truth.",
+      "ある隊長が、偽と判明する急報のうえで停止命令に背く。その突撃は彼女の副官を死なせ——そしてまた、軍を包囲から救ったのかもしれない。後にある者は彼女を無謀と呼び、ある者は先見の明ありと呼ぶが、彼女はいずれの名にも彼の死の意味を減じさせることを拒む。成功こそ、軍事の真実を蝕む最大のものである。"
+    ],
+    [
+      "A servant brings a testimony against a patron's kinsman; by custom it should be entered in the White Ledger by sundown. Instead it is sealed \"pending clarification of conscience\" while an abbess lies dying and the accused family funds the hospital. The house built to test the truth learns how easily patronage can teach a record to wait.",
+      "ある召使いが庇護者の縁者に不利な証言を持ち込む。慣例によれば、それは日没までに the White Ledger に記されるはずである。ところがそれは「良心の明確化を待つ」として封じられ、そのあいだ院長は死の床にあり、告発された一族は病院に資金を出している。真実を試すために建てられた家は、庇護がいかにたやすく記録に待つことを教えうるかを学ぶ。"
+    ],
+    [
+      "The passes freeze and the council sends one instruction: keep a passage open at all costs. It does not say which passage, or whose cost. Four people die waiting for a way that shepherds had already cut — unrecorded, because the men who cut it had no official mark to sign. Unity held the realm; it did not save the girl beneath the river.",
+      "峠は凍りつき、評議会はただひとつの指示を送る。何としても道を一本開いておけ。それはどの道かも、誰の犠牲かも言わない。四人が、羊飼いたちがすでに切り開いていた道を待つあいだに死ぬ——記録されぬまま。それを切り開いた者たちには、署名すべき公式の印がなかったからである。結束は国を保った。だが川の下の娘は救わなかった。"
+    ],
+    [
+      "A factor holds a packet of names one day before it goes on — long enough for a physician to reach the sick, and long enough for those who could afford to leave to be gone before the rest are marked. The delay saves and dooms in the same motion. The finest intrusion, he writes, leaves nothing to find.",
+      "ある代理人が、名簿の束を先へ送る前に一日だけ留め置く——医師が病人のもとに届くのにちょうど足りる長さ、そして立ち去る余裕のある者たちが、残りの者が印される前に姿を消すのにちょうど足りる長さ。その遅延は、同じひとつの動きで救い、そして滅ぼす。最も精妙な侵入は、と彼は書く、見いだすべき何ものも残さない。"
+    ],
+    [
+      "A furnace is run past every measure with a single structural support left out. When it fails, the house that measures everything cannot agree whose seal authorized the risk, or whether the man who forced the evacuation prevented a catastrophe or caused the injuries. The one event at their own forge is the one that will not be measured.",
+      "ある炉が、ただひとつの構造上の支柱を欠いたまま、あらゆる目盛りを越えて焚かれる。それが破綻したとき、すべてを計測する家は、誰の印章がその危険を許したのか、また避難を強いた男が破局を防いだのか、それとも負傷を招いたのかについて、意見を一致させることができない。自らの鍛冶場での唯一の出来事こそ、計測されようとしない出来事である。"
+    ],
+    [
+      "The chamber that writes victory argues for days over a single inscription. The wording it adopts preserves the settlement — and refuses, deliberately, to grant the victor innocence. The record is a kind of power, and here it is spent, once, to keep a door open rather than close it.",
+      "勝利を書き記す評議室が、ただひとつの銘をめぐって幾日も争う。それが採る文言は和解を保ち——そして、意図して、勝者に無罪を与えることを拒む。記録とは一種の力であり、ここでそれは、扉を閉ざすのではなく開いておくために、ただ一度、費やされる。"
+    ],
+    [
+      "A shield-captain breaks a direct command to keep faith with a signal her house had made. It is insubordination and the preservation of custom at once, mercy and a dangerous precedent in the same act. Stonebear keeps its word past the point the word costs it everything — and cannot always tell which word it is bound to.",
+      "ある盾の隊長が、自らの家が交わした合図に忠実であらんとして、直接の命令を破る。それは同時に不服従であり慣習の保全であり、同じ行いにおいて慈悲であり危うい前例である。Stonebear はその言葉を、言葉がすべてを奪う一線を越えてなお守り——そして自らがどの言葉に縛られているのかを、常に言い当てられるわけではない。"
+    ],
+    [
+      "A chart is settled that honours the consent of an island people and, by the same omission, leaves uninformed sailors to the rocks. The house that charts all of it and shares almost none learns that a map is a claim: every chart after it must name its date, its maker, its purpose, and what it chose to leave out.",
+      "ある海図が定められる。それはある島の民の同意を重んじ、そして同じ省略によって、事情を知らぬ船乗りたちを暗礁に委ねる。すべてを海図に描き、そのほとんど何も分かち合わない家は、地図とはひとつの主張であることを学ぶ。それ以後のあらゆる海図は、その日付を、作り手を、目的を、そして描かずに残すと選んだものを、名指さねばならない。"
+    ],
+    [
+      "A planner delivers real improvement — cleaner water, warmer winters, schooled children — by controlling shelter, standing, and patronage until refusal is no longer practical. The future arrives. No one can prove it needed to arrive that way. The house that builds on scorched ground refuses, on principle, to look down.",
+      "ある計画者が、真の改善——より清らかな水、より暖かな冬、教育を受けた子ら——をもたらす。住まいと、地位と、庇護とを、拒むことがもはや現実的でなくなるまで統べることによって。未来は訪れる。それがそのやり方で訪れねばならなかったことを、誰も証すことはできない。焦土の上に建てる家は、原則として、下を見ることを拒む。"
+    ],
+    [
+      "Crop failure, spoiled stores, sick herds and empty nets overlap with panic and concealment until no count is current and no house can meet its own need. No single house caused it; no single house solved it. The Common Keeping — cooperation without a crown — held the realm together for one year, and the eleventh seat in the Hall of Eleven stayed empty, and unexplained.",
+      "不作、腐った貯え、病んだ家畜、空の網が、狼狽と隠蔽と重なり合い、ついにはいかなる勘定も最新ならず、いかなる家も自らの必要を満たしえなくなる。ただひとつの家がそれを引き起こしたのではなく、ただひとつの家がそれを解いたのでもない。the Common Keeping——王冠なき協力——は一年のあいだ国を保ち、the Hall of Eleven の第十一の座は空席のまま、そして説き明かされぬまま残された。"
+    ],
+    [
+      "These fragments are contested by every tradition that keeps them. That is the point of keeping them.",
+      "これらの断片は、それを守り伝えるあらゆる伝統によって争われている。それこそが、それらを守り伝える意味である。"
+    ],
+    [
+      "Read Book One free",
+      "第一巻を無料で読む"
+    ],
+    [
+      "Which house are you? Take the quiz",
+      "あなたはどの家？ 診断をする"
+    ]
   ]
 }
