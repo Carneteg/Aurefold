@@ -163,10 +163,6 @@
       "<p class=\"share-label\">Dela början</p>"
     ],
     [
-      "<h1 class=\"page-title\">From the pages</h1>",
-      "<h1 class=\"page-title\">Ur sidorna</h1>"
-    ],
-    [
       "— the prologue continues in the book. —",
       "— prologen fortsätter i boken. —"
     ],
@@ -269,6 +265,14 @@
     [
       "Copy link",
       "Kopiera länk"
+    ],
+    [
+      "Read the opening of The Bell of Silence",
+      "Läs öppningen av The Bell of Silence"
+    ],
+    [
+      "The reading list opens soon — for now,\n        <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">follow free on Patreon</a>.",
+      "Läslistan öppnar snart — tills vidare,\n        <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">följ gratis på Patreon</a>."
     ]
   ]
 }
