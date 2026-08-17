@@ -19,6 +19,7 @@ PRIORITY = {
     "support.html": "0.8", "vote.html": "0.7", "houses.html": "0.7",
     "map.html": "0.7", "world.html": "0.7", "characters.html": "0.7",
     "history.html": "0.7", "archive.html": "0.7", "quiz.html": "0.7",
+    "for-readers-of.html": "0.7", "reading-order.html": "0.7",
     "journal.html": "0.7", "privacy.html": "0.5",
 }
 
