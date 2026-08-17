@@ -1,0 +1,53 @@
+name: Generate Sela social share cards
+
+on:
+  push:
+    branches: [agent/social-share-cards-sela]
+    paths: [.github/workflows/tmp-generate-social-cards.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/social-share-cards-sela
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick fonts-dejavu-core
+      - name: Download ratified Sela portrait
+        run: |
+          curl -fL "https://akboesleczddqdikjzbw.supabase.co/storage/v1/object/public/character-art/book-one/sela/portrait.png" -o /tmp/sela.png
+          echo "8cd8f72131814471c2f367a66d0f6611108c3fd87c9f496048ff17fdc111fbeb  /tmp/sela.png" | sha256sum -c -
+      - name: Generate 1200x630 share cards
+        run: |
+          mkdir -p assets/social
+          convert /tmp/sela.png -resize '620x630^' -gravity center -extent 620x630 /tmp/sela-crop.png
+          convert -size 1200x630 xc:'#17130f' \
+            /tmp/sela-crop.png -gravity east -composite \
+            -fill '#efe7d3' -font DejaVu-Serif -pointsize 72 -gravity northwest -annotate +72+110 'AUREFOLD' \
+            -fill '#b77a4f' -pointsize 25 -annotate +76+205 'A LITERARY EPIC FANTASY' \
+            -fill '#efe7d3' -pointsize 31 -annotate +76+310 'Every truth has a keeper.' \
+            -fill '#efe7d3' -pointsize 31 -annotate +76+355 'Every silence has a cost.' \
+            -fill '#9f9687' -pointsize 22 -annotate +76+500 'BOOK ONE · THE BELL OF SILENCE' \
+            -quality 90 assets/social/og-aurefold-sela.jpg
+          convert -size 1200x630 xc:'#efe7d3' \
+            /tmp/sela-crop.png -gravity west -composite \
+            -fill '#17130f' -font DejaVu-Serif -pointsize 34 -gravity northwest -annotate +680+105 'AUREFOLD · BOOK ONE' \
+            -fill '#8a4a2a' -pointsize 57 -annotate +680+185 'THE BELL' \
+            -annotate +680+250 'OF SILENCE' \
+            -fill '#3e372f' -pointsize 25 -annotate +684+380 'What do you do with a truth' \
+            -annotate +684+420 'you cannot prove?' \
+            -fill '#6f665c' -pointsize 20 -annotate +684+520 'READ THE EBOOK FREE' \
+            -quality 90 assets/social/og-bell-of-silence-sela.jpg
+          identify assets/social/*.jpg
+      - name: Commit cards and remove temporary workflow
+        run: |
+          rm .github/workflows/tmp-generate-social-cards.yml
+          git config user.name 'Aurefold Automation'
+          git config user.email 'actions@users.noreply.github.com'
+          git add assets/social .github/workflows/tmp-generate-social-cards.yml
+          git commit -m 'Generate Sela social share cards'
+          git push origin HEAD:agent/social-share-cards-sela
