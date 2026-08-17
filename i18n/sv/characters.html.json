@@ -71,10 +71,6 @@
       "Whitehart- och dalfolk som rör sig genom Bok Ett."
     ],
     [
-      "<h1 class=\"page-title\">The Faces</h1>",
-      "<h1 class=\"page-title\">Ansiktena</h1>"
-    ],
-    [
       "<p class=\"face-house\">The valley</p>",
       "<p class=\"face-house\">Dalen</p>"
     ],
@@ -129,6 +125,66 @@
     [
       "A traveler · 29",
       "En resenär · 29"
+    ],
+    [
+      "Characters of Book One",
+      "Karaktärerna i Bok Ett"
+    ],
+    [
+      "alt=\"Sela — the goatherd who heard a voice\"",
+      "alt=\"Sela — getvallaren som hörde en röst\""
+    ],
+    [
+      "alt=\"Brother Tomas — the tester carrying his first doubt\"",
+      "alt=\"Broder Tomas — prövaren som bär sitt första tvivel\""
+    ],
+    [
+      "alt=\"Mother Alaine — head of the listening house\"",
+      "alt=\"Moder Alaine — det lyssnande husets överhuvud\""
+    ],
+    [
+      "alt=\"Fen — the Unwritten, keeper of the niches\"",
+      "alt=\"Fen — den oskrivne, nischernas väktare\""
+    ],
+    [
+      "alt=\"Merta — Col's mother, keeping vigil at the boundary\"",
+      "alt=\"Merta — Cols mor, som håller vaka vid gränsen\""
+    ],
+    [
+      "alt=\"Harl — a valley worker and guide\"",
+      "alt=\"Harl — arbetare och vägvisare i dalen\""
+    ],
+    [
+      "alt=\"Perrin — the Jubilee Herald of House Blackcrest\"",
+      "alt=\"Perrin — jubileumsheralden av House Blackcrest\""
+    ],
+    [
+      "alt=\"Sister Wilda — law and rite of House Whitehart\"",
+      "alt=\"Syster Wilda — House Whiteharts lag och rit\""
+    ],
+    [
+      "alt=\"Ivet — a novice of House Whitehart\"",
+      "alt=\"Ivet — novis i House Whitehart\""
+    ],
+    [
+      "alt=\"Orla — an oath-witness of House Stonebear\"",
+      "alt=\"Orla — edsvittne av House Stonebear\""
+    ],
+    [
+      "alt=\"Nella — a Duskport trader and ledger-keeper\"",
+      "alt=\"Nella — handlare och bokförare i Duskport\""
+    ],
+    [
+      "alt=\"Roan — a traveler with news from beyond the passes\"",
+      "alt=\"Roan — resenär med nyheter bortom passen\""
+    ],
+    [
+      "alt=\"Ottar — a servant of House Stormrider\"",
+      "alt=\"Ottar — tjänare i House Stormrider\""
+    ],
+    [
+      "Other houses enter the valley as law, goods, and political weather — never as a lecture on themselves.",
+      "Andra hus kommer in i dalen som lag, varor och politiskt väder — aldrig som en föreläsning om sig själva."
     ]
   ]
 }
