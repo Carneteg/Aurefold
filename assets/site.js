@@ -352,11 +352,9 @@
 
   // 3) Latest-from-the-Moot line: the leading option of the primary poll,
   //    read from the SAME poll_tallies data vote.js uses. Stays hidden until
-  //    the poll reaches MOOT_REVEAL_THRESHOLD votes (Prompt 5's constant).
+  //    the poll reaches its reveal threshold (shared per-poll resolver).
   var mootLatest = document.getElementById("moot-latest");
   if (mootLatest && freshCfg.supabaseUrl && freshCfg.supabaseKey) {
-    var mThreshold = Number(freshCfg.MOOT_REVEAL_THRESHOLD);
-    if (!(mThreshold > 0)) mThreshold = 0;
     var mApi = freshCfg.supabaseUrl + "/rest/v1";
     var mHead = { apikey: freshCfg.supabaseKey, Authorization: "Bearer " + freshCfg.supabaseKey };
     var mGet = function (u) { return fetch(u, { headers: mHead }).then(function (r) { return r.ok ? r.json() : null; }); };
@@ -367,6 +365,9 @@
       var polls = all[0], tallies = all[1];
       if (!polls || !polls.length || !tallies) return;
       var poll = polls[0]; // primary poll (lowest sort)
+      // per-poll threshold — resolved only now that the poll id is known,
+      // through the same shared resolver vote.js uses (data/community.js)
+      var mThreshold = freshCfg.resolveMootThreshold ? freshCfg.resolveMootThreshold(poll.id) : 0;
       var total = 0, topId = null, topN = -1;
       tallies.forEach(function (t) {
         if (t.poll_id !== poll.id) return;
