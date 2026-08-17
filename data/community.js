@@ -54,7 +54,11 @@ window.AUREFOLD_COMMUNITY = {
      every field starts empty, and the homepage renders ONLY the fields you
      set — an empty or zero value is hidden entirely (never shown as "0").
      Fill these in by hand from REAL figures; do not invent numbers.
-       members         — your Patreon member count (from the Patreon dashboard)
+       members         — OWNER DECISION 2026-08-17: deliberately stays null.
+                         No member figure is shown until the count is large
+                         enough to read as strength to a stranger (~30-50);
+                         a small number is worse than none. Do not fill this
+                         in without an explicit owner instruction.
        votesCast       — total votes cast in the Moot (sum the poll_tallies, or
                          the running total you keep); leave null to hide
        latestMilestone — one short, true milestone phrase, e.g.
