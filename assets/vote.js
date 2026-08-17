@@ -196,9 +196,8 @@
   // Below this many votes a poll shows a ranked standing with subtle bars and
   // NO raw numbers ("be among the first"); at or above it, the real tallies
   // show. Inert until configured: an unset/zero value means "always reveal",
-  // i.e. the previous behaviour.
-  var threshold = Number(cfg.MOOT_REVEAL_THRESHOLD);
-  if (!(threshold > 0)) threshold = 0;
+  // i.e. the previous behaviour. Resolved per poll inside renderPoll() via
+  // the shared resolver in data/community.js.
 
   function el(tag, cls, text) {
     var n = document.createElement(tag);
@@ -324,6 +323,7 @@
   }
 
   function renderPoll(poll, results) {
+    var threshold = cfg.resolveMootThreshold ? cfg.resolveMootThreshold(poll.id) : 0;
     var isAuthPoll = !!poll.requires_auth && !!Auth;
     var card = el("article", "moot-card" + (isAuthPoll ? " moot-card--sworn" : ""));
     card.appendChild(el("p", "moot-kind", kindFor(poll)));

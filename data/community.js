@@ -24,12 +24,19 @@ window.AUREFOLD_COMMUNITY = {
   /* The Moot (reader voting) — PRESENTATION only. These settings never touch
      the database, its row-level security, or the one-vote-per-reader rule.
 
-     MOOT_REVEAL_THRESHOLD: how many votes a single poll needs before its real
+     MOOT_REVEAL_THRESHOLDS: how many votes a single poll needs before its real
      tallies are shown. Below it, options appear as a ranked standing with
-     subtle bars and no raw numbers ("be among the first to weigh in"). Set to
-     0 (or delete this line) to always show counts — the pre-threshold
-     behaviour. Raise it while the audience is small so a 1–0 lead never looks
-     like a verdict. */
+     subtle bars and no raw numbers ("be among the first to weigh in").
+     `default` applies to every poll; add a "<poll-id>": N entry to give one
+     poll its own threshold. Set default to 0 to always show counts — the
+     pre-threshold behaviour. Raise it while the audience is small so a 1–0
+     lead never looks like a verdict. The old single-value
+     MOOT_REVEAL_THRESHOLD is still honoured as a fallback if this map is
+     removed. */
+  MOOT_REVEAL_THRESHOLDS: {
+    "default": 10,
+    "next-reveal": 5
+  },
   MOOT_REVEAL_THRESHOLD: 10,
 
   /* "What the Moot decided last time" — a short retrospective panel above the
@@ -55,7 +62,7 @@ window.AUREFOLD_COMMUNITY = {
   momentum: {
     members: null,
     votesCast: null,
-    latestMilestone: ""
+    latestMilestone: "Book One complete — Book Two in development"
   },
 
   /* The homepage "Latest from the Journal" teaser. Update these three when you
@@ -63,9 +70,9 @@ window.AUREFOLD_COMMUNITY = {
      entry's anchor (each entry now has an id). Leave latestTitle "" to hide
      the teaser entirely. */
   journal: {
-    latestTitle: "Building this one in the open",
-    latestDate: "18 July 2026",
-    url: "journal.html#building-this-one-in-the-open"
+    latestTitle: "Book Two has a name: The Road Still Open",
+    latestDate: "15 August 2026",
+    url: "journal.html#book-two-has-a-name"
   },
 
   /* Book One availability + the free download.
@@ -121,6 +128,20 @@ window.AUREFOLD_COMMUNITY = {
     paypal: "",
     newsletter: ""
   }
+};
+
+/* Per-poll reveal threshold — the single source of truth for how many votes
+   a poll needs before real tallies show. Consumed by BOTH assets/vote.js
+   (the live Moot, renderPoll()) and assets/site.js (the homepage "Latest
+   from the Moot" teaser). They share no module, but both read
+   window.AUREFOLD_COMMUNITY after this file loads, so one function here
+   keeps the two places from ever disagreeing about the same poll. */
+window.AUREFOLD_COMMUNITY.resolveMootThreshold = function (pollId) {
+  var map = window.AUREFOLD_COMMUNITY.MOOT_REVEAL_THRESHOLDS || {};
+  var specific = Number(map[pollId]);
+  if (specific > 0) return specific;
+  var fallback = Number(map["default"] != null ? map["default"] : window.AUREFOLD_COMMUNITY.MOOT_REVEAL_THRESHOLD);
+  return (fallback > 0) ? fallback : 0;
 };
 
 /* Canon hydration bootstrap.
