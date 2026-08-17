@@ -2,161 +2,569 @@
   "title": "The Bell of Silence を支援する | Aurefold",
   "description": "The Bell of Silence を完成した原稿から出版まで追いかけましょう。無料で Aurefold に参加し、Patreon のメンバーシップを見て、今後のクラウドファンディングの最新情報を受け取れます。",
   "blocks": [
-    ["THE ROAD TO PUBLICATION", "出版への道"],
-    ["Help bring <em>The Bell of Silence</em> into print.", "<em>The Bell of Silence</em> を印刷へと導く手助けを。"],
-    ["Book One is written. The next work is turning a finished manuscript into a\n        professionally edited, designed, printed, and delivered book. Join the Aurefold\n        community for free, follow every major step, or become a member and help carry\n        the work forward.", "第一巻は書き上がりました。次の仕事は、完成した原稿を、専門的に編集され、\n        デザインされ、印刷され、届けられる一冊の本へと変えることです。Aurefold の\n        コミュニティに無料で参加し、あらゆる大きな一歩を追いかけるか、メンバーになって\n        この仕事を前へ運ぶ手助けをしてください。"],
-    ["No canon is sold. No mystery is decided by payment. Support brings access to the work behind the book — not control over the story.", "正典が売られることはありません。謎が支払いによって決められることもありません。支援がもたらすのは本の背後にある仕事への接近であって、物語への支配ではありません。"],
-
-    ["Follow free", "無料でフォロー"],
-    ["Read the opening", "冒頭を読む"],
-
-    ["<h2 class=\"section-title\">Where the project stands</h2>", "<h2 class=\"section-title\">プロジェクトの現状</h2>"],
-    ["<span class=\"status-label\">Manuscript</span>", "<span class=\"status-label\">原稿</span>"],
-    ["<span class=\"status-label\">Internal developmental revision</span>", "<span class=\"status-label\">内部での構成的改稿</span>"],
-    ["<span class=\"status-label\">External reader programme</span>", "<span class=\"status-label\">外部読者プログラム</span>"],
-    ["<span class=\"status-label\">Professional proofreading</span>", "<span class=\"status-label\">専門的な校正</span>"],
-    ["<span class=\"status-label\">Cover &amp; interior design</span>", "<span class=\"status-label\">表紙 &amp; 本文デザイン</span>"],
-    ["<span class=\"status-label\">Print preparation</span>", "<span class=\"status-label\">印刷の準備</span>"],
-    ["<span class=\"status-label\">Crowdfunding campaign</span>", "<span class=\"status-label\">クラウドファンディング・キャンペーン</span>"],
-    ["<span class=\"status-state\">Complete</span>", "<span class=\"status-state\">完了</span>"],
-    ["<span class=\"status-state\">Next stage</span>", "<span class=\"status-state\">次の段階</span>"],
-    ["<span class=\"status-state\">Planned</span>", "<span class=\"status-state\">予定</span>"],
-    ["<span class=\"status-state\">In preparation</span>", "<span class=\"status-state\">準備中</span>"],
-
-    ["<h2 class=\"section-title\">What your support makes possible</h2>", "<h2 class=\"section-title\">あなたの支援が可能にするもの</h2>"],
-    ["<li>External reader testing and final revision</li>", "<li>外部読者によるテストと最終改稿</li>"],
-    ["<li>Professional proofreading</li>", "<li>専門的な校正</li>"],
-    ["<li>Cover development and licensed artwork</li>", "<li>表紙の開発とライセンス取得済みのアートワーク</li>"],
-    ["<li>Interior design and typesetting</li>", "<li>本文デザインと組版</li>"],
-    ["<li>Print proofs and production testing</li>", "<li>印刷校正と製造テスト</li>"],
-    ["<li>Website, audio, trailer, and campaign material</li>", "<li>ウェブサイト、音声、トレーラー、キャンペーン素材</li>"],
-    ["<li>Crowdfunding preparation</li>", "<li>クラウドファンディングの準備</li>"],
-    ["<li>Contingency for fulfilment and damaged copies</li>", "<li>配送や破損した部数への予備費</li>"],
-
-    ["<h2 class=\"section-title\">Peek inside membership</h2>", "<h2 class=\"section-title\">メンバーシップの中を覗く</h2>"],
-    ["Members don't just get news — they get the making of the book. Here are two\n        examples of the kind of thing that goes out. The openings are public; members\n        read the rest.", "メンバーが受け取るのはニュースだけではありません——本が作られていく過程そのものです。\n        配信されるものの一例を二つ挙げます。冒頭は公開されており、続きはメンバーが\n        読みます。"],
-    ["Annotated page · craft note", "注釈付きのページ · 執筆技法のノート"],
-    ["Why the book opens on an argument, not the goatherd", "なぜ本はヤギ飼いの娘ではなく、口論から始まるのか"],
-    ["Book One doesn't begin with Sela. It begins in a sealed room, far from the\n              valley, where three officials argue over a record they cannot fully trust.\n              The choice is deliberate. Before you meet the girl, you meet the machine\n              that will decide what she means — the witnessing, the wax seals, the burned\n              trial notes, the sentence that closes every question by calling it\n              answered.", "第一巻は Sela から始まりません。谷から遠く離れた封印された部屋で、三人の役人が\n              完全には信じきれない記録をめぐって争うところから始まります。\n              この選択は意図的なものです。少女に出会う前に、あなたは彼女の意味を\n              決める仕組みと出会うのです——立ち会い、蝋の封印、焼かれた\n              審理の記録、あらゆる問いを「答えは出た」と呼ぶことで閉じてしまう\n              その一文と。"],
-    ["What that does to a reader, and why the whole novel is built to make you\n              feel the record before you feel the person, is the part I want to walk\n              through — including the two lines I cut, and the one I almost cut and\n              didn't&hellip;", "それが読者に何をもたらすのか、そしてなぜ小説全体が、人物を感じる前に\n              記録を感じさせるように組み立てられているのか——そこを私は辿っていきたいのです。\n              削った二行、そして削りかけて残した一行のことも\n              含めて&hellip;"],
-    ["<span>Members read the full note</span>", "<span>メンバーはノート全文を読めます</span>"],
-    ["Worldbuilding · house deep-dive", "世界構築 · ある家の掘り下げ"],
-    ["What House Whitehart is really afraid of", "House Whitehart が本当に恐れているもの"],
-    ["Whitehart is called the house of faith, but faith is not what it guards.\n              It exists to <em>test</em> — to stand between a person who says they heard\n              something and a world that badly wants the question settled. A house built\n              to doubt on everyone's behalf is a strange kind of church.", "Whitehart は信仰の家と呼ばれますが、それが守っているのは信仰ではありません。\n              それは<em>試す</em>ために存在します——何かを聞いたと言う者と、\n              その問いを何としても片づけたい世界との間に立つために。すべての人に代わって\n              疑うために築かれた家は、奇妙な種類の教会です。"],
-    ["This note goes into how the listening house actually works — the testing\n              rite, why the valley both needs it and resents it, and the quiet fear that\n              runs under all of it: what happens the day the testers are wrong&hellip;", "このノートは、耳を傾ける家が実際にどう機能するのかに踏み込みます——試練の\n              儀式、なぜ谷はそれを必要としながらも嫌うのか、そしてそのすべての下に\n              流れる静かな恐れ。すなわち、試す者たちが間違えたその日、何が起きるのか&hellip;"],
-    ["<span>Members read the full deep-dive</span>", "<span>メンバーは掘り下げ全文を読めます</span>"],
-    ["Unlock on Patreon", "Patreon で解放する"],
-    ["New member material goes out regularly. Nothing here spoils\n        the story's unanswered questions — those stay with the book.", "新しいメンバー向けの素材は定期的に配信されます。ここにあるものが\n        物語の答えの出ていない問いを明かすことはありません——それらは本とともに留まります。"],
-
-    ["<h2 class=\"section-title\">Ways to take part</h2>", "<h2 class=\"section-title\">参加のしかた</h2>"],
-    ["<h3>Traveller</h3>", "<h3>旅人</h3>"],
-    ["<h3>Witness</h3>", "<h3>証人</h3>"],
-    ["<h3>Chronicler</h3>", "<h3>記録者</h3>"],
-    ["<h3>Keeper of the Blank Page</h3>", "<h3>白紙の頁の守り手</h3>"],
-    ["<p class=\"tier-price\">Free</p>", "<p class=\"tier-price\">無料</p>"],
-    ["<span>/month</span>", "<span>/月</span>"],
-    ["<p class=\"tier-badge\">Most popular</p>", "<p class=\"tier-badge\">一番人気</p>"],
-    ["<li>Public updates</li>", "<li>公開の最新情報</li>"],
-    ["<li>Selected excerpts</li>", "<li>選りすぐりの抜粋</li>"],
-    ["<li>World introductions</li>", "<li>世界への案内</li>"],
-    ["<li>Campaign news</li>", "<li>キャンペーンのお知らせ</li>"],
-    ["<li>Major publication milestones</li>", "<li>主要な出版のマイルストーン</li>"],
-    ["<li>First to know when crowdfunding opens</li>", "<li>クラウドファンディング開始をいち早く知る</li>"],
-    ["<li>Monthly development update</li>", "<li>毎月の進捗の最新情報</li>"],
-    ["<li>Selected early excerpts</li>", "<li>選りすぐりの先行抜粋</li>"],
-    ["<li>Behind-the-scenes notes</li>", "<li>舞台裏のノート</li>"],
-    ["<li>Non-canonical member polls</li>", "<li>正典に影響しないメンバー投票</li>"],
-    ["<li>Optional digital thank-you credit</li>", "<li>任意のデジタル感謝クレジット</li>"],
-    ["<li>All Witness benefits</li>", "<li>証人のすべての特典</li>"],
-    ["<li>Deeper monthly Aurefold material</li>", "<li>より深い毎月の Aurefold 素材</li>"],
-    ["<li>Worldbuilding and archive features</li>", "<li>世界構築と記録の特集</li>"],
-    ["<li>Early visual and campaign previews</li>", "<li>ビジュアルとキャンペーンの先行プレビュー</li>"],
-    ["<li>Quarterly written Q&amp;A</li>", "<li>四半期ごとの書面での Q&amp;A</li>"],
-    ["<li>All Chronicler benefits</li>", "<li>記録者のすべての特典</li>"],
-    ["<li>Optional founding-supporter recognition</li>", "<li>任意の創設支援者としての顕彰</li>"],
-    ["<li>Digital Founding Patron Dossier when completed</li>", "<li>完成時のデジタル創設パトロン・ドシエ</li>"],
-    ["<li>Advance major campaign previews</li>", "<li>主要なキャンペーンの事前プレビュー</li>"],
-    ["<li>Priority written Q&amp;A submissions</li>", "<li>書面での Q&amp;A への優先投稿</li>"],
-    ["<li>Selected production notes</li>", "<li>選りすぐりの制作ノート</li>"],
-    ["Join free — be first to know", "無料で参加——いち早く知る"],
-    ["Become a Witness", "証人になる"],
-    ["Become a Chronicler", "記録者になる"],
-    ["Become a Keeper", "守り手になる"],
-    ["Joining now — free or paid — secures founding-member recognition and first notice the moment crowdfunding opens.", "今参加すれば——無料でも有料でも——創設メンバーとしての顕彰と、クラウドファンディングが始まった瞬間の最初の通知が確保されます。"],
-    ["Patreon may display prices in the visitor's local currency. Memberships can be cancelled through Patreon.", "Patreon は訪問者の現地通貨で価格を表示することがあります。メンバーシップは Patreon を通じて解約できます。"],
-
-    ["<h2 class=\"section-title\">Membership now. Crowdfunding later.</h2>", "<h2 class=\"section-title\">今はメンバーシップ。クラウドファンディングは後で。</h2>"],
-    ["Patreon supports the work leading to publication: reader testing, production\n        planning, design development, and the campaign itself. The later crowdfunding\n        campaign will be a separate, time-limited opportunity to help finance the book's\n        final production and receive campaign rewards.", "Patreon は出版に至るまでの仕事を支えます——読者テスト、制作の\n        計画、デザインの開発、そしてキャンペーンそのものです。後に行われるクラウドファンディング・\n        キャンペーンは、本の最終製造の資金を助け、キャンペーンの返礼を受け取るための、\n        独立した期間限定の機会となります。"],
-    ["Joining for free now is the best way to be notified when that campaign is ready.", "今無料で参加することが、そのキャンペーンの準備が整ったときに通知を受ける最良の方法です。"],
-    ["Crowdfunding updates will be announced to free Patreon members first.", "クラウドファンディングの最新情報は、無料の Patreon メンバーに最初に告知されます。"],
-
-    ["<h2 class=\"section-title\">Or join the reading list</h2>", "<h2 class=\"section-title\">あるいは、リーディングリストに参加</h2>"],
-    ["Prefer email? Get the same publication milestones straight to your inbox — no\n        Patreon account needed. One message when there's real news; unsubscribe any time.", "メールがお好みですか。同じ出版のマイルストーンを直接あなたの受信箱へお届けします——\n        Patreon アカウントは不要です。本当のニュースがあるときに一通だけ。いつでも配信を解除できます。"],
-    ["The reading list opens soon — for now,\n        <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">follow free on Patreon</a>.", "リーディングリストはまもなく開きます——今のところは、\n        <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">Patreon で無料でフォロー</a>してください。"],
-    ["Prefer to read offline? <a href=\"assets/aurefold-opening.pdf\" download>Download the opening as a free PDF</a> — the prologue and the start of Chapter One.", "オフラインで読みたいですか。<a href=\"assets/aurefold-opening.pdf\" download>冒頭を無料 PDF でダウンロード</a>——序章と第一章のはじまりです。"],
-
-    ["<h2 class=\"section-title\">Where the money will go</h2>", "<h2 class=\"section-title\">お金の使い道</h2>"],
-    ["When the crowdfunding campaign opens, every contribution goes into making and\n        delivering the physical book — never into the story, which is already written.\n        The work it pays for, roughly in order of cost:", "クラウドファンディング・キャンペーンが始まると、すべての寄付は物理的な本を作り、\n        届けることに充てられます——すでに書き上がっている物語に充てられることは決してありません。\n        それが支払う仕事を、おおよそ費用の順に挙げます。"],
-    ["<strong>Printing &amp; production</strong> — the physical books themselves", "<strong>印刷 &amp; 製造</strong> — 物理的な本そのもの"],
-    ["<strong>Shipping &amp; fulfilment</strong> — packing and posting worldwide", "<strong>発送 &amp; 配送</strong> — 世界中への梱包と発送"],
-    ["<strong>Editing &amp; proofreading</strong> — professional passes before print", "<strong>編集 &amp; 校正</strong> — 印刷前の専門的な作業"],
-    ["<strong>Cover &amp; interior design</strong> — typesetting and layout", "<strong>表紙 &amp; 本文デザイン</strong> — 組版とレイアウト"],
-    ["<strong>Platform &amp; payment fees</strong> — the crowdfunding platform's share", "<strong>プラットフォーム &amp; 決済手数料</strong> — クラウドファンディング・プラットフォームの取り分"],
-    ["<strong>Contingency</strong> — reprints, damaged copies, the unexpected", "<strong>予備費</strong> — 増刷、破損した部数、予期せぬこと"],
-    ["Exact figures will be published from real supplier quotes before the campaign\n        opens — a full budget breakdown, not guesses.", "正確な数字は、キャンペーンが始まる前に実際の業者の見積もりから公表されます——\n        推測ではなく、完全な予算の内訳です。"],
-
-    ["<h2 class=\"section-title\">What the campaign will offer</h2>", "<h2 class=\"section-title\">キャンペーンが提供するもの</h2>"],
-    ["The crowdfunding campaign — separate from Patreon, and still in preparation — is\n        where the book itself becomes available. Planned reward types include:", "クラウドファンディング・キャンペーンは——Patreon とは別で、まだ準備中ですが——\n        本そのものが手に入る場です。予定されている返礼の種類には次のものが含まれます。"],
-    ["<strong>Digital edition</strong> — the eBook", "<strong>デジタル版</strong> — 電子書籍"],
-    ["<strong>Paperback</strong> — the printed book", "<strong>ペーパーバック</strong> — 印刷された本"],
-    ["<strong>Hardcover</strong> — a collector's edition", "<strong>ハードカバー</strong> — コレクターズ・エディション"],
-    ["<strong>Signed copies</strong> — signed by the author", "<strong>署名入りの本</strong> — 著者による署名入り"],
-    ["<strong>Named in the book</strong> — founding-patron recognition", "<strong>本に名前を掲載</strong> — 創設パトロンとしての顕彰"],
-    ["<strong>Art &amp; extras</strong> — map prints, bookplates, and more", "<strong>アート &amp; 特典</strong> — 地図のプリント、蔵書票、その他"],
-    ["These are planned, not final — nothing is on sale yet. Formats and prices are\n        confirmed when the campaign launches, and free Patreon members hear first.", "これらは予定であって確定ではありません——まだ何も販売されていません。形式と価格は\n        キャンペーンが始まるときに確定し、無料の Patreon メンバーが最初に知らされます。"],
-
-    ["<h2 class=\"section-title\">You can help without spending anything</h2>", "<h2 class=\"section-title\">お金を使わずにできる手助け</h2>"],
-    ["<li><a href=\"read.html\">Read the opening</a></li>", "<li><a href=\"read.html\">冒頭を読む</a></li>"],
-    ["<a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">Join free for publication updates</a>", "<a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">無料で参加して出版の最新情報を受け取る</a>"],
-    ["<a href=\"https://discord.gg/TGQgmpU8s\" target=\"_blank\" rel=\"noopener\">Join the Discord and say hello</a>", "<a href=\"https://discord.gg/TGQgmpU8s\" target=\"_blank\" rel=\"noopener\">Discord に参加して挨拶する</a>"],
-    ["<a href=\"https://www.tiktok.com/@aurefold\" target=\"_blank\" rel=\"noopener\">Follow on TikTok</a>", "<a href=\"https://www.tiktok.com/@aurefold\" target=\"_blank\" rel=\"noopener\">TikTok でフォロー</a>"],
-    ["<li>Share Aurefold with one reader</li>", "<li>Aurefold を一人の読者に伝える</li>"],
-    ["Take part in non-canonical <a href=\"vote.html\">Moot</a> questions", "正典に影響しない<a href=\"vote.html\">合議</a>の問いに参加する"],
-
-    ["<h2 class=\"section-title\">Lend your craft</h2>", "<h2 class=\"section-title\">あなたの技を貸してください</h2>"],
-    ["Aurefold is being built in the open, and there's room for a few collaborators who\n        want to help carry Book One to publication. These are <strong>pro bono</strong>\n        roles — unpaid, but credited, with a real hand in how the book and its world reach\n        readers. A few evenings a month is plenty.", "Aurefold は開かれた形で作られており、第一巻を出版まで運ぶ手助けをしたい\n        数名の協力者のための余地があります。これらは<strong>pro bono</strong>の\n        役割です——無償ですが、クレジットされ、本とその世界が読者に届く道のりに\n        実際に手を貸すことになります。月に数晩あれば十分です。"],
-    ["<strong>Video editor</strong> — trailers, TikToks, and campaign video cut from existing footage and art", "<strong>ビデオ編集者</strong> — 既存の映像とアートから編集するトレーラー、TikTok、キャンペーン動画"],
-    ["<strong>Lore master</strong> — keep continuity, grow the world archive, and field reader lore questions", "<strong>Lore マスター</strong> — 設定の一貫性を保ち、世界の記録を育て、読者の設定に関する問いに答える"],
-    ["<strong>Beta / manuscript readers</strong> — read the finished manuscript and give structured feedback before proofreading", "<strong>ベータ／原稿読者</strong> — 完成した原稿を読み、校正の前に体系立てたフィードバックを行う"],
-    ["<strong>Illustrator</strong> — cover, map, and spot art: the visual hooks the campaign is built on", "<strong>イラストレーター</strong> — 表紙、地図、スポットアート。キャンペーンを支える視覚的な引きどころ"],
-    ["<strong>Social &amp; community manager</strong> — grow and run the TikTok, Discord, and Instagram, and steward the Moot, where readers help shape the world around the book", "<strong>ソーシャル &amp; コミュニティ担当</strong> — TikTok、Discord、Instagram を育てて運営し、読者が本を取り巻く世界の形づくりを手伝う合議を取りまとめる"],
-    ["<strong>Audio manager</strong> — audiobook, trailer sound and music, and the audio side of social", "<strong>音声担当</strong> — オーディオブック、トレーラーの音と音楽、そしてソーシャルの音声面"],
-    ["<strong>Graphic designer</strong> — interior typesetting and crowdfunding key art", "<strong>グラフィックデザイナー</strong> — 本文の組版とクラウドファンディングのキービジュアル"],
-    ["Interested? Write to <a href=\"mailto:tobias.carneteg@gmail.com?subject=Aurefold%20volunteer\">tobias.carneteg@gmail.com</a>\n        with the role and a little about your work. Every collaborator is credited.", "興味がありますか。<a href=\"mailto:tobias.carneteg@gmail.com?subject=Aurefold%20volunteer\">tobias.carneteg@gmail.com</a>\n        まで、役割とあなたの仕事について少し書いてお送りください。すべての協力者はクレジットされます。"],
-
-    ["<h2 class=\"section-title\">What support does — and does not — buy</h2>", "<h2 class=\"section-title\">支援が買うもの——そして買わないもの</h2>"],
-    ["Members receive closer access to the making of Aurefold. They do not purchase\n        authority over its canon. The ten Houses, the central plot, the characters' fates,\n        and the unresolved mysteries remain the responsibility of the author. What the Moot\n        can shape is the world around the book — which supplemental material, art, or topic\n        the archive opens next, and bounded extras like which side-story gets written or the\n        name of a minor figure in the supplementary lore. The heart of the story stays the\n        author's, and no vote is bought — one voice per reader.", "メンバーは Aurefold の制作へのより近い接近を得ます。その正典に対する権限を\n        買うわけではありません。十大家、中心となる筋、登場人物たちの運命、\n        そして未解決の謎は、著者の責任のもとに留まります。合議が形づくれるのは\n        本を取り巻く世界です——次にどの補足資料、アート、話題を記録が開くか、\n        そしてどの外伝が書かれるか、補足設定における端役の名前は何かといった、\n        限られた範囲の追加要素です。物語の核心は著者のものであり続け、票が買われる\n        ことはありません——読者一人につき一つの声です。"],
-
-    ["<h2 class=\"section-title\">Questions</h2>", "<h2 class=\"section-title\">よくある質問</h2>"],
-    ["<summary>Is the book written?</summary><p>Yes. <em>The Bell of Silence</em> is a completed manuscript of approximately 104,000 words.</p>", "<summary>本は書き上がっていますか。</summary><p>はい。<em>The Bell of Silence</em> は約 104,000語の完成した原稿です。</p>"],
-    ["<summary>What stage is it in?</summary><p>Internal developmental revision is complete. Next comes external reader testing, then professional proofreading, cover and interior design, and print preparation.</p>", "<summary>どの段階にありますか。</summary><p>内部での構成的改稿は完了しています。次に外部読者によるテスト、続いて専門的な校正、表紙と本文のデザイン、そして印刷の準備が来ます。</p>"],
-    ["<summary>Why use Patreon before crowdfunding?</summary><p>Patreon lets early readers follow the work and helps build the community that makes a later campaign viable. It supports the preparation itself.</p>", "<summary>なぜクラウドファンディングの前に Patreon を使うのですか。</summary><p>Patreon は早期の読者が作業を追いかけることを可能にし、後のキャンペーンを成り立たせるコミュニティを築く助けとなります。それは準備そのものを支えます。</p>"],
-    ["<summary>What will crowdfunding pay for?</summary><p>The final production: proofreading, cover and interior design, typesetting, print proofs, and fulfilment. Exact costs will come from real quotes, not guesses.</p>", "<summary>クラウドファンディングは何に充てられますか。</summary><p>最終製造です——校正、表紙と本文のデザイン、組版、印刷校正、そして配送。正確な費用は推測ではなく実際の見積もりから出されます。</p>"],
-    ["<summary>Does membership influence the story?</summary><p>The central plot, canon, and the book's unresolved mysteries are the author's alone. What the community can shape through the Moot is the world around the book — which material or art the archive opens next, and bounded extras like which side-story gets written or a minor figure's name in the supplementary lore. Membership brings closer access to how Aurefold is made, not authority over its canon.</p>", "<summary>メンバーシップは物語に影響しますか。</summary><p>中心となる筋、正典、そして本の未解決の謎は、著者だけのものです。コミュニティが合議を通じて形づくれるのは本を取り巻く世界です——次にどの資料やアートを記録が開くか、そしてどの外伝が書かれるか、補足設定における端役の名前は何かといった、限られた範囲の追加要素です。メンバーシップがもたらすのは Aurefold がどう作られるかへのより近い接近であって、その正典に対する権限ではありません。</p>"],
-    ["<summary>Will members receive the complete manuscript?</summary><p>No. Selected excerpts are shared. The full manuscript is not released.</p>", "<summary>メンバーは原稿の全文を受け取れますか。</summary><p>いいえ。選りすぐりの抜粋が共有されます。原稿の全文は公開されません。</p>"],
-    ["<summary>Are physical rewards available now?</summary><p>No. Physical rewards belong to the future crowdfunding campaign, once printing, packaging, and shipping have been modelled.</p>", "<summary>物理的な返礼は今手に入りますか。</summary><p>いいえ。物理的な返礼は、印刷、梱包、発送の見積もりが立ったのちの、将来のクラウドファンディング・キャンペーンに属するものです。</p>"],
-    ["<summary>When will crowdfunding launch?</summary><p>There is no date yet. Free Patreon members are notified first.</p>", "<summary>クラウドファンディングはいつ始まりますか。</summary><p>まだ日程はありません。無料の Patreon メンバーが最初に通知されます。</p>"],
-    ["<summary>Can I follow without paying?</summary><p>Yes. Free membership (Traveller) gives you updates, selected excerpts, and campaign news.</p>", "<summary>お金を払わずにフォローできますか。</summary><p>はい。無料メンバーシップ（旅人）で、最新情報、選りすぐりの抜粋、キャンペーンのお知らせを受け取れます。</p>"],
-    ["<summary>Where can I read a sample?</summary><p>On the <a href=\"read.html\">Read</a> page: the prologue and the opening of Chapter One.</p>", "<summary>試し読みはどこでできますか。</summary><p><a href=\"read.html\">読む</a>のページで——序章と第一章の冒頭です。</p>"],
-
-    ["<h2 class=\"section-title\">A note from the author</h2>", "<h2 class=\"section-title\">著者からのひとこと</h2>"],
-    ["Aurefold and <em>The Bell of Silence</em> are written by me, <strong>Tobias\n          Carneteg</strong>.", "Aurefold と <em>The Bell of Silence</em> は、私、<strong>Tobias\n          Carneteg</strong> が書いています。"],
-    ["I could try to publish this book quietly and show you only the finished object.\n          I'd rather do it in the open — share the road from a completed manuscript to a\n          printed book, the good weeks and the slow ones, and let readers be part of it\n          before the cover is even designed.", "この本を静かに出版し、完成した物だけをお見せすることもできたでしょう。\n          けれど私はむしろ開かれた形でやりたいのです——完成した原稿から印刷された\n          本までの道のり、順調な週も進まない週も分かち合い、表紙が\n          デザインされる前から読者にその一部になってもらいたい。"],
-    ["<em>The Bell of Silence</em> is a story about testimony: about a person who will\n          say only what she knows, and a world that would rather settle the meaning of a\n          silence than live with an open question. It's the kind of book I most want to\n          read, so it's the kind of book I set out to write.", "<em>The Bell of Silence</em> は証言についての物語です——自分の知っていることだけを\n          言おうとする一人の人物と、開かれた問いとともに生きるよりも沈黙の\n          意味を片づけたがる世界についての。それは私が最も読みたい種類の\n          本であり、だからこそ私が書こうと決めた種類の本なのです。"],
-    ["If that sounds like something you'd want on your shelf, the best thing you can do\n          right now costs nothing — follow along. Everything else grows from there.", "それがあなたの本棚に置きたいものに聞こえるなら、今あなたにできる最良のことは\n          無料です——ついてきてください。ほかのすべては、そこから育っていきます。"],
-    ["For press or enquiries, write to\n        <a href=\"mailto:tobias.carneteg@gmail.com\">tobias.carneteg@gmail.com</a>.", "取材やお問い合わせは、\n        <a href=\"mailto:tobias.carneteg@gmail.com\">tobias.carneteg@gmail.com</a> までお書きください。"],
-
-    ["<h2 class=\"book-title\">The book is written. The road to publication is open.</h2>", "<h2 class=\"book-title\">本は書き上がった。出版への道は開かれている。</h2>"],
-    ["Every truth has a keeper. Every silence has a cost.", "あらゆる真実には守り手がいる。あらゆる沈黙には代償がある。"]
+    [
+      "THE ROAD TO PUBLICATION",
+      "出版への道"
+    ],
+    [
+      "Help bring <em>The Bell of Silence</em> into print.",
+      "<em>The Bell of Silence</em> を印刷へと導く手助けを。"
+    ],
+    [
+      "Book One is written. The next work is turning a finished manuscript into a\n        professionally edited, designed, printed, and delivered book. Join the Aurefold\n        community for free, follow every major step, or become a member and help carry\n        the work forward.",
+      "第一巻は書き上がりました。次の仕事は、完成した原稿を、専門的に編集され、\n        デザインされ、印刷され、届けられる一冊の本へと変えることです。Aurefold の\n        コミュニティに無料で参加し、あらゆる大きな一歩を追いかけるか、メンバーになって\n        この仕事を前へ運ぶ手助けをしてください。"
+    ],
+    [
+      "No canon is sold. No mystery is decided by payment. Support brings access to the work behind the book — not control over the story.",
+      "正典が売られることはありません。謎が支払いによって決められることもありません。支援がもたらすのは本の背後にある仕事への接近であって、物語への支配ではありません。"
+    ],
+    [
+      "Follow free",
+      "無料でフォロー"
+    ],
+    [
+      "Read the opening",
+      "冒頭を読む"
+    ],
+    [
+      "<h2 class=\"section-title\">Where the project stands</h2>",
+      "<h2 class=\"section-title\">プロジェクトの現状</h2>"
+    ],
+    [
+      "<span class=\"status-label\">Manuscript</span>",
+      "<span class=\"status-label\">原稿</span>"
+    ],
+    [
+      "<span class=\"status-label\">Internal developmental revision</span>",
+      "<span class=\"status-label\">内部での構成的改稿</span>"
+    ],
+    [
+      "<span class=\"status-label\">External reader programme</span>",
+      "<span class=\"status-label\">外部読者プログラム</span>"
+    ],
+    [
+      "<span class=\"status-label\">Professional proofreading</span>",
+      "<span class=\"status-label\">専門的な校正</span>"
+    ],
+    [
+      "<span class=\"status-label\">Cover &amp; interior design</span>",
+      "<span class=\"status-label\">表紙 &amp; 本文デザイン</span>"
+    ],
+    [
+      "<span class=\"status-label\">Print preparation</span>",
+      "<span class=\"status-label\">印刷の準備</span>"
+    ],
+    [
+      "<span class=\"status-label\">Crowdfunding campaign</span>",
+      "<span class=\"status-label\">クラウドファンディング・キャンペーン</span>"
+    ],
+    [
+      "<span class=\"status-state\">Complete</span>",
+      "<span class=\"status-state\">完了</span>"
+    ],
+    [
+      "<span class=\"status-state\">Next stage</span>",
+      "<span class=\"status-state\">次の段階</span>"
+    ],
+    [
+      "<span class=\"status-state\">Planned</span>",
+      "<span class=\"status-state\">予定</span>"
+    ],
+    [
+      "<span class=\"status-state\">In preparation</span>",
+      "<span class=\"status-state\">準備中</span>"
+    ],
+    [
+      "<h2 class=\"section-title\">What your support makes possible</h2>",
+      "<h2 class=\"section-title\">あなたの支援が可能にするもの</h2>"
+    ],
+    [
+      "<li>External reader testing and final revision</li>",
+      "<li>外部読者によるテストと最終改稿</li>"
+    ],
+    [
+      "<li>Professional proofreading</li>",
+      "<li>専門的な校正</li>"
+    ],
+    [
+      "<li>Cover development and licensed artwork</li>",
+      "<li>表紙の開発とライセンス取得済みのアートワーク</li>"
+    ],
+    [
+      "<li>Interior design and typesetting</li>",
+      "<li>本文デザインと組版</li>"
+    ],
+    [
+      "<li>Print proofs and production testing</li>",
+      "<li>印刷校正と製造テスト</li>"
+    ],
+    [
+      "<li>Website, audio, trailer, and campaign material</li>",
+      "<li>ウェブサイト、音声、トレーラー、キャンペーン素材</li>"
+    ],
+    [
+      "<li>Crowdfunding preparation</li>",
+      "<li>クラウドファンディングの準備</li>"
+    ],
+    [
+      "<li>Contingency for fulfilment and damaged copies</li>",
+      "<li>配送や破損した部数への予備費</li>"
+    ],
+    [
+      "<h2 class=\"section-title\">Peek inside membership</h2>",
+      "<h2 class=\"section-title\">メンバーシップの中を覗く</h2>"
+    ],
+    [
+      "Members don't just get news — they get the making of the book. Here are two\n        examples of the kind of thing that goes out. The openings are public; members\n        read the rest.",
+      "メンバーが受け取るのはニュースだけではありません——本が作られていく過程そのものです。\n        配信されるものの一例を二つ挙げます。冒頭は公開されており、続きはメンバーが\n        読みます。"
+    ],
+    [
+      "Annotated page · craft note",
+      "注釈付きのページ · 執筆技法のノート"
+    ],
+    [
+      "Why the book opens on an argument, not the goatherd",
+      "なぜ本はヤギ飼いの娘ではなく、口論から始まるのか"
+    ],
+    [
+      "Book One doesn't begin with Sela. It begins in a sealed room, far from the\n              valley, where three officials argue over a record they cannot fully trust.\n              The choice is deliberate. Before you meet the girl, you meet the machine\n              that will decide what she means — the witnessing, the wax seals, the burned\n              trial notes, the sentence that closes every question by calling it\n              answered.",
+      "第一巻は Sela から始まりません。谷から遠く離れた封印された部屋で、三人の役人が\n              完全には信じきれない記録をめぐって争うところから始まります。\n              この選択は意図的なものです。少女に出会う前に、あなたは彼女の意味を\n              決める仕組みと出会うのです——立ち会い、蝋の封印、焼かれた\n              審理の記録、あらゆる問いを「答えは出た」と呼ぶことで閉じてしまう\n              その一文と。"
+    ],
+    [
+      "What that does to a reader, and why the whole novel is built to make you\n              feel the record before you feel the person, is the part I want to walk\n              through — including the two lines I cut, and the one I almost cut and\n              didn't&hellip;",
+      "それが読者に何をもたらすのか、そしてなぜ小説全体が、人物を感じる前に\n              記録を感じさせるように組み立てられているのか——そこを私は辿っていきたいのです。\n              削った二行、そして削りかけて残した一行のことも\n              含めて&hellip;"
+    ],
+    [
+      "<span>Members read the full note</span>",
+      "<span>メンバーはノート全文を読めます</span>"
+    ],
+    [
+      "Worldbuilding · house deep-dive",
+      "世界構築 · ある家の掘り下げ"
+    ],
+    [
+      "What House Whitehart is really afraid of",
+      "House Whitehart が本当に恐れているもの"
+    ],
+    [
+      "Whitehart is called the house of faith, but faith is not what it guards.\n              It exists to <em>test</em> — to stand between a person who says they heard\n              something and a world that badly wants the question settled. A house built\n              to doubt on everyone's behalf is a strange kind of church.",
+      "Whitehart は信仰の家と呼ばれますが、それが守っているのは信仰ではありません。\n              それは<em>試す</em>ために存在します——何かを聞いたと言う者と、\n              その問いを何としても片づけたい世界との間に立つために。すべての人に代わって\n              疑うために築かれた家は、奇妙な種類の教会です。"
+    ],
+    [
+      "This note goes into how the listening house actually works — the testing\n              rite, why the valley both needs it and resents it, and the quiet fear that\n              runs under all of it: what happens the day the testers are wrong&hellip;",
+      "このノートは、耳を傾ける家が実際にどう機能するのかに踏み込みます——試練の\n              儀式、なぜ谷はそれを必要としながらも嫌うのか、そしてそのすべての下に\n              流れる静かな恐れ。すなわち、試す者たちが間違えたその日、何が起きるのか&hellip;"
+    ],
+    [
+      "<span>Members read the full deep-dive</span>",
+      "<span>メンバーは掘り下げ全文を読めます</span>"
+    ],
+    [
+      "Unlock on Patreon",
+      "Patreon で解放する"
+    ],
+    [
+      "New member material goes out regularly. Nothing here spoils\n        the story's unanswered questions — those stay with the book.",
+      "新しいメンバー向けの素材は定期的に配信されます。ここにあるものが\n        物語の答えの出ていない問いを明かすことはありません——それらは本とともに留まります。"
+    ],
+    [
+      "<h2 class=\"section-title\">Ways to take part</h2>",
+      "<h2 class=\"section-title\">参加のしかた</h2>"
+    ],
+    [
+      "<h3>Traveller</h3>",
+      "<h3>旅人</h3>"
+    ],
+    [
+      "<h3>Witness</h3>",
+      "<h3>証人</h3>"
+    ],
+    [
+      "<h3>Chronicler</h3>",
+      "<h3>記録者</h3>"
+    ],
+    [
+      "<h3>Keeper of the Blank Page</h3>",
+      "<h3>白紙の頁の守り手</h3>"
+    ],
+    [
+      "<p class=\"tier-price\">Free</p>",
+      "<p class=\"tier-price\">無料</p>"
+    ],
+    [
+      "<span>/month</span>",
+      "<span>/月</span>"
+    ],
+    [
+      "<p class=\"tier-badge\">Most popular</p>",
+      "<p class=\"tier-badge\">一番人気</p>"
+    ],
+    [
+      "<li>Public updates</li>",
+      "<li>公開の最新情報</li>"
+    ],
+    [
+      "<li>Selected excerpts</li>",
+      "<li>選りすぐりの抜粋</li>"
+    ],
+    [
+      "<li>World introductions</li>",
+      "<li>世界への案内</li>"
+    ],
+    [
+      "<li>Campaign news</li>",
+      "<li>キャンペーンのお知らせ</li>"
+    ],
+    [
+      "<li>Major publication milestones</li>",
+      "<li>主要な出版のマイルストーン</li>"
+    ],
+    [
+      "<li>First to know when crowdfunding opens</li>",
+      "<li>クラウドファンディング開始をいち早く知る</li>"
+    ],
+    [
+      "<li>Monthly development update</li>",
+      "<li>毎月の進捗の最新情報</li>"
+    ],
+    [
+      "<li>Selected early excerpts</li>",
+      "<li>選りすぐりの先行抜粋</li>"
+    ],
+    [
+      "<li>Behind-the-scenes notes</li>",
+      "<li>舞台裏のノート</li>"
+    ],
+    [
+      "<li>Non-canonical member polls</li>",
+      "<li>正典に影響しないメンバー投票</li>"
+    ],
+    [
+      "<li>Optional digital thank-you credit</li>",
+      "<li>任意のデジタル感謝クレジット</li>"
+    ],
+    [
+      "<li>All Witness benefits</li>",
+      "<li>証人のすべての特典</li>"
+    ],
+    [
+      "<li>Deeper monthly Aurefold material</li>",
+      "<li>より深い毎月の Aurefold 素材</li>"
+    ],
+    [
+      "<li>Worldbuilding and archive features</li>",
+      "<li>世界構築と記録の特集</li>"
+    ],
+    [
+      "<li>Early visual and campaign previews</li>",
+      "<li>ビジュアルとキャンペーンの先行プレビュー</li>"
+    ],
+    [
+      "<li>Quarterly written Q&amp;A</li>",
+      "<li>四半期ごとの書面での Q&amp;A</li>"
+    ],
+    [
+      "<li>All Chronicler benefits</li>",
+      "<li>記録者のすべての特典</li>"
+    ],
+    [
+      "<li>Optional founding-supporter recognition</li>",
+      "<li>任意の創設支援者としての顕彰</li>"
+    ],
+    [
+      "<li>Digital Founding Patron Dossier when completed</li>",
+      "<li>完成時のデジタル創設パトロン・ドシエ</li>"
+    ],
+    [
+      "<li>Advance major campaign previews</li>",
+      "<li>主要なキャンペーンの事前プレビュー</li>"
+    ],
+    [
+      "<li>Priority written Q&amp;A submissions</li>",
+      "<li>書面での Q&amp;A への優先投稿</li>"
+    ],
+    [
+      "<li>Selected production notes</li>",
+      "<li>選りすぐりの制作ノート</li>"
+    ],
+    [
+      "Join free — be first to know",
+      "無料で参加——いち早く知る"
+    ],
+    [
+      "Become a Witness",
+      "証人になる"
+    ],
+    [
+      "Become a Chronicler",
+      "記録者になる"
+    ],
+    [
+      "Become a Keeper",
+      "守り手になる"
+    ],
+    [
+      "Joining now — free or paid — secures founding-member recognition and first notice the moment crowdfunding opens.",
+      "今参加すれば——無料でも有料でも——創設メンバーとしての顕彰と、クラウドファンディングが始まった瞬間の最初の通知が確保されます。"
+    ],
+    [
+      "Patreon may display prices in the visitor's local currency. Memberships can be cancelled through Patreon.",
+      "Patreon は訪問者の現地通貨で価格を表示することがあります。メンバーシップは Patreon を通じて解約できます。"
+    ],
+    [
+      "<h2 class=\"section-title\">Membership now. Crowdfunding later.</h2>",
+      "<h2 class=\"section-title\">今はメンバーシップ。クラウドファンディングは後で。</h2>"
+    ],
+    [
+      "Patreon supports the work leading to publication: reader testing, production\n        planning, design development, and the campaign itself. The later crowdfunding\n        campaign will be a separate, time-limited opportunity to help finance the book's\n        final production and receive campaign rewards.",
+      "Patreon は出版に至るまでの仕事を支えます——読者テスト、制作の\n        計画、デザインの開発、そしてキャンペーンそのものです。後に行われるクラウドファンディング・\n        キャンペーンは、本の最終製造の資金を助け、キャンペーンの返礼を受け取るための、\n        独立した期間限定の機会となります。"
+    ],
+    [
+      "Joining for free now is the best way to be notified when that campaign is ready.",
+      "今無料で参加することが、そのキャンペーンの準備が整ったときに通知を受ける最良の方法です。"
+    ],
+    [
+      "Crowdfunding updates will be announced to free Patreon members first.",
+      "クラウドファンディングの最新情報は、無料の Patreon メンバーに最初に告知されます。"
+    ],
+    [
+      "<h2 class=\"section-title\">Or join the reading list</h2>",
+      "<h2 class=\"section-title\">あるいは、リーディングリストに参加</h2>"
+    ],
+    [
+      "Prefer email? Get the same publication milestones straight to your inbox — no\n        Patreon account needed. One message when there's real news; unsubscribe any time.",
+      "メールがお好みですか。同じ出版のマイルストーンを直接あなたの受信箱へお届けします——\n        Patreon アカウントは不要です。本当のニュースがあるときに一通だけ。いつでも配信を解除できます。"
+    ],
+    [
+      "The reading list opens soon — for now,\n        <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">follow free on Patreon</a>.",
+      "リーディングリストはまもなく開きます——今のところは、\n        <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">Patreon で無料でフォロー</a>してください。"
+    ],
+    [
+      "Prefer to read offline? <a href=\"assets/aurefold-opening.pdf\" download>Download the opening as a free PDF</a> — the prologue and the start of Chapter One.",
+      "オフラインで読みたいですか。<a href=\"assets/aurefold-opening.pdf\" download>冒頭を無料 PDF でダウンロード</a>——序章と第一章のはじまりです。"
+    ],
+    [
+      "<h2 class=\"section-title\">Where the money will go</h2>",
+      "<h2 class=\"section-title\">お金の使い道</h2>"
+    ],
+    [
+      "When the crowdfunding campaign opens, every contribution goes into making and\n        delivering the physical book — never into the story, which is already written.\n        The work it pays for, roughly in order of cost:",
+      "クラウドファンディング・キャンペーンが始まると、すべての寄付は物理的な本を作り、\n        届けることに充てられます——すでに書き上がっている物語に充てられることは決してありません。\n        それが支払う仕事を、おおよそ費用の順に挙げます。"
+    ],
+    [
+      "<strong>Printing &amp; production</strong> — the physical books themselves",
+      "<strong>印刷 &amp; 製造</strong> — 物理的な本そのもの"
+    ],
+    [
+      "<strong>Shipping &amp; fulfilment</strong> — packing and posting worldwide",
+      "<strong>発送 &amp; 配送</strong> — 世界中への梱包と発送"
+    ],
+    [
+      "<strong>Editing &amp; proofreading</strong> — professional passes before print",
+      "<strong>編集 &amp; 校正</strong> — 印刷前の専門的な作業"
+    ],
+    [
+      "<strong>Cover &amp; interior design</strong> — typesetting and layout",
+      "<strong>表紙 &amp; 本文デザイン</strong> — 組版とレイアウト"
+    ],
+    [
+      "<strong>Platform &amp; payment fees</strong> — the crowdfunding platform's share",
+      "<strong>プラットフォーム &amp; 決済手数料</strong> — クラウドファンディング・プラットフォームの取り分"
+    ],
+    [
+      "<strong>Contingency</strong> — reprints, damaged copies, the unexpected",
+      "<strong>予備費</strong> — 増刷、破損した部数、予期せぬこと"
+    ],
+    [
+      "Exact figures will be published from real supplier quotes before the campaign\n        opens — a full budget breakdown, not guesses.",
+      "正確な数字は、キャンペーンが始まる前に実際の業者の見積もりから公表されます——\n        推測ではなく、完全な予算の内訳です。"
+    ],
+    [
+      "<h2 class=\"section-title\">What the campaign will offer</h2>",
+      "<h2 class=\"section-title\">キャンペーンが提供するもの</h2>"
+    ],
+    [
+      "The crowdfunding campaign — separate from Patreon, and still in preparation — is\n        where the book itself becomes available. Planned reward types include:",
+      "クラウドファンディング・キャンペーンは——Patreon とは別で、まだ準備中ですが——\n        本そのものが手に入る場です。予定されている返礼の種類には次のものが含まれます。"
+    ],
+    [
+      "<strong>Digital edition</strong> — the eBook",
+      "<strong>デジタル版</strong> — 電子書籍"
+    ],
+    [
+      "<strong>Paperback</strong> — the printed book",
+      "<strong>ペーパーバック</strong> — 印刷された本"
+    ],
+    [
+      "<strong>Hardcover</strong> — a collector's edition",
+      "<strong>ハードカバー</strong> — コレクターズ・エディション"
+    ],
+    [
+      "<strong>Signed copies</strong> — signed by the author",
+      "<strong>署名入りの本</strong> — 著者による署名入り"
+    ],
+    [
+      "<strong>Named in the book</strong> — founding-patron recognition",
+      "<strong>本に名前を掲載</strong> — 創設パトロンとしての顕彰"
+    ],
+    [
+      "<strong>Art &amp; extras</strong> — map prints, bookplates, and more",
+      "<strong>アート &amp; 特典</strong> — 地図のプリント、蔵書票、その他"
+    ],
+    [
+      "These are planned, not final — nothing is on sale yet. Formats and prices are\n        confirmed when the campaign launches, and free Patreon members hear first.",
+      "これらは予定であって確定ではありません——まだ何も販売されていません。形式と価格は\n        キャンペーンが始まるときに確定し、無料の Patreon メンバーが最初に知らされます。"
+    ],
+    [
+      "<h2 class=\"section-title\">You can help without spending anything</h2>",
+      "<h2 class=\"section-title\">お金を使わずにできる手助け</h2>"
+    ],
+    [
+      "<li><a href=\"read.html\">Read the opening</a></li>",
+      "<li><a href=\"read.html\">冒頭を読む</a></li>"
+    ],
+    [
+      "<a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">Join free for publication updates</a>",
+      "<a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">無料で参加して出版の最新情報を受け取る</a>"
+    ],
+    [
+      "<a href=\"https://discord.gg/TGQgmpU8s\" target=\"_blank\" rel=\"noopener\">Join the Discord and say hello</a>",
+      "<a href=\"https://discord.gg/TGQgmpU8s\" target=\"_blank\" rel=\"noopener\">Discord に参加して挨拶する</a>"
+    ],
+    [
+      "<a href=\"https://www.tiktok.com/@aurefold\" target=\"_blank\" rel=\"noopener\">Follow on TikTok</a>",
+      "<a href=\"https://www.tiktok.com/@aurefold\" target=\"_blank\" rel=\"noopener\">TikTok でフォロー</a>"
+    ],
+    [
+      "<li>Share Aurefold with one reader</li>",
+      "<li>Aurefold を一人の読者に伝える</li>"
+    ],
+    [
+      "Take part in non-canonical <a href=\"vote.html\">Moot</a> questions",
+      "正典に影響しない<a href=\"vote.html\">合議</a>の問いに参加する"
+    ],
+    [
+      "<h2 class=\"section-title\">Lend your craft</h2>",
+      "<h2 class=\"section-title\">あなたの技を貸してください</h2>"
+    ],
+    [
+      "Aurefold is being built in the open, and there's room for a few collaborators who\n        want to help carry Book One to publication. These are <strong>pro bono</strong>\n        roles — unpaid, but credited, with a real hand in how the book and its world reach\n        readers. A few evenings a month is plenty.",
+      "Aurefold は開かれた形で作られており、第一巻を出版まで運ぶ手助けをしたい\n        数名の協力者のための余地があります。これらは<strong>pro bono</strong>の\n        役割です——無償ですが、クレジットされ、本とその世界が読者に届く道のりに\n        実際に手を貸すことになります。月に数晩あれば十分です。"
+    ],
+    [
+      "<strong>Video editor</strong> — trailers, TikToks, and campaign video cut from existing footage and art",
+      "<strong>ビデオ編集者</strong> — 既存の映像とアートから編集するトレーラー、TikTok、キャンペーン動画"
+    ],
+    [
+      "<strong>Lore master</strong> — keep continuity, grow the world archive, and field reader lore questions",
+      "<strong>Lore マスター</strong> — 設定の一貫性を保ち、世界の記録を育て、読者の設定に関する問いに答える"
+    ],
+    [
+      "<strong>Beta / manuscript readers</strong> — read the finished manuscript and give structured feedback before proofreading",
+      "<strong>ベータ／原稿読者</strong> — 完成した原稿を読み、校正の前に体系立てたフィードバックを行う"
+    ],
+    [
+      "<strong>Illustrator</strong> — cover, map, and spot art: the visual hooks the campaign is built on",
+      "<strong>イラストレーター</strong> — 表紙、地図、スポットアート。キャンペーンを支える視覚的な引きどころ"
+    ],
+    [
+      "<strong>Social &amp; community manager</strong> — grow and run the TikTok, Discord, and Instagram, and steward the Moot, where readers help shape the world around the book",
+      "<strong>ソーシャル &amp; コミュニティ担当</strong> — TikTok、Discord、Instagram を育てて運営し、読者が本を取り巻く世界の形づくりを手伝う合議を取りまとめる"
+    ],
+    [
+      "<strong>Audio manager</strong> — audiobook, trailer sound and music, and the audio side of social",
+      "<strong>音声担当</strong> — オーディオブック、トレーラーの音と音楽、そしてソーシャルの音声面"
+    ],
+    [
+      "<strong>Graphic designer</strong> — interior typesetting and crowdfunding key art",
+      "<strong>グラフィックデザイナー</strong> — 本文の組版とクラウドファンディングのキービジュアル"
+    ],
+    [
+      "Interested? Write to <a href=\"mailto:tobias.carneteg@gmail.com?subject=Aurefold%20volunteer\">tobias.carneteg@gmail.com</a>\n        with the role and a little about your work. Every collaborator is credited.",
+      "興味がありますか。<a href=\"mailto:tobias.carneteg@gmail.com?subject=Aurefold%20volunteer\">tobias.carneteg@gmail.com</a>\n        まで、役割とあなたの仕事について少し書いてお送りください。すべての協力者はクレジットされます。"
+    ],
+    [
+      "<h2 class=\"section-title\">What support does — and does not — buy</h2>",
+      "<h2 class=\"section-title\">支援が買うもの——そして買わないもの</h2>"
+    ],
+    [
+      "Members receive closer access to the making of Aurefold. They do not purchase\n        authority over its canon. The ten Houses, the central plot, the characters' fates,\n        and the unresolved mysteries remain the responsibility of the author. What the Moot\n        can shape is the world around the book — which supplemental material, art, or topic\n        the archive opens next, and bounded extras like which side-story gets written or the\n        name of a minor figure in the supplementary lore. The heart of the story stays the\n        author's, and no vote is bought — one voice per reader.",
+      "メンバーは Aurefold の制作へのより近い接近を得ます。その正典に対する権限を\n        買うわけではありません。十大家、中心となる筋、登場人物たちの運命、\n        そして未解決の謎は、著者の責任のもとに留まります。合議が形づくれるのは\n        本を取り巻く世界です——次にどの補足資料、アート、話題を記録が開くか、\n        そしてどの外伝が書かれるか、補足設定における端役の名前は何かといった、\n        限られた範囲の追加要素です。物語の核心は著者のものであり続け、票が買われる\n        ことはありません——読者一人につき一つの声です。"
+    ],
+    [
+      "<h2 class=\"section-title\">Questions</h2>",
+      "<h2 class=\"section-title\">よくある質問</h2>"
+    ],
+    [
+      "<summary>Is the book written?</summary><p>Yes. <em>The Bell of Silence</em> is a completed manuscript of approximately 104,000 words.</p>",
+      "<summary>本は書き上がっていますか。</summary><p>はい。<em>The Bell of Silence</em> は約 104,000語の完成した原稿です。</p>"
+    ],
+    [
+      "<summary>What stage is it in?</summary><p>Internal developmental revision is complete. Next comes external reader testing, then professional proofreading, cover and interior design, and print preparation.</p>",
+      "<summary>どの段階にありますか。</summary><p>内部での構成的改稿は完了しています。次に外部読者によるテスト、続いて専門的な校正、表紙と本文のデザイン、そして印刷の準備が来ます。</p>"
+    ],
+    [
+      "<summary>Why use Patreon before crowdfunding?</summary><p>Patreon lets early readers follow the work and helps build the community that makes a later campaign viable. It supports the preparation itself.</p>",
+      "<summary>なぜクラウドファンディングの前に Patreon を使うのですか。</summary><p>Patreon は早期の読者が作業を追いかけることを可能にし、後のキャンペーンを成り立たせるコミュニティを築く助けとなります。それは準備そのものを支えます。</p>"
+    ],
+    [
+      "<summary>What will crowdfunding pay for?</summary><p>The final production: proofreading, cover and interior design, typesetting, print proofs, and fulfilment. Exact costs will come from real quotes, not guesses.</p>",
+      "<summary>クラウドファンディングは何に充てられますか。</summary><p>最終製造です——校正、表紙と本文のデザイン、組版、印刷校正、そして配送。正確な費用は推測ではなく実際の見積もりから出されます。</p>"
+    ],
+    [
+      "<summary>Does membership influence the story?</summary><p>The central plot, canon, and the book's unresolved mysteries are the author's alone. What the community can shape through the Moot is the world around the book — which material or art the archive opens next, and bounded extras like which side-story gets written or a minor figure's name in the supplementary lore. Membership brings closer access to how Aurefold is made, not authority over its canon.</p>",
+      "<summary>メンバーシップは物語に影響しますか。</summary><p>中心となる筋、正典、そして本の未解決の謎は、著者だけのものです。コミュニティが合議を通じて形づくれるのは本を取り巻く世界です——次にどの資料やアートを記録が開くか、そしてどの外伝が書かれるか、補足設定における端役の名前は何かといった、限られた範囲の追加要素です。メンバーシップがもたらすのは Aurefold がどう作られるかへのより近い接近であって、その正典に対する権限ではありません。</p>"
+    ],
+    [
+      "<summary>Will members receive the complete manuscript?</summary><p>No. Selected excerpts are shared. The full manuscript is not released.</p>",
+      "<summary>メンバーは原稿の全文を受け取れますか。</summary><p>いいえ。選りすぐりの抜粋が共有されます。原稿の全文は公開されません。</p>"
+    ],
+    [
+      "<summary>Are physical rewards available now?</summary><p>No. Physical rewards belong to the future crowdfunding campaign, once printing, packaging, and shipping have been modelled.</p>",
+      "<summary>物理的な返礼は今手に入りますか。</summary><p>いいえ。物理的な返礼は、印刷、梱包、発送の見積もりが立ったのちの、将来のクラウドファンディング・キャンペーンに属するものです。</p>"
+    ],
+    [
+      "<summary>When will crowdfunding launch?</summary><p>There is no date yet. Free Patreon members are notified first.</p>",
+      "<summary>クラウドファンディングはいつ始まりますか。</summary><p>まだ日程はありません。無料の Patreon メンバーが最初に通知されます。</p>"
+    ],
+    [
+      "<summary>Can I follow without paying?</summary><p>Yes. Free membership (Traveller) gives you updates, selected excerpts, and campaign news.</p>",
+      "<summary>お金を払わずにフォローできますか。</summary><p>はい。無料メンバーシップ（旅人）で、最新情報、選りすぐりの抜粋、キャンペーンのお知らせを受け取れます。</p>"
+    ],
+    [
+      "<summary>Where can I read a sample?</summary><p>On the <a href=\"read.html\">Excerpt</a> page: the prologue and the opening of Chapter One.</p>",
+      "<summary>試し読みはどこでできますか。</summary><p><a href=\"read.html\">試し読み</a>のページで——序章と第一章の冒頭です。</p>"
+    ],
+    [
+      "<h2 class=\"section-title\">A note from the author</h2>",
+      "<h2 class=\"section-title\">著者からのひとこと</h2>"
+    ],
+    [
+      "Aurefold and <em>The Bell of Silence</em> are written by me, <strong>Tobias\n          Carneteg</strong>.",
+      "Aurefold と <em>The Bell of Silence</em> は、私、<strong>Tobias\n          Carneteg</strong> が書いています。"
+    ],
+    [
+      "I could try to publish this book quietly and show you only the finished object.\n          I'd rather do it in the open — share the road from a completed manuscript to a\n          printed book, the good weeks and the slow ones, and let readers be part of it\n          before the cover is even designed.",
+      "この本を静かに出版し、完成した物だけをお見せすることもできたでしょう。\n          けれど私はむしろ開かれた形でやりたいのです——完成した原稿から印刷された\n          本までの道のり、順調な週も進まない週も分かち合い、表紙が\n          デザインされる前から読者にその一部になってもらいたい。"
+    ],
+    [
+      "<em>The Bell of Silence</em> is a story about testimony: about a person who will\n          say only what she knows, and a world that would rather settle the meaning of a\n          silence than live with an open question. It's the kind of book I most want to\n          read, so it's the kind of book I set out to write.",
+      "<em>The Bell of Silence</em> は証言についての物語です——自分の知っていることだけを\n          言おうとする一人の人物と、開かれた問いとともに生きるよりも沈黙の\n          意味を片づけたがる世界についての。それは私が最も読みたい種類の\n          本であり、だからこそ私が書こうと決めた種類の本なのです。"
+    ],
+    [
+      "If that sounds like something you'd want on your shelf, the best thing you can do\n          right now costs nothing — follow along. Everything else grows from there.",
+      "それがあなたの本棚に置きたいものに聞こえるなら、今あなたにできる最良のことは\n          無料です——ついてきてください。ほかのすべては、そこから育っていきます。"
+    ],
+    [
+      "For press or enquiries, write to\n        <a href=\"mailto:tobias.carneteg@gmail.com\">tobias.carneteg@gmail.com</a>.",
+      "取材やお問い合わせは、\n        <a href=\"mailto:tobias.carneteg@gmail.com\">tobias.carneteg@gmail.com</a> までお書きください。"
+    ],
+    [
+      "<h2 class=\"book-title\">The book is written. The road to publication is open.</h2>",
+      "<h2 class=\"book-title\">本は書き上がった。出版への道は開かれている。</h2>"
+    ],
+    [
+      "Every truth has a keeper. Every silence has a cost.",
+      "あらゆる真実には守り手がいる。あらゆる沈黙には代償がある。"
+    ]
   ]
 }

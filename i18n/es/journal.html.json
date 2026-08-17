@@ -2,51 +2,161 @@
   "title": "El diario de Aurefold — escribiendo The Bell of Silence",
   "description": "El diario de Aurefold: crónicas sobre la escritura de The Bell of Silence, la construcción de una fantasía épica de diez casas y el camino desde el manuscrito terminado hasta la imprenta.",
   "blocks": [
-    ["The road between a finished manuscript and a printed book, written down as it\n      happens. Free to read; free to follow.", "El camino entre un manuscrito terminado y un libro impreso, escrito a medida que\n      sucede. Gratis de leer; gratis de seguir."],
-
-    ["15 August 2026", "15 de agosto de 2026"],
-    ["11 August 2026", "11 de agosto de 2026"],
-    ["8 August 2026", "8 de agosto de 2026"],
-    ["18 July 2026", "18 de julio de 2026"],
-
-    ["Book Two has a name: <em>The Road Still Open</em>", "El Libro Dos tiene nombre: <em>The Road Still Open</em>"],
-    ["A quiet milestone worth marking. Book One, <a href=\"book.html\"><em>The Bell of Silence</em></a>,\n        is complete — approximately 104,000 words across 47 chapters and one interlude — and it stands\n        on its own; you don't need a second book to finish the story it tells.", "Un hito discreto que vale la pena señalar. El Libro Uno, <a href=\"book.html\"><em>The Bell of Silence</em></a>,\n        está terminado — aproximadamente 104 000 palabras a lo largo de 47 capítulos y un interludio — y se sostiene\n        por sí solo; no necesitas un segundo libro para terminar la historia que cuenta."],
-    ["But there is a second book, and now it has a title: <strong><em>The Road Still Open</em></strong>.\n        That's all I'll say for a while, and on purpose. No plot, no promises about when — the work of a\n        first book is to earn a second, and I'd rather show you that road than describe it. What I can tell\n        you is where the name comes from in spirit: the peace the ten houses swore has held for four hundred\n        years, and every road that keeps it open costs someone something to walk.", "Pero hay un segundo libro, y ahora tiene título: <strong><em>The Road Still Open</em></strong>.\n        Eso es todo lo que diré por un tiempo, y a propósito. Sin trama, sin promesas sobre cuándo — la tarea de un\n        primer libro es ganarse un segundo, y prefiero mostrarte ese camino a describírtelo. Lo que sí puedo\n        decirte es de dónde viene el nombre en espíritu: la paz que juraron las diez casas ha durado cuatrocientos\n        años, y cada camino que la mantiene abierta le cuesta algo a alguien recorrerlo."],
-    ["Book Two is in development. When there's a real step to report — not hype, an actual step — it goes\n        here first. Follow the <a href=\"journal.html\">Journal</a> free, and you won't miss it.", "El Libro Dos está en desarrollo. Cuando haya un paso real que reportar — no bombo, un paso de verdad — irá\n        aquí primero. Sigue el <a href=\"journal.html\">Diario</a> gratis, y no te lo perderás."],
-
-    ["Which house would you follow? Why Aurefold has no villains", "¿Qué casa seguirías? Por qué Aurefold no tiene villanos"],
-    ["The question I get asked most about Aurefold is which house is the good one. It's the\n        wrong question — and it's the exact question the whole series is built to refuse.", "La pregunta que más me hacen sobre Aurefold es cuál es la casa buena. Es la\n        pregunta equivocada — y es exactamente la pregunta que toda la serie está construida para rechazar."],
-    ["The realm is sworn to ten Great Houses, and each is a different wager about what people\n        are for. Blackthorn bets on intellect; Ashbourne on courage; Whitehart on faith;\n        Stormrider on unity; Ravenshade on information; Ironvale on innovation; Blackcrest on the\n        writing of history; Stonebear on honour; Tidebreaker on knowledge; Phoenix on the future.\n        Say those aloud and you can already feel yourself leaning toward one. That lean is the\n        whole story.", "El reino está jurado a diez grandes casas, y cada una es una apuesta distinta sobre para qué sirven las\n        personas. Blackthorn apuesta por el intelecto; Ashbourne por el coraje; Whitehart por la fe;\n        Stormrider por la unidad; Ravenshade por la información; Ironvale por la innovación; Blackcrest por la\n        escritura de la historia; Stonebear por el honor; Tidebreaker por el conocimiento; Phoenix por el futuro.\n        Dilas en voz alta y ya sentirás que te inclinas hacia una. Esa inclinación es toda la\n        historia."],
-    ["Here's the rule I set myself. Every house has to hold a virtue a decent person could live\n        by — and every virtue has to cost someone something. A house of courage protects the many\n        and spends the few. A house that keeps information moving makes some people safer and\n        leaves others exposed. A house that preserves knowledge can quietly become control over\n        the people who produced it. None of them is lying about their good; none of them is\n        innocent of its cost.", "Esta es la regla que me impuse. Cada casa tiene que sostener una virtud por la que una persona decente pudiera\n        vivir — y cada virtud tiene que costarle algo a alguien. Una casa del coraje protege a los muchos\n        y gasta a los pocos. Una casa que mantiene la información en movimiento hace a algunas personas más seguras y\n        deja a otras expuestas. Una casa que preserva el conocimiento puede convertirse calladamente en control sobre\n        las personas que lo produjeron. Ninguna de ellas miente sobre su bien; ninguna es\n        inocente de su costo."],
-    ["That's why there is no villain to root against. The tension in\n        <a href=\"book.html\"><em>The Bell of Silence</em></a> isn't good versus evil; it's your\n        sympathy pulling two ways at once and refusing to settle. The book opens on that kind of\n        collision — a goatherd who will not say more than she knows, and a house built to test\n        anyone who claims to have heard something. Both sides are defensible. That is the problem,\n        and I never let the reader off the hook of it.", "Por eso no hay villano al que abuchear. La tensión en\n        <a href=\"book.html\"><em>The Bell of Silence</em></a> no es el bien contra el mal; es tu\n        simpatía tirando en dos direcciones a la vez y negándose a decidir. El libro abre con esa clase de\n        colisión — una cabrera que no dirá más de lo que sabe, y una casa construida para poner a prueba\n        a cualquiera que afirme haber oído algo. Ambos bandos son defendibles. Ese es el problema,\n        y nunca dejo que el lector se libre de él."],
-    ["I think that's what \"morally grey\" should actually mean. Not that everyone is a little\n        bad, but that everyone is defensibly right from inside their own logic — and you're left\n        holding the trade-off the characters can't. So I'll keep asking the wrong question on\n        purpose: not which house is good, but which house would <em>you</em> follow?\n        <a href=\"quiz.html\">Take the six-question quiz</a> and find out where your sympathy really\n        lands — then argue with the result. The houses would. You can meet all ten on\n        <a href=\"houses.html\">the Great Houses page</a>.", "Creo que eso es lo que «moralmente gris» debería significar en realidad. No que todos sean un poco\n        malos, sino que todos tienen razón de forma defendible desde dentro de su propia lógica — y a ti te queda\n        cargar con la disyuntiva que los personajes no pueden. Así que seguiré haciendo la pregunta equivocada a\n        propósito: no qué casa es buena, sino ¿qué casa seguirías <em>tú</em>?\n        <a href=\"quiz.html\">Haz el test de seis preguntas</a> y descubre dónde aterriza de verdad tu simpatía\n        — y luego discute con el resultado. Las casas lo harían. Puedes conocer las diez en\n        <a href=\"houses.html\">la página de las grandes casas</a>."],
-
-    ["Ten philosophies, one map: how the Great Houses were built", "Diez filosofías, un mapa: cómo se construyeron las grandes casas"],
-    ["People assume you build a fantasy world by drawing the map first. I built Aurefold the\n        other way round. I started with ten arguments, and the map is only where they landed.", "La gente supone que se construye un mundo de fantasía dibujando primero el mapa. Yo construí Aurefold\n        al revés. Empecé con diez argumentos, y el mapa es solo donde estos aterrizaron."],
-    ["Each Great House began as a single question about how people should live together — not a\n        colour, not a sigil, not a castle, a question. <em>\"What should the most capable mind be\n        permitted to decide for everyone else?\"</em> became Blackthorn. <em>\"When does bravery\n        protect others, and when does it demand that others pay?\"</em> became Ashbourne. Ten\n        questions, ten houses. <a href=\"houses.html\">You can read all ten, each with the question\n        its virtue forces on everyone else.</a>", "Cada gran casa empezó como una sola pregunta sobre cómo deberían convivir las personas — no un\n        color, no un blasón, no un castillo, una pregunta. <em>«¿Qué se le debería permitir decidir a la\n        mente más capaz en nombre de todos los demás?»</em> se convirtió en Blackthorn. <em>«¿Cuándo protege la valentía\n        a los demás, y cuándo exige que otros paguen?»</em> se convirtió en Ashbourne. Diez\n        preguntas, diez casas. <a href=\"houses.html\">Puedes leer las diez, cada una con la pregunta\n        que su virtud impone a todos los demás.</a>"],
-    ["The test I gave myself was simple: a house is only real if one of its own members could\n        state its philosophy sympathetically and mean it. The moment a house can only be described\n        by its enemies, it has stopped being a culture and become a cartoon. So I wrote each one\n        from the inside first — what it is proud of — and only then went looking for the cost that\n        pride hides.", "La prueba que me puse fue sencilla: una casa solo es real si uno de sus propios miembros pudiera\n        enunciar su filosofía con simpatía y creerlo. En el momento en que una casa solo puede describirse\n        por sus enemigos, ha dejado de ser una cultura y se ha vuelto una caricatura. Así que escribí cada una\n        desde dentro primero — de qué se enorgullece — y solo entonces me puse a buscar el costo que ese\n        orgullo oculta."],
-    ["Geography came after that. A house that charts everything and shares almost none of it\n        wants a coastline and a lighthouse. A house of unity wants roads, and the passes that hold\n        the valleys together. A house built on the idea of the future wants scorched ground it can\n        insist on rebuilding. <a href=\"map.html\">The map</a> is really a diagram of ten\n        temperaments, drawn as terrain.", "La geografía vino después. Una casa que cartografía todo y no comparte casi nada de ello\n        quiere una costa y un faro. Una casa de la unidad quiere caminos, y los pasos que mantienen\n        unidos los valles. Una casa construida sobre la idea del futuro quiere tierra calcinada que pueda\n        insistir en reconstruir. <a href=\"map.html\">El mapa</a> es en realidad un diagrama de diez\n        temperamentos, dibujado como terreno."],
-    ["Over all of it sits the thing that makes the houses press against each other: the Tenfold\n        Compact, the peace they swore on cooling ground after the war that made them, and have\n        kept — by one measure or another — for four hundred years.\n        <a href=\"history.html\">That history</a> holds. It just costs a little more every year to\n        keep, and Book One is set in the one valley where the cost finally comes due for a single\n        ordinary person.", "Sobre todo ello se asienta aquello que hace que las casas se aprieten unas contra otras: the Tenfold\n        Compact, la paz que juraron sobre tierra que aún se enfriaba tras la guerra que las forjó, y que han\n        mantenido — de una forma u otra — durante cuatrocientos años.\n        <a href=\"history.html\">Esa historia</a> se sostiene. Solo cuesta un poco más cada año\n        mantenerla, y el Libro Uno transcurre en el único valle donde el costo por fin vence para una sola\n        persona corriente."],
-    ["If you want the method in a line: start with what people believe, make the belief cost\n        something, and let the world grow around the argument. The houses came first. The map only\n        tells you where they had to stand.", "Si quieres el método en una línea: empieza con lo que la gente cree, haz que la creencia cueste\n        algo, y deja que el mundo crezca en torno al argumento. Las casas vinieron primero. El mapa solo\n        te dice dónde tuvieron que situarse."],
-
-    ["Book Two has a name: The Road Still Open", "El Libro Dos tiene nombre: The Road Still Open"],
-    ["Building this one in the open", "Construyendo este a la vista de todos"],
-    ["Most books arrive as a finished object, with none of the road that led there.\n        Aurefold is going the other way. From here to publication, the work happens where\n        readers can see it — reader testing, cover and interior design, print proofs, the\n        campaign — and this journal is where each real step gets written down.", "La mayoría de los libros llegan como un objeto terminado, sin nada del camino que llevó hasta allí.\n        Aurefold va en sentido contrario. De aquí a la publicación, el trabajo sucede donde\n        los lectores pueden verlo — pruebas con lectores, diseño de cubierta e interior, pruebas de imprenta, la\n        campaña — y este diario es donde se escribe cada paso real."],
-    ["No hype, no invented milestones. When something genuinely moves, it goes here, and\n        it goes to <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">free\n        members</a> first. If you want to watch a book get made rather than just buy the\n        result, you're in the right place.", "Sin bombo, sin hitos inventados. Cuando algo se mueve de verdad, va aquí, y\n        va a los <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">miembros\n        gratuitos</a> primero. Si quieres ver cómo se hace un libro en lugar de solo comprar el\n        resultado, estás en el lugar correcto."],
-
-    ["Where the project stands", "En qué punto está el proyecto"],
-    ["Book One, <em>The Bell of Silence</em>, is a <strong>completed manuscript of\n        approximately 104,000 words</strong>, across 47 chapters and one interlude. Internal\n        developmental revision is finished.", "El Libro Uno, <em>The Bell of Silence</em>, es un <strong>manuscrito terminado de\n        aproximadamente 104 000 palabras</strong>, a lo largo de 47 capítulos y un interludio. La revisión\n        estructural interna está terminada."],
-    ["<p>The next stages, in order:</p>", "<p>Las siguientes etapas, en orden:</p>"],
-    ["<li>External reader testing and final revision</li>", "<li>Pruebas con lectores externos y revisión final</li>"],
-    ["<li>Professional proofreading</li>", "<li>Corrección profesional</li>"],
-    ["<li>Cover development and interior design</li>", "<li>Desarrollo de la cubierta y diseño de interior</li>"],
-    ["<li>Print proofs and production testing</li>", "<li>Pruebas de imprenta y pruebas de producción</li>"],
-    ["<li>Crowdfunding, then publication</li>", "<li>Crowdfunding, luego publicación</li>"],
-    ["You can read the opening on the <a href=\"read.html\">Read</a> page, and see how the\n        work is supported on the <a href=\"support.html\">Support</a> page. Each stage above\n        gets its own entry here as it's reached.", "Puedes leer el comienzo en la página <a href=\"read.html\">Leer</a>, y ver cómo se\n        sostiene el trabajo en la página <a href=\"support.html\">Apoyo</a>. Cada etapa anterior\n        recibe su propia entrada aquí a medida que se alcanza."],
-
-    ["<h2 class=\"book-title\">Don't miss the next entry.</h2>", "<h2 class=\"book-title\">No te pierdas la próxima entrada.</h2>"],
-    ["Free members hear every update first — no cost, unsubscribe any time.", "Los miembros gratuitos reciben cada actualización primero — sin costo, cancela cuando quieras."],
-    ["Follow free", "Sigue gratis"],
-    ["How to support", "Cómo apoyar"]
+    [
+      "The road between a finished manuscript and a printed book, written down as it\n      happens. Free to read; free to follow.",
+      "El camino entre un manuscrito terminado y un libro impreso, escrito a medida que\n      sucede. Gratis de leer; gratis de seguir."
+    ],
+    [
+      "15 August 2026",
+      "15 de agosto de 2026"
+    ],
+    [
+      "11 August 2026",
+      "11 de agosto de 2026"
+    ],
+    [
+      "8 August 2026",
+      "8 de agosto de 2026"
+    ],
+    [
+      "18 July 2026",
+      "18 de julio de 2026"
+    ],
+    [
+      "Book Two has a name: <em>The Road Still Open</em>",
+      "El Libro Dos tiene nombre: <em>The Road Still Open</em>"
+    ],
+    [
+      "A quiet milestone worth marking. Book One, <a href=\"book.html\"><em>The Bell of Silence</em></a>,\n        is complete — approximately 104,000 words across 47 chapters and one interlude — and it stands\n        on its own; you don't need a second book to finish the story it tells.",
+      "Un hito discreto que vale la pena señalar. El Libro Uno, <a href=\"book.html\"><em>The Bell of Silence</em></a>,\n        está terminado — aproximadamente 104 000 palabras a lo largo de 47 capítulos y un interludio — y se sostiene\n        por sí solo; no necesitas un segundo libro para terminar la historia que cuenta."
+    ],
+    [
+      "But there is a second book, and now it has a title: <strong><em>The Road Still Open</em></strong>.\n        That's all I'll say for a while, and on purpose. No plot, no promises about when — the work of a\n        first book is to earn a second, and I'd rather show you that road than describe it. What I can tell\n        you is where the name comes from in spirit: the peace the ten houses swore has held for four hundred\n        years, and every road that keeps it open costs someone something to walk.",
+      "Pero hay un segundo libro, y ahora tiene título: <strong><em>The Road Still Open</em></strong>.\n        Eso es todo lo que diré por un tiempo, y a propósito. Sin trama, sin promesas sobre cuándo — la tarea de un\n        primer libro es ganarse un segundo, y prefiero mostrarte ese camino a describírtelo. Lo que sí puedo\n        decirte es de dónde viene el nombre en espíritu: la paz que juraron las diez casas ha durado cuatrocientos\n        años, y cada camino que la mantiene abierta le cuesta algo a alguien recorrerlo."
+    ],
+    [
+      "Book Two is in development. When there's a real step to report — not hype, an actual step — it goes\n        here first. Follow the <a href=\"journal.html\">Journal</a> free, and you won't miss it.",
+      "El Libro Dos está en desarrollo. Cuando haya un paso real que reportar — no bombo, un paso de verdad — irá\n        aquí primero. Sigue el <a href=\"journal.html\">Diario</a> gratis, y no te lo perderás."
+    ],
+    [
+      "Which house would you follow? Why Aurefold has no villains",
+      "¿Qué casa seguirías? Por qué Aurefold no tiene villanos"
+    ],
+    [
+      "The question I get asked most about Aurefold is which house is the good one. It's the\n        wrong question — and it's the exact question the whole series is built to refuse.",
+      "La pregunta que más me hacen sobre Aurefold es cuál es la casa buena. Es la\n        pregunta equivocada — y es exactamente la pregunta que toda la serie está construida para rechazar."
+    ],
+    [
+      "The realm is sworn to ten Great Houses, and each is a different wager about what people\n        are for. Blackthorn bets on intellect; Ashbourne on courage; Whitehart on faith;\n        Stormrider on unity; Ravenshade on information; Ironvale on innovation; Blackcrest on the\n        writing of history; Stonebear on honour; Tidebreaker on knowledge; Phoenix on the future.\n        Say those aloud and you can already feel yourself leaning toward one. That lean is the\n        whole story.",
+      "El reino está jurado a diez grandes casas, y cada una es una apuesta distinta sobre para qué sirven las\n        personas. Blackthorn apuesta por el intelecto; Ashbourne por el coraje; Whitehart por la fe;\n        Stormrider por la unidad; Ravenshade por la información; Ironvale por la innovación; Blackcrest por la\n        escritura de la historia; Stonebear por el honor; Tidebreaker por el conocimiento; Phoenix por el futuro.\n        Dilas en voz alta y ya sentirás que te inclinas hacia una. Esa inclinación es toda la\n        historia."
+    ],
+    [
+      "Here's the rule I set myself. Every house has to hold a virtue a decent person could live\n        by — and every virtue has to cost someone something. A house of courage protects the many\n        and spends the few. A house that keeps information moving makes some people safer and\n        leaves others exposed. A house that preserves knowledge can quietly become control over\n        the people who produced it. None of them is lying about their good; none of them is\n        innocent of its cost.",
+      "Esta es la regla que me impuse. Cada casa tiene que sostener una virtud por la que una persona decente pudiera\n        vivir — y cada virtud tiene que costarle algo a alguien. Una casa del coraje protege a los muchos\n        y gasta a los pocos. Una casa que mantiene la información en movimiento hace a algunas personas más seguras y\n        deja a otras expuestas. Una casa que preserva el conocimiento puede convertirse calladamente en control sobre\n        las personas que lo produjeron. Ninguna de ellas miente sobre su bien; ninguna es\n        inocente de su costo."
+    ],
+    [
+      "That's why there is no villain to root against. The tension in\n        <a href=\"book.html\"><em>The Bell of Silence</em></a> isn't good versus evil; it's your\n        sympathy pulling two ways at once and refusing to settle. The book opens on that kind of\n        collision — a goatherd who will not say more than she knows, and a house built to test\n        anyone who claims to have heard something. Both sides are defensible. That is the problem,\n        and I never let the reader off the hook of it.",
+      "Por eso no hay villano al que abuchear. La tensión en\n        <a href=\"book.html\"><em>The Bell of Silence</em></a> no es el bien contra el mal; es tu\n        simpatía tirando en dos direcciones a la vez y negándose a decidir. El libro abre con esa clase de\n        colisión — una cabrera que no dirá más de lo que sabe, y una casa construida para poner a prueba\n        a cualquiera que afirme haber oído algo. Ambos bandos son defendibles. Ese es el problema,\n        y nunca dejo que el lector se libre de él."
+    ],
+    [
+      "I think that's what \"morally grey\" should actually mean. Not that everyone is a little\n        bad, but that everyone is defensibly right from inside their own logic — and you're left\n        holding the trade-off the characters can't. So I'll keep asking the wrong question on\n        purpose: not which house is good, but which house would <em>you</em> follow?\n        <a href=\"quiz.html\">Take the six-question quiz</a> and find out where your sympathy really\n        lands — then argue with the result. The houses would. You can meet all ten on\n        <a href=\"houses.html\">the Great Houses page</a>.",
+      "Creo que eso es lo que «moralmente gris» debería significar en realidad. No que todos sean un poco\n        malos, sino que todos tienen razón de forma defendible desde dentro de su propia lógica — y a ti te queda\n        cargar con la disyuntiva que los personajes no pueden. Así que seguiré haciendo la pregunta equivocada a\n        propósito: no qué casa es buena, sino ¿qué casa seguirías <em>tú</em>?\n        <a href=\"quiz.html\">Haz el test de seis preguntas</a> y descubre dónde aterriza de verdad tu simpatía\n        — y luego discute con el resultado. Las casas lo harían. Puedes conocer las diez en\n        <a href=\"houses.html\">la página de las grandes casas</a>."
+    ],
+    [
+      "Ten philosophies, one map: how the Great Houses were built",
+      "Diez filosofías, un mapa: cómo se construyeron las grandes casas"
+    ],
+    [
+      "People assume you build a fantasy world by drawing the map first. I built Aurefold the\n        other way round. I started with ten arguments, and the map is only where they landed.",
+      "La gente supone que se construye un mundo de fantasía dibujando primero el mapa. Yo construí Aurefold\n        al revés. Empecé con diez argumentos, y el mapa es solo donde estos aterrizaron."
+    ],
+    [
+      "Each Great House began as a single question about how people should live together — not a\n        colour, not a sigil, not a castle, a question. <em>\"What should the most capable mind be\n        permitted to decide for everyone else?\"</em> became Blackthorn. <em>\"When does bravery\n        protect others, and when does it demand that others pay?\"</em> became Ashbourne. Ten\n        questions, ten houses. <a href=\"houses.html\">You can read all ten, each with the question\n        its virtue forces on everyone else.</a>",
+      "Cada gran casa empezó como una sola pregunta sobre cómo deberían convivir las personas — no un\n        color, no un blasón, no un castillo, una pregunta. <em>«¿Qué se le debería permitir decidir a la\n        mente más capaz en nombre de todos los demás?»</em> se convirtió en Blackthorn. <em>«¿Cuándo protege la valentía\n        a los demás, y cuándo exige que otros paguen?»</em> se convirtió en Ashbourne. Diez\n        preguntas, diez casas. <a href=\"houses.html\">Puedes leer las diez, cada una con la pregunta\n        que su virtud impone a todos los demás.</a>"
+    ],
+    [
+      "The test I gave myself was simple: a house is only real if one of its own members could\n        state its philosophy sympathetically and mean it. The moment a house can only be described\n        by its enemies, it has stopped being a culture and become a cartoon. So I wrote each one\n        from the inside first — what it is proud of — and only then went looking for the cost that\n        pride hides.",
+      "La prueba que me puse fue sencilla: una casa solo es real si uno de sus propios miembros pudiera\n        enunciar su filosofía con simpatía y creerlo. En el momento en que una casa solo puede describirse\n        por sus enemigos, ha dejado de ser una cultura y se ha vuelto una caricatura. Así que escribí cada una\n        desde dentro primero — de qué se enorgullece — y solo entonces me puse a buscar el costo que ese\n        orgullo oculta."
+    ],
+    [
+      "Geography came after that. A house that charts everything and shares almost none of it\n        wants a coastline and a lighthouse. A house of unity wants roads, and the passes that hold\n        the valleys together. A house built on the idea of the future wants scorched ground it can\n        insist on rebuilding. <a href=\"map.html\">The map</a> is really a diagram of ten\n        temperaments, drawn as terrain.",
+      "La geografía vino después. Una casa que cartografía todo y no comparte casi nada de ello\n        quiere una costa y un faro. Una casa de la unidad quiere caminos, y los pasos que mantienen\n        unidos los valles. Una casa construida sobre la idea del futuro quiere tierra calcinada que pueda\n        insistir en reconstruir. <a href=\"map.html\">El mapa</a> es en realidad un diagrama de diez\n        temperamentos, dibujado como terreno."
+    ],
+    [
+      "Over all of it sits the thing that makes the houses press against each other: the Tenfold\n        Compact, the peace they swore on cooling ground after the war that made them, and have\n        kept — by one measure or another — for four hundred years.\n        <a href=\"history.html\">That history</a> holds. It just costs a little more every year to\n        keep, and Book One is set in the one valley where the cost finally comes due for a single\n        ordinary person.",
+      "Sobre todo ello se asienta aquello que hace que las casas se aprieten unas contra otras: the Tenfold\n        Compact, la paz que juraron sobre tierra que aún se enfriaba tras la guerra que las forjó, y que han\n        mantenido — de una forma u otra — durante cuatrocientos años.\n        <a href=\"history.html\">Esa historia</a> se sostiene. Solo cuesta un poco más cada año\n        mantenerla, y el Libro Uno transcurre en el único valle donde el costo por fin vence para una sola\n        persona corriente."
+    ],
+    [
+      "If you want the method in a line: start with what people believe, make the belief cost\n        something, and let the world grow around the argument. The houses came first. The map only\n        tells you where they had to stand.",
+      "Si quieres el método en una línea: empieza con lo que la gente cree, haz que la creencia cueste\n        algo, y deja que el mundo crezca en torno al argumento. Las casas vinieron primero. El mapa solo\n        te dice dónde tuvieron que situarse."
+    ],
+    [
+      "Book Two has a name: The Road Still Open",
+      "El Libro Dos tiene nombre: The Road Still Open"
+    ],
+    [
+      "Building this one in the open",
+      "Construyendo este a la vista de todos"
+    ],
+    [
+      "Most books arrive as a finished object, with none of the road that led there.\n        Aurefold is going the other way. From here to publication, the work happens where\n        readers can see it — reader testing, cover and interior design, print proofs, the\n        campaign — and this journal is where each real step gets written down.",
+      "La mayoría de los libros llegan como un objeto terminado, sin nada del camino que llevó hasta allí.\n        Aurefold va en sentido contrario. De aquí a la publicación, el trabajo sucede donde\n        los lectores pueden verlo — pruebas con lectores, diseño de cubierta e interior, pruebas de imprenta, la\n        campaña — y este diario es donde se escribe cada paso real."
+    ],
+    [
+      "No hype, no invented milestones. When something genuinely moves, it goes here, and\n        it goes to <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">free\n        members</a> first. If you want to watch a book get made rather than just buy the\n        result, you're in the right place.",
+      "Sin bombo, sin hitos inventados. Cuando algo se mueve de verdad, va aquí, y\n        va a los <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">miembros\n        gratuitos</a> primero. Si quieres ver cómo se hace un libro en lugar de solo comprar el\n        resultado, estás en el lugar correcto."
+    ],
+    [
+      "Where the project stands",
+      "En qué punto está el proyecto"
+    ],
+    [
+      "Book One, <em>The Bell of Silence</em>, is a <strong>completed manuscript of\n        approximately 104,000 words</strong>, across 47 chapters and one interlude. Internal\n        developmental revision is finished.",
+      "El Libro Uno, <em>The Bell of Silence</em>, es un <strong>manuscrito terminado de\n        aproximadamente 104 000 palabras</strong>, a lo largo de 47 capítulos y un interludio. La revisión\n        estructural interna está terminada."
+    ],
+    [
+      "<p>The next stages, in order:</p>",
+      "<p>Las siguientes etapas, en orden:</p>"
+    ],
+    [
+      "<li>External reader testing and final revision</li>",
+      "<li>Pruebas con lectores externos y revisión final</li>"
+    ],
+    [
+      "<li>Professional proofreading</li>",
+      "<li>Corrección profesional</li>"
+    ],
+    [
+      "<li>Cover development and interior design</li>",
+      "<li>Desarrollo de la cubierta y diseño de interior</li>"
+    ],
+    [
+      "<li>Print proofs and production testing</li>",
+      "<li>Pruebas de imprenta y pruebas de producción</li>"
+    ],
+    [
+      "<li>Crowdfunding, then publication</li>",
+      "<li>Crowdfunding, luego publicación</li>"
+    ],
+    [
+      "You can read the opening on the <a href=\"read.html\">Excerpt</a> page, and see how the\n        work is supported on the <a href=\"support.html\">Support</a> page. Each stage above\n        gets its own entry here as it's reached.",
+      "Puedes leer el comienzo en la página <a href=\"read.html\">Extracto</a>, y ver cómo se\n        sostiene el trabajo en la página <a href=\"support.html\">Apoyo</a>. Cada etapa anterior\n        recibe su propia entrada aquí a medida que se alcanza."
+    ],
+    [
+      "<h2 class=\"book-title\">Don't miss the next entry.</h2>",
+      "<h2 class=\"book-title\">No te pierdas la próxima entrada.</h2>"
+    ],
+    [
+      "Free members hear every update first — no cost, unsubscribe any time.",
+      "Los miembros gratuitos reciben cada actualización primero — sin costo, cancela cuando quieras."
+    ],
+    [
+      "Follow free",
+      "Sigue gratis"
+    ],
+    [
+      "How to support",
+      "Cómo apoyar"
+    ]
   ]
 }
