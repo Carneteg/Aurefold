@@ -1,36 +1,20 @@
 {
   "blocks": [
     [
-      "YOU WOULD FOLLOW",
-      "DU SKULLE FÖLJA"
-    ],
-    [
-      "Which house are you? Take the quiz",
-      "Vilket hus är du? Gör testet"
-    ],
-    [
-      "Follow free",
-      "Följ gratis"
-    ],
-    [
-      "Meet all ten houses &rarr;",
-      "Möt alla tio hus &rarr;"
-    ],
-    [
-      "Tell them which house you'd follow",
-      "Berätta vilket hus du skulle följa"
-    ],
-    [
-      ">Share on X<",
-      ">Dela på X<"
-    ],
-    [
-      ">Copy</button>",
-      ">Kopiera</button>"
-    ],
-    [
       "The book's canon and central mysteries are the author's; the Moot and this quiz shape the world around it — what the archive opens or explores next — never the story's heart.",
       "Bokens kanon och centrala mysterier är författarens; Tinget och det här testet formar världen kring den — vad arkivet öppnar eller utforskar härnäst — aldrig berättelsens hjärta."
+    ],
+    [
+      "Faith. They listen for a voice — and test those who claim to hear it. Take the quiz and find your house of Aurefold.",
+      "Tro. De lyssnar efter en röst — och prövar dem som säger sig höra den. Gör testet och hitta ditt hus i Aurefold."
+    ],
+    [
+      "“Can a community survive without shared meaning, and what happens when meaning requires certainty?”",
+      "”Kan en gemenskap överleva utan gemensam mening, och vad händer när mening kräver visshet?”"
+    ],
+    [
+      "<p class=\"quiz-result-line\">“They listen for a voice — and test those who claim to hear it.”</p>",
+      "<p class=\"quiz-result-line\">“De lyssnar efter en röst — och prövar dem som säger sig höra den.”</p>"
     ],
     [
       "House Whitehart — Which house would you follow? | AUREFOLD",
@@ -41,28 +25,52 @@
       "Jag skulle följa House Whitehart — vilket hus skulle du följa?"
     ],
     [
-      "Faith. They listen for a voice — and test those who claim to hear it. Take the quiz and find your house of Aurefold.",
-      "Tro. De lyssnar efter en röst — och prövar dem som säger sig höra den. Gör testet och hitta ditt hus i Aurefold."
+      "<p class=\"quiz-result-phil\">Faith</p>",
+      "<p class=\"quiz-result-phil\">Tro</p>"
+    ],
+    [
+      "Raise a character in the Banner Hall",
+      "Res en karaktär i Banerhallen"
+    ],
+    [
+      "Which house are you? Take the quiz",
+      "Vilket hus är du? Gör testet"
+    ],
+    [
+      "Tell them which house you'd follow",
+      "Berätta vilket hus du skulle följa"
     ],
     [
       "House Whitehart — Faith — AUREFOLD",
       "House Whitehart — Tro — AUREFOLD"
     ],
     [
-      "<p class=\"quiz-result-phil\">Faith</p>",
-      "<p class=\"quiz-result-phil\">Tro</p>"
-    ],
-    [
-      "<p class=\"quiz-result-line\">“They listen for a voice — and test those who claim to hear it.”</p>",
-      "<p class=\"quiz-result-line\">“De lyssnar efter en röst — och prövar dem som säger sig höra den.”</p>"
-    ],
-    [
       "Cast this as your vote in The Moot",
       "Lägg detta som din röst i Tinget"
     ],
     [
-      "Raise a character in the Banner Hall",
-      "Res en karaktär i Banerhallen"
+      "Meet all ten houses &rarr;",
+      "Möt alla tio hus &rarr;"
+    ],
+    [
+      "The question it forces",
+      "Frågan den tvingar fram"
+    ],
+    [
+      "YOU WOULD FOLLOW",
+      "DU SKULLE FÖLJA"
+    ],
+    [
+      ">Copy</button>",
+      ">Kopiera</button>"
+    ],
+    [
+      ">Share on X<",
+      ">Dela på X<"
+    ],
+    [
+      "Follow free",
+      "Följ gratis"
     ]
   ]
 }

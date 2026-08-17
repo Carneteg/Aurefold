@@ -84,6 +84,7 @@
         back: "← Back",
         eyebrow: "YOU WOULD FOLLOW",
         castVote: "Cast this as your vote in The Moot",
+        listLine: "Curious where House {name}'s story goes? I'll let you know — once, when it's real.",
         aboutHouse: "Read about your house",
         followFree: "Follow free",
         joinReaders: function (n) { return "Join " + n + " reader" + (n === 1 ? "" : "s") + " following along"; },
@@ -150,6 +151,7 @@
         back: "← Tillbaka",
         eyebrow: "DU SKULLE FÖLJA",
         castVote: "Lägg detta som din röst i Tinget",
+        listLine: "Nyfiken på vart hus {name}s berättelse tar vägen? Jag hör av mig — en gång, när det är på riktigt.",
         aboutHouse: "Läs om ditt hus",
         followFree: "Följ gratis",
         joinReaders: function (n) { return "Gå med " + n + " läsare som följer med"; },
@@ -216,6 +218,7 @@
         back: "← Atrás",
         eyebrow: "SEGUIRÍAS A",
         castVote: "Lleva esto como tu voto en El Cónclave",
+        listLine: "¿Curiosidad por saber adónde va la historia de la Casa {name}? Te avisaré — una vez, cuando sea real.",
         aboutHouse: "Lee sobre tu casa",
         followFree: "Sigue gratis",
         joinReaders: function (n) { return "Únete a " + n + " lector" + (n === 1 ? "" : "es") + " que siguen el proyecto"; },
@@ -282,6 +285,7 @@
         back: "← Retour",
         eyebrow: "VOUS SUIVRIEZ",
         castVote: "Portez ceci comme votre vote au Conseil",
+        listLine: "Curieux de savoir où va l’histoire de la Maison {name} ? Je vous préviendrai — une fois, quand ce sera réel.",
         aboutHouse: "Lisez à propos de votre maison",
         followFree: "Suivre gratuitement",
         joinReaders: function (n) { return "Rejoignez " + n + " lecteur" + (n === 1 ? "" : "s") + " qui suivent le projet"; },
@@ -348,6 +352,7 @@
         back: "← 返回",
         eyebrow: "你会追随",
         castVote: "把它作为你在议会的一票",
+        listLine: "想知道{name}家族的故事走向何方？有真正的消息时，我会告诉你——只此一次。",
         aboutHouse: "阅读关于你的家族",
         followFree: "免费关注",
         joinReaders: function (n) { return "加入 " + n + " 位持续关注的读者"; },
@@ -414,6 +419,7 @@
         back: "← 戻る",
         eyebrow: "あなたが従うのは",
         castVote: "これを合議での一票とする",
+        listLine: "{name}家の物語がどこへ向かうのか気になりますか。本当に動いたとき、一度だけお知らせします。",
         aboutHouse: "あなたの家門について読む",
         followFree: "無料でフォロー",
         joinReaders: function (n) { return n + "人の読者とともに追いかける"; },
@@ -438,6 +444,15 @@
     return n;
   }
 
+  function leadingHouse() {
+    var tally = {}, best = null, bestN = -1;
+    answers.forEach(function (h) {
+      tally[h] = (tally[h] || 0) + 1;
+      if (tally[h] > bestN) { bestN = tally[h]; best = h; }
+    });
+    return best;
+  }
+
   function render(i) {
     root.innerHTML = "";
     var total = Q.length;
@@ -447,6 +462,14 @@
     var fill = el("div", "quiz-bar-fill");
     fill.style.width = Math.round((i / total) * 100) + "%";
     bar.appendChild(fill); root.appendChild(bar);
+
+    // The leading house tints the progress accents (--hc); decorative rule
+    // sits in normal flow so it can never harm text contrast.
+    root.style.setProperty("--hc", answers.length ? "var(--house-" + leadingHouse() + ")" : "");
+    var rule = el("div", "quiz-rule");
+    rule.setAttribute("aria-hidden", "true");
+    rule.appendChild(el("span", "quiz-rule-mark"));
+    root.appendChild(rule);
 
     root.appendChild(el("h2", "quiz-question", Q[i].q));
     var list = el("div", "quiz-options");
@@ -480,6 +503,13 @@
 
     root.innerHTML = "";
     var card = el("div", "quiz-result");
+    card.style.setProperty("--hc", "var(--house-" + best + ")");
+    var sigil = document.createElement("img");
+    sigil.className = "result-sigil";
+    sigil.src = "assets/sigils/" + best + ".webp";
+    sigil.alt = "";
+    sigil.onerror = function () { if (this.dataset.f) { this.hidden = true; } else { this.dataset.f = 1; this.src = "assets/sigils/" + best + ".png"; } };
+    card.appendChild(sigil);
     card.appendChild(el("p", "quiz-result-eyebrow", UI.eyebrow));
     card.appendChild(el("h2", "quiz-result-house", house.name));
     card.appendChild(el("p", "quiz-result-phil", T.phil[best]));
@@ -512,6 +542,17 @@
 
     row.appendChild(a1); row.appendChild(aAbout); row.appendChild(a2);
     card.appendChild(row);
+
+    // Quiet owned-list line — the highest-intent moment gets an honest option.
+    if (UI.listLine && document.getElementById("reading-list")) {
+      var listP = el("p", "world-note");
+      var listA = document.createElement("a");
+      listA.href = "#reading-list";
+      listA.textContent = UI.listLine.replace("{name}", shortName);
+      listP.appendChild(listA);
+      listP.style.marginTop = "16px";
+      card.appendChild(listP);
+    }
 
     // Social proof, if a real member count is configured (hidden otherwise).
     var mem = ((window.AUREFOLD_COMMUNITY || {}).momentum || {}).members;

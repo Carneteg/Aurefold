@@ -14,6 +14,7 @@
   var LANG = (document.documentElement.lang || "en").slice(0, 2);
   var TX = {
     en: {
+      gateTitle: "Sign in to raise a character",
       loading: "Opening the hall…",
       empty: "The hall stands empty — no reader-sworn characters yet. Yours could be the first to raise a banner.",
       failed: "The archive could not be reached. Try again in a moment.",
@@ -41,6 +42,7 @@
       conceptRequired: "Give them at least a line of who they are."
     },
     sv: {
+      gateTitle: "Logga in för att resa en karaktär",
       loading: "Öppnar hallen…",
       empty: "Hallen står tom — inga läsarsvurna karaktärer ännu. Din kan bli den första att resa ett baner.",
       failed: "Arkivet kunde inte nås. Försök igen om en stund.",
@@ -68,6 +70,7 @@
       conceptRequired: "Ge dem åtminstone en rad om vem de är."
     },
     es: {
+      gateTitle: "Inicia sesión para alzar un personaje",
       loading: "Abriendo la Sala…",
       empty: "La Sala está vacía — aún no hay personajes jurados por lectores. El tuyo podría ser el primero en alzar un estandarte.",
       failed: "No se pudo contactar con el archivo. Inténtalo de nuevo en un momento.",
@@ -95,6 +98,7 @@
       conceptRequired: "Dales al menos una línea de quiénes son."
     },
     fr: {
+      gateTitle: "Connectez-vous pour dresser un personnage",
       loading: "Ouverture de la Salle…",
       empty: "La Salle se dresse vide — aucun personnage juré par un lecteur pour l’instant. Le vôtre pourrait être le premier à lever une bannière.",
       failed: "Impossible de joindre l’archive. Réessayez dans un instant.",
@@ -122,6 +126,7 @@
       conceptRequired: "Donnez-leur au moins une ligne sur qui ils sont."
     },
     zh: {
+      gateTitle: "登录以创建角色",
       loading: "正在打开大厅…",
       empty: "大厅空无一人——尚无读者宣誓创建的角色。你的角色也许会是第一个举起旗帜的人。",
       failed: "无法连接到档案。请稍后再试。",
@@ -149,6 +154,7 @@
       conceptRequired: "请至少写一行说明他们是谁。"
     },
     ja: {
+      gateTitle: "サインインしてキャラクターを立てる",
       loading: "広間を開いています…",
       empty: "広間はまだ空だ——読者が誓いを立てたキャラクターはまだいない。最初に旗印を掲げるのはあなたかもしれない。",
       failed: "記録に接続できませんでした。しばらくしてからもう一度お試しください。",
@@ -265,7 +271,7 @@
   function renderForm() {
     formBox.innerHTML = "";
     if (!A.user()) {
-      A.renderGate(formBox, { intro: t("gateIntro") });
+      A.renderGate(formBox, { title: t("gateTitle"), intro: t("gateIntro") });
       return;
     }
     var card = el("div", "auth-gate banner-create");

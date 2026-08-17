@@ -3,452 +3,164 @@
   "description": "Följ The Bell of Silence från färdigt manuskript till utgivning. Gå med i Aurefold gratis, utforska Patreon-medlemskap och få framtida crowdfunding-uppdateringar.",
   "blocks": [
     [
-      "THE ROAD TO PUBLICATION",
-      "VÄGEN TILL UTGIVNING"
+      "Members receive closer access to the making of Aurefold. They do not purchase\n        authority over its canon. The ten Houses, the central plot, the characters' fates,\n        and the unresolved mysteries remain the responsibility of the author. What the Moot\n        can shape is the world around the book — which supplemental material, art, or topic\n        the archive opens next, and bounded extras like which side-story gets written or the\n        name of a minor figure in the supplementary lore. The heart of the story stays the\n        author's, and no vote is bought — one voice per reader.",
+      "Medlemmar får närmare tillgång till Aurefolds tillkomst. De köper inte\n        makt över dess kanon. De tio husen, den centrala handlingen, karaktärernas öden,\n        och de olösta mysterierna förblir författarens ansvar. Vad Tinget\n        kan forma är världen kring boken — vilket kompletterande material, vilken konst eller vilket ämne\n        arkivet öppnar härnäst, och avgränsade extramoment som vilken sidoberättelse som skrivs eller\n        namnet på en mindre gestalt i den kompletterande loren. Berättelsens hjärta förblir\n        författarens, och ingen röst köps — en röst per läsare."
     ],
     [
-      "Help bring <em>The Bell of Silence</em> into print.",
-      "Hjälp <em>The Bell of Silence</em> i tryck."
-    ],
-    [
-      "Book One is written. The next work is turning a finished manuscript into a\n        professionally edited, designed, printed, and delivered book. Join the Aurefold\n        community for free, follow every major step, or become a member and help carry\n        the work forward.",
-      "Bok Ett är skriven. Nästa arbete är att förvandla ett färdigt manuskript till en\n        professionellt redigerad, formgiven, tryckt och levererad bok. Gå med i Aurefold-\n        gemenskapen gratis, följ varje stort steg, eller bli medlem och hjälp till att bära\n        arbetet vidare."
-    ],
-    [
-      "No canon is sold. No mystery is decided by payment. Support brings access to the work behind the book — not control over the story.",
-      "Ingen kanon säljs. Inget mysterium avgörs genom betalning. Stöd ger tillgång till arbetet bakom boken — inte kontroll över berättelsen."
-    ],
-    [
-      "Follow free",
-      "Följ gratis"
-    ],
-    [
-      "Read the opening",
-      "Läs början"
-    ],
-    [
-      "<h2 class=\"section-title\">Where the project stands</h2>",
-      "<h2 class=\"section-title\">Var projektet står</h2>"
-    ],
-    [
-      "<span class=\"status-label\">Manuscript</span>",
-      "<span class=\"status-label\">Manuskript</span>"
-    ],
-    [
-      "<span class=\"status-label\">Internal developmental revision</span>",
-      "<span class=\"status-label\">Intern strukturell bearbetning</span>"
-    ],
-    [
-      "<span class=\"status-label\">External reader programme</span>",
-      "<span class=\"status-label\">Program för externa läsare</span>"
-    ],
-    [
-      "<span class=\"status-label\">Professional proofreading</span>",
-      "<span class=\"status-label\">Professionell korrektur</span>"
-    ],
-    [
-      "<span class=\"status-label\">Cover &amp; interior design</span>",
-      "<span class=\"status-label\">Omslag &amp; inlaga</span>"
-    ],
-    [
-      "<span class=\"status-label\">Print preparation</span>",
-      "<span class=\"status-label\">Tryckförberedelse</span>"
-    ],
-    [
-      "<span class=\"status-label\">Crowdfunding campaign</span>",
-      "<span class=\"status-label\">Crowdfunding-kampanj</span>"
-    ],
-    [
-      "<span class=\"status-state\">Complete</span>",
-      "<span class=\"status-state\">Klart</span>"
-    ],
-    [
-      "<span class=\"status-state\">Next stage</span>",
-      "<span class=\"status-state\">Nästa steg</span>"
-    ],
-    [
-      "<span class=\"status-state\">Planned</span>",
-      "<span class=\"status-state\">Planerat</span>"
-    ],
-    [
-      "<span class=\"status-state\">In preparation</span>",
-      "<span class=\"status-state\">Under förberedelse</span>"
-    ],
-    [
-      "<h2 class=\"section-title\">What your support makes possible</h2>",
-      "<h2 class=\"section-title\">Vad ditt stöd gör möjligt</h2>"
-    ],
-    [
-      "<li>External reader testing and final revision</li>",
-      "<li>Testning med externa läsare och slutlig bearbetning</li>"
-    ],
-    [
-      "<li>Professional proofreading</li>",
-      "<li>Professionell korrektur</li>"
-    ],
-    [
-      "<li>Cover development and licensed artwork</li>",
-      "<li>Omslagsutveckling och licensierad konst</li>"
-    ],
-    [
-      "<li>Interior design and typesetting</li>",
-      "<li>Inlageformgivning och sättning</li>"
-    ],
-    [
-      "<li>Print proofs and production testing</li>",
-      "<li>Tryckprover och produktionstestning</li>"
-    ],
-    [
-      "<li>Website, audio, trailer, and campaign material</li>",
-      "<li>Webbplats, ljud, trailer och kampanjmaterial</li>"
-    ],
-    [
-      "<li>Crowdfunding preparation</li>",
-      "<li>Förberedelse av crowdfunding</li>"
-    ],
-    [
-      "<li>Contingency for fulfilment and damaged copies</li>",
-      "<li>Reserv för leverans och skadade exemplar</li>"
-    ],
-    [
-      "<h2 class=\"section-title\">Peek inside membership</h2>",
-      "<h2 class=\"section-title\">En titt inuti medlemskapet</h2>"
-    ],
-    [
-      "Members don't just get news — they get the making of the book. Here are two\n        examples of the kind of thing that goes out. The openings are public; members\n        read the rest.",
-      "Medlemmar får inte bara nyheter — de får bokens tillkomst. Här är två\n        exempel på vad som går ut. Öppningarna är offentliga; medlemmar\n        läser resten."
-    ],
-    [
-      "Annotated page · craft note",
-      "Kommenterad sida · hantverksnotis"
-    ],
-    [
-      "Why the book opens on an argument, not the goatherd",
-      "Varför boken öppnar med ett gräl, inte getvallaren"
+      "<summary>Does membership influence the story?</summary><p>The central plot, canon, and the book's unresolved mysteries are the author's alone. What the community can shape through the Moot is the world around the book — which material or art the archive opens next, and bounded extras like which side-story gets written or a minor figure's name in the supplementary lore. Membership brings closer access to how Aurefold is made, not authority over its canon.</p>",
+      "<summary>Påverkar medlemskap berättelsen?</summary><p>Den centrala handlingen, kanon och bokens olösta mysterier är författarens ensak. Vad gemenskapen kan forma genom Tinget är världen kring boken — vilket material eller vilken konst arkivet öppnar härnäst, och avgränsade extramoment som vilken sidoberättelse som skrivs eller en mindre gestalts namn i den kompletterande loren. Medlemskap ger närmare tillgång till hur Aurefold görs, inte makt över dess kanon.</p>"
     ],
     [
       "Book One doesn't begin with Sela. It begins in a sealed room, far from the\n              valley, where three officials argue over a record they cannot fully trust.\n              The choice is deliberate. Before you meet the girl, you meet the machine\n              that will decide what she means — the witnessing, the wax seals, the burned\n              trial notes, the sentence that closes every question by calling it\n              answered.",
       "Bok Ett börjar inte med Sela. Den börjar i ett förseglat rum, långt från\n              dalen, där tre tjänstemän tvistar om en handling de inte helt kan lita på.\n              Valet är avsiktligt. Innan du möter flickan möter du maskineriet\n              som ska avgöra vad hon betyder — vittnandet, vaxsigillen, de brända\n              rättegångsanteckningarna, domen som stänger varje fråga genom att kalla den\n              besvarad."
     ],
     [
-      "What that does to a reader, and why the whole novel is built to make you\n              feel the record before you feel the person, is the part I want to walk\n              through — including the two lines I cut, and the one I almost cut and\n              didn't&hellip;",
-      "Vad det gör med en läsare, och varför hela romanen är byggd för att få dig att\n              känna handlingen innan du känner människan, är den del jag vill gå\n              igenom — inklusive de två rader jag strök, och den jag nästan strök men\n              lät stå&hellip;"
-    ],
-    [
-      "<span>Members read the full note</span>",
-      "<span>Medlemmar läser hela notisen</span>"
-    ],
-    [
-      "Worldbuilding · house deep-dive",
-      "Världsbygge · fördjupning i ett hus"
-    ],
-    [
-      "What House Whitehart is really afraid of",
-      "Vad House Whitehart egentligen är rädd för"
-    ],
-    [
       "Whitehart is called the house of faith, but faith is not what it guards.\n              It exists to <em>test</em> — to stand between a person who says they heard\n              something and a world that badly wants the question settled. A house built\n              to doubt on everyone's behalf is a strange kind of church.",
       "Whitehart kallas trons hus, men det är inte tron det vaktar.\n              Det finns till för att <em>pröva</em> — att stå mellan en människa som säger sig ha hört\n              något och en värld som gärna vill ha frågan avgjord. Ett hus byggt\n              för att tvivla å allas vägnar är en sällsam sorts kyrka."
     ],
     [
-      "This note goes into how the listening house actually works — the testing\n              rite, why the valley both needs it and resents it, and the quiet fear that\n              runs under all of it: what happens the day the testers are wrong&hellip;",
-      "Den här notisen går in på hur det lyssnande huset faktiskt fungerar — prövnings-\n              riten, varför dalen både behöver det och avskyr det, och den tysta rädsla som\n              löper under alltihop: vad som händer den dag prövarna har fel&hellip;"
+      "<em>The Bell of Silence</em> is a story about testimony: about a person who will\n          say only what she knows, and a world that would rather settle the meaning of a\n          silence than live with an open question. It's the kind of book I most want to\n          read, so it's the kind of book I set out to write.",
+      "<em>The Bell of Silence</em> är en berättelse om vittnesmål: om en människa som bara vill\n          säga det hon vet, och en värld som hellre avgör innebörden av en\n          tystnad än lever med en öppen fråga. Det är den sortens bok jag helst vill\n          läsa, så det är den sortens bok jag satte mig för att skriva."
     ],
     [
-      "<span>Members read the full deep-dive</span>",
-      "<span>Medlemmar läser hela fördjupningen</span>"
-    ],
-    [
-      "Unlock on Patreon",
-      "Lås upp på Patreon"
-    ],
-    [
-      "New member material goes out regularly. Nothing here spoils\n        the story's unanswered questions — those stay with the book.",
-      "Nytt medlemsmaterial går ut regelbundet. Inget här avslöjar\n        berättelsens obesvarade frågor — de stannar hos boken."
-    ],
-    [
-      "<h2 class=\"section-title\">Ways to take part</h2>",
-      "<h2 class=\"section-title\">Sätt att delta</h2>"
-    ],
-    [
-      "<h3>Traveller</h3>",
-      "<h3>Resenär</h3>"
-    ],
-    [
-      "<h3>Witness</h3>",
-      "<h3>Vittne</h3>"
-    ],
-    [
-      "<h3>Chronicler</h3>",
-      "<h3>Krönikör</h3>"
-    ],
-    [
-      "<h3>Keeper of the Blank Page</h3>",
-      "<h3>Den tomma sidans väktare</h3>"
-    ],
-    [
-      "<p class=\"tier-price\">Free</p>",
-      "<p class=\"tier-price\">Gratis</p>"
-    ],
-    [
-      "<span>/month</span>",
-      "<span>/månad</span>"
-    ],
-    [
-      "<p class=\"tier-badge\">Most popular</p>",
-      "<p class=\"tier-badge\">Mest populär</p>"
-    ],
-    [
-      "<li>Public updates</li>",
-      "<li>Offentliga uppdateringar</li>"
-    ],
-    [
-      "<li>Selected excerpts</li>",
-      "<li>Utvalda utdrag</li>"
-    ],
-    [
-      "<li>World introductions</li>",
-      "<li>Introduktioner till världen</li>"
-    ],
-    [
-      "<li>Campaign news</li>",
-      "<li>Kampanjnyheter</li>"
-    ],
-    [
-      "<li>Major publication milestones</li>",
-      "<li>Viktiga utgivningsmilstolpar</li>"
-    ],
-    [
-      "<li>First to know when crowdfunding opens</li>",
-      "<li>Först att få veta när crowdfundingen öppnar</li>"
-    ],
-    [
-      "<li>Monthly development update</li>",
-      "<li>Månatlig utvecklingsuppdatering</li>"
-    ],
-    [
-      "<li>Selected early excerpts</li>",
-      "<li>Utvalda tidiga utdrag</li>"
-    ],
-    [
-      "<li>Behind-the-scenes notes</li>",
-      "<li>Anteckningar bakom kulisserna</li>"
-    ],
-    [
-      "<li>Non-canonical member polls</li>",
-      "<li>Icke-kanoniska medlemsomröstningar</li>"
-    ],
-    [
-      "<li>Optional digital thank-you credit</li>",
-      "<li>Valfritt digitalt tack-omnämnande</li>"
-    ],
-    [
-      "<li>All Witness benefits</li>",
-      "<li>Alla Vittne-förmåner</li>"
-    ],
-    [
-      "<li>Deeper monthly Aurefold material</li>",
-      "<li>Fördjupat månatligt Aurefold-material</li>"
-    ],
-    [
-      "<li>Worldbuilding and archive features</li>",
-      "<li>Världsbygge och arkivinslag</li>"
-    ],
-    [
-      "<li>Early visual and campaign previews</li>",
-      "<li>Tidiga visuella och kampanjrelaterade förhandstittar</li>"
-    ],
-    [
-      "<li>Quarterly written Q&amp;A</li>",
-      "<li>Kvartalsvis skriftlig frågestund</li>"
-    ],
-    [
-      "<li>All Chronicler benefits</li>",
-      "<li>Alla Krönikör-förmåner</li>"
-    ],
-    [
-      "<li>Optional founding-supporter recognition</li>",
-      "<li>Valfritt erkännande som grundande stödjare</li>"
-    ],
-    [
-      "<li>Digital Founding Patron Dossier when completed</li>",
-      "<li>Digitalt grundarmecenatsdossier när det färdigställts</li>"
-    ],
-    [
-      "<li>Advance major campaign previews</li>",
-      "<li>Tidiga förhandstittar på större kampanjmoment</li>"
-    ],
-    [
-      "<li>Priority written Q&amp;A submissions</li>",
-      "<li>Förtur för skriftliga frågor</li>"
-    ],
-    [
-      "<li>Selected production notes</li>",
-      "<li>Utvalda produktionsanteckningar</li>"
-    ],
-    [
-      "Join free — be first to know",
-      "Gå med gratis — var först att veta"
-    ],
-    [
-      "Become a Witness",
-      "Bli ett Vittne"
-    ],
-    [
-      "Become a Chronicler",
-      "Bli en Krönikör"
-    ],
-    [
-      "Become a Keeper",
-      "Bli en Väktare"
-    ],
-    [
-      "Joining now — free or paid — secures founding-member recognition and first notice the moment crowdfunding opens.",
-      "Att gå med nu — gratis eller betalt — säkrar erkännande som grundande medlem och första besked i samma stund crowdfundingen öppnar."
-    ],
-    [
-      "Patreon may display prices in the visitor's local currency. Memberships can be cancelled through Patreon.",
-      "Patreon kan visa priser i besökarens lokala valuta. Medlemskap kan sägas upp via Patreon."
-    ],
-    [
-      "<h2 class=\"section-title\">Membership now. Crowdfunding later.</h2>",
-      "<h2 class=\"section-title\">Medlemskap nu. Crowdfunding senare.</h2>"
+      "Aurefold is being built in the open, and there's room for a few collaborators who\n        want to help carry Book One to publication. These are <strong>pro bono</strong>\n        roles — unpaid, but credited, with a real hand in how the book and its world reach\n        readers. A few evenings a month is plenty.",
+      "Aurefold byggs öppet, och det finns plats för några medarbetare som\n        vill hjälpa till att bära Bok Ett till utgivning. Detta är <strong>pro bono</strong>-\n        roller — obetalda, men omnämnda, med ett verkligt inflytande över hur boken och dess värld når\n        läsare. Några kvällar i månaden räcker gott."
     ],
     [
       "Patreon supports the work leading to publication: reader testing, production\n        planning, design development, and the campaign itself. The later crowdfunding\n        campaign will be a separate, time-limited opportunity to help finance the book's\n        final production and receive campaign rewards.",
       "Patreon stöder arbetet fram till utgivning: läsartestning, produktions-\n        planering, formgivningsutveckling och själva kampanjen. Den senare crowdfunding-\n        kampanjen blir ett separat, tidsbegränsat tillfälle att hjälpa till att finansiera bokens\n        slutproduktion och få kampanjbelöningar."
     ],
     [
-      "Joining for free now is the best way to be notified when that campaign is ready.",
-      "Att gå med gratis nu är bästa sättet att bli aviserad när den kampanjen är redo."
+      "I could try to publish this book quietly and show you only the finished object.\n          I'd rather do it in the open — share the road from a completed manuscript to a\n          printed book, the good weeks and the slow ones, and let readers be part of it\n          before the cover is even designed.",
+      "Jag skulle kunna ge ut den här boken i tysthet och bara visa er det färdiga föremålet.\n          Jag gör det hellre öppet — delar vägen från ett färdigt manuskript till en\n          tryckt bok, de goda veckorna och de sega, och låter läsare vara med\n          innan omslaget ens är formgivet."
     ],
     [
-      "Crowdfunding updates will be announced to free Patreon members first.",
-      "Crowdfunding-uppdateringar meddelas gratis Patreon-medlemmar först."
+      "Book One is written. The next work is turning a finished manuscript into a\n        professionally edited, designed, printed, and delivered book. Join the Aurefold\n        community for free, follow every major step, or become a member and help carry\n        the work forward.",
+      "Bok Ett är skriven. Nästa arbete är att förvandla ett färdigt manuskript till en\n        professionellt redigerad, formgiven, tryckt och levererad bok. Gå med i Aurefold-\n        gemenskapen gratis, följ varje stort steg, eller bli medlem och hjälp till att bära\n        arbetet vidare."
     ],
     [
-      "<h2 class=\"section-title\">Or join the reading list</h2>",
-      "<h2 class=\"section-title\">Eller gå med i läslistan</h2>"
+      "What that does to a reader, and why the whole novel is built to make you\n              feel the record before you feel the person, is the part I want to walk\n              through — including the two lines I cut, and the one I almost cut and\n              didn't&hellip;",
+      "Vad det gör med en läsare, och varför hela romanen är byggd för att få dig att\n              känna handlingen innan du känner människan, är den del jag vill gå\n              igenom — inklusive de två rader jag strök, och den jag nästan strök men\n              lät stå&hellip;"
     ],
     [
-      "Prefer email? Get the same publication milestones straight to your inbox — no\n        Patreon account needed. One message when there's real news; unsubscribe any time.",
-      "Föredrar du e-post? Få samma utgivningsmilstolpar direkt i inkorgen — inget\n        Patreon-konto behövs. Ett meddelande när det finns verkliga nyheter; avsluta när du vill."
-    ],
-    [
-      "The reading list opens soon — for now,\n        <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">follow free on Patreon</a>.",
-      "Läslistan öppnar snart — tills vidare,\n        <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">följ gratis på Patreon</a>."
-    ],
-    [
-      "Prefer to read offline? <a href=\"assets/aurefold-opening.pdf\" download>Download the opening as a free PDF</a> — the prologue and the start of Chapter One.",
-      "Föredrar du att läsa offline? <a href=\"assets/aurefold-opening.pdf\" download>Ladda ner början som en gratis PDF</a> — prologen och början av Kapitel Ett."
-    ],
-    [
-      "<h2 class=\"section-title\">Where the money will go</h2>",
-      "<h2 class=\"section-title\">Vart pengarna går</h2>"
+      "This note goes into how the listening house actually works — the testing\n              rite, why the valley both needs it and resents it, and the quiet fear that\n              runs under all of it: what happens the day the testers are wrong&hellip;",
+      "Den här notisen går in på hur det lyssnande huset faktiskt fungerar — prövnings-\n              riten, varför dalen både behöver det och avskyr det, och den tysta rädsla som\n              löper under alltihop: vad som händer den dag prövarna har fel&hellip;"
     ],
     [
       "When the crowdfunding campaign opens, every contribution goes into making and\n        delivering the physical book — never into the story, which is already written.\n        The work it pays for, roughly in order of cost:",
       "När crowdfunding-kampanjen öppnar går varje bidrag till att göra och\n        leverera den fysiska boken — aldrig till berättelsen, som redan är skriven.\n        Arbetet det betalar för, ungefär i kostnadsordning:"
     ],
     [
-      "<strong>Printing &amp; production</strong> — the physical books themselves",
-      "<strong>Tryck &amp; produktion</strong> — själva de fysiska böckerna"
+      "<summary>What will crowdfunding pay for?</summary><p>The final production: proofreading, cover and interior design, typesetting, print proofs, and fulfilment. Exact costs will come from real quotes, not guesses.</p>",
+      "<summary>Vad kommer crowdfunding att betala för?</summary><p>Slutproduktionen: korrektur, omslags- och inlageformgivning, sättning, tryckprover och leverans. Exakta kostnader kommer från verkliga offerter, inte gissningar.</p>"
     ],
     [
-      "<strong>Shipping &amp; fulfilment</strong> — packing and posting worldwide",
-      "<strong>Frakt &amp; leverans</strong> — packning och postning världen över"
+      "<summary>What stage is it in?</summary><p>Internal developmental revision is complete. Next comes external reader testing, then professional proofreading, cover and interior design, and print preparation.</p>",
+      "<summary>Vilket skede är den i?</summary><p>Intern strukturell bearbetning är klar. Härnäst kommer testning med externa läsare, sedan professionell korrektur, omslags- och inlageformgivning, och tryckförberedelse.</p>"
     ],
     [
-      "<strong>Editing &amp; proofreading</strong> — professional passes before print",
-      "<strong>Redigering &amp; korrektur</strong> — professionella genomgångar före tryck"
+      "Interested? Write to <a href=\"mailto:tobias.carneteg@gmail.com?subject=Aurefold%20volunteer\">tobias.carneteg@gmail.com</a>\n        with the role and a little about your work. Every collaborator is credited.",
+      "Intresserad? Skriv till <a href=\"mailto:tobias.carneteg@gmail.com?subject=Aurefold%20volunteer\">tobias.carneteg@gmail.com</a>\n        med rollen och lite om ditt arbete. Varje medarbetare omnämns."
     ],
     [
-      "<strong>Cover &amp; interior design</strong> — typesetting and layout",
-      "<strong>Omslag &amp; inlaga</strong> — sättning och layout"
+      "<summary>Why use Patreon before crowdfunding?</summary><p>Patreon lets early readers follow the work and helps build the community that makes a later campaign viable. It supports the preparation itself.</p>",
+      "<summary>Varför använda Patreon före crowdfunding?</summary><p>Patreon låter tidiga läsare följa arbetet och hjälper till att bygga den gemenskap som gör en senare kampanj möjlig. Det stöder själva förberedelsen.</p>"
     ],
     [
-      "<strong>Platform &amp; payment fees</strong> — the crowdfunding platform's share",
-      "<strong>Plattforms- &amp; betalningsavgifter</strong> — crowdfunding-plattformens andel"
+      "Members don't just get news — they get the making of the book. Here are two\n        examples of the kind of thing that goes out. The openings are public; members\n        read the rest.",
+      "Medlemmar får inte bara nyheter — de får bokens tillkomst. Här är två\n        exempel på vad som går ut. Öppningarna är offentliga; medlemmar\n        läser resten."
     ],
     [
-      "<strong>Contingency</strong> — reprints, damaged copies, the unexpected",
-      "<strong>Reserv</strong> — omtryck, skadade exemplar, det oväntade"
+      "<summary>Are physical rewards available now?</summary><p>No. Physical rewards belong to the future crowdfunding campaign, once printing, packaging, and shipping have been modelled.</p>",
+      "<summary>Finns fysiska belöningar nu?</summary><p>Nej. Fysiska belöningar hör till den framtida crowdfunding-kampanjen, när tryck, förpackning och frakt har beräknats.</p>"
     ],
     [
-      "Exact figures will be published from real supplier quotes before the campaign\n        opens — a full budget breakdown, not guesses.",
-      "Exakta siffror publiceras från verkliga leverantörsofferter innan kampanjen\n        öppnar — en fullständig budgetuppdelning, inte gissningar."
+      "<strong>Social &amp; community manager</strong> — grow and run the TikTok, Discord, and Instagram, and steward the Moot, where readers help shape the world around the book",
+      "<strong>Social &amp; community-ansvarig</strong> — bygg och driv TikTok, Discord och Instagram, och förvalta Tinget, där läsare hjälper till att forma världen kring boken"
     ],
     [
-      "<h2 class=\"section-title\">What the campaign will offer</h2>",
-      "<h2 class=\"section-title\">Vad kampanjen kommer att erbjuda</h2>"
+      "Prefer email? Get the same publication milestones straight to your inbox — no\n        Patreon account needed. One message when there's real news; unsubscribe any time.",
+      "Föredrar du e-post? Få samma utgivningsmilstolpar direkt i inkorgen — inget\n        Patreon-konto behövs. Ett meddelande när det finns verkliga nyheter; avsluta när du vill."
     ],
     [
-      "The crowdfunding campaign — separate from Patreon, and still in preparation — is\n        where the book itself becomes available. Planned reward types include:",
-      "Crowdfunding-kampanjen — separat från Patreon, och fortfarande under förberedelse — är\n        där själva boken blir tillgänglig. Planerade belöningstyper omfattar:"
-    ],
-    [
-      "<strong>Digital edition</strong> — the eBook",
-      "<strong>Digital utgåva</strong> — e-boken"
-    ],
-    [
-      "<strong>Paperback</strong> — the printed book",
-      "<strong>Pocket</strong> — den tryckta boken"
-    ],
-    [
-      "<strong>Hardcover</strong> — a collector's edition",
-      "<strong>Inbunden</strong> — en samlarutgåva"
-    ],
-    [
-      "<strong>Signed copies</strong> — signed by the author",
-      "<strong>Signerade exemplar</strong> — signerade av författaren"
-    ],
-    [
-      "<strong>Named in the book</strong> — founding-patron recognition",
-      "<strong>Namngiven i boken</strong> — erkännande som grundande mecenat"
-    ],
-    [
-      "<strong>Art &amp; extras</strong> — map prints, bookplates, and more",
-      "<strong>Konst &amp; extramaterial</strong> — karttryck, exlibris och mer"
+      "If that sounds like something you'd want on your shelf, the best thing you can do\n          right now costs nothing — follow along. Everything else grows from there.",
+      "Om det låter som något du skulle vilja ha i hyllan är det bästa du kan göra\n          just nu gratis — följ med. Allt annat växer därifrån."
     ],
     [
       "These are planned, not final — nothing is on sale yet. Formats and prices are\n        confirmed when the campaign launches, and free Patreon members hear first.",
       "Detta är planerat, inte slutgiltigt — inget är till salu ännu. Format och priser\n        bekräftas när kampanjen lanseras, och gratis Patreon-medlemmar får veta först."
     ],
     [
-      "<h2 class=\"section-title\">You can help without spending anything</h2>",
-      "<h2 class=\"section-title\">Du kan hjälpa till utan att lägga ut något</h2>"
+      "The crowdfunding campaign — separate from Patreon, and still in preparation — is\n        where the book itself becomes available. Planned reward types include:",
+      "Crowdfunding-kampanjen — separat från Patreon, och fortfarande under förberedelse — är\n        där själva boken blir tillgänglig. Planerade belöningstyper omfattar:"
     ],
     [
-      "<li><a href=\"read.html\">Read the opening</a></li>",
-      "<li><a href=\"read.html\">Läs början</a></li>"
+      "Prefer to read offline? <a href=\"assets/aurefold-opening.pdf\" download>Download the opening as a free PDF</a> — the prologue and the start of Chapter One.",
+      "Föredrar du att läsa offline? <a href=\"assets/aurefold-opening.pdf\" download>Ladda ner början som en gratis PDF</a> — prologen och början av Kapitel Ett."
+    ],
+    [
+      "The reading list opens soon — for now,\n        <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">follow free on Patreon</a>.",
+      "Läslistan öppnar snart — tills vidare,\n        <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">följ gratis på Patreon</a>."
+    ],
+    [
+      "<summary>Can I follow without paying?</summary><p>Yes. Free membership (Traveller) gives you updates, selected excerpts, and campaign news.</p>",
+      "<summary>Kan jag följa utan att betala?</summary><p>Ja. Gratis medlemskap (Resenär) ger dig uppdateringar, utvalda utdrag och kampanjnyheter.</p>"
+    ],
+    [
+      "<summary>Will members receive the complete manuscript?</summary><p>No. Selected excerpts are shared. The full manuscript is not released.</p>",
+      "<summary>Får medlemmar hela manuskriptet?</summary><p>Nej. Utvalda utdrag delas. Hela manuskriptet släpps inte.</p>"
+    ],
+    [
+      "<summary>Where can I read a sample?</summary><p>On the <a href=\"read.html\">Excerpt</a> page: the prologue and the opening of Chapter One.</p>",
+      "<summary>Var kan jag läsa ett smakprov?</summary><p>På <a href=\"read.html\">Smakprov</a>-sidan: prologen och början av Kapitel Ett.</p>"
+    ],
+    [
+      "<summary>Is the book written?</summary><p>Yes. <em>The Bell of Silence</em> is a completed manuscript of approximately 104,000 words.</p>",
+      "<summary>Är boken skriven?</summary><p>Ja. <em>The Bell of Silence</em> är ett färdigt manuskript på cirka 104 000 ord.</p>"
+    ],
+    [
+      "No canon is sold. No mystery is decided by payment. Support brings access to the work behind the book — not control over the story.",
+      "Ingen kanon säljs. Inget mysterium avgörs genom betalning. Stöd ger tillgång till arbetet bakom boken — inte kontroll över berättelsen."
+    ],
+    [
+      "Exact figures will be published from real supplier quotes before the campaign\n        opens — a full budget breakdown, not guesses.",
+      "Exakta siffror publiceras från verkliga leverantörsofferter innan kampanjen\n        öppnar — en fullständig budgetuppdelning, inte gissningar."
+    ],
+    [
+      "New member material goes out regularly. Nothing here spoils\n        the story's unanswered questions — those stay with the book.",
+      "Nytt medlemsmaterial går ut regelbundet. Inget här avslöjar\n        berättelsens obesvarade frågor — de stannar hos boken."
+    ],
+    [
+      "<strong>Beta / manuscript readers</strong> — read the finished manuscript and give structured feedback before proofreading",
+      "<strong>Beta-/manuskriptläsare</strong> — läs det färdiga manuskriptet och ge strukturerad återkoppling före korrektur"
+    ],
+    [
+      "<summary>When will crowdfunding launch?</summary><p>There is no date yet. Free Patreon members are notified first.</p>",
+      "<summary>När lanseras crowdfundingen?</summary><p>Det finns inget datum ännu. Gratis Patreon-medlemmar aviseras först.</p>"
+    ],
+    [
+      "For press or enquiries, write to\n        <a href=\"mailto:tobias.carneteg@gmail.com\">tobias.carneteg@gmail.com</a>.",
+      "För press eller förfrågningar, skriv till\n        <a href=\"mailto:tobias.carneteg@gmail.com\">tobias.carneteg@gmail.com</a>."
+    ],
+    [
+      "Joining now — free or paid — secures founding-member recognition and first notice the moment crowdfunding opens.",
+      "Att gå med nu — gratis eller betalt — säkrar erkännande som grundande medlem och första besked i samma stund crowdfundingen öppnar."
     ],
     [
       "<a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">Join free for publication updates</a>",
       "<a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">Gå med gratis för utgivningsuppdateringar</a>"
     ],
     [
+      "Patreon may display prices in the visitor's local currency. Memberships can be cancelled through Patreon.",
+      "Patreon kan visa priser i besökarens lokala valuta. Medlemskap kan sägas upp via Patreon."
+    ],
+    [
       "<a href=\"https://discord.gg/TGQgmpU8s\" target=\"_blank\" rel=\"noopener\">Join the Discord and say hello</a>",
       "<a href=\"https://discord.gg/TGQgmpU8s\" target=\"_blank\" rel=\"noopener\">Gå med i Discord och säg hej</a>"
     ],
     [
-      "<a href=\"https://www.tiktok.com/@aurefold\" target=\"_blank\" rel=\"noopener\">Follow on TikTok</a>",
-      "<a href=\"https://www.tiktok.com/@aurefold\" target=\"_blank\" rel=\"noopener\">Följ på TikTok</a>"
-    ],
-    [
-      "<li>Share Aurefold with one reader</li>",
-      "<li>Dela Aurefold med en läsare</li>"
-    ],
-    [
-      "Take part in non-canonical <a href=\"vote.html\">Moot</a> questions",
-      "Delta i icke-kanoniska frågor i <a href=\"vote.html\">Tinget</a>"
-    ],
-    [
-      "<h2 class=\"section-title\">Lend your craft</h2>",
-      "<h2 class=\"section-title\">Låna ut ditt hantverk</h2>"
-    ],
-    [
-      "Aurefold is being built in the open, and there's room for a few collaborators who\n        want to help carry Book One to publication. These are <strong>pro bono</strong>\n        roles — unpaid, but credited, with a real hand in how the book and its world reach\n        readers. A few evenings a month is plenty.",
-      "Aurefold byggs öppet, och det finns plats för några medarbetare som\n        vill hjälpa till att bära Bok Ett till utgivning. Detta är <strong>pro bono</strong>-\n        roller — obetalda, men omnämnda, med ett verkligt inflytande över hur boken och dess värld når\n        läsare. Några kvällar i månaden räcker gott."
+      "Aurefold and <em>The Bell of Silence</em> are written by me, <strong>Tobias\n          Carneteg</strong>.",
+      "Aurefold och <em>The Bell of Silence</em> skrivs av mig, <strong>Tobias\n          Carneteg</strong>."
     ],
     [
       "<strong>Video editor</strong> — trailers, TikToks, and campaign video cut from existing footage and art",
@@ -459,112 +171,424 @@
       "<strong>Lore-mästare</strong> — håll kontinuiteten, låt världsarkivet växa och besvara läsarnas lore-frågor"
     ],
     [
-      "<strong>Beta / manuscript readers</strong> — read the finished manuscript and give structured feedback before proofreading",
-      "<strong>Beta-/manuskriptläsare</strong> — läs det färdiga manuskriptet och ge strukturerad återkoppling före korrektur"
-    ],
-    [
       "<strong>Illustrator</strong> — cover, map, and spot art: the visual hooks the campaign is built on",
       "<strong>Illustratör</strong> — omslag, karta och spot-konst: de visuella krokar kampanjen bygger på"
-    ],
-    [
-      "<strong>Social &amp; community manager</strong> — grow and run the TikTok, Discord, and Instagram, and steward the Moot, where readers help shape the world around the book",
-      "<strong>Social &amp; community-ansvarig</strong> — bygg och driv TikTok, Discord och Instagram, och förvalta Tinget, där läsare hjälper till att forma världen kring boken"
     ],
     [
       "<strong>Audio manager</strong> — audiobook, trailer sound and music, and the audio side of social",
       "<strong>Ljudansvarig</strong> — ljudbok, trailerljud och musik, och ljudsidan av det sociala"
     ],
     [
+      "<a href=\"https://www.tiktok.com/@aurefold\" target=\"_blank\" rel=\"noopener\">Follow on TikTok</a>",
+      "<a href=\"https://www.tiktok.com/@aurefold\" target=\"_blank\" rel=\"noopener\">Följ på TikTok</a>"
+    ],
+    [
       "<strong>Graphic designer</strong> — interior typesetting and crowdfunding key art",
       "<strong>Grafisk formgivare</strong> — inlagesättning och crowdfunding-nyckelkonst"
-    ],
-    [
-      "Interested? Write to <a href=\"mailto:tobias.carneteg@gmail.com?subject=Aurefold%20volunteer\">tobias.carneteg@gmail.com</a>\n        with the role and a little about your work. Every collaborator is credited.",
-      "Intresserad? Skriv till <a href=\"mailto:tobias.carneteg@gmail.com?subject=Aurefold%20volunteer\">tobias.carneteg@gmail.com</a>\n        med rollen och lite om ditt arbete. Varje medarbetare omnämns."
-    ],
-    [
-      "<h2 class=\"section-title\">What support does — and does not — buy</h2>",
-      "<h2 class=\"section-title\">Vad stöd köper — och inte köper</h2>"
-    ],
-    [
-      "Members receive closer access to the making of Aurefold. They do not purchase\n        authority over its canon. The ten Houses, the central plot, the characters' fates,\n        and the unresolved mysteries remain the responsibility of the author. What the Moot\n        can shape is the world around the book — which supplemental material, art, or topic\n        the archive opens next, and bounded extras like which side-story gets written or the\n        name of a minor figure in the supplementary lore. The heart of the story stays the\n        author's, and no vote is bought — one voice per reader.",
-      "Medlemmar får närmare tillgång till Aurefolds tillkomst. De köper inte\n        makt över dess kanon. De tio husen, den centrala handlingen, karaktärernas öden,\n        och de olösta mysterierna förblir författarens ansvar. Vad Tinget\n        kan forma är världen kring boken — vilket kompletterande material, vilken konst eller vilket ämne\n        arkivet öppnar härnäst, och avgränsade extramoment som vilken sidoberättelse som skrivs eller\n        namnet på en mindre gestalt i den kompletterande loren. Berättelsens hjärta förblir\n        författarens, och ingen röst köps — en röst per läsare."
-    ],
-    [
-      "<h2 class=\"section-title\">Questions</h2>",
-      "<h2 class=\"section-title\">Frågor</h2>"
-    ],
-    [
-      "<summary>Is the book written?</summary><p>Yes. <em>The Bell of Silence</em> is a completed manuscript of approximately 104,000 words.</p>",
-      "<summary>Är boken skriven?</summary><p>Ja. <em>The Bell of Silence</em> är ett färdigt manuskript på cirka 104 000 ord.</p>"
-    ],
-    [
-      "<summary>What stage is it in?</summary><p>Internal developmental revision is complete. Next comes external reader testing, then professional proofreading, cover and interior design, and print preparation.</p>",
-      "<summary>Vilket skede är den i?</summary><p>Intern strukturell bearbetning är klar. Härnäst kommer testning med externa läsare, sedan professionell korrektur, omslags- och inlageformgivning, och tryckförberedelse.</p>"
-    ],
-    [
-      "<summary>Why use Patreon before crowdfunding?</summary><p>Patreon lets early readers follow the work and helps build the community that makes a later campaign viable. It supports the preparation itself.</p>",
-      "<summary>Varför använda Patreon före crowdfunding?</summary><p>Patreon låter tidiga läsare följa arbetet och hjälper till att bygga den gemenskap som gör en senare kampanj möjlig. Det stöder själva förberedelsen.</p>"
-    ],
-    [
-      "<summary>What will crowdfunding pay for?</summary><p>The final production: proofreading, cover and interior design, typesetting, print proofs, and fulfilment. Exact costs will come from real quotes, not guesses.</p>",
-      "<summary>Vad kommer crowdfunding att betala för?</summary><p>Slutproduktionen: korrektur, omslags- och inlageformgivning, sättning, tryckprover och leverans. Exakta kostnader kommer från verkliga offerter, inte gissningar.</p>"
-    ],
-    [
-      "<summary>Does membership influence the story?</summary><p>The central plot, canon, and the book's unresolved mysteries are the author's alone. What the community can shape through the Moot is the world around the book — which material or art the archive opens next, and bounded extras like which side-story gets written or a minor figure's name in the supplementary lore. Membership brings closer access to how Aurefold is made, not authority over its canon.</p>",
-      "<summary>Påverkar medlemskap berättelsen?</summary><p>Den centrala handlingen, kanon och bokens olösta mysterier är författarens ensak. Vad gemenskapen kan forma genom Tinget är världen kring boken — vilket material eller vilken konst arkivet öppnar härnäst, och avgränsade extramoment som vilken sidoberättelse som skrivs eller en mindre gestalts namn i den kompletterande loren. Medlemskap ger närmare tillgång till hur Aurefold görs, inte makt över dess kanon.</p>"
-    ],
-    [
-      "<summary>Will members receive the complete manuscript?</summary><p>No. Selected excerpts are shared. The full manuscript is not released.</p>",
-      "<summary>Får medlemmar hela manuskriptet?</summary><p>Nej. Utvalda utdrag delas. Hela manuskriptet släpps inte.</p>"
-    ],
-    [
-      "<summary>Are physical rewards available now?</summary><p>No. Physical rewards belong to the future crowdfunding campaign, once printing, packaging, and shipping have been modelled.</p>",
-      "<summary>Finns fysiska belöningar nu?</summary><p>Nej. Fysiska belöningar hör till den framtida crowdfunding-kampanjen, när tryck, förpackning och frakt har beräknats.</p>"
-    ],
-    [
-      "<summary>When will crowdfunding launch?</summary><p>There is no date yet. Free Patreon members are notified first.</p>",
-      "<summary>När lanseras crowdfundingen?</summary><p>Det finns inget datum ännu. Gratis Patreon-medlemmar aviseras först.</p>"
-    ],
-    [
-      "<summary>Can I follow without paying?</summary><p>Yes. Free membership (Traveller) gives you updates, selected excerpts, and campaign news.</p>",
-      "<summary>Kan jag följa utan att betala?</summary><p>Ja. Gratis medlemskap (Resenär) ger dig uppdateringar, utvalda utdrag och kampanjnyheter.</p>"
-    ],
-    [
-      "<summary>Where can I read a sample?</summary><p>On the <a href=\"read.html\">Excerpt</a> page: the prologue and the opening of Chapter One.</p>",
-      "<summary>Var kan jag läsa ett smakprov?</summary><p>På <a href=\"read.html\">Smakprov</a>-sidan: prologen och början av Kapitel Ett.</p>"
-    ],
-    [
-      "<h2 class=\"section-title\">A note from the author</h2>",
-      "<h2 class=\"section-title\">En hälsning från författaren</h2>"
-    ],
-    [
-      "Aurefold and <em>The Bell of Silence</em> are written by me, <strong>Tobias\n          Carneteg</strong>.",
-      "Aurefold och <em>The Bell of Silence</em> skrivs av mig, <strong>Tobias\n          Carneteg</strong>."
-    ],
-    [
-      "I could try to publish this book quietly and show you only the finished object.\n          I'd rather do it in the open — share the road from a completed manuscript to a\n          printed book, the good weeks and the slow ones, and let readers be part of it\n          before the cover is even designed.",
-      "Jag skulle kunna ge ut den här boken i tysthet och bara visa er det färdiga föremålet.\n          Jag gör det hellre öppet — delar vägen från ett färdigt manuskript till en\n          tryckt bok, de goda veckorna och de sega, och låter läsare vara med\n          innan omslaget ens är formgivet."
-    ],
-    [
-      "<em>The Bell of Silence</em> is a story about testimony: about a person who will\n          say only what she knows, and a world that would rather settle the meaning of a\n          silence than live with an open question. It's the kind of book I most want to\n          read, so it's the kind of book I set out to write.",
-      "<em>The Bell of Silence</em> är en berättelse om vittnesmål: om en människa som bara vill\n          säga det hon vet, och en värld som hellre avgör innebörden av en\n          tystnad än lever med en öppen fråga. Det är den sortens bok jag helst vill\n          läsa, så det är den sortens bok jag satte mig för att skriva."
-    ],
-    [
-      "If that sounds like something you'd want on your shelf, the best thing you can do\n          right now costs nothing — follow along. Everything else grows from there.",
-      "Om det låter som något du skulle vilja ha i hyllan är det bästa du kan göra\n          just nu gratis — följ med. Allt annat växer därifrån."
-    ],
-    [
-      "For press or enquiries, write to\n        <a href=\"mailto:tobias.carneteg@gmail.com\">tobias.carneteg@gmail.com</a>.",
-      "För press eller förfrågningar, skriv till\n        <a href=\"mailto:tobias.carneteg@gmail.com\">tobias.carneteg@gmail.com</a>."
     ],
     [
       "<h2 class=\"book-title\">The book is written. The road to publication is open.</h2>",
       "<h2 class=\"book-title\">Boken är skriven. Vägen till utgivning är öppen.</h2>"
     ],
     [
+      "Joining for free now is the best way to be notified when that campaign is ready.",
+      "Att gå med gratis nu är bästa sättet att bli aviserad när den kampanjen är redo."
+    ],
+    [
+      "<strong>Platform &amp; payment fees</strong> — the crowdfunding platform's share",
+      "<strong>Plattforms- &amp; betalningsavgifter</strong> — crowdfunding-plattformens andel"
+    ],
+    [
+      "<strong>Editing &amp; proofreading</strong> — professional passes before print",
+      "<strong>Redigering &amp; korrektur</strong> — professionella genomgångar före tryck"
+    ],
+    [
+      "<strong>Printing &amp; production</strong> — the physical books themselves",
+      "<strong>Tryck &amp; produktion</strong> — själva de fysiska böckerna"
+    ],
+    [
+      "<strong>Shipping &amp; fulfilment</strong> — packing and posting worldwide",
+      "<strong>Frakt &amp; leverans</strong> — packning och postning världen över"
+    ],
+    [
+      "<strong>Contingency</strong> — reprints, damaged copies, the unexpected",
+      "<strong>Reserv</strong> — omtryck, skadade exemplar, det oväntade"
+    ],
+    [
+      "Crowdfunding updates will be announced to free Patreon members first.",
+      "Crowdfunding-uppdateringar meddelas gratis Patreon-medlemmar först."
+    ],
+    [
+      "<strong>Cover &amp; interior design</strong> — typesetting and layout",
+      "<strong>Omslag &amp; inlaga</strong> — sättning och layout"
+    ],
+    [
+      "<h2 class=\"section-title\">You can help without spending anything</h2>",
+      "<h2 class=\"section-title\">Du kan hjälpa till utan att lägga ut något</h2>"
+    ],
+    [
+      "<h2 class=\"section-title\">What support does — and does not — buy</h2>",
+      "<h2 class=\"section-title\">Vad stöd köper — och inte köper</h2>"
+    ],
+    [
+      "<strong>Art &amp; extras</strong> — map prints, bookplates, and more",
+      "<strong>Konst &amp; extramaterial</strong> — karttryck, exlibris och mer"
+    ],
+    [
+      "<h2 class=\"section-title\">Membership now. Crowdfunding later.</h2>",
+      "<h2 class=\"section-title\">Medlemskap nu. Crowdfunding senare.</h2>"
+    ],
+    [
+      "<span class=\"status-label\">Internal developmental revision</span>",
+      "<span class=\"status-label\">Intern strukturell bearbetning</span>"
+    ],
+    [
+      "Take part in non-canonical <a href=\"vote.html\">Moot</a> questions",
+      "Delta i icke-kanoniska frågor i <a href=\"vote.html\">Tinget</a>"
+    ],
+    [
+      "<strong>Named in the book</strong> — founding-patron recognition",
+      "<strong>Namngiven i boken</strong> — erkännande som grundande mecenat"
+    ],
+    [
+      "Carry the printed edition forward — and read the work behind it.",
+      "Bär den tryckta utgåvan framåt — och läs arbetet bakom den."
+    ],
+    [
+      "<h2 class=\"section-title\">What your support makes possible</h2>",
+      "<h2 class=\"section-title\">Vad ditt stöd gör möjligt</h2>"
+    ],
+    [
+      "<span class=\"status-label\">Cover &amp; interior design</span>",
+      "<span class=\"status-label\">Omslag &amp; inlaga</span>"
+    ],
+    [
+      "The opening chapters, free — and the whole ebook after them.",
+      "De första kapitlen, gratis — och hela e-boken efter dem."
+    ],
+    [
+      "<span class=\"status-label\">External reader programme</span>",
+      "<span class=\"status-label\">Program för externa läsare</span>"
+    ],
+    [
+      "<span class=\"status-label\">Professional proofreading</span>",
+      "<span class=\"status-label\">Professionell korrektur</span>"
+    ],
+    [
+      "<h2 class=\"section-title\">What the campaign will offer</h2>",
+      "<h2 class=\"section-title\">Vad kampanjen kommer att erbjuda</h2>"
+    ],
+    [
+      "One message when there's real news; unsubscribe any time.",
+      "Ett meddelande när det finns riktiga nyheter; avsluta när du vill."
+    ],
+    [
+      "<h2 class=\"section-title\">Where the project stands</h2>",
+      "<h2 class=\"section-title\">Var projektet står</h2>"
+    ],
+    [
+      "<span class=\"status-label\">Crowdfunding campaign</span>",
+      "<span class=\"status-label\">Crowdfunding-kampanj</span>"
+    ],
+    [
+      "<li>Website, audio, trailer, and campaign material</li>",
+      "<li>Webbplats, ljud, trailer och kampanjmaterial</li>"
+    ],
+    [
+      "<li>Digital Founding Patron Dossier when completed</li>",
+      "<li>Digitalt grundarmecenatsdossier när det färdigställts</li>"
+    ],
+    [
+      "<h2 class=\"section-title\">Or join the reading list</h2>",
+      "<h2 class=\"section-title\">Eller gå med i läslistan</h2>"
+    ],
+    [
+      "<li>Contingency for fulfilment and damaged copies</li>",
+      "<li>Reserv för leverans och skadade exemplar</li>"
+    ],
+    [
+      "<h2 class=\"section-title\">Where the money will go</h2>",
+      "<h2 class=\"section-title\">Vart pengarna går</h2>"
+    ],
+    [
+      "<h2 class=\"section-title\">Peek inside membership</h2>",
+      "<h2 class=\"section-title\">En titt inuti medlemskapet</h2>"
+    ],
+    [
+      "<strong>Signed copies</strong> — signed by the author",
+      "<strong>Signerade exemplar</strong> — signerade av författaren"
+    ],
+    [
+      "<h2 class=\"section-title\">A note from the author</h2>",
+      "<h2 class=\"section-title\">En hälsning från författaren</h2>"
+    ],
+    [
+      "Help bring <em>The Bell of Silence</em> into print.",
+      "Hjälp <em>The Bell of Silence</em> i tryck."
+    ],
+    [
+      "<span class=\"status-label\">Print preparation</span>",
+      "<span class=\"status-label\">Tryckförberedelse</span>"
+    ],
+    [
+      "<li>External reader testing and final revision</li>",
+      "<li>Testning med externa läsare och slutlig bearbetning</li>"
+    ],
+    [
+      "Why the book opens on an argument, not the goatherd",
+      "Varför boken öppnar med ett gräl, inte getvallaren"
+    ],
+    [
       "Every truth has a keeper. Every silence has a cost.",
       "Varje sanning har en väktare. Varje tystnad har ett pris."
+    ],
+    [
+      "<strong>Hardcover</strong> — a collector's edition",
+      "<strong>Inbunden</strong> — en samlarutgåva"
+    ],
+    [
+      "<li><a href=\"read.html\">Read the opening</a></li>",
+      "<li><a href=\"read.html\">Läs början</a></li>"
+    ],
+    [
+      "<span class=\"status-state\">In preparation</span>",
+      "<span class=\"status-state\">Under förberedelse</span>"
+    ],
+    [
+      "<h2 class=\"section-title\">Ways to take part</h2>",
+      "<h2 class=\"section-title\">Sätt att delta</h2>"
+    ],
+    [
+      "<li>Optional founding-supporter recognition</li>",
+      "<li>Valfritt erkännande som grundande stödjare</li>"
+    ],
+    [
+      "<li>Cover development and licensed artwork</li>",
+      "<li>Omslagsutveckling och licensierad konst</li>"
+    ],
+    [
+      "<li>First to know when crowdfunding opens</li>",
+      "<li>Först att få veta när crowdfundingen öppnar</li>"
+    ],
+    [
+      "<h2 class=\"section-title\">Lend your craft</h2>",
+      "<h2 class=\"section-title\">Låna ut ditt hantverk</h2>"
+    ],
+    [
+      "<li>Priority written Q&amp;A submissions</li>",
+      "<li>Förtur för skriftliga frågor</li>"
+    ],
+    [
+      "<strong>Paperback</strong> — the printed book",
+      "<strong>Pocket</strong> — den tryckta boken"
+    ],
+    [
+      "<span class=\"status-label\">Manuscript</span>",
+      "<span class=\"status-label\">Manuskript</span>"
+    ],
+    [
+      "<span class=\"status-state\">Next stage</span>",
+      "<span class=\"status-state\">Nästa steg</span>"
+    ],
+    [
+      "<li>Print proofs and production testing</li>",
+      "<li>Tryckprover och produktionstestning</li>"
+    ],
+    [
+      "<span>Members read the full deep-dive</span>",
+      "<span>Medlemmar läser hela fördjupningen</span>"
+    ],
+    [
+      "<strong>Digital edition</strong> — the eBook",
+      "<strong>Digital utgåva</strong> — e-boken"
+    ],
+    [
+      "<li>Worldbuilding and archive features</li>",
+      "<li>Världsbygge och arkivinslag</li>"
+    ],
+    [
+      "<li>Early visual and campaign previews</li>",
+      "<li>Tidiga visuella och kampanjrelaterade förhandstittar</li>"
+    ],
+    [
+      "<span class=\"status-state\">Complete</span>",
+      "<span class=\"status-state\">Klart</span>"
+    ],
+    [
+      "<li>Optional digital thank-you credit</li>",
+      "<li>Valfritt digitalt tack-omnämnande</li>"
+    ],
+    [
+      "<span class=\"status-state\">Planned</span>",
+      "<span class=\"status-state\">Planerat</span>"
+    ],
+    [
+      "<li>Deeper monthly Aurefold material</li>",
+      "<li>Fördjupat månatligt Aurefold-material</li>"
+    ],
+    [
+      "<li>Interior design and typesetting</li>",
+      "<li>Inlageformgivning och sättning</li>"
+    ],
+    [
+      "What House Whitehart is really afraid of",
+      "Vad House Whitehart egentligen är rädd för"
+    ],
+    [
+      "<li>Advance major campaign previews</li>",
+      "<li>Tidiga förhandstittar på större kampanjmoment</li>"
+    ],
+    [
+      "<h2 class=\"section-title\">Questions</h2>",
+      "<h2 class=\"section-title\">Frågor</h2>"
+    ],
+    [
+      "<span>Members read the full note</span>",
+      "<span>Medlemmar läser hela notisen</span>"
+    ],
+    [
+      "<li>Share Aurefold with one reader</li>",
+      "<li>Dela Aurefold med en läsare</li>"
+    ],
+    [
+      "<p class=\"tier-badge\">Most popular</p>",
+      "<p class=\"tier-badge\">Mest populär</p>"
+    ],
+    [
+      "<li>Major publication milestones</li>",
+      "<li>Viktiga utgivningsmilstolpar</li>"
+    ],
+    [
+      "<li>Monthly development update</li>",
+      "<li>Månatlig utvecklingsuppdatering</li>"
+    ],
+    [
+      "<li>Non-canonical member polls</li>",
+      "<li>Icke-kanoniska medlemsomröstningar</li>"
+    ],
+    [
+      "<li>Professional proofreading</li>",
+      "<li>Professionell korrektur</li>"
+    ],
+    [
+      "<li>Quarterly written Q&amp;A</li>",
+      "<li>Kvartalsvis skriftlig frågestund</li>"
+    ],
+    [
+      "<li>Selected production notes</li>",
+      "<li>Utvalda produktionsanteckningar</li>"
+    ],
+    [
+      "<li>Crowdfunding preparation</li>",
+      "<li>Förberedelse av crowdfunding</li>"
+    ],
+    [
+      "<h3>Keeper of the Blank Page</h3>",
+      "<h3>Den tomma sidans väktare</h3>"
+    ],
+    [
+      "<li>Selected early excerpts</li>",
+      "<li>Utvalda tidiga utdrag</li>"
+    ],
+    [
+      "<li>Behind-the-scenes notes</li>",
+      "<li>Anteckningar bakom kulisserna</li>"
+    ],
+    [
+      "<li>All Chronicler benefits</li>",
+      "<li>Alla Krönikör-förmåner</li>"
+    ],
+    [
+      "Worldbuilding · house deep-dive",
+      "Världsbygge · fördjupning i ett hus"
+    ],
+    [
+      "<p class=\"tier-price\">Free</p>",
+      "<p class=\"tier-price\">Gratis</p>"
+    ],
+    [
+      "<li>All Witness benefits</li>",
+      "<li>Alla Vittne-förmåner</li>"
+    ],
+    [
+      "<li>World introductions</li>",
+      "<li>Introduktioner till världen</li>"
+    ],
+    [
+      "Join free — be first to know",
+      "Gå med gratis — var först att veta"
+    ],
+    [
+      "Annotated page · craft note",
+      "Kommenterad sida · hantverksnotis"
+    ],
+    [
+      "<li>Selected excerpts</li>",
+      "<li>Utvalda utdrag</li>"
+    ],
+    [
+      "THE ROAD TO PUBLICATION",
+      "VÄGEN TILL UTGIVNING"
+    ],
+    [
+      "<li>Public updates</li>",
+      "<li>Offentliga uppdateringar</li>"
+    ],
+    [
+      "<li>Campaign news</li>",
+      "<li>Kampanjnyheter</li>"
+    ],
+    [
+      "<h3>Chronicler</h3>",
+      "<h3>Krönikör</h3>"
+    ],
+    [
+      "<span>/month</span>",
+      "<span>/månad</span>"
+    ],
+    [
+      "Become a Chronicler",
+      "Bli en Krönikör"
+    ],
+    [
+      "<h3>Traveller</h3>",
+      "<h3>Resenär</h3>"
+    ],
+    [
+      "Unlock on Patreon",
+      "Lås upp på Patreon"
+    ],
+    [
+      "Read the opening",
+      "Läs början"
+    ],
+    [
+      "<h3>Witness</h3>",
+      "<h3>Vittne</h3>"
+    ],
+    [
+      "Become a Witness",
+      "Bli ett Vittne"
+    ],
+    [
+      "Become a Keeper",
+      "Bli en Väktare"
+    ],
+    [
+      "Follow by email",
+      "Följ via e-post"
+    ],
+    [
+      "Become a member",
+      "Bli medlem"
+    ],
+    [
+      "Follow free",
+      "Följ gratis"
+    ],
+    [
+      "Read now",
+      "Läs nu"
     ]
   ]
 }

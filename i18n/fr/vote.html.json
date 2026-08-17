@@ -2,11 +2,33 @@
   "title": "Le Conseil — votez pour la suite d’Aurefold",
   "description": "Le Conseil est le lieu où les lecteurs façonnent le monde d’Aurefold — donnez une voix à des extras délimités et non canoniques : illustrations, récits annexes et ce que les archives ouvrent ensuite.",
   "blocks": [
-    ["An old word for an assembly where every voice is counted. One voice per reader —\n      and while the Moot is young, early votes show as a standing; the exact counts open\n      once enough readers have weighed in.", "Un vieux mot pour une assemblée où chaque voix est comptée. Une voix par lecteur —\n      et tant que le Conseil est jeune, les premiers votes apparaissent sous forme de classement ; les décomptes exacts s’ouvrent\n      une fois qu’assez de lecteurs se sont prononcés."],
-    ["The Moot shapes the world <em>around</em> the book — which supplemental material,\n      art, or public topic the archive opens next, and bounded extras like which\n      side-story gets written or the name of a minor figure in the supplementary lore.\n      The central plot, canon, character fates, and the book’s unresolved mysteries stay\n      the author’s.", "Le Conseil façonne le monde <em>autour</em> du livre — quel matériel complémentaire,\n      quelle illustration ou quel sujet public les archives ouvrent ensuite, et des extras délimités comme quel\n      récit annexe est écrit ou le nom d’une figure mineure dans le lore complémentaire.\n      L’intrigue centrale, le canon, le sort des personnages et les mystères non résolus du livre restent\n      ceux de l’auteur."],
-    ["The interactive Moot needs JavaScript to convene. You can still take part:", "Le Conseil interactif a besoin de JavaScript pour se réunir. Vous pouvez tout de même y prendre part :"],
-    ["Follow free", "Suivre gratuitement"],
-    ["Follow the journey", "Suivre le voyage"],
-    ["Free members are asked the same Moot questions, and hear the results first.", "Les membres gratuits reçoivent les mêmes questions du Conseil et découvrent les résultats en premier."]
+    [
+      "The Moot shapes the world <em>around</em> the book — which supplemental material,\n      art, or public topic the archive opens next, and bounded extras like which\n      side-story gets written or the name of a minor figure in the supplementary lore.\n      The central plot, canon, character fates, and the book’s unresolved mysteries stay\n      the author’s.",
+      "Le Conseil façonne le monde <em>autour</em> du livre — quel matériel complémentaire,\n      quelle illustration ou quel sujet public les archives ouvrent ensuite, et des extras délimités comme quel\n      récit annexe est écrit ou le nom d’une figure mineure dans le lore complémentaire.\n      L’intrigue centrale, le canon, le sort des personnages et les mystères non résolus du livre restent\n      ceux de l’auteur."
+    ],
+    [
+      "An old word for an assembly where every voice is counted. One voice per reader —\n      and while the Moot is young, early votes show as a standing; the exact counts open\n      once enough readers have weighed in.",
+      "Un vieux mot pour une assemblée où chaque voix est comptée. Une voix par lecteur —\n      et tant que le Conseil est jeune, les premiers votes apparaissent sous forme de classement ; les décomptes exacts s’ouvrent\n      une fois qu’assez de lecteurs se sont prononcés."
+    ],
+    [
+      "Two questions stand at the moment: <em>which house you would follow</em>, and\n      <em>which house's fragment the archive reads aloud next</em>. If the hall below\n      is slow to convene, it is worth the wait.",
+      "Deux questions sont posées en ce moment : <em>quelle maison vous suivriez</em>, et <em>le fragment de quelle maison les archives liront à voix haute ensuite</em>. Si la salle ci-dessous tarde à se réunir, l’attente en vaut la peine."
+    ],
+    [
+      "Free members are asked the same Moot questions, and hear the results first.",
+      "Les membres gratuits reçoivent les mêmes questions du Conseil et découvrent les résultats en premier."
+    ],
+    [
+      "The interactive Moot needs JavaScript to convene. You can still take part:",
+      "Le Conseil interactif a besoin de JavaScript pour se réunir. Vous pouvez tout de même y prendre part :"
+    ],
+    [
+      "Follow the journey",
+      "Suivre le voyage"
+    ],
+    [
+      "Follow free",
+      "Suivre gratuitement"
+    ]
   ]
 }

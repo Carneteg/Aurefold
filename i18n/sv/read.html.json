@@ -2,81 +2,273 @@
   "title": "Läs början av The Bell of Silence — Aurefold",
   "description": "Läs början av Aurefold, Bok Ett: The Bell of Silence — prologen och första kapitlet i en episk fantasy om tio hus. Gratis att läsa online.",
   "blocks": [
-    ["<h1 class=\"page-title\">From the pages</h1>", "<h1 class=\"page-title\">Ur sidorna</h1>"],
-    ["Two openings from Book One: <em>The Bell of Silence</em> — the prologue, where the realm argues over a record, and the beginning of Chapter One, where the record is only a frightened girl.", "Två öppningar ur Bok Ett: <em>The Bell of Silence</em> — prologen, där riket tvistar om en handling, och början av Kapitel Ett, där handlingen bara är en skrämd flicka."],
-    ["◔ About a five-minute read", "◔ Ungefär fem minuters läsning"],
-
-    ["These two excerpts are the book’s first pages. <em>The Bell of Silence</em> is a completed manuscript of approximately 104,000 words, now on the road to publication.", "Dessa två utdrag är bokens första sidor. <em>The Bell of Silence</em> är ett färdigt manuskript på cirka 104 000 ord, nu på väg mot utgivning."],
-    ["Download the opening (free PDF)", "Ladda ner början (gratis PDF)"],
-    ["Follow free", "Följ gratis"],
-
-    ["Prologue — The Question in the Margin (an excerpt)", "Prolog — Frågan i marginalen (ett utdrag)"],
-    ["Crown-watch, seat of House Blackcrest, year 396 A.U.", "Crown-watch, House Blackcrests säte, år 396 A.U."],
-    ["Wren of Blackthorn reads a sealed record; Aldous of Blackcrest and a herald named Perrin watch.", "Wren av Blackthorn läser en förseglad handling; Aldous av Blackcrest och en härold vid namn Perrin ser på."],
-    ["Crown-watch had a room for disputed records and a smaller room for the people who disputed them. Wren had been in the smaller room since noon.", "Crown-watch hade ett rum för omtvistade handlingar och ett mindre rum för dem som tvistade om dem. Wren hade suttit i det mindre rummet sedan middagstid."],
-    ["The record on the table was from House Whitehart. It was forty-three pages long, copied in a hand so even that the letters looked less written than agreed upon. Every page had been witnessed. Every witness had been witnessed. The cord had three seals in white wax and one in black, and the black one was Crown-watch's, put there when the packet arrived so that everyone would know no one had opened it before the people who were now opening it.", "Handlingen på bordet var från House Whitehart. Den var fyrtiotre sidor lång, avskriven med en så jämn hand att bokstäverna såg mindre skrivna ut än överenskomna. Varje sida hade bevittnats. Varje vittne hade bevittnats. Snöret bar tre sigill i vitt vax och ett i svart, och det svarta var Crown-watchs, satt där när bunten anlände så att alla skulle veta att ingen hade öppnat den före dem som nu öppnade den."],
-    ["Wren had always thought this was the sort of reassurance that creates a new question without answering the old one.", "Wren hade alltid tyckt att detta var den sortens försäkran som skapar en ny fråga utan att besvara den gamla."],
-    ["She turned the last page back and read the final sentence again.", "Hon vände tillbaka den sista sidan och läste den avslutande meningen igen."],
-    ["<em>No supporting matter survives outside the entered judgment.</em>", "<em>Inget underlag finns bevarat utanför den införda domen.</em>"],
-    ["Across from her, Aldous aligned the packet's lower edge with the edge of the table. He had done this each time she moved it. He had not complained. She had not apologized. Their acquaintance had lasted three hours and had achieved a stable form.", "Mitt emot henne rätade Aldous in buntens nederkant mot bordskanten. Han hade gjort det varje gång hon flyttat den. Han hade inte klagat. Hon hade inte bett om ursäkt. Deras bekantskap hade varat i tre timmar och nått en stabil form."],
-    ["\"Is it complete?\" he asked.", "”Är den fullständig?” frågade han."],
-    ["<p>\"Yes.\"</p>", "<p>”Ja.”</p>"],
-    ["The third man in the room looked up from the window.", "Den tredje mannen i rummet såg upp från fönstret."],
-    ["He had introduced himself as Perrin, of Blackcrest, and had then spent most of the afternoon behaving as though introductions were something other people required. He wore a traveling coat indoors and had found out the copying clerk's name before Wren had. The clerk had brought him tea without being asked and had brought Wren none, which she did not hold against either of them and noticed about both.", "Han hade presenterat sig som Perrin, av Blackcrest, och sedan tillbringat större delen av eftermiddagen med att uppträda som om presentationer var något andra människor behövde. Han bar en reskappa inomhus och hade tagit reda på skrivarens namn före Wren. Skrivaren hade burit te till honom utan att bli ombedd och inget till Wren, vilket hon inte höll emot någon av dem och lade märke till hos båda."],
-    ["\"That sounded ominous,\" Perrin said.", "”Det lät illavarslande”, sade Perrin."],
-    ["<p>\"It was an answer.\"</p>", "<p>”Det var ett svar.”</p>"],
-    ["<p>\"Those are often the same thing here.\"</p>", "<p>”De är ofta samma sak här.”</p>"],
-    ["Aldous did not look at him. \"Complete in what sense?\"", "Aldous såg inte på honom. ”Fullständig i vilken mening?”"],
-    ["Wren put one finger on the final sentence. \"In theirs.\"", "Wren lade ett finger på den avslutande meningen. ”I deras.”"],
-    ["The room was very quiet. Crown-watch was built to keep paper dry and voices from traveling. The walls were lined with felt behind the boards; Wren had checked when she came in, because rooms explain institutions more honestly than mottos do.", "Rummet var mycket tyst. Crown-watch var byggt för att hålla papper torrt och röster från att vandra. Väggarna var klädda med filt bakom panelen; Wren hade kontrollerat när hon kom in, för rum förklarar institutioner ärligare än valspråk gör."],
-    ["Aldous said, \"Explain.\"", "Aldous sade: ”Förklara.”"],
-    ["\"The packet contains every judgment Whitehart chose to enter for the period requested. Names where names are permitted. Dates where dates survive. The name of the tester. The conclusion. Corrections witnessed and sealed.\"", "”Bunten innehåller varje dom Whitehart valde att införa för den begärda perioden. Namn där namn tillåts. Datum där datum finns bevarade. Prövarens namn. Slutsatsen. Rättelser bevittnade och förseglade.”"],
-    ["<p>\"And the trials?\"</p>", "<p>”Och prövningarna?”</p>"],
-    ["<p>\"Burned.\"</p>", "<p>”Brända.”</p>"],
-    ["<p>\"The notes of the trials.\"</p>", "<p>”Prövningarnas anteckningar.”</p>"],
-    ["\"If you burn the only observation from which a judgment was made, the distinction becomes devotional.\"", "”Om man bränner den enda iakttagelse som en dom byggdes på blir åtskillnaden andaktsfull.”"],
-    ["— the prologue continues in the book. —", "— prologen fortsätter i boken. —"],
-
-    ["From the room where the realm argues over a record, to the room where the record is only a frightened girl. Read the opening of Chapter One below.", "Från rummet där riket tvistar om en handling, till rummet där handlingen bara är en skrämd flicka. Läs början av Kapitel Ett nedan."],
-    ["Join free to follow the book to print →", "Gå med gratis för att följa boken till tryck →"],
-
-    ["Chapter One — The Trial of the Goatherd (an excerpt)", "Kapitel Ett — Getvallarens prövning (ett utdrag)"],
-    ["House Whitehart, the Bell of Silence, year 396 A.U.", "House Whitehart, the Bell of Silence, år 396 A.U."],
-    ["Brother Tomas prepares the listening room. Mother Alaine watches.", "Broder Tomas förbereder lyssnarrummet. Moder Alaine ser på."],
-    ["By the time Sela arrived, Tomas had failed the lamp twice.", "När Sela kom hade Tomas misslyckats med lampan två gånger."],
-    ["The first wick had drowned. He pinched it out, drew it up with the point of his char knife, and cut it shorter than he meant to. His hand gave one small tremor against the copper hood. He noticed it before anyone else could and steadied the lamp with his other hand. The second flame burned blue at the root and smoked whenever the valley wind found the arch. Soot gathered beneath the little copper hood.", "Den första veken hade dränkts. Han nöp den släckt, drog upp den med spetsen av sin sotkniv och skar den kortare än han menat. Handen gav en liten darrning mot kopparhuven. Han märkte det innan någon annan hann och stadgade lampan med sin andra hand. Den andra lågan brann blå vid roten och rykte närhelst dalvinden fann valvet. Sot samlades under den lilla kopparhuven."],
-    ["He moved the lamp half a handspan to the left.", "Han flyttade lampan ett halvt handsmått åt vänster."],
-    ["<p>The flame leaned harder.</p>", "<p>Lågan lutade hårdare.</p>"],
-    ["\"Leave it,\" Mother Alaine said.", "”Låt den vara”, sade Moder Alaine."],
-    ["She had entered while he was trimming the wick and taken the chair furthest inside, where the back wall met the long row of griffes. The dead faced the valley. Alaine faced the room. She sat with both hands resting on the head of her walking stick and her shoulders clear of the stone, though Tomas knew the cold would reach them before the hour was done.", "Hon hade kommit in medan han putsade veken och tagit stolen längst in, där bakväggen mötte den långa raden av griffes. De döda vände sig mot dalen. Alaine vände sig mot rummet. Hon satt med båda händerna vilande på handtaget till sin käpp och axlarna fria från stenen, fast Tomas visste att kylan skulle nå dem innan timmen var slut."],
-    ["\"It will smoke in her eyes,\" he said.", "”Den kommer ryka i hennes ögon”, sade han."],
-    ["<p>\"Then she will move.\"</p>", "<p>”Då flyttar hon sig.”</p>"],
-    ["<p>\"I would rather know what she does before she has reason.\"</p>", "<p>”Jag vill hellre veta vad hon gör innan hon har skäl.”</p>"],
-    ["Alaine looked at the black crescent forming under the hood. \"The lamp has given her reason.\"", "Alaine såg på den svarta skäran som bildades under huven. ”Lampan har gett henne skäl.”"],
-    ["Tomas wiped his thumb on the rag at his belt. It left a dark mark beside three older ones. He had meant to begin with clean hands.", "Tomas torkade tummen på trasan vid bältet. Den lämnade ett mörkt märke bredvid tre äldre. Han hade tänkt börja med rena händer."],
-    ["He put the lamp back where it had been. Alaine had not ordered him. That was not how her authority worked. She named the thing she believed should happen and left other people to discover that they had already obeyed.", "Han satte tillbaka lampan där den varit. Alaine hade inte befallt honom. Så fungerade inte hennes myndighet. Hon namngav det hon ansåg borde ske och lät andra upptäcka att de redan hade lytt."],
-    ["The arch admitted a rush of colder air and the smell of goat hair. Sela came in with a coil of narrow cloth over one shoulder and something pale caught in her braid. Straw, Tomas thought. No—burdock. A dark crescent had dried beneath one thumbnail, blood or hoof dirt or both. She had left her work knife by the door; its sheath hung empty at her belt.", "Valvet släppte in ett svep av kallare luft och lukten av gethår. Sela kom in med en rulle smalt tyg över ena axeln och något blekt fångat i flätan. Halm, tänkte Tomas. Nej — kardborre. En mörk skära hade torkat under en tumnagel, blod eller hovsmuts eller båda. Hon hade lämnat sin arbetskniv vid dörren; slidan hängde tom vid bältet."],
-    ["<p>She stopped just inside.</p>", "<p>Hon stannade strax innanför.</p>"],
-    ["<p>\"How long?\"</p>", "<p>”Hur länge?”</p>"],
-    ["Not <em>good evening</em>. Not <em>Mother</em>. She looked first at Tomas, then at the smoking lamp, then back through the arch toward the yard.", "Inte <em>god afton</em>. Inte <em>Moder</em>. Hon såg först på Tomas, sedan på den rykande lampan, sedan tillbaka genom valvet mot gården."],
-    ["— want the rest? Book One is out now, free. —", "— vill du ha resten? Bok Ett finns ute nu, gratis. —"],
-
-    ["Want to know what happens next?", "Vill du veta vad som händer sedan?"],
-    ["Read Book One free", "Läs Bok Ett gratis"],
-    ["Vote on what comes next", "Rösta om vad som kommer härnäst"],
-    ["Members follow the fuller material — the house records, the map plates, and every step from finished manuscript to printed book.", "Medlemmar följer det fylligare materialet — husens handlingar, kartplåtarna och varje steg från färdigt manuskript till tryckt bok."],
-
-    ["Read the whole book — free.", "Läs hela boken — gratis."],
-    ["<em>The Bell of Silence</em> is out now as a free ebook. Read it in full —\n        and follow the road to the printed edition.", "<em>The Bell of Silence</em> finns ute nu som en gratis e-bok. Läs den i sin helhet —\n        och följ vägen mot den tryckta utgåvan."],
-    ["<li>Read the whole book free, right now</li>", "<li>Läs hela boken gratis, just nu</li>"],
-    ["<li>Follow the journey from ebook to printed book</li>", "<li>Följ resan från e-bok till tryckt bok</li>"],
-    ["<li>Join free on Patreon for every major step</li>", "<li>Gå med gratis på Patreon för varje stort steg</li>"],
-
-    ["<p class=\"share-label\">Share the opening</p>", "<p class=\"share-label\">Dela början</p>"],
-    [">Share on X<", ">Dela på X<"],
-    ["Copy link", "Kopiera länk"],
-
-    ["Enjoying the opening?", "Gillar du början?"],
-    ["Download PDF", "Ladda ner PDF"]
+    [
+      "The record on the table was from House Whitehart. It was forty-three pages long, copied in a hand so even that the letters looked less written than agreed upon. Every page had been witnessed. Every witness had been witnessed. The cord had three seals in white wax and one in black, and the black one was Crown-watch's, put there when the packet arrived so that everyone would know no one had opened it before the people who were now opening it.",
+      "Handlingen på bordet var från House Whitehart. Den var fyrtiotre sidor lång, avskriven med en så jämn hand att bokstäverna såg mindre skrivna ut än överenskomna. Varje sida hade bevittnats. Varje vittne hade bevittnats. Snöret bar tre sigill i vitt vax och ett i svart, och det svarta var Crown-watchs, satt där när bunten anlände så att alla skulle veta att ingen hade öppnat den före dem som nu öppnade den."
+    ],
+    [
+      "The first wick had drowned. He pinched it out, drew it up with the point of his char knife, and cut it shorter than he meant to. His hand gave one small tremor against the copper hood. He noticed it before anyone else could and steadied the lamp with his other hand. The second flame burned blue at the root and smoked whenever the valley wind found the arch. Soot gathered beneath the little copper hood.",
+      "Den första veken hade dränkts. Han nöp den släckt, drog upp den med spetsen av sin sotkniv och skar den kortare än han menat. Handen gav en liten darrning mot kopparhuven. Han märkte det innan någon annan hann och stadgade lampan med sin andra hand. Den andra lågan brann blå vid roten och rykte närhelst dalvinden fann valvet. Sot samlades under den lilla kopparhuven."
+    ],
+    [
+      "He had introduced himself as Perrin, of Blackcrest, and had then spent most of the afternoon behaving as though introductions were something other people required. He wore a traveling coat indoors and had found out the copying clerk's name before Wren had. The clerk had brought him tea without being asked and had brought Wren none, which she did not hold against either of them and noticed about both.",
+      "Han hade presenterat sig som Perrin, av Blackcrest, och sedan tillbringat större delen av eftermiddagen med att uppträda som om presentationer var något andra människor behövde. Han bar en reskappa inomhus och hade tagit reda på skrivarens namn före Wren. Skrivaren hade burit te till honom utan att bli ombedd och inget till Wren, vilket hon inte höll emot någon av dem och lade märke till hos båda."
+    ],
+    [
+      "She had entered while he was trimming the wick and taken the chair furthest inside, where the back wall met the long row of griffes. The dead faced the valley. Alaine faced the room. She sat with both hands resting on the head of her walking stick and her shoulders clear of the stone, though Tomas knew the cold would reach them before the hour was done.",
+      "Hon hade kommit in medan han putsade veken och tagit stolen längst in, där bakväggen mötte den långa raden av griffes. De döda vände sig mot dalen. Alaine vände sig mot rummet. Hon satt med båda händerna vilande på handtaget till sin käpp och axlarna fria från stenen, fast Tomas visste att kylan skulle nå dem innan timmen var slut."
+    ],
+    [
+      "The arch admitted a rush of colder air and the smell of goat hair. Sela came in with a coil of narrow cloth over one shoulder and something pale caught in her braid. Straw, Tomas thought. No—burdock. A dark crescent had dried beneath one thumbnail, blood or hoof dirt or both. She had left her work knife by the door; its sheath hung empty at her belt.",
+      "Valvet släppte in ett svep av kallare luft och lukten av gethår. Sela kom in med en rulle smalt tyg över ena axeln och något blekt fångat i flätan. Halm, tänkte Tomas. Nej — kardborre. En mörk skära hade torkat under en tumnagel, blod eller hovsmuts eller båda. Hon hade lämnat sin arbetskniv vid dörren; slidan hängde tom vid bältet."
+    ],
+    [
+      "Across from her, Aldous aligned the packet's lower edge with the edge of the table. He had done this each time she moved it. He had not complained. She had not apologized. Their acquaintance had lasted three hours and had achieved a stable form.",
+      "Mitt emot henne rätade Aldous in buntens nederkant mot bordskanten. Han hade gjort det varje gång hon flyttat den. Han hade inte klagat. Hon hade inte bett om ursäkt. Deras bekantskap hade varat i tre timmar och nått en stabil form."
+    ],
+    [
+      "The room was very quiet. Crown-watch was built to keep paper dry and voices from traveling. The walls were lined with felt behind the boards; Wren had checked when she came in, because rooms explain institutions more honestly than mottos do.",
+      "Rummet var mycket tyst. Crown-watch var byggt för att hålla papper torrt och röster från att vandra. Väggarna var klädda med filt bakom panelen; Wren hade kontrollerat när hon kom in, för rum förklarar institutioner ärligare än valspråk gör."
+    ],
+    [
+      "\"The packet contains every judgment Whitehart chose to enter for the period requested. Names where names are permitted. Dates where dates survive. The name of the tester. The conclusion. Corrections witnessed and sealed.\"",
+      "”Bunten innehåller varje dom Whitehart valde att införa för den begärda perioden. Namn där namn tillåts. Datum där datum finns bevarade. Prövarens namn. Slutsatsen. Rättelser bevittnade och förseglade.”"
+    ],
+    [
+      "He put the lamp back where it had been. Alaine had not ordered him. That was not how her authority worked. She named the thing she believed should happen and left other people to discover that they had already obeyed.",
+      "Han satte tillbaka lampan där den varit. Alaine hade inte befallt honom. Så fungerade inte hennes myndighet. Hon namngav det hon ansåg borde ske och lät andra upptäcka att de redan hade lytt."
+    ],
+    [
+      "Two openings from Book One: <em>The Bell of Silence</em> — the prologue, where the realm argues over a record, and the beginning of Chapter One, where the record is only a frightened girl.",
+      "Två öppningar ur Bok Ett: <em>The Bell of Silence</em> — prologen, där riket tvistar om en handling, och början av Kapitel Ett, där handlingen bara är en skrämd flicka."
+    ],
+    [
+      "From the room where the realm argues over a record, to the room where the record is only a frightened girl. Read the opening of Chapter One below.",
+      "Från rummet där riket tvistar om en handling, till rummet där handlingen bara är en skrämd flicka. Läs början av Kapitel Ett nedan."
+    ],
+    [
+      "Not <em>good evening</em>. Not <em>Mother</em>. She looked first at Tomas, then at the smoking lamp, then back through the arch toward the yard.",
+      "Inte <em>god afton</em>. Inte <em>Moder</em>. Hon såg först på Tomas, sedan på den rykande lampan, sedan tillbaka genom valvet mot gården."
+    ],
+    [
+      "Crown-watch had a room for disputed records and a smaller room for the people who disputed them. Wren had been in the smaller room since noon.",
+      "Crown-watch hade ett rum för omtvistade handlingar och ett mindre rum för dem som tvistade om dem. Wren hade suttit i det mindre rummet sedan middagstid."
+    ],
+    [
+      "Tomas wiped his thumb on the rag at his belt. It left a dark mark beside three older ones. He had meant to begin with clean hands.",
+      "Tomas torkade tummen på trasan vid bältet. Den lämnade ett mörkt märke bredvid tre äldre. Han hade tänkt börja med rena händer."
+    ],
+    [
+      "Members follow the fuller material — the house records, the map plates, and every step from finished manuscript to printed book.",
+      "Medlemmar följer det fylligare materialet — husens handlingar, kartplåtarna och varje steg från färdigt manuskript till tryckt bok."
+    ],
+    [
+      "<em>The Bell of Silence</em> is out now as a free ebook. Read it in full —\n        and follow the road to the printed edition.",
+      "<em>The Bell of Silence</em> finns ute nu som en gratis e-bok. Läs den i sin helhet —\n        och följ vägen mot den tryckta utgåvan."
+    ],
+    [
+      "Wren had always thought this was the sort of reassurance that creates a new question without answering the old one.",
+      "Wren hade alltid tyckt att detta var den sortens försäkran som skapar en ny fråga utan att besvara den gamla."
+    ],
+    [
+      "\"If you burn the only observation from which a judgment was made, the distinction becomes devotional.\"",
+      "”Om man bränner den enda iakttagelse som en dom byggdes på blir åtskillnaden andaktsfull.”"
+    ],
+    [
+      "Wren of Blackthorn reads a sealed record; Aldous of Blackcrest and a herald named Perrin watch.",
+      "Wren av Blackthorn läser en förseglad handling; Aldous av Blackcrest och en härold vid namn Perrin ser på."
+    ],
+    [
+      "Alaine looked at the black crescent forming under the hood. \"The lamp has given her reason.\"",
+      "Alaine såg på den svarta skäran som bildades under huven. ”Lampan har gett henne skäl.”"
+    ],
+    [
+      "Or skip the noise — I'll write to you myself when there's more to read.",
+      "Eller hoppa över bruset — jag skriver själv till dig när det finns mer att läsa."
+    ],
+    [
+      "<em>No supporting matter survives outside the entered judgment.</em>",
+      "<em>Inget underlag finns bevarat utanför den införda domen.</em>"
+    ],
+    [
+      "Brother Tomas prepares the listening room. Mother Alaine watches.",
+      "Broder Tomas förbereder lyssnarrummet. Moder Alaine ser på."
+    ],
+    [
+      "<p>\"I would rather know what she does before she has reason.\"</p>",
+      "<p>”Jag vill hellre veta vad hon gör innan hon har skäl.”</p>"
+    ],
+    [
+      "She turned the last page back and read the final sentence again.",
+      "Hon vände tillbaka den sista sidan och läste den avslutande meningen igen."
+    ],
+    [
+      "By the time Sela arrived, Tomas had failed the lamp twice.",
+      "När Sela kom hade Tomas misslyckats med lampan två gånger."
+    ],
+    [
+      "Wren put one finger on the final sentence. \"In theirs.\"",
+      "Wren lade ett finger på den avslutande meningen. ”I deras.”"
+    ],
+    [
+      "<li>Follow the journey from ebook to printed book</li>",
+      "<li>Följ resan från e-bok till tryckt bok</li>"
+    ],
+    [
+      "Aldous did not look at him. \"Complete in what sense?\"",
+      "Aldous såg inte på honom. ”Fullständig i vilken mening?”"
+    ],
+    [
+      "Crown-watch, seat of House Blackcrest, year 396 A.U.",
+      "Crown-watch, House Blackcrests säte, år 396 A.U."
+    ],
+    [
+      "The third man in the room looked up from the window.",
+      "Den tredje mannen i rummet såg upp från fönstret."
+    ],
+    [
+      "Chapter One — The Trial of the Goatherd (an excerpt)",
+      "Kapitel Ett — Getvallarens prövning (ett utdrag)"
+    ],
+    [
+      "House Whitehart, the Bell of Silence, year 396 A.U.",
+      "House Whitehart, the Bell of Silence, år 396 A.U."
+    ],
+    [
+      "Prologue — The Question in the Margin (an excerpt)",
+      "Prolog — Frågan i marginalen (ett utdrag)"
+    ],
+    [
+      "<li>Join free on Patreon for every major step</li>",
+      "<li>Gå med gratis på Patreon för varje stort steg</li>"
+    ],
+    [
+      "He moved the lamp half a handspan to the left.",
+      "Han flyttade lampan ett halvt handsmått åt vänster."
+    ],
+    [
+      "<p>\"Those are often the same thing here.\"</p>",
+      "<p>”De är ofta samma sak här.”</p>"
+    ],
+    [
+      "— want the rest? Book One is out now, free. —",
+      "— vill du ha resten? Bok Ett finns ute nu, gratis. —"
+    ],
+    [
+      "<li>Read the whole book free, right now</li>",
+      "<li>Läs hela boken gratis, just nu</li>"
+    ],
+    [
+      "<p class=\"share-label\">Share the opening</p>",
+      "<p class=\"share-label\">Dela början</p>"
+    ],
+    [
+      "<h1 class=\"page-title\">From the pages</h1>",
+      "<h1 class=\"page-title\">Ur sidorna</h1>"
+    ],
+    [
+      "— the prologue continues in the book. —",
+      "— prologen fortsätter i boken. —"
+    ],
+    [
+      "Join free to follow the book to print →",
+      "Gå med gratis för att följa boken till tryck →"
+    ],
+    [
+      "\"It will smoke in her eyes,\" he said.",
+      "”Den kommer ryka i hennes ögon”, sade han."
+    ],
+    [
+      "\"That sounded ominous,\" Perrin said.",
+      "”Det lät illavarslande”, sade Perrin."
+    ],
+    [
+      "<p>\"The notes of the trials.\"</p>",
+      "<p>”Prövningarnas anteckningar.”</p>"
+    ],
+    [
+      "<p>The flame leaned harder.</p>",
+      "<p>Lågan lutade hårdare.</p>"
+    ],
+    [
+      "\"Leave it,\" Mother Alaine said.",
+      "”Låt den vara”, sade Moder Alaine."
+    ],
+    [
+      "<p>She stopped just inside.</p>",
+      "<p>Hon stannade strax innanför.</p>"
+    ],
+    [
+      "Want to know what happens next?",
+      "Vill du veta vad som händer sedan?"
+    ],
+    [
+      "<p>\"Then she will move.\"</p>",
+      "<p>”Då flyttar hon sig.”</p>"
+    ],
+    [
+      "\"Is it complete?\" he asked.",
+      "”Är den fullständig?” frågade han."
+    ],
+    [
+      "Read the whole book — free.",
+      "Läs hela boken — gratis."
+    ],
+    [
+      "◔ About a five-minute read",
+      "◔ Ungefär fem minuters läsning"
+    ],
+    [
+      "<p>\"It was an answer.\"</p>",
+      "<p>”Det var ett svar.”</p>"
+    ],
+    [
+      "<p>\"And the trials?\"</p>",
+      "<p>”Och prövningarna?”</p>"
+    ],
+    [
+      "Aldous said, \"Explain.\"",
+      "Aldous sade: ”Förklara.”"
+    ],
+    [
+      "Vote on what comes next",
+      "Rösta om vad som kommer härnäst"
+    ],
+    [
+      "Enjoying the opening?",
+      "Gillar du början?"
+    ],
+    [
+      "<p>\"How long?\"</p>",
+      "<p>”Hur länge?”</p>"
+    ],
+    [
+      "Read Book One free",
+      "Läs Bok Ett gratis"
+    ],
+    [
+      "<p>\"Burned.\"</p>",
+      "<p>”Brända.”</p>"
+    ],
+    [
+      "<p>\"Yes.\"</p>",
+      "<p>”Ja.”</p>"
+    ],
+    [
+      ">Share on X<",
+      ">Dela på X<"
+    ],
+    [
+      "Download PDF",
+      "Ladda ner PDF"
+    ],
+    [
+      "Follow free",
+      "Följ gratis"
+    ],
+    [
+      "Copy link",
+      "Kopiera länk"
+    ]
   ]
 }

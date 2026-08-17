@@ -1,36 +1,20 @@
 {
   "blocks": [
     [
-      "YOU WOULD FOLLOW",
-      "VOUS SUIVRIEZ"
-    ],
-    [
-      "Which house are you? Take the quiz",
-      "Quelle maison êtes-vous ? Faites le quiz"
-    ],
-    [
-      "Follow free",
-      "Suivre gratuitement"
-    ],
-    [
-      "Meet all ten houses &rarr;",
-      "Découvrez les dix maisons &rarr;"
-    ],
-    [
-      "Tell them which house you'd follow",
-      "Dites-leur quelle maison vous suivriez"
-    ],
-    [
-      ">Share on X<",
-      ">Partager sur X<"
-    ],
-    [
-      ">Copy</button>",
-      ">Copier</button>"
-    ],
-    [
       "The book's canon and central mysteries are the author's; the Moot and this quiz shape the world around it — what the archive opens or explores next — never the story's heart.",
       "Le canon du livre et ses mystères centraux appartiennent à l’auteur ; le Conseil et ce quiz façonnent le monde autour du livre — ce que l’archive ouvre ou explore ensuite — jamais le cœur de l’histoire."
+    ],
+    [
+      "Intellect. They plan for every future — and act a moment too late. Take the quiz and find your house of Aurefold.",
+      "Intellect. Ils planifient chaque avenir — et agissent un instant trop tard. Faites le quiz et découvrez votre maison d’Aurefold."
+    ],
+    [
+      "<p class=\"quiz-result-line\">“They plan for every future — and act a moment too late.”</p>",
+      "<p class=\"quiz-result-line\">“Ils planifient chaque avenir — et agissent un instant trop tard.”</p>"
+    ],
+    [
+      "“What should the most capable mind be permitted to decide for everyone else?”",
+      "« Que devrait-on permettre à l’esprit le plus capable de décider à la place de tous les autres ? »"
     ],
     [
       "House Blackthorn — Which house would you follow? | AUREFOLD",
@@ -41,28 +25,52 @@
       "Je suivrais House Blackthorn — quelle maison suivriez-vous ?"
     ],
     [
-      "Intellect. They plan for every future — and act a moment too late. Take the quiz and find your house of Aurefold.",
-      "Intellect. Ils planifient chaque avenir — et agissent un instant trop tard. Faites le quiz et découvrez votre maison d’Aurefold."
+      "<p class=\"quiz-result-phil\">Intellect</p>",
+      "<p class=\"quiz-result-phil\">Intellect</p>"
     ],
     [
       "House Blackthorn — Intellect — AUREFOLD",
       "House Blackthorn — Intellect — AUREFOLD"
     ],
     [
-      "<p class=\"quiz-result-phil\">Intellect</p>",
-      "<p class=\"quiz-result-phil\">Intellect</p>"
+      "Raise a character in the Banner Hall",
+      "Levez un personnage dans la Salle des Bannières"
     ],
     [
-      "<p class=\"quiz-result-line\">“They plan for every future — and act a moment too late.”</p>",
-      "<p class=\"quiz-result-line\">“Ils planifient chaque avenir — et agissent un instant trop tard.”</p>"
+      "Which house are you? Take the quiz",
+      "Quelle maison êtes-vous ? Faites le quiz"
+    ],
+    [
+      "Tell them which house you'd follow",
+      "Dites-leur quelle maison vous suivriez"
     ],
     [
       "Cast this as your vote in The Moot",
       "Portez ceci comme votre vote au Conseil"
     ],
     [
-      "Raise a character in the Banner Hall",
-      "Levez un personnage dans la Salle des Bannières"
+      "Meet all ten houses &rarr;",
+      "Découvrez les dix maisons &rarr;"
+    ],
+    [
+      "The question it forces",
+      "La question qu’elle impose"
+    ],
+    [
+      "YOU WOULD FOLLOW",
+      "VOUS SUIVRIEZ"
+    ],
+    [
+      ">Copy</button>",
+      ">Copier</button>"
+    ],
+    [
+      ">Share on X<",
+      ">Partager sur X<"
+    ],
+    [
+      "Follow free",
+      "Suivre gratuitement"
     ]
   ]
 }

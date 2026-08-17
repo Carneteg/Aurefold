@@ -1,5 +1,18 @@
 {
   "title": "Baneret — gå med läsarna som formar Aurefolds värld",
   "description": "Baneret är där Aurefolds läsare samlas: svär in dig, välj ditt hus, rösta i Tinget, res egna karaktärer och lämna verk i Skriptoriet.",
-  "blocks": []
+  "blocks": [
+    [
+      "In the hall already: Yara Cobbleworth of Stormrider, Corin Farrow of Ashbourne, and Old Ferro of Ironvale — sworn and honoured.",
+      "Redan i hallen: Yara Cobbleworth av Stormrider, Corin Farrow av Ashbourne och Old Ferro av Ironvale — svurna och hedrade."
+    ],
+    [
+      "Lately: the theory “Why the Chronicle and the Ash Fragments Can't Both Be Lying,” and the story “A Night at the Toll House.”",
+      "Nyligen: teorin ”Why the Chronicle and the Ash Fragments Can't Both Be Lying” och berättelsen ”A Night at the Toll House”."
+    ],
+    [
+      "Standing now: “Which house would you follow?” and “Which house's fragment does the archive read aloud next?”",
+      "Just nu: ”Which house would you follow?” och ”Which house's fragment does the archive read aloud next?”"
+    ]
+  ]
 }

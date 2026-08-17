@@ -1,36 +1,20 @@
 {
   "blocks": [
     [
-      "YOU WOULD FOLLOW",
-      "あなたが従うのは"
-    ],
-    [
-      "Which house are you? Take the quiz",
-      "あなたはどの家？ 診断をする"
-    ],
-    [
-      "Follow free",
-      "無料でフォロー"
-    ],
-    [
-      "Meet all ten houses &rarr;",
-      "十の家すべてを見る &rarr;"
-    ],
-    [
-      "Tell them which house you'd follow",
-      "どの家に従うか教えよう"
-    ],
-    [
-      ">Share on X<",
-      ">X でシェア<"
-    ],
-    [
-      ">Copy</button>",
-      ">コピー</button>"
-    ],
-    [
       "The book's canon and central mysteries are the author's; the Moot and this quiz shape the world around it — what the archive opens or explores next — never the story's heart.",
       "本の正典と中心的な謎は作者のもの。合議とこの診断が形づくるのは本を取り巻く世界——記録が次に何を開き、探るか——であって、物語の核心では決してない。"
+    ],
+    [
+      "Intellect. They plan for every future — and act a moment too late. Take the quiz and find your house of Aurefold.",
+      "知性。彼らはあらゆる未来に備える——そして一瞬、遅れて動く。 診断をして、Aurefold のあなたの家を見つけよう。"
+    ],
+    [
+      "<p class=\"quiz-result-line\">“They plan for every future — and act a moment too late.”</p>",
+      "<p class=\"quiz-result-line\">“彼らはあらゆる未来に備える——そして一瞬、遅れて動く。”</p>"
+    ],
+    [
+      "“What should the most capable mind be permitted to decide for everyone else?”",
+      "「最も有能な知性は、他のすべての者に代わって何を決めることを許されるべきか」"
     ],
     [
       "House Blackthorn — Which house would you follow? | AUREFOLD",
@@ -41,28 +25,52 @@
       "Aurefold で私は House Blackthorn に従う——あなたはどの家に従う？"
     ],
     [
-      "Intellect. They plan for every future — and act a moment too late. Take the quiz and find your house of Aurefold.",
-      "知性。彼らはあらゆる未来に備える——そして一瞬、遅れて動く。 診断をして、Aurefold のあなたの家を見つけよう。"
+      "<p class=\"quiz-result-phil\">Intellect</p>",
+      "<p class=\"quiz-result-phil\">知性</p>"
     ],
     [
       "House Blackthorn — Intellect — AUREFOLD",
       "House Blackthorn — 知性 — AUREFOLD"
     ],
     [
-      "<p class=\"quiz-result-phil\">Intellect</p>",
-      "<p class=\"quiz-result-phil\">知性</p>"
+      "Raise a character in the Banner Hall",
+      "旗印の広間でキャラクターを立てる"
     ],
     [
-      "<p class=\"quiz-result-line\">“They plan for every future — and act a moment too late.”</p>",
-      "<p class=\"quiz-result-line\">“彼らはあらゆる未来に備える——そして一瞬、遅れて動く。”</p>"
+      "Which house are you? Take the quiz",
+      "あなたはどの家？ 診断をする"
+    ],
+    [
+      "Tell them which house you'd follow",
+      "どの家に従うか教えよう"
     ],
     [
       "Cast this as your vote in The Moot",
       "これを合議での一票とする"
     ],
     [
-      "Raise a character in the Banner Hall",
-      "旗印の広間でキャラクターを立てる"
+      "Meet all ten houses &rarr;",
+      "十の家すべてを見る &rarr;"
+    ],
+    [
+      "The question it forces",
+      "それが突きつける問い"
+    ],
+    [
+      "YOU WOULD FOLLOW",
+      "あなたが従うのは"
+    ],
+    [
+      ">Copy</button>",
+      ">コピー</button>"
+    ],
+    [
+      ">Share on X<",
+      ">X でシェア<"
+    ],
+    [
+      "Follow free",
+      "無料でフォロー"
     ]
   ]
 }

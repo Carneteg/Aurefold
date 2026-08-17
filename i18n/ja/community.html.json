@@ -1,5 +1,18 @@
 {
   "title": "旗印 — Aurefold の世界を形づくる読者たちに加わろう",
   "description": "旗印は Aurefold の読者が集う場所。誓いを立て、家門を選び、合議で票を投じ、自らのキャラクターを立て、写字室に作品を残そう。",
-  "blocks": []
+  "blocks": [
+    [
+      "In the hall already: Yara Cobbleworth of Stormrider, Corin Farrow of Ashbourne, and Old Ferro of Ironvale — sworn and honoured.",
+      "広間にはすでに：Stormrider の Yara Cobbleworth、Ashbourne の Corin Farrow、Ironvale の Old Ferro——誓いを立て、栄誉を受けた者たち。"
+    ],
+    [
+      "Lately: the theory “Why the Chronicle and the Ash Fragments Can't Both Be Lying,” and the story “A Night at the Toll House.”",
+      "最近の作品：考察 “Why the Chronicle and the Ash Fragments Can't Both Be Lying” と物語 “A Night at the Toll House”。"
+    ],
+    [
+      "Standing now: “Which house would you follow?” and “Which house's fragment does the archive read aloud next?”",
+      "いま立っている問い：“Which house would you follow?” と “Which house's fragment does the archive read aloud next?”"
+    ]
+  ]
 }

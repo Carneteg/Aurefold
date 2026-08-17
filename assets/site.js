@@ -55,6 +55,18 @@
   // "The Archive" nav dropdown: the CSS drives the reveal (hover/focus on
   // desktop, always-nested on mobile); JS only keeps aria-expanded honest and
   // adds Escape-to-close. Degrades to plain links with JS off.
+  // On mobile the submenus collapse for real: tapping a group's button toggles
+  // .open (CSS shows/hides); desktop hover behavior is untouched.
+  if (nav) {
+    Array.prototype.forEach.call(nav.querySelectorAll(".has-sub"), function (group) {
+      var btn = group.querySelector(".nav-sub-toggle");
+      if (!btn) return;
+      btn.addEventListener("click", function () {
+        var open = group.classList.toggle("open");
+        btn.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+    });
+  }
   var subToggle = nav && nav.querySelector(".nav-sub-toggle");
   if (subToggle) {
     var subGroup = subToggle.closest(".has-sub");
@@ -132,7 +144,22 @@
   var mlConfigured = !!(mlBox && mlCfg.account && mlCfg.form &&
     String(mlCfg.account).trim() && String(mlCfg.form).trim());
   var mlLoaded = false;
+  // Defer the (consent-gated) external script until the form is actually in view.
   function loadMailerLite() {
+    if (mlLoaded || !mlConfigured) return;
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (entries) {
+        if (entries.some(function (e) { return e.isIntersecting; })) {
+          io.disconnect();
+          reallyLoadMailerLite();
+        }
+      }, { rootMargin: "200px" });
+      io.observe(mlBox);
+      return;
+    }
+    reallyLoadMailerLite();
+  }
+  function reallyLoadMailerLite() {
     if (mlLoaded || !mlConfigured) return;
     mlLoaded = true;
     mlBox.setAttribute("data-form", String(mlCfg.form).trim());  // config is source of truth
@@ -150,27 +177,27 @@
   // Localized consent strings (keyed by <html lang>). English is the fallback;
   // more languages are added as the site is translated.
   var CONSENT_I18N = {
-    en: { banner: "Aurefold uses cookies for anonymous visitor analytics — and, if you join the reading list, the email signup form. You choose.",
+    en: { banner: "The archive counts its visitors anonymously — cookies for the counting, and an email form if you join the reading list. Whether it may is yours to decide.",
           privacy: "Privacy &amp; cookies", decline: "Decline", accept: "Accept",
           gatePre: "To load the email signup form we need your consent to cookies. ",
           allow: "Allow &amp; load the form", gateOr: ", or ", patreon: "follow free on Patreon" },
-    sv: { banner: "Aurefold använder cookies för anonym besöksstatistik — och, om du går med i läslistan, e-postformuläret. Du väljer.",
+    sv: { banner: "Arkivet räknar sina besökare anonymt — cookies för räkningen, och ett e-postformulär om du går med i läslistan. Om det får ske avgör du.",
           privacy: "Integritet &amp; cookies", decline: "Neka", accept: "Acceptera",
           gatePre: "För att ladda e-postformuläret behöver vi ditt samtycke till cookies. ",
           allow: "Tillåt &amp; ladda formuläret", gateOr: ", eller ", patreon: "följ gratis på Patreon" },
-    es: { banner: "Aurefold usa cookies para estadísticas anónimas de visitantes — y, si te unes a la lista de lectura, el formulario de correo. Tú eliges.",
+    es: { banner: "El archivo cuenta a sus visitantes de forma anónima — cookies para el recuento, y un formulario de correo si te unes a la lista de lectura. Si puede hacerlo, lo decides tú.",
           privacy: "Privacidad y cookies", decline: "Rechazar", accept: "Aceptar",
           gatePre: "Para cargar el formulario de correo necesitamos tu consentimiento a las cookies. ",
           allow: "Permitir y cargar el formulario", gateOr: ", o ", patreon: "sigue gratis en Patreon" },
-    fr: { banner: "Aurefold utilise des cookies pour des statistiques de visite anonymes — et, si vous rejoignez la liste de lecture, le formulaire d’inscription par e-mail. À vous de choisir.",
+    fr: { banner: "Les archives comptent leurs visiteurs anonymement — des cookies pour le comptage, et un formulaire d’e-mail si vous rejoignez la liste de lecture. À vous de décider si elles le peuvent.",
           privacy: "Confidentialité et cookies", decline: "Refuser", accept: "Accepter",
           gatePre: "Pour charger le formulaire d’inscription, nous avons besoin de votre consentement aux cookies. ",
           allow: "Autoriser et charger le formulaire", gateOr: ", ou ", patreon: "suivez gratuitement sur Patreon" },
-    zh: { banner: "Aurefold 使用 Cookie 进行匿名访客统计——如果你加入阅读清单，还会用于邮件订阅表单。由你选择。",
+    zh: { banner: "档案馆匿名地记录访客人数——用 Cookie 计数；如果你加入阅读清单，还有一份邮件表单。是否允许，由你决定。",
           privacy: "隐私与 Cookie", decline: "拒绝", accept: "接受",
           gatePre: "为加载邮件订阅表单，我们需要你同意使用 Cookie。",
           allow: "允许并加载表单", gateOr: "，或 ", patreon: "在 Patreon 上免费关注" },
-    ja: { banner: "Aurefold は匿名のアクセス統計のために Cookie を使用します——読書リストに登録する場合は、メール登録フォームにも使用します。選ぶのはあなたです。",
+    ja: { banner: "この書庫は訪問者を匿名で数えています——数えるための Cookie と、読書リストに登録する場合のメールフォームです。許すかどうかはあなたが決めます。",
           privacy: "プライバシーと Cookie", decline: "拒否する", accept: "同意する",
           gatePre: "メール登録フォームを読み込むには、Cookie への同意が必要です。",
           allow: "許可してフォームを読み込む", gateOr: "、または ", patreon: "Patreon で無料でフォローする" }
@@ -200,7 +227,12 @@
   }
 
   var banner = null;
-  function removeBanner() { if (banner && banner.parentNode) banner.parentNode.removeChild(banner); banner = null; }
+  function removeBanner() {
+    if (banner && banner.parentNode) banner.parentNode.removeChild(banner);
+    banner = null;
+    syncCookieH();
+    window.removeEventListener("resize", syncCookieH);
+  }
   function acceptConsent() { writeConsent("granted"); applyGranted(); removeBanner(); }
   function declineConsent() { writeConsent("denied"); removeBanner(); showSignupGate(); }
   function showBanner() {
@@ -218,6 +250,15 @@
     document.body.appendChild(banner);
     banner.querySelector('[data-consent="accept"]').addEventListener("click", acceptConsent);
     banner.querySelector('[data-consent="decline"]').addEventListener("click", declineConsent);
+    syncCookieH();
+    window.addEventListener("resize", syncCookieH);
+  }
+  // The banner reserves its own space (no covering CTAs): height flows into
+  // --cookie-h, which pads the body and lifts bottom-fixed UI.
+  function syncCookieH() {
+    var h = banner ? banner.offsetHeight : 0;
+    document.documentElement.style.setProperty("--cookie-h", h + "px");
+    document.body.classList.toggle("has-cookie-banner", h > 0);
   }
 
   var storedConsent = readConsent();

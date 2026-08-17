@@ -17,6 +17,7 @@
   var LANG = (document.documentElement.lang || "en").slice(0, 2);
   var TX = {
     en: {
+      gateTitle: "Sign in to join the discussion",
       title: "The discussion",
       empty: "No voices here yet. Yours could be the first — once the archivist has seen it.",
       placeholder: "Speak plainly — what did this stir in you?",
@@ -30,6 +31,7 @@
       houseWord: "of House "
     },
     sv: {
+      gateTitle: "Logga in för att delta i samtalet",
       title: "Diskussionen",
       empty: "Inga röster här ännu. Din kan bli den första — när arkivarien har sett den.",
       placeholder: "Tala klart — vad väckte det här i dig?",
@@ -43,6 +45,7 @@
       houseWord: "av huset "
     },
     es: {
+      gateTitle: "Inicia sesión para unirte a la conversación",
       title: "La discusión",
       empty: "Aún no hay voces aquí. La tuya podría ser la primera — en cuanto el archivista la haya visto.",
       placeholder: "Habla con franqueza — ¿qué despertó esto en ti?",
@@ -56,6 +59,7 @@
       houseWord: "de la Casa "
     },
     fr: {
+      gateTitle: "Connectez-vous pour rejoindre la discussion",
       title: "La discussion",
       empty: "Aucune voix ici pour l’instant. La vôtre pourrait être la première — une fois que l’archiviste l’aura vue.",
       placeholder: "Parlez franchement — qu’est-ce que cela a éveillé en vous ?",
@@ -69,6 +73,7 @@
       houseWord: "de la Maison "
     },
     zh: {
+      gateTitle: "登录以参与讨论",
       title: "讨论",
       empty: "这里还没有声音。你的声音可能是第一个——只要档案员看过它。",
       placeholder: "坦率地说——这激起了你怎样的感受？",
@@ -82,6 +87,7 @@
       houseWord: "家族 "
     },
     ja: {
+      gateTitle: "サインインして議論に参加する",
       title: "議論",
       empty: "ここにはまだ声がない。あなたの声が最初になるかもしれない——記録官が目を通したのちに。",
       placeholder: "率直に語ってほしい——これはあなたの中に何を呼び起こしたか？",
@@ -181,7 +187,7 @@
     function renderForm() {
       formBox.innerHTML = "";
       if (!A.user()) {
-        A.renderGate(formBox, { intro: t("gateIntro") });
+        A.renderGate(formBox, { title: t("gateTitle"), intro: t("gateIntro") });
         return;
       }
       var form = el("form", "comment-form");

@@ -1,68 +1,76 @@
 {
   "blocks": [
     [
-      "YOU WOULD FOLLOW",
-      "DU SKULLE FÖLJA"
-    ],
-    [
-      "Which house are you? Take the quiz",
-      "Vilket hus är du? Gör testet"
-    ],
-    [
-      "Follow free",
-      "Följ gratis"
-    ],
-    [
-      "Meet all ten houses &rarr;",
-      "Möt alla tio hus &rarr;"
-    ],
-    [
-      "Tell them which house you'd follow",
-      "Berätta vilket hus du skulle följa"
-    ],
-    [
-      ">Share on X<",
-      ">Dela på X<"
-    ],
-    [
-      ">Copy</button>",
-      ">Kopiera</button>"
-    ],
-    [
       "The book's canon and central mysteries are the author's; the Moot and this quiz shape the world around it — what the archive opens or explores next — never the story's heart.",
       "Bokens kanon och centrala mysterier är författarens; Tinget och det här testet formar världen kring den — vad arkivet öppnar eller utforskar härnäst — aldrig berättelsens hjärta."
-    ],
-    [
-      "House Ironvale — Which house would you follow? | AUREFOLD",
-      "House Ironvale — Vilket hus skulle du följa? | AUREFOLD"
-    ],
-    [
-      "I'm House Ironvale — which house are you?",
-      "Jag skulle följa House Ironvale — vilket hus skulle du följa?"
     ],
     [
       "Innovation. They measure everything, and build what no one else dares. Take the quiz and find your house of Aurefold.",
       "Innovation. De mäter allt, och bygger det ingen annan vågar. Gör testet och hitta ditt hus i Aurefold."
     ],
     [
-      "House Ironvale — Innovation — AUREFOLD",
-      "House Ironvale — Innovation — AUREFOLD"
+      "<p class=\"quiz-result-line\">“They measure everything, and build what no one else dares.”</p>",
+      "<p class=\"quiz-result-line\">“De mäter allt, och bygger det ingen annan vågar.”</p>"
+    ],
+    [
+      "“Who benefits first from invention, and who is made obsolete or vulnerable?”",
+      "”Vem gynnas först av uppfinningar, och vem görs föråldrad eller sårbar?”"
+    ],
+    [
+      "House Ironvale — Which house would you follow? | AUREFOLD",
+      "House Ironvale — Vilket hus skulle du följa? | AUREFOLD"
     ],
     [
       "<p class=\"quiz-result-phil\">Innovation</p>",
       "<p class=\"quiz-result-phil\">Innovation</p>"
     ],
     [
-      "<p class=\"quiz-result-line\">“They measure everything, and build what no one else dares.”</p>",
-      "<p class=\"quiz-result-line\">“De mäter allt, och bygger det ingen annan vågar.”</p>"
+      "I'm House Ironvale — which house are you?",
+      "Jag skulle följa House Ironvale — vilket hus skulle du följa?"
+    ],
+    [
+      "House Ironvale — Innovation — AUREFOLD",
+      "House Ironvale — Innovation — AUREFOLD"
+    ],
+    [
+      "Raise a character in the Banner Hall",
+      "Res en karaktär i Banerhallen"
+    ],
+    [
+      "Which house are you? Take the quiz",
+      "Vilket hus är du? Gör testet"
+    ],
+    [
+      "Tell them which house you'd follow",
+      "Berätta vilket hus du skulle följa"
     ],
     [
       "Cast this as your vote in The Moot",
       "Lägg detta som din röst i Tinget"
     ],
     [
-      "Raise a character in the Banner Hall",
-      "Res en karaktär i Banerhallen"
+      "Meet all ten houses &rarr;",
+      "Möt alla tio hus &rarr;"
+    ],
+    [
+      "The question it forces",
+      "Frågan den tvingar fram"
+    ],
+    [
+      "YOU WOULD FOLLOW",
+      "DU SKULLE FÖLJA"
+    ],
+    [
+      ">Copy</button>",
+      ">Kopiera</button>"
+    ],
+    [
+      ">Share on X<",
+      ">Dela på X<"
+    ],
+    [
+      "Follow free",
+      "Följ gratis"
     ]
   ]
 }
