@@ -1,0 +1,250 @@
+/* AUREFOLD — Book One character portrait archive.
+ * Runtime gallery driven by public.site_character_gallery.
+ */
+
+.character-archive {
+  margin: 38px 0 18px;
+  padding: 28px 0 24px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.character-archive-head {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.8fr) minmax(280px, 1.2fr);
+  gap: 28px;
+  align-items: end;
+  margin-bottom: 20px;
+}
+
+.character-archive-eyebrow,
+.character-study-kicker {
+  margin: 0 0 4px;
+  color: var(--ember);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.character-archive-head h2 {
+  margin: 0;
+  font-size: clamp(1.45rem, 2.6vw, 2rem);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+}
+
+.character-archive-head > p {
+  margin: 0;
+  color: var(--accent);
+  font-style: italic;
+  max-width: 52ch;
+}
+
+.character-archive-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(148px, 172px);
+  gap: 12px;
+  overflow-x: auto;
+  padding: 2px 2px 14px;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) transparent;
+}
+
+.character-archive-card {
+  scroll-snap-align: start;
+  min-width: 0;
+}
+
+.character-archive-open {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  overflow: hidden;
+  transition: border-color 0.22s ease, transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.character-archive-open:hover,
+.character-archive-open:focus-visible {
+  border-color: var(--ember);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(58, 51, 42, 0.12);
+}
+
+.character-archive-open:focus-visible {
+  outline: 2px solid var(--ember);
+  outline-offset: 3px;
+}
+
+.character-archive-open img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  background: var(--bg-deep);
+}
+
+.character-archive-name {
+  display: block;
+  min-height: 50px;
+  padding: 11px 12px 12px;
+  border-top: 1px solid var(--line);
+  font-size: 0.86rem;
+  line-height: 1.35;
+  letter-spacing: 0.05em;
+}
+
+.character-study-dialog {
+  width: min(1180px, calc(100vw - 36px));
+  max-height: calc(100vh - 36px);
+  margin: auto;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  color: var(--ink);
+  box-shadow: 0 26px 80px rgba(0, 0, 0, 0.42);
+  overflow: auto;
+}
+
+.character-study-dialog::backdrop {
+  background: rgba(8, 7, 6, 0.78);
+  backdrop-filter: blur(3px);
+}
+
+.character-study-shell {
+  padding: clamp(20px, 4vw, 38px);
+}
+
+.character-study-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.character-study-name {
+  margin: 0;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+}
+
+.character-study-subtitle {
+  margin-top: 4px;
+  color: var(--ember);
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+}
+
+.character-study-summary {
+  margin: 18px 0 0;
+  max-width: 68ch;
+  color: var(--accent);
+  font-style: italic;
+}
+
+.character-study-close {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 9px 13px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.character-study-close:hover,
+.character-study-close:focus-visible {
+  border-color: var(--ember);
+  color: var(--ember);
+}
+
+.character-study-close:focus-visible {
+  outline: 2px solid var(--ember);
+  outline-offset: 2px;
+}
+
+.character-study-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.character-study-grid figure {
+  margin: 0;
+  min-width: 0;
+  border: 1px solid var(--line);
+  background: var(--bg);
+}
+
+.character-study-grid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  background: var(--bg-deep);
+}
+
+.character-study-grid figcaption {
+  padding: 9px 10px 10px;
+  border-top: 1px solid var(--line);
+  color: var(--accent);
+  font-size: 0.82rem;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 720px) {
+  .character-archive {
+    margin-top: 28px;
+  }
+
+  .character-archive-head {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .character-archive-track {
+    grid-auto-columns: minmax(140px, 44vw);
+    margin-right: -24px;
+    padding-right: 24px;
+  }
+
+  .character-study-dialog {
+    width: calc(100vw - 20px);
+    max-height: calc(100vh - 20px);
+  }
+
+  .character-study-shell {
+    padding: 18px;
+  }
+
+  .character-study-head {
+    gap: 14px;
+  }
+
+  .character-study-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .character-archive-open {
+    transition: none;
+  }
+}
