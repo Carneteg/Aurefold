@@ -20,9 +20,21 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p manuscript/book-one
+          OUT=manuscript/book-one/Aurefold_The_Bell_of_Silence_English_Master_v1.7.md
+          # usercontent endpoint serves the raw file directly for link-shared files
           curl -L --fail --silent --show-error \
-            'https://drive.google.com/uc?export=download&id=1PWNoFCCwW4c0fHzNFSjK-BNp__I9huR9' \
-            -o manuscript/book-one/Aurefold_The_Bell_of_Silence_English_Master_v1.7.md
+            'https://drive.usercontent.google.com/download?id=1PWNoFCCwW4c0fHzNFSjK-BNp__I9huR9&export=download&confirm=t' \
+            -o "$OUT" || true
+          echo "--- downloaded $(wc -c < "$OUT") bytes; first 200:"
+          head -c 200 "$OUT"; echo
+          if head -c 100 "$OUT" | grep -qi '<!DOCTYPE\|<html'; then
+            echo "Got HTML page, retrying legacy endpoint"
+            curl -L --fail --silent --show-error \
+              'https://drive.google.com/uc?export=download&id=1PWNoFCCwW4c0fHzNFSjK-BNp__I9huR9' \
+              -o "$OUT"
+            echo "--- retry $(wc -c < "$OUT") bytes; first 200:"
+            head -c 200 "$OUT"; echo
+          fi
           echo '179308155e1e9382a7a40b07bcaf22463120aa8a2d0ce25e7709ae5db633927e  manuscript/book-one/Aurefold_The_Bell_of_Silence_English_Master_v1.7.md' | sha256sum -c -
           test "$(wc -c < manuscript/book-one/Aurefold_The_Bell_of_Silence_English_Master_v1.7.md)" -eq 608505
 
