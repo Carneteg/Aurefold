@@ -1,0 +1,53 @@
+name: Install featured faces includes
+on:
+  push:
+    branches: [agent/site-featured-faces]
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/site-featured-faces
+          fetch-depth: 0
+      - name: Patch homepage and Book One pages
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          targets = [Path('index.html'), Path('book.html')]
+          for lang in ['sv','es','fr','zh','ja']:
+              targets += [Path(lang) / 'index.html', Path(lang) / 'book.html']
+
+          css = '  <link rel="stylesheet" href="/assets/featured-faces.css?v=202608172115" />\n'
+          js = '  <script src="/assets/featured-faces.js?v=202608172115"></script>\n'
+
+          changed = []
+          for path in targets:
+              if not path.exists():
+                  raise SystemExit(f'Missing expected page: {path}')
+              text = path.read_text(encoding='utf-8')
+              before = text
+              if 'featured-faces.css' not in text:
+                  text = text.replace('</head>', css + '</head>', 1)
+              if 'featured-faces.js' not in text:
+                  text = text.replace('</body>', js + '</body>', 1)
+              path.write_text(text, encoding='utf-8')
+              if text != before:
+                  changed.append(str(path))
+
+          print('Patched:', ', '.join(changed))
+          if len(changed) != len(targets):
+              print(f'Idempotent/already present on {len(targets)-len(changed)} page(s).')
+          PY
+      - name: Remove temporary workflow
+        run: rm .github/workflows/tmp-install-featured-faces.yml
+      - name: Commit patched pages
+        run: |
+          git config user.name "Aurefold Editorial Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html book.html sv/index.html sv/book.html es/index.html es/book.html fr/index.html fr/book.html zh/index.html zh/book.html ja/index.html ja/book.html .github/workflows/tmp-install-featured-faces.yml
+          git commit -m "Wire featured character sections into all site languages"
+          git push origin HEAD:agent/site-featured-faces
