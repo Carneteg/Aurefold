@@ -1,6 +1,6 @@
 {
-  "title": "Baneret — gå med läsarna som formar Aurefolds värld",
-  "description": "Baneret är där Aurefolds läsare samlas: svär in dig, välj ditt hus, rösta i Tinget, res egna karaktärer och lämna verk i Skriptoriet.",
+  "title": "Gå med i Aurefolds läsargemenskap — Baneret",
+  "description": "Baneret är där Aurefolds läsare samlas: svär in dig, välj ett hus, rösta i Tinget och lämna verk i Skriptoriet.",
   "blocks": [
     [
       "Everything under the Banner lives <em>around</em> the story — side-stories, extras,\n      public lore, and the archive's next opening. The central plot, canon, and character\n      fates stay the author's. New voices are read by the archivist before they show.",
@@ -9,10 +9,6 @@
     [
       "<strong>Content note.</strong> Aurefold is a mature series intended for adult readers — discussion and reader material may touch graphic violence and other adult themes.",
       "<strong>Innehållsnot.</strong> Aurefold är en vuxenserie för vuxna läsare — diskussioner och läsarmaterial kan beröra grafiskt våld och andra vuxna teman."
-    ],
-    [
-      "Where readers stop being readers. Swear in, choose the house you would follow,\n      and take your place in the company that shapes the world around the book.",
-      "Där läsare slutar vara läsare. Svär in dig, välj huset du skulle följa,\n      och ta din plats i sällskapet som formar världen kring boken."
     ],
     [
       "In the hall already: Yara Cobbleworth of Stormrider, Corin Farrow of Ashbourne, and Old Ferro of Ironvale — sworn and honoured.",
@@ -37,6 +33,10 @@
     [
       "Leave a story, a theory, a piece of art, or a question for the author.",
       "Lämna en berättelse, en teori, ett konstverk eller en fråga till författaren."
+    ],
+    [
+      "The Banner is the Aurefold reader community — the place where readers stop being\n      readers. Swear in, choose the house you would follow, and take your place in the\n      company that shapes the world around the book.",
+      "Baneret är Aurefolds läsargemenskap — platsen där läsare slutar vara läsare.\n      Svär in dig, välj huset du skulle följa, och ta din plats i\n      sällskapet som formar världen kring boken."
     ]
   ]
 }
