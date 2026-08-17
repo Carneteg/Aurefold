@@ -71,6 +71,15 @@
     },
   };
 
+  function ensureStyles() {
+    if (document.querySelector('link[data-character-gallery-styles]')) return;
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "/assets/characters-gallery.css?v=202608172110";
+    link.dataset.characterGalleryStyles = "true";
+    document.head.appendChild(link);
+  }
+
   function lang() {
     const raw = (document.documentElement.lang || "en").toLowerCase();
     return COPY[raw] ? raw : "en";
@@ -266,5 +275,6 @@
     renderArchive(rows);
   }
 
+  ensureStyles();
   hydrate();
 })();
