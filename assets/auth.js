@@ -55,6 +55,66 @@
       signedInAs: "Inloggad som",
       signOut: "Logga ut",
       rateLimited: "Arkivet ber dig vänta en stund innan nästa länk skickas."
+    },
+    es: {
+      gateTitle: "Participa",
+      gateBody: "Júrate con tu correo y el archivo te enviará un enlace de acceso — sin contraseña, sin complicaciones. Un lector, una voz.",
+      emailLabel: "Tu correo",
+      emailButton: "Enviar mi enlace de acceso",
+      emailSent: "Revisa tu correo — el enlace va en camino. Te traerá de vuelta aquí.",
+      discordButton: "Iniciar sesión con Discord",
+      orWord: "o",
+      invalidEmail: "Ese correo no parece correcto. ¿Lo intentas de nuevo?",
+      failed: "No se pudo contactar con el archivo. Inténtalo de nuevo en un momento.",
+      linkBad: "Ese enlace de acceso ya se había usado. Envíate uno nuevo abajo.",
+      signedInAs: "Sesión iniciada como",
+      signOut: "Cerrar sesión",
+      rateLimited: "El archivo te pide esperar un momento antes de enviar otro enlace."
+    },
+    fr: {
+      gateTitle: "Participez",
+      gateBody: "Prêtez serment avec votre e-mail et l’archive vous envoie un lien de connexion — pas de mot de passe, pas de complications. Un lecteur, une voix.",
+      emailLabel: "Votre e-mail",
+      emailButton: "Envoyer mon lien de connexion",
+      emailSent: "Vérifiez votre e-mail — le lien est en chemin. Il vous ramène ici directement.",
+      discordButton: "Se connecter avec Discord",
+      orWord: "ou",
+      invalidEmail: "Cet e-mail ne semble pas correct. Réessayer ?",
+      failed: "Impossible de joindre l’archive. Réessayez dans un instant.",
+      linkBad: "Ce lien de connexion avait déjà été utilisé. Envoyez-vous-en un nouveau ci-dessous.",
+      signedInAs: "Connecté en tant que",
+      signOut: "Se déconnecter",
+      rateLimited: "L’archive vous demande d’attendre un instant avant d’envoyer un autre lien."
+    },
+    zh: {
+      gateTitle: "参与",
+      gateBody: "用你的邮箱宣誓加入，档案会给你发送一个登录链接——无需密码，毫不繁琐。一位读者，一个声音。",
+      emailLabel: "你的邮箱",
+      emailButton: "发送我的登录链接",
+      emailSent: "查看你的邮箱——链接正在路上。点击它会直接带你回到这里。",
+      discordButton: "使用 Discord 登录",
+      orWord: "或",
+      invalidEmail: "这个邮箱地址似乎不对。要再试一次吗？",
+      failed: "无法连接到档案。请稍后再试。",
+      linkBad: "那个登录链接已经用过了。请在下方给自己发送一个新的。",
+      signedInAs: "已登录为",
+      signOut: "退出登录",
+      rateLimited: "档案请你稍候片刻，再发送下一个链接。"
+    },
+    ja: {
+      gateTitle: "参加する",
+      gateBody: "メールで誓いを立てると、記録がサインインリンクを送ります——パスワードも面倒もいりません。一人の読者、一つの声。",
+      emailLabel: "メールアドレス",
+      emailButton: "サインインリンクを送る",
+      emailSent: "メールをご確認ください——リンクは届く途中です。開くと、ここに戻ってきます。",
+      discordButton: "Discord でサインイン",
+      orWord: "または",
+      invalidEmail: "そのメールアドレスは正しくないようです。もう一度試しますか？",
+      failed: "記録に接続できませんでした。しばらくしてからもう一度お試しください。",
+      linkBad: "そのサインインリンクはすでに使われています。下から新しいものを送ってください。",
+      signedInAs: "サインイン中",
+      signOut: "サインアウト",
+      rateLimited: "記録は、次のリンクを送る前に少し待つようお願いしています。"
     }
   };
   function t(key) { return (TX[LANG] && TX[LANG][key]) || TX.en[key] || key; }
