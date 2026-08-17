@@ -17,6 +17,7 @@
       loading: "Opening the hall…",
       empty: "The hall stands empty — no reader-sworn characters yet. Yours could be the first to raise a banner.",
       failed: "The archive could not be reached. Try again in a moment.",
+      tryAgain: "Try again",
       createTitle: "Raise your banner",
       createIntro: "Shape a character of the Banner-lands: a soldier, a scribe, a smuggler of secrets. They live in the world around the book — the archivist reads every one before it shows.",
       nameLabel: "Name",
@@ -43,6 +44,7 @@
       loading: "Öppnar hallen…",
       empty: "Hallen står tom — inga läsarsvurna karaktärer ännu. Din kan bli den första att resa ett baner.",
       failed: "Arkivet kunde inte nås. Försök igen om en stund.",
+      tryAgain: "Försök igen",
       createTitle: "Res ditt baner",
       createIntro: "Forma en karaktär i Fanlanden: en soldat, en skrivare, en hemlighetssmugglare. De lever i världen runt boken — arkivarien läser var och en innan den syns.",
       nameLabel: "Namn",
@@ -136,7 +138,12 @@
       })
       .catch(function () {
         gallery.innerHTML = "";
-        gallery.appendChild(el("p", "comment-empty", t("failed")));
+        var err = el("p", "comment-error", t("failed") + " ");
+        var retry = el("button", "linklike comment-retry", t("tryAgain"));
+        retry.type = "button";
+        retry.addEventListener("click", load);
+        err.appendChild(retry);
+        gallery.appendChild(err);
       });
   }
 

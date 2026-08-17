@@ -1480,8 +1480,8 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
    ========================================================================== */
 
 .auth-gate {
-  border: 1px solid rgba(120, 90, 65, .35);
-  background: rgba(255, 255, 255, .03);
+  border: 1px solid var(--accent);
+  background: var(--bg-panel);
   padding: 22px;
   margin: 18px 0;
   max-width: 560px;
@@ -1496,8 +1496,8 @@ h3.sub-title { font-weight: 400; letter-spacing: 0.08em; font-size: 1.1rem; marg
   padding: 10px 12px;
   font: inherit;
   color: var(--ink);
-  background: rgba(255, 255, 255, .55);
-  border: 1px solid rgba(120, 90, 65, .45);
+  background: var(--bg-panel);
+  border: 1px solid var(--accent);
   border-radius: 2px;
 }
 .auth-input:focus { outline: 2px solid var(--ember); outline-offset: 1px; }
@@ -1518,8 +1518,8 @@ textarea.auth-input { resize: vertical; }
 }
 .banner-door {
   display: block;
-  border: 1px solid rgba(120, 90, 65, .35);
-  background: rgba(255, 255, 255, .03);
+  border: 1px solid var(--accent);
+  background: var(--bg-panel);
   padding: 18px;
   text-decoration: none;
   color: inherit;
@@ -1531,8 +1531,8 @@ textarea.auth-input { resize: vertical; }
 
 .banner-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin: 20px 0 26px; }
 .banner-card {
-  border: 1px solid rgba(120, 90, 65, .35);
-  background: rgba(255, 255, 255, .03);
+  border: 1px solid var(--accent);
+  background: var(--bg-panel);
   padding: 18px;
 }
 .banner-card.status-featured, .banner-card.status-adopted { border-color: var(--ember); background: rgba(138, 74, 42, .07); }
@@ -1549,9 +1549,13 @@ textarea.auth-input { resize: vertical; }
 .banner-formbox { margin: 8px 0 10px; }
 .banner-create { max-width: 640px; }
 
-.comments { margin-top: 34px; border-top: 1px solid rgba(120, 90, 65, .3); padding-top: 18px; }
+/* a failed fetch is not an empty archive — mark it, and offer a retry */
+.comment-error { border-left: 2px solid var(--ember); padding: 4px 0 4px 14px; font-style: italic; }
+.comment-error .comment-retry { font: inherit; font-style: normal; }
+
+.comments { margin-top: 34px; border-top: 1px solid var(--line); padding-top: 18px; }
 .comment-list { display: grid; gap: 14px; margin: 16px 0; }
-.comment { border-left: 2px solid rgba(120, 90, 65, .4); padding: 4px 0 4px 14px; }
+.comment { border-left: 2px solid var(--accent); padding: 4px 0 4px 14px; }
 .comment.is-pending { border-left-style: dashed; opacity: .85; }
 .comment-head { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; margin: 0; }
 .comment-author { font-weight: 600; }

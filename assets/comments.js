@@ -25,6 +25,7 @@
       pendingBadge: "awaiting the archivist",
       gateIntro: "Sign in to join the discussion. New voices are read by the archivist before they show.",
       failed: "The archive could not be reached. Try again in a moment.",
+      tryAgain: "Try again",
       tooLong: "Keep it under 2000 characters — the archive values brevity.",
       houseWord: "of House "
     },
@@ -37,6 +38,7 @@
       pendingBadge: "väntar på arkivarien",
       gateIntro: "Logga in för att delta i diskussionen. Nya röster läses av arkivarien innan de syns.",
       failed: "Arkivet kunde inte nås. Försök igen om en stund.",
+      tryAgain: "Försök igen",
       tooLong: "Håll det under 2000 tecken — arkivet värdesätter korthet.",
       houseWord: "av huset "
     }
@@ -113,7 +115,15 @@
         "&" + filter +
         "&select=id,body,status,created_at,profiles(username,house_key)&order=created_at.asc")
         .then(renderComments)
-        .catch(function () { list.innerHTML = ""; list.appendChild(el("p", "comment-empty", t("failed"))); });
+        .catch(function () {
+          list.innerHTML = "";
+          var err = el("p", "comment-error", t("failed") + " ");
+          var retry = el("button", "linklike comment-retry", t("tryAgain"));
+          retry.type = "button";
+          retry.addEventListener("click", load);
+          err.appendChild(retry);
+          list.appendChild(err);
+        });
     }
 
     function renderForm() {

@@ -18,6 +18,8 @@ Run from repo root:  python3 tools/i18n_build.py
 """
 
 import json, os, re, glob
+from html import escape as html_escape
+from urllib.parse import quote as urlquote
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 I18N = os.path.join(ROOT, "i18n")
@@ -191,6 +193,38 @@ def rewrite_paths(html, lang):
         return '%s="%s"' % (m.group(1), ", ".join(out))
     return SRCSET_RE.sub(srcset_repl, html)
 
+# Share texts for the static house pages — copied VERBATIM from the approved
+# shareText functions in assets/quiz.js (en:93, sv:158, es:223, fr:288,
+# zh:353, ja:418). If those change, change these too.
+SHARE_TEXTS = {
+    "en": "I'm House {short} in Aurefold — which house are you?",
+    "sv": "Jag skulle följa House {short} i Aurefold — vilket hus skulle du följa?",
+    "es": "Seguiría a House {short} en Aurefold — ¿a qué casa seguirías tú?",
+    "fr": "Je suivrais House {short} dans Aurefold — quelle maison suivriez-vous ?",
+    "zh": "在 Aurefold 中我会追随 House {short}——你会追随哪个家族？",
+    "ja": "Aurefold で私は House {short} に従う——あなたはどの家に従う？",
+}
+
+def localize_share_block(html, lang, page):
+    """Rebuild the share-block attributes on house-* pages so a share from
+    /sv/ carries Swedish text and the /sv/ URL. apply_blocks can't do this:
+    the values are percent-encoded, so no block key would ever match."""
+    m = re.match(r'house-([a-z]+)\.html$', page)
+    if not m or lang == "en":
+        return html
+    short = m.group(1).capitalize()
+    text = SHARE_TEXTS.get(lang, SHARE_TEXTS["en"]).format(short=short)
+    url = abs_url(lang, page)
+    t_enc, u_enc = urlquote(text, safe=""), urlquote(url, safe=":/")
+    html = re.sub(r'https://twitter\.com/intent/tweet\?text=[^"]*',
+                  "https://twitter.com/intent/tweet?text=%s&url=%s" % (t_enc, u_enc), html)
+    html = re.sub(r'https://www\.facebook\.com/sharer/sharer\.php\?u=[^"]*',
+                  "https://www.facebook.com/sharer/sharer.php?u=" + u_enc, html)
+    html = re.sub(r'https://www\.reddit\.com/submit\?url=[^"]*',
+                  "https://www.reddit.com/submit?url=%s&title=%s" % (u_enc, t_enc), html)
+    html = re.sub(r'data-copy="[^"]*"', lambda _: 'data-copy="%s"' % html_escape(text + " " + url, quote=True), html)
+    return html
+
 def apply_blocks(html, data):
     for en, tr in sorted(data.get("blocks", []), key=lambda p: -len(p[0])):
         if en not in html:
@@ -220,6 +254,7 @@ def localize_page(page, lang):
         dpath = os.path.join(I18N, lang, page + ".json")
         if os.path.exists(dpath):
             html = apply_blocks(html, json.load(open(dpath, encoding="utf-8")))
+        html = localize_share_block(html, lang, page)
         html = localize_chrome(html, lang)
         html = rewrite_paths(html, lang)   # last: fixes hrefs in original + translated text
     html = inject_common(html, lang, page)
