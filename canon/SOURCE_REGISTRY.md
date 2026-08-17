@@ -2,7 +2,7 @@
 
 **Synchronized:** 17 August 2026  
 **Authority basis:** Constitution v1.9 + creator-delegated Loremaster adoption of Book One Master v1.7 + `Aurefold_Canon_Consolidation_Manifest_v1.3.1`  
-**Active package:** Google Drive / `Aurefold New`
+**Active package:** Google Drive / `Aurefold New` + GitHub canon control files
 
 ## Governing line A
 
@@ -13,6 +13,7 @@
 5. **Book One Character & Knowledge Map v1.3** — Book One epistemic/knowledge control.
 6. **Book One Character Identity Guide v1.0** — identity/voice control.
 7. **Book One Character, Voice & Rhythm Canon v1.0** — binding subordinate editorial implementation and lived-world presentation control.
+8. **Book One Character Appearance Bible v1.0** — binding subordinate visual continuity and author-facing descriptive presentation control; creates no numbered Canon Lock.
 
 ## Governing set — active checksums
 
@@ -25,6 +26,7 @@
 | `Aurefold_Book_One_Character_and_Knowledge_Map_v1.3.docx` | `1cddb20282d50912c39d78f362d5dfbe4f73e65c0085491eecb64c00a6158a16` | governing |
 | `Aurefold_Book_One_Character_Identity_Guide_v1.0.docx` | `34aefd70319fe61facc2de7e3003c419272e0c6967f7c136729de5a4e56290f0` | governing |
 | `Aurefold_Book_One_Character_Voice_and_Rhythm_Canon_v1.0.docx` | `fc6706ae1d2d652a45f9f459aa5f002fd516809f3746dc1845d1fce6912653f9` | governing-subordinate |
+| `Aurefold_Book_One_Character_Appearance_Bible_v1.0.md` | `afc74387df861f194362f084b044efe68de8741ee861f8f2474e97ee447e226e` | governing-subordinate — visual continuity |
 | `Aurefold_Book_Two_Gate_Decision_v1.3.docx` | `da71efe03c53ce4f8bef5a83216f14cd5c55d3e9cf21b0f4331fe6853b9f1892` | governing — no successor selected |
 | `Aurefold_Book_Two_Scene_Ledger_v1.0.docx` | `46a48c4ce1e7aaff741649f5edaa9841ee0652625fe146aeb6f97c9cacad5dac` | governing — use with Authority Amendment v1.1 |
 | `Aurefold_Stormrider_Civilization_File_v1.3.docx` | `f0f31a621d47ad8e7240cddfe59c4473c53830735abb3d5d49c7f704673551f3` | governing |
@@ -45,7 +47,8 @@
 - 48 / 48 v1.7 scene scorecards reviewed/current.
 - 0 stale.
 - Kimi BOSSDOM result: 8 HÅLLER + 2 HÅLLER DELVIS, with both partial items now repaired and ratified.
-- No manuscript change beyond the two BOSSDOM passages.
+- Character Appearance Bible v1.0 now governs visual recognition/presentation for its covered characters without altering manuscript prose.
+- Supabase `lore_characters` stores the same v1.0 appearance-prose layer for Sela, Tomas, Alaine, Corven, Perrin, Wren, Fen, Orla, Tam, Aren and Ivet.
 - Canon Locks remain 85 / max #085.
 
 ## Active subordinate files
@@ -54,6 +57,7 @@
 - `Aurefold_Book_One_Object_Ledger_v1.2.docx`
 - `Aurefold_Book_One_Timeline_v1.2.docx`
 - `Aurefold_Public_Canon_and_Spoiler_Matrix_v1.2.docx`
+- `Aurefold_Book_One_Character_Appearance_Bible_v1.0.md`
 - `Aurefold_Technology_and_Material_Life_Bible_v1.0.docx`
 - `Blackcrest_Institutions_File_v1.0.docx`
 - `Stormrider_Regional_Atlas_Authority_Amendment_v1.1.docx`
