@@ -362,6 +362,22 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://aurefold.com/for-readers-of.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/for-readers-of.html" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/for-readers-of.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/for-readers-of.html" />
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aurefold.com/sv/for-readers-of.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/for-readers-of.html" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/for-readers-of.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/for-readers-of.html" />
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aurefold.com/history.html</loc>
     <lastmod>2026-08-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/history.html" />
@@ -1656,6 +1672,22 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://aurefold.com/ja/read.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/read.html" />
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aurefold.com/reading-order.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/reading-order.html" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/reading-order.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/reading-order.html" />
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aurefold.com/sv/reading-order.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/reading-order.html" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/reading-order.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/reading-order.html" />
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://aurefold.com/scriptorium.html</loc>
