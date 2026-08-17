@@ -1569,3 +1569,173 @@ textarea.auth-input { resize: vertical; }
 
 .moot-card--sworn { border-color: var(--ember); }
 .moot-card--sworn .auth-gate { border: none; background: transparent; padding: 8px 0 0; margin: 0; }
+
+/* ================================================================== */
+/* Design uplift — atmosphere + house identity (2026-08)               */
+
+:root {
+  --shadow-soft: 0 1px 2px rgba(58, 51, 42, 0.05), 0 6px 18px rgba(58, 51, 42, 0.08);
+  --shadow-lift: 0 2px 4px rgba(58, 51, 42, 0.08), 0 16px 36px rgba(58, 51, 42, 0.16);
+  --dark-bg: #16110d;
+  --dark-panel: #201914;
+  --dark-ink: #d8cdb8;
+  --dark-line: #3b3128;
+  --house-blackthorn: #435741;
+  --house-ravenshade: #564a6c;
+  --house-ashbourne: #a8682c;
+  --house-whitehart: #77808f;
+  --house-stormrider: #40667e;
+  --house-ironvale: #ad4e2a;
+  --house-blackcrest: #33323b;
+  --house-stonebear: #6d5940;
+  --house-tidebreaker: #2e6a74;
+  --house-phoenix: #bf4f28;
+}
+
+/* full-bleed bands overflow the viewport by design; never let them scroll it */
+body { overflow-x: clip; }
+
+/* buttons: depth and motion */
+.btn {
+  transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease,
+              transform 0.2s ease, box-shadow 0.25s ease;
+}
+.btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-soft); }
+.btn:active { transform: translateY(0); box-shadow: none; }
+
+/* paper depth on cards and panels */
+.teaser, .announcement, .house-card, .member-preview, .banner-card,
+.read-module, .quiz-teaser, .tier-card {
+  box-shadow: var(--shadow-soft);
+}
+.teaser:hover { box-shadow: var(--shadow-lift); }
+.member-preview, .banner-card {
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+.member-preview:hover, .banner-card:hover { box-shadow: var(--shadow-lift); }
+
+/* dark archive bands: the hero's world returns between the parchment */
+.band-dark {
+  width: 100vw;
+  margin: 72px calc(50% - 50vw);
+  padding: 72px max(24px, calc(50vw - 456px)) 78px;
+  background: var(--dark-bg);
+  color: var(--dark-ink);
+  position: relative;
+  isolation: isolate;
+}
+.band-dark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("fanlanden_map.jpg") center / cover no-repeat;
+  opacity: 0.05;
+  filter: grayscale(0.4) sepia(0.6);
+  z-index: -1;
+  pointer-events: none;
+}
+.band-dark h2.section-title {
+  color: #ece2cc;
+  border-bottom-color: var(--dark-line);
+  margin-top: 0;
+}
+.band-dark p { color: var(--dark-ink); }
+.band-dark a { color: var(--ember-on-dark); }
+.band-dark strong { color: #f0e6d0; }
+.band-dark .teaser {
+  background: var(--dark-panel);
+  border-color: var(--dark-line);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+.band-dark .teaser:hover { border-color: var(--ember-on-dark); }
+.band-dark .teaser h3 { color: #ece2cc; }
+.band-dark .teaser p { color: #a99e8a; }
+.band-dark .chart-plate { margin-top: 44px; }
+.band-dark .chart-plate img { border-color: var(--dark-line); box-shadow: 0 18px 50px rgba(0, 0, 0, 0.5); }
+.band-dark .chart-plate figcaption { color: #a99e8a; }
+
+/* house identity: every banner gets its color */
+.house-card {
+  --hc: var(--accent);
+  border-left: 4px solid var(--hc);
+  transition: box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.house-card:hover { box-shadow: var(--shadow-lift); }
+.house-card.open { border-color: var(--accent); border-left-color: var(--hc); }
+#blackthorn  { --hc: var(--house-blackthorn); }
+#ravenshade  { --hc: var(--house-ravenshade); }
+#ashbourne   { --hc: var(--house-ashbourne); }
+#whitehart   { --hc: var(--house-whitehart); }
+#stormrider  { --hc: var(--house-stormrider); }
+#ironvale    { --hc: var(--house-ironvale); }
+#blackcrest  { --hc: var(--house-blackcrest); }
+#stonebear   { --hc: var(--house-stonebear); }
+#tidebreaker { --hc: var(--house-tidebreaker); }
+#phoenix     { --hc: var(--house-phoenix); }
+.house-toggle .house-philosophy {
+  color: color-mix(in srgb, var(--hc) 78%, var(--ink));
+  border: 1px solid color-mix(in srgb, var(--hc) 42%, transparent);
+  background: color-mix(in srgb, var(--hc) 9%, transparent);
+  padding: 3px 12px 4px;
+  font-size: 0.85rem;
+}
+.house-sigil {
+  width: 62px;
+  height: 62px;
+  padding: 5px;
+  background: #faf4e6;
+  border: 1px solid var(--line);
+}
+.house-line { color: color-mix(in srgb, var(--hc) 55%, var(--ink)); }
+
+/* house pages: crest color under the name */
+body[class*="house-page-"] { --hc: var(--accent); }
+.house-page-blackthorn  { --hc: var(--house-blackthorn); }
+.house-page-ravenshade  { --hc: var(--house-ravenshade); }
+.house-page-ashbourne   { --hc: var(--house-ashbourne); }
+.house-page-whitehart   { --hc: var(--house-whitehart); }
+.house-page-stormrider  { --hc: var(--house-stormrider); }
+.house-page-ironvale    { --hc: var(--house-ironvale); }
+.house-page-blackcrest  { --hc: var(--house-blackcrest); }
+.house-page-stonebear   { --hc: var(--house-stonebear); }
+.house-page-tidebreaker { --hc: var(--house-tidebreaker); }
+.house-page-phoenix     { --hc: var(--house-phoenix); }
+body[class*="house-page-"] .quiz-result-house {
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--hc);
+}
+body[class*="house-page-"] .quiz-result-phil {
+  color: color-mix(in srgb, var(--hc) 70%, var(--ink));
+  font-variant: small-caps;
+  letter-spacing: 0.14em;
+}
+
+/* footer: dark bookend to the hero */
+.site-footer {
+  border-top: none;
+  background: var(--dark-bg);
+  color: #a99e8a;
+  padding: 52px 24px 46px;
+  font-style: normal;
+}
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.footer-brand img { opacity: 0.9; }
+.footer-tagline { font-style: italic; color: #b7ab94; letter-spacing: 0.04em; }
+.site-footer .social-link { color: var(--ember-on-dark); }
+.site-footer .footer-legal { color: #8d8271; }
+.site-footer .footer-legal a,
+.site-footer .footer-legal .linklike { color: #a99e8a; }
+.site-footer .footer-legal a:hover,
+.site-footer .footer-legal .linklike:hover { color: var(--ember-on-dark); }
+
+@media (max-width: 720px) {
+  .band-dark { padding-top: 52px; padding-bottom: 56px; margin-top: 52px; margin-bottom: 52px; }
+  .house-sigil { width: 50px; height: 50px; }
+}
