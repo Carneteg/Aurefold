@@ -137,6 +137,18 @@
     [
       "The Houses",
       "Husen"
+    ],
+    [
+      "A literary epic fantasy of ten great houses",
+      "En litterär episk fantasy om tio stora hus"
+    ],
+    [
+      "<meta property=\"og:locale\" content=\"en\" />",
+      "<meta property=\"og:locale\" content=\"sv\" />"
+    ],
+    [
+      "<meta property=\"og:locale:alternate\" content=\"sv\" />",
+      "<meta property=\"og:locale:alternate\" content=\"en\" />"
     ]
   ]
 }
