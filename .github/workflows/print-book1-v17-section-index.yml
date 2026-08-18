@@ -1,0 +1,28 @@
+name: Book One v1.7 Section Index
+
+on:
+  pull_request:
+    branches:
+      - agent/book1-v17-master-mirror
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/book1-swedish-master-v13
+      - name: Print governed section line index
+        shell: python
+        run: |
+          from pathlib import Path
+          p=Path('manuscript/book-one/Aurefold_The_Bell_of_Silence_English_Master_v1.7.md')
+          lines=p.read_text(encoding='utf-8').splitlines()
+          for i,line in enumerate(lines,1):
+              if line.startswith('## Chapter ') or line.startswith('## Interlude'):
+                  print(f'{i}\t{line}')
+          print(f'TOTAL_LINES\t{len(lines)}')
