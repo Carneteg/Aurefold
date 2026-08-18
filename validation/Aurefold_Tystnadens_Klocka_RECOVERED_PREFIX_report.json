@@ -2,8 +2,92 @@
   "bytes": 333778,
   "sha256": "5481fa13b9db2e52d125bae566e7a8ef43ee961c8b22903b900cb09144c29738",
   "word_count_regex": 52154,
-  "chapter_header_count": 0,
-  "last_chapter_headers": [],
+  "heading_count": 51,
+  "chapter_header_count": 21,
+  "last_12_headings": [
+    [
+      5813,
+      "#### Novisens redogörelse"
+    ],
+    [
+      5835,
+      "#### Det som blev kvar"
+    ],
+    [
+      5907,
+      "## Kapitel Sjutton"
+    ],
+    [
+      5908,
+      "### Vad Harl blev"
+    ],
+    [
+      6232,
+      "## Kapitel Arton"
+    ],
+    [
+      6233,
+      "### Regeln med sex ord"
+    ],
+    [
+      6523,
+      "## Kapitel Nitton"
+    ],
+    [
+      6524,
+      "### Lethren"
+    ],
+    [
+      6946,
+      "## Kapitel Tjugo"
+    ],
+    [
+      6947,
+      "### Serenel"
+    ],
+    [
+      7735,
+      "## Kapitel Tjugoett"
+    ],
+    [
+      7736,
+      "### Priset på vatten"
+    ]
+  ],
+  "last_chapter_headers": [
+    [
+      4984,
+      "## Kapitel Fjorton"
+    ],
+    [
+      5309,
+      "## Kapitel Femton"
+    ],
+    [
+      5636,
+      "## Kapitel Sexton"
+    ],
+    [
+      5907,
+      "## Kapitel Sjutton"
+    ],
+    [
+      6232,
+      "## Kapitel Arton"
+    ],
+    [
+      6523,
+      "## Kapitel Nitton"
+    ],
+    [
+      6946,
+      "## Kapitel Tjugo"
+    ],
+    [
+      7735,
+      "## Kapitel Tjugoett"
+    ]
+  ],
   "last_30_lines": [
     "",
     "Halvard såg på faktorn.",
