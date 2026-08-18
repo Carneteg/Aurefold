@@ -1,0 +1,150 @@
+name: Assemble Swedish Master v1.3
+
+on:
+  pull_request:
+    branches:
+      - agent/book1-v17-master-mirror
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout working branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/book1-swedish-master-v13
+          fetch-depth: 0
+
+      - name: Assemble final Swedish master
+        shell: python
+        run: |
+          from pathlib import Path
+
+          root = Path('.')
+          recovered = root / 'manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_RECOVERED_PREFIX.md'
+          text = recovered.read_text(encoding='utf-8')
+          marker = 'Ingen förde in Fens timmar mot Nellas mat.'
+          if marker not in text:
+              raise SystemExit('Recovery cut marker not found')
+          prefix = text[:text.index(marker) + len(marker)].rstrip() + '\n\n'
+
+          parts = [
+              'ch21_tail.md','ch22.md','ch23.md','ch24.md','ch25.md','ch26.md','ch27.md','ch28.md','ch29.md','ch30.md',
+              'ch31.md','ch32.md','ch33.md','ch34.md','ch35.md','ch36.md','ch37.md','ch38.md','ch39.md','ch40.md',
+              'ch41_a.md','ch41_b.md','ch42.md','ch43_a.md','ch43_b.md','ch44.md','ch45.md','ch46_a.md','ch46_b.md','ch47_a.md','ch47_b.md'
+          ]
+          cont = root / '.translation-build/sv-v1.3-cont'
+          missing = [p for p in parts if not (cont/p).exists()]
+          if missing:
+              raise SystemExit(f'Missing translation parts: {missing}')
+
+          assembled = prefix
+          for name in parts:
+              assembled += (cont/name).read_text(encoding='utf-8').strip() + '\n\n'
+
+          # Approved global Swedish terminology normalization.
+          assembled = assembled.replace('Ljushöjderna', 'Lumenhöjderna')
+          assembled = assembled.replace('Icke jag', 'Inte jag')
+
+          out = root / 'manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md'
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text(assembled.rstrip() + '\n', encoding='utf-8')
+
+      - name: Validate whole book
+        shell: python
+        run: |
+          from pathlib import Path
+          import hashlib, json, re
+
+          p = Path('manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md')
+          text = p.read_text(encoding='utf-8')
+          lines = text.splitlines()
+          sha = hashlib.sha256(p.read_bytes()).hexdigest()
+          words = len(re.findall(r"\b[\wÅÄÖåäöÉéÀ-ÿ’'-]+\b", text, flags=re.UNICODE))
+          chapters = [(i+1,l) for i,l in enumerate(lines) if re.match(r'^##\s+Kapitel\s+', l, flags=re.I)]
+          interlude_candidates = [(i+1,l) for i,l in enumerate(lines) if re.search(r'(mellanspel|interlude|frågan i marginalen)', l, flags=re.I)]
+          english_headers = [(i+1,l) for i,l in enumerate(lines) if re.match(r'^#{1,4}\s+(Chapter|Interlude)\b', l)]
+          superseded = [(i+1,l) for i,l in enumerate(lines) if re.search(r'Emberw(?:orld|old)', l, flags=re.I)]
+
+          english_stop = re.compile(r'\b(the|and|with|from|that|this|was|were|said|asked|looked|would|could|should|because|before|after|through|toward|while|where|which)\b', re.I)
+          residue = []
+          for i,l in enumerate(lines,1):
+              if l.startswith('> STATUS:') or 'English Master v1.7' in l:
+                  continue
+              n = len(english_stop.findall(l))
+              if n >= 5:
+                  residue.append((i,n,l[:220]))
+
+          term_counts = {term:text.count(term) for term in ['Kallad','Prövaren','Liggaren','Inte jag','Återgiven','Oskriven','Lumenhöjderna']}
+          lock_checks = {
+              'gate_opens_inward': bool(re.search(r'port(?:blad(?:en)?)?.{0,100}öppn(?:as|ades|ade)\s+inåt|öppn(?:as|ades|ade)\s+inåt.{0,100}port', text, re.I|re.S)),
+              'nine_bodies_present': bool(re.search(r'nio\s+(?:kroppar|låga kullar)', text, re.I)),
+              'twelve_missing_present': bool(re.search(r'tolv\s+(?:saknade|frånvarande)', text, re.I)),
+              'counts_kept_separate': 'Tomas skrev båda och drog ingen linje mellan dem.' in text,
+              'col_unconfirmed': ('Jag vet inte om han levde tills han nådde bäcken' in text and 'levde när jag slutade se honom' in text),
+              'ledger_page_blank': ('Sidan var tom.' in text and 'sidan kommer förbli tom' in text),
+              'sela_refuses_retest': 'Hon sade: "Nej."' in text or 'Hon sade: “Nej.”' in text,
+              'harl_knife_departure': ('Harls kniv' in text and 'Kniven vid hennes bälte' in text),
+              'east_departure': text.rstrip().endswith('Hon gick österut.'),
+              'bell_unresolved': ('Hon visste inte vad.' in text and 'Klockan kunde inte tala om för henne' in text),
+          }
+
+          report = {
+              'file': str(p), 'sha256': sha, 'bytes': p.stat().st_size, 'word_count_regex': words,
+              'section_count_expected': 48, 'chapter_count': len(chapters),
+              'chapter_headings': chapters, 'interlude_candidates': interlude_candidates,
+              'english_headers': english_headers, 'english_residue_candidates': residue[:50],
+              'superseded_world_name_lines': superseded, 'term_counts': term_counts,
+              'canon_lock_checks': lock_checks, 'first_15_lines': lines[:15], 'last_25_lines': lines[-25:],
+              'source_relation': {
+                  'source_version':'English Master v1.7',
+                  'source_sha256':'179308155e1e9382a7a40b07bcaf22463120aa8a2d0ce25e7709ae5db633927e',
+                  'authority':'Swedish derived master; English v1.7 remains governing source'
+              }
+          }
+          Path('validation').mkdir(exist_ok=True)
+          rp = Path('validation/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_validation.json')
+          rp.write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          print(json.dumps(report, ensure_ascii=False, indent=2))
+
+          failures=[]
+          if len(chapters) != 47: failures.append(f'expected 47 chapter headings, found {len(chapters)}')
+          if not interlude_candidates: failures.append('interlude not detected')
+          if english_headers: failures.append(f'English section headings remain: {english_headers[:5]}')
+          if superseded: failures.append('Emberworld/Emberwold residue remains')
+          if residue: failures.append(f'probable English prose residue on {len(residue)} lines')
+          if p.stat().st_size < 550000: failures.append(f'file unexpectedly small: {p.stat().st_size} bytes')
+          for term in ['Kallad','Prövaren','Liggaren','Inte jag','Oskriven','Lumenhöjderna']:
+              if term_counts[term] == 0: failures.append(f'missing established Swedish term: {term}')
+          for name,ok in lock_checks.items():
+              if not ok: failures.append(f'canon lock check failed: {name}')
+          if failures:
+              raise SystemExit('VALIDATION FAILED:\n- ' + '\n- '.join(failures))
+
+      - name: Commit final master and validation report
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'Aurefold Build Agent'
+          git config user.email 'actions@users.noreply.github.com'
+          git add manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md validation/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_validation.json
+          if git diff --cached --quiet; then
+            echo 'No final manuscript changes.'
+          else
+            git commit -m 'finalize Swedish Master v1.3'
+            git pull --rebase origin agent/book1-swedish-master-v13
+            git push origin HEAD:agent/book1-swedish-master-v13
+          fi
+
+      - name: Upload final master artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3
+          path: |
+            manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md
+            validation/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_validation.json
+          if-no-files-found: error
