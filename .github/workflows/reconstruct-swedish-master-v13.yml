@@ -1,4 +1,4 @@
-name: Reconstruct Swedish Master v1.3
+name: Recover Swedish Master v1.3
 
 on:
   push:
@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 jobs:
-  reconstruct:
+  recover:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -25,10 +25,10 @@ jobs:
           ref: agent/book1-swedish-master-v13
           fetch-depth: 0
 
-      - name: Reconstruct candidate
+      - name: Recover translated prefix
         shell: bash
         run: |
-          set -euo pipefail
+          set -u
           mkdir -p manuscript/book-one/sv validation
           cat \
             .translation-build/sv-v1.3/part_00.b64 \
@@ -41,68 +41,39 @@ jobs:
             .translation-build/sv-v1.3/part_13_14.b64 \
             > /tmp/aurefold_sv_v13.b64
           base64 --decode /tmp/aurefold_sv_v13.b64 > /tmp/aurefold_sv_v13.xz
-          xz --test /tmp/aurefold_sv_v13.xz
-          xz --decompress --stdout /tmp/aurefold_sv_v13.xz > manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md
+          xz --decompress --stdout /tmp/aurefold_sv_v13.xz > manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_RECOVERED_PREFIX.md || true
+          test -s manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_RECOVERED_PREFIX.md
 
-      - name: Validate structure and write report
+      - name: Inspect recovered prefix
         shell: python
         run: |
           from pathlib import Path
           import hashlib, json, re
-
-          p = Path('manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md')
-          text = p.read_text(encoding='utf-8')
+          p = Path('manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_RECOVERED_PREFIX.md')
+          text = p.read_text(encoding='utf-8', errors='replace')
           lines = text.splitlines()
-          sha = hashlib.sha256(p.read_bytes()).hexdigest()
-          words = len(re.findall(r"\b[\wÅÄÖåäöÉéÀ-ÿ’'-]+\b", text, flags=re.UNICODE))
-          chapter_headers = [x for x in lines if re.match(r'^# Kapitel\b', x, flags=re.I)]
-          english_chapter_headers = [x for x in lines if re.match(r'^#{1,3}\s+(Chapter|Interlude)\b', x)]
-          replacement_markers = [m for m in ['EMBERWOLD','Emberwold','EMBERWORLD','Emberworld'] if m in text]
-          english_markers = re.findall(r'\b(the|and|with|from|that|this|was|were|said|asked|looked|would|could|should)\b', text, flags=re.I)
-          protected = {
-            'Aurefold present': 'Aurefold' in text,
-            'Sela present': 'Sela' in text,
-            'Harl present': 'Harl' in text,
-            'Liggaren present': 'Liggaren' in text,
-            'Not-I term present': ('Inte jag' in text or 'Icke jag' in text),
-          }
+          headings = [(i+1,l) for i,l in enumerate(lines) if l.startswith('#')]
+          chapters = [(i,l) for i,l in headings if re.match(r'^# Kapitel\b', l, re.I)]
           report = {
-            'file': str(p),
-            'sha256': sha,
             'bytes': p.stat().st_size,
-            'word_count_regex': words,
-            'chapter_header_count': len(chapter_headers),
-            'english_chapter_headers': english_chapter_headers,
-            'common_english_marker_count': len(english_markers),
-            'superseded_world_name_markers': replacement_markers,
-            'protected_marker_checks': protected,
-            'first_12_lines': lines[:12],
-            'last_12_lines': lines[-12:],
+            'sha256': hashlib.sha256(p.read_bytes()).hexdigest(),
+            'word_count_regex': len(re.findall(r"\b[\wÅÄÖåäöÉéÀ-ÿ’'-]+\b", text, re.UNICODE)),
+            'chapter_header_count': len(chapters),
+            'last_chapter_headers': chapters[-8:],
+            'last_30_lines': lines[-30:],
+            'contains_emberworld': bool(re.search(r'Emberw(?:orld|old)', text, re.I)),
           }
-          Path('validation/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_validation.json').write_text(
-            json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
-          )
+          Path('validation/Aurefold_Tystnadens_Klocka_RECOVERED_PREFIX_report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
           print(json.dumps(report, ensure_ascii=False, indent=2))
-          if p.stat().st_size < 400_000:
-              raise SystemExit('FAIL: reconstructed manuscript is unexpectedly small')
-          if len(chapter_headers) < 47:
-              raise SystemExit(f'FAIL: only {len(chapter_headers)} Swedish chapter headers found')
-          if english_chapter_headers:
-              raise SystemExit('FAIL: English chapter/interlude headings remain')
-          if replacement_markers:
-              raise SystemExit('FAIL: superseded Emberworld/Emberwold world-name markers remain')
 
-      - name: Commit reconstructed master and validation report
+      - name: Commit recovered prefix
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'Aurefold Build Agent'
           git config user.email 'actions@users.noreply.github.com'
-          git add manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md \
-                  validation/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_validation.json
-          if git diff --cached --quiet; then
-            echo 'No changes to commit.'
-            exit 0
-          fi
-          git commit -m 'build Swedish Master v1.3 candidate'
+          git add manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_RECOVERED_PREFIX.md \
+                  validation/Aurefold_Tystnadens_Klocka_RECOVERED_PREFIX_report.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'recover Swedish translation prefix'
           git push origin HEAD:agent/book1-swedish-master-v13
