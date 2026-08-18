@@ -1,0 +1,277 @@
+{
+  "file": "manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md",
+  "sha256": "51c2642c0bab94544585283e815005f5ec5d0ea324ddccf6d14b1b505f200e1f",
+  "bytes": 648354,
+  "word_count_regex": 101466,
+  "section_count_expected": 48,
+  "chapter_count": 47,
+  "chapter_headings": [
+    [
+      13,
+      "## Kapitel Ett"
+    ],
+    [
+      364,
+      "## Kapitel Två"
+    ],
+    [
+      479,
+      "## Kapitel Tre"
+    ],
+    [
+      1249,
+      "## Kapitel Fyra"
+    ],
+    [
+      1688,
+      "## Kapitel Fem"
+    ],
+    [
+      2205,
+      "## Kapitel Sex"
+    ],
+    [
+      2599,
+      "## Kapitel Sju"
+    ],
+    [
+      2904,
+      "## Kapitel Åtta"
+    ],
+    [
+      3213,
+      "## Kapitel Nio"
+    ],
+    [
+      3570,
+      "## Kapitel Tio"
+    ],
+    [
+      3901,
+      "## Kapitel Elva"
+    ],
+    [
+      4290,
+      "## Kapitel Tolv"
+    ],
+    [
+      4637,
+      "## Kapitel Tretton"
+    ],
+    [
+      4984,
+      "## Kapitel Fjorton"
+    ],
+    [
+      5309,
+      "## Kapitel Femton"
+    ],
+    [
+      5636,
+      "## Kapitel Sexton"
+    ],
+    [
+      5907,
+      "## Kapitel Sjutton"
+    ],
+    [
+      6232,
+      "## Kapitel Arton"
+    ],
+    [
+      6523,
+      "## Kapitel Nitton"
+    ],
+    [
+      6946,
+      "## Kapitel Tjugo"
+    ],
+    [
+      7735,
+      "## Kapitel Tjugoett"
+    ],
+    [
+      8376,
+      "## Kapitel Tjugotvå"
+    ],
+    [
+      8727,
+      "## Kapitel Tjugotre"
+    ],
+    [
+      9052,
+      "## Kapitel Tjugofyra"
+    ],
+    [
+      9477,
+      "## Kapitel Tjugofem"
+    ],
+    [
+      9954,
+      "## Kapitel Tjugosex"
+    ],
+    [
+      10301,
+      "## Kapitel Tjugosju"
+    ],
+    [
+      10694,
+      "## Kapitel Tjugoåtta"
+    ],
+    [
+      10957,
+      "## Kapitel Tjugonio"
+    ],
+    [
+      11324,
+      "## Kapitel Trettio"
+    ],
+    [
+      11745,
+      "## Kapitel Trettioett"
+    ],
+    [
+      12118,
+      "## Kapitel Trettiotvå"
+    ],
+    [
+      12463,
+      "## Kapitel Trettiotre"
+    ],
+    [
+      12782,
+      "## Kapitel Trettiofyra"
+    ],
+    [
+      13197,
+      "## Kapitel Trettiofem"
+    ],
+    [
+      13504,
+      "## Kapitel Trettiosex"
+    ],
+    [
+      13879,
+      "## Kapitel Trettiosju"
+    ],
+    [
+      14116,
+      "## Kapitel Trettioåtta"
+    ],
+    [
+      14617,
+      "## Kapitel Trettionio"
+    ],
+    [
+      14802,
+      "## Kapitel Fyrtio"
+    ],
+    [
+      14969,
+      "## Kapitel Fyrtioett"
+    ],
+    [
+      15176,
+      "## Kapitel Fyrtiotvå"
+    ],
+    [
+      15471,
+      "## Kapitel Fyrtiotre"
+    ],
+    [
+      16116,
+      "## Kapitel Fyrtiofyra"
+    ],
+    [
+      16371,
+      "## Kapitel Fyrtiofem"
+    ],
+    [
+      16800,
+      "## Kapitel Fyrtiosex"
+    ],
+    [
+      17363,
+      "## Kapitel Fyrtiosju"
+    ]
+  ],
+  "interlude_candidates": [
+    [
+      945,
+      "### Frågan i marginalen"
+    ]
+  ],
+  "english_headers": [],
+  "english_residue_candidates": [],
+  "superseded_world_name_lines": [],
+  "term_counts": {
+    "Kallad": 42,
+    "Prövaren": 11,
+    "Liggaren": 24,
+    "Inte jag": 6,
+    "Återgiven": 2,
+    "Oskriven": 4,
+    "Lumenhöjderna": 10
+  },
+  "canon_lock_checks": {
+    "gate_opens_inward": true,
+    "nine_bodies_present": true,
+    "twelve_missing_present": true,
+    "counts_kept_separate": true,
+    "col_unconfirmed": true,
+    "ledger_page_blank": true,
+    "sela_refuses_retest": true,
+    "harl_knife_departure": true,
+    "east_departure": true,
+    "bell_unresolved": true
+  },
+  "first_15_lines": [
+    "# TYSTNADENS KLOCKA",
+    "",
+    "## En roman från Aurefold",
+    "",
+    "**Bok Ett — Svensk master v1.3 | Härledd från English Master v1.7**",
+    "",
+    "*Lumenhöjderna, 396 A.U. Fyra år före Jubileet.*",
+    "",
+    "> STATUS: SVENSK DERIVERAD MASTER. Den engelska Book One Master v1.7 förblir styrande textkälla vid tolknings- eller kontinuitetskonflikt. Den svenska versionen skapar ingen ny kanon.",
+    "",
+    "---",
+    "",
+    "## Kapitel Ett",
+    "### Getherdens prövning",
+    ""
+  ],
+  "last_25_lines": [
+    "Sju.",
+    "",
+    "Ekona tunnades ut. Hon väntade på slutet.",
+    "",
+    "Ett åttonde slag korsade halsen.",
+    "",
+    "Sedan ett nionde.",
+    "",
+    "Efter det tappade hon räkningen. Några slag kom tydligt. Andra bröts mot åsarna och nådde henne som ett tryck i luften. Den som arbetade balken fortsatte bortom det antal Whitehart använde för sina egna beslut.",
+    "",
+    "Något hade tagit slut.",
+    "",
+    "Hon visste inte vad.",
+    "",
+    "Klockan kunde inte tala om för henne om slutet tillhörde en människa, ett ämbete eller en väg. Från bäcken hade hon bara slagen och det tomma avståndet efter dem.",
+    "",
+    "Slagen upphörde.",
+    "",
+    "Vatten rörde sig kring stenarna. Den böjda tallen rörde sig en gång i vinden.",
+    "",
+    "Sela stramade tyget kring knät och valde de gamla stegen under slyet. De blev inte en väg. Efter femtio steg smalnade de, korsade hjortspår och försvann nästan i dött gräs. Hon följde det som återstod.",
+    "",
+    "Vid middag skulle hon behöva mat. Till natten skulle hon behöva skydd. Vey låg flera dagar bort bortom mark hon inte kunde se.",
+    "",
+    "Hon gick österut."
+  ],
+  "source_relation": {
+    "source_version": "English Master v1.7",
+    "source_sha256": "179308155e1e9382a7a40b07bcaf22463120aa8a2d0ce25e7709ae5db633927e",
+    "authority": "Swedish derived master; English v1.7 remains governing source"
+  }
+}
