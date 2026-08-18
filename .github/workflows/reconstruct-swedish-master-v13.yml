@@ -53,12 +53,14 @@ jobs:
           text = p.read_text(encoding='utf-8', errors='replace')
           lines = text.splitlines()
           headings = [(i+1,l) for i,l in enumerate(lines) if l.startswith('#')]
-          chapters = [(i,l) for i,l in headings if re.match(r'^# Kapitel\b', l, re.I)]
+          chapters = [(i,l) for i,l in headings if re.match(r'^#{1,6}\s+Kapitel\b', l, re.I)]
           report = {
             'bytes': p.stat().st_size,
             'sha256': hashlib.sha256(p.read_bytes()).hexdigest(),
             'word_count_regex': len(re.findall(r"\b[\wÅÄÖåäöÉéÀ-ÿ’'-]+\b", text, re.UNICODE)),
+            'heading_count': len(headings),
             'chapter_header_count': len(chapters),
+            'last_12_headings': headings[-12:],
             'last_chapter_headers': chapters[-8:],
             'last_30_lines': lines[-30:],
             'contains_emberworld': bool(re.search(r'Emberw(?:orld|old)', text, re.I)),
@@ -76,4 +78,5 @@ jobs:
                   validation/Aurefold_Tystnadens_Klocka_RECOVERED_PREFIX_report.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'recover Swedish translation prefix'
+          git pull --rebase origin agent/book1-swedish-master-v13
           git push origin HEAD:agent/book1-swedish-master-v13
