@@ -5,7 +5,8 @@
    - no points, XP, badges or daily streak pressure;
    - reader-facing history stays local to this browser;
    - Supabase receives only anonymous milestone events, never raw answers/text;
-   - Patreon clicks are intent signals only, never treated as confirmed membership.
+   - Patreon clicks are intent signals only, never treated as confirmed membership;
+   - ordinary pageviews are not funnel events; explicit campaign-link arrivals may be.
 */
 (function () {
   "use strict";
@@ -15,6 +16,7 @@
 
   var API = cfg.supabaseUrl + "/rest/v1/community_funnel_events";
   var ALLOWED = {
+    community_entry: true,
     house_test_complete: true,
     ledger_vote: true,
     sworn_reader: true,
@@ -72,7 +74,6 @@
         source_path: clean(location.pathname, 200)
       })
     }).then(function (response) {
-      // Unique server-side dedupe may answer 409 if local storage was cleared.
       if (!response.ok && response.status !== 409) throw new Error("community milestone failed");
       try { localStorage.setItem(localKey, "1"); } catch (e) {}
       if (typeof window.gtag === "function") {
@@ -80,6 +81,14 @@
       }
       return true;
     }).catch(function () { return false; });
+  }
+
+  function syncCampaignEntry() {
+    var params;
+    try { params = new URLSearchParams(location.search); } catch (e) { return; }
+    var src = clean(params.get("src") || "", 80).toLowerCase();
+    if (!src || !/^[a-z0-9][a-z0-9-]{0,79}$/.test(src)) return;
+    record("community_entry", src);
   }
 
   function ledgerVotes() {
@@ -180,7 +189,6 @@
 
   function syncHouseTest() {
     if (!document.getElementById("quiz")) return;
-    // Shared result pages are presentation only and must never count as completions.
     if (new URLSearchParams(location.search).get("result")) return;
     if (!document.querySelector(".quiz-result")) return;
     try {
@@ -220,6 +228,8 @@
     record("patreon_click", patreonIntent(anchor));
   }, true);
 
+  syncCampaignEntry();
+
   var quiz = document.getElementById("quiz");
   if (quiz) {
     syncHouseTest();
@@ -241,6 +251,7 @@
   window.AurefoldParticipation = {
     ledgerVotes: ledgerVotes,
     sync: function () {
+      syncCampaignEntry();
       syncHouseTest();
       syncLedgerMilestones();
       renderLedgerRecord();
