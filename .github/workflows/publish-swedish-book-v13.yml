@@ -6,6 +6,9 @@ on:
       - agent/publish-swedish-book-v13
     paths:
       - '.github/workflows/publish-swedish-book-v13.yml'
+  pull_request:
+    branches:
+      - claude/interactive-house-map-rzboaq
   workflow_dispatch:
 
 permissions:
