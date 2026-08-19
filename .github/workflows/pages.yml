@@ -31,6 +31,9 @@ jobs:
           mkdir _site
           cp ./*.html _site/
           cp -r assets data _site/
+          for locale in sv es fr zh ja; do
+            if [ -d "$locale" ]; then cp -r "$locale" _site/; fi
+          done
           cp CNAME robots.txt sitemap.xml favicon.ico _site/ 2>/dev/null || true
           touch _site/.nojekyll
 
