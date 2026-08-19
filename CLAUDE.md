@@ -12,6 +12,7 @@ Before substantial work, read:
 6. `strategy/community/Aurefold_Community_Fandom_Patreon_Strategy_v1.0.md` — governing non-canon community/fandom/Patreon growth strategy.
 7. `strategy/community/COMMUNITY_GROWTH_IMPLEMENTATION_STATUS.md` — current House Test, Ledger Question, Banner and returning-participation implementation state.
 8. `strategy/community/COMMUNITY_MANAGER_DASHBOARD_V1.md` — private community analytics definitions, security boundaries and interpretation rules.
+9. `strategy/community/LEDGER_QUESTION_CADENCE_v1.0.md` — approved weekly Ledger Question ritual, scheduling, quality rules and rotation mechanics.
 
 ## Source authority
 The **live `canon/SOURCE_REGISTRY.md` always wins over this file and over the handoff files when authority/version state differs**.
