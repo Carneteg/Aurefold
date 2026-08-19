@@ -212,3 +212,19 @@ window.AUREFOLD_COMMUNITY.resolveMootThreshold = function (pollId) {
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", wire);
   else wire();
 })();
+
+/* Community participation bootstrap.
+   This layer records only explicit community milestones (completed quiz,
+   Ledger votes, sworn-reader state, Patreon intent) and renders the local
+   Ledger record. It does not create passive page-view tracking. */
+(function loadCommunityParticipation() {
+  function load() {
+    if (document.querySelector('script[data-aurefold-participation]')) return;
+    const script = document.createElement("script");
+    script.src = "/assets/community-participation.js?v=202608190540";
+    script.dataset.aurefoldParticipation = "1";
+    document.body.appendChild(script);
+  }
+  if (document.body) load();
+  else document.addEventListener("DOMContentLoaded", load, { once: true });
+})();
