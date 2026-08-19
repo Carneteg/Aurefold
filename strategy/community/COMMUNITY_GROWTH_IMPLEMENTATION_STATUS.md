@@ -2,7 +2,8 @@
 
 **Updated:** 19 August 2026  
 **Status:** operational handoff — NON-CANON  
-**Governing strategy:** `strategy/community/Aurefold_Community_Fandom_Patreon_Strategy_v1.0.md`
+**Governing strategy:** `strategy/community/Aurefold_Community_Fandom_Patreon_Strategy_v1.0.md`  
+**House distribution design note:** `strategy/community/House_Distribution_Data_Note_v1.0.md`
 
 ## Current funnel
 
@@ -35,49 +36,51 @@ A completed test can:
 
 **Reader agency rule:** a quiz result never silently changes a signed-in member's House allegiance.
 
+Shared result links (`quiz.html?result=<house>`) are presentation-only and do not create a House distribution vote.
+
 ## Anonymous House distribution
 
 Supabase project: `aurefold-site` (`akboesleczddqdikjzbw`)
 
-Production database objects created:
+The House Test deliberately reuses the established Moot privacy/data model rather than maintaining a second analytics schema.
 
-### `public.house_quiz_results`
-Anonymous first-result records.
+### System poll
 
-Fields include:
-- browser UUID;
-- House key;
-- locale;
-- source;
-- lightweight result metadata;
-- timestamp.
+Internal poll:
+- id: `system-house-test-v2`
+- `open = false`
+- one option for each of the ten Great Houses.
 
-Security:
-- RLS enabled;
-- `anon` and `authenticated` can INSERT only;
-- raw rows have no public SELECT/UPDATE/DELETE grant;
-- no name, email, member id or other account identity is required.
+Because it is closed, ordinary Moot loading does not render it. A separate narrow INSERT policy on `public.votes` allows only this system poll and only the ten valid House option ids.
 
-### `public.house_quiz_tallies`
-Public aggregate counts by House.
+### Raw result
 
-Security:
-- RLS enabled;
-- public clients can SELECT aggregates only;
-- the ten House rows start at zero;
-- values must come from real completions, never manually invented momentum.
+A completed House Test attempts one normal anonymous `public.votes` insert:
+- `poll_id = system-house-test-v2`
+- `option_id = <house key>`
+- `voter = <existing ew-voter browser UUID>`
 
-### Trigger
-A private trigger increments the matching aggregate House tally when a new browser result is inserted.
+The established `(poll_id, voter)` primary key means one browser can contribute only one House result. A repeat attempt conflicts instead of replacing the first result.
 
-One browser UUID can contribute only one raw result because `browser_id` is the primary key. Repeat attempts are treated as already counted rather than overwriting the first result.
+Raw `votes` remain private under the existing RLS model.
+
+### Aggregate result
+
+The existing `votes_bump_tally` trigger updates `public.poll_tallies`. Public UI reads only the aggregate row counts for `system-house-test-v2`.
+
+No name, email, member id or new personal identifier is collected for House distribution. The existing anonymous `ew-voter` browser UUID is reused rather than adding a parallel tracker.
 
 ### Public display threshold
+
 The House Test does **not** show public House distribution until at least **20 real completed results** exist. This prevents tiny samples such as 1–0 or 3–1 from being presented as meaningful fandom preference.
+
+### Superseded implementation attempt
+
+An earlier unused migration briefly created `house_quiz_results` / `house_quiz_tallies`. Those tables contained **zero rows** and were removed before deployment of any client code. They are superseded by the shared `votes` / `poll_tallies` model above.
 
 ## The Ledger Question
 
-The existing Supabase Moot poll already implements the approved recurring ritual:
+The existing Supabase Moot poll implements the approved recurring ritual:
 
 - poll id: `ledger-001-incomplete-warning`
 - title: `The Ledger Question: publish an incomplete warning?`
@@ -90,14 +93,14 @@ Do not create a competing Ledger Question system. Rotate future questions throug
 
 ## The Banner
 
-`community.html` now treats the House Test as an entry point to community rather than asking a new visitor to choose allegiance without context.
+`community.html` treats the House Test as an entry point to community rather than asking a new visitor to choose allegiance without context.
 
 `assets/community-growth.js` can prefill a completed House Test result in the existing Banner profile select. It never overwrites an already saved allegiance and never submits the profile automatically.
 
 ## Privacy / trust rules
 
 - Prefer anonymous aggregate data over personal tracking.
-- Do not expose raw House Test rows publicly.
+- Do not expose raw House Test votes publicly.
 - Do not manufacture participation counts.
 - Do not turn a House result into a claim about a person's morality or identity outside the game/community context.
 - Community mechanics never modify canon, protected mysteries, central plot or character fates.
@@ -117,6 +120,7 @@ Do not create a competing Ledger Question system. Rotate future questions throug
 Before community/fandom/Patreon work, read in this order:
 1. `CLAUDE.md`
 2. `strategy/community/Aurefold_Community_Fandom_Patreon_Strategy_v1.0.md`
-3. this file
+3. `strategy/community/House_Distribution_Data_Note_v1.0.md`
+4. this file
 
 Extend the existing House Test / Banner / Moot / Banner Hall / Scriptorium stack. Do not build a duplicate community architecture.
