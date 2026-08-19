@@ -255,7 +255,7 @@
         '<div class="quiz-result-actions">' +
           '<button class="btn btn-primary" type="button" id="quiz-share">Share my House</button>' +
           '<a class="btn btn-ghost" href="community.html?house=' + encodeURIComponent(primary.id) + '">Take my place under the Banner</a>' +
-          '<a class="btn btn-ghost" href="vote.html?house=' + encodeURIComponent(primary.id) + '">Bring it to the Moot</a>' +
+          '<a class="btn btn-ghost" href="vote.html#house=' + encodeURIComponent(primary.id) + '">Bring it to the Moot</a>' +
           (patreon ? '<a class="btn btn-ghost" href="' + esc(patreon) + '" target="_blank" rel="noopener" id="quiz-patreon">Join Aurefold free</a>' : '') +
         '</div><p class="quiz-share-status" id="quiz-share-status" role="status"></p>' +
         distributionHtml(parts[1]) +
