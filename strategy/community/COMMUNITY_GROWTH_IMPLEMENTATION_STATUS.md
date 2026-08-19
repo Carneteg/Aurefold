@@ -91,11 +91,77 @@ Its sort order was moved to **0** so the Ledger Question is the first current Mo
 
 Do not create a competing Ledger Question system. Rotate future questions through the existing Moot/Supabase poll layer and preserve prior outcomes when building an archive/history.
 
+## Returning participation v1
+
+The returning-participation layer is:
+- `assets/community-participation.js`
+- `supabase/migrations/20260819054000_community_returning_participation_v1.sql`
+
+It is loaded from `data/community.js` on pages that already use the Aurefold community configuration.
+
+### Reader-facing record
+
+The Moot now derives a reader's Ledger history from the existing browser-local keys `ew-voted-ledger-*`.
+
+It shows a quiet **Your record** panel:
+- zero answered questions: explains that the first answer will be remembered on this browser;
+- one answered question: preserves the prior voice when the next question opens;
+- two or more: acknowledges that the reader has returned to more than one argument.
+
+This is deliberately **not** a score, badge, XP system, leaderboard or daily streak. It records participation without turning Aurefold into a retention game.
+
+The record stays local to the browser. It is not presented as an account-wide or cross-device history.
+
+### Private milestone events
+
+`public.community_funnel_events` stores only explicit anonymous community milestones:
+- `house_test_complete`
+- `ledger_vote`
+- `sworn_reader`
+- `patreon_click`
+
+The client does **not** create passive page-view funnel events. Ordinary traffic remains a web-analytics concern rather than a Supabase behavioural log.
+
+Each event contains:
+- the existing anonymous `ew-voter` browser UUID;
+- milestone type;
+- a short context key;
+- the Aurefold page path;
+- timestamp.
+
+RLS permits INSERT only to `anon` and `authenticated`. Those roles have no SELECT grant on the raw table.
+
+A unique database index deduplicates `(visitor_id, event_name, context_key)`, so clearing one local marker cannot inflate the same milestone repeatedly for the same browser UUID.
+
+### Author-side funnel stages
+
+Private view `aurefold_private.community_funnel_visitors` derives:
+- `visitor` / pre-participation event state when present;
+- `participant` after House Test completion or one Ledger Question;
+- `returning_participant` after at least two distinct Ledger Questions;
+- `sworn_reader` after an authenticated Banner profile is observed;
+- `patreon_intent` after a Patreon click.
+
+**Important:** `patreon_intent` is not membership. Aurefold currently has no verified Patreon membership connection in this data layer. Free-vs-paid and actual membership status must never be inferred from a click. A Patreon integration/webhook/API is required before those can become real funnel stages.
+
+### Patreon intent labels
+
+Patreon clicks are classified only by the CTA the reader chose, for example:
+- `free`
+- `witness`
+- `chronicler`
+- `keeper`
+- generic `patreon`
+
+These labels mean **which offer was clicked**, not what the reader subsequently purchased or joined.
+
 ## The Banner
 
 `community.html` treats the House Test as an entry point to community rather than asking a new visitor to choose allegiance without context.
 
 `assets/community-growth.js` can prefill a completed House Test result in the existing Banner profile select. It never overwrites an already saved allegiance and never submits the profile automatically.
+
+The returning-participation layer records `sworn_reader` only after the current browser is signed in and a stored profile exists; it does not send the account id into the funnel event table.
 
 ## Privacy / trust rules
 
@@ -103,17 +169,22 @@ Do not create a competing Ledger Question system. Rotate future questions throug
 - Do not expose raw House Test votes publicly.
 - Do not manufacture participation counts.
 - Do not turn a House result into a claim about a person's morality or identity outside the game/community context.
+- Do not treat Patreon clicks as membership or revenue.
+- Do not add passive Supabase page-view tracking merely to make the funnel look more complete.
+- Reader-facing participation history should remain calm and documentary, not gamified.
 - Community mechanics never modify canon, protected mysteries, central plot or character fates.
+
+The English `privacy.html` now discloses the browser-local community record and anonymous milestone layer. Localized privacy pages still require a coordinated translation pass before they contain the same expanded wording.
 
 ## Next implementation work
 
-1. Merge and deploy the House Test growth integration.
-2. Verify the complete live path: Test → result → DB tally → Moot highlight → Banner prefill → Patreon.
-3. Add intentional entry points to `quiz.html` from high-value acquisition surfaces after the funnel is verified.
-4. Establish the operating cadence for a new Ledger Question and archive previous questions/results.
-5. Add conversion event reporting for House Test start/completion/share/Banner/Patreon without collecting unnecessary personal data.
-6. Build the first recurring Nine / Twelve social content loop and route it into the current Ledger Question.
-7. Add Founding Reader recognition only after real paid-member mechanics exist.
+1. Verify the full live path after deployment: House Test completion → anonymous House tally → Ledger vote → local Your Record → Banner profile → Patreon intent event.
+2. Build an author-facing community funnel report from the private view without exposing visitor UUIDs in the public website.
+3. Establish the operating cadence for Ledger Question #002 and archive #001 when it closes.
+4. Add intentional acquisition entry points to the House Test and current Ledger Question from social-video landing paths.
+5. Build the first recurring Nine / Twelve social content loop and route it into the current Ledger Question.
+6. Add Founding Reader recognition only after actual Patreon member status can be verified rather than inferred.
+7. Translate the returning-participation privacy copy and reader-record copy as part of the next full i18n quality pass.
 
 ## Claude continuation rule
 

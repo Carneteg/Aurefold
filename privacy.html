@@ -17,7 +17,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy &amp; Cookies — AUREFOLD</title>
-  <meta name="description" content="How Aurefold uses cookies and data: anonymous analytics, the reading-list email form, and the Moot — and how you control your consent." />
+  <meta name="description" content="How Aurefold uses cookies and data: analytics, community participation, the reading-list email form, and the Moot — and how you control your consent." />
   <link rel="canonical" href="https://aurefold.com/privacy.html" />
   <meta name="theme-color" content="#8a4a2a" />
   <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png" />
@@ -83,13 +83,13 @@
     <p class="page-intro">Plain terms: what Aurefold collects, why, and how you stay in control.</p>
 
     <section class="prose">
-      <p>Aurefold is a small promotional site for the novel <em>The Bell of Silence</em>.
+      <p>Aurefold is a small promotional and reader-community site for the novel <em>The Bell of Silence</em>.
         We keep data collection to a minimum and set <strong>no non-essential cookies until
         you agree</strong>. You can change your mind at any time.</p>
 
       <h2 class="section-title">Cookies &amp; your consent</h2>
       <p>When you first visit, a banner asks whether to allow cookies. Nothing that
-        sets a cookie runs until you choose <strong>Accept</strong>:</p>
+        sets a non-essential cookie runs until you choose <strong>Accept</strong>:</p>
       <ul>
         <li><strong>Analytics (Google Analytics 4).</strong> Anonymous, aggregated usage —
           which pages are visited, roughly where visitors come from, and events like a book
@@ -99,28 +99,51 @@
           form on the <a href="support.html">Support</a> page loads from MailerLite, which may
           set its own cookies. If you decline, the form simply isn't loaded.</li>
       </ul>
-      <p>Decline and the analytics stays cookieless and the email form isn't loaded — the rest
+      <p>Decline and Google Analytics stays cookieless and the email form isn't loaded — the rest
         of the site works exactly the same.</p>
 
       <p>
         <button type="button" class="btn btn-ghost" id="cookie-settings">Change cookie settings</button>
       </p>
 
+      <h2 class="section-title">Community participation stored in your browser</h2>
+      <p>Interactive Aurefold features use a small amount of browser <strong>local storage</strong>
+        so the site can remember community choices on that browser without asking for a name or email.
+        This is separate from Google Analytics cookies.</p>
+      <ul>
+        <li>A random browser identifier is used to enforce one anonymous voice per Moot question and to avoid counting the same House Test result repeatedly.</li>
+        <li>Your local browser remembers which Ledger Questions you answered so the Moot can show your own participation record when you return.</li>
+        <li>This local record is not a score, profile or public leaderboard, and it does not follow you to another browser or device.</li>
+      </ul>
+
+      <h2 class="section-title">Anonymous community milestones</h2>
+      <p>When you actively take part in the community, Aurefold may store a limited anonymous
+        milestone in Supabase: completing the House Test, casting a Ledger Question vote,
+        having a signed-in Banner profile, or clicking through to Patreon. The record contains
+        the random browser identifier, the type of milestone, a short context label and the
+        Aurefold page where it happened.</p>
+      <p>It does <strong>not</strong> store your House Test answer sequence, the text of your
+        Ledger argument, your Patreon account, whether you actually joined Patreon, or whether
+        a Patreon membership is free or paid. Patreon clicks are treated only as an indication
+        that a reader chose to open Patreon.</p>
+
       <h2 class="section-title">Information you choose to give</h2>
       <ul>
         <li><strong>Email address</strong> — only if you join the reading list. It's used to
           send Aurefold updates, and you can unsubscribe from any email at any time.</li>
+        <li><strong>Reader account / Banner profile</strong> — if you sign in, your account and the profile information you choose to save are stored by Supabase.</li>
         <li><strong>Reviews</strong> — if you leave a rating or review of Book One, the optional
           name and text you enter are stored and shown publicly once approved.</li>
         <li><strong>The Moot votes</strong> — votes are stored anonymously to tally results.
-          They are not tied to your identity.</li>
+          Anonymous votes are not tied to a named reader account.</li>
       </ul>
 
       <h2 class="section-title">Who processes this data</h2>
       <ul>
         <li><strong>Google</strong> (Analytics) — usage measurement.</li>
         <li><strong>MailerLite</strong> — reading-list email.</li>
-        <li><strong>Supabase</strong> — stores Moot votes and Book One reviews.</li>
+        <li><strong>Supabase</strong> — reader accounts, Moot votes, community milestones and Book One reviews.</li>
+        <li><strong>Patreon</strong> — only after you choose to open Patreon; Patreon handles its own account and membership data.</li>
         <li><strong>GitHub Pages</strong> — hosts the site; server logs may record standard
           request data (such as IP addresses) as part of normal operation.</li>
       </ul>
@@ -128,10 +151,10 @@
       <h2 class="section-title">Your rights</h2>
       <p>You can withdraw cookie consent at any time (the button above), unsubscribe from
         emails, and request that we correct or delete personal data you've given us
-        (your email or a review). To make a request, email us at
+        (such as your email, reader account/profile or a review). To make a request, email us at
         <a href="mailto:info@aurefold.com">info@aurefold.com</a>.</p>
 
-      <p class="world-note">This notice may be updated as the project grows. Last updated: 11 August 2026.</p>
+      <p class="world-note">This notice may be updated as the project grows. Last updated: 19 August 2026.</p>
     </section>
   </main>
 
