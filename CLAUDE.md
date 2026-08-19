@@ -13,6 +13,7 @@ Before substantial work, read:
 7. `strategy/community/COMMUNITY_GROWTH_IMPLEMENTATION_STATUS.md` — current House Test, Ledger Question, Banner and returning-participation implementation state.
 8. `strategy/community/COMMUNITY_MANAGER_DASHBOARD_V1.md` — private community analytics definitions, security boundaries and interpretation rules.
 9. `strategy/community/LEDGER_QUESTION_CADENCE_v1.0.md` — approved weekly Ledger Question ritual, scheduling, quality rules and rotation mechanics.
+10. `strategy/community/LEDGER_SOCIAL_LOOP_OPERATIONS_v1.0.md` — weekly social discovery/argument/return loop, attribution rules and publishing boundaries.
 
 ## Source authority
 The **live `canon/SOURCE_REGISTRY.md` always wins over this file and over the handoff files when authority/version state differs**.
