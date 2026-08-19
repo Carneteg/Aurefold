@@ -9,6 +9,7 @@ Before substantial work, read:
 3. `claude-handoff/CHATGPT_CONTEXT_EXPORT_2026-08-17.md` — project-specific decisions that previously lived mainly in conversation/memory rather than source files.
 4. `claude-handoff/ACTIVE_STATE_2026-08-17.md` — operational status at handoff.
 5. `claude-handoff/OPEN_THREADS_AND_GATES.md` — unresolved work and explicit pauses.
+6. `strategy/Aurefold_Community_Fandom_Patreon_Growth_Strategy_v1.0.md` — approved community/fandom growth strategy; governing for community implementation but **NOT CANON**.
 
 ## Source authority
 The **live `canon/SOURCE_REGISTRY.md` always wins over this file and over the handoff files when authority/version state differs**.
@@ -82,6 +83,23 @@ Core Book One voices must remain distinctive:
 - Corven: warm, charismatic, expansive, inspiring, comfortable with large ideas.
 
 Each House should eventually possess three recognizable language layers: official House Words, practical/common sayings, and hostile/external sayings.
+
+## Community & growth directive
+For community, fandom, Patreon, social funnel and reader-participation work, read and follow `strategy/Aurefold_Community_Fandom_Patreon_Growth_Strategy_v1.0.md`.
+
+The current growth priority is:
+
+**House Test → Ledger Question → free Patreon membership.**
+
+Community growth should create identity, participation, habit and belonging before monetisation. Strengthen the existing **The Banner / The Moot / Banner Hall / Scriptorium** infrastructure before creating empty new channels.
+
+Hard community rules:
+- House identity is community-facing and never makes one House objectively correct.
+- Community voting never controls canon, protected mysteries, central plot or character fates.
+- Paid support buys closeness/process/access, never canon authority.
+- Never fabricate fans, patrons, votes, reviews or momentum.
+- Aggregate anonymous data where it is sufficient; do not collect unnecessary personal data.
+- Community strategy and website copy are **not canon** unless separately ratified through the canon authority process.
 
 ## Visual continuity
 Use the Appearance Bible stack as recognition architecture, not dossier text. Prefer 1–2 high-value visual anchors at first meaningful appearance; vary later description by POV.
