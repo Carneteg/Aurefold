@@ -34,7 +34,7 @@ drop policy if exists "house test may vote in internal poll" on public.votes;
 create policy "house test may vote in internal poll"
 on public.votes
 for insert
-to public
+to anon, authenticated
 with check (
   poll_id = 'system-house-test-v2'
   and option_id in (
