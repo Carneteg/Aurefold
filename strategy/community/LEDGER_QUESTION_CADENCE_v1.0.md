@@ -81,9 +81,23 @@ The operating rule is **one active Ledger Question at a time**.
 - Options: `Sign the peace` / `Refuse the peace`.
 - Purpose: create the first genuine week-over-week return measurement from Ledger #001 to #002.
 
+### #003 — Correct a Trusted Record
+- Poll id: `ledger-003-correct-trusted-record`
+- Opens: **2 September 2026, 19:00 Europe/Stockholm**
+- Closes: **9 September 2026, 19:00 Europe/Stockholm**
+- Dilemma: new evidence undermines a long-trusted official record, but correcting it could reopen many later decisions built on that record.
+- Options: `Correct the record publicly now` / `Complete the review before correcting it publicly`.
+
+### #004 — Keep a Promise to the Guilty
+- Poll id: `ledger-004-promise-to-the-guilty`
+- Opens: **9 September 2026, 19:00 Europe/Stockholm**
+- Closes: **16 September 2026, 19:00 Europe/Stockholm**
+- Dilemma: safe conduct was promised to end a siege before reliable evidence revealed the opposing commander had ordered grave acts.
+- Options: `Honor the promise of safe conduct` / `Arrest the commander despite the promise`.
+
 ## Measurement
 
-Primary retention signal: the same anonymous browser answers Ledger #001 and Ledger #002.
+Primary retention signal: the same anonymous browser answers successive Ledger Questions.
 
 Track unique Ledger participants, returning participants (2+ distinct questions), House Test + Ledger overlap, returning participant + sworn reader overlap, and Patreon CTA intent. Patreon clicks remain intent only, never confirmed membership.
 
