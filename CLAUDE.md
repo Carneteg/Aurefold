@@ -9,6 +9,7 @@ Before substantial work, read:
 3. `claude-handoff/CHATGPT_CONTEXT_EXPORT_2026-08-17.md` — project-specific decisions that previously lived mainly in conversation/memory rather than source files.
 4. `claude-handoff/ACTIVE_STATE_2026-08-17.md` — operational status at handoff.
 5. `claude-handoff/OPEN_THREADS_AND_GATES.md` — unresolved work and explicit pauses.
+6. `strategy/community/Aurefold_Community_Fandom_Patreon_Strategy_v1.0.md` — governing non-canon community/fandom/Patreon growth strategy.
 
 ## Source authority
 The **live `canon/SOURCE_REGISTRY.md` always wins over this file and over the handoff files when authority/version state differs**.
@@ -87,6 +88,26 @@ Each House should eventually possess three recognizable language layers: officia
 Use the Appearance Bible stack as recognition architecture, not dossier text. Prefer 1–2 high-value visual anchors at first meaningful appearance; vary later description by POV.
 
 Character-art ratification approves the character's **likeness/presentation**, not every incidental prop/background object. Unsupported symbolic or identity-bearing accessories do not become canon by appearing in an image.
+
+## Community growth directive — non-canon product strategy
+
+For community, social growth and Patreon work, treat `strategy/community/Aurefold_Community_Fandom_Patreon_Strategy_v1.0.md` as the governing operational strategy unless the owner explicitly revises it.
+
+Core funnel: **Discovery → Identity → Participation → Community → Habit → Free membership → Paid support.**
+
+Implementation priorities:
+1. Upgrade the existing House Quiz into a moral-dilemma House Test that makes House identity shareable and meaningful.
+2. Establish **The Ledger Question** as a recurring morally difficult community ritual using the existing Moot/Supabase poll layer.
+3. Use conflicting-record **Nine / Twelve** content as a repeatable social format.
+4. Build fandom around characters before encyclopedic lore.
+5. Use Patreon free membership as the bridge before paid conversion.
+6. Paid Patreon sells closeness/process, never canon authority or control of protected story outcomes.
+7. Prefer active website/Patreon community spaces over an empty Discord.
+8. Add Founding Reader recognition only as a real-world community badge, never as story canon.
+9. Surface aggregate participation without exposing private reader behavior.
+10. Build content loops from community response rather than a one-way content calendar.
+
+Community mechanics must never vote on, override, reveal or resolve locked canon, protected mysteries, central plot outcomes or character fates.
 
 ## Data discipline
 - GitHub: readable governance, diffs, reviews, implementation records.
