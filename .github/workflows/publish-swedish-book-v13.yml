@@ -1,0 +1,121 @@
+name: Publish Swedish Book One v1.3 to site branch
+
+on:
+  push:
+    branches:
+      - agent/publish-swedish-book-v13
+    paths:
+      - '.github/workflows/publish-swedish-book-v13.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout site branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/publish-swedish-book-v13
+          fetch-depth: 0
+
+      - name: Copy validated Swedish master into public site assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin agent/book1-v17-master-mirror
+          mkdir -p assets/books
+          git show origin/agent/book1-v17-master-mirror:manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md \
+            > assets/books/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md
+          test -s assets/books/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md
+          grep -q '^## Kapitel Fyrtiosju$' assets/books/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md
+          tail -n 8 assets/books/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md | grep -q 'Hon gick österut.'
+
+      - name: Update Swedish Book One page and Pages deploy
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          p = Path('sv/book.html')
+          text = p.read_text(encoding='utf-8')
+          text = text.replace('Bok Ett: The Bell of Silence — AUREFOLD', 'Tystnadens klocka — Läs Bok Ett gratis | Aurefold')
+          text = text.replace('The Bell of Silence', 'Tystnadens klocka')
+          text = text.replace('Light Heights', 'Lumenhöjderna')
+          text = text.replace('cirka <strong>104 000 ord</strong>', 'cirka <strong>101 000 ord</strong>')
+          text = text.replace('47 kapitel och en interlude', '47 kapitel och ett mellanspel')
+          text = text.replace('"url": "https://aurefold.com/book.html"', '"url": "https://aurefold.com/sv/book.html"')
+          text = text.replace('"item": "https://aurefold.com/book.html"', '"item": "https://aurefold.com/sv/book.html"')
+
+          new_get = '''<section class="prose" id="get">
+      <h2 class="section-title">Läs Bok Ett — gratis</h2>
+      <p>
+        <em>Tystnadens klocka</em> finns nu som en <strong>fullständig svensk läsversion</strong>.
+        Läs hela romanen direkt på Aurefold, eller ladda ner den svenska textfilen. Den engelska
+        originalutgåvan finns kvar separat.
+      </p>
+      <div class="cta-row" style="justify-content:flex-start;">
+        <a class="btn btn-primary book-dl" id="book-sv-reader" href="/sv/tystnadens-klocka.html">Läs hela boken på svenska</a>
+        <a class="btn btn-ghost book-dl" id="book-sv-download" href="/assets/books/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md" download>Ladda ner svensk text</a>
+        <a class="btn btn-ghost book-dl" href="/book.html#get">Engelsk utgåva</a>
+      </div>
+      <p class="world-note">Svensk master v1.3 · 47 kapitel + mellanspel · härledd från den styrande engelska Master v1.7.</p>
+      <div class="signup-inline" id="reading-list">
+        <p>Jag mejlar dig den dag den tryckta utgåvan är verklig — inget före det.</p>
+        <div id="ml-embed" class="ml-embedded" data-form="yjubzQ" hidden></div>
+        <p id="signup-soon" class="world-note">Läslistan öppnar snart — tills dess,
+          <a href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">följ gratis på Patreon</a>.</p>
+      </div>
+      <p class="download-count" id="download-count" hidden></p>
+    </section>'''
+          text, n = re.subn(r'<section class="prose" id="get">.*?</section>', new_get, text, count=1, flags=re.S)
+          if n != 1:
+              raise SystemExit('Could not locate Swedish #get section')
+          p.write_text(text, encoding='utf-8')
+
+          pages = Path('.github/workflows/pages.yml')
+          wf = pages.read_text(encoding='utf-8')
+          old = '          cp -r assets data _site/\n'
+          new = '''          cp -r assets data _site/
+          for locale in sv es fr zh ja; do
+            if [ -d "$locale" ]; then cp -r "$locale" _site/; fi
+          done
+'''
+          if old not in wf:
+              raise SystemExit('Pages copy step changed unexpectedly')
+          wf = wf.replace(old, new, 1)
+          pages.write_text(wf, encoding='utf-8')
+
+          sitemap = Path('sitemap.xml')
+          if sitemap.exists():
+              sm = sitemap.read_text(encoding='utf-8')
+              url = 'https://aurefold.com/sv/tystnadens-klocka.html'
+              if url not in sm and '</urlset>' in sm:
+                  entry = f'  <url><loc>{url}</loc></url>\n'
+                  sm = sm.replace('</urlset>', entry + '</urlset>')
+                  sitemap.write_text(sm, encoding='utf-8')
+
+      - name: Validate website wiring
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -q '/sv/tystnadens-klocka.html' sv/book.html
+          grep -q '/assets/books/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md' sv/book.html
+          grep -q 'for locale in sv es fr zh ja' .github/workflows/pages.yml
+          test -s sv/tystnadens-klocka.html
+          test -s assets/books/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md
+
+      - name: Commit site publication changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'Aurefold Site Agent'
+          git config user.email 'actions@users.noreply.github.com'
+          git rm -f .github/workflows/publish-swedish-book-v13.yml
+          git add .github/workflows/pages.yml sv/book.html sv/tystnadens-klocka.html \
+                  assets/books/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md sitemap.xml
+          git commit -m 'publish Swedish Book One on Aurefold site'
+          git pull --rebase origin agent/publish-swedish-book-v13
+          git push origin HEAD:agent/publish-swedish-book-v13
