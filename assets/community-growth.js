@@ -1,23 +1,21 @@
 /* AUREFOLD — community growth integration
    NON-CANON product layer.
 
-   This file deliberately sits beside the House Test and Banner modules instead
-   of replacing them. It connects the existing experiences into the approved
-   funnel:
+   This file connects the existing House Test and Banner modules into the
+   approved community funnel without replacing either experience:
 
      House Test -> share / Moot -> Banner -> free Patreon
 
-   Privacy model:
-   - no name, email, account id or IP-derived identifier is collected here;
-   - one random browser UUID is used only to prevent duplicate quiz tallies;
-   - raw quiz rows are INSERT-only from the public site and not publicly readable;
-   - only aggregate House tallies are public;
-   - aggregate distribution stays hidden until >= 20 real results.
+   House distribution deliberately reuses the site's existing anonymous
+   votes/poll_tallies infrastructure. Raw vote rows remain private; only
+   aggregate tallies are public. Distribution is hidden until >=20 real
+   completions so tiny samples never masquerade as fandom consensus.
 */
 (function () {
   "use strict";
 
   var cfg = window.AUREFOLD_COMMUNITY || {};
+  var SYSTEM_POLL = "system-house-test-v2";
   var HOUSES = [
     "blackthorn", "ashbourne", "whitehart", "stormrider", "ravenshade",
     "ironvale", "blackcrest", "stonebear", "tidebreaker", "phoenix"
@@ -31,8 +29,10 @@
     return String(key || "").charAt(0).toUpperCase() + String(key || "").slice(1);
   }
 
-  function browserId() {
-    var storageKey = "aurefold-house-quiz-browser-v1";
+  function voterId() {
+    // Reuse the same anonymous browser id as The Moot rather than creating a
+    // parallel tracker. It has no meaning outside anonymous one-vote limits.
+    var storageKey = "ew-voter";
     var id;
     try { id = localStorage.getItem(storageKey); } catch (e) {}
     if (id) return id;
@@ -40,10 +40,8 @@
     if (window.crypto && typeof window.crypto.randomUUID === "function") {
       id = window.crypto.randomUUID();
     } else {
-      id = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
-        var r = Math.random() * 16 | 0;
-        var v = c === "x" ? r : (r & 3 | 8);
-        return v.toString(16);
+      id = "xxxxxxxx-xxxx-4xxx-8xxx-xxxxxxxxxxxx".replace(/x/g, function () {
+        return Math.floor(Math.random() * 16).toString(16);
       });
     }
     try { localStorage.setItem(storageKey, id); } catch (e2) {}
@@ -78,25 +76,23 @@
 
   function recordQuizResult(result) {
     if (!result || !cfg.supabaseUrl || !cfg.supabaseKey) return Promise.resolve(false);
-    var countedKey = "aurefold-house-quiz-counted-v1";
+    var countedKey = "aurefold-house-test-counted-v2";
     try {
       if (localStorage.getItem(countedKey)) return Promise.resolve(true);
     } catch (e) {}
 
-    return fetch(cfg.supabaseUrl + "/rest/v1/house_quiz_results", {
+    return fetch(cfg.supabaseUrl + "/rest/v1/votes", {
       method: "POST",
       headers: headers({ Prefer: "return=minimal" }),
       body: JSON.stringify({
-        browser_id: browserId(),
-        house_key: result.house,
-        locale: (document.documentElement.lang || "en").slice(0, 12),
-        source: "house-test-v2",
-        scores: { counterweight: validHouse(result.counterweight) ? result.counterweight : null }
+        poll_id: SYSTEM_POLL,
+        option_id: result.house,
+        voter: voterId()
       })
     }).then(function (response) {
-      // 409 means this browser UUID was already counted. That is success for
-      // the one-result-per-browser rule, not a reason to retry or overwrite.
-      if (!response.ok && response.status !== 409) throw new Error("quiz tally failed");
+      // The votes table has primary key (poll_id, voter). A 409 therefore means
+      // this browser was already counted and must not overwrite its first House.
+      if (!response.ok && response.status !== 409) throw new Error("house distribution vote failed");
       try { localStorage.setItem(countedKey, result.house); } catch (e) {}
       return true;
     }).catch(function () { return false; });
@@ -104,13 +100,13 @@
 
   function loadDistribution() {
     if (!cfg.supabaseUrl || !cfg.supabaseKey) return Promise.resolve(null);
-    return fetch(cfg.supabaseUrl + "/rest/v1/house_quiz_tallies?select=house_key,result_count&order=result_count.desc", {
+    return fetch(cfg.supabaseUrl + "/rest/v1/poll_tallies?select=poll_id,option_id,votes&poll_id=eq." + encodeURIComponent(SYSTEM_POLL) + "&order=votes.desc", {
       headers: headers()
     }).then(function (response) {
       if (!response.ok) throw new Error("distribution unavailable");
       return response.json();
     }).then(function (rows) {
-      var total = rows.reduce(function (sum, row) { return sum + Number(row.result_count || 0); }, 0);
+      var total = rows.reduce(function (sum, row) { return sum + Number(row.votes || 0); }, 0);
       if (total < 20) return null;
       return { rows: rows, total: total };
     }).catch(function () { return null; });
@@ -136,8 +132,8 @@
     list.className = "house-distribution-list";
 
     data.rows.forEach(function (row) {
-      if (!validHouse(row.house_key)) return;
-      var pct = data.total ? Math.round((Number(row.result_count || 0) * 100) / data.total) : 0;
+      if (!validHouse(row.option_id)) return;
+      var pct = data.total ? Math.round((Number(row.votes || 0) * 100) / data.total) : 0;
       var line = document.createElement("div");
       line.className = "house-distribution-row";
       line.style.display = "grid";
@@ -147,7 +143,7 @@
       line.style.margin = "8px 0";
 
       var name = document.createElement("span");
-      name.textContent = labelFor(row.house_key);
+      name.textContent = labelFor(row.option_id);
       line.appendChild(name);
 
       var trackEl = document.createElement("div");
@@ -178,20 +174,18 @@
     function apply() {
       var card = root.querySelector(".quiz-result");
       var result = readQuizResult();
-      // Shared result pages intentionally do not create a local result, so they
-      // are never counted as completions and never mutate the visitor funnel.
       if (!card || !result) return false;
       if (card.dataset.growthIntegrated === "1") return true;
       card.dataset.growthIntegrated = "1";
 
-      // Existing Moot code consumes #house=<key>. Correct the older query-form
-      // CTA without touching the House Test core script.
+      // Existing Moot code consumes #house=<key>; it highlights the matching
+      // House but never auto-casts a vote.
       Array.prototype.forEach.call(card.querySelectorAll('a[href^="vote.html?house="]'), function (a) {
         a.href = "vote.html#house=" + encodeURIComponent(result.house);
       });
 
-      // Add the missing identity -> community step. The Banner receives the
-      // result only as a suggestion; it must never auto-save allegiance.
+      // Add the identity -> community step. The Banner receives the result as
+      // a suggestion only; the reader must explicitly press “Swear it”.
       var primaryRow = card.querySelector(".cta-row");
       if (primaryRow && !card.querySelector(".house-banner-cta")) {
         var banner = document.createElement("a");
@@ -230,7 +224,7 @@
     function apply() {
       var select = root.querySelector("select");
       if (!select) return false;
-      // Never overwrite an allegiance already saved in the member profile.
+      // Never overwrite an allegiance already stored on the member profile.
       if (select.value) return true;
       var exists = Array.prototype.some.call(select.options, function (o) { return o.value === requested; });
       if (!exists) return true;
