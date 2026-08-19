@@ -199,7 +199,9 @@
       if (!A.user || !A.user()) return;
       return A.profile();
     }).then(function (profile) {
-      if (profile && profile.username) record("sworn_reader", "profile");
+      if (!profile || !profile.username) return;
+      if (profile.role === "author" || profile.role === "admin") return;
+      record("sworn_reader", "profile");
     }).catch(function () {});
   }
 

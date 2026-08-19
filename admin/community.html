@@ -7,7 +7,8 @@
   <title>Aurefold — Community moderation</title>
   <link rel="stylesheet" href="/assets/style.css?v=202608151700" />
   <style>
-    .mod-wrap{max-width:900px;margin:0 auto;padding:2rem 1rem 5rem}
+    .mod-wrap{max-width:900px;margin:0 auto;padding:1rem 1rem 5rem}
+    .mod-switch{max-width:900px;margin:1.2rem auto 0;padding:0 1rem;display:flex;gap:.6rem;justify-content:flex-end}
     .mod-bar{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;margin-bottom:.5rem}
     .mod-heading{font-size:1.6rem;margin:0}
     .mod-hint{font-size:.92rem;opacity:.85;max-width:60ch;margin-bottom:2rem}
@@ -35,8 +36,11 @@
   </style>
 </head>
 <body>
+  <nav class="mod-switch" aria-label="Community admin">
+    <a class="btn btn-ghost" href="/admin/community-dashboard.html">Community Manager</a>
+  </nav>
   <main class="mod-wrap" id="mod-root"></main>
-  <script src="/data/community.js?v=202608151700"></script>
+  <script src="/data/community.js?v=202608190540"></script>
   <script src="/assets/moderation.js?v=202608151700"></script>
 </body>
 </html>
