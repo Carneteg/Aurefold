@@ -14,6 +14,7 @@ Before substantial work, read:
 8. `strategy/community/COMMUNITY_MANAGER_DASHBOARD_V1.md` — private community analytics definitions, security boundaries and interpretation rules.
 9. `strategy/community/LEDGER_QUESTION_CADENCE_v1.0.md` — approved weekly Ledger Question ritual, scheduling, quality rules and rotation mechanics.
 10. `strategy/community/LEDGER_SOCIAL_LOOP_OPERATIONS_v1.0.md` — weekly social discovery/argument/return loop, attribution rules and publishing boundaries.
+11. `strategy/community/CHARACTER_FANDOM_IMPLEMENTATION_STATUS_v1.0.md` — active Sela/Tomas/Alaine fandom-loop controls, anti-flattening rules and launch status.
 
 ## Source authority
 The **live `canon/SOURCE_REGISTRY.md` always wins over this file and over the handoff files when authority/version state differs**.
@@ -112,6 +113,8 @@ Implementation priorities:
 10. Build content loops from community response rather than a one-way content calendar.
 
 Community mechanics must never vote on, override, reveal or resolve locked canon, protected mysteries, central plot outcomes or character fates.
+
+Character social formats are editorial/community material. Never invent a line and present it as manuscript dialogue. A recurring fandom joke or social phrase does not become character canon merely through repetition.
 
 ## Data discipline
 - GitHub: readable governance, diffs, reviews, implementation records.
