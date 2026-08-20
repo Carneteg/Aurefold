@@ -1929,3 +1929,53 @@ main.page:has(.title-band) { padding-top: var(--nav-h); }
 /* inline reading-list module (book/read/quiz) */
 .signup-inline { margin-top: 20px; }
 .signup-inline > p:first-child { font-style: italic; color: var(--accent); max-width: 56ch; }
+
+/* ------------------------------------------------------------------ homepage restructure (2026-08-20) */
+
+/* Hero now carries the premise, not just the mood. */
+.hero .hero-lead {
+  max-width: 46ch;
+  margin: 14px auto 0;
+  color: #b7ab94;
+  font-size: 1.02rem;
+  line-height: 1.6;
+}
+
+/* Synopsis and cover live in one block under one heading. */
+.book-eyebrow {
+  letter-spacing: 0.3em;
+  font-size: 0.8rem;
+  color: var(--ember);
+  margin-bottom: 6px;
+}
+.book-block .section-title { margin-top: 0; }
+.book-block-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 260px) minmax(0, 1fr);
+  gap: 34px;
+  align-items: start;
+  margin-top: 24px;
+}
+.book-block-grid .book-cover { margin: 0; max-width: 100%; }
+.book-block-text p { max-width: 60ch; }
+@media (max-width: 720px) {
+  .book-block-grid { grid-template-columns: 1fr; gap: 22px; }
+  .book-block-grid picture { display: block; max-width: 220px; margin: 0 auto; }
+}
+
+/* The archive band's framing line sits above the cards. */
+.band-dark > p { max-width: 60ch; margin-bottom: 22px; }
+
+/* Footer keeps the exit note above the series signature. */
+.footer-line {
+  font-style: italic;
+  color: #b7ab94;
+  letter-spacing: 0.02em;
+  margin-bottom: 2px;
+}
+
+/* The chart plate carries width/height attributes for CLS. Without height:auto
+   the browser uses the literal attribute height until the file loads, reserving
+   1272px instead of the correct ratio — a real shift, not a paint artifact. */
+figure.chart-plate img { height: auto; }
+.band-dark .chart-plate { max-width: 720px; margin-left: auto; margin-right: auto; }
