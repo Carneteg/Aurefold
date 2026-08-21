@@ -77,8 +77,14 @@ window.AUREFOLD_COMMUNITY = {
        poster  — path or URL to a .jpg still
        caption — one short line under the player; leave "" to hide */
   trailer: {
+    /* youtube — the video id only (the part after youtu.be/). Nothing from
+       YouTube loads until the visitor presses play: the page shows a local
+       poster and only then swaps in a youtube-nocookie player, so no third
+       party sees a visitor who never watched. Leave "" to hide the section.
+       file — optional self-hosted .mp4; used in preference to YouTube if set. */
+    youtube: "GlVznMmGaQo",
     file: "",
-    poster: "assets/cover_bell_of_silence.jpg",
+    poster: "assets/trailer-poster.jpg",
     caption: ""
   },
 

@@ -355,38 +355,74 @@
     if (momentumBox.children.length) momentumBox.removeAttribute("hidden");
   }
 
-  // 1b) Trailer. Self-hosted and click-to-play: preload="none" means the file
-  //     is not fetched until the visitor presses play, and because nothing is
-  //     embedded from a third party it needs no consent and sets no cookie.
-  //     The section stays hidden unless a real file is configured.
+  // 1b) Trailer, as a click-to-play facade. Nothing is requested from YouTube
+  //     until the visitor presses play: until then this is a local poster and a
+  //     button, so a visitor who never watches is never exposed to a third
+  //     party and no consent question arises. On play we swap in the
+  //     youtube-nocookie player. A self-hosted file, if configured, wins.
   var trailerBand = document.getElementById("trailer-band");
   var trailerMount = document.getElementById("trailer-mount");
   if (trailerBand && trailerMount) {
     var tr = freshCfg.trailer || {};
     var trFile = tr.file && String(tr.file).trim();
+    var trYt = tr.youtube && String(tr.youtube).trim();
+    var trPoster = (tr.poster && String(tr.poster).trim()) || "";
+    var mounted = false;
+
     if (trFile) {
       var vid = document.createElement("video");
       vid.className = "trailer-video";
       vid.setAttribute("controls", "");
       vid.setAttribute("preload", "none");
       vid.setAttribute("playsinline", "");
-      if (tr.poster && String(tr.poster).trim()) vid.setAttribute("poster", String(tr.poster).trim());
+      if (trPoster) vid.setAttribute("poster", trPoster);
       var src = document.createElement("source");
-      src.src = trFile;
-      src.type = "video/mp4";
+      src.src = trFile; src.type = "video/mp4";
       vid.appendChild(src);
-      // last resort for a browser that cannot play it at all
-      var fb = document.createElement("a");
-      fb.href = trFile;
-      fb.textContent = "Download the trailer";
-      vid.appendChild(fb);
       trailerMount.appendChild(vid);
+      mounted = true;
+    } else if (/^[A-Za-z0-9_-]{6,20}$/.test(trYt || "")) {
+      var facade = document.createElement("button");
+      facade.type = "button";
+      facade.className = "trailer-facade";
+      facade.setAttribute("aria-label", "Play the trailer");
+      if (trPoster) facade.style.backgroundImage = "url('" + trPoster + "')";
+      var mark = document.createElement("span");
+      mark.className = "trailer-play";
+      mark.setAttribute("aria-hidden", "true");
+      mark.textContent = "\u25B6";
+      facade.appendChild(mark);
+      facade.addEventListener("click", function () {
+        var frame = document.createElement("iframe");
+        frame.className = "trailer-video";
+        frame.src = "https://www.youtube-nocookie.com/embed/" + trYt +
+                    "?autoplay=1&rel=0&modestbranding=1";
+        frame.title = "AUREFOLD trailer";
+        frame.allow = "accelerometer; autoplay; encrypted-media; picture-in-picture";
+        frame.setAttribute("allowfullscreen", "");
+        frame.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+        facade.replaceWith(frame);
+      });
+      trailerMount.appendChild(facade);
+      // a plain link out, for anyone who would rather watch it on YouTube
+      var out = document.createElement("p");
+      out.className = "trailer-caption";
+      var a = document.createElement("a");
+      a.href = "https://youtu.be/" + trYt;
+      a.target = "_blank"; a.rel = "noopener";
+      a.textContent = "Watch on YouTube";
+      out.appendChild(a);
+      trailerMount.appendChild(out);
+      mounted = true;
+    }
+
+    if (mounted) {
       var cap = tr.caption && String(tr.caption).trim();
       if (cap) {
         var capEl = document.createElement("p");
         capEl.className = "trailer-caption";
         capEl.textContent = cap;
-        trailerMount.appendChild(capEl);
+        trailerMount.insertBefore(capEl, trailerMount.firstChild.nextSibling);
       }
       trailerBand.removeAttribute("hidden");
     }
