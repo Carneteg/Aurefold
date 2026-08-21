@@ -1,0 +1,195 @@
+name: Book One control repair 2026-08-21
+
+on:
+  push:
+    branches:
+      - agent/book1-control-repair-2026-08-21
+    paths:
+      - .github/workflows/book1-control-repair-2026-08-21.yml
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install book-build validation dependencies
+        run: python -m pip install --disable-pip-version-check reportlab pypdf
+
+      - name: Fetch and verify corrected governing English master
+        shell: bash
+        run: |
+          set -euo pipefail
+          MASTER='manuscript/book-one/Aurefold_The_Bell_of_Silence_English_Master_v1.7.md'
+          mkdir -p manuscript/book-one validation assets
+          curl -L --fail --silent --show-error \
+            'https://drive.google.com/uc?export=download&id=1PWNoFCCwW4c0fHzNFSjK-BNp__I9huR9' \
+            -o "$MASTER"
+          echo '43beedd03544ef6d05b1b702d43782646fed0e072272c2434af9609a1c968b93  manuscript/book-one/Aurefold_The_Bell_of_Silence_English_Master_v1.7.md' | sha256sum -c -
+          test "$(wc -c < "$MASTER")" -eq 608493
+          test "$(wc -w < "$MASTER")" -eq 106698
+          test "$(grep -Ec '^## Chapter ' "$MASTER")" -eq 47
+          test "$(grep -Ec '^## Interlude$' "$MASTER")" -eq 1
+          ! grep -Eq '\b(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\b' "$MASTER"
+          test "$(grep -Fxc 'Jeren Tesk was sentenced.' "$MASTER")" -eq 1
+
+      - name: Build and validate current PDF and EPUB
+        shell: bash
+        run: |
+          set -euo pipefail
+          python tools/build_book_one_downloads.py \
+            --master manuscript/book-one/Aurefold_The_Bell_of_Silence_English_Master_v1.7.md \
+            --cover assets/cover_bell_of_silence.jpg \
+            --pdf assets/aurefold-the-bell-of-silence.pdf \
+            --epub assets/aurefold-the-bell-of-silence.epub \
+            --manifest validation/Book_One_Downloads_v1.7_2026-08-21.json
+
+      - name: Bring forward and patch Swedish Master v1.3
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin 'agent/book1-swedish-master-v13:refs/remotes/origin/agent/book1-swedish-master-v13'
+          SV='manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md'
+          VAL='validation/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_validation.json'
+          mkdir -p manuscript/book-one/sv validation supabase
+          git show 'origin/agent/book1-swedish-master-v13:manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md' > "$SV"
+          git show 'origin/agent/book1-swedish-master-v13:validation/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_validation.json' > "$VAL"
+          ORIG_SHA="$(sha256sum "$SV" | cut -d' ' -f1)"
+          EXPECTED="$(python -c 'import json; print(json.load(open("validation/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_validation.json",encoding="utf-8"))["sha256"])')"
+          test "$ORIG_SHA" = "$EXPECTED"
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md')
+          s=p.read_text(encoding='utf-8')
+          old='Jeren Tesk dömdes på torsdagen.'
+          new='Jeren Tesk dömdes.'
+          assert s.count(old)==1, s.count(old)
+          s=s.replace(old,new)
+          assert s.count(new)==1
+          for day in ('måndag','tisdag','onsdag','torsdag','fredag','lördag','söndag'):
+              assert day not in s.lower(), day
+          p.write_text(s,encoding='utf-8')
+          PY
+          SV_SHA="$(sha256sum "$SV" | cut -d' ' -f1)"
+          SV_BYTES="$(wc -c < "$SV")"
+          export SV_SHA SV_BYTES
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p=Path('validation/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_validation.json')
+          d=json.loads(p.read_text(encoding='utf-8'))
+          d['sha256']=os.environ['SV_SHA']
+          d['bytes']=int(os.environ['SV_BYTES'])
+          d['word_count_regex']=int(d['word_count_regex'])-2
+          d['source_relation']['source_sha256']='43beedd03544ef6d05b1b702d43782646fed0e072272c2434af9609a1c968b93'
+          d['continuity_patch_2026_08_21']={
+            'reason':'Canon Lock #060 weekday continuity sync from governing English v1.7',
+            'old':'Jeren Tesk dömdes på torsdagen.',
+            'new':'Jeren Tesk dömdes.',
+            'weekday_scan':'0 Swedish weekday-name matches after patch'
+          }
+          p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+          cat > supabase/Book_One_Swedish_Master_v1.3_Sync_Record.md <<EOF
+          # Book One — Swedish Master v1.3 Sync Record
+
+          **Status:** SOURCE READY — LIVE SUPABASE VERIFICATION PENDING
+
+          ## Artifact
+          - Swedish title: **Tystnadens klocka**
+          - Version: **Swedish Master v1.3**
+          - File: \`manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md\`
+          - SHA-256: \`$SV_SHA\`
+          - Structure: **47 numbered chapters + 1 interlude / 48 sections**
+
+          ## Source authority
+          Derived from governing \`Aurefold_The_Bell_of_Silence_English_Master_v1.7.md\` after the 2026-08-21 Canon Lock #060 weekday continuity microfix.
+          - English source SHA-256: \`43beedd03544ef6d05b1b702d43782646fed0e072272c2434af9609a1c968b93\`
+          - Language derivative only; English v1.7 remains governing and this translation creates no new canon.
+
+          ## Intended Supabase target
+          - Project: \`aurefold-site\` (\`akboesleczddqdikjzbw\`)
+          - Private bucket: \`manuscripts\`
+          - Object path: \`book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md\`
+          - \`manuscript_versions\` label: \`Swedish Master v1.3\`
+          - \`is_current\`: \`false\`
+
+          This record deliberately does **not** claim that the live Supabase row or Storage object exists until readback confirms both.
+          EOF
+
+      - name: Refresh active English mirror control records
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > manuscript/book-one/README.md <<'EOF'
+          # Book One manuscript mirror
+
+          `Aurefold_The_Bell_of_Silence_English_Master_v1.7.md` is the byte-identical repository mirror of the current governing Book One manuscript held in Google Drive.
+
+          - Title: **The Bell of Silence**
+          - Version: **English Master v1.7**
+          - SHA-256: `43beedd03544ef6d05b1b702d43782646fed0e072272c2434af9609a1c968b93`
+          - Exact byte size: `608493`
+          - Full-file word count: `106698`
+          - Structure: 47 numbered chapters + one interlude / 48 governed sections
+          - Governing Drive file ID: `1PWNoFCCwW4c0fHzNFSjK-BNp__I9huR9`
+          - Latest prose microfix: 2026-08-21, Chapter 43 weekday continuity under Canon Lock #060
+
+          ## Authority
+
+          Google Drive remains the governing manuscript source. This GitHub file is a byte-identical mirror for review, diffs, downloads, and version history. Future governing prose changes must move through the Drive / GitHub / Supabase control workflow and revalidate hash-bound controls.
+          EOF
+          cat > manuscript/book-one/MIRROR_VERIFICATION.txt <<'EOF'
+          Aurefold_The_Bell_of_Silence_English_Master_v1.7.md
+          SHA-256  43beedd03544ef6d05b1b702d43782646fed0e072272c2434af9609a1c968b93
+          BYTES    608493
+          WORDS    106698
+          SOURCE   Google Drive file 1PWNoFCCwW4c0fHzNFSjK-BNp__I9huR9
+          STATUS   byte-identical repository mirror of governing Book One v1.7 after 2026-08-21 Chapter 43 weekday continuity microfix
+          EOF
+          python - <<'PY'
+          from pathlib import Path
+          old='179308155e1e9382a7a40b07bcaf22463120aa8a2d0ce25e7709ae5db633927e'
+          new='43beedd03544ef6d05b1b702d43782646fed0e072272c2434af9609a1c968b93'
+          for name in ('canon/SOURCE_REGISTRY.md','canon/SHA256SUMS.txt'):
+              p=Path(name)
+              s=p.read_text(encoding='utf-8')
+              if old not in s:
+                  raise SystemExit(f'{name}: active old governing hash not found')
+              p.write_text(s.replace(old,new),encoding='utf-8')
+          PY
+
+      - name: Remove stale transfer workflows and commit repair branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f .github/workflows/reconstruct-book1-v17.yml
+          rm -f .github/workflows/finalize-book1-v17-mirror.yml
+          rm -f .github/workflows/book1-control-repair-2026-08-21.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- \
+            manuscript/book-one/Aurefold_The_Bell_of_Silence_English_Master_v1.7.md \
+            manuscript/book-one/README.md \
+            manuscript/book-one/MIRROR_VERIFICATION.txt \
+            manuscript/book-one/sv/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md \
+            validation/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3_validation.json \
+            validation/Book_One_Downloads_v1.7_2026-08-21.json \
+            supabase/Book_One_Swedish_Master_v1.3_Sync_Record.md \
+            assets/aurefold-the-bell-of-silence.pdf \
+            assets/aurefold-the-bell-of-silence.epub \
+            canon/SOURCE_REGISTRY.md \
+            canon/SHA256SUMS.txt \
+            tools/build_book_one_downloads.py \
+            .github/workflows/reconstruct-book1-v17.yml \
+            .github/workflows/finalize-book1-v17-mirror.yml \
+            .github/workflows/book1-control-repair-2026-08-21.yml
+          git diff --cached --check
+          git commit -m 'Repair Book One v1.7 controls and reader downloads'
+          git push origin HEAD:agent/book1-control-repair-2026-08-21
