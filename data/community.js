@@ -184,3 +184,70 @@ window.AUREFOLD_COMMUNITY.resolveMootThreshold = function (pollId) {
   };
   document.body.appendChild(canon);
 })();
+
+/* Swedish Book One publication hook.
+   The localized Book page predates the completed Swedish master and used to
+   point at the English PDF/EPUB. Keep the checked-in localized page intact,
+   but surface the Swedish full-book reader and clearly separate the English
+   edition until dedicated Swedish PDF/EPUB files are produced. */
+(function publishSwedishBookOne() {
+  function wire() {
+    if (document.documentElement.lang !== "sv" || !/\/sv\/book\.html$/.test(location.pathname)) return;
+    const get = document.querySelector("#get");
+    if (!get || document.getElementById("book-sv-reader")) return;
+
+    document.title = "Tystnadens klocka — Läs Bok Ett gratis | Aurefold";
+    const title = document.querySelector(".book-title");
+    if (title) title.textContent = "TYSTNADENS KLOCKA";
+
+    const intro = get.querySelector("p");
+    if (intro) intro.innerHTML = "<em>Tystnadens klocka</em> finns nu som en <strong>fullständig svensk läsversion</strong>. Läs hela romanen direkt på Aurefold, eller ladda ner den svenska textfilen. Den engelska originalutgåvan finns kvar separat.";
+
+    const row = get.querySelector(".cta-row");
+    if (row) {
+      row.querySelectorAll("a").forEach(function (a) { a.hidden = true; });
+
+      const read = document.createElement("a");
+      read.className = "btn btn-primary book-dl";
+      read.id = "book-sv-reader";
+      read.href = "/sv/tystnadens-klocka.html";
+      read.textContent = "Läs hela boken på svenska";
+
+      const download = document.createElement("a");
+      download.className = "btn btn-ghost book-dl";
+      download.id = "book-sv-download";
+      download.href = "/assets/books/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md";
+      download.setAttribute("download", "");
+      download.textContent = "Ladda ner svensk text";
+
+      const english = document.createElement("a");
+      english.className = "btn btn-ghost book-dl";
+      english.href = "/book.html#get";
+      english.textContent = "Engelsk utgåva";
+
+      row.append(read, download, english);
+    }
+
+    const coming = document.querySelector(".book-coming");
+    if (coming) coming.textContent = "BOK ETT — UTE NU · HELA BOKEN PÅ SVENSKA";
+  }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", wire);
+  else wire();
+})();
+
+/* Community participation bootstrap.
+   This layer records only explicit community milestones (completed quiz,
+   Ledger votes, sworn-reader state, Patreon intent) and renders the local
+   Ledger record. It does not create passive page-view tracking. */
+(function loadCommunityParticipation() {
+  function load() {
+    if (document.querySelector('script[data-aurefold-participation]')) return;
+    const script = document.createElement("script");
+    script.src = "/assets/community-participation.js?v=202608190540";
+    script.dataset.aurefoldParticipation = "1";
+    document.body.appendChild(script);
+  }
+  if (document.body) load();
+  else document.addEventListener("DOMContentLoaded", load, { once: true });
+})();

@@ -3,14 +3,6 @@
   "description": "Baneret är där Aurefolds läsare samlas: svär in dig, välj ditt hus, rösta i Tinget, res egna karaktärer och lämna verk i Skriptoriet.",
   "blocks": [
     [
-      "Everything under the Banner lives <em>around</em> the story — side-stories, extras,\n      public lore, and the archive's next opening. The central plot, canon, and character\n      fates stay the author's. New voices are read by the archivist before they show.",
-      "Allt under Baneret lever <em>runt</em> berättelsen — sidoberättelser, extramaterial,\n      offentlig lore och arkivets nästa öppning. Huvudintrigen, kanon och karaktärernas\n      öden förblir författarens. Nya röster läses av arkivarien innan de visas."
-    ],
-    [
-      "The Banner is the Aurefold reader community — the place where readers stop being\n      readers. Swear in, choose the house you would follow, and take your place in the\n      company that shapes the world around the book.",
-      "Baneret är Aurefolds läsargemenskap — platsen där läsare slutar vara läsare.\n      Svär in dig, välj huset du skulle följa, och ta din plats i sällskapet som\n      formar världen kring boken."
-    ],
-    [
       "<strong>Content note.</strong> Aurefold is a mature series intended for adult readers — discussion and reader material may touch graphic violence and other adult themes.",
       "<strong>Innehållsnot.</strong> Aurefold är en vuxenserie för vuxna läsare — diskussioner och läsarmaterial kan beröra grafiskt våld och andra vuxna teman."
     ],
@@ -25,14 +17,6 @@
     [
       "Raise a character of your own, sworn to a house — the finest are honoured, the very finest taken into the material.",
       "Res en egen karaktär, svuren till ett hus — de finaste hedras, de allra finaste tas in i materialet."
-    ],
-    [
-      "Standing now: “Which house would you follow?” and “Which house's fragment does the archive read aloud next?”",
-      "Just nu: ”Which house would you follow?” och ”Which house's fragment does the archive read aloud next?”"
-    ],
-    [
-      "Vote on what the archive opens next — the great questions ask for a signed-in voice.",
-      "Rösta om vad arkivet öppnar härnäst — de stora frågorna kräver en inloggad röst."
     ],
     [
       "Leave a story, a theory, a piece of art, or a question for the author.",

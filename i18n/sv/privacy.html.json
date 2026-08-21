@@ -2,30 +2,61 @@
   "title": "Integritet &amp; cookies — AUREFOLD",
   "description": "Så använder Aurefold cookies och data: anonym statistik, e-postformuläret för läslistan och Tinget — och hur du styr ditt samtycke.",
   "blocks": [
-    ["<h1 class=\"page-title\">Privacy &amp; Cookies</h1>", "<h1 class=\"page-title\">Integritet &amp; cookies</h1>"],
-    ["Plain terms: what Aurefold collects, why, and how you stay in control.", "Rakt på sak: vad Aurefold samlar in, varför, och hur du behåller kontrollen."],
-    ["Aurefold is a small promotional site for the novel <em>The Bell of Silence</em>.\n        We keep data collection to a minimum and set <strong>no non-essential cookies until\n        you agree</strong>. You can change your mind at any time.", "Aurefold är en liten kampanjsajt för romanen <em>The Bell of Silence</em>.\n        Vi håller datainsamlingen till ett minimum och sätter <strong>inga icke nödvändiga cookies förrän\n        du godkänner</strong>. Du kan ändra dig när som helst."],
-
-    ["Cookies &amp; your consent", "Cookies &amp; ditt samtycke"],
-    ["When you first visit, a banner asks whether to allow cookies. Nothing that\n        sets a cookie runs until you choose <strong>Accept</strong>:", "Vid ditt första besök frågar en banner om du vill tillåta cookies. Inget som\n        sätter en cookie körs förrän du väljer <strong>Acceptera</strong>:"],
-    ["<strong>Analytics (Google Analytics 4).</strong> Anonymous, aggregated usage —\n          which pages are visited, roughly where visitors come from, and events like a book\n          download. It runs in Google's <em>Consent Mode</em> with storage denied by default,\n          so it sets no analytics cookies unless you accept.", "<strong>Statistik (Google Analytics 4).</strong> Anonym, aggregerad användning —\n          vilka sidor som besöks, ungefär varifrån besökarna kommer, och händelser som en bok-\n          nedladdning. Den körs i Googles <em>Consent Mode</em> med lagring nekad som standard,\n          så den sätter inga statistik-cookies om du inte accepterar."],
-    ["<strong>Reading-list form (MailerLite).</strong> If you accept, the email signup\n          form on the <a href=\"support.html\">Support</a> page loads from MailerLite, which may\n          set its own cookies. If you decline, the form simply isn't loaded.", "<strong>Läslistans formulär (MailerLite).</strong> Om du accepterar laddas e-postformuläret\n          på <a href=\"support.html\">Stöd</a>-sidan från MailerLite, som kan\n          sätta egna cookies. Om du nekar laddas formuläret helt enkelt inte."],
-    ["Decline and the analytics stays cookieless and the email form isn't loaded — the rest\n        of the site works exactly the same.", "Nekar du förblir statistiken cookiefri och e-postformuläret laddas inte — resten\n        av sajten fungerar precis likadant."],
-    ["Change cookie settings", "Ändra cookie-inställningar"],
-
-    ["Information you choose to give", "Uppgifter du själv väljer att lämna"],
-    ["<strong>Email address</strong> — only if you join the reading list. It's used to\n          send Aurefold updates, and you can unsubscribe from any email at any time.", "<strong>E-postadress</strong> — bara om du går med i läslistan. Den används för att\n          skicka Aurefold-uppdateringar, och du kan avprenumerera från vilket mejl som helst när som helst."],
-    ["<strong>Reviews</strong> — if you leave a rating or review of Book One, the optional\n          name and text you enter are stored and shown publicly once approved.", "<strong>Omdömen</strong> — om du lämnar ett betyg eller omdöme om Bok Ett lagras det frivilliga\n          namnet och texten du anger och visas publikt när de godkänts."],
-    ["<strong>The Moot votes</strong> — votes are stored anonymously to tally results.\n          They are not tied to your identity.", "<strong>Röster i Tinget</strong> — röster lagras anonymt för att räkna resultat.\n          De är inte kopplade till din identitet."],
-
-    ["Who processes this data", "Vem som behandlar dessa uppgifter"],
-    ["<strong>Google</strong> (Analytics) — usage measurement.", "<strong>Google</strong> (Analytics) — mätning av användning."],
-    ["<strong>MailerLite</strong> — reading-list email.", "<strong>MailerLite</strong> — e-post för läslistan."],
-    ["<strong>Supabase</strong> — stores Moot votes and Book One reviews.", "<strong>Supabase</strong> — lagrar röster i Tinget och omdömen om Bok Ett."],
-    ["<strong>GitHub Pages</strong> — hosts the site; server logs may record standard\n          request data (such as IP addresses) as part of normal operation.", "<strong>GitHub Pages</strong> — är värd för sajten; serverloggar kan registrera vanliga\n          förfrågningsdata (som IP-adresser) som en del av normal drift."],
-
-    ["Your rights", "Dina rättigheter"],
-    ["You can withdraw cookie consent at any time (the button above), unsubscribe from\n        emails, and request that we correct or delete personal data you've given us\n        (your email or a review). To make a request, email us at\n        <a href=\"mailto:info@aurefold.com\">info@aurefold.com</a>.", "Du kan återkalla ditt cookie-samtycke när som helst (knappen ovan), avprenumerera från\n        mejl, och begära att vi rättar eller raderar personuppgifter du gett oss\n        (din e-post eller ett omdöme). Skicka en begäran via mejl till\n        <a href=\"mailto:info@aurefold.com\">info@aurefold.com</a>."],
-    ["This notice may be updated as the project grows. Last updated: 11 August 2026.", "Denna information kan uppdateras allteftersom projektet växer. Senast uppdaterad: 11 augusti 2026."]
+    [
+      "<h1 class=\"page-title\">Privacy &amp; Cookies</h1>",
+      "<h1 class=\"page-title\">Integritet &amp; cookies</h1>"
+    ],
+    [
+      "Plain terms: what Aurefold collects, why, and how you stay in control.",
+      "Rakt på sak: vad Aurefold samlar in, varför, och hur du behåller kontrollen."
+    ],
+    [
+      "Cookies &amp; your consent",
+      "Cookies &amp; ditt samtycke"
+    ],
+    [
+      "<strong>Analytics (Google Analytics 4).</strong> Anonymous, aggregated usage —\n          which pages are visited, roughly where visitors come from, and events like a book\n          download. It runs in Google's <em>Consent Mode</em> with storage denied by default,\n          so it sets no analytics cookies unless you accept.",
+      "<strong>Statistik (Google Analytics 4).</strong> Anonym, aggregerad användning —\n          vilka sidor som besöks, ungefär varifrån besökarna kommer, och händelser som en bok-\n          nedladdning. Den körs i Googles <em>Consent Mode</em> med lagring nekad som standard,\n          så den sätter inga statistik-cookies om du inte accepterar."
+    ],
+    [
+      "<strong>Reading-list form (MailerLite).</strong> If you accept, the email signup\n          form on the <a href=\"support.html\">Support</a> page loads from MailerLite, which may\n          set its own cookies. If you decline, the form simply isn't loaded.",
+      "<strong>Läslistans formulär (MailerLite).</strong> Om du accepterar laddas e-postformuläret\n          på <a href=\"support.html\">Stöd</a>-sidan från MailerLite, som kan\n          sätta egna cookies. Om du nekar laddas formuläret helt enkelt inte."
+    ],
+    [
+      "Change cookie settings",
+      "Ändra cookie-inställningar"
+    ],
+    [
+      "Information you choose to give",
+      "Uppgifter du själv väljer att lämna"
+    ],
+    [
+      "<strong>Email address</strong> — only if you join the reading list. It's used to\n          send Aurefold updates, and you can unsubscribe from any email at any time.",
+      "<strong>E-postadress</strong> — bara om du går med i läslistan. Den används för att\n          skicka Aurefold-uppdateringar, och du kan avprenumerera från vilket mejl som helst när som helst."
+    ],
+    [
+      "<strong>Reviews</strong> — if you leave a rating or review of Book One, the optional\n          name and text you enter are stored and shown publicly once approved.",
+      "<strong>Omdömen</strong> — om du lämnar ett betyg eller omdöme om Bok Ett lagras det frivilliga\n          namnet och texten du anger och visas publikt när de godkänts."
+    ],
+    [
+      "Who processes this data",
+      "Vem som behandlar dessa uppgifter"
+    ],
+    [
+      "<strong>Google</strong> (Analytics) — usage measurement.",
+      "<strong>Google</strong> (Analytics) — mätning av användning."
+    ],
+    [
+      "<strong>MailerLite</strong> — reading-list email.",
+      "<strong>MailerLite</strong> — e-post för läslistan."
+    ],
+    [
+      "<strong>GitHub Pages</strong> — hosts the site; server logs may record standard\n          request data (such as IP addresses) as part of normal operation.",
+      "<strong>GitHub Pages</strong> — är värd för sajten; serverloggar kan registrera vanliga\n          förfrågningsdata (som IP-adresser) som en del av normal drift."
+    ],
+    [
+      "Your rights",
+      "Dina rättigheter"
+    ]
   ]
 }

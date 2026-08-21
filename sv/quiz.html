@@ -32,14 +32,14 @@
   <meta property="og:image" content="https://aurefold.com/assets/og/og-quiz.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Which Great House would you follow? Take the Aurefold quiz." />
+  <meta property="og:image:alt" content="Which Great House would you follow? Take the Aurefold House Test." />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Vilket av de tio husen skulle du följa? — AUREFOLD" />
   <meta name="twitter:description" content="Gör testet: vilket av Aurefolds tio stora hus skulle du följa? Intellekt, Tro, Heder, Framtiden — upptäck ditt hus och dela det." />
   <meta name="twitter:image" content="https://aurefold.com/assets/og/og-quiz.jpg" />
   <link rel="stylesheet" href="/assets/style.css?v=202608210900" />
   <script type="application/ld+json">
-  {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aurefold.com/"}, {"@type": "ListItem", "position": 2, "name": "House Quiz", "item": "https://aurefold.com/quiz.html"}]}
+  {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aurefold.com/"}, {"@type": "ListItem", "position": 2, "name": "House Test", "item": "https://aurefold.com/quiz.html"}]}
   </script>
 <!-- i18n:hreflang -->
   <link rel="alternate" hreflang="en" href="https://aurefold.com/quiz.html" />
@@ -75,39 +75,41 @@
   </nav>
 
   <main class="page" id="main">
-    <h1 class="page-title">Vilket hus skulle du följa?</h1>
+    <h1 class="page-title">Which House would you follow?</h1>
     <p class="page-intro">
-      Tio stora hus härskar över Banner-lands, vart och ett en annan vadslagning om vad människor
-      är till för. Sex frågor. Inga fel svar — bara vilken ed du skulle svära.
+      Twelve moral dilemmas. Ten philosophies of how people should live together.
+      There is no correct House here: every answer protects something worth protecting,
+      and every answer asks somebody to pay a price.
     </p>
     <p class="page-intro">
-      Ten banners, ten wagers: <a href="/sv/house-blackthorn.html">Blackthorn</a> trusts intellect,
+      <a href="/sv/house-blackthorn.html">Blackthorn</a> trusts intellect,
       <a href="/sv/house-ashbourne.html">Ashbourne</a> courage, <a href="/sv/house-whitehart.html">Whitehart</a>
       faith, <a href="/sv/house-stormrider.html">Stormrider</a> unity,
       <a href="/sv/house-ravenshade.html">Ravenshade</a> information,
       <a href="/sv/house-ironvale.html">Ironvale</a> innovation, <a href="/sv/house-blackcrest.html">Blackcrest</a>
       the victor's history, <a href="/sv/house-stonebear.html">Stonebear</a> honor,
       <a href="/sv/house-tidebreaker.html">Tidebreaker</a> knowledge, and <a href="/sv/house-phoenix.html">Phoenix</a>
-      the future. Six questions ask which of them you would follow.
+      the future. The test finds the philosophy you lean toward — and shows the cost built into it.
     </p>
 
     <div id="quiz" class="quiz">
       <noscript>
         <div class="read-module">
-          <p>Testet behöver JavaScript. Under tiden, möt de tio husen direkt — eller säg din mening i Tinget:</p>
+          <p>The House Test needs JavaScript. In the meantime, meet the ten Houses directly — or take part in the latest Ledger Question:</p>
           <div class="cta-row" style="justify-content:flex-start;">
             <a class="btn btn-primary" href="/sv/houses.html">De stora husen</a>
-            <a class="btn btn-ghost" href="/sv/vote.html">Rösta i Tinget</a>
+            <a class="btn btn-ghost" href="/sv/vote.html">The Ledger Question</a>
           </div>
         </div>
       </noscript>
     </div>
 
     <div class="signup-inline" id="reading-list">
-      <p>Jag skriver när det finns något verkligt att berätta — ett meddelande, inget brus.</p>
+      <p>Your House is only the beginning. Follow Aurefold free for the next Ledger Question, new art, and the argument that follows.</p>
       <div id="ml-embed" class="ml-embedded" data-form="yjubzQ" hidden></div>
-      <p id="signup-soon" class="world-note">The reading list opens soon — for now,
-        <a href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">follow free on Patreon</a>.</p>
+      <p id="signup-soon" class="world-note">
+        <a href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">Join Aurefold free on Patreon</a>.
+      </p>
     </div>
   </main>
 
@@ -127,5 +129,13 @@
   <script src="/data/community.js?v=202608172300"></script>
   <script src="/assets/site.js?v=202608210900"></script>
   <script src="/assets/quiz.js?v=202608172300"></script>
+  <script src="/assets/house-test-v2.js?v=202608190410"></script>
+  <script>
+    if (!new URLSearchParams(location.search).get("result")) {
+      var growth = document.createElement("script");
+      growth.src = "assets/community-growth.js?v=202608190435";
+      document.body.appendChild(growth);
+    }
+  </script>
 </body>
 </html>

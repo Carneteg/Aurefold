@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tystnadens klocka — Läs hela Bok Ett | Aurefold</title>
+  <meta name="description" content="Läs hela Tystnadens klocka, Bok Ett i Aurefold, på svenska direkt i webbläsaren." />
+  <link rel="canonical" href="https://aurefold.com/sv/tystnadens-klocka.html" />
+  <meta name="theme-color" content="#8a4a2a" />
+  <link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="stylesheet" href="/assets/style.css?v=202608172100" />
+  <style>
+    .reader-shell{max-width:860px;margin:0 auto;padding:38px 22px 90px}
+    .reader-head{text-align:center;margin:18px auto 36px;max-width:760px}
+    .reader-kicker{letter-spacing:.14em;text-transform:uppercase;font-size:.78rem;opacity:.72}
+    .reader-title{font-size:clamp(2.4rem,8vw,5.2rem);line-height:.95;margin:.25em 0 .18em}
+    .reader-sub{font-size:1.08rem;opacity:.82}
+    .reader-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:24px 0}
+    .reader-tools{position:sticky;top:0;z-index:20;background:rgba(239,231,211,.96);backdrop-filter:blur(10px);border-top:1px solid rgba(58,51,42,.14);border-bottom:1px solid rgba(58,51,42,.14);padding:10px 14px}
+    .reader-tools-inner{max-width:900px;margin:0 auto;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .reader-tools select,.reader-tools button{font:inherit;padding:8px 10px;border:1px solid rgba(58,51,42,.28);background:#f6f0e2;color:#3a332a;border-radius:4px}
+    .reader-progress{height:3px;background:rgba(58,51,42,.12)}
+    .reader-progress span{display:block;height:100%;width:0;background:#8a4a2a}
+    .book-text{font-family:Georgia,'Times New Roman',serif;font-size:1.08rem;line-height:1.82;color:#2f2a24}
+    .book-text p{margin:0 0 1.15em}
+    .book-text h2{font-family:inherit;text-align:center;font-size:2rem;margin:3.2em 0 .25em;scroll-margin-top:90px}
+    .book-text h3{font-family:inherit;text-align:center;font-size:1.3rem;font-weight:normal;font-style:italic;margin:.2em 0 2.3em;scroll-margin-top:90px}
+    .book-text h4{font-family:inherit;text-align:center;font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;margin:2.8em 0 1.5em;scroll-margin-top:90px}
+    .book-text blockquote{margin:1.6em 2em;padding-left:1.1em;border-left:2px solid #8a4a2a;font-style:italic}
+    .story-break{text-align:center;margin:2.5em 0;font-size:1.15rem;opacity:.65}
+    .reader-loading,.reader-error{text-align:center;padding:70px 20px}
+    .reader-error{color:#7b2f22}
+    .reader-footer{text-align:center;margin-top:70px;padding-top:30px;border-top:1px solid rgba(58,51,42,.18)}
+    body.reader-large .book-text{font-size:1.23rem}
+    body.reader-small .book-text{font-size:.98rem}
+    @media(max-width:640px){.reader-shell{padding:24px 18px 70px}.book-text{font-size:1.03rem;line-height:1.72}.book-text h2{font-size:1.65rem;margin-top:2.6em}.reader-tools-inner{justify-content:center}}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#book">Hoppa till boken</a>
+  <nav class="site-nav">
+    <a class="brand" href="/sv/"><img class="brand-mark" src="/assets/brand/emblem-mark.webp" alt="" width="34" height="34" />AUREFOLD</a>
+    <ul id="nav-menu">
+      <li><a href="/sv/book.html" class="active">Bok Ett</a></li>
+      <li><a href="/sv/read.html">Smakprov</a></li>
+      <li><a href="/sv/houses.html">De stora husen</a></li>
+      <li><a href="/sv/map.html">Kartan</a></li>
+      <li><a href="/sv/support.html">Stöd</a></li>
+    </ul>
+  </nav>
+
+  <header class="reader-head">
+    <p class="reader-kicker">Aurefold · Bok Ett</p>
+    <h1 class="reader-title">Tystnadens klocka</h1>
+    <p class="reader-sub">Fullständig svensk läsversion · 47 kapitel + mellanspel</p>
+    <div class="reader-actions">
+      <a class="btn btn-ghost" href="/sv/book.html">Om boken</a>
+      <a class="btn btn-ghost" href="/assets/books/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md" download>Ladda ner textfil</a>
+    </div>
+  </header>
+
+  <div class="reader-tools" aria-label="Läsverktyg">
+    <div class="reader-tools-inner">
+      <label>Kapitel <select id="chapter-jump" aria-label="Hoppa till kapitel"><option value="">Välj…</option></select></label>
+      <div>
+        <button type="button" id="font-small" aria-label="Mindre text">A−</button>
+        <button type="button" id="font-normal" aria-label="Normal text">A</button>
+        <button type="button" id="font-large" aria-label="Större text">A+</button>
+      </div>
+    </div>
+    <div class="reader-progress" aria-hidden="true"><span id="reader-progress-bar"></span></div>
+  </div>
+
+  <main id="book" class="reader-shell">
+    <div id="reader-loading" class="reader-loading">Öppnar boken…</div>
+    <article id="book-text" class="book-text" hidden></article>
+    <div id="reader-error" class="reader-error" hidden>Det gick inte att öppna boken. Försök ladda om sidan.</div>
+    <footer class="reader-footer">
+      <p><strong>Tystnadens klocka</strong> · Aurefold, Bok Ett</p>
+      <p><a href="/sv/book.html">Tillbaka till Bok Ett</a> · <a href="#book">Till toppen</a></p>
+    </footer>
+  </main>
+
+  <script>
+    (() => {
+      const source = '/assets/books/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md';
+      const article = document.getElementById('book-text');
+      const loading = document.getElementById('reader-loading');
+      const error = document.getElementById('reader-error');
+      const select = document.getElementById('chapter-jump');
+
+      const esc = s => s.replace(/[&<>\"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+      const inline = s => {
+        let x = esc(s);
+        x = x.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+        x = x.replace(/\*(.+?)\*/g, '<em>$1</em>');
+        return x;
+      };
+      const slug = (s, i) => 'section-' + i + '-' + s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9åäö]+/gi,'-').replace(/^-|-$/g,'');
+
+      function render(md) {
+        const lines = md.replace(/\r/g,'').split('\n');
+        let html = '', para = [], sectionIndex = 0;
+        const flush = () => {
+          if (!para.length) return;
+          html += '<p>' + inline(para.join(' ')) + '</p>';
+          para = [];
+        };
+        for (const raw of lines) {
+          const line = raw.trim();
+          if (!line) { flush(); continue; }
+          if (line === '# TYSTNADENS KLOCKA' || line === '## En roman från Aurefold' || /^\*\*Bok Ett — Svensk master/.test(line) || /^> STATUS:/.test(line)) continue;
+          if (/^\*Lumenhöjderna, 396 A\.U\./.test(line)) continue;
+          if (line === '---') { flush(); html += '<div class="story-break" aria-hidden="true">✦</div>'; continue; }
+          if (/^##\s+/.test(line)) {
+            flush();
+            const title = line.replace(/^##\s+/,'');
+            const id = slug(title, ++sectionIndex);
+            html += `<h2 id="${id}">${inline(title)}</h2>`;
+            if (/^(Kapitel|Mellanspel)/i.test(title)) {
+              const o = document.createElement('option'); o.value = id; o.textContent = title; select.appendChild(o);
+            }
+            continue;
+          }
+          if (/^###\s+/.test(line)) { flush(); const title=line.replace(/^###\s+/,''); const id=slug(title,++sectionIndex); html += `<h3 id="${id}">${inline(title)}</h3>`; continue; }
+          if (/^####\s+/.test(line)) { flush(); const title=line.replace(/^####\s+/,''); const id=slug(title,++sectionIndex); html += `<h4 id="${id}">${inline(title)}</h4>`; continue; }
+          if (/^>\s*/.test(line)) { flush(); html += '<blockquote>' + inline(line.replace(/^>\s*/,'')) + '</blockquote>'; continue; }
+          para.push(line);
+        }
+        flush();
+        return html;
+      }
+
+      fetch(source, {cache:'no-cache'})
+        .then(r => { if (!r.ok) throw new Error(String(r.status)); return r.text(); })
+        .then(md => {
+          article.innerHTML = render(md);
+          loading.hidden = true;
+          article.hidden = false;
+          if (location.hash) setTimeout(() => document.querySelector(location.hash)?.scrollIntoView(), 0);
+        })
+        .catch(() => { loading.hidden = true; error.hidden = false; });
+
+      select.addEventListener('change', () => { if (select.value) document.getElementById(select.value)?.scrollIntoView({behavior:'smooth'}); });
+      document.getElementById('font-small').onclick = () => { document.body.classList.add('reader-small'); document.body.classList.remove('reader-large'); };
+      document.getElementById('font-normal').onclick = () => { document.body.classList.remove('reader-small','reader-large'); };
+      document.getElementById('font-large').onclick = () => { document.body.classList.add('reader-large'); document.body.classList.remove('reader-small'); };
+      const bar = document.getElementById('reader-progress-bar');
+      addEventListener('scroll', () => {
+        const max = document.documentElement.scrollHeight - innerHeight;
+        bar.style.width = (max > 0 ? Math.min(100, scrollY / max * 100) : 0) + '%';
+      }, {passive:true});
+    })();
+  </script>
+  <script src="/assets/site.js"></script>
+</body>
+</html>
