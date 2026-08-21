@@ -30,7 +30,7 @@ LANGS = {"en": "English", "sv": "Svenska", "es": "Español",
 BUILT = ["en", "sv"]   # languages offered in the switcher
 
 CHROME = {
-  "en": {"Book One":"Book One","Excerpt":"Excerpt","The Archive":"The Archive",
+  "en": {"Book One":"Book One","Excerpt":"Excerpt","The Archive":"The Archive","Community":"Community",
          "The Great Houses":"The Great Houses","The Map":"The Map","The World":"The World",
          "The Faces":"The Faces","History":"History","The Living Archive":"The Living Archive","The Banner":"The Banner",
          "The Moot":"The Moot","Support":"Support","Journal":"Journal",
@@ -39,7 +39,7 @@ CHROME = {
          "AUREFOLD · The map ends where the truth begins.":"AUREFOLD · The map ends where the truth begins.",
          "Every truth has a keeper. Every silence has a cost.":"Every truth has a keeper. Every silence has a cost.",
          "Follow Aurefold":"Follow Aurefold","Language":"Language"},
-  "sv": {"Book One":"Bok Ett","Excerpt":"Smakprov","The Archive":"Arkivet",
+  "sv": {"Book One":"Bok Ett","Excerpt":"Smakprov","The Archive":"Arkivet","Community":"Gemenskapen",
          "The Great Houses":"De stora husen","The Map":"Kartan","The World":"Världen",
          "The Faces":"Ansiktena","History":"Historia","The Living Archive":"Det levande arkivet","The Banner":"Baneret",
          "The Moot":"Tinget","Support":"Stöd","Journal":"Journal",
