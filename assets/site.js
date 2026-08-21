@@ -355,6 +355,43 @@
     if (momentumBox.children.length) momentumBox.removeAttribute("hidden");
   }
 
+  // 1b) Trailer. Self-hosted and click-to-play: preload="none" means the file
+  //     is not fetched until the visitor presses play, and because nothing is
+  //     embedded from a third party it needs no consent and sets no cookie.
+  //     The section stays hidden unless a real file is configured.
+  var trailerBand = document.getElementById("trailer-band");
+  var trailerMount = document.getElementById("trailer-mount");
+  if (trailerBand && trailerMount) {
+    var tr = freshCfg.trailer || {};
+    var trFile = tr.file && String(tr.file).trim();
+    if (trFile) {
+      var vid = document.createElement("video");
+      vid.className = "trailer-video";
+      vid.setAttribute("controls", "");
+      vid.setAttribute("preload", "none");
+      vid.setAttribute("playsinline", "");
+      if (tr.poster && String(tr.poster).trim()) vid.setAttribute("poster", String(tr.poster).trim());
+      var src = document.createElement("source");
+      src.src = trFile;
+      src.type = "video/mp4";
+      vid.appendChild(src);
+      // last resort for a browser that cannot play it at all
+      var fb = document.createElement("a");
+      fb.href = trFile;
+      fb.textContent = "Download the trailer";
+      vid.appendChild(fb);
+      trailerMount.appendChild(vid);
+      var cap = tr.caption && String(tr.caption).trim();
+      if (cap) {
+        var capEl = document.createElement("p");
+        capEl.className = "trailer-caption";
+        capEl.textContent = cap;
+        trailerMount.appendChild(capEl);
+      }
+      trailerBand.removeAttribute("hidden");
+    }
+  }
+
   // 2) Latest-from-the-Journal teaser, driven by AUREFOLD_COMMUNITY.journal.
   var homeJournal = document.getElementById("home-journal");
   if (homeJournal) {

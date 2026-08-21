@@ -69,6 +69,19 @@ window.AUREFOLD_COMMUNITY = {
     latestMilestone: "Book One complete — Book Two in development"
   },
 
+  /* The homepage trailer. Stays hidden until `file` points at a real video.
+     Put a WEB-SIZED file here — target 10-20 MB, not the master export; the
+     homepage should never ship a 100 MB download. `poster` is the still frame
+     shown before play (the cover works if you have no dedicated frame).
+       file    — path or URL to an .mp4 (H.264/AAC plays everywhere)
+       poster  — path or URL to a .jpg still
+       caption — one short line under the player; leave "" to hide */
+  trailer: {
+    file: "",
+    poster: "assets/cover_bell_of_silence.jpg",
+    caption: ""
+  },
+
   /* The homepage "Latest from the Journal" teaser. Update these three when you
      post a new entry at the top of journal.html. `url` can point at that
      entry's anchor (each entry now has an id). Leave latestTitle "" to hide

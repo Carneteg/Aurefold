@@ -44,7 +44,7 @@
   <meta name="twitter:description" content="Aurefold är en episk fantasy om tio stora hus och en ed. Läs Bok Ett — The Bell of Silence — gratis, och var med och avgör vad världen blir härnäst." />
   <meta name="twitter:image" content="https://aurefold.com/assets/og-image.jpg" />
   <meta name="twitter:image:alt" content="AUREFOLD — Book One: The Bell of Silence" />
-  <link rel="stylesheet" href="/assets/style.css?v=202608201200" />
+  <link rel="stylesheet" href="/assets/style.css?v=202608210800" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -120,6 +120,15 @@
          threshold. -->
     <section class="momentum" id="momentum" aria-label="Where things stand" hidden></section>
     <p class="home-journal" id="moot-latest" hidden></p>
+
+    <!-- The trailer. Rendered by site.js only when AUREFOLD_COMMUNITY.trailer.file
+         is set, so the page never ships an empty player. Self-hosted rather than
+         embedded, so it needs no third-party cookie consent and carries no
+         tracker; preload="none" means it costs nothing until someone presses play. -->
+    <section class="band-dark trailer-band" id="trailer-band" aria-label="Trailer" hidden>
+      <h2 class="section-title">Se trailern</h2>
+      <div id="trailer-mount"></div>
+    </section>
 
     <!-- Block 2: the governing question, in the position of strength. It is the
          only object on the site a stranger can act on and share in a minute.
@@ -238,6 +247,6 @@ För House Whitehart finns till för att pröva dem som säger sig höra, och en
   </footer>
 
   <script src="/data/community.js?v=202608172300"></script>
-  <script src="/assets/site.js?v=202608172300"></script>
+  <script src="/assets/site.js?v=202608210800"></script>
 </body>
 </html>
