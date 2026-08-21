@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """Build reader-facing PDF + EPUB from the governing Book One Markdown master.
 
-The script intentionally uses the Markdown master as the only prose source. It is
-small enough to audit, deterministic apart from ZIP/PDF metadata timestamps, and
-performs textual validation after generation.
+The governing Markdown is the only prose source. Reader-facing builds omit the
+administrative master-status line while preserving the literary text.
 """
 from __future__ import annotations
 
@@ -12,7 +11,6 @@ import hashlib
 import html
 import json
 import re
-import sys
 import zipfile
 from pathlib import Path
 
@@ -21,6 +19,7 @@ AUTHOR = "Tobias Carneteg"
 BOOK_ID = "aurefold-book-one-the-bell-of-silence"
 OLD_WEEKDAY = "Jeren Tesk was sentenced on Thursday."
 NEW_SENTENCE = "Jeren Tesk was sentenced."
+ADMIN_MARKER = "English Master v1.7 | Adopted Governing Master"
 
 
 def sha256(path: Path) -> str:
@@ -29,6 +28,10 @@ def sha256(path: Path) -> str:
         for chunk in iter(lambda: f.read(1024 * 1024), b""):
             h.update(chunk)
     return h.hexdigest()
+
+
+def reader_line(line: str) -> bool:
+    return ADMIN_MARKER not in line
 
 
 def inline_markup(text: str) -> str:
@@ -40,7 +43,7 @@ def inline_markup(text: str) -> str:
 
 
 def split_sections(markdown_text: str):
-    lines = markdown_text.splitlines()
+    lines = [line for line in markdown_text.splitlines() if reader_line(line)]
     sections = []
     current_title = "Front Matter"
     current = []
@@ -75,9 +78,7 @@ def lines_to_html(lines):
             flush()
             continue
         if stripped == "---":
-            flush()
-            out.append("<hr />")
-            continue
+            flush(); out.append("<hr />"); continue
         m = re.match(r"^(#{1,6})\s+(.+)$", stripped)
         if m:
             flush()
@@ -85,9 +86,7 @@ def lines_to_html(lines):
             out.append(f"<h{level}>{inline_markup(m.group(2))}</h{level}>")
             continue
         if stripped.startswith("> "):
-            flush()
-            out.append(f"<blockquote>{inline_markup(stripped[2:])}</blockquote>")
-            continue
+            flush(); out.append(f"<blockquote>{inline_markup(stripped[2:])}</blockquote>"); continue
         para.append(stripped)
     flush()
     return "\n".join(out)
@@ -162,16 +161,13 @@ def reportlab_markup(text: str) -> str:
 
 def build_pdf(master: Path, cover: Path | None, output: Path):
     from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY
-    from reportlab.lib.pagesizes import inch
     from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
-    from reportlab.lib.units import inch as unit_inch
+    from reportlab.lib.units import inch
     from reportlab.platypus import Image, PageBreak, Paragraph, SimpleDocTemplate, Spacer
 
-    text = master.read_text(encoding="utf-8")
-    lines = text.splitlines()
+    lines = master.read_text(encoding="utf-8").splitlines()
     output.parent.mkdir(parents=True, exist_ok=True)
-    pagesize = (6 * inch, 9 * inch)
-    doc = SimpleDocTemplate(str(output), pagesize=pagesize, rightMargin=.68*unit_inch, leftMargin=.68*unit_inch, topMargin=.72*unit_inch, bottomMargin=.72*unit_inch, title=TITLE, author=AUTHOR)
+    doc = SimpleDocTemplate(str(output), pagesize=(6*inch, 9*inch), rightMargin=.68*inch, leftMargin=.68*inch, topMargin=.72*inch, bottomMargin=.72*inch, title=TITLE, author=AUTHOR)
     styles = getSampleStyleSheet()
     body = ParagraphStyle("BookBody", parent=styles["BodyText"], fontName="Times-Roman", fontSize=10.5, leading=14.2, alignment=TA_JUSTIFY, spaceAfter=7)
     chapter = ParagraphStyle("Chapter", parent=styles["Heading1"], fontName="Times-Bold", fontSize=18, leading=22, alignment=TA_CENTER, spaceBefore=28, spaceAfter=16)
@@ -182,16 +178,12 @@ def build_pdf(master: Path, cover: Path | None, output: Path):
     story = []
     if cover and cover.exists():
         img = Image(str(cover))
-        maxw, maxh = 4.7*unit_inch, 7.45*unit_inch
-        scale = min(maxw / img.imageWidth, maxh / img.imageHeight)
+        maxw, maxh = 4.7*inch, 7.45*inch
+        scale = min(maxw/img.imageWidth, maxh/img.imageHeight)
         img.drawWidth = img.imageWidth * scale
         img.drawHeight = img.imageHeight * scale
-        story.extend([Spacer(1, .15*unit_inch), img, PageBreak()])
-    story.extend([
-        Spacer(1, 1.4*unit_inch), Paragraph(TITLE.upper(), title_style),
-        Paragraph("Book One of Aurefold", subtitle), Spacer(1, .5*unit_inch),
-        Paragraph(AUTHOR, subtitle), PageBreak()
-    ])
+        story.extend([Spacer(1, .15*inch), img, PageBreak()])
+    story.extend([Spacer(1, 1.4*inch), Paragraph(TITLE.upper(), title_style), Paragraph("Book One of Aurefold", subtitle), Spacer(1, .5*inch), Paragraph(AUTHOR, subtitle), PageBreak()])
 
     para = []
     started_chapters = False
@@ -205,10 +197,11 @@ def build_pdf(master: Path, cover: Path | None, output: Path):
             para = []
 
     for raw in lines:
+        if not reader_line(raw):
+            continue
         s = raw.strip()
         if not s:
-            flush_para()
-            continue
+            flush_para(); continue
         if s == "---":
             flush_para(); story.append(Spacer(1, 10)); continue
         if re.match(r"^## (Chapter\b|Interlude\b)", s, flags=re.I):
@@ -233,10 +226,7 @@ def build_pdf(master: Path, cover: Path | None, output: Path):
     flush_para()
 
     def footer(canvas, _doc):
-        canvas.saveState()
-        canvas.setFont("Times-Roman", 8)
-        canvas.drawCentredString(3*unit_inch, .35*unit_inch, str(canvas.getPageNumber()))
-        canvas.restoreState()
+        canvas.saveState(); canvas.setFont("Times-Roman", 8); canvas.drawCentredString(3*inch, .35*inch, str(canvas.getPageNumber())); canvas.restoreState()
 
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
 
@@ -248,26 +238,31 @@ def validate(master: Path, pdf: Path, epub: Path):
         errors.append("source still contains forbidden weekday sentence")
     if source.count(NEW_SENTENCE) != 1:
         errors.append(f"source expected one corrected sentence, found {source.count(NEW_SENTENCE)}")
-    chapters = len(re.findall(r"^## Chapter\b", source, flags=re.M))
-    if chapters != 47:
-        errors.append(f"expected 47 chapter headings, found {chapters}")
-    if not re.search(r"^## Interlude\b|^### .*margin", source, flags=re.M|re.I):
-        # Some source versions encode the interlude with a subtitle rather than a literal ## Interlude.
-        errors.append("interlude marker not detected")
+    if len(re.findall(r"^## Chapter\b", source, flags=re.M)) != 47:
+        errors.append("source does not contain exactly 47 chapter headings")
+    if len(re.findall(r"^## Interlude\b", source, flags=re.M)) != 1:
+        errors.append("source does not contain exactly one interlude")
 
     epub_text = ""
     with zipfile.ZipFile(epub, "r") as z:
         for n in z.namelist():
             if n.endswith(".xhtml"):
                 epub_text += z.read(n).decode("utf-8", errors="ignore") + "\n"
-    if OLD_WEEKDAY in epub_text or NEW_SENTENCE not in html.unescape(re.sub(r"<[^>]+>", " ", epub_text)):
+    epub_plain = html.unescape(re.sub(r"<[^>]+>", " ", epub_text))
+    epub_plain = re.sub(r"\s+", " ", epub_plain)
+    if OLD_WEEKDAY in epub_plain or NEW_SENTENCE not in epub_plain:
         errors.append("EPUB corrected sentence validation failed")
+    if ADMIN_MARKER in epub_plain:
+        errors.append("EPUB leaked administrative master-status line")
 
     try:
         from pypdf import PdfReader
-        pdf_text = "\n".join((p.extract_text() or "") for p in PdfReader(str(pdf)).pages)
+        pdf_text = " ".join((p.extract_text() or "") for p in PdfReader(str(pdf)).pages)
+        pdf_text = re.sub(r"\s+", " ", pdf_text)
         if OLD_WEEKDAY in pdf_text or NEW_SENTENCE not in pdf_text:
             errors.append("PDF corrected sentence validation failed")
+        if ADMIN_MARKER in pdf_text:
+            errors.append("PDF leaked administrative master-status line")
     except Exception as exc:
         errors.append(f"PDF extraction validation failed: {exc}")
 
@@ -288,8 +283,7 @@ def main():
     build_pdf(args.master, args.cover, args.pdf)
     validate(args.master, args.pdf, args.epub)
     result = {
-        "master_sha256": sha256(args.master),
-        "master_bytes": args.master.stat().st_size,
+        "master_sha256": sha256(args.master), "master_bytes": args.master.stat().st_size,
         "pdf_sha256": sha256(args.pdf), "pdf_bytes": args.pdf.stat().st_size,
         "epub_sha256": sha256(args.epub), "epub_bytes": args.epub.stat().st_size,
     }
