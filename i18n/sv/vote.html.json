@@ -3,32 +3,24 @@
   "description": "Tinget är där läsare formar Aurefolds värld — lägg en röst på avgränsade, icke-kanoniska extramoment: konst, sidoberättelser och vad arkivet öppnar härnäst.",
   "blocks": [
     [
-      "The Moot shapes the world <em>around</em> the book — which supplemental material,\n      art, or public topic the archive opens next, and bounded extras like which\n      side-story gets written or the name of a minor figure in the supplementary lore.\n      The central plot, canon, character fates, and the book’s unresolved mysteries stay\n      the author’s.",
-      "Tinget formar världen <em>kring</em> boken — vilket kompletterande material,\n      vilken konst eller vilket offentligt ämne arkivet öppnar härnäst, och avgränsade extramoment som vilken\n      sidoberättelse som skrivs eller namnet på en mindre gestalt i den kompletterande loren.\n      Den centrala handlingen, kanon, karaktärernas öden och bokens olösta mysterier förblir\n      författarens."
+      "A new question opens every Wednesday at 19:00 Europe/Stockholm, and the previous one closes as it does. These are community dilemmas, not hidden canon tests. The Moot's wider votes shape only bounded material around the books — which archive fragment opens next, what art gets explored. The central plot, canon, character fates and protected mysteries remain the author's.",
+      "En ny fråga öppnar varje onsdag klockan 19:00 svensk tid, och den föregående stänger när den gör det. Det här är dilemman för gemenskapen, inte dolda kanonprov. Tingets övriga omröstningar formar bara avgränsat material runt böckerna — vilket arkivfragment som öppnas härnäst, vilken konst som utforskas. Huvudintrigen, kanon, karaktärernas öden och de skyddade mysterierna förblir författarens."
     ],
     [
-      "An old word for an assembly where every voice is counted. One voice per reader —\n      and while the Moot is young, early votes show as a standing; the exact counts open\n      once enough readers have weighed in.",
-      "Ett gammalt ord för en församling där varje röst räknas. En röst per läsare —\n      och medan Tinget är ungt visas tidiga röster som en ställning; de exakta talen öppnas\n      när tillräckligt många läsare har sagt sitt."
-    ],
-    [
-      "Two questions stand at the moment: <em>which house you would follow</em>, and\n      <em>which house's fragment the archive reads aloud next</em>. If the hall below\n      is slow to convene, it is worth the wait.",
-      "Två frågor står just nu: <em>vilket hus du skulle följa</em>, och <em>vems fragment arkivet läser högt härnäst</em>. Om salen nedan samlas långsamt är den värd väntan."
-    ],
-    [
-      "Free members are asked the same Moot questions, and hear the results first.",
-      "Gratis medlemmar får samma Ting-frågor, och hör resultaten först."
-    ],
-    [
-      "The interactive Moot needs JavaScript to convene. You can still take part:",
-      "Det interaktiva Tinget behöver JavaScript för att sammanträda. Du kan ändå delta:"
+      "<strong>The Ledger Question</strong> is Aurefold's recurring argument: one difficult moral choice each week, defensible answers, and no official verdict. Add your voice, then come back to see where the community divided.",
+      "<strong>Ledger-frågan</strong> är Aurefolds återkommande argument: ett svårt moraliskt val i veckan, försvarbara svar, och ingen officiell dom. Lägg till din röst, och kom sedan tillbaka för att se var gemenskapen delade sig."
     ],
     [
       "Follow the journey",
       "Följ resan"
     ],
     [
-      "Follow free",
-      "Följ gratis"
+      "The interactive Moot needs JavaScript to convene. You can still follow the next question:",
+      "Det interaktiva Tinget kräver JavaScript för att sammanträda. Du kan ändå följa nästa fråga:"
+    ],
+    [
+      "Want the next Ledger Question when it opens? Join Aurefold free — no canon paywall, just the next argument, art and production notes.",
+      "Vill du ha nästa Ledger-fråga när den öppnar? Gå med i Aurefold gratis — ingen betalvägg för kanon, bara nästa argument, konst och produktionsanteckningar."
     ]
   ]
 }

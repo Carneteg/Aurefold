@@ -33,17 +33,25 @@
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="AUREFOLD — Sela of the Light Heights" />
+  <meta property="og:locale" content="en" />
+  <meta property="og:locale:alternate" content="sv" />
+  <meta property="og:locale:alternate" content="es" />
+  <meta property="og:locale:alternate" content="fr" />
+  <meta property="og:locale:alternate" content="ja" />
+  <meta property="og:locale:alternate" content="zh" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Aurefold — en episk fantasy om tio hus · The Bell of Silence" />
   <meta name="twitter:description" content="Aurefold är en episk fantasy om tio stora hus och en ed. Läs Bok Ett — The Bell of Silence — gratis, och var med och avgör vad världen blir härnäst." />
   <meta name="twitter:image" content="https://aurefold.com/assets/social/og-aurefold-sela.jpg" />
-  <link rel="stylesheet" href="/assets/style.css?v=202608172100" />
+  <meta name="twitter:image:alt" content="AUREFOLD — Sela of the Light Heights" />
+  <link rel="stylesheet" href="/assets/style.css?v=202608210900" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       { "@type": "WebSite", "@id": "https://aurefold.com/#website", "url": "https://aurefold.com/", "name": "Aurefold", "inLanguage": "sv" },
       { "@type": "Person", "@id": "https://aurefold.com/#author", "name": "Tobias Carneteg", "url": "https://aurefold.com/" },
+      { "@type": "Organization", "@id": "https://aurefold.com/#org", "name": "Aurefold", "url": "https://aurefold.com/", "logo": "https://aurefold.com/assets/brand/logo-dark.webp", "founder": { "@id": "https://aurefold.com/#author" } },
       { "@type": "Book", "@id": "https://aurefold.com/#book",
         "name": "The Bell of Silence",
         "author": { "@id": "https://aurefold.com/#author" },
@@ -56,16 +64,12 @@
     ]
   }
   </script>
+  <link rel="stylesheet" href="/assets/featured-faces.css?v=202608172115" />
 <!-- i18n:hreflang -->
   <link rel="alternate" hreflang="en" href="https://aurefold.com/" />
   <link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/" />
-  <link rel="alternate" hreflang="es" href="https://aurefold.com/es/" />
-  <link rel="alternate" hreflang="fr" href="https://aurefold.com/fr/" />
-  <link rel="alternate" hreflang="zh" href="https://aurefold.com/zh/" />
-  <link rel="alternate" hreflang="ja" href="https://aurefold.com/ja/" />
   <link rel="alternate" hreflang="x-default" href="https://aurefold.com/" />
   <!-- /i18n:hreflang -->
-  <link rel="stylesheet" href="/assets/featured-faces.css?v=202608172115" />
 </head>
 <body>
   <a class="skip-link" href="#main">Hoppa till innehåll</a>
@@ -86,29 +90,39 @@
           <li><a href="/sv/archive.html">Det levande arkivet</a></li>
         </ul>
       </li>
-      <li><a href="/sv/community.html">Baneret</a></li>
-      <li><a href="/sv/vote.html">Tinget</a></li>
+      <li class="has-sub">
+        <button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="community-submenu">Gemenskapen</button>
+        <ul class="sub-menu" id="community-submenu">
+          <li><a href="/sv/about.html">Om författaren</a></li>
+          <li><a href="/sv/community.html">Baneret</a></li>
+          <li><a href="/sv/vote.html">Tinget</a></li>
+          <li><a href="/sv/banner-hall.html">The Banner Hall</a></li>
+          <li><a href="/sv/scriptorium.html">The Scriptorium</a></li>
+          <li><a href="/sv/journal.html">Journal</a></li>
+        </ul>
+      </li>
       <li><a href="/sv/support.html">Stöd</a></li>
-      <li><a href="/sv/journal.html">Journal</a></li>
-          <!-- i18n:switcher --><li class="has-sub lang-switch"><button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="lang-submenu" aria-label="Språk">Svenska</button><ul class="sub-menu" id="lang-submenu"><li><a href="/" hreflang="en" lang="en">English</a></li><li><a href="/sv/" hreflang="sv" lang="sv" class="active">Svenska</a></li><li><a href="/es/" hreflang="es" lang="es">Español</a></li><li><a href="/fr/" hreflang="fr" lang="fr">Français</a></li><li><a href="/zh/" hreflang="zh" lang="zh">中文</a></li><li><a href="/ja/" hreflang="ja" lang="ja">日本語</a></li></ul></li><!-- /i18n:switcher -->
+          <!-- i18n:switcher --><li class="has-sub lang-switch"><button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="lang-submenu" aria-label="Språk">Svenska</button><ul class="sub-menu" id="lang-submenu"><li><a href="/" hreflang="en" lang="en">English</a></li><li><a href="/sv/" hreflang="sv" lang="sv" class="active">Svenska</a></li></ul></li><!-- /i18n:switcher -->
     </ul>
   </nav>
 
   <header class="hero">
     <img class="hero-logo" src="/assets/brand/logo-dark.webp" alt="AUREFOLD — The Bell of Silence" width="680" height="227" fetchpriority="high" />
     <h1 class="sr-only">AUREFOLD — The Bell of Silence</h1>
-    <p class="tagline">Varje sanning har en väktare. Varje tystnad har ett pris.</p>
+    <p class="tagline">Hon säger att hon hörde något i vinden. Hon tänker inte låtsas veta vad.</p>
+    <p class="hero-lead">House Whitehart finns till för att pröva dem som säger sig höra. Sela hävdar ingenting — och i Banner-lands är redan det farligt.</p>
     <p class="hero-sub">En episk fantasy om tio hus · Bok Ett</p>
     <p class="hero-status">Bok Ett är ute nu — läs e-boken gratis</p>
     <div class="cta-row hero-cta">
       <a class="btn btn-primary" href="/sv/book.html#get">Läs Bok Ett gratis</a>
-      <a class="btn btn-ghost" href="/sv/read.html">Läs smakprovet</a>
+      <a class="btn btn-ghost" href="/sv/read.html">Läs det första kapitlet</a>
     </div>
     <hr class="hero-rule" />
     <div class="scroll-hint" aria-hidden="true">▾</div>
   </header>
 
   <main id="main" class="page">
+    <h2 class="section-title">En litterär episk fantasy om tio stora hus</h2>
     <!-- Freshness signals. Both stay hidden until there is real data:
          #momentum is filled from AUREFOLD_COMMUNITY.momentum; #moot-latest is
          pulled live from poll_tallies and only shows at/above the reveal
@@ -116,59 +130,67 @@
     <section class="momentum" id="momentum" aria-label="Where things stand" hidden></section>
     <p class="home-journal" id="moot-latest" hidden></p>
 
-    <section class="prose">
-      <h2 class="section-title">The Bell of Silence</h2>
-      <p>
-        I de höga, tysta dalarna i Light Heights hör en getvallare vid namn
+    <!-- The trailer. Rendered by site.js only when AUREFOLD_COMMUNITY.trailer.file
+         is set, so the page never ships an empty player. Self-hosted rather than
+         embedded, so it needs no third-party cookie consent and carries no
+         tracker; preload="none" means it costs nothing until someone presses play. -->
+    <section class="band-dark trailer-band" id="trailer-band" aria-label="Trailer" hidden>
+      <h2 class="section-title">Se trailern</h2>
+      <div id="trailer-mount"></div>
+    </section>
+
+    <!-- Block 2: the governing question, in the position of strength. It is the
+         only object on the site a stranger can act on and share in a minute.
+         Do not restate this question elsewhere on the homepage. -->
+    <section class="quiz-teaser" aria-label="House quiz">
+      <h2>Vilket hus skulle du följa?</h2>
+      <p>Tio hus. Tio filosofier om att styra — tio olika vadslagningar om vad människor
+        är, och vad de kan begäras bli. Frågan dessa böcker ställer är aldrig
+        <em>vilket hus som är gott</em>.</p>
+      <p>Sex frågor avgör vilken ed som är din.</p>
+      <a class="btn btn-primary" href="/sv/quiz.html">Gör testet</a>
+    </section>
+
+    <!-- Block 3: synopsis and cover in ONE block under ONE heading. -->
+    <section class="prose book-block" aria-label="Bok Ett">
+      <p class="book-eyebrow">UTE NU · E-BOK GRATIS</p>
+      <h2 class="section-title">The Bell of Silence — Bok Ett</h2>
+      <div class="book-block-grid">
+        <picture>
+          <source srcset="/assets/cover_bell_of_silence.webp" type="image/webp" />
+          <img class="book-cover" src="/assets/cover_bell_of_silence.jpg" width="900" height="1439" loading="lazy"
+               alt="Omslag till AUREFOLD, Bok Ett: The Bell of Silence — en ensam vandrare på en bergsstig ovanför en dimhöljd dal, ett klocktorn inhugget i klippan." />
+        </picture>
+        <div class="book-block-text">
+          <p>
+I de höga, tysta dalarna i Light Heights hör en getvallare vid namn
         <strong>Sela</strong> något i vinden som hon inte kan förklara — och
         inte vill låtsas om. Hon säger bara det hon vet, inte mer. I
         Banner-lands är det ensamt farligt.
-      </p>
-      <p>
-        För House Whitehart finns till för att pröva dem som säger sig höra, och en värld byggd
+          </p>
+          <p>
+För House Whitehart finns till för att pröva dem som säger sig höra, och en värld byggd
         på tio svurna hus vill hellre avgöra innebörden i en röst än leva med
         en öppen fråga. Det Sela hörde kan vara ingenting. Det världen bestämmer att det
         betyder kommer att förändra hennes liv hur som helst.
-      </p>
-      <p>
-        <em>The Bell of Silence</em> är den första boken i Aurefold: en berättelse om
+          </p>
+          <p>
+<em>The Bell of Silence</em> är den första boken i Aurefold: en berättelse om
         sanning, vittnesmål och priset för att tiga på en plats där varje
         tystnad läses som ett svar.
-      </p>
-      <div class="cta-row" style="justify-content:flex-start;">
-        <a class="btn btn-primary" href="/sv/book.html#get">Läs Bok Ett gratis</a>
-        <a class="btn btn-ghost" href="/sv/book.html">Om Bok Ett</a>
+          </p>
+          <div class="cta-row" style="justify-content:flex-start;">
+            <a class="btn btn-primary" href="/sv/book.html">Om Bok Ett</a>
+          </div>
+          <div><a class="support-cta" id="front-patreon" target="_blank" rel="noopener" hidden>Stöd på Patreon</a></div>
+        </div>
       </div>
     </section>
 
-    <section class="announcement" aria-label="Book One announcement">
-      <h2 class="book-title">THE BELL OF SILENCE</h2>
-      <p class="book-coming">BOK ETT — UTE NU · E-BOK GRATIS</p>
-      <picture>
-        <source srcset="/assets/cover_bell_of_silence.webp" type="image/webp" />
-        <img class="book-cover" src="/assets/cover_bell_of_silence.jpg" width="900" height="1439" loading="lazy"
-             alt="Omslag till AUREFOLD, Bok Ett: The Bell of Silence — en ensam vandrare på en bergsstig ovanför en dimhöljd dal, ett klocktorn inhugget i klippan." />
-      </picture>
-      <a class="map-link" href="/sv/book.html">Om Bok Ett →</a>
-      <div><a class="support-cta" id="front-patreon" target="_blank" rel="noopener" hidden>Stöd på Patreon</a></div>
-    </section>
-
-    <section class="prose">
-      <h2 class="section-title">Vägen till utgivning</h2>
-      <p>
-        Bok Ett är ute nu som gratis e-bok. Nästa steg är den tryckta utgåvan —
-        professionellt redigerad, formgiven och producerad. Du kan följa varje viktigt steg
-        gratis, eller bli medlem och hjälpa till att bära boken till tryck.
-      </p>
-      <div class="cta-row" style="justify-content:flex-start;">
-        <a class="btn btn-primary" href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">Följ gratis</a>
-        <a class="btn btn-ghost" href="/sv/support.html">Så stöttar du</a>
-      </div>
-      <p class="home-journal" id="home-journal" hidden></p>
-    </section>
-
+    <!-- Block 4: the archive, framed as a reward rather than more navigation. -->
     <section class="band-dark">
       <h2 class="section-title">Stig in i arkivet</h2>
+      <p>Banner-lands är äldre än den här boken, och historieskrivningen är inte avgjord.</p>
       <div class="teasers">
         <a class="teaser" href="/sv/houses.html">
           <h3>Husen</h3>
@@ -180,40 +202,12 @@
         </a>
         <a class="teaser" href="/sv/world.html">
           <h3>Världen</h3>
-          <p>The Sleeping Sea, the Silent Mountains och the Ash Fields i hjärtat.</p>
+          <p>Sleeping Sea, Silent Mountains och Ash Fields i hjärtat.</p>
         </a>
         <a class="teaser" href="/sv/characters.html">
           <h3>Ansiktena</h3>
           <p>Getvallaren, prövaren, krönikören — människorna i Bok Ett.</p>
         </a>
-      </div>
-    </section>
-
-    <section class="quiz-teaser" aria-label="House quiz">
-      <h2>Vilket hus skulle du följa?</h2>
-      <p>Tio hus, tio filosofier om att styra. Sex frågor avgör vilken ed som är din.</p>
-      <a class="btn btn-primary" href="/sv/quiz.html">Gör testet</a>
-    </section>
-
-    <section class="prose band-dark">
-      <h2 class="section-title">Aurefolds värld</h2>
-      <p>
-        Fyrahundra år har gått sedan the War of the Unification tog slut och
-        året sattes till noll. Tio stora hus har styrt Banner-lands sedan
-        dess — det nuvarande året är 396&nbsp;A.U. — och vart och ett av dem är mindre en familj
-        än en ledarskapsfilosofi: ett vad om vad människor är, och vad de
-        kan ombes att bli.
-      </p>
-      <p>
-        Deras grundande pakt är the Tenfold Compact. Dess högsta kammare rymmer elva
-        platser och tio erkända röster; den elfte förblir oavgjord.
-      </p>
-      <p>
-        Frågan dessa böcker ställer är aldrig <em>vilket hus som är gott</em>. Den är:
-        <strong>vilket hus skulle du följa?</strong>
-      </p>
-      <div class="cta-row" style="margin-top:26px;">
-        <a class="btn btn-ghost" href="/sv/vote.html">Rösta i Tinget</a>
       </div>
 
       <figure class="chart-plate" id="chart-plate" hidden>
@@ -224,22 +218,46 @@
         <figcaption>Plansch I — Banner-lands, översiktskarta · 396 A.U.</figcaption>
       </figure>
     </section>
+
+    <!-- Block 5: money last, and only from the already-convinced. The chronology
+         here is Canon Lock #037 (396 A.U., four years before the Jubilee) and
+         #070 (the Jubilee as constitutional renewal, not a spent anniversary). -->
+    <section class="prose">
+      <h2 class="section-title">Vägen till utgivning</h2>
+      <p>
+        Trehundranittiosex år har gått sedan the War of the Unification tog slut och
+        räkningen började om från noll. Det fyrahundrade — jubileet, då varje ed, varje
+        anspråk och varje omtvistat prejudikat läggs fram på nytt — är fyra år bort.
+        Där står Bok Ett.
+      </p>
+      <p>
+        Bok Ett är ute nu som gratis e-bok. Nästa arbete är den tryckta utgåvan:
+        professionellt redigerad, formgiven och producerad. Du kan följa varje större steg
+        gratis, eller bli medlem och hjälpa till att bära boken i tryck.
+      </p>
+      <div class="cta-row" style="justify-content:flex-start;">
+        <a class="btn btn-primary" href="/sv/support.html">Så stöttar du</a>
+      </div>
+      <p class="home-journal" id="home-journal" hidden></p>
+    </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-brand">
       <img src="/assets/brand/emblem-mark.webp" alt="" width="42" height="42" loading="lazy" />
+      <p class="footer-line">Varje sanning har en väktare. Varje tystnad har ett pris.</p>
       <p class="footer-tagline">AUREFOLD · Kartan slutar där sanningen börjar.</p>
     </div>
     <nav class="social-links" id="social-links" aria-label="Följ Aurefold"></nav>
     <nav class="footer-legal" aria-label="Legal">
+      <a href="/sv/about.html">Om</a>
       <a href="/sv/privacy.html">Integritet &amp; cookies</a>
       <button type="button" class="linklike" id="cookie-settings">Cookie-inställningar</button>
     </nav>
   </footer>
 
-  <script src="/data/community.js?v=202608172200"></script>
-  <script src="/assets/site.js?v=202608172100"></script>
+  <script src="/data/community.js?v=202608172300"></script>
+  <script src="/assets/site.js?v=202608210900"></script>
   <script src="/assets/featured-faces.js?v=202608172115"></script>
 </body>
 </html>

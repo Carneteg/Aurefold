@@ -37,17 +37,13 @@
   <meta name="twitter:title" content="Kartan över Banner-lands — Aurefold" />
   <meta name="twitter:description" content="Utforska den interaktiva kartan över Banner-lands — sätena för de tio stora husen och bergsdalen där Bok Ett i Aurefold utspelar sig." />
   <meta name="twitter:image" content="https://aurefold.com/assets/og/og-map.jpg" />
-  <link rel="stylesheet" href="/assets/style.css?v=202608172100" />
+  <link rel="stylesheet" href="/assets/style.css?v=202608210900" />
   <script type="application/ld+json">
   {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aurefold.com/"}, {"@type": "ListItem", "position": 2, "name": "The Map", "item": "https://aurefold.com/map.html"}]}
   </script>
 <!-- i18n:hreflang -->
   <link rel="alternate" hreflang="en" href="https://aurefold.com/map.html" />
   <link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/map.html" />
-  <link rel="alternate" hreflang="es" href="https://aurefold.com/es/map.html" />
-  <link rel="alternate" hreflang="fr" href="https://aurefold.com/fr/map.html" />
-  <link rel="alternate" hreflang="zh" href="https://aurefold.com/zh/map.html" />
-  <link rel="alternate" hreflang="ja" href="https://aurefold.com/ja/map.html" />
   <link rel="alternate" hreflang="x-default" href="https://aurefold.com/map.html" />
   <!-- /i18n:hreflang -->
 </head>
@@ -70,11 +66,19 @@
           <li><a href="/sv/archive.html">Det levande arkivet</a></li>
         </ul>
       </li>
-      <li><a href="/sv/community.html">Baneret</a></li>
-      <li><a href="/sv/vote.html">Tinget</a></li>
+      <li class="has-sub">
+        <button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="community-submenu">Gemenskapen</button>
+        <ul class="sub-menu" id="community-submenu">
+          <li><a href="/sv/about.html">Om författaren</a></li>
+          <li><a href="/sv/community.html">Baneret</a></li>
+          <li><a href="/sv/vote.html">Tinget</a></li>
+          <li><a href="/sv/banner-hall.html">The Banner Hall</a></li>
+          <li><a href="/sv/scriptorium.html">The Scriptorium</a></li>
+          <li><a href="/sv/journal.html">Journal</a></li>
+        </ul>
+      </li>
       <li><a href="/sv/support.html">Stöd</a></li>
-      <li><a href="/sv/journal.html">Journal</a></li>
-          <!-- i18n:switcher --><li class="has-sub lang-switch"><button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="lang-submenu" aria-label="Språk">Svenska</button><ul class="sub-menu" id="lang-submenu"><li><a href="/map.html" hreflang="en" lang="en">English</a></li><li><a href="/sv/map.html" hreflang="sv" lang="sv" class="active">Svenska</a></li><li><a href="/es/map.html" hreflang="es" lang="es">Español</a></li><li><a href="/fr/map.html" hreflang="fr" lang="fr">Français</a></li><li><a href="/zh/map.html" hreflang="zh" lang="zh">中文</a></li><li><a href="/ja/map.html" hreflang="ja" lang="ja">日本語</a></li></ul></li><!-- /i18n:switcher -->
+          <!-- i18n:switcher --><li class="has-sub lang-switch"><button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="lang-submenu" aria-label="Språk">Svenska</button><ul class="sub-menu" id="lang-submenu"><li><a href="/map.html" hreflang="en" lang="en">English</a></li><li><a href="/sv/map.html" hreflang="sv" lang="sv" class="active">Svenska</a></li></ul></li><!-- /i18n:switcher -->
     </ul>
   </nav>
 
@@ -82,10 +86,10 @@
     <aside class="map-sidebar">
       <header>
         <h1>The Banner-lands</h1>
-        <p class="plate-caption">Plate II — with the seats of the Ten Great Houses · 396 A.U.</p>
+        <p class="plate-caption">Plansch II — med de tio stora husens säten · 396 A.U.</p>
       </header>
       <ul id="seat-list" class="seat-list"></ul>
-      <footer>Drag to pan · scroll to zoom · select a seal for the house record.</footer>
+      <footer>Dra för att panorera · rulla för att zooma · välj ett sigill för husets uppgifter.</footer>
     </aside>
 
     <main id="main" class="map-main">
@@ -194,17 +198,19 @@
   <footer class="site-footer">
     <div class="footer-brand">
       <img src="/assets/brand/emblem-mark.webp" alt="" width="42" height="42" loading="lazy" />
+      <p class="footer-line">Varje sanning har en väktare. Varje tystnad har ett pris.</p>
       <p class="footer-tagline">AUREFOLD · Kartan slutar där sanningen börjar.</p>
     </div>
     <nav class="social-links" id="social-links" aria-label="Följ Aurefold"></nav>
     <nav class="footer-legal" aria-label="Legal">
+      <a href="/sv/about.html">Om</a>
       <a href="/sv/privacy.html">Integritet &amp; cookies</a>
       <button type="button" class="linklike" id="cookie-settings">Cookie-inställningar</button>
     </nav>
   </footer>
 
-  <script src="/data/community.js?v=202608172200"></script>
-  <script src="/assets/site.js?v=202608172100"></script>
+  <script src="/data/community.js?v=202608172300"></script>
+  <script src="/assets/site.js?v=202608210900"></script>
   <script src="/data/houses.js"></script>
   <script src="/assets/map.js?v=202608171400"></script>
 </body>

@@ -37,17 +37,13 @@
   <meta name="twitter:title" content="Integritet &amp; cookies — AUREFOLD" />
   <meta name="twitter:description" content="Så använder Aurefold cookies och data: anonym statistik, e-postformuläret för läslistan och Tinget — och hur du styr ditt samtycke." />
   <meta name="twitter:image" content="https://aurefold.com/assets/og-image.jpg" />
-  <link rel="stylesheet" href="/assets/style.css?v=202608172100" />
+  <link rel="stylesheet" href="/assets/style.css?v=202608210900" />
   <script type="application/ld+json">
   {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aurefold.com/"}, {"@type": "ListItem", "position": 2, "name": "Privacy & Cookies", "item": "https://aurefold.com/privacy.html"}]}
   </script>
 <!-- i18n:hreflang -->
   <link rel="alternate" hreflang="en" href="https://aurefold.com/privacy.html" />
   <link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/privacy.html" />
-  <link rel="alternate" hreflang="es" href="https://aurefold.com/es/privacy.html" />
-  <link rel="alternate" hreflang="fr" href="https://aurefold.com/fr/privacy.html" />
-  <link rel="alternate" hreflang="zh" href="https://aurefold.com/zh/privacy.html" />
-  <link rel="alternate" hreflang="ja" href="https://aurefold.com/ja/privacy.html" />
   <link rel="alternate" hreflang="x-default" href="https://aurefold.com/privacy.html" />
   <!-- /i18n:hreflang -->
 </head>
@@ -70,11 +66,19 @@
           <li><a href="/sv/archive.html">Det levande arkivet</a></li>
         </ul>
       </li>
-      <li><a href="/sv/community.html">Baneret</a></li>
-      <li><a href="/sv/vote.html">Tinget</a></li>
+      <li class="has-sub">
+        <button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="community-submenu">Gemenskapen</button>
+        <ul class="sub-menu" id="community-submenu">
+          <li><a href="/sv/about.html">Om författaren</a></li>
+          <li><a href="/sv/community.html">Baneret</a></li>
+          <li><a href="/sv/vote.html">Tinget</a></li>
+          <li><a href="/sv/banner-hall.html">The Banner Hall</a></li>
+          <li><a href="/sv/scriptorium.html">The Scriptorium</a></li>
+          <li><a href="/sv/journal.html">Journal</a></li>
+        </ul>
+      </li>
       <li><a href="/sv/support.html">Stöd</a></li>
-      <li><a href="/sv/journal.html">Journal</a></li>
-          <!-- i18n:switcher --><li class="has-sub lang-switch"><button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="lang-submenu" aria-label="Språk">Svenska</button><ul class="sub-menu" id="lang-submenu"><li><a href="/privacy.html" hreflang="en" lang="en">English</a></li><li><a href="/sv/privacy.html" hreflang="sv" lang="sv" class="active">Svenska</a></li><li><a href="/es/privacy.html" hreflang="es" lang="es">Español</a></li><li><a href="/fr/privacy.html" hreflang="fr" lang="fr">Français</a></li><li><a href="/zh/privacy.html" hreflang="zh" lang="zh">中文</a></li><li><a href="/ja/privacy.html" hreflang="ja" lang="ja">日本語</a></li></ul></li><!-- /i18n:switcher -->
+          <!-- i18n:switcher --><li class="has-sub lang-switch"><button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="lang-submenu" aria-label="Språk">Svenska</button><ul class="sub-menu" id="lang-submenu"><li><a href="/privacy.html" hreflang="en" lang="en">English</a></li><li><a href="/sv/privacy.html" hreflang="sv" lang="sv" class="active">Svenska</a></li></ul></li><!-- /i18n:switcher -->
     </ul>
   </nav>
 
@@ -83,13 +87,13 @@
     <p class="page-intro">Rakt på sak: vad Aurefold samlar in, varför, och hur du behåller kontrollen.</p>
 
     <section class="prose">
-      <p>Aurefold är en liten kampanjsajt för romanen <em>The Bell of Silence</em>.
+      <p>Aurefold är en liten sajt för marknadsföring och läsargemenskap kring romanen <em>The Bell of Silence</em>.
         Vi håller datainsamlingen till ett minimum och sätter <strong>inga icke nödvändiga cookies förrän
-        du godkänner</strong>. Du kan ändra dig när som helst.</p>
+        du samtycker</strong>. Du kan ändra dig när som helst.</p>
 
       <h2 class="section-title">Cookies &amp; ditt samtycke</h2>
-      <p>Vid ditt första besök frågar en banner om du vill tillåta cookies. Inget som
-        sätter en cookie körs förrän du väljer <strong>Acceptera</strong>:</p>
+      <p>Vid ditt första besök frågar en banner om cookies ska tillåtas. Ingenting som
+        sätter en icke nödvändig cookie körs förrän du väljer <strong>Acceptera</strong>:</p>
       <ul>
         <li><strong>Statistik (Google Analytics 4).</strong> Anonym, aggregerad användning —
           vilka sidor som besöks, ungefär varifrån besökarna kommer, och händelser som en bok-
@@ -99,55 +103,80 @@
           på <a href="/sv/support.html">Stöd</a>-sidan från MailerLite, som kan
           sätta egna cookies. Om du nekar laddas formuläret helt enkelt inte.</li>
       </ul>
-      <p>Nekar du förblir statistiken cookiefri och e-postformuläret laddas inte — resten
+      <p>Nekar du förblir Google Analytics utan cookies och e-postformuläret laddas inte — resten
         av sajten fungerar precis likadant.</p>
 
       <p>
-        <button type="button" class="btn btn-ghost" id="cookie-settings">Ändra cookie-inställningar</button>
+        <button type="button" class="btn btn-ghost" id="cookie-settings">Ändra inställningar för cookies</button>
       </p>
+
+      <h2 class="section-title">Deltagande i gemenskapen som sparas i din webbläsare</h2>
+      <p>Interaktiva funktioner på Aurefold använder en liten mängd <strong>lokal lagring</strong> i webbläsaren
+        så att sajten kan minnas val i gemenskapen på just den webbläsaren utan att fråga efter namn eller e-post.
+        Detta är skilt från Google Analytics-cookies.</p>
+      <ul>
+        <li>En slumpmässig webbläsaridentifierare används för att säkerställa en anonym röst per fråga i Tinget och för att undvika att samma Hustestet-resultat räknas flera gånger.</li>
+        <li>Din lokala webbläsare minns vilka Ledger-frågor du har besvarat, så att Tinget kan visa ditt eget deltagande när du kommer tillbaka.</li>
+        <li>Denna lokala uppgift är inte ett poängtal, en profil eller en publik topplista, och den följer dig inte till en annan webbläsare eller enhet.</li>
+      </ul>
+
+      <h2 class="section-title">Anonyma milstolpar i gemenskapen</h2>
+      <p>När du aktivt deltar i gemenskapen kan Aurefold lagra en begränsad anonym
+        milstolpe i Supabase: att du slutfört Hustestet, lagt en röst i en Ledger-frågan,
+        har en inloggad Banerprofil, eller klickat vidare till Patreon. Uppgiften innehåller
+        den slumpmässiga webbläsaridentifieraren, typen av milstolpe, en kort kontextetikett och den
+        Aurefold-sida där det skedde.</p>
+      <p>Den lagrar <strong>inte</strong> din svarsföljd i Hustestet, texten i ditt
+        Ledger-argument, ditt Patreon-konto, om du faktiskt gick med på Patreon, eller om
+        ett Patreon-medlemskap är gratis eller betalt. Klick vidare till Patreon behandlas endast som ett tecken
+        på att en läsare valde att öppna Patreon.</p>
 
       <h2 class="section-title">Uppgifter du själv väljer att lämna</h2>
       <ul>
         <li><strong>E-postadress</strong> — bara om du går med i läslistan. Den används för att
           skicka Aurefold-uppdateringar, och du kan avprenumerera från vilket mejl som helst när som helst.</li>
+        <li><strong>Läsarkonto / Banerprofil</strong> — om du loggar in lagras ditt konto och den profilinformation du väljer att spara av Supabase.</li>
         <li><strong>Omdömen</strong> — om du lämnar ett betyg eller omdöme om Bok Ett lagras det frivilliga
           namnet och texten du anger och visas publikt när de godkänts.</li>
-        <li><strong>Röster i Tinget</strong> — röster lagras anonymt för att räkna resultat.
-          De är inte kopplade till din identitet.</li>
+        <li><strong>Röster i Tinget</strong> — röster lagras anonymt för att räknas samman till ett resultat.
+          Anonyma röster kopplas inte till ett namngivet läsarkonto.</li>
       </ul>
 
       <h2 class="section-title">Vem som behandlar dessa uppgifter</h2>
       <ul>
         <li><strong>Google</strong> (Analytics) — mätning av användning.</li>
         <li><strong>MailerLite</strong> — e-post för läslistan.</li>
-        <li><strong>Supabase</strong> — lagrar röster i Tinget och omdömen om Bok Ett.</li>
+        <li><strong>Supabase</strong> — läsarkonton, röster i Tinget, milstolpar i gemenskapen och omdömen om Bok Ett.</li>
+        <li><strong>Patreon</strong> — endast efter att du valt att öppna Patreon; Patreon hanterar sina egna konto- och medlemskapsuppgifter.</li>
         <li><strong>GitHub Pages</strong> — är värd för sajten; serverloggar kan registrera vanliga
           förfrågningsdata (som IP-adresser) som en del av normal drift.</li>
       </ul>
 
       <h2 class="section-title">Dina rättigheter</h2>
-      <p>Du kan återkalla ditt cookie-samtycke när som helst (knappen ovan), avprenumerera från
-        mejl, och begära att vi rättar eller raderar personuppgifter du gett oss
-        (din e-post eller ett omdöme). Skicka en begäran via mejl till
+      <p>Du kan när som helst återkalla ditt samtycke till cookies (knappen ovan), avprenumerera från
+        utskicken, och begära att vi rättar eller raderar personuppgifter du har lämnat till oss
+        (såsom din e-postadress, ditt läsarkonto/din profil eller ett omdöme). Skicka din begäran till oss på
         <a href="mailto:info@aurefold.com">info@aurefold.com</a>.</p>
 
-      <p class="world-note">Denna information kan uppdateras allteftersom projektet växer. Senast uppdaterad: 11 augusti 2026.</p>
+      <p class="world-note">Denna information kan uppdateras allteftersom projektet växer. Senast uppdaterad: 19 augusti 2026.</p>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-brand">
       <img src="/assets/brand/emblem-mark.webp" alt="" width="42" height="42" loading="lazy" />
+      <p class="footer-line">Varje sanning har en väktare. Varje tystnad har ett pris.</p>
       <p class="footer-tagline">AUREFOLD · Kartan slutar där sanningen börjar.</p>
     </div>
     <nav class="social-links" id="social-links" aria-label="Följ Aurefold"></nav>
     <nav class="footer-legal" aria-label="Legal">
+      <a href="/sv/about.html">Om</a>
       <a href="/sv/privacy.html">Integritet &amp; cookies</a>
       <button type="button" class="linklike" id="cookie-settings">Cookie-inställningar</button>
     </nav>
   </footer>
 
-  <script src="/data/community.js?v=202608172200"></script>
-  <script src="/assets/site.js?v=202608172100"></script>
+  <script src="/data/community.js?v=202608172300"></script>
+  <script src="/assets/site.js?v=202608210900"></script>
 </body>
 </html>

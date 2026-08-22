@@ -10,11 +10,7 @@
     ],
     [
       "<p class=\"quiz-result-line\">“They hold people together — as long as the one who binds them lives.”</p>",
-      "<p class=\"quiz-result-line\">“De håller samman folk — så länge den som binder dem lever.”</p>"
-    ],
-    [
-      "“How much freedom must be bound together to keep roads, people, and obligations from breaking?”",
-      "”Hur mycket frihet måste bindas samman för att vägar, människor och åtaganden inte ska brista?”"
+      "<p class=\"quiz-result-line\">”De håller samman folk — så länge den som binder dem lever.”</p>"
     ],
     [
       "House Stormrider — Which house would you follow? | AUREFOLD",
@@ -49,14 +45,6 @@
       "Lägg detta som din röst i Tinget"
     ],
     [
-      "Meet all ten houses &rarr;",
-      "Möt alla tio hus &rarr;"
-    ],
-    [
-      "The question it forces",
-      "Frågan den tvingar fram"
-    ],
-    [
       "YOU WOULD FOLLOW",
       "DU SKULLE FÖLJA"
     ],
@@ -71,6 +59,18 @@
     [
       "Follow free",
       "Följ gratis"
+    ],
+    [
+      "<span class=\"q-label\">The question it forces</span><em>“How much freedom must be bound together to keep roads, people, and obligations from breaking?”</em>",
+      "<span class=\"q-label\">Frågan den tvingar fram</span><em>”Hur mycket frihet måste bindas samman för att vägar, människor och åtaganden inte ska brista?”</em>"
+    ],
+    [
+      "<a href=\"houses.html\">Meet all ten houses &rarr;</a>",
+      "<a href=\"houses.html\">Möt alla tio hus &rarr;</a>"
+    ],
+    [
+      "<p class=\"result-seat\">The Hub · northern rim of the Ash Fields</p>",
+      "<p class=\"result-seat\">The Hub · norra kanten av Ash Fields</p>"
     ]
   ]
 }

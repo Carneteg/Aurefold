@@ -10,11 +10,7 @@
     ],
     [
       "<p class=\"quiz-result-line\">“They plan for every future — and act a moment too late.”</p>",
-      "<p class=\"quiz-result-line\">“De planerar för varje framtid — och handlar ett ögonblick för sent.”</p>"
-    ],
-    [
-      "“What should the most capable mind be permitted to decide for everyone else?”",
-      "”Vad ska det mest kapabla sinnet tillåtas avgöra åt alla andra?”"
+      "<p class=\"quiz-result-line\">”De planerar för varje framtid — och handlar ett ögonblick för sent.”</p>"
     ],
     [
       "House Blackthorn — Which house would you follow? | AUREFOLD",
@@ -49,14 +45,6 @@
       "Lägg detta som din röst i Tinget"
     ],
     [
-      "Meet all ten houses &rarr;",
-      "Möt alla tio hus &rarr;"
-    ],
-    [
-      "The question it forces",
-      "Frågan den tvingar fram"
-    ],
-    [
       "YOU WOULD FOLLOW",
       "DU SKULLE FÖLJA"
     ],
@@ -71,6 +59,18 @@
     [
       "Follow free",
       "Följ gratis"
+    ],
+    [
+      "<span class=\"q-label\">The question it forces</span><em>“What should the most capable mind be permitted to decide for everyone else?”</em>",
+      "<span class=\"q-label\">Frågan den tvingar fram</span><em>”Vad ska det mest kapabla sinnet tillåtas avgöra åt alla andra?”</em>"
+    ],
+    [
+      "<a href=\"houses.html\">Meet all ten houses &rarr;</a>",
+      "<a href=\"houses.html\">Möt alla tio hus &rarr;</a>"
+    ],
+    [
+      "<p class=\"result-seat\">Thorn Hall · the Thornland (S)</p>",
+      "<p class=\"result-seat\">Thorn Hall · Thornland (S)</p>"
     ]
   ]
 }

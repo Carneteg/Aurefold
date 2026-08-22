@@ -185,22 +185,6 @@
           privacy: "Integritet &amp; cookies", decline: "Neka", accept: "Acceptera",
           gatePre: "För att ladda e-postformuläret behöver vi ditt samtycke till cookies. ",
           allow: "Tillåt &amp; ladda formuläret", gateOr: ", eller ", patreon: "följ gratis på Patreon" },
-    es: { banner: "El archivo cuenta a sus visitantes de forma anónima — cookies para el recuento, y un formulario de correo si te unes a la lista de lectura. Si puede hacerlo, lo decides tú.",
-          privacy: "Privacidad y cookies", decline: "Rechazar", accept: "Aceptar",
-          gatePre: "Para cargar el formulario de correo necesitamos tu consentimiento a las cookies. ",
-          allow: "Permitir y cargar el formulario", gateOr: ", o ", patreon: "sigue gratis en Patreon" },
-    fr: { banner: "Les archives comptent leurs visiteurs anonymement — des cookies pour le comptage, et un formulaire d’e-mail si vous rejoignez la liste de lecture. À vous de décider si elles le peuvent.",
-          privacy: "Confidentialité et cookies", decline: "Refuser", accept: "Accepter",
-          gatePre: "Pour charger le formulaire d’inscription, nous avons besoin de votre consentement aux cookies. ",
-          allow: "Autoriser et charger le formulaire", gateOr: ", ou ", patreon: "suivez gratuitement sur Patreon" },
-    zh: { banner: "档案馆匿名地记录访客人数——用 Cookie 计数；如果你加入阅读清单，还有一份邮件表单。是否允许，由你决定。",
-          privacy: "隐私与 Cookie", decline: "拒绝", accept: "接受",
-          gatePre: "为加载邮件订阅表单，我们需要你同意使用 Cookie。",
-          allow: "允许并加载表单", gateOr: "，或 ", patreon: "在 Patreon 上免费关注" },
-    ja: { banner: "この書庫は訪問者を匿名で数えています——数えるための Cookie と、読書リストに登録する場合のメールフォームです。許すかどうかはあなたが決めます。",
-          privacy: "プライバシーと Cookie", decline: "拒否する", accept: "同意する",
-          gatePre: "メール登録フォームを読み込むには、Cookie への同意が必要です。",
-          allow: "許可してフォームを読み込む", gateOr: "、または ", patreon: "Patreon で無料でフォローする" }
   };
   var CT = CONSENT_I18N[(document.documentElement.lang || "en").slice(0, 2)] || CONSENT_I18N.en;
 
@@ -369,6 +353,79 @@
     var milestone = mo.latestMilestone && String(mo.latestMilestone).trim();
     if (milestone) addStat(milestone, "Latest milestone", true);
     if (momentumBox.children.length) momentumBox.removeAttribute("hidden");
+  }
+
+  // 1b) Trailer, as a click-to-play facade. Nothing is requested from YouTube
+  //     until the visitor presses play: until then this is a local poster and a
+  //     button, so a visitor who never watches is never exposed to a third
+  //     party and no consent question arises. On play we swap in the
+  //     youtube-nocookie player. A self-hosted file, if configured, wins.
+  var trailerBand = document.getElementById("trailer-band");
+  var trailerMount = document.getElementById("trailer-mount");
+  if (trailerBand && trailerMount) {
+    var tr = freshCfg.trailer || {};
+    var trFile = tr.file && String(tr.file).trim();
+    var trYt = tr.youtube && String(tr.youtube).trim();
+    var trPoster = (tr.poster && String(tr.poster).trim()) || "";
+    var mounted = false;
+
+    if (trFile) {
+      var vid = document.createElement("video");
+      vid.className = "trailer-video";
+      vid.setAttribute("controls", "");
+      vid.setAttribute("preload", "none");
+      vid.setAttribute("playsinline", "");
+      if (trPoster) vid.setAttribute("poster", trPoster);
+      var src = document.createElement("source");
+      src.src = trFile; src.type = "video/mp4";
+      vid.appendChild(src);
+      trailerMount.appendChild(vid);
+      mounted = true;
+    } else if (/^[A-Za-z0-9_-]{6,20}$/.test(trYt || "")) {
+      var facade = document.createElement("button");
+      facade.type = "button";
+      facade.className = "trailer-facade";
+      facade.setAttribute("aria-label", "Play the trailer");
+      if (trPoster) facade.style.backgroundImage = "url('" + trPoster + "')";
+      var mark = document.createElement("span");
+      mark.className = "trailer-play";
+      mark.setAttribute("aria-hidden", "true");
+      mark.textContent = "\u25B6";
+      facade.appendChild(mark);
+      facade.addEventListener("click", function () {
+        var frame = document.createElement("iframe");
+        frame.className = "trailer-video";
+        frame.src = "https://www.youtube-nocookie.com/embed/" + trYt +
+                    "?autoplay=1&rel=0&modestbranding=1";
+        frame.title = "AUREFOLD trailer";
+        frame.allow = "accelerometer; autoplay; encrypted-media; picture-in-picture";
+        frame.setAttribute("allowfullscreen", "");
+        frame.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+        facade.replaceWith(frame);
+      });
+      trailerMount.appendChild(facade);
+      // a plain link out, for anyone who would rather watch it on YouTube
+      var out = document.createElement("p");
+      out.className = "trailer-caption";
+      var a = document.createElement("a");
+      a.href = "https://youtu.be/" + trYt;
+      a.target = "_blank"; a.rel = "noopener";
+      a.textContent = "Watch on YouTube";
+      out.appendChild(a);
+      trailerMount.appendChild(out);
+      mounted = true;
+    }
+
+    if (mounted) {
+      var cap = tr.caption && String(tr.caption).trim();
+      if (cap) {
+        var capEl = document.createElement("p");
+        capEl.className = "trailer-caption";
+        capEl.textContent = cap;
+        trailerMount.insertBefore(capEl, trailerMount.firstChild.nextSibling);
+      }
+      trailerBand.removeAttribute("hidden");
+    }
   }
 
   // 2) Latest-from-the-Journal teaser, driven by AUREFOLD_COMMUNITY.journal.

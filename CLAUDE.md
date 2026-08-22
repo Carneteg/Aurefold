@@ -70,6 +70,13 @@ Be critical. If a character is functioning as a device rather than a human being
 
 For manuscript prose, write in English unless the owner explicitly requests otherwise. For project/operational discussion, follow the owner's current language.
 
+## Translation policy (owner decision 2026-08-17)
+The owner has explicitly authorized publication of AI-produced **translations** of the governing Book One text without a preceding owner revision pass. Scope and limits:
+- Applies to translated editions only. The English manuscript remains the author's text; AI-generated prose still does not enter the English manuscript without the owner's hand on it.
+- Translated editions are labeled as translations from the English original. No human translator credit may be invented.
+- Proper nouns follow the site's established convention: House names, character names, place names, "Tenfold Compact", "War of the Unification", "A.U." and the book title stay in English; "the Bell" renders as "Klockan", clerical titles as "Broder"/"Moder" (sv). The locked final line renders in the target language ("Hon gick österut.").
+- The governing English Master remains the sole text-entered fact source; translations create no canon.
+
 ## Editorial principles
 World before Story; Civilization before Kingdom; History before Plot; Emotion before Spectacle; Consequences before Convenience; Mystery before Explanation; Readers before Trends.
 

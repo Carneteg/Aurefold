@@ -461,9 +461,7 @@ Public website copy must remain spoiler-safe and may not override author-only ca
 Older business context captured in ChatGPT:
 - public Patreon existed;
 - Traveller free tier;
-- Witness 49 SEK/month;
-- Chronicler 99 SEK/month;
-- Keeper of the Blank Page 249 SEK/month;
+- Witness, Chronicler, Keeper of the Blank Page — **priced in EUR (5 / 10 / 25 per month), owner-confirmed 2026-08-17**. The SEK figures previously recorded here (49/99/249) were wrong; do not reuse them;
 - future crowdfunding/print campaign planned.
 
 Treat prices/tier details as **verify-live-before-use** because they are commercial rather than canonical data.

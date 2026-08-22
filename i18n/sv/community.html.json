@@ -3,16 +3,8 @@
   "description": "Baneret är där Aurefolds läsare samlas: svär in dig, välj ditt hus, rösta i Tinget, res egna karaktärer och lämna verk i Skriptoriet.",
   "blocks": [
     [
-      "Everything under the Banner lives <em>around</em> the story — side-stories, extras,\n      public lore, and the archive's next opening. The central plot, canon, and character\n      fates stay the author's. New voices are read by the archivist before they show.",
-      "Allt under Baneret lever <em>runt</em> berättelsen — sidoberättelser, extramaterial,\n      offentlig lore och arkivets nästa öppning. Huvudintrigen, kanon och karaktärernas\n      öden förblir författarens. Nya röster läses av arkivarien innan de visas."
-    ],
-    [
       "<strong>Content note.</strong> Aurefold is a mature series intended for adult readers — discussion and reader material may touch graphic violence and other adult themes.",
       "<strong>Innehållsnot.</strong> Aurefold är en vuxenserie för vuxna läsare — diskussioner och läsarmaterial kan beröra grafiskt våld och andra vuxna teman."
-    ],
-    [
-      "Where readers stop being readers. Swear in, choose the house you would follow,\n      and take your place in the company that shapes the world around the book.",
-      "Där läsare slutar vara läsare. Svär in dig, välj huset du skulle följa,\n      och ta din plats i sällskapet som formar världen kring boken."
     ],
     [
       "In the hall already: Yara Cobbleworth of Stormrider, Corin Farrow of Ashbourne, and Old Ferro of Ironvale — sworn and honoured.",
@@ -27,16 +19,32 @@
       "Res en egen karaktär, svuren till ett hus — de finaste hedras, de allra finaste tas in i materialet."
     ],
     [
-      "Standing now: “Which house would you follow?” and “Which house's fragment does the archive read aloud next?”",
-      "Just nu: ”Which house would you follow?” och ”Which house's fragment does the archive read aloud next?”"
-    ],
-    [
-      "Vote on what the archive opens next — the great questions ask for a signed-in voice.",
-      "Rösta om vad arkivet öppnar härnäst — de stora frågorna kräver en inloggad röst."
-    ],
-    [
       "Leave a story, a theory, a piece of art, or a question for the author.",
       "Lämna en berättelse, en teori, ett konstverk eller en fråga till författaren."
+    ],
+    [
+      "The Banner is the Aurefold reader community — the place where readers stop being\n      only readers. Find the House whose instincts most resemble your own, swear in if\n      you choose, and take your place in the company around the book.",
+      "Baneret är Aurefolds läsargemenskap — platsen där läsare slutar vara\n      bara läsare. Hitta det hus vars instinkter mest liknar dina egna, svär in dig om\n      du vill, och ta din plats i sällskapet kring boken."
+    ],
+    [
+      "Everything under the Banner lives <em>around</em> the story — side-stories, extras,\n      public lore, questions, theories and reader work. The central plot, canon,\n      protected mysteries and character fates stay the author's. New voices are read by\n      the archivist before they show.",
+      "Allt under Baneret lever <em>kring</em> berättelsen — sidoberättelser, extramaterial,\n      öppen lore, frågor, teorier och läsarnas arbete. Huvudintrigen, kanon,\n      de skyddade mysterierna och karaktärernas öden förblir författarens. Nya röster läses av\n      arkivarien innan de visas."
+    ],
+    [
+      "Twelve difficult choices. Ten defensible philosophies. Discover which Great House your instincts lean toward.",
+      "Tolv svåra val. Tio försvarbara filosofier. Upptäck vilket stort hus dina instinkter lutar åt."
+    ],
+    [
+      "No House is the right answer. Every answer protects something — and costs something.",
+      "Inget hus är det rätta svaret. Varje svar skyddar något — och kostar något."
+    ],
+    [
+      "Vote on what the archive opens next — and answer the Ledger Question that divides the company.",
+      "Rösta om vad arkivet öppnar härnäst — och svara på Ledger-frågan som delar sällskapet."
+    ],
+    [
+      "One reader, one voice. The archive counts; it does not decide the book's canon.",
+      "En läsare, en röst. Arkivet räknar; det avgör inte bokens kanon."
     ]
   ]
 }

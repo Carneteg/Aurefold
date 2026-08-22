@@ -37,7 +37,7 @@
   <meta name="twitter:title" content="Bok Ett: The Bell of Silence — AUREFOLD" />
   <meta name="twitter:description" content="AUREFOLD, Bok Ett: The Bell of Silence. En getvallare hör en röst; House Whitehart finns till för att pröva dem som säger sig höra." />
   <meta name="twitter:image" content="https://aurefold.com/assets/social/og-bell-of-silence-sela.jpg" />
-  <link rel="stylesheet" href="/assets/style.css?v=202608172100" />
+  <link rel="stylesheet" href="/assets/style.css?v=202608210900" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -48,24 +48,23 @@
     "genre": "Epic fantasy",
     "isPartOf": { "@type": "BookSeries", "name": "Aurefold" },
     "bookEdition": "Book One",
+    "bookFormat": "https://schema.org/EBook",
+    "isAccessibleForFree": true,
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://aurefold.com/book.html" },
     "url": "https://aurefold.com/book.html",
     "image": "https://aurefold.com/assets/cover_bell_of_silence.jpg",
-    "abstract": "En getvallare som inte säger mer än hon vet. Ett hus byggt för att pröva dem som säger sig höra. Bok Ett i Aurefold — cirka 104 000 ord, ute nu som gratis e-bok."
+    "abstract": "A goatherd who will not say more than she knows. A house built to test those who claim to hear. Book One of Aurefold — approximately 106,700 words, out now as a free ebook."
   }
   </script>
   <script type="application/ld+json">
   {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aurefold.com/"}, {"@type": "ListItem", "position": 2, "name": "Book One", "item": "https://aurefold.com/book.html"}]}
   </script>
+  <link rel="stylesheet" href="/assets/featured-faces.css?v=202608172115" />
 <!-- i18n:hreflang -->
   <link rel="alternate" hreflang="en" href="https://aurefold.com/book.html" />
   <link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/book.html" />
-  <link rel="alternate" hreflang="es" href="https://aurefold.com/es/book.html" />
-  <link rel="alternate" hreflang="fr" href="https://aurefold.com/fr/book.html" />
-  <link rel="alternate" hreflang="zh" href="https://aurefold.com/zh/book.html" />
-  <link rel="alternate" hreflang="ja" href="https://aurefold.com/ja/book.html" />
   <link rel="alternate" hreflang="x-default" href="https://aurefold.com/book.html" />
   <!-- /i18n:hreflang -->
-  <link rel="stylesheet" href="/assets/featured-faces.css?v=202608172115" />
 </head>
 <body>
   <a class="skip-link" href="#main">Hoppa till innehåll</a>
@@ -86,16 +85,24 @@
           <li><a href="/sv/archive.html">Det levande arkivet</a></li>
         </ul>
       </li>
-      <li><a href="/sv/community.html">Baneret</a></li>
-      <li><a href="/sv/vote.html">Tinget</a></li>
+      <li class="has-sub">
+        <button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="community-submenu">Gemenskapen</button>
+        <ul class="sub-menu" id="community-submenu">
+          <li><a href="/sv/about.html">Om författaren</a></li>
+          <li><a href="/sv/community.html">Baneret</a></li>
+          <li><a href="/sv/vote.html">Tinget</a></li>
+          <li><a href="/sv/banner-hall.html">The Banner Hall</a></li>
+          <li><a href="/sv/scriptorium.html">The Scriptorium</a></li>
+          <li><a href="/sv/journal.html">Journal</a></li>
+        </ul>
+      </li>
       <li><a href="/sv/support.html">Stöd</a></li>
-      <li><a href="/sv/journal.html">Journal</a></li>
-          <!-- i18n:switcher --><li class="has-sub lang-switch"><button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="lang-submenu" aria-label="Språk">Svenska</button><ul class="sub-menu" id="lang-submenu"><li><a href="/book.html" hreflang="en" lang="en">English</a></li><li><a href="/sv/book.html" hreflang="sv" lang="sv" class="active">Svenska</a></li><li><a href="/es/book.html" hreflang="es" lang="es">Español</a></li><li><a href="/fr/book.html" hreflang="fr" lang="fr">Français</a></li><li><a href="/zh/book.html" hreflang="zh" lang="zh">中文</a></li><li><a href="/ja/book.html" hreflang="ja" lang="ja">日本語</a></li></ul></li><!-- /i18n:switcher -->
+          <!-- i18n:switcher --><li class="has-sub lang-switch"><button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="lang-submenu" aria-label="Språk">Svenska</button><ul class="sub-menu" id="lang-submenu"><li><a href="/book.html" hreflang="en" lang="en">English</a></li><li><a href="/sv/book.html" hreflang="sv" lang="sv" class="active">Svenska</a></li></ul></li><!-- /i18n:switcher -->
     </ul>
   </nav>
 
   <main id="main" class="page">
-    <h1 class="sr-only">Book One: The Bell of Silence</h1>
+    <h1 class="sr-only">Bok Ett: The Bell of Silence</h1>
     <section class="announcement" aria-label="Book One announcement">
       <p class="book-series">AUREFOLD — BOOK ONE</p>
       <h2 class="book-title">THE BELL OF SILENCE</h2>
@@ -126,12 +133,13 @@
         <a class="btn btn-ghost book-dl" id="book-download" href="/assets/aurefold-the-bell-of-silence.pdf" download>Ladda ner (PDF)</a>
         <a class="btn btn-ghost book-dl" href="/assets/aurefold-the-bell-of-silence.epub" download>Ladda ner (EPUB)</a>
       </div>
+      <p class="world-note"><strong>Det här är läsarutgåvan.</strong> Manuset är färdigt och har genomgått innehållslig revision, men ännu inte professionell korrekturläsning — det sker på vägen mot tryck. Om ett stavfel överlever hela vägen till din skärm vill arkivarien uppriktigt gärna få veta det.</p>
       <p class="world-note">Läs den var det passar dig — men vet att Amazon aldrig berättar för mig att du finns. Det gör läslistan här nedanför.</p>
       <div class="signup-inline" id="reading-list">
         <p>Jag mejlar dig den dag den tryckta utgåvan är verklig — inget före det.</p>
         <div id="ml-embed" class="ml-embedded" data-form="yjubzQ" hidden></div>
-      <p id="signup-soon" class="world-note">The reading list opens soon — for now,
-        <a href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">follow free on Patreon</a>.</p>
+      <p id="signup-soon" class="world-note">Läslistan öppnar snart — tills vidare,
+        <a href="https://www.patreon.com/AUREFOLD" target="_blank" rel="noopener">följ gratis på Patreon</a>.</p>
       </div>
       <p class="download-count" id="download-count" hidden></p>
     </section>
@@ -178,9 +186,9 @@
 
       <h2 class="section-title">Ute nu — och vägen till tryck</h2>
       <p>
-        <em>The Bell of Silence</em> — Bok Ett, cirka <strong>104 000 ord</strong> över
-        <strong>47 kapitel och en interlude</strong> — finns nu som gratis e-bok. Härnäst
-        kommer den tryckta boken: professionell korrektur, omslag och inlaga, tryckprover,
+        <em>The Bell of Silence</em> — Bok Ett, cirka <strong>106 700 ord</strong> fördelade på
+        <strong>47 kapitel och ett mellanspel</strong> — finns ute nu som gratis e-bok. Det som kommer
+        härnäst är den tryckta boken: professionell korrekturläsning, omslags- och inlageformgivning, tryckprover
         och en crowdfunding-kampanj för att finansiera produktionen.
       </p>
       <p>
@@ -239,17 +247,19 @@
   <footer class="site-footer">
     <div class="footer-brand">
       <img src="/assets/brand/emblem-mark.webp" alt="" width="42" height="42" loading="lazy" />
+      <p class="footer-line">Varje sanning har en väktare. Varje tystnad har ett pris.</p>
       <p class="footer-tagline">AUREFOLD · Kartan slutar där sanningen börjar.</p>
     </div>
     <nav class="social-links" id="social-links" aria-label="Följ Aurefold"></nav>
     <nav class="footer-legal" aria-label="Legal">
+      <a href="/sv/about.html">Om</a>
       <a href="/sv/privacy.html">Integritet &amp; cookies</a>
       <button type="button" class="linklike" id="cookie-settings">Cookie-inställningar</button>
     </nav>
   </footer>
 
-  <script src="/data/community.js?v=202608172200"></script>
-  <script src="/assets/site.js?v=202608172100"></script>
+  <script src="/data/community.js?v=202608172300"></script>
+  <script src="/assets/site.js?v=202608210900"></script>
   <script src="/assets/book.js?v=202608150700"></script>
   <script src="/assets/featured-faces.js?v=202608172115"></script>
 </body>

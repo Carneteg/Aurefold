@@ -37,17 +37,13 @@
   <meta name="twitter:title" content="De tio stora husen — AUREFOLD" />
   <meta name="twitter:description" content="Banner-lands tio stora hus — var och en en ledarskapsfilosofi, och den enda fråga dess dygd tvingar på alla andra." />
   <meta name="twitter:image" content="https://aurefold.com/assets/og/og-houses.jpg" />
-  <link rel="stylesheet" href="/assets/style.css?v=202608172100" />
+  <link rel="stylesheet" href="/assets/style.css?v=202608210900" />
   <script type="application/ld+json">
   {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aurefold.com/"}, {"@type": "ListItem", "position": 2, "name": "The Great Houses", "item": "https://aurefold.com/houses.html"}]}
   </script>
 <!-- i18n:hreflang -->
   <link rel="alternate" hreflang="en" href="https://aurefold.com/houses.html" />
   <link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/houses.html" />
-  <link rel="alternate" hreflang="es" href="https://aurefold.com/es/houses.html" />
-  <link rel="alternate" hreflang="fr" href="https://aurefold.com/fr/houses.html" />
-  <link rel="alternate" hreflang="zh" href="https://aurefold.com/zh/houses.html" />
-  <link rel="alternate" hreflang="ja" href="https://aurefold.com/ja/houses.html" />
   <link rel="alternate" hreflang="x-default" href="https://aurefold.com/houses.html" />
   <!-- /i18n:hreflang -->
 </head>
@@ -70,11 +66,19 @@
           <li><a href="/sv/archive.html">Det levande arkivet</a></li>
         </ul>
       </li>
-      <li><a href="/sv/community.html">Baneret</a></li>
-      <li><a href="/sv/vote.html">Tinget</a></li>
+      <li class="has-sub">
+        <button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="community-submenu">Gemenskapen</button>
+        <ul class="sub-menu" id="community-submenu">
+          <li><a href="/sv/about.html">Om författaren</a></li>
+          <li><a href="/sv/community.html">Baneret</a></li>
+          <li><a href="/sv/vote.html">Tinget</a></li>
+          <li><a href="/sv/banner-hall.html">The Banner Hall</a></li>
+          <li><a href="/sv/scriptorium.html">The Scriptorium</a></li>
+          <li><a href="/sv/journal.html">Journal</a></li>
+        </ul>
+      </li>
       <li><a href="/sv/support.html">Stöd</a></li>
-      <li><a href="/sv/journal.html">Journal</a></li>
-          <!-- i18n:switcher --><li class="has-sub lang-switch"><button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="lang-submenu" aria-label="Språk">Svenska</button><ul class="sub-menu" id="lang-submenu"><li><a href="/houses.html" hreflang="en" lang="en">English</a></li><li><a href="/sv/houses.html" hreflang="sv" lang="sv" class="active">Svenska</a></li><li><a href="/es/houses.html" hreflang="es" lang="es">Español</a></li><li><a href="/fr/houses.html" hreflang="fr" lang="fr">Français</a></li><li><a href="/zh/houses.html" hreflang="zh" lang="zh">中文</a></li><li><a href="/ja/houses.html" hreflang="ja" lang="ja">日本語</a></li></ul></li><!-- /i18n:switcher -->
+          <!-- i18n:switcher --><li class="has-sub lang-switch"><button type="button" class="nav-sub-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="lang-submenu" aria-label="Språk">Svenska</button><ul class="sub-menu" id="lang-submenu"><li><a href="/houses.html" hreflang="en" lang="en">English</a></li><li><a href="/sv/houses.html" hreflang="sv" lang="sv" class="active">Svenska</a></li></ul></li><!-- /i18n:switcher -->
     </ul>
   </nav>
 
@@ -92,62 +96,65 @@
     <section class="quiz-teaser" aria-label="House quiz">
       <h2>Vilket av dessa skulle du följa?</h2>
       <p>Osäker på var du skulle svära din ed? Sex frågor ger dig svaret.</p>
-      <a class="btn btn-primary" href="/sv/quiz.html">Gör testet</a>
+      <a class="btn btn-primary" href="/sv/quiz.html">Take the quiz</a>
     </section>
 
     <div class="house-grid">
 
       <article class="house-card" id="blackthorn">
         <button class="house-toggle" aria-expanded="false">
-          <img class="house-sigil" src="/assets/sigils/blackthorn.webp" alt="" loading="lazy" onerror="if(this.dataset.f){this.hidden=true}else{this.dataset.f=1;this.src='assets/sigils/blackthorn.png'}" />
+          <picture><source srcset="/assets/sigils/blackthorn.webp" type="image/webp" /><img class="house-sigil" src="/assets/sigils/blackthorn.png" alt="Sigil of House Blackthorn" loading="lazy" /></picture>
           <span class="house-name">House Blackthorn</span>
           <span class="house-philosophy">Intellekt</span>
-          <span class="house-seat">Thorn Hall · the Thornland (S)</span>
+          <span class="house-seat">Thorn Hall · Thornland (S)</span>
           <span class="house-caret" aria-hidden="true">＋</span>
         </button>
         <div class="card-body"><div class="card-body-inner">
           <p class="house-question"><span class="q-label">Frågan den tvingar fram</span><em>”Vad ska det mest kapabla sinnet tillåtas avgöra åt alla andra?”</em></p>
           <p class="house-line">Planeraren som alltid agerar för sent, och dottern som skulle agera nu.</p>
           <a class="map-link" href="/sv/map.html#house/blackthorn">Hitta på kartan →</a>
+          <a class="map-link house-more" href="/sv/house-blackthorn.html">More about House Blackthorn →</a>
         </div></div>
       </article>
 
       <article class="house-card" id="ravenshade">
         <button class="house-toggle" aria-expanded="false">
-          <img class="house-sigil" src="/assets/sigils/ravenshade.webp" alt="" loading="lazy" onerror="if(this.dataset.f){this.hidden=true}else{this.dataset.f=1;this.src='assets/sigils/ravenshade.png'}" />
+          <picture><source srcset="/assets/sigils/ravenshade.webp" type="image/webp" /><img class="house-sigil" src="/assets/sigils/ravenshade.png" alt="Sigil of House Ravenshade" loading="lazy" /></picture>
           <span class="house-name">House Ravenshade</span>
           <span class="house-philosophy">Information</span>
-          <span class="house-seat">Duskport · the Sleep Coast (W)</span>
+          <span class="house-seat">Duskport · Sleep Coast (W)</span>
           <span class="house-caret" aria-hidden="true">＋</span>
         </button>
         <div class="card-body"><div class="card-body-inner">
           <p class="house-question"><span class="q-label">Frågan den tvingar fram</span><em>”Vem är tryggare när information rör sig fritt, och vem blir utsatt?”</em></p>
           <p class="house-line">All deras makt är lånad, och den beskyddare den är lånad av vacklar.</p>
           <a class="map-link" href="/sv/map.html#house/ravenshade">Hitta på kartan →</a>
+          <a class="map-link house-more" href="/sv/house-ravenshade.html">More about House Ravenshade →</a>
         </div></div>
       </article>
 
       <article class="house-card" id="ashbourne">
         <button class="house-toggle" aria-expanded="false">
-          <img class="house-sigil" src="/assets/sigils/ashbourne.webp" alt="" loading="lazy" onerror="if(this.dataset.f){this.hidden=true}else{this.dataset.f=1;this.src='assets/sigils/ashbourne.png'}" />
+          <picture><source srcset="/assets/sigils/ashbourne.webp" type="image/webp" /><img class="house-sigil" src="/assets/sigils/ashbourne.png" alt="Sigil of House Ashbourne" loading="lazy" /></picture>
           <span class="house-name">House Ashbourne</span>
           <span class="house-philosophy">Mod</span>
-          <span class="house-seat">Dawnwatch · the Edgelands (E)</span>
+          <span class="house-seat">Dawnwatch · Edgelands (E)</span>
           <span class="house-caret" aria-hidden="true">＋</span>
         </button>
         <div class="card-body"><div class="card-body-inner">
           <p class="house-question"><span class="q-label">Frågan den tvingar fram</span><em>”När skyddar modet andra, och när kräver det att andra betalar?”</em></p>
           <p class="house-line">Den gamla ryttaren tvivlar på vad the Wall of Names kostade; den unga drömmer om ett språng ingen ryttare överlever.</p>
           <a class="map-link" href="/sv/map.html#house/ashbourne">Hitta på kartan →</a>
+          <a class="map-link house-more" href="/sv/house-ashbourne.html">More about House Ashbourne →</a>
         </div></div>
       </article>
 
       <article class="house-card" id="whitehart">
         <button class="house-toggle" aria-expanded="false">
-          <img class="house-sigil" src="/assets/sigils/whitehart.webp" alt="" loading="lazy" onerror="if(this.dataset.f){this.hidden=true}else{this.dataset.f=1;this.src='assets/sigils/whitehart.png'}" />
+          <picture><source srcset="/assets/sigils/whitehart.webp" type="image/webp" /><img class="house-sigil" src="/assets/sigils/whitehart.png" alt="Sigil of House Whitehart" loading="lazy" /></picture>
           <span class="house-name">House Whitehart</span>
           <span class="house-philosophy">Tro</span>
-          <span class="house-seat">The Bell of Silence · the Light Heights (NW)</span>
+          <span class="house-seat">The Bell of Silence · Light Heights (NW)</span>
           <span class="house-caret" aria-hidden="true">＋</span>
         </button>
         <div class="card-body"><div class="card-body-inner">
@@ -155,45 +162,48 @@
           <p class="house-line">Ett hus som lyssnar efter en röst, och prövar dem som säger sig höra den.</p>
           <p class="house-relevance">I Bok Ett: prövningen av getvallaren Sela, och broder Tomas första tvivel.</p>
           <a class="map-link" href="/sv/map.html#house/whitehart">Hitta på kartan →</a>
+          <a class="map-link house-more" href="/sv/house-whitehart.html">More about House Whitehart →</a>
         </div></div>
       </article>
 
       <article class="house-card" id="stormrider">
         <button class="house-toggle" aria-expanded="false">
-          <img class="house-sigil" src="/assets/sigils/stormrider.webp" alt="" loading="lazy" onerror="if(this.dataset.f){this.hidden=true}else{this.dataset.f=1;this.src='assets/sigils/stormrider.png'}" />
+          <picture><source srcset="/assets/sigils/stormrider.webp" type="image/webp" /><img class="house-sigil" src="/assets/sigils/stormrider.png" alt="Sigil of House Stormrider" loading="lazy" /></picture>
           <span class="house-name">House Stormrider</span>
           <span class="house-philosophy">Enhet</span>
-          <span class="house-seat">The Hub · northern rim of the Ash Fields</span>
+          <span class="house-seat">The Hub · norra kanten av Ash Fields</span>
           <span class="house-caret" aria-hidden="true">＋</span>
         </button>
         <div class="card-body"><div class="card-body-inner">
           <p class="house-question"><span class="q-label">Frågan den tvingar fram</span><em>”Hur mycket frihet måste bindas samman för att vägar, människor och åtaganden inte ska brista?”</em></p>
           <p class="house-line">Enheten håller bara så länge den som enar lever, och the Binder är döende.</p>
           <a class="map-link" href="/sv/map.html#house/stormrider">Hitta på kartan →</a>
+          <a class="map-link house-more" href="/sv/house-stormrider.html">More about House Stormrider →</a>
         </div></div>
       </article>
 
       <article class="house-card" id="ironvale">
         <button class="house-toggle" aria-expanded="false">
-          <img class="house-sigil" src="/assets/sigils/ironvale.webp" alt="" loading="lazy" onerror="if(this.dataset.f){this.hidden=true}else{this.dataset.f=1;this.src='assets/sigils/ironvale.png'}" />
+          <picture><source srcset="/assets/sigils/ironvale.webp" type="image/webp" /><img class="house-sigil" src="/assets/sigils/ironvale.png" alt="Sigil of House Ironvale" loading="lazy" /></picture>
           <span class="house-name">House Ironvale</span>
           <span class="house-philosophy">Innovation</span>
-          <span class="house-seat">Forge Gap · the Ore Valleys (SE)</span>
+          <span class="house-seat">Forge Gap · Ore Valleys (SE)</span>
           <span class="house-caret" aria-hidden="true">＋</span>
         </button>
         <div class="card-body"><div class="card-body-inner">
           <p class="house-question"><span class="q-label">Frågan den tvingar fram</span><em>”Vem gynnas först av uppfinningar, och vem görs föråldrad eller sårbar?”</em></p>
           <p class="house-line">De mätte allt i riket; en händelse vid deras egen smedja lät sig inte mätas.</p>
           <a class="map-link" href="/sv/map.html#house/ironvale">Hitta på kartan →</a>
+          <a class="map-link house-more" href="/sv/house-ironvale.html">More about House Ironvale →</a>
         </div></div>
       </article>
 
       <article class="house-card" id="blackcrest">
         <button class="house-toggle" aria-expanded="false">
-          <img class="house-sigil" src="/assets/sigils/blackcrest.webp" alt="" loading="lazy" onerror="if(this.dataset.f){this.hidden=true}else{this.dataset.f=1;this.src='assets/sigils/blackcrest.png'}" />
+          <picture><source srcset="/assets/sigils/blackcrest.webp" type="image/webp" /><img class="house-sigil" src="/assets/sigils/blackcrest.png" alt="Sigil of House Blackcrest" loading="lazy" /></picture>
           <span class="house-name">House Blackcrest</span>
           <span class="house-philosophy">Segrarens historia</span>
-          <span class="house-seat">Crown-watch · edge of the Ash Fields</span>
+          <span class="house-seat">Crown-watch · kanten av Ash Fields</span>
           <span class="house-caret" aria-hidden="true">＋</span>
         </button>
         <div class="card-body"><div class="card-body-inner">
@@ -201,51 +211,55 @@
           <p class="house-line">Väktare av the Chronicle of Victory: riket föraktar dem, och varje hus har i tysthet varit deras klient.</p>
           <p class="house-relevance">I Bok Ett: en krönikör kommer till dalen och samlar vittnesmål inför det kommande jubileet.</p>
           <a class="map-link" href="/sv/map.html#house/blackcrest">Hitta på kartan →</a>
+          <a class="map-link house-more" href="/sv/house-blackcrest.html">More about House Blackcrest →</a>
         </div></div>
       </article>
 
       <article class="house-card" id="stonebear">
         <button class="house-toggle" aria-expanded="false">
-          <img class="house-sigil" src="/assets/sigils/stonebear.webp" alt="" loading="lazy" onerror="if(this.dataset.f){this.hidden=true}else{this.dataset.f=1;this.src='assets/sigils/stonebear.png'}" />
+          <picture><source srcset="/assets/sigils/stonebear.webp" type="image/webp" /><img class="house-sigil" src="/assets/sigils/stonebear.png" alt="Sigil of House Stonebear" loading="lazy" /></picture>
           <span class="house-name">House Stonebear</span>
           <span class="house-philosophy">Heder</span>
-          <span class="house-seat">Oath-hold · foot of the Silent Mountains (NE)</span>
+          <span class="house-seat">Oath-hold · foten av Silent Mountains (NE)</span>
           <span class="house-caret" aria-hidden="true">＋</span>
         </button>
         <div class="card-body"><div class="card-body-inner">
           <p class="house-question"><span class="q-label">Frågan den tvingar fram</span><em>”Kan en offentlig hederskodex tygla makt utan att göra mänsklig komplexitet till skam?”</em></p>
           <p class="house-line">Ett hus som ruineras av sitt eget hållna ord, lett av en man helt i frid med priset.</p>
           <a class="map-link" href="/sv/map.html#house/stonebear">Hitta på kartan →</a>
+          <a class="map-link house-more" href="/sv/house-stonebear.html">More about House Stonebear →</a>
         </div></div>
       </article>
 
       <article class="house-card" id="tidebreaker">
         <button class="house-toggle" aria-expanded="false">
-          <img class="house-sigil" src="/assets/sigils/tidebreaker.webp" alt="" loading="lazy" onerror="if(this.dataset.f){this.hidden=true}else{this.dataset.f=1;this.src='assets/sigils/tidebreaker.png'}" />
+          <picture><source srcset="/assets/sigils/tidebreaker.webp" type="image/webp" /><img class="house-sigil" src="/assets/sigils/tidebreaker.png" alt="Sigil of House Tidebreaker" loading="lazy" /></picture>
           <span class="house-name">House Tidebreaker</span>
           <span class="house-philosophy">Kunskap</span>
-          <span class="house-seat">The Wave-Reader · the Shards (S islands)</span>
+          <span class="house-seat">The Wave-Reader · Shards (södra öarna)</span>
           <span class="house-caret" aria-hidden="true">＋</span>
         </button>
         <div class="card-body"><div class="card-body-inner">
           <p class="house-question"><span class="q-label">Frågan den tvingar fram</span><em>”När blir bevarandet av kunskap kontroll över dem som skapade den?”</em></p>
           <p class="house-line">Sjökort över allt, delade med ingen; deras fyr lyser ut över det tomma havet.</p>
           <a class="map-link" href="/sv/map.html#house/tidebreaker">Hitta på kartan →</a>
+          <a class="map-link house-more" href="/sv/house-tidebreaker.html">More about House Tidebreaker →</a>
         </div></div>
       </article>
 
       <article class="house-card" id="phoenix">
         <button class="house-toggle" aria-expanded="false">
-          <img class="house-sigil" src="/assets/sigils/phoenix.webp" alt="" loading="lazy" onerror="if(this.dataset.f){this.hidden=true}else{this.dataset.f=1;this.src='assets/sigils/phoenix.png'}" />
+          <picture><source srcset="/assets/sigils/phoenix.webp" type="image/webp" /><img class="house-sigil" src="/assets/sigils/phoenix.png" alt="Sigil of House Phoenix" loading="lazy" /></picture>
           <span class="house-name">House Phoenix</span>
           <span class="house-philosophy">Framtiden</span>
-          <span class="house-seat">New-Ash · the Burnt Road</span>
+          <span class="house-seat">New-Ash · Burnt Road</span>
           <span class="house-caret" aria-hidden="true">＋</span>
         </button>
         <div class="card-body"><div class="card-body-inner">
           <p class="house-question"><span class="q-label">Frågan den tvingar fram</span><em>”Vad får nuet offra för en framtid det inte kan bekräfta?”</em></p>
           <p class="house-line">Ett hus byggt på bränd mark som av princip vägrar att se ner.</p>
           <a class="map-link" href="/sv/map.html#house/phoenix">Hitta på kartan →</a>
+          <a class="map-link house-more" href="/sv/house-phoenix.html">More about House Phoenix →</a>
         </div></div>
       </article>
 
@@ -268,16 +282,18 @@
   <footer class="site-footer">
     <div class="footer-brand">
       <img src="/assets/brand/emblem-mark.webp" alt="" width="42" height="42" loading="lazy" />
+      <p class="footer-line">Varje sanning har en väktare. Varje tystnad har ett pris.</p>
       <p class="footer-tagline">AUREFOLD · Kartan slutar där sanningen börjar.</p>
     </div>
     <nav class="social-links" id="social-links" aria-label="Följ Aurefold"></nav>
     <nav class="footer-legal" aria-label="Legal">
+      <a href="/sv/about.html">Om</a>
       <a href="/sv/privacy.html">Integritet &amp; cookies</a>
       <button type="button" class="linklike" id="cookie-settings">Cookie-inställningar</button>
     </nav>
   </footer>
 
-  <script src="/data/community.js?v=202608172200"></script>
-  <script src="/assets/site.js?v=202608172100"></script>
+  <script src="/data/community.js?v=202608172300"></script>
+  <script src="/assets/site.js?v=202608210900"></script>
 </body>
 </html>

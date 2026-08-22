@@ -6,15 +6,11 @@
     ],
     [
       "The victor&#x27;s history. They keep the record — and the record is a kind of power. Take the quiz and find your house of Aurefold.",
-      "Segrarens historia. De för handlingen — och handlingen är ett slags makt. Gör testet och hitta ditt hus i Aurefold."
+      "Segrarens historia. De för protokollet — och protokollet är ett slags makt. Gör testet och hitta ditt hus i Aurefold."
     ],
     [
       "<p class=\"quiz-result-line\">“They keep the record — and the record is a kind of power.”</p>",
-      "<p class=\"quiz-result-line\">“De för handlingen — och handlingen är ett slags makt.”</p>"
-    ],
-    [
-      "“Who decides which surviving account becomes usable history?”",
-      "”Vem avgör vilken bevarad berättelse som blir användbar historia?”"
+      "<p class=\"quiz-result-line\">”De för protokollet — och protokollet är ett slags makt.”</p>"
     ],
     [
       "House Blackcrest — Which house would you follow? | AUREFOLD",
@@ -49,14 +45,6 @@
       "Lägg detta som din röst i Tinget"
     ],
     [
-      "Meet all ten houses &rarr;",
-      "Möt alla tio hus &rarr;"
-    ],
-    [
-      "The question it forces",
-      "Frågan den tvingar fram"
-    ],
-    [
       "YOU WOULD FOLLOW",
       "DU SKULLE FÖLJA"
     ],
@@ -71,6 +59,18 @@
     [
       "Follow free",
       "Följ gratis"
+    ],
+    [
+      "<span class=\"q-label\">The question it forces</span><em>“Who decides which surviving account becomes usable history?”</em>",
+      "<span class=\"q-label\">Frågan den tvingar fram</span><em>”Vem avgör vilken bevarad berättelse som blir användbar historia?”</em>"
+    ],
+    [
+      "<a href=\"houses.html\">Meet all ten houses &rarr;</a>",
+      "<a href=\"houses.html\">Möt alla tio hus &rarr;</a>"
+    ],
+    [
+      "<p class=\"result-seat\">Crown-watch · edge of the Ash Fields</p>",
+      "<p class=\"result-seat\">Crown-watch · kanten av Ash Fields</p>"
     ]
   ]
 }

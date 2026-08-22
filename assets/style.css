@@ -1929,3 +1929,101 @@ main.page:has(.title-band) { padding-top: var(--nav-h); }
 /* inline reading-list module (book/read/quiz) */
 .signup-inline { margin-top: 20px; }
 .signup-inline > p:first-child { font-style: italic; color: var(--accent); max-width: 56ch; }
+
+/* ------------------------------------------------------------------ homepage restructure (2026-08-20) */
+
+/* Hero now carries the premise, not just the mood. */
+.hero .hero-lead {
+  max-width: 46ch;
+  margin: 14px auto 0;
+  color: #b7ab94;
+  font-size: 1.02rem;
+  line-height: 1.6;
+}
+
+/* Synopsis and cover live in one block under one heading. */
+.book-eyebrow {
+  letter-spacing: 0.3em;
+  font-size: 0.8rem;
+  color: var(--ember);
+  margin-bottom: 6px;
+}
+.book-block .section-title { margin-top: 0; }
+.book-block-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 260px) minmax(0, 1fr);
+  gap: 34px;
+  align-items: start;
+  margin-top: 24px;
+}
+.book-block-grid .book-cover { margin: 0; max-width: 100%; }
+.book-block-text p { max-width: 60ch; }
+@media (max-width: 720px) {
+  .book-block-grid { grid-template-columns: 1fr; gap: 22px; }
+  .book-block-grid picture { display: block; max-width: 220px; margin: 0 auto; }
+}
+
+/* The archive band's framing line sits above the cards. */
+.band-dark > p { max-width: 60ch; margin-bottom: 22px; }
+
+/* Footer keeps the exit note above the series signature. */
+.footer-line {
+  font-style: italic;
+  color: #b7ab94;
+  letter-spacing: 0.02em;
+  margin-bottom: 2px;
+}
+
+/* The chart plate carries width/height attributes for CLS. Without height:auto
+   the browser uses the literal attribute height until the file loads, reserving
+   1272px instead of the correct ratio — a real shift, not a paint artifact. */
+figure.chart-plate img { height: auto; }
+.band-dark .chart-plate { max-width: 720px; margin-left: auto; margin-right: auto; }
+
+/* ------------------------------------------------------------------ trailer */
+.trailer-band { padding-top: 56px; padding-bottom: 60px; }
+.trailer-video,
+.trailer-facade {
+  display: block;
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  background: #000 center / cover no-repeat;
+  border: 1px solid var(--dark-line);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.5);
+}
+/* Click-to-play facade: a local poster and a button. YouTube is only
+   contacted once this is pressed. */
+.trailer-facade {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  transition: box-shadow 0.25s ease;
+}
+.trailer-facade:hover { box-shadow: 0 22px 60px rgba(0, 0, 0, 0.62); }
+.trailer-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  border: 1px solid var(--ember-on-dark);
+  background: rgba(22, 17, 13, 0.72);
+  color: var(--ember-on-dark);
+  font-size: 26px;
+  line-height: 76px;
+  padding-left: 6px;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+.trailer-facade:hover .trailer-play { background: var(--ember-on-dark); color: #16110d; }
+.trailer-caption {
+  max-width: 860px;
+  margin: 12px auto 0;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #a99e8a;
+}

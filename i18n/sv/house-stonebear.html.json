@@ -10,11 +10,7 @@
     ],
     [
       "<p class=\"quiz-result-line\">“They keep their word past the point it costs them everything.”</p>",
-      "<p class=\"quiz-result-line\">“De håller sitt ord bortom den punkt där det kostar dem allt.”</p>"
-    ],
-    [
-      "“Can a public code restrain power without turning human complexity into shame?”",
-      "”Kan en offentlig hederskodex tygla makt utan att göra mänsklig komplexitet till skam?”"
+      "<p class=\"quiz-result-line\">”De håller sitt ord bortom den punkt där det kostar dem allt.”</p>"
     ],
     [
       "House Stonebear — Which house would you follow? | AUREFOLD",
@@ -49,14 +45,6 @@
       "Lägg detta som din röst i Tinget"
     ],
     [
-      "Meet all ten houses &rarr;",
-      "Möt alla tio hus &rarr;"
-    ],
-    [
-      "The question it forces",
-      "Frågan den tvingar fram"
-    ],
-    [
       "YOU WOULD FOLLOW",
       "DU SKULLE FÖLJA"
     ],
@@ -71,6 +59,18 @@
     [
       "Follow free",
       "Följ gratis"
+    ],
+    [
+      "<span class=\"q-label\">The question it forces</span><em>“Can a public code restrain power without turning human complexity into shame?”</em>",
+      "<span class=\"q-label\">Frågan den tvingar fram</span><em>”Kan en offentlig hederskodex tygla makt utan att göra mänsklig komplexitet till skam?”</em>"
+    ],
+    [
+      "<a href=\"houses.html\">Meet all ten houses &rarr;</a>",
+      "<a href=\"houses.html\">Möt alla tio hus &rarr;</a>"
+    ],
+    [
+      "<p class=\"result-seat\">Oath-hold · foot of the Silent Mountains (NE)</p>",
+      "<p class=\"result-seat\">Oath-hold · foten av Silent Mountains (NE)</p>"
     ]
   ]
 }

@@ -27,24 +27,26 @@ BASE = "https://aurefold.com"
 
 LANGS = {"en": "English", "sv": "Svenska", "es": "Español",
          "fr": "Français", "zh": "中文", "ja": "日本語"}
-BUILT = ["en", "sv", "es", "fr", "zh", "ja"]   # languages offered in the switcher
+BUILT = ["en", "sv"]   # languages offered in the switcher
 
 CHROME = {
-  "en": {"Book One":"Book One","Excerpt":"Excerpt","The Archive":"The Archive",
+  "en": {"Book One":"Book One","Excerpt":"Excerpt","The Archive":"The Archive","Community":"Community","About the author":"About the author","About":"About",
          "The Great Houses":"The Great Houses","The Map":"The Map","The World":"The World",
          "The Faces":"The Faces","History":"History","The Living Archive":"The Living Archive","The Banner":"The Banner",
          "The Moot":"The Moot","Support":"Support","Journal":"Journal",
          "Skip to content":"Skip to content","Open menu":"Open menu",
          "Privacy &amp; cookies":"Privacy &amp; cookies","Cookie settings":"Cookie settings",
          "AUREFOLD · The map ends where the truth begins.":"AUREFOLD · The map ends where the truth begins.",
+         "Every truth has a keeper. Every silence has a cost.":"Every truth has a keeper. Every silence has a cost.",
          "Follow Aurefold":"Follow Aurefold","Language":"Language"},
-  "sv": {"Book One":"Bok Ett","Excerpt":"Smakprov","The Archive":"Arkivet",
+  "sv": {"Book One":"Bok Ett","Excerpt":"Smakprov","The Archive":"Arkivet","Community":"Gemenskapen","About the author":"Om författaren","About":"Om",
          "The Great Houses":"De stora husen","The Map":"Kartan","The World":"Världen",
          "The Faces":"Ansiktena","History":"Historia","The Living Archive":"Det levande arkivet","The Banner":"Baneret",
          "The Moot":"Tinget","Support":"Stöd","Journal":"Journal",
          "Skip to content":"Hoppa till innehåll","Open menu":"Öppna meny",
          "Privacy &amp; cookies":"Integritet &amp; cookies","Cookie settings":"Cookie-inställningar",
          "AUREFOLD · The map ends where the truth begins.":"AUREFOLD · Kartan slutar där sanningen börjar.",
+         "Every truth has a keeper. Every silence has a cost.":"Varje sanning har en väktare. Varje tystnad har ett pris.",
          "Follow Aurefold":"Följ Aurefold","Language":"Språk"},
   "es": {"Book One":"Libro Uno","Excerpt":"Extracto","The Archive":"El Archivo",
          "The Great Houses":"Las Grandes Casas","The Map":"El Mapa","The World":"El Mundo",

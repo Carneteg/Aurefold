@@ -54,7 +54,11 @@ window.AUREFOLD_COMMUNITY = {
      every field starts empty, and the homepage renders ONLY the fields you
      set — an empty or zero value is hidden entirely (never shown as "0").
      Fill these in by hand from REAL figures; do not invent numbers.
-       members         — your Patreon member count (from the Patreon dashboard)
+       members         — OWNER DECISION 2026-08-17: deliberately stays null.
+                         No member figure is shown until the count is large
+                         enough to read as strength to a stranger (~30-50);
+                         a small number is worse than none. Do not fill this
+                         in without an explicit owner instruction.
        votesCast       — total votes cast in the Moot (sum the poll_tallies, or
                          the running total you keep); leave null to hide
        latestMilestone — one short, true milestone phrase, e.g.
@@ -63,6 +67,25 @@ window.AUREFOLD_COMMUNITY = {
     members: null,
     votesCast: null,
     latestMilestone: "Book One complete — Book Two in development"
+  },
+
+  /* The homepage trailer. Stays hidden until `file` points at a real video.
+     Put a WEB-SIZED file here — target 10-20 MB, not the master export; the
+     homepage should never ship a 100 MB download. `poster` is the still frame
+     shown before play (the cover works if you have no dedicated frame).
+       file    — path or URL to an .mp4 (H.264/AAC plays everywhere)
+       poster  — path or URL to a .jpg still
+       caption — one short line under the player; leave "" to hide */
+  trailer: {
+    /* youtube — the video id only (the part after youtu.be/). Nothing from
+       YouTube loads until the visitor presses play: the page shows a local
+       poster and only then swaps in a youtube-nocookie player, so no third
+       party sees a visitor who never watched. Leave "" to hide the section.
+       file — optional self-hosted .mp4; used in preference to YouTube if set. */
+    youtube: "GlVznMmGaQo",
+    file: "",
+    poster: "assets/trailer-poster.jpg",
+    caption: ""
   },
 
   /* The homepage "Latest from the Journal" teaser. Update these three when you
