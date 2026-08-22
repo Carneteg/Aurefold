@@ -23,10 +23,6 @@
       "<strong>Läslistans formulär (MailerLite).</strong> Om du accepterar laddas e-postformuläret\n          på <a href=\"support.html\">Stöd</a>-sidan från MailerLite, som kan\n          sätta egna cookies. Om du nekar laddas formuläret helt enkelt inte."
     ],
     [
-      "Change cookie settings",
-      "Ändra cookie-inställningar"
-    ],
-    [
       "Information you choose to give",
       "Uppgifter du själv väljer att lämna"
     ],
@@ -57,6 +53,78 @@
     [
       "Your rights",
       "Dina rättigheter"
+    ],
+    [
+      "Aurefold is a small promotional and reader-community site for the novel <em>The Bell of Silence</em>.\n        We keep data collection to a minimum and set <strong>no non-essential cookies until\n        you agree</strong>. You can change your mind at any time.",
+      "Aurefold är en liten sajt för marknadsföring och läsargemenskap kring romanen <em>The Bell of Silence</em>.\n        Vi håller datainsamlingen till ett minimum och sätter <strong>inga icke nödvändiga cookies förrän\n        du samtycker</strong>. Du kan ändra dig när som helst."
+    ],
+    [
+      "When you first visit, a banner asks whether to allow cookies. Nothing that\n        sets a non-essential cookie runs until you choose <strong>Accept</strong>:",
+      "Vid ditt första besök frågar en banner om cookies ska tillåtas. Ingenting som\n        sätter en icke nödvändig cookie körs förrän du väljer <strong>Acceptera</strong>:"
+    ],
+    [
+      "Decline and Google Analytics stays cookieless and the email form isn't loaded — the rest\n        of the site works exactly the same.",
+      "Nekar du förblir Google Analytics utan cookies och e-postformuläret laddas inte — resten\n        av sajten fungerar precis likadant."
+    ],
+    [
+      "<button type=\"button\" class=\"btn btn-ghost\" id=\"cookie-settings\">Change cookie settings</button>",
+      "<button type=\"button\" class=\"btn btn-ghost\" id=\"cookie-settings\">Ändra inställningar för cookies</button>"
+    ],
+    [
+      "Community participation stored in your browser",
+      "Deltagande i gemenskapen som sparas i din webbläsare"
+    ],
+    [
+      "Interactive Aurefold features use a small amount of browser <strong>local storage</strong>\n        so the site can remember community choices on that browser without asking for a name or email.\n        This is separate from Google Analytics cookies.",
+      "Interaktiva funktioner på Aurefold använder en liten mängd <strong>lokal lagring</strong> i webbläsaren\n        så att sajten kan minnas val i gemenskapen på just den webbläsaren utan att fråga efter namn eller e-post.\n        Detta är skilt från Google Analytics-cookies."
+    ],
+    [
+      "A random browser identifier is used to enforce one anonymous voice per Moot question and to avoid counting the same House Test result repeatedly.",
+      "En slumpmässig webbläsaridentifierare används för att säkerställa en anonym röst per fråga i Tinget och för att undvika att samma Hustestet-resultat räknas flera gånger."
+    ],
+    [
+      "Your local browser remembers which Ledger Questions you answered so the Moot can show your own participation record when you return.",
+      "Din lokala webbläsare minns vilka Ledger-frågor du har besvarat, så att Tinget kan visa ditt eget deltagande när du kommer tillbaka."
+    ],
+    [
+      "This local record is not a score, profile or public leaderboard, and it does not follow you to another browser or device.",
+      "Denna lokala uppgift är inte ett poängtal, en profil eller en publik topplista, och den följer dig inte till en annan webbläsare eller enhet."
+    ],
+    [
+      "Anonymous community milestones",
+      "Anonyma milstolpar i gemenskapen"
+    ],
+    [
+      "When you actively take part in the community, Aurefold may store a limited anonymous\n        milestone in Supabase: completing the House Test, casting a Ledger Question vote,\n        having a signed-in Banner profile, or clicking through to Patreon. The record contains\n        the random browser identifier, the type of milestone, a short context label and the\n        Aurefold page where it happened.",
+      "När du aktivt deltar i gemenskapen kan Aurefold lagra en begränsad anonym\n        milstolpe i Supabase: att du slutfört Hustestet, lagt en röst i en Ledger-frågan,\n        har en inloggad Banerprofil, eller klickat vidare till Patreon. Uppgiften innehåller\n        den slumpmässiga webbläsaridentifieraren, typen av milstolpe, en kort kontextetikett och den\n        Aurefold-sida där det skedde."
+    ],
+    [
+      "It does <strong>not</strong> store your House Test answer sequence, the text of your\n        Ledger argument, your Patreon account, whether you actually joined Patreon, or whether\n        a Patreon membership is free or paid. Patreon clicks are treated only as an indication\n        that a reader chose to open Patreon.",
+      "Den lagrar <strong>inte</strong> din svarsföljd i Hustestet, texten i ditt\n        Ledger-argument, ditt Patreon-konto, om du faktiskt gick med på Patreon, eller om\n        ett Patreon-medlemskap är gratis eller betalt. Klick vidare till Patreon behandlas endast som ett tecken\n        på att en läsare valde att öppna Patreon."
+    ],
+    [
+      "<strong>Reader account / Banner profile</strong> — if you sign in, your account and the profile information you choose to save are stored by Supabase.",
+      "<strong>Läsarkonto / Banerprofil</strong> — om du loggar in lagras ditt konto och den profilinformation du väljer att spara av Supabase."
+    ],
+    [
+      "<strong>The Moot votes</strong> — votes are stored anonymously to tally results.\n          Anonymous votes are not tied to a named reader account.",
+      "<strong>Röster i Tinget</strong> — röster lagras anonymt för att räknas samman till ett resultat.\n          Anonyma röster kopplas inte till ett namngivet läsarkonto."
+    ],
+    [
+      "<strong>Supabase</strong> — reader accounts, Moot votes, community milestones and Book One reviews.",
+      "<strong>Supabase</strong> — läsarkonton, röster i Tinget, milstolpar i gemenskapen och omdömen om Bok Ett."
+    ],
+    [
+      "<strong>Patreon</strong> — only after you choose to open Patreon; Patreon handles its own account and membership data.",
+      "<strong>Patreon</strong> — endast efter att du valt att öppna Patreon; Patreon hanterar sina egna konto- och medlemskapsuppgifter."
+    ],
+    [
+      "You can withdraw cookie consent at any time (the button above), unsubscribe from\n        emails, and request that we correct or delete personal data you've given us\n        (such as your email, reader account/profile or a review). To make a request, email us at\n        <a href=\"mailto:info@aurefold.com\">info@aurefold.com</a>.",
+      "Du kan när som helst återkalla ditt samtycke till cookies (knappen ovan), avprenumerera från\n        utskicken, och begära att vi rättar eller raderar personuppgifter du har lämnat till oss\n        (såsom din e-postadress, ditt läsarkonto/din profil eller ett omdöme). Skicka din begäran till oss på\n        <a href=\"mailto:info@aurefold.com\">info@aurefold.com</a>."
+    ],
+    [
+      "This notice may be updated as the project grows. Last updated: 19 August 2026.",
+      "Denna information kan uppdateras allteftersom projektet växer. Senast uppdaterad: 19 augusti 2026."
     ]
   ]
 }

@@ -10,11 +10,7 @@
     ],
     [
       "<p class=\"quiz-result-line\">“They chart all of it, and share almost none.”</p>",
-      "<p class=\"quiz-result-line\">“De kartlägger allt, och delar nästan inget.”</p>"
-    ],
-    [
-      "“When does preserving knowledge become control over those who produced it?”",
-      "”När blir bevarandet av kunskap kontroll över dem som skapade den?”"
+      "<p class=\"quiz-result-line\">”De kartlägger allt, och delar nästan inget.”</p>"
     ],
     [
       "House Tidebreaker — Which house would you follow? | AUREFOLD",
@@ -49,14 +45,6 @@
       "Lägg detta som din röst i Tinget"
     ],
     [
-      "Meet all ten houses &rarr;",
-      "Möt alla tio hus &rarr;"
-    ],
-    [
-      "The question it forces",
-      "Frågan den tvingar fram"
-    ],
-    [
       "YOU WOULD FOLLOW",
       "DU SKULLE FÖLJA"
     ],
@@ -71,6 +59,18 @@
     [
       "Follow free",
       "Följ gratis"
+    ],
+    [
+      "<span class=\"q-label\">The question it forces</span><em>“When does preserving knowledge become control over those who produced it?”</em>",
+      "<span class=\"q-label\">Frågan den tvingar fram</span><em>”När blir bevarandet av kunskap kontroll över dem som skapade den?”</em>"
+    ],
+    [
+      "<a href=\"houses.html\">Meet all ten houses &rarr;</a>",
+      "<a href=\"houses.html\">Möt alla tio hus &rarr;</a>"
+    ],
+    [
+      "<p class=\"result-seat\">The Wave-Reader · the Shards (S islands)</p>",
+      "<p class=\"result-seat\">The Wave-Reader · Shards (södra öarna)</p>"
     ]
   ]
 }

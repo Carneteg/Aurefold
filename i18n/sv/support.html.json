@@ -32,7 +32,7 @@
     ],
     [
       "<summary>What stage is it in?</summary><p>Internal developmental revision is complete. Next comes external reader testing, then professional proofreading, cover and interior design, and print preparation.</p>",
-      "<summary>Vilket skede är den i?</summary><p>Intern strukturell bearbetning är klar. Härnäst kommer testning med externa läsare, sedan professionell korrektur, omslags- och inlageformgivning, och tryckförberedelse.</p>"
+      "<summary>Vilket skede är den i?</summary><p>Intern strukturell bearbetning är klar. Härnäst kommer testning med externa läsare, sedan professionell korrekturläsning, omslags- och inlageformgivning, och tryckförberedelse.</p>"
     ],
     [
       "Interested? Write to <a href=\"mailto:tobias.carneteg@gmail.com?subject=Aurefold%20volunteer\">tobias.carneteg@gmail.com</a>\n        with the role and a little about your work. Every collaborator is credited.",
@@ -232,15 +232,11 @@
     ],
     [
       "<span class=\"status-label\">Professional proofreading</span>",
-      "<span class=\"status-label\">Professionell korrektur</span>"
+      "<span class=\"status-label\">Professionell korrekturläsning</span>"
     ],
     [
       "<h2 class=\"section-title\">What the campaign will offer</h2>",
       "<h2 class=\"section-title\">Vad kampanjen kommer att erbjuda</h2>"
-    ],
-    [
-      "One message when there's real news; unsubscribe any time.",
-      "Ett meddelande när det finns riktiga nyheter; avsluta när du vill."
     ],
     [
       "<h2 class=\"section-title\">Where the project stands</h2>",
@@ -457,10 +453,6 @@
     [
       "<h3>Traveller</h3>",
       "<h3>Resenär</h3>"
-    ],
-    [
-      "Read the opening",
-      "Läs början"
     ],
     [
       "<h3>Witness</h3>",

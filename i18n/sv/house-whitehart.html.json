@@ -9,12 +9,8 @@
       "Tro. De lyssnar efter en röst — och prövar dem som säger sig höra den. Gör testet och hitta ditt hus i Aurefold."
     ],
     [
-      "“Can a community survive without shared meaning, and what happens when meaning requires certainty?”",
-      "”Kan en gemenskap överleva utan gemensam mening, och vad händer när mening kräver visshet?”"
-    ],
-    [
       "<p class=\"quiz-result-line\">“They listen for a voice — and test those who claim to hear it.”</p>",
-      "<p class=\"quiz-result-line\">“De lyssnar efter en röst — och prövar dem som säger sig höra den.”</p>"
+      "<p class=\"quiz-result-line\">”De lyssnar efter en röst — och prövar dem som säger sig höra den.”</p>"
     ],
     [
       "House Whitehart — Which house would you follow? | AUREFOLD",
@@ -49,14 +45,6 @@
       "Lägg detta som din röst i Tinget"
     ],
     [
-      "Meet all ten houses &rarr;",
-      "Möt alla tio hus &rarr;"
-    ],
-    [
-      "The question it forces",
-      "Frågan den tvingar fram"
-    ],
-    [
       "YOU WOULD FOLLOW",
       "DU SKULLE FÖLJA"
     ],
@@ -71,6 +59,18 @@
     [
       "Follow free",
       "Följ gratis"
+    ],
+    [
+      "<span class=\"q-label\">The question it forces</span><em>“Can a community survive without shared meaning, and what happens when meaning requires certainty?”</em>",
+      "<span class=\"q-label\">Frågan den tvingar fram</span><em>”Kan en gemenskap överleva utan gemensam mening, och vad händer när mening kräver visshet?”</em>"
+    ],
+    [
+      "<a href=\"houses.html\">Meet all ten houses &rarr;</a>",
+      "<a href=\"houses.html\">Möt alla tio hus &rarr;</a>"
+    ],
+    [
+      "<p class=\"result-seat\">The Bell of Silence · the Light Heights (NW)</p>",
+      "<p class=\"result-seat\">The Bell of Silence · Light Heights (NW)</p>"
     ]
   ]
 }

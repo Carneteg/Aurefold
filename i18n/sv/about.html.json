@@ -23,16 +23,16 @@
       "Vem som står bakom Aurefold, och varför boken görs i öppenhet."
     ],
     [
-      "For press or enquiries, write to",
-      "För press eller förfrågningar, skriv till"
-    ],
-    [
       "A note from the author",
       "Ett ord från författaren"
     ],
     [
       "About the author",
       "Om författaren"
+    ],
+    [
+      "For press or enquiries, write to\n        <a href=\"mailto:tobias.carneteg@gmail.com\">tobias.carneteg@gmail.com</a>.",
+      "För press eller förfrågningar, skriv till\n        <a href=\"mailto:tobias.carneteg@gmail.com\">tobias.carneteg@gmail.com</a>."
     ]
   ]
 }

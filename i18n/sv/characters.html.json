@@ -67,10 +67,6 @@
       "Fler av Bok Etts Whitehart- och dalfolk, nedtecknade vid namn."
     ],
     [
-      "Whitehart and valley hands who move through Book One.",
-      "Whitehart- och dalfolk som rör sig genom Bok Ett."
-    ],
-    [
       "<h1 class=\"page-title\">Characters of Book One</h1>",
       "<h1 class=\"page-title\">Karaktärerna i Bok Ett</h1>"
     ],
@@ -129,6 +125,14 @@
     [
       "A traveler · 29",
       "En resenär · 29"
+    ],
+    [
+      "Other houses enter the valley as law, goods, and political weather — never as a lecture on themselves.",
+      "Andra hus når dalen som lag, varor och politiskt väder — aldrig som en föreläsning om sig själva."
+    ],
+    [
+      "Osric, Ansel, Bryn Corr, Tam &amp; Brem<span class=\"record-role\">Whitehart and valley hands who move through Book One.</span>",
+      "Osric, Ansel, Bryn Corr, Tam &amp; Brem<span class=\"record-role\">Whitehart- och dalfolk som rör sig genom Bok Ett.</span>"
     ]
   ]
 }

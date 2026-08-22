@@ -115,10 +115,6 @@
       "”Om man bränner den enda iakttagelse som en dom byggdes på blir åtskillnaden andaktsfull.”"
     ],
     [
-      "Wren of Blackthorn reads a sealed record; Aldous of Blackcrest and a herald named Perrin watch.",
-      "Wren av Blackthorn läser en förseglad handling; Aldous av Blackcrest och en härold vid namn Perrin ser på."
-    ],
-    [
       "Alaine looked at the black crescent forming under the hood. \"The lamp has given her reason.\"",
       "Alaine såg på den svarta skäran som bildades under huven. ”Lampan har gett henne skäl.”"
     ],
@@ -147,10 +143,6 @@
       "<h1 class=\"page-title\">Läs början av The Bell of Silence</h1>"
     ],
     [
-      "Brother Tomas prepares the listening room. Mother Alaine watches.",
-      "Broder Tomas förbereder lyssnarrummet. Moder Alaine ser på."
-    ],
-    [
       "<p>\"I would rather know what she does before she has reason.\"</p>",
       "<p>”Jag vill hellre veta vad hon gör innan hon har skäl.”</p>"
     ],
@@ -175,20 +167,12 @@
       "Aldous såg inte på honom. ”Fullständig i vilken mening?”"
     ],
     [
-      "Crown-watch, seat of House Blackcrest, year 396 A.U.",
-      "Crown-watch, House Blackcrests säte, år 396 A.U."
-    ],
-    [
       "The third man in the room looked up from the window.",
       "Den tredje mannen i rummet såg upp från fönstret."
     ],
     [
       "Chapter One — The Trial of the Goatherd (an excerpt)",
       "Kapitel Ett — Getvallarens prövning (ett utdrag)"
-    ],
-    [
-      "House Whitehart, the Bell of Silence, year 396 A.U.",
-      "House Whitehart, the Bell of Silence, år 396 A.U."
     ],
     [
       "Prologue — The Question in the Margin (an excerpt)",
@@ -237,10 +221,6 @@
     [
       "— the prologue continues in the book. —",
       "— prologen fortsätter i boken. —"
-    ],
-    [
-      "Join free to follow the book to print →",
-      "Gå med gratis för att följa boken till tryck →"
     ],
     [
       "\"Then we will not waste them,\" he said.",
@@ -405,6 +385,30 @@
     [
       "\"No.\"",
       "\"Nej.\""
+    ],
+    [
+      "<em>Crown-watch, seat of House Blackcrest, year 396 A.U.</em>",
+      "<em>Crown-watch, House Blackcrests säte, år 396 A.U.</em>"
+    ],
+    [
+      "<em>Wren of Blackthorn reads a sealed record; Aldous of Blackcrest and a herald named Perrin watch.</em>",
+      "<em>Wren av Blackthorn läser en förseglad handling; Aldous av Blackcrest och en härold vid namn Perrin ser på.</em>"
+    ],
+    [
+      "<a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">Join free to follow the book to print →</a>",
+      "<a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">Gå med gratis för att följa boken till tryck →</a>"
+    ],
+    [
+      "<em>House Whitehart, the Bell of Silence, year 396 A.U.</em>",
+      "<em>House Whitehart, the Bell of Silence, år 396 A.U.</em>"
+    ],
+    [
+      "<em>Brother Tomas prepares the listening room. Mother Alaine watches.</em>",
+      "<em>Broder Tomas förbereder lyssnarrummet. Moder Alaine ser på.</em>"
+    ],
+    [
+      "The reading list opens soon — for now,\n        <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">follow free on Patreon</a>.",
+      "Läslistan öppnar snart — tills vidare,\n        <a href=\"https://www.patreon.com/AUREFOLD\" target=\"_blank\" rel=\"noopener\">följ gratis på Patreon</a>."
     ]
   ]
 }

@@ -127,10 +127,6 @@
       "Allt ovanstående vilar på fyra slags källor, och de är inte överens."
     ],
     [
-      "<span class=\"archive-house\">Blackcrest · The victor's history</span>",
-      "<span class=\"archive-house\">Blackcrest · Segrarens historia</span>"
-    ],
-    [
       "The archive records the disagreement; it does not decide it.",
       "Arkivet upptecknar oenigheten; det avgör den inte."
     ],
@@ -141,10 +137,6 @@
     [
       "<span class=\"archive-house\">Blackthorn · Intellect</span>",
       "<span class=\"archive-house\">Blackthorn · Intellekt</span>"
-    ],
-    [
-      "<span class=\"archive-house\">Phoenix · The future</span>",
-      "<span class=\"archive-house\">Phoenix · Framtiden</span>"
     ],
     [
       "Four hundred years of record, as the archive keeps it.",
@@ -169,10 +161,6 @@
     [
       "<span class=\"archive-house\">Stonebear · Honor</span>",
       "<span class=\"archive-house\">Stonebear · Heder</span>"
-    ],
-    [
-      "<span class=\"archive-house\">The realm entire</span>",
-      "<span class=\"archive-house\">Hela riket</span>"
     ],
     [
       "<h2 class=\"section-title\">The four centuries</h2>",
@@ -257,6 +245,22 @@
     [
       "The Silent Year",
       "Det tysta året"
+    ],
+    [
+      "The War of the Unification",
+      "The War of the Unification"
+    ],
+    [
+      "<span class=\"archive-house\">Blackcrest · The victor's history</span> · 287 A.U.",
+      "<span class=\"archive-house\">Blackcrest · Segrarens historia</span> · 287 A.U."
+    ],
+    [
+      "<span class=\"archive-house\">Phoenix · The future</span> · 381 A.U.",
+      "<span class=\"archive-house\">Phoenix · Framtiden</span> · 381 A.U."
+    ],
+    [
+      "<span class=\"archive-house\">The realm entire</span> · 229 A.U.",
+      "<span class=\"archive-house\">Hela riket</span> · 229 A.U."
     ]
   ]
 }

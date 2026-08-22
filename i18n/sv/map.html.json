@@ -2,10 +2,33 @@
   "title": "Kartan över Banner-lands — Aurefold",
   "description": "Utforska den interaktiva kartan över Banner-lands — sätena för de tio stora husen och bergsdalen där Bok Ett i Aurefold utspelar sig.",
   "blocks": [
-    ["title=\"Zoom in\" aria-label=\"Zoom in\"", "title=\"Zooma in\" aria-label=\"Zooma in\""],
-    ["title=\"Zoom out\" aria-label=\"Zoom out\"", "title=\"Zooma ut\" aria-label=\"Zooma ut\""],
-    ["title=\"Reset view\" aria-label=\"Reset view\"", "title=\"Återställ vy\" aria-label=\"Återställ vy\""],
-    ["<button id=\"detail-close\" class=\"detail-close\" aria-label=\"Close\">", "<button id=\"detail-close\" class=\"detail-close\" aria-label=\"Stäng\">"],
-    ["Read the house record →", "Läs husets akt →"]
+    [
+      "title=\"Zoom in\" aria-label=\"Zoom in\"",
+      "title=\"Zooma in\" aria-label=\"Zooma in\""
+    ],
+    [
+      "title=\"Zoom out\" aria-label=\"Zoom out\"",
+      "title=\"Zooma ut\" aria-label=\"Zooma ut\""
+    ],
+    [
+      "title=\"Reset view\" aria-label=\"Reset view\"",
+      "title=\"Återställ vy\" aria-label=\"Återställ vy\""
+    ],
+    [
+      "<button id=\"detail-close\" class=\"detail-close\" aria-label=\"Close\">",
+      "<button id=\"detail-close\" class=\"detail-close\" aria-label=\"Stäng\">"
+    ],
+    [
+      "Read the house record →",
+      "Läs husets akt →"
+    ],
+    [
+      "Plate II — with the seats of the Ten Great Houses · 396 A.U.",
+      "Plansch II — med de tio stora husens säten · 396 A.U."
+    ],
+    [
+      "Drag to pan · scroll to zoom · select a seal for the house record.",
+      "Dra för att panorera · rulla för att zooma · välj ett sigill för husets uppgifter."
+    ]
   ]
 }

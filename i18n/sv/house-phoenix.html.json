@@ -10,11 +10,7 @@
     ],
     [
       "<p class=\"quiz-result-line\">“They build on scorched ground and refuse to look down.”</p>",
-      "<p class=\"quiz-result-line\">“De bygger på bränd mark och vägrar se ner.”</p>"
-    ],
-    [
-      "“What may the present sacrifice for a future it cannot verify?”",
-      "”Vad får nuet offra för en framtid det inte kan bekräfta?”"
+      "<p class=\"quiz-result-line\">”De bygger på bränd mark och vägrar se ner.”</p>"
     ],
     [
       "House Phoenix — Which house would you follow? | AUREFOLD",
@@ -49,14 +45,6 @@
       "Lägg detta som din röst i Tinget"
     ],
     [
-      "Meet all ten houses &rarr;",
-      "Möt alla tio hus &rarr;"
-    ],
-    [
-      "The question it forces",
-      "Frågan den tvingar fram"
-    ],
-    [
       "YOU WOULD FOLLOW",
       "DU SKULLE FÖLJA"
     ],
@@ -71,6 +59,18 @@
     [
       "Follow free",
       "Följ gratis"
+    ],
+    [
+      "<span class=\"q-label\">The question it forces</span><em>“What may the present sacrifice for a future it cannot verify?”</em>",
+      "<span class=\"q-label\">Frågan den tvingar fram</span><em>”Vad får nuet offra för en framtid det inte kan bekräfta?”</em>"
+    ],
+    [
+      "<a href=\"houses.html\">Meet all ten houses &rarr;</a>",
+      "<a href=\"houses.html\">Möt alla tio hus &rarr;</a>"
+    ],
+    [
+      "<p class=\"result-seat\">New-Ash · the Burnt Road</p>",
+      "<p class=\"result-seat\">New-Ash · Burnt Road</p>"
     ]
   ]
 }
