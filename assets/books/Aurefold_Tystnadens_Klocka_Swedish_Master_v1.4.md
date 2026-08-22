@@ -2,9 +2,9 @@
 
 ## En roman från Aurefold
 
-**Bok Ett — Svensk master v1.3 | Härledd från English Master v1.7**
+**Bok Ett — Svensk master v1.4 | Härledd från English Master v1.7**
 
-*Lumenhöjderna, 396 A.U. Fyra år före Jubileet.*
+*Light Heights, 396 A.U. Fyra år före Jubileet.*
 
 > STATUS: SVENSK DERIVERAD MASTER. Den engelska Book One Master v1.7 förblir styrande textkälla vid tolknings- eller kontinuitetskonflikt. Den svenska versionen skapar ingen ny kanon.
 
@@ -944,9 +944,9 @@ På gården lämnade ingen krita bredvid den rena fläcken där hennes namn hade
 ## Interludium
 ### Frågan i marginalen
 
-Kronvakten hade ett rum för omtvistade handlingar och ett mindre rum för människorna som tvistade om dem. Wren hade varit i det mindre rummet sedan middagstid. Sittande var hon längre än vissa verkade vänta sig av en människa stående: rak rygg, sparsam kropp, svart hår klippt vid käken eftersom allt längre föll ner över mått och markeringar. Ett blekt gammalt brännmärke korsade två knogar på hennes högra hand. Hon dolde det aldrig och berättade aldrig historien. Vid det andra mötet hade folk vanligen hittat på en åt henne.
+Crown-watch hade ett rum för omtvistade handlingar och ett mindre rum för människorna som tvistade om dem. Wren hade varit i det mindre rummet sedan middagstid. Sittande var hon längre än vissa verkade vänta sig av en människa stående: rak rygg, sparsam kropp, svart hår klippt vid käken eftersom allt längre föll ner över mått och markeringar. Ett blekt gammalt brännmärke korsade två knogar på hennes högra hand. Hon dolde det aldrig och berättade aldrig historien. Vid det andra mötet hade folk vanligen hittat på en åt henne.
 
-Handlingen på bordet kom från Whitehart. Den var fyrtiotre sidor lång, kopierad med en hand så jämn att bokstäverna såg mindre skrivna än överenskomna ut. Varje sida hade bevittnats. Varje vittne hade bevittnats. Snöret bar tre sigill i vitt vax och ett i svart, och det svarta var Kronvaktens, satt dit när paketet anlände så att alla skulle veta att ingen hade öppnat det före de människor som nu öppnade det.
+Handlingen på bordet kom från Whitehart. Den var fyrtiotre sidor lång, kopierad med en hand så jämn att bokstäverna såg mindre skrivna än överenskomna ut. Varje sida hade bevittnats. Varje vittne hade bevittnats. Snöret bar tre sigill i vitt vax och ett i svart, och det svarta var Crown-watchs, satt dit när paketet anlände så att alla skulle veta att ingen hade öppnat det före de människor som nu öppnade det.
 
 Wren hade alltid tyckt att det var den sortens försäkran som skapar en ny fråga utan att besvara den gamla.
 
@@ -980,7 +980,7 @@ Wren lade ett finger på slutmeningen.
 
 ”I deras.”
 
-Rummet var mycket tyst. Kronvakten var byggd för att hålla papper torrt och röster från att färdas. Väggarna var fodrade med filt bakom brädorna; Wren hade kontrollerat när hon kom, eftersom rum förklarar institutioner ärligare än deviser gör. Det fanns inga fönster utom det smala bakom Perrin, och det vette mot en annan vägg.
+Rummet var mycket tyst. Crown-watch var byggt för att hålla papper torrt och röster från att färdas. Väggarna var fodrade med filt bakom brädorna; Wren hade kontrollerat när hon kom, eftersom rum förklarar institutioner ärligare än deviser gör. Det fanns inga fönster utom det smala bakom Perrin, och det vette mot en annan vägg.
 
 Aldous sade: ”Förklara.”
 
@@ -1220,11 +1220,11 @@ Det skulle inte förbli ett.
 
 Aldous sandade sidan och räckte den till Perrin.
 
-”Lumenhöjderna”, sade han. ”Före djupvintern, om vägarna tillåter. Kom tillbaka med det som går att försvara.”
+”Light Heights”, sade han. ”Före djupvintern, om vägarna tillåter. Kom tillbaka med det som går att försvara.”
 
 Perrin läste uppdraget från början till slut. Han skummade inte begränsningarna. Wren lade märke till det också.
 
-”Och vad gör Kronvakten med det som inte går att försvara?” frågade han.
+”Och vad gör Crown-watch med det som inte går att försvara?” frågade han.
 
 Aldous samlade ihop Whitehart-paketet och riktade än en gång in dess nedre kant.
 
@@ -3281,7 +3281,7 @@ De gav honom den smala gästcellen som såg ut över nedre muren. Han öppnade s
 
 Pergamentet hade rest i ett oljeskinnsrör, men vatten hade trängt in vid locket. Ena hörnet var fuktigt. Perrin lade arket plant under två koppar och höll sigillen över lampan så att Tomas kunde granska dem utan att röra vid dem.
 
-Blackcrests sigill band den nedre snodden. Kronvakten hade bevittnat uppdraget med svart vax bredvid. Texten gav rätt att samla in Whiteharts prövningspraxis, bevarade vittnesmål, avslutade och oavslutade domar, materiella följder och gränser för tillgång. Den gav ingen rätt att tvinga ett vittne, öppna en förseglad bok, avlägsna en sida eller förklara en husdom falsk.
+Blackcrests sigill band den nedre snodden. Crown-watch hade bevittnat uppdraget med svart vax bredvid. Texten gav rätt att samla in Whiteharts prövningspraxis, bevarade vittnesmål, avslutade och oavslutade domar, materiella följder och gränser för tillgång. Den gav ingen rätt att tvinga ett vittne, öppna en förseglad bok, avlägsna en sida eller förklara en husdom falsk.
 
 Tomas läste begränsningarna två gånger.
 
@@ -3331,7 +3331,7 @@ Perrin presenterade sig i salen samma kväll.
 
 Han talade om Jubileet fyra år bort och Krönikan som skulle läsas där. Han sade inte att boken skulle innehålla sanning. Han sade att den skulle innehålla det framtida salar kunde citera, vilket var mindre tröstande och mer exakt.
 
-”Whitehart har skickat Kronvakten fyra sekler av införda domar”, sade han. ”Jag kan kopiera dem och gå. Det bevarar den del av huset som redan är skapad för att bevaras. Jag är här för den del som bär säckar, lägger tillbaka torv, minns året då västgångjärnet frös och vet vilken officiell redogörelse som lämnade någon utanför dörren.”
+”Whitehart har skickat Crown-watch fyra sekler av införda domar”, sade han. ”Jag kan kopiera dem och gå. Det bevarar den del av huset som redan är skapad för att bevaras. Jag är här för den del som bär säckar, lägger tillbaka torv, minns året då västgångjärnet frös och vet vilken officiell redogörelse som lämnade någon utanför dörren.”
 
 Folk satte sig rakare.
 
@@ -3475,7 +3475,7 @@ Perrin drog av de förstörda stövlarna. ”Åttiotvå mark spenderade. Trettio
 
 ”Blackcrest betalar?”
 
-”Blackcrest kommer gräla. Kronvakten kommer dröja. Bryn skickar en man med räkningen och skämmer ut dem tills de slutar.” Han skrapade lera från ena hälen. ”Kompetens är mest att veta vems ilska som reser.”
+”Blackcrest kommer gräla. Crown-watch kommer dröja. Bryn skickar en man med räkningen och skämmer ut dem tills de slutar.” Han skrapade lera från ena hälen. ”Kompetens är mest att veta vems ilska som reser.”
 
 ”Du gjorde det för Krönikan.”
 
@@ -3507,19 +3507,19 @@ Perrin sade: ”Skriv ner det innan han rättar sig.”
 
 Ansel stirrade på honom och förde sedan in påslaget.
 
-Tre löften måste vänta på Kronvaktens utbetalning. Bryn accepterade Blackcrests sigill; de andra hushållen krävde ett Whitehart-vittne. Ansel skrev under och gjorde huset ansvarigt om Perrins uppdrag misslyckades.
+Tre löften måste vänta på Crown-watchs utbetalning. Bryn accepterade Blackcrests sigill; de andra hushållen krävde ett Whitehart-vittne. Ansel skrev under och gjorde huset ansvarigt om Perrins uppdrag misslyckades.
 
 ”Du har köpt en ren port med min vinterkredit”, sade Ansel.
 
 ”Ja.”
 
-”Om Kronvakten vägrar?”
+”Om Crown-watch vägrar?”
 
 ”Du skickar Bryn.”
 
 Ansel övervägde detta och märkte räkenskapen *troligen indrivningsbar*.
 
-Den kvällen skrev Perrin en rapport till Kronvakten.
+Den kvällen skrev Perrin en rapport till Crown-watch.
 
 Tomas såg från gästcellens dörr. Perrin började med förvarskedjan, inte de döda.
 
@@ -4279,7 +4279,7 @@ Perrin frågade senare om hon ville ha med det i rapportkopian.
 
 ”Det beskriver hur slutsatsen erhölls.”
 
-”Samma sak, i Kronvakten.”
+”Samma sak, i Crown-watch.”
 
 Wren stängde arbetsboken och knöt remmen två gånger.
 
@@ -4771,7 +4771,7 @@ Wren svarade inte.
 
 Perrin drog efter andan innan han öppnade boken.
 
-”*Col från Lumenhöjderna befanns falsk och Återgavs vid första snön. Hans mor Merta vidhöll att domen var fel och höll vaka nedanför Whiteharts gräns under sexton vintrar.*”
+”*Col från Light Heights befanns falsk och Återgavs vid första snön. Hans mor Merta vidhöll att domen var fel och höll vaka nedanför Whiteharts gräns under sexton vintrar.*”
 
 ”Nej.”
 
@@ -6125,7 +6125,7 @@ Fen stannade i dörröppningen.
 
 Perrin läste införingen högt.
 
-*Under det fyrahundrade året, i Lumenhöjdernas dal, tog Harl från lågbeitet nio betalande resenärer längs östskuldrans led mot den Kallades råd. Nacken brast i det felaktiga tövädret. Fyra bars tillbaka för begravning, Harl bland dem.*
+*Under det fyrahundrade året, i Light Heights dal, tog Harl från lågbeitet nio betalande resenärer längs östskuldrans led mot den Kallades råd. Nacken brast i det felaktiga tövädret. Fyra bars tillbaka för begravning, Harl bland dem.*
 
 Det fanns inget underverk i texten. Ingen förbannelse. Inget påstående om att Sela hörde de döda. Nacken fanns. Tövädret fanns. Avgifterna fanns genom ordet *betalande*. Varje mening kunde stödjas.
 
@@ -7264,7 +7264,7 @@ Det var inte vördnad.
 
 Sela släppte ut ett andetag hon inte hade menat att hålla inne.
 
-"Från Lumenhöjderna?"
+"Från Light Heights?"
 
 "Det är vad folk säger."
 
@@ -8899,7 +8899,7 @@ Alaine steg fram.
 
 Huset blev stilla.
 
-"Ingen dom har förts in rörande Sela från Lumenhöjderna", sade hon.
+"Ingen dom har förts in rörande Sela från Light Heights", sade hon.
 
 Lättnaden gick genom Sela så snabbt att det gjorde ont.
 
@@ -14118,7 +14118,7 @@ Kallelsen till Oath-hold hade fortfarande inte återvänt. Tills den gjorde det 
 
 Vittne Orla Darun anlände efter att de permanenta pinnarna hade börjat luta och två dagar efter att Nedre fältet hade gett varje argument ett kroppstal. Hon hade redan varit på väg när slaget inträffade. När nyheten nådde henne hade det varit lättare att vända om än att komma fram. Hon kom ändå.
 
-Kallelsen hade gått från Whitehart till dalbudet, från budet till västvägen, från västvägen genom två översvämmade övergångar och från det sista reläet till Oath-hold. Svaret kom tillbaka en annan väg eftersom en bro hade förlorat ett av sina mittstöd. När Orla red in i Lumenhöjderna hade snörplanen nedanför huset fått tak, taken hade fått rökhål och barn använde brandgatan som löpbana.
+Kallelsen hade gått från Whitehart till dalbudet, från budet till västvägen, från västvägen genom två översvämmade övergångar och från det sista reläet till Oath-hold. Svaret kom tillbaka en annan väg eftersom en bro hade förlorat ett av sina mittstöd. När Orla red in i Light Heights hade snörplanen nedanför huset fått tak, taken hade fått rökhål och barn använde brandgatan som löpbana.
 
 Hennes häst var gammal, grågul och arg på sluttningar. Orla satt av före den sista svängen och gick bredvid den med ena handen under betslet.
 
@@ -14721,7 +14721,7 @@ Alaine lade den vita geträknaren i Selas handflata.
 
 "Du tror att öppna är fel."
 
-"Jag tror att öppna ger oss nio dagar innan det inte finns någonting kvar i Lumenhöjderna. Jag tror att fyra tusen hungriga människor och hundra hungriga människor då kommer vara innanför samma mur. Jag tror att jag vet vad som följer, och jag kan ha fel."
+"Jag tror att öppna ger oss nio dagar innan det inte finns någonting kvar i Light Heights. Jag tror att fyra tusen hungriga människor och hundra hungriga människor då kommer vara innanför samma mur. Jag tror att jag vet vad som följer, och jag kan ha fel."
 
 "Men du kommer öppna."
 
@@ -16623,7 +16623,7 @@ Erbjudandet var bättre än Perrins. Det gjorde det svårare, inte säkrare.
 
 Nella vände bladet. "Säg raden efter mig. Den hindrar min klerk från att kalla detta oavgjort."
 
-"Jag, Sela från Lumenhöjderna, avböjer det sex månader långa arbetserbjudandet från Nella av Duskport. Ingen lön, bostad, sekretess eller framtida motprestation är skyldig någon av parterna."
+"Jag, Sela från Light Heights, avböjer det sex månader långa arbetserbjudandet från Nella av Duskport. Ingen lön, bostad, sekretess eller framtida motprestation är skyldig någon av parterna."
 
 Nella skrev vägran och skrev under. Sela kunde inte skriva sitt eget namn. Hon gjorde ett märke och bad Nella läsa hela bladet tillbaka.
 
@@ -16806,7 +16806,7 @@ Någon hade skrivit den på ett spannmålsomslag och spikat fast omslaget bredvi
 
 *Gå dit du inte är säker. Det är där sanningen börjar.*
 
-Under den hade tre händer lagt till *Sela från Lumenhöjderna*.
+Under den hade tre händer lagt till *Sela från Light Heights*.
 
 Portpojken såg henne läsa.
 

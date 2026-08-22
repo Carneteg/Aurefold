@@ -201,7 +201,7 @@ window.AUREFOLD_COMMUNITY.resolveMootThreshold = function (pollId) {
     if (title) title.textContent = "TYSTNADENS KLOCKA";
 
     const intro = get.querySelector("p");
-    if (intro) intro.innerHTML = "<em>Tystnadens klocka</em> finns nu som en <strong>fullständig svensk läsversion</strong>. Läs hela romanen direkt på Aurefold, eller ladda ner den svenska textfilen. Den engelska originalutgåvan finns kvar separat.";
+    if (intro) intro.innerHTML = "<em>Tystnadens klocka</em> finns nu som en <strong>fullständig svensk utgåva</strong>. Läs hela romanen direkt på Aurefold, eller ladda ner den som PDF eller EPUB. Den engelska originalutgåvan finns kvar separat.";
 
     const row = get.querySelector(".cta-row");
     if (row) {
@@ -213,19 +213,25 @@ window.AUREFOLD_COMMUNITY.resolveMootThreshold = function (pollId) {
       read.href = "/sv/tystnadens-klocka.html";
       read.textContent = "Läs hela boken på svenska";
 
-      const download = document.createElement("a");
-      download.className = "btn btn-ghost book-dl";
-      download.id = "book-sv-download";
-      download.href = "/assets/books/Aurefold_Tystnadens_Klocka_Swedish_Master_v1.3.md";
-      download.setAttribute("download", "");
-      download.textContent = "Ladda ner svensk text";
+      const pdf = document.createElement("a");
+      pdf.className = "btn btn-ghost book-dl";
+      pdf.id = "book-sv-download";
+      pdf.href = "/assets/aurefold-tystnadens-klocka.pdf";
+      pdf.setAttribute("download", "");
+      pdf.textContent = "Ladda ner (PDF)";
+
+      const epub = document.createElement("a");
+      epub.className = "btn btn-ghost book-dl";
+      epub.href = "/assets/aurefold-tystnadens-klocka.epub";
+      epub.setAttribute("download", "");
+      epub.textContent = "Ladda ner (EPUB)";
 
       const english = document.createElement("a");
       english.className = "btn btn-ghost book-dl";
       english.href = "/book.html#get";
       english.textContent = "Engelsk utgåva";
 
-      row.append(read, download, english);
+      row.append(read, pdf, epub, english);
     }
 
     const coming = document.querySelector(".book-coming");
