@@ -78,6 +78,28 @@ A missing face catalogue is not automatically a defect: a character may already 
 - `Aurefold_Book_Two_Local_Lore_Gate_Authority_Amendment_v1.1.docx`
 - `Aurefold_Book_Two_Scene_Ledger_Authority_Amendment_v1.1.docx`
 
+## Translated editions (derived — non-governing)
+
+Per the owner's translation policy (CLAUDE.md, 2026-08-17), translated editions
+may be published without a preceding owner revision pass. They are derived from
+the governing English Master and **create no canon**. Where a translation and the
+English Master disagree on a text-entered fact, the English Master governs.
+
+| File | SHA-256 | Status |
+|---|---|---|
+| `Aurefold_Tystnadens_Klocka_Swedish_Master_v1.4.md` | `52718148fabd1d3e45b38a0f53adbc3c0ec59a12eb8d11426e4d61b79c7eb248` | derived — Swedish Book One, from English Master v1.7 |
+
+- Swedish edition word count: 101,656 (English Master v1.7: 106,700).
+- Structure verified against the English Master: 48 governed sections, 47 chapters + one interlude.
+- Locked final line renders as **"Hon gick österut."**
+- v1.4 corrects place-name handling in v1.3: `Crown-watch` was rendered two ways
+  within the same book (6 English / 11 as "Kronvakt*"), and `Light Heights` was
+  rendered "Lumenhöjderna" against the site's own Swedish pages and the binding
+  translation brief. Both now match the English Master occurrence-for-occurrence
+  (Crown-watch 17, Light Heights 10).
+- Published formats: `assets/aurefold-tystnadens-klocka.epub` (EPUB3, cover, TOC)
+  and `assets/aurefold-tystnadens-klocka.pdf` (6x9in, 608 pp).
+
 ## Superseded / historical
 
 - Constitution v1.8.1 → superseded by v1.9.
@@ -86,6 +108,7 @@ A missing face catalogue is not automatically a defect: a character may already 
 - Book One Character & Knowledge Map v1.2 and older → superseded by v1.3.
 - Book One Master v1.6 → superseded by governing Master v1.7.
 - Master v2.0 remains stale/deviating and non-governing.
+- Swedish Master v1.3 -> superseded by v1.4 (place-name normalisation).
 - Appearance Bible v1.0 remains active as foundation; v1.1 and v1.2 are cumulative extensions rather than replacements.
 - Historical review/validation records remain provenance and are not rewritten to pretend they ran against later hashes.
 
