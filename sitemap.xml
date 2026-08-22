@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://aurefold.com/about.html</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://aurefold.com/archive.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/archive.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/archive.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/archive.html" />
@@ -11,7 +16,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/archive.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/archive.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/archive.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/archive.html" />
@@ -19,7 +24,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/banner-hall.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/banner-hall.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/banner-hall.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/banner-hall.html" />
@@ -27,7 +32,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/banner-hall.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/banner-hall.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/banner-hall.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/banner-hall.html" />
@@ -35,7 +40,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/book.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/book.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/book.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/book.html" />
@@ -43,7 +48,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/book.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/book.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/book.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/book.html" />
@@ -51,7 +56,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/characters.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/characters.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/characters.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/characters.html" />
@@ -59,7 +64,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/characters.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/characters.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/characters.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/characters.html" />
@@ -67,7 +72,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/community.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/community.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/community.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/community.html" />
@@ -75,7 +80,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/community.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/community.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/community.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/community.html" />
@@ -83,7 +88,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/history.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/history.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/history.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/history.html" />
@@ -91,7 +96,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/history.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/history.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/history.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/history.html" />
@@ -99,7 +104,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/house-ashbourne.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-ashbourne.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-ashbourne.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-ashbourne.html" />
@@ -107,7 +112,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/house-ashbourne.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-ashbourne.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-ashbourne.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-ashbourne.html" />
@@ -115,7 +120,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/house-blackcrest.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-blackcrest.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-blackcrest.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-blackcrest.html" />
@@ -123,7 +128,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/house-blackcrest.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-blackcrest.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-blackcrest.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-blackcrest.html" />
@@ -131,7 +136,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/house-blackthorn.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-blackthorn.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-blackthorn.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-blackthorn.html" />
@@ -139,7 +144,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/house-blackthorn.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-blackthorn.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-blackthorn.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-blackthorn.html" />
@@ -147,7 +152,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/house-ironvale.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-ironvale.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-ironvale.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-ironvale.html" />
@@ -155,7 +160,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/house-ironvale.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-ironvale.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-ironvale.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-ironvale.html" />
@@ -163,7 +168,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/house-phoenix.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-phoenix.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-phoenix.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-phoenix.html" />
@@ -171,7 +176,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/house-phoenix.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-phoenix.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-phoenix.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-phoenix.html" />
@@ -179,7 +184,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/house-ravenshade.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-ravenshade.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-ravenshade.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-ravenshade.html" />
@@ -187,7 +192,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/house-ravenshade.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-ravenshade.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-ravenshade.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-ravenshade.html" />
@@ -195,7 +200,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/house-stonebear.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-stonebear.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-stonebear.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-stonebear.html" />
@@ -203,7 +208,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/house-stonebear.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-stonebear.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-stonebear.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-stonebear.html" />
@@ -211,7 +216,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/house-stormrider.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-stormrider.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-stormrider.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-stormrider.html" />
@@ -219,7 +224,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/house-stormrider.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-stormrider.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-stormrider.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-stormrider.html" />
@@ -227,7 +232,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/house-tidebreaker.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-tidebreaker.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-tidebreaker.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-tidebreaker.html" />
@@ -235,7 +240,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/house-tidebreaker.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-tidebreaker.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-tidebreaker.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-tidebreaker.html" />
@@ -243,7 +248,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/house-whitehart.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-whitehart.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-whitehart.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-whitehart.html" />
@@ -251,7 +256,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/house-whitehart.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/house-whitehart.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/house-whitehart.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/house-whitehart.html" />
@@ -259,7 +264,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/houses.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/houses.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/houses.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/houses.html" />
@@ -267,7 +272,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/houses.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/houses.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/houses.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/houses.html" />
@@ -275,7 +280,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/" />
@@ -283,7 +288,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/" />
@@ -291,7 +296,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/journal.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/journal.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/journal.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/journal.html" />
@@ -299,7 +304,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/journal.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/journal.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/journal.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/journal.html" />
@@ -307,7 +312,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/map.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/map.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/map.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/map.html" />
@@ -315,7 +320,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/map.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/map.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/map.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/map.html" />
@@ -323,7 +328,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/privacy.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/privacy.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/privacy.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/privacy.html" />
@@ -331,7 +336,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/privacy.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/privacy.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/privacy.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/privacy.html" />
@@ -339,7 +344,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/quiz.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/quiz.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/quiz.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/quiz.html" />
@@ -347,7 +352,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/quiz.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/quiz.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/quiz.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/quiz.html" />
@@ -355,7 +360,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/read.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/read.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/read.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/read.html" />
@@ -363,7 +368,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/read.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/read.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/read.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/read.html" />
@@ -371,7 +376,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/scriptorium.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/scriptorium.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/scriptorium.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/scriptorium.html" />
@@ -379,7 +384,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/scriptorium.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/scriptorium.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/scriptorium.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/scriptorium.html" />
@@ -387,7 +392,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/support.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/support.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/support.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/support.html" />
@@ -395,7 +400,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/support.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/support.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/support.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/support.html" />
@@ -403,7 +408,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/vote.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/vote.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/vote.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/vote.html" />
@@ -411,7 +416,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/vote.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/vote.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/vote.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/vote.html" />
@@ -419,7 +424,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/world.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/world.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/world.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/world.html" />
@@ -427,7 +432,7 @@
   </url>
   <url>
     <loc>https://aurefold.com/sv/world.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://aurefold.com/world.html" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://aurefold.com/sv/world.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aurefold.com/world.html" />
